@@ -974,7 +974,7 @@
 		<sex>MALE</sex>
 		<acquire exp="693" sp="20" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="94.58304" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
+			<vitals hp="385.0" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
 			<speed>
 				<walk ground="15" />
 				<run ground="15" />
