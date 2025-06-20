@@ -1084,7 +1084,7 @@
 		<equipment rhand="275" /> <!-- Longbow -->
 		<acquire exp="635" sp="19" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="94.58304" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
+			<vitals hp="385" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
 			<attack physical="55.0378492" magical="18.6058" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="78.189969" magical="52.01457" />
 			<speed>
