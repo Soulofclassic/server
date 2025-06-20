@@ -363,18 +363,18 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21907" level="78" type="Monster" name="Sepulcher Royal Guard">
+	<npc id="21907" level="81" type="Monster" name="Sepulcher Royal Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
-		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="31719" hpRegen="8.5" mp="1885" mpRegen="3" />
 			<speed>
 				<walk ground="27" />
-				<run ground="200" />
+				<run ground="220" />
 			</speed>
-			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-			<defence physical="405.85106382979" magical="297.0297029703" />
+			<attack physical="2901" magical="890" critical="4" attackSpeed="253" range="40" />
+			<defence physical="543" magical="497" />
 		</stats>
 		<status attackable="false" />
 		<collision>
