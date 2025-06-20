@@ -4151,7 +4151,7 @@
 		<equipment rhand="2" /> <!-- rhand: Long Sword -->
 		<acquire exp="495" sp="14" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="75.86348" hpRegen="2.5" mp="126.555" mpRegen="1.2" />
+			<vitals hp="311" hpRegen="2.5" mp="126.555" mpRegen="1.2" />
 			<attack physical="23.20703" magical="14.40672" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="58.22456364" magical="46.86683" />
 			<speed>
