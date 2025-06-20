@@ -565,18 +565,18 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21911" level="80" type="Monster" name="Nephilim High Priest">
+	<npc id="21911" level="82" type="Monster" name="Nephilim High Priest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
-		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1418.7456" hpRegen="8.5" mp="1825.755" mpRegen="3" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="28387" hpRegen="8.5" mp="1643" mpRegen="3" />
 			<speed>
 				<walk ground="50" />
-				<run ground="180" />
+				<run ground="187" />
 			</speed>
-			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-			<defence physical="405.85106382979" magical="297.0297029703" />
+			<attack physical="2451" magical="756" critical="1" attackSpeed="253" range="40" />
+			<defence physical="498" magical="456" />
 		</stats>
 		<status attackable="false" />
 		<collision>
