@@ -311,18 +311,18 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21906" level="77" type="Monster" name="Netherworld Guide">
+	<npc id="21906" level="82" type="Monster" name="Netherworld Guide">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
-		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="33853" hpRegen="8.5" mp="1968" mpRegen="3" />
 			<speed>
 				<walk ground="80" />
-				<run ground="165" />
+				<run ground="182" />
 			</speed>
-			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-			<defence physical="405.85106382979" magical="297.0297029703" />
+			<attack physical="3145" magical="970" critical="4" attackSpeed="253" range="40" />
+			<defence physical="562" magical="514" />
 		</stats>
 		<status attackable="false" />
 		<collision>
