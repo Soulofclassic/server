@@ -10,7 +10,7 @@
 		<sex>MALE</sex>
 		<acquire exp="530" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="81.77492" hpRegen="2.5" mp="135.405" mpRegen="1.2" />
+			<vitals hp="334" hpRegen="2.5" mp="135.405" mpRegen="1.2" />
 			<attack physical="25.295666" magical="15.70333" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="60.2999" magical="48.53733" />
 			<speed>
