@@ -211,18 +211,18 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21904" level="76" type="Monster" name="Graveyard Prophet">
+	<npc id="21904" level="83" type="Monster" name="Graveyard Prophet">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1339.827876" hpRegen="8.5" mp="1679.73" mpRegen="3" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="40762" hpRegen="8.5" mp="2361" mpRegen="3" />
 			<speed>
-				<walk ground="70" />
-				<run ground="165" />
+				<walk ground="27" />
+				<run ground="160" />
 			</speed>
-			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-			<defence physical="405.85106382979" magical="297.0297029703" />
+			<attack physical="2880" magical="1004" critical="4" attackSpeed="253" range="40" />
+			<defence physical="571" magical="536" />
 		</stats>
 		<status attackable="false" />
 		<collision>
