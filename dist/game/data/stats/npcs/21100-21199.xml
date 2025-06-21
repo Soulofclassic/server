@@ -1187,7 +1187,7 @@
 		<equipment rhand="4" /> <!-- Club -->
 		<acquire exp="945" sp="28" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="149.51017" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
+			<vitals hp="608" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
 			<attack physical="47.91924" magical="32.72263" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="89.73059" magical="65.66095" />
 			<speed>
