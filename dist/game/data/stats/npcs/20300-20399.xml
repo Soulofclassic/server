@@ -3687,7 +3687,7 @@
 		<equipment rhand="68" /> <!-- rhand: Falchion -->
 		<acquire exp="672" sp="20" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="158.86995" hpRegen="3.5" mp="238.065" mpRegen="1.5" />
+			<vitals hp="646" hpRegen="3.5" mp="238.065" mpRegen="1.5" />
 			<speed>
 				<walk ground="60" />
 				<run ground="140" />
