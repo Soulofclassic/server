@@ -2421,7 +2421,7 @@
 		<sex>MALE</sex>
 		<acquire exp="406" sp="12" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="58.86809" hpRegen="2" mp="108.855" mpRegen="0.9" />
+			<vitals hp="600" hpRegen="2" mp="108.855" mpRegen="0.9" />
 			<attack physical="19.479251" magical="12.09255" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="54.23988182" magical="43.65943" />
 			<speed>
