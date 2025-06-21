@@ -1937,7 +1937,7 @@
 		<sex>MALE</sex>
 		<acquire exp="689" sp="20" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="132.02216" hpRegen="2.5" mp="199.125" mpRegen="1.2" />
+			<vitals hp="537" hpRegen="2.5" mp="199.125" mpRegen="1.2" />
 			<speed>
 				<walk ground="15" />
 				<run ground="15" />
