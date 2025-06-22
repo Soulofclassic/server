@@ -32,7 +32,36 @@ jobs:
           script: |
             # Stop service
             sudo systemctl stop l2j_runner.service || true
+
+            # Удаляем папку build
+            if [ -d "build" ]; then
+              rm -R build
+            fi
             
+
+            # идем в server и обновляем проект
+            if [ -d "server" ]; then
+              cd server
+              git pull origin main
+            else
+              git clone -b main git@github.com:Soulofclassic/server.git server
+              cd server
+            fi
+
+            # билдим проект
+            ant
+
+            # распаковываем получившийся пакет
+            cd ..
+            cd build
+            unzip L2J_Mobius_Classic_3.0_TheKamael.zip
+
+            # меняем права на все
+            cd ..
+            cdhmod -R 777 build
+
+            # стартуем сервис
+            sudo systemctl start l2j_runner.service || true
             # Update or clone repository
             #if [ -d "/path/to/server" ]; then
             #  cd /path/to/server
