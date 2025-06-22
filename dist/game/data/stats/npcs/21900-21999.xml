@@ -464,13 +464,13 @@
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="30102" hpRegen="8.5" mp="1763" mpRegen="3" />
+			<vitals hp="3175.31646" hpRegen="8.5" mp="1763" mpRegen="3" />
 			<speed>
 				<walk ground="70" />
 				<run ground="182" />
 			</speed>
-			<attack physical="2671" magical="819" critical="4" attackSpeed="253" range="40" />
-			<defence physical="520" magical="475" />
+			<attack physical="814.329268" magical="228.77095" critical="4" attackSpeed="253" range="40" />
+			<defence physical="298.850575" magical="190.12421" />
 		</stats>
 		<status attackable="false" />
 		<collision>
