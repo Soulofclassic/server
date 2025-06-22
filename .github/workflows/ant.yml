@@ -58,7 +58,7 @@ jobs:
 
             # меняем права на все
             cd ..
-            cdhmod -R 777 build/
+            chmod -R 777 build/
 
             # стартуем сервис
             sudo systemctl start l2j_runner.service || true
