@@ -34,19 +34,19 @@ jobs:
             sudo systemctl stop l2j_runner.service || true
             
             # Update or clone repository
-            if [ -d "/path/to/server" ]; then
-              cd /path/to/server
-              git pull origin main
-            else
-              git clone -b main git@github.com:Soulofclassic/server.git /path/to/server
-              cd /path/to/server
-            fi
-            
+            #if [ -d "/path/to/server" ]; then
+            #  cd /path/to/server
+            #  git pull origin main
+            #else
+            #  git clone -b main git@github.com:Soulofclassic/server.git /path/to/server
+            #  cd /path/to/server
+            #fi
+           # 
             # Build project
-            ant
+            #ant
             
             # Set permissions
-            sudo chmod -R 777 ./build
+            #sudo chmod -R 777 ./build
             
             # Start service
-            sudo systemctl start l2j_runner.service
+            #sudo systemctl start l2j_runner.service
