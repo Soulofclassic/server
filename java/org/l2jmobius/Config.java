@@ -2001,9 +2001,9 @@ public class Config
 			// --------------------------------------------------
 			final ConfigReader databaseConfig = new ConfigReader(DATABASE_CONFIG_FILE);
 			DATABASE_DRIVER = databaseConfig.getString("Driver", "com.mysql.cj.jdbc.Driver");
-			DATABASE_URL = databaseConfig.getString("URL", "jdbc:mysql://localhost/l2jmobius");
-			DATABASE_LOGIN = databaseConfig.getString("Login", "root");
-			DATABASE_PASSWORD = databaseConfig.getString("Password", "");
+			DATABASE_URL = databaseConfig.getString("URL", "jdbc:mysql://localhost/l2jls");
+			DATABASE_LOGIN = databaseConfig.getString("Login", "l2j");
+			DATABASE_PASSWORD = databaseConfig.getString("Password", "l2jserver2019");
 			DATABASE_MAX_CONNECTIONS = databaseConfig.getInt("MaximumDatabaseConnections", 10);
 			DATABASE_TEST_CONNECTIONS = databaseConfig.getBoolean("TestDatabaseConnections", false);
 			BACKUP_DATABASE = databaseConfig.getBoolean("BackupDatabase", false);
