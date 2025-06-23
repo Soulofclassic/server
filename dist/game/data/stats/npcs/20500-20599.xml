@@ -14,11 +14,11 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="3" /> <!-- Broadsword -->
-		<acquire exp="2308" sp="69" />
+		<acquire exp="1852" sp="55" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="189.16608" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
-			<attack physical="64.83203" magical="44.27187" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="101.83533" magical="74.51868" />
+			<vitals hp="487.96610251" hpRegen="3.5" mp="265.90133721" mpRegen="1.5" />
+			<attack physical="78.19945887" magical="78.97144378" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="136.95096103" magical="103.4579732" />
 			<speed>
 				<walk ground="45" />
 				<run ground="110" />
@@ -78,11 +78,11 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="7" /> <!-- Apprentice's Rod -->
-		<acquire exp="2906" sp="87" />
+		<acquire exp="2333" sp="69" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="235.102895" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
-			<attack physical="78.56365455" magical="59.01367" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="126.506578" magical="84.15638" />
+			<vitals hp="606.13455274" hpRegen="3.5" mp="460.03062201" mpRegen="1.5" />
+			<attack physical="93.42704865" magical="93.88538409" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="148.87664362" magical="111.99758842" />
 			<speed>
 				<walk ground="45" />
 				<run ground="120" />
@@ -549,7 +549,7 @@
 		<sex>MALE</sex>
 		<acquire exp="398" sp="11" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="58.86809" hpRegen="2" mp="108.855" mpRegen="0.9" />
+			<vitals hp="152.84899297" hpRegen="2" mp="108.855" mpRegen="0.9" />
 			<attack physical="19.479251" magical="12.09255" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="54.23988182" magical="43.65943" />
 			<speed>
@@ -990,7 +990,7 @@
 		<equipment rhand="946" /> <!-- rhand: Skeleton Dagger -->
 		<acquire exp="541" sp="16" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="334" hpRegen="2.5" mp="135.405" mpRegen="1.2" />
+			<vitals hp="211.68121442" hpRegen="2.5" mp="135.405" mpRegen="1.2" />
 			<attack physical="22.13370775" magical="15.70333" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="60.2999" magical="48.53733" />
 			<speed>
@@ -1046,7 +1046,7 @@
 		<equipment rhand="275" /> <!-- rhand: Long Bow -->
 		<acquire exp="589" sp="17" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="359" hpRegen="2.5" mp="144.255" mpRegen="1.2" />
+			<vitals hp="227.30335097" hpRegen="2.5" mp="144.255" mpRegen="1.2" />
 			<attack physical="50.5862742" magical="17.10092" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="75.542038" magical="50.25308" />
 			<speed>
@@ -2374,11 +2374,11 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="7" /> <!-- Apprentice's Rod -->
-		<acquire exp="3929" sp="117" />
+		<acquire exp="1722" sp="51" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="302.345525" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
-			<attack physical="110.1891091" magical="82.76936" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="146.24346" magical="97.28601" />
+			<vitals hp="706.31713746" hpRegen="4.5" mp="396.7343301" mpRegen="1.8" />
+			<attack physical="106.10803099" magical="104.67889647" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="157.37874883" magical="117.95928712" />
 			<speed>
 				<walk ground="45" />
 				<run ground="120" />

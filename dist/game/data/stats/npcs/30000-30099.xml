@@ -340,14 +340,15 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
+		<acquire exp="3444" sp="102" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2444" hpRegen="10.5" mp="1345" mpRegen="3.6" />
+			<vitals hp="706.31713746" hpRegen="10.5" mp="396.7343301" mpRegen="3.6" />
 			<speed>
 				<walk ground="45" />
 				<run ground="120" />
 			</speed>
-			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
-			<defence physical="405.85106382979" magical="297.0297029703" />
+			<attack physical="106.10803099" magical="104.67889647" critical="4" attackSpeed="253" range="40" />
+			<defence physical="157.37874883" magical="117.95928712" />
 		</stats>
 		<status attackable="false" />
 		<collision>

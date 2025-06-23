@@ -295,7 +295,7 @@
 		<sex>MALE</sex>
 		<acquire exp="708" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="441" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
+			<vitals hp="279.42672414" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
 			<attack physical="35.380356" magical="21.96382" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="69.16934545" magical="55.67663" />
 			<speed>
@@ -1325,7 +1325,7 @@
 		<sex>MALE</sex>
 		<acquire exp="397" sp="11" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="241" hpRegen="2" mp="108.855" mpRegen="0.9" />
+			<vitals hp="152.61438672" hpRegen="2" mp="108.855" mpRegen="0.9" />
 			<attack physical="17.70841" magical="12.09255" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="59.66387" magical="43.65943" />
 			<speed>
