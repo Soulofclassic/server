@@ -67,7 +67,7 @@
 		<sex>MALE</sex>
 		<acquire exp="693" sp="20" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="385" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
+			<vitals hp="243.80306591" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
 			<attack physical="24.76950909" magical="18.6058" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="78.189969" magical="52.01457" />
 			<speed>
@@ -129,7 +129,7 @@
 		<equipment rhand="14" /> <!-- rhand: Bow -->
 		<acquire exp="631" sp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="385" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
+			<vitals hp="243.80306591" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
 			<attack physical="66.59579753" magical="18.6058" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="64.61980909" magical="52.01457" />
 			<speed>
@@ -184,7 +184,7 @@
 		<sex>MALE</sex>
 		<acquire exp="663" sp="19" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="413" hpRegen="2.5" mp="162.84" mpRegen="1.2" />
+			<vitals hp="261.53419798" hpRegen="2.5" mp="162.84" mpRegen="1.2" />
 			<attack physical="32.578601" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="66.8656" magical="53.82228" />
 			<speed>
@@ -242,7 +242,7 @@
 		<equipment rhand="946" lhand="945" /> <!-- rhand: Skeleton Dagger lhand: Skeleton Buckler -->
 		<acquire exp="680" sp="20" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="413" hpRegen="2.5" mp="162.84" mpRegen="1.2" />
+			<vitals hp="261.53419798" hpRegen="2.5" mp="162.84" mpRegen="1.2" />
 			<attack physical="23.55890568" magical="20.22451" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="80.907376" magical="53.82228" shield="37" shieldRate="20" />
 			<speed>
@@ -349,7 +349,7 @@
 		<sex>MALE</sex>
 		<acquire exp="708" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="441" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
+			<vitals hp="279.26533005" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
 			<attack physical="35.380356" magical="21.96382" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="69.16934545" magical="55.67663" />
 			<speed>
@@ -408,7 +408,7 @@
 		<sex>MALE</sex>
 		<acquire exp="720" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="441" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
+			<vitals hp="279.26533005" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
 			<attack physical="32.16396" magical="21.96382" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="76.08628" magical="55.67663" />
 			<speed>
@@ -523,7 +523,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1484" sp="42" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="397" hpRegen="5" mp="166" mpRegen="1.2" />
+			<vitals hp="282.71212121" hpRegen="5" mp="166" mpRegen="1.2" />
 			<attack physical="34.8979" magical="23.83074" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="78.68469" magical="57.57804" />
 			<speed>
@@ -571,7 +571,7 @@
 		<sex>FEMALE</sex>
 		<acquire exp="1409" sp="42" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="942" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
+			<vitals hp="298.1733871" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
 			<attack physical="34.8979" magical="23.83074" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="78.68469" magical="57.57804" />
 			<speed>
@@ -677,7 +677,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1488" sp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="424" hpRegen="5" mp="174" mpRegen="1.2" />
+			<vitals hp="302.08812547" hpRegen="5" mp="174" mpRegen="1.2" />
 			<attack physical="41.612252" magical="25.83252" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="73.95264545" magical="59.52687" />
 			<speed>
@@ -722,7 +722,7 @@
 		<sex>FEMALE</sex>
 		<acquire exp="1005" sp="30" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1006" hpRegen="2.5" mp="189.39" mpRegen="1.2" />
+			<vitals hp="318.43145149" hpRegen="2.5" mp="189.39" mpRegen="1.2" />
 			<attack physical="34.39029091" magical="25.83252" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="89.482701" magical="59.52687" />
 			<speed>
@@ -786,7 +786,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1580" sp="47" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2148" hpRegen="2.5" mp="199.125" mpRegen="1.2" />
+			<vitals hp="679.91129006" hpRegen="2.5" mp="199.125" mpRegen="1.2" />
 			<attack physical="45.066065" magical="27.97662" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="76.43307273" magical="61.52345" />
 			<speed>
@@ -851,7 +851,7 @@
 		<sex>FEMALE</sex>
 		<acquire exp="1580" sp="47" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1071" hpRegen="2.5" mp="199.125" mpRegen="1.2" />
+			<vitals hp="339.00604826" hpRegen="2.5" mp="199.125" mpRegen="1.2" />
 			<attack physical="45.066065" magical="27.97662" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="76.43307273" magical="61.52345" />
 			<speed>
@@ -958,7 +958,7 @@
 		<sex>MALE</sex>
 		<acquire exp="902" sp="27" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="572" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
+			<vitals hp="362.22169793" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
 			<attack physical="48.761493" magical="30.2707" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="78.97317273" magical="63.56806" />
 			<speed>
@@ -1918,7 +1918,7 @@
 		<sex>MALE</sex>
 		<acquire exp="529" sp="15" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="334" hpRegen="2.5" mp="135.405" mpRegen="1.2" />
+			<vitals hp="211.50707536" hpRegen="2.5" mp="135.405" mpRegen="1.2" />
 			<attack physical="22.99606" magical="15.70333" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="66.32989" magical="48.53733" />
 			<speed>
