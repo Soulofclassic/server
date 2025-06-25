@@ -2125,14 +2125,14 @@
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>FEMALE</sex>
-		<acquire exp="30" sp="1" />
+		<acquire exp="44" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="41.145" hpRegen="2" mp="44.247" mpRegen="0.9" />
-			<attack physical="8.47458" magical="5.78704" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="44.44444" magical="32.52252" />
+			<vitals hp="42.26153846" hpRegen="2" mp="41.74245283" mpRegen="0.9" />
+			<attack physical="8.47458" magical="8.68056" random="30" critical="4.75" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="29.73487543" />
 			<speed>
-				<walk ground="60" />
-				<run ground="120" />
+				<walk ground="23" />
+				<run ground="110" />
 			</speed>
 			<hitTime>370</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -2212,15 +2212,15 @@
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="177" sp="6" />
+		<acquire exp="176" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="112" hpRegen="2" mp="76" mpRegen="0.9" />
+			<vitals hp="72.162" hpRegen="2" mp="64.49378313" mpRegen="0.9" />
 			<speed>
-				<walk ground="60" />
-				<run ground="120" />
+				<walk ground="24" />
+				<run ground="110" />
 			</speed>
-			<attack physical="11.24892" magical="7.68155" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="49.73343" magical="36.39277" />
+			<attack physical="11.24892" magical="7.68155" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="49.73343" magical="32.84225585" />
 			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
@@ -2334,10 +2334,10 @@
 	<npc id="21986" level="8" type="Monster" name="Mountain Fungus">
 		<race>PLANT</race>
 		<sex>MALE</sex>
-		<acquire exp="354" sp="11" />
+		<acquire exp="352" sp="10" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="131.031" hpRegen="2" mp="102.039" mpRegen="0.9" />
-			<attack physical="16.20165" magical="11.06363" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="132.93" hpRegen="2" mp="95.45583871" mpRegen="0.9" />
+			<attack physical="16.20165" magical="11.06363" random="30" critical="4.75" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="57.56203" magical="42.1214" />
 			<speed>
 				<walk ground="70" />
