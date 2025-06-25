@@ -9,6 +9,15 @@ on:
   # pull_request:
   #   branches: [ "main" ]
   workflow_dispatch:
+    inputs:
+      environment:
+        description: "Выберите окружение"
+        required: true
+        default: "staging"
+        type: choice
+        options:
+          - staging
+          - production
     branches: [ "main" ]
 
 jobs:
