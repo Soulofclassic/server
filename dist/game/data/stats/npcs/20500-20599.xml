@@ -203,14 +203,14 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="946" /> <!-- Skeleton Dagger -->
-		<acquire exp="631" sp="18" />
+		<acquire exp="631" sp="19" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="94.58304" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
-			<attack physical="26.22471775" magical="18.6058" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="64.61980909" magical="52.01457" />
+			<vitals hp="244.39241879" hpRegen="2.5" mp="145.69669355" mpRegen="1.2" />
+			<attack physical="21.51771713" magical="14.88464" random="10" critical="8" accuracy="0" attackSpeed="317" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="71.08179" magical="52.01457" />
 			<speed>
-				<walk ground="60" />
-				<run ground="140" />
+				<walk ground="66" />
+				<run ground="154" />
 			</speed>
 			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -606,7 +606,7 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="530" sp="15" />
+		<acquire exp="541" sp="16" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="81.77492" hpRegen="2.5" mp="135.405" mpRegen="1.2" />
 			<attack physical="25.295666" magical="15.70333" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -990,12 +990,12 @@
 		<equipment rhand="946" /> <!-- rhand: Skeleton Dagger -->
 		<acquire exp="541" sp="16" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="211.68121442" hpRegen="2.5" mp="135.405" mpRegen="1.2" />
-			<attack physical="22.13370775" magical="15.70333" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="60.2999" magical="48.53733" />
+			<vitals hp="211.68121442" hpRegen="2.5" mp="128.01927273" mpRegen="1.2" />
+			<attack physical="17.98363755" magical="13.08610833" random="10" critical="8" accuracy="0" attackSpeed="317" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="65.78170909" magical="48.53733" />
 			<speed>
-				<walk ground="60" />
-				<run ground="140" />
+				<walk ground="66" />
+				<run ground="154" />
 			</speed>
 			<hitTime>300</hitTime>
 		</stats>
@@ -1044,14 +1044,14 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="275" /> <!-- rhand: Long Bow -->
-		<acquire exp="589" sp="17" />
+		<acquire exp="588" sp="17" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="227.30335097" hpRegen="2.5" mp="144.255" mpRegen="1.2" />
-			<attack physical="50.5862742" magical="17.10092" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
-			<defence physical="75.542038" magical="50.25308" />
+			<vitals hp="227.30335097" hpRegen="2.5" mp="136.83617143" mpRegen="1.2" />
+			<attack physical="50.5862742" magical="20.90112444" random="10" critical="8" accuracy="0" attackSpeed="249" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<defence physical="69.24686817" magical="41.38488941" />
 			<speed>
-				<walk ground="40" />
-				<run ground="140" />
+				<walk ground="44" />
+				<run ground="154" />
 			</speed>
 			<hitTime>800</hitTime>
 		</stats>
@@ -1199,12 +1199,12 @@
 		<sex>MALE</sex>
 		<acquire exp="693" sp="20" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="94.58304" hpRegen="2.5" mp="153.105" mpRegen="1.2" />
-			<attack physical="24.76950909" magical="18.6058" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="78.189969" magical="52.01457" />
+			<vitals hp="244.39241879" hpRegen="2.5" mp="145.69669355" mpRegen="1.2" />
+			<attack physical="27.52167677" magical="22.32696" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="71.08179" magical="22.07812683" />
 			<speed>
-				<walk ground="23" />
-				<run ground="23" />
+				<walk ground="25" />
+				<run ground="25" />
 			</speed>
 			<hitTime>410</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -1498,14 +1498,14 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="217" /> <!-- Shining Knife -->
-		<acquire exp="574" sp="17" />
+		<acquire exp="452" sp="13" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="87.93267" hpRegen="2.5" mp="144.255" mpRegen="1.2" />
-			<attack physical="24.10360838" magical="17.10092" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="62.43143636" magical="50.25308" />
+			<vitals hp="228.75238065" hpRegen="2.5" mp="136.83617143" mpRegen="1.2" />
+			<attack physical="21.84389509" magical="14.47000923" random="10" critical="8" accuracy="0" attackSpeed="317" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="69.0031665" magical="50.25308" />
 			<speed>
-				<walk ground="40" />
-				<run ground="110" />
+				<walk ground="44" />
+				<run ground="121" />
 			</speed>
 			<hitTime>320</hitTime>
 			<abnormalResist physical="10" magical="10" />
