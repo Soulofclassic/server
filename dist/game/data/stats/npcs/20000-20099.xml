@@ -5646,16 +5646,16 @@
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="495" sp="14" />
+		<acquire exp="486" sp="14" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="196.94221688" hpRegen="2.5" mp="126.555" mpRegen="1.2" />
+			<vitals hp="196.94221688" hpRegen="2.5" mp="119.98071429" mpRegen="1.2" />
 			<speed>
-				<walk ground="60" />
-				<run ground="80" />
+				<walk ground="49" />
+				<run ground="121" />
 			</speed>
 			<hitTime>500</hitTime>
-			<attack physical="23.20703" magical="14.40672" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="58.22456364" magical="46.86683" />
+			<attack physical="18.98757" magical="12.966048" random="10" critical="1" accuracy="9" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="64.94278252" magical="46.86683" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
