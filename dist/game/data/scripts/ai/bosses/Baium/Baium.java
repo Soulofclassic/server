@@ -231,7 +231,7 @@ public class Baium extends AbstractNpcAI
 				{
 					zone.broadcastPacket(new Earthquake(npc.getX(), npc.getY(), npc.getZ(), 40, 10));
 					zone.broadcastPacket(new PlaySound("BS02_A"));
-					startQuestTimer("SOCIAL_ACTION", 8000, npc, player);
+					startQuestTimer("SOCIAL_ACTION", 80, npc, player);//by default: TIME = 8000
 				}
 				break;
 			}
@@ -240,7 +240,7 @@ public class Baium extends AbstractNpcAI
 				if (npc != null)
 				{
 					zone.broadcastPacket(new SocialAction(npc.getObjectId(), 3));
-					startQuestTimer("PLAYER_PORT", 6000, npc, player);
+					startQuestTimer("PLAYER_PORT", 60, npc, player);//by default: TIME = 600
 				}
 				break;
 			}
@@ -279,7 +279,7 @@ public class Baium extends AbstractNpcAI
 						break;
 					}
 				}
-				startQuestTimer("SPAWN_ARCHANGEL", 8000, npc, null);
+				startQuestTimer("SPAWN_ARCHANGEL", 80, npc, null); //by default: TIME = 8000
 				break;
 			}
 			case "SPAWN_ARCHANGEL":
@@ -290,7 +290,7 @@ public class Baium extends AbstractNpcAI
 				for (Location loc : ARCHANGEL_LOC)
 				{
 					final Npc archangel = addSpawn(ARCHANGEL, loc, false, 0, true);
-					startQuestTimer("SELECT_TARGET", 5000, archangel, null);
+					startQuestTimer("SELECT_TARGET", 50, archangel, null); //by default: TIME = 5000
 				}
 				
 				if ((player != null) && !player.isDead())
