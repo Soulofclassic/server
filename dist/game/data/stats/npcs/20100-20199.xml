@@ -2483,7 +2483,7 @@
 		<acquire exp="486" sp="14" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="198.26506118" hpRegen="2.5" mp="119.98071429" mpRegen="1.2" />
-			<attack physical="20.886327" magical="12.966048" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="20.886327" magical="12.966048" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="64.94278252" magical="46.86683" />
 			<speed>
 				<walk ground="99" />
@@ -3837,8 +3837,8 @@
 			<attack physical="18.94104709" magical="13.48300667" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="80.01948852" magical="48.440052" />
 			<speed>
-				<walk ground="30" />
-				<run ground="120" />
+				<walk ground="33" />
+				<run ground="132" />
 			</speed>
 			<hitTime>240</hitTime>
 		</stats>
