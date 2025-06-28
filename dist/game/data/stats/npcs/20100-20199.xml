@@ -3837,8 +3837,8 @@
 			<attack physical="18.94104709" magical="13.48300667" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="80.01948852" magical="48.440052" />
 			<speed>
-				<walk ground="33" />
-				<run ground="132" />
+				<walk ground="30" />
+				<run ground="120" />
 			</speed>
 			<hitTime>240</hitTime>
 		</stats>
