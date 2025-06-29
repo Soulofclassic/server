@@ -182,14 +182,14 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="663" sp="19" />
+		<acquire exp="663" sp="29" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="261.53419798" hpRegen="2.5" mp="162.84" mpRegen="1.2" />
-			<attack physical="32.578601" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="32.578601" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="66.8656" magical="53.82228" />
 			<speed>
-				<walk ground="72" />
-				<run ground="130" />
+				<walk ground="79" />
+				<run ground="143" />
 			</speed>
 			<hitTime>260</hitTime>
 		</stats>

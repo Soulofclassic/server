@@ -150,12 +150,12 @@
 		<sex>MALE</sex>
 		<acquire exp="663" sp="19" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="413" hpRegen="2.5" mp="162.84" mpRegen="1.2" />
-			<attack physical="32.578601" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="66.8656" magical="53.82228" />
+			<vitals hp="261.60889571" hpRegen="2.5" mp="153.79333333" mpRegen="1.2" />
+			<attack physical="29.61691" magical="17.69644625" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="73.23375238" magical="53.82228" />
 			<speed>
-				<walk ground="30" />
-				<run ground="120" />
+				<walk ground="33" />
+				<run ground="132" />
 			</speed>
 			<hitTime>240</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -824,12 +824,12 @@
 		<equipment rhand="157" lhand="103" /> <!-- rhand: Spiked Club lhand: Tower Shield -->
 		<acquire exp="663" sp="19" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="101.23341" hpRegen="2.5" mp="162.84" mpRegen="1.2" />
-			<attack physical="32.578601" magical="20.22451" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="66.8656" magical="53.82228" shield="37" shieldRate="20" />
+			<vitals hp="262.95219075" hpRegen="2.5" mp="153.79333333" mpRegen="1.2" />
+			<attack physical="29.61691" magical="17.69644625" random="10" critical="1" accuracy="9" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="73.23375238" magical="53.82228" shield="37" shieldRate="20" />
 			<speed>
-				<walk ground="60" />
-				<run ground="140" />
+				<walk ground="66" />
+				<run ground="154" />
 			</speed>
 			<hitTime>300</hitTime>
 		</stats>
@@ -1391,14 +1391,14 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="743" sp="22" />
+		<acquire exp="742" sp="22" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="101.23341" hpRegen="2.5" mp="162.84" mpRegen="1.2" />
-			<attack physical="26.92446364" magical="20.22451" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="80.907376" magical="53.82228" />
+			<vitals hp="262.95219075" hpRegen="2.5" mp="153.79333333" mpRegen="1.2" />
+			<attack physical="29.61691" magical="25.74028545" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="73.871952" magical="22.85603671" />
 			<speed>
-				<walk ground="23" />
-				<run ground="23" />
+				<walk ground="25" />
+				<run ground="25" />
 			</speed>
 			<hitTime>410</hitTime>
 			<abnormalResist physical="10" magical="10" />
