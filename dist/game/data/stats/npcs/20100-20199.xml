@@ -130,7 +130,7 @@
 		<acquire exp="631" sp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="243.80306591" hpRegen="2.5" mp="145.69669355" mpRegen="1.2" />
-			<attack physical="55,16015553" magical="14.88464" random="10" critical="8" accuracy="0" attackSpeed="249" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<attack physical="55.16015553" magical="14.88464" random="10" critical="8" accuracy="0" attackSpeed="249" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="71.08179" magical="52.01457" />
 			<speed>
 				<walk ground="44" />
