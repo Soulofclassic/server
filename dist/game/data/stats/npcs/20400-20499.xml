@@ -214,14 +214,14 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="708" sp="21" />
+		<acquire exp="722" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="441" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
-			<attack physical="35.380356" magical="21.96382" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="69.16934545" magical="55.67663" />
+			<vitals hp="279.42672414" hpRegen="2.5" mp="161.77204327" mpRegen="1.2" />
+			<attack physical="31.77011559" magical="18.30318333" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="75.45746776" magical="55.67663" />
 			<speed>
-				<walk ground="72" />
-				<run ground="130" />
+				<walk ground="79" />
+				<run ground="143" />
 			</speed>
 			<hitTime>260</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -273,14 +273,14 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="723" sp="21" />
+		<acquire exp="708" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="279.26533005" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
-			<attack physical="35.380356" magical="21.96382" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="69.16934545" magical="55.67663" />
+			<vitals hp="279.26533005" hpRegen="2.5" mp="161.77204327" mpRegen="1.2" />
+			<attack physical="29.37237102" magical="18.30318333" random="10" critical="1" accuracy="9" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="75.45746776" magical="55.67663" />
 			<speed>
-				<walk ground="100" />
-				<run ground="100" />
+				<walk ground="110" />
+				<run ground="110" />
 			</speed>
 			<hitTime>370</hitTime>
 		</stats>
@@ -664,16 +664,16 @@
 		</parameters>
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
-		<acquire exp="502" sp="15" />
+		<acquire exp="752" sp="22" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="298.89622626" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
 			<speed>
-				<walk ground="64" />
-				<run ground="96" />
+				<walk ground="70" />
+				<run ground="105" />
 			</speed>
 			<hitTime>200</hitTime>
-			<attack physical="38.38769" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="71.53153636" magical="57.57804" />
+			<attack physical="38.38769" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.89507687" magical="57.57804" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -1022,14 +1022,14 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="2" lhand="18" /> <!-- Long Sword / Leather Shield -->
-		<acquire exp="767" sp="23" />
+		<acquire exp="766" sp="23" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="447" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
-			<attack physical="38.38769" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="71.53153636" magical="57.57804" shield="39" shieldRate="20" />
+			<vitals hp="283.01558074" hpRegen="2.5" mp="307.02692308" mpRegen="1.2" />
+			<attack physical="31.23066305" magical="20.256129" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.89507687" magical="57.57804" shield="39" shieldRate="20" />
 			<speed>
-				<walk ground="60" />
-				<run ground="140" />
+				<walk ground="66" />
+				<run ground="154" />
 			</speed>
 			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -2586,14 +2586,14 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="219" sp="6" />
+		<acquire exp="770" sp="23" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="115.7657" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
-			<attack physical="42.226459" magical="23.83074" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="65.02866942" magical="57.57804" />
+			<vitals hp="568.6512956" hpRegen="2.5" mp="307.02692308" mpRegen="1.2" />
+			<attack physical="23.78955437" magical="16.8801075" random="10" critical="1" accuracy="9" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="103.8177003" magical="63.24145377" />
 			<speed>
-				<walk ground="90" />
-				<run ground="90" />
+				<walk ground="44" />
+				<run ground="121" />
 			</speed>
 			<hitTime>300</hitTime>
 		</stats>
@@ -3024,14 +3024,14 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="767" sp="23" />
+		<acquire exp="766" sp="23" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="298.89622626" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
-			<attack physical="38.38769" magical="23.83074" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="71.53153636" magical="57.57804" />
+			<vitals hp="298.89622626" hpRegen="2.5" mp="170.75294118" mpRegen="1.2" />
+			<attack physical="31.23066305" magical="20.256129" random="10" critical="1" accuracy="9" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="78.89507687" magical="57.57804" />
 			<speed>
-				<walk ground="72" />
-				<run ground="130" />
+				<walk ground="79" />
+				<run ground="143" />
 			</speed>
 			<hitTime>260</hitTime>
 		</stats>
@@ -3240,12 +3240,12 @@
 		<sex>MALE</sex>
 		<acquire exp="752" sp="22" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="298.89622626" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
-			<attack physical="38.38769" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="71.53153636" magical="57.57804" />
+			<vitals hp="298.89622626" hpRegen="2.5" mp="170.75294118" mpRegen="1.2" />
+			<attack physical="34.76620981" magical="20.256129" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.89507687" magical="57.57804" />
 			<speed>
-				<walk ground="72" />
-				<run ground="130" />
+				<walk ground="79" />
+				<run ground="143" />
 			</speed>
 			<hitTime>260</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -3724,11 +3724,11 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="708" sp="21" />
+		<acquire exp="722" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="108.13009" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
-			<attack physical="35.380356" magical="21.96382" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="69.16934545" magical="55.67663" />
+			<vitals hp="280.50217465" hpRegen="2.5" mp="161.77204327" mpRegen="1.2" />
+			<attack physical="31.77011559" magical="18.30318333" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="75.45746776" magical="55.67663" />
 			<speed>
 				<walk ground="72" />
 				<run ground="130" />
@@ -3832,12 +3832,12 @@
 		<sex>MALE</sex>
 		<acquire exp="752" sp="22" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="298.89622626" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
-			<attack physical="38.38769" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="71.53153636" magical="57.57804" />
+			<vitals hp="298.89622626" hpRegen="2.5" mp="170.75294118" mpRegen="1.2" />
+			<attack physical="34.76620981" magical="20.256129" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.89507687" magical="57.57804" />
 			<speed>
-				<walk ground="72" />
-				<run ground="130" />
+				<walk ground="79" />
+				<run ground="143" />
 			</speed>
 			<hitTime>260</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -4047,14 +4047,14 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="771" sp="23" />
+		<acquire exp="770" sp="23" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="447" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
-			<attack physical="31.72536364" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="86.553159" magical="57.57804" />
+			<vitals hp="283.01558074" hpRegen="2.5" mp="170.75294118" mpRegen="1.2" />
+			<attack physical="31.72536364" magical="28.93732714" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.76337469" magical="47.62628" />
 			<speed>
-				<walk ground="80" />
-				<run ground="140" />
+				<walk ground="88" />
+				<run ground="154" />
 			</speed>
 			<hitTime>100</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -4109,16 +4109,16 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="216" /> <!-- rhand: Dirk -->
-		<acquire exp="467" sp="14" />
+		<acquire exp="722" sp="21" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="279.26533005" hpRegen="2.5" mp="170.805" mpRegen="1.2" />
+			<vitals hp="279.26533005" hpRegen="2.5" mp="161.77204327" mpRegen="1.2" />
 			<speed>
-				<walk ground="80" />
-				<run ground="120" />
+				<walk ground="88" />
+				<run ground="132" />
 			</speed>
 			<hitTime>610</hitTime>
-			<attack physical="25.58496818" magical="21.96382" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="83.694908" magical="55.67663" />
+			<attack physical="34.407371" magical="27.454775" random="10" critical="8" accuracy="0" attackSpeed="317" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="62.771181" magical="45.68338872" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -4167,16 +4167,16 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="3" /> <!-- rhand: Broadsword -->
-		<acquire exp="496" sp="14" />
+		<acquire exp="752" sp="22" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="298.89622626" hpRegen="2.5" mp="181.425" mpRegen="1.2" />
+			<vitals hp="298.89622626" hpRegen="2.5" mp="170.75294118" mpRegen="1.2" />
 			<speed>
-				<walk ground="80" />
-				<run ground="120" />
+				<walk ground="88" />
+				<run ground="132" />
 			</speed>
 			<hitTime>610</hitTime>
-			<attack physical="31.72536364" magical="23.83074" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="86.553159" magical="57.57804" />
+			<attack physical="35.25040404" magical="28.93732714" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.76337469" magical="47.62628" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
