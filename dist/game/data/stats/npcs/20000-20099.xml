@@ -5772,7 +5772,6 @@
 			<hitTime>300</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<status undying="false" canBeSown="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
