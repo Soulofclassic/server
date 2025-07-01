@@ -2128,7 +2128,7 @@
 		<acquire exp="44" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="42.26153846" hpRegen="2" mp="41.74245283" mpRegen="0.9" />
-			<attack physical="8.47458" magical="8.68056" random="30" critical="4.75" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="8.47458" magical="8.68056" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="44.44444" magical="29.73487543" />
 			<speed>
 				<walk ground="23" />
@@ -2219,7 +2219,7 @@
 				<walk ground="24" />
 				<run ground="110" />
 			</speed>
-			<attack physical="11.24892" magical="7.68155" random="30" critical="4" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="11.24892" magical="7.68155" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="49.73343" magical="32.84225585" />
 			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -2337,7 +2337,7 @@
 		<acquire exp="352" sp="10" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="132.93" hpRegen="2" mp="95.45583871" mpRegen="0.9" />
-			<attack physical="16.20165" magical="11.06363" random="30" critical="4.75" accuracy="4.75" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="16.20165" magical="11.06363" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="57.56203" magical="42.1214" />
 			<speed>
 				<walk ground="70" />
