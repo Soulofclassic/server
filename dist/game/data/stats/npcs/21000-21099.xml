@@ -4826,14 +4826,14 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="216" /> <!-- Dirk -->
-		<acquire exp="842" sp="25" />
+		<acquire exp="884" sp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="340.84567269" hpRegen="2.5" mp="199.125" mpRegen="1.2" />
+			<vitals hp="362.38610554" hpRegen="2.5" mp="199.125" mpRegen="1.2" />
 			<attack physical="45.066065" magical="27.97662" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="84.21792273" magical="61.52345" evasion="10" />
+			<defence physical="125.12377091" magical="64.05181096" evasion="10" />
 			<speed>
 				<walk ground="88" />
-				<run ground="165" />
+				<run ground="170" />
 			</speed>
 			<hitTime>610</hitTime>
 			<abnormalResist physical="10" magical="10" />

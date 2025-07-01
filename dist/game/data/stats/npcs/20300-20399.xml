@@ -2461,12 +2461,12 @@
 		<sex>MALE</sex>
 		<acquire exp="902" sp="27" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140.3967" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
+			<vitals hp="363.37969412" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
 			<attack physical="48.761493" magical="30.2707" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="78.97317273" magical="63.56806" />
+			<defence physical="87.07298532" magical="63.56806" />
 			<speed>
-				<walk ground="80" />
-				<run ground="80" />
+				<walk ground="88" />
+				<run ground="88" />
 			</speed>
 			<hitTime>350</hitTime>
 			<abnormalResist physical="10" magical="10" />

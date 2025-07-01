@@ -268,12 +268,12 @@
 		<sex>MALE</sex>
 		<acquire exp="884" sp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140.3967" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
+			<vitals hp="363.37969412" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
 			<attack physical="48.761493" magical="30.2707" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="78.97317273" magical="63.56806" />
+			<defence physical="87.07298532" magical="63.56806" />
 			<speed>
-				<walk ground="60" />
-				<run ground="80" />
+				<walk ground="66" />
+				<run ground="88" />
 			</speed>
 			<hitTime>500</hitTime>
 		</stats>
@@ -2216,16 +2216,16 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="546" sp="17" /> <!-- Need Confirm Retail Value -->
+		<acquire exp="882" sp="26" /> <!-- Need Confirm Retail Value -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="481" hpRegen="2.5" mp="192" mpRegen="1.2" />
+			<vitals hp="362.49275362" hpRegen="2.5" mp="192" mpRegen="1.2" />
 			<speed>
-				<walk ground="80" />
-				<run ground="140" />
+				<walk ground="88" />
+				<run ground="154" />
 			</speed>
 			<hitTime>390</hitTime>
 			<attack physical="48.761493" magical="30.2707" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="78.97317273" magical="63.56806" />
+			<defence physical="87.07298532" magical="63.56806" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>

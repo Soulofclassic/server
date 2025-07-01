@@ -183,8 +183,8 @@
 		<sex>MALE</sex>
 		<acquire exp="877" sp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140.3967" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
-			<attack physical="40.29875455" magical="30.2707" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="363.37969412" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
+			<attack physical="44.5858561" magical="30.2707" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="95.557539" magical="63.56806" />
 			<speed>
 				<walk ground="40" />
@@ -5166,8 +5166,8 @@
 		<equipment rhand="7" /> <!-- Apprentice's Rod -->
 		<acquire exp="877" sp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="140.3967" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
-			<attack physical="40.29875455" magical="30.2707" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<vitals hp="363.37969412" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
+			<attack physical="44.5858561" magical="36.64347895" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="95.557539" magical="63.56806" />
 			<speed>
 				<walk ground="45" />

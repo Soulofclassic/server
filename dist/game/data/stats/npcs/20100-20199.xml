@@ -960,10 +960,10 @@
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="362.22169793" hpRegen="2.5" mp="209.745" mpRegen="1.2" />
 			<attack physical="48.761493" magical="30.2707" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="78.97317273" magical="63.56806" />
+			<defence physical="87.07298532" magical="63.56806" />
 			<speed>
-				<walk ground="80" />
-				<run ground="80" />
+				<walk ground="88" />
+				<run ground="88" />
 			</speed>
 			<hitTime>350</hitTime>
 		</stats>
@@ -2549,9 +2549,9 @@
 		</parameters>
 		<race>PLANT</race>
 		<sex>FEMALE</sex>
-		<acquire exp="945" sp="28" />
+		<acquire exp="884" sp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="149.51017" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
+			<vitals hp="362.37210695" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
 			<speed>
 				<walk ground="80" />
 				<run ground="80" />
