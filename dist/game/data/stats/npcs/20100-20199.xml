@@ -1029,12 +1029,12 @@
 		<sex>MALE</sex>
 		<acquire exp="968" sp="29" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="149.51017" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
+			<vitals hp="385.17874305" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
 			<attack physical="52.711164" magical="32.72263" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="81.57326364" magical="65.66095" />
+			<defence physical="89.62988227" magical="65.66095" />
 			<speed>
-				<walk ground="80" />
-				<run ground="80" />
+				<walk ground="88" />
+				<run ground="88" />
 			</speed>
 			<hitTime>350</hitTime>
 		</stats>
@@ -2160,7 +2160,7 @@
 		<equipment rhand="4" /> <!-- Club -->
 		<acquire exp="945" sp="28" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="149.51017" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
+			<vitals hp="385.17874305" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
 			<attack physical="47.91924" magical="32.72263" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="89.73059" magical="65.66095" />
 			<speed>
@@ -2549,9 +2549,9 @@
 		</parameters>
 		<race>PLANT</race>
 		<sex>FEMALE</sex>
-		<acquire exp="884" sp="26" />
+		<acquire exp="945" sp="28" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="362.37210695" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
+			<vitals hp="385.17874305" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
 			<speed>
 				<walk ground="80" />
 				<run ground="80" />
@@ -2610,14 +2610,14 @@
 		<sex>FEMALE</sex>
 		<acquire exp="1090" sp="32" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="168.47604" hpRegen="3.5" mp="252.225" mpRegen="1.5" />
+			<vitals hp="434.49084" hpRegen="3.5" mp="252.225" mpRegen="1.5" />
 			<speed>
 				<walk ground="80" />
 				<run ground="120" />
 			</speed>
 			<hitTime>200</hitTime>
 			<attack physical="61.425375" magical="38.13234" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="86.95432727" magical="69.99234" />
+			<defence physical="95.84738347" magical="69.99234" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>

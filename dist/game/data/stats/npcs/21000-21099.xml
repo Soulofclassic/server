@@ -4952,10 +4952,10 @@
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="385.01886773" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
 			<attack physical="41.929335" magical="32.72263" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="76.2710015" magical="65.66095" evasion="10" />
+			<defence physical="89.16187499" magical="65.66095" evasion="10" />
 			<speed>
-				<walk ground="90" />
-				<run ground="90" />
+				<walk ground="99" />
+				<run ground="99" />
 			</speed>
 			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -5007,12 +5007,12 @@
 		<sex>MALE</sex>
 		<acquire exp="1016" sp="30" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="158.86995" hpRegen="3.5" mp="238.065" mpRegen="1.5" />
+			<vitals hp="408.88441315" hpRegen="3.5" mp="238.065" mpRegen="1.5" />
 			<attack physical="51.75278" magical="35.34044" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="78.758399" magical="67.80232" evasion="10" />
+			<defence physical="92.59433396" magical="67.80232" evasion="10" />
 			<speed>
-				<walk ground="30" />
-				<run ground="140" />
+				<walk ground="33" />
+				<run ground="154" />
 			</speed>
 			<hitTime>240</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -5069,10 +5069,10 @@
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="434.41273563" hpRegen="3.5" mp="252.225" mpRegen="1.5" />
 			<attack physical="55.84125" magical="38.13234" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="95.64976" magical="69.99234" />
+			<defence physical="104.58898991" magical="69.99234" />
 			<speed>
 				<walk ground="60" />
-				<run ground="130" />
+				<run ground="143" />
 			</speed>
 			<hitTime>650</hitTime>
 			<abnormalResist physical="10" magical="10" />

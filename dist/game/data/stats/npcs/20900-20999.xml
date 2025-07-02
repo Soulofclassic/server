@@ -82,7 +82,7 @@
 		<acquire exp="712" sp="34" /> <!-- Need confirm retail values -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="544" hpRegen="1.75" mp="218" mpRegen="1.5" />
-			<attack physical="114.9946772" magical="35.34044" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<attack physical="51.74760474" magical="35.34044" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="92.65694" magical="67.80232" />
 			<speed>
 				<walk ground="43" />

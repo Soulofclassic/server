@@ -419,12 +419,12 @@
 		<sex>MALE</sex>
 		<acquire exp="949" sp="28" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="149.51017" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
+			<vitals hp="385.17874305" hpRegen="3.5" mp="223.905" mpRegen="1.5" />
 			<attack physical="52.711164" magical="32.72263" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="81.57326364" magical="65.66095" />
+			<defence physical="89.62988227" magical="65.66095" />
 			<speed>
-				<walk ground="60" />
-				<run ground="80" />
+				<walk ground="66" />
+				<run ground="88" />
 			</speed>
 			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -2444,8 +2444,8 @@
 		<equipment rhand="2" /> <!-- Long Sword -->
 		<acquire exp="1082" sp="32" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="168.47604" hpRegen="3.5" mp="252.225" mpRegen="1.5" />
-			<attack physical="50.76477273" magical="38.13234" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="434.49084" hpRegen="3.5" mp="252.225" mpRegen="1.5" />
+			<attack physical="55.67749267" magical="47.2841016" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="105.214736" magical="69.99234" shield="48" shieldRate="20" />
 			<speed>
 				<walk ground="50" />
@@ -2505,7 +2505,7 @@
 		<equipment rhand="2" /> <!-- Long Sword -->
 		<acquire exp="1087" sp="32" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="168.47604" hpRegen="3.5" mp="252.225" mpRegen="1.5" />
+			<vitals hp="434.49084" hpRegen="3.5" mp="252.225" mpRegen="1.5" />
 			<attack physical="55.84125" magical="38.13234" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="95.64976" magical="69.99234" />
 			<speed>
