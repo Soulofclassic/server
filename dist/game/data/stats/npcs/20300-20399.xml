@@ -2706,12 +2706,12 @@
 		<equipment rhand="16" /> <!-- Great Spear -->
 		<acquire exp="1222" sp="36" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="189.16608" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
-			<attack physical="58.93820909" magical="44.27187" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="488.15005208" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
+			<attack physical="64.58981818" magical="54.601973" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="112.018863" magical="74.51868" />
 			<speed>
-				<walk ground="52" />
-				<run ground="130" />
+				<walk ground="57" />
+				<run ground="143" />
 			</speed>
 			<hitTime>590</hitTime>
 			<abnormalResist physical="10" magical="10" />

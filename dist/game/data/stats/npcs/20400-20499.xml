@@ -147,12 +147,12 @@
 		<equipment rhand="88" /> <!-- Morning Star -->
 		<acquire exp="1161" sp="34" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="178.57475" hpRegen="3.5" mp="267.27" mpRegen="1.5" />
+			<vitals hp="461.00148227" hpRegen="3.5" mp="267.27" mpRegen="1.5" />
 			<attack physical="66.216557" magical="41.10666" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="89.73562727" magical="72.2311" />
+			<defence physical="98.51411255" magical="72.2311" />
 			<speed>
-				<walk ground="55" />
-				<run ground="130" />
+				<walk ground="60" />
+				<run ground="143" />
 			</speed>
 			<hitTime>280</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -1841,7 +1841,7 @@
 		<equipment rhand="67" lhand="102" /> <!-- Orcish Sword / Round Shield -->
 		<acquire exp="2925" sp="88" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="256.998" hpRegen="3.5" mp="303.408" mpRegen="1.5" />
+			<vitals hp="1030.2075" hpRegen="3.5" mp="303.408" mpRegen="1.5" />
 			<attack physical="69.75926" magical="47.63653" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="105.02818" magical="76.85506" shield="53" shieldRate="20" />
 			<speed>
@@ -1903,8 +1903,8 @@
 		<equipment rhand="66" /> <!-- Gladius -->
 		<acquire exp="2578" sp="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="229.4625" hpRegen="3.5" mp="272.706" mpRegen="1.5" />
-			<attack physical="60.19687" magical="41.10666" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="919.749" hpRegen="3.5" mp="272.706" mpRegen="1.5" />
+			<attack physical="60.19687" magical="49.91523" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="98.70919" magical="72.2311" />
 			<speed>
 				<walk ground="50" />
@@ -4467,8 +4467,8 @@
 			<attack physical="72.96083595" magical="75.0196545" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="133.62805365" magical="101.12354" />
 			<speed>
-				<walk ground="24" />
-				<run ground="110" />
+				<walk ground="26" />
+				<run ground="121" />
 			</speed>
 			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -4787,10 +4787,10 @@
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="515.31451593" hpRegen="3.5" mp="297.36" mpRegen="1.5" />
 			<attack physical="78.39612076" magical="79.79118775" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="138.28710367" magical="103.43110879" />
+			<defence physical="104.36762541" magical="69.90516318" />
 			<speed>
-				<walk ground="45" />
-				<run ground="110" />
+				<walk ground="49" />
+				<run ground="121" />
 			</speed>
 			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />

@@ -299,9 +299,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1161" sp="34" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="178.57475" hpRegen="3.5" mp="267.27" mpRegen="1.5" />
+			<vitals hp="461.00148227" hpRegen="3.5" mp="267.27" mpRegen="1.5" />
 			<attack physical="66.216557" magical="41.10666" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="89.73562727" magical="72.2311" />
+			<defence physical="98.51411255" magical="72.2311" />
 			<speed>
 				<walk ground="24" />
 				<run ground="110" />
@@ -359,9 +359,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1232" sp="36" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="189.16608" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
+			<vitals hp="488.15005208" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
 			<attack physical="71.315233" magical="44.27187" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="92.57757273" magical="74.51868" />
+			<defence physical="101.25672017" magical="74.51868" />
 			<speed>
 				<walk ground="50" />
 				<run ground="120" />
@@ -416,8 +416,8 @@
 		<equipment rhand="2" lhand="19" /> <!-- Long Sword / Small Shield -->
 		<acquire exp="2426" sp="72" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="200.00372" hpRegen="3.5" mp="297.36" mpRegen="1.5" />
-			<attack physical="63.41750909" magical="47.63653" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="514.88299437" hpRegen="3.5" mp="297.36" mpRegen="1.5" />
+			<attack physical="69.83953533" magical="59.1847797" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="115.530998" magical="76.85506" shield="53" shieldRate="20" />
 			<speed>
 				<walk ground="50" />
@@ -1636,7 +1636,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1228" sp="36" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="189.16608" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
+			<vitals hp="462.75863195" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
 			<attack physical="64.83203" magical="44.27187" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="101.83533" magical="74.51868" />
 			<speed>
@@ -1699,8 +1699,8 @@
 		<sex>MALE</sex>
 		<acquire exp="1301" sp="39" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="200.00372" hpRegen="3.5" mp="297.36" mpRegen="1.5" />
-			<attack physical="63.41750909" magical="47.63653" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="487.98375987" hpRegen="3.5" mp="297.36" mpRegen="1.5" />
+			<attack physical="69.83953533" magical="59.1847797" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="115.530998" magical="76.85506" />
 			<speed>
 				<walk ground="40" />
@@ -3816,8 +3816,8 @@
 		<sex>MALE</sex>
 		<acquire exp="1222" sp="36" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="189.16608" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
-			<attack physical="58.93820909" magical="44.27187" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="488.15005208" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
+			<attack physical="64.58981818" magical="54.601973" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="112.018863" magical="74.51868" />
 			<speed>
 				<walk ground="90" />

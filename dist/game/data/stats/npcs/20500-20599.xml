@@ -18,10 +18,10 @@
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="487.96610251" hpRegen="3.5" mp="265.90133721" mpRegen="1.5" />
 			<attack physical="78.19945887" magical="78.97144378" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="136.95096103" magical="103.4579732" />
+			<defence physical="101.83533" magical="68.00733903" />
 			<speed>
-				<walk ground="45" />
-				<run ground="110" />
+				<walk ground="49" />
+				<run ground="121" />
 			</speed>
 			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />

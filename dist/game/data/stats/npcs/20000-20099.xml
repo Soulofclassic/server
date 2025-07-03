@@ -3545,7 +3545,7 @@
 		<equipment rhand="14" /> <!-- Bow -->
 		<acquire exp="1390" sp="42" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="458.925" hpRegen="3.5" mp="272.706" mpRegen="1.5" />
+			<vitals hp="460.824" hpRegen="3.5" mp="272.706" mpRegen="1.5" />
 			<attack physical="60.19687" magical="41.10666" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="98.70919" magical="72.2311" />
 			<speed>
@@ -3604,10 +3604,10 @@
 		<equipment rhand="88" /> <!-- rhand: Morning Star -->
 		<acquire exp="1161" sp="34" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="178.57475" hpRegen="3.5" mp="267.27" mpRegen="1.5" />
+			<vitals hp="461.00148227" hpRegen="3.5" mp="267.27" mpRegen="1.5" />
 			<speed>
-				<walk ground="55" />
-				<run ground="130" />
+				<walk ground="60" />
+				<run ground="143" />
 			</speed>
 			<hitTime>280</hitTime>
 			<attack physical="66.216557" magical="41.10666" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -3794,7 +3794,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1522" sp="45" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="600.24676086957" hpRegen="3.5" mp="282.315" mpRegen="1.5" />
+			<vitals hp="600.24676086957" hpRegen="3.5" mp="398.03132267" mpRegen="1.5" />
 			<attack physical="58.93820909" magical="44.27187" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="112.018863" magical="74.51868" />
 			<speed>
@@ -3863,8 +3863,8 @@
 		<sex>MALE</sex>
 		<acquire exp="1621" sp="48" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="292.12366" hpRegen="3.5" mp="297.36" mpRegen="1.5" />
-			<attack physical="63.41750909" magical="47.63653" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="515.81054065" hpRegen="3.5" mp="297.36" mpRegen="1.5" />
+			<attack physical="70.3673731" magical="59.1847797" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="115.530998" magical="76.85506" />
 			<speed>
 				<walk ground="90" />
@@ -3933,9 +3933,9 @@
 		<equipment rhand="16" /> <!-- rhand: Great Spear -->
 		<acquire exp="1056" sp="53" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="685" hpRegen="3.5" mp="273" mpRegen="1.5" />
+			<vitals hp="488.10998152" hpRegen="3.5" mp="273" mpRegen="1.5" />
 			<speed>
-				<walk ground="43" />
+				<walk ground="52" />
 				<run ground="130" />
 			</speed>
 			<hitTime>480</hitTime>
