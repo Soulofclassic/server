@@ -4597,11 +4597,11 @@
 		<acquire exp="2077" sp="62" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="544.96918381" hpRegen="3.5" mp="427.93010526" mpRegen="1.5" />
-			<attack physical="82.33505507" magical="83.79700364" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<attack physical="150.94760096" magical="83.79700364" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="142.07342304" magical="106.12529464" />
 			<speed>
-				<walk ground="45" />
-				<run ground="110" />
+				<walk ground="49" />
+				<run ground="121" />
 			</speed>
 			<hitTime>800</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -4661,8 +4661,8 @@
 			<attack physical="88.29312727" magical="89.372985" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="144.53265144" magical="109.11142617" />
 			<speed>
-				<walk ground="45" />
-				<run ground="110" />
+				<walk ground="49" />
+				<run ground="121" />
 			</speed>
 			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -4726,8 +4726,8 @@
 			<attack physical="82.65049842" magical="83.04207568" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="141.99310371" magical="106.2978561" />
 			<speed>
-				<walk ground="45" />
-				<run ground="110" />
+				<walk ground="49" />
+				<run ground="121" />
 			</speed>
 			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />

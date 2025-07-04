@@ -2917,14 +2917,14 @@
 		<sex>MALE</sex>
 		<acquire exp="1463" sp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="222.91055" hpRegen="3.5" mp="327.45" mpRegen="1.5" />
+			<vitals hp="574.37462741" hpRegen="3.5" mp="327.45" mpRegen="1.5" />
 			<speed>
 				<walk ground="50" />
 				<run ground="90" />
 			</speed>
 			<hitTime>370</hitTime>
 			<attack physical="88.594616" magical="54.99876" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="101.4669818" magical="81.67405" />
+			<defence physical="110.86207271" magical="81.67405" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -4202,10 +4202,10 @@
 		<sex>FEMALE</sex>
 		<acquire exp="1377" sp="41" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="211.33398" hpRegen="3.5" mp="311.52" mpRegen="1.5" />
+			<vitals hp="545.15281928" hpRegen="3.5" mp="311.52" mpRegen="1.5" />
 			<speed>
-				<walk ground="60" />
-				<run ground="60" />
+				<walk ground="66" />
+				<run ground="66" />
 			</speed>
 			<hitTime>560</hitTime>
 			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />

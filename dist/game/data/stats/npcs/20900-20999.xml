@@ -293,8 +293,8 @@
 			<attack physical="80.54056" magical="54.99876" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="111.61368" magical="81.67405" />
 			<speed>
-				<walk ground="43" />
-				<run ground="120" />
+				<walk ground="47" />
+				<run ground="132" />
 			</speed>
 			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -575,7 +575,7 @@
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="724" hpRegen="1.75" mp="286" mpRegen="1.5" />
 			<attack physical="74.99121" magical="51.20928" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="92.0445195" magical="79.24022" evasion="10" />
+			<defence physical="108.40798963" magical="79.24022" evasion="10" />
 			<speed>
 				<walk ground="72" />
 				<run ground="130" />

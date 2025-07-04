@@ -1661,11 +1661,11 @@
 		<acquire exp="1371" sp="41" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="545.15281928" hpRegen="3.5" mp="294.30442105" mpRegen="1.5" />
-			<attack physical="45.18497854" magical="45.67314162" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<attack physical="74.51557864" magical="62.28155675" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="109.65023009" magical="81.81713772" />
 			<speed>
-				<walk ground="60" />
-				<run ground="150" />
+				<walk ground="66" />
+				<run ground="165" />
 			</speed>
 			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -1727,11 +1727,11 @@
 		<acquire exp="1451" sp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="574.37462741" hpRegen="3.5" mp="309.39511278" mpRegen="1.5" />
-			<attack physical="48.81246061" magical="49.498884" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<attack physical="80.30437068" magical="67.373481" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="111.89624628" magical="84.22636406" />
 			<speed>
-				<walk ground="60" />
-				<run ground="150" />
+				<walk ground="66" />
+				<run ground="165" />
 			</speed>
 			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />

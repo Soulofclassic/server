@@ -386,14 +386,14 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="2602" sp="78" />
+		<acquire exp="2088" sp="62" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="211.33398" hpRegen="3.5" mp="311.52" mpRegen="1.5" />
-			<attack physical="68.17382727" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="544.65234126" hpRegen="3.5" mp="311.52" mpRegen="1.5" />
+			<attack physical="68.17382727" magical="62.28155676" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="119.116437" magical="79.24022" />
 			<speed>
-				<walk ground="47" />
-				<run ground="110" />
+				<walk ground="51" />
+				<run ground="121" />
 			</speed>
 			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -448,14 +448,14 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="2746" sp="82" />
+		<acquire exp="2202" sp="66" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="223.033705" hpRegen="3.5" mp="327.45" mpRegen="1.5" />
+			<vitals hp="574.69196146" hpRegen="3.5" mp="327.45" mpRegen="1.5" />
 			<attack physical="88.594616" magical="54.99876" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="101.4669818" magical="81.67405" />
+			<defence physical="110.86207271" magical="81.67405" />
 			<speed>
-				<walk ground="47" />
-				<run ground="110" />
+				<walk ground="51" />
+				<run ground="121" />
 			</speed>
 			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -865,14 +865,14 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="291" /> <!-- Trident -->
-		<acquire exp="2590" sp="77" />
+		<acquire exp="2088" sp="62" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="211.33398" hpRegen="3.5" mp="311.52" mpRegen="1.5" />
+			<vitals hp="544.65234126" hpRegen="3.5" mp="311.52" mpRegen="1.5" />
 			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="108.28767" magical="79.24022" />
 			<speed>
-				<walk ground="43" />
-				<run ground="130" />
+				<walk ground="47" />
+				<run ground="143" />
 			</speed>
 			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -927,14 +927,14 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="2507" /> <!-- Lizardspear -->
-		<acquire exp="2754" sp="82" />
+		<acquire exp="2210" sp="66" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="223.033705" hpRegen="3.5" mp="327.45" mpRegen="1.5" />
+			<vitals hp="574.69196146" hpRegen="3.5" mp="327.45" mpRegen="1.5" />
 			<attack physical="162.6919312" magical="54.99876" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="122.775048" magical="81.67405" />
 			<speed>
-				<walk ground="43" />
-				<run ground="130" />
+				<walk ground="47" />
+				<run ground="143" />
 			</speed>
 			<hitTime>720</hitTime>
 			<abnormalResist physical="10" magical="10" />

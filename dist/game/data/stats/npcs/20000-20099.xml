@@ -3979,9 +3979,9 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="1708" sp="51" />
+		<acquire exp="1382" sp="41" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="670.92702173913" hpRegen="3.5" mp="311.52" mpRegen="1.5" />
+			<vitals hp="353.0281808" hpRegen="3.5" mp="413.17389474" mpRegen="1.5" />
 			<attack physical="82.490331" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="98.44333636" magical="79.24022" />
 			<speed>
@@ -4042,10 +4042,10 @@
 		<equipment rhand="16" /> <!-- rhand: Great Spear -->
 		<acquire exp="1135" sp="58" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="724" hpRegen="3.5" mp="286" mpRegen="1.5" />
+			<vitals hp="515.60454943" hpRegen="3.5" mp="286" mpRegen="1.5" />
 			<speed>
-				<walk ground="52" />
-				<run ground="130" />
+				<walk ground="47" />
+				<run ground="143" />
 			</speed>
 			<hitTime>590</hitTime>
 			<attack physical="82.490331" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -4088,9 +4088,9 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="1968" sp="59" />
+		<acquire exp="1451" sp="43" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="588.72127868852" hpRegen="3.5" mp="327.45" mpRegen="1.5" />
+			<vitals hp="338.20995302" hpRegen="3.5" mp="413.62105263" mpRegen="1.5" />
 			<attack physical="73.21869091" magical="54.99876" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="122.775048" magical="81.67405" />
 			<speed>
