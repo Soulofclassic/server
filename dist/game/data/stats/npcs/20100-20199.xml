@@ -3329,7 +3329,7 @@
 		<equipment rhand="88" /> <!-- Morning Star -->
 		<acquire exp="1620" sp="48" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="247.78786" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
+			<vitals hp="638.79837054" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
 			<attack physical="92.64226" magical="63.26266" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="118.46427" magical="86.68702" />
 			<speed>
@@ -3893,11 +3893,11 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="14" /> <!-- Bow -->
-		<acquire exp="2077" sp="62" />
+		<acquire exp="1544" sp="46" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="378.33216" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
+			<vitals hp="605.83843377" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
 			<attack physical="211.2278129" magical="59.01367" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
-			<defence physical="104.5508909" magical="84.15638" />
+			<defence physical="114.81928197" magical="84.15638" />
 			<speed>
 				<walk ground="40" />
 				<run ground="140" />
@@ -3958,9 +3958,9 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="946" lhand="945" /> <!-- rhand: Skeleton Dagger lhand: Skeleton Buckler -->
-		<acquire exp="2187" sp="65" />
+		<acquire exp="1520" sp="73" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="654.13475409836" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
+			<vitals hp="375.64563449" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
 			<attack physical="89.16817525" magical="63.26266" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="107.6947909" magical="86.68702" shield="59" shieldRate="20" />
 			<speed>
@@ -4244,14 +4244,14 @@
 		<sex>MALE</sex>
 		<acquire exp="1544" sp="46" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="234.97974" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
+			<vitals hp="605.50035429" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
 			<speed>
 				<walk ground="50" />
 				<run ground="90" />
 			</speed>
 			<hitTime>370</hitTime>
 			<attack physical="95.062022" magical="59.01367" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="104.5508909" magical="84.15638" />
+			<defence physical="114.81928197" magical="84.15638" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -4310,7 +4310,7 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="1882" sp="57" />
+		<acquire exp="1612" sp="48" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="636.798" hpRegen="3.5" mp="365.715" mpRegen="1.5" />
 			<attack physical="92.64226" magical="63.26266" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />

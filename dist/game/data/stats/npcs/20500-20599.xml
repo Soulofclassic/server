@@ -84,8 +84,8 @@
 			<attack physical="93.42704865" magical="93.88538409" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="148.87664362" magical="111.99758842" />
 			<speed>
-				<walk ground="45" />
-				<run ground="120" />
+				<walk ground="49" />
+				<run ground="132" />
 			</speed>
 			<hitTime>260</hitTime>
 			<abnormalResist physical="10" magical="10" />

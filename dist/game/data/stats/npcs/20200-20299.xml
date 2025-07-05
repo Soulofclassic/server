@@ -603,10 +603,10 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="68" lhand="19" /> <!-- Falchion / Small Shield -->
-		<acquire exp="2855" sp="85" />
+		<acquire exp="2282" sp="68" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="235.102895" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
-			<attack physical="78.56365455" magical="59.01367" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="605.81770248" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
+			<attack physical="86.34223421" magical="71.08464795" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="126.506578" magical="84.15638" shield="58" shieldRate="20" />
 			<speed>
 				<walk ground="50" />
@@ -673,11 +673,11 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="123" lhand="19" /> <!-- Saber / Small Shield -->
-		<acquire exp="3018" sp="90" />
+		<acquire exp="2415" sp="72" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="247.911015" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
+			<vitals hp="638.29962483" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
 			<attack physical="101.906486" magical="63.26266" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="107.6947909" magical="86.68702" shield="59" shieldRate="20" />
+			<defence physical="118.83563134" magical="86.68702" shield="59" shieldRate="20" />
 			<speed>
 				<walk ground="50" />
 				<run ground="110" />
@@ -1885,10 +1885,10 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="1612" sp="48" />
+		<acquire exp="1286" sp="38" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="247.78786" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
-			<attack physical="84.22023636" magical="63.26266" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="605.2107578" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
+			<attack physical="92.71952627" magical="76.44238083" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="130.310697" magical="86.68702" />
 			<speed>
 				<walk ground="90" />
@@ -3212,9 +3212,9 @@
 		<equipment rhand="123" /> <!-- Saber -->
 		<acquire exp="1544" sp="46" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="234.97974" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
+			<vitals hp="605.50035429" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
 			<attack physical="95.062022" magical="59.01367" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="104.5508909" magical="84.15638" />
+			<defence physical="114.81928197" magical="84.15638" />
 			<speed>
 				<walk ground="43" />
 				<run ground="130" />
@@ -3268,8 +3268,8 @@
 		<equipment rhand="16" /> <!-- Great Spear -->
 		<acquire exp="1612" sp="48" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="247.78786" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
-			<attack physical="84.22023636" magical="63.26266" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="638.79837054" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
+			<attack physical="92.71952627" magical="76.44238083" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="130.310697" magical="86.68702" />
 			<speed>
 				<walk ground="52" />

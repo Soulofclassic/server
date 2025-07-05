@@ -795,12 +795,12 @@
 		<equipment rhand="5" /> <!-- Mace -->
 		<acquire exp="1620" sp="48" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="247.78786" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
+			<vitals hp="638.79837054" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
 			<attack physical="92.64226" magical="63.26266" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="118.46427" magical="86.68702" />
 			<speed>
-				<walk ground="50" />
-				<run ground="150" />
+				<walk ground="55" />
+				<run ground="165" />
 			</speed>
 			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -1796,11 +1796,11 @@
 		<acquire exp="1531" sp="45" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="605.50035429" hpRegen="3.5" mp="323.66440191" mpRegen="1.5" />
-			<attack physical="52.11648371" magical="52.30757114" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<attack physical="86.34223421" magical="71.08464796" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="115.70723598" magical="86.68739895" />
 			<speed>
-				<walk ground="60" />
-				<run ground="150" />
+				<walk ground="66" />
+				<run ground="165" />
 			</speed>
 			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />

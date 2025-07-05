@@ -134,9 +134,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1620" sp="48" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="247.78786" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
+			<vitals hp="638.79837054" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
 			<attack physical="92.64226" magical="63.26266" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="100.6946295" magical="86.68702" evasion="10" />
+			<defence physical="118.64020703" magical="86.68702" evasion="10" />
 			<speed>
 				<walk ground="90" />
 				<run ground="160" />
@@ -2221,11 +2221,11 @@
 		<acquire exp="1902" sp="68" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="806" hpRegen="3.5" mp="315" mpRegen="1.5" />
-			<attack physical="78.56365455" magical="59.01367" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<attack physical="86.34223421" magical="71.08464795" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="126.506578" magical="84.15638" />
 			<speed>
-				<walk ground="20" />
-				<run ground="21" />
+				<walk ground="23" />
+				<run ground="23" />
 			</speed>
 			<hitTime>410</hitTime>
 		</stats>

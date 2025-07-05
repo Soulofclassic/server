@@ -365,8 +365,8 @@
 			<attack physical="92.64226" magical="63.26266" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="118.46427" magical="86.68702" shield="59" shieldRate="20" />
 			<speed>
-				<walk ground="56" />
-				<run ground="130" />
+				<walk ground="61" />
+				<run ground="143" />
 			</speed>
 			<hitTime>650</hitTime>
 			<abnormalResist physical="10" magical="10" />

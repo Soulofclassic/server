@@ -4531,8 +4531,8 @@
 			<attack physical="99.66061303" magical="100.16587833" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="153.30670235" magical="114.95452652" />
 			<speed>
-				<walk ground="45" />
-				<run ground="130" />
+				<walk ground="49" />
+				<run ground="143" />
 			</speed>
 			<hitTime>760</hitTime>
 			<abnormalResist physical="10" magical="10" />

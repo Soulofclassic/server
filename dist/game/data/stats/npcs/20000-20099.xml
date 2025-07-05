@@ -4197,12 +4197,12 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="1026" sp="30" />
+		<acquire exp="1539" sp="46" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="234.97974" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
+			<vitals hp="574.46529429" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
 			<speed>
-				<walk ground="30" />
-				<run ground="120" />
+				<walk ground="33" />
+				<run ground="132" />
 			</speed>
 			<hitTime>240</hitTime>
 			<attack physical="86.42002" magical="59.01367" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -4252,11 +4252,11 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="1924" sp="57" />
+		<acquire exp="1274" sp="38" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="745.89093478261" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
+			<vitals hp="414.57658933" hpRegen="3.5" mp="343.38" mpRegen="1.5" />
 			<attack physical="78.56365455" magical="59.01367" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="126.506578" magical="84.15638" />
+			<defence physical="139.62577868" magical="84.15638" />
 			<speed>
 				<walk ground="40" />
 				<run ground="60" />
@@ -4318,9 +4318,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="69" /> <!-- Bastard Sword -->
-		<acquire exp="3442" sp="104" />
+		<acquire exp="2867" sp="86" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="302.09925" hpRegen="3.5" mp="350.364" mpRegen="1.5" />
+			<vitals hp="1210.93032704" hpRegen="3.5" mp="350.364" mpRegen="1.5" />
 			<attack physical="86.42002" magical="59.01367" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="115.00598" magical="84.15638" />
 			<speed>
@@ -4368,6 +4368,7 @@
 		</dropLists>
 	</npc>
 	<npc id="20077" level="30" type="Monster" name="Androscorpio Hunter">
+		<acquire exp="1912" sp="56" />
 		<!-- Todo: Confirmed CT2.5 -->
 		<parameters>
 			<param name="MoveAroundSocial" value="90" />
@@ -4384,8 +4385,8 @@
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="849" hpRegen="3.5" mp="329" mpRegen="1.5" />
 			<speed>
-				<walk ground="30" />
-				<run ground="120" />
+				<walk ground="33" />
+				<run ground="132" />
 			</speed>
 			<hitTime>240</hitTime>
 			<attack physical="101.906486" magical="63.26266" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -4448,11 +4449,11 @@
 		<acquire exp="1612" sp="48" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="638.79837054" hpRegen="3.5" mp="337.9201373" mpRegen="1.5" />
-			<attack physical="55.63171576" magical="56.67279958" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="92.71952627" magical="76.44238083" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="119.57922784" magical="89.19968725" />
 			<speed>
-				<walk ground="60" />
-				<run ground="60" />
+				<walk ground="66" />
+				<run ground="66" />
 			</speed>
 			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -4515,11 +4516,11 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2231" sp="66" />
+		<acquire exp="1301" sp="39" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="438.67811" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
+			<vitals hp="638.07725091" hpRegen="3.5" mp="358.425" mpRegen="1.5" />
 			<attack physical="101.906486" magical="63.26266" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="107.6947909" magical="86.68702" />
+			<defence physical="118.83563134" magical="86.68702" />
 			<speed>
 				<walk ground="40" />
 				<run ground="130" />
