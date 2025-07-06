@@ -314,9 +314,9 @@
 		<equipment rhand="2507" /> <!-- Lizardspear -->
 		<acquire exp="1966" sp="59" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="287.93639" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
-			<attack physical="277.3938467" magical="77.49941" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
-			<defence physical="117.4826818" magical="94.5656" />
+			<vitals hp="742.67293544" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
+			<attack physical="252.5154748" magical="77.49941" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<defence physical="129.23094998" magical="94.5656" />
 			<speed>
 				<walk ground="43" />
 				<run ground="135" />
@@ -375,9 +375,9 @@
 		<sex>MALE</sex>
 		<acquire exp="2080" sp="62" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="302.46868" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
+			<vitals hp="779.31657803" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
 			<attack physical="121.20802" magical="82.76936" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="113.00631" magical="97.28601" evasion="10" />
+			<defence physical="132.15992186" magical="97.28601" evasion="10" />
 			<speed>
 				<walk ground="90" />
 				<run ground="160" />

@@ -983,12 +983,12 @@
 		<sex>MALE</sex>
 		<acquire exp="1951" sp="58" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="287.93639" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
-			<attack physical="103.1733182" magical="77.49941" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="742.67293544" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
+			<attack physical="113.71657699" magical="93.74928629" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="142.154045" magical="94.5656" />
 			<speed>
-				<walk ground="70" />
-				<run ground="150" />
+				<walk ground="77" />
+				<run ground="165" />
 			</speed>
 			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -1050,12 +1050,12 @@
 		<equipment rhand="67" /> <!-- Orcish Sword -->
 		<acquire exp="2087" sp="62" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="302.46868" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
+			<vitals hp="779.31657803" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
 			<attack physical="133.328822" magical="82.76936" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="120.8623636" magical="97.28601" />
 			<speed>
-				<walk ground="50" />
-				<run ground="150" />
+				<walk ground="55" />
+				<run ground="165" />
 			</speed>
 			<hitTime>630</hitTime>
 			<abnormalResist physical="10" magical="10" />

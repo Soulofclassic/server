@@ -4709,10 +4709,10 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2647" sp="79" />
+		<acquire exp="1623" sp="48" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="509.61539" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
-			<attack physical="103.1733182" magical="77.49941" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="741.31630024" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
+			<attack physical="103.1733182" magical="93.74928629" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="142.154045" magical="94.5656" />
 			<speed>
 				<walk ground="80" />
@@ -4775,16 +4775,16 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="2966" sp="88" />
+		<acquire exp="2367" sp="71" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="509.61539" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
+			<vitals hp="741.31630024" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
 			<speed>
 				<walk ground="23" />
 				<run ground="23" />
 			</speed>
 			<hitTime>410</hitTime>
-			<attack physical="103.1733182" magical="77.49941" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="142.154045" magical="94.5656" />
+			<attack physical="113.71657699" magical="93.74928629" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="66.28746573" magical="94.5656" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -4844,9 +4844,9 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2865" sp="85" />
+		<acquire exp="1711" sp="51" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="535.23163" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
+			<vitals hp="778.4611518" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
 			<attack physical="133.328822" magical="82.76936" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="120.8623636" magical="97.28601" />
 			<speed>
@@ -4911,16 +4911,16 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="3148" sp="94" />
+		<acquire exp="2402" sp="72" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="695.10601298701" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
+			<vitals hp="439.67333503" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
 			<speed>
 				<walk ground="23" />
 				<run ground="23" />
 			</speed>
 			<hitTime>410</hitTime>
-			<attack physical="133.328822" magical="82.76936" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="120.8623636" magical="97.28601" />
+			<attack physical="100.1243261" magical="82.76936" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="90.80015133" magical="97.28601" />
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>

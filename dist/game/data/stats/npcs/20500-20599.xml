@@ -2376,12 +2376,12 @@
 		<equipment rhand="7" /> <!-- Apprentice's Rod -->
 		<acquire exp="1722" sp="51" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="706.31713746" hpRegen="4.5" mp="396.7343301" mpRegen="1.8" />
+			<vitals hp="389.09178034" hpRegen="4.5" mp="396.7343301" mpRegen="1.8" />
 			<attack physical="106.10803099" magical="104.67889647" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="157.37874883" magical="117.95928712" />
 			<speed>
-				<walk ground="45" />
-				<run ground="120" />
+				<walk ground="49" />
+				<run ground="132" />
 			</speed>
 			<hitTime>260</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -2561,14 +2561,14 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="69" lhand="19" /> <!-- Bastard Sword / Small Shield -->
-		<acquire exp="3877" sp="116" />
+		<acquire exp="3103" sp="93" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="302.345525" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
+			<vitals hp="778.18356068" hpRegen="4.5" mp="422.145" mpRegen="1.8" />
 			<attack physical="133.328822" magical="82.76936" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="120.8623636" magical="97.28601" shield="66" shieldRate="20" />
 			<speed>
-				<walk ground="50" />
-				<run ground="110" />
+				<walk ground="55" />
+				<run ground="121" />
 			</speed>
 			<hitTime>630</hitTime>
 			<abnormalResist physical="10" magical="10" />

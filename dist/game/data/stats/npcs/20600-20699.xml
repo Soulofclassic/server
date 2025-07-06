@@ -796,14 +796,14 @@
 		</parameters>
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
-		<acquire exp="3702" sp="111" />
+		<acquire exp="2971" sp="89" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="287.93639" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
-			<attack physical="103.1733182" magical="77.49941" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<vitals hp="741.85591351" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
+			<attack physical="103.1733182" magical="93.74928629" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="142.154045" magical="94.5656" />
 			<speed>
-				<walk ground="64" />
-				<run ground="96" />
+				<walk ground="70" />
+				<run ground="105" />
 			</speed>
 			<hitTime>200</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -1256,14 +1256,14 @@
 		</parameters>
 		<race>ELEMENTAL</race>
 		<sex>FEMALE</sex>
-		<acquire exp="3702" sp="111" />
+		<acquire exp="2971" sp="89" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="287.93639" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
-			<attack physical="103.1733182" magical="77.49941" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<vitals hp="741.85591351" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
+			<attack physical="103.1733182" magical="93.74928629" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="142.154045" magical="94.5656" />
 			<speed>
-				<walk ground="60" />
-				<run ground="60" />
+				<walk ground="66" />
+				<run ground="66" />
 			</speed>
 			<hitTime>350</hitTime>
 			<abnormalResist physical="10" magical="10" />
