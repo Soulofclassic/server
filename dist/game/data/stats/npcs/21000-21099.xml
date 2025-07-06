@@ -852,12 +852,12 @@
 		<sex>MALE</sex>
 		<acquire exp="1818" sp="54" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="260.84229" hpRegen="4.5" mp="374.355" mpRegen="1.8" />
-			<attack physical="90.19987273" magical="67.7543" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="671.09909563" hpRegen="4.5" mp="374.355" mpRegen="1.8" />
+			<attack physical="98.60833544" magical="83.38990769" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="134.187009" magical="89.26566" />
 			<speed>
-				<walk ground="90" />
-				<run ground="150" />
+				<walk ground="99" />
+				<run ground="165" />
 			</speed>
 			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -919,12 +919,12 @@
 		<equipment rhand="273" /> <!-- Compound Bow -->
 		<acquire exp="1849" sp="55" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="274.38934" hpRegen="4.5" mp="390.285" mpRegen="1.8" />
-			<attack physical="259.4891041" magical="72.49711" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<vitals hp="706.56839284" hpRegen="4.5" mp="390.285" mpRegen="1.8" />
+			<attack physical="235.67126363" magical="72.49711" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="114.1611545" magical="91.89199" />
 			<speed>
-				<walk ground="50" />
-				<run ground="150" />
+				<walk ground="55" />
+				<run ground="165" />
 			</speed>
 			<hitTime>930</hitTime>
 			<abnormalResist physical="10" magical="10" />

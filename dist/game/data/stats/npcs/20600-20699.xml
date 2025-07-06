@@ -652,14 +652,14 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="3257" sp="97" />
+		<acquire exp="2613" sp="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="260.719135" hpRegen="4.5" mp="374.355" mpRegen="1.8" />
+			<vitals hp="671.59728578" hpRegen="4.5" mp="374.355" mpRegen="1.8" />
 			<attack physical="109.141846" magical="67.7543" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="110.8983545" magical="89.26566" />
+			<defence physical="121.89653842" magical="89.26566" />
 			<speed>
-				<walk ground="90" />
-				<run ground="90" />
+				<walk ground="99" />
+				<run ground="99" />
 			</speed>
 			<hitTime>300</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -719,14 +719,14 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="3471" sp="104" />
+		<acquire exp="2784" sp="83" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="274.38934" hpRegen="4.5" mp="390.285" mpRegen="1.8" />
+			<vitals hp="706.06991642" hpRegen="4.5" mp="390.285" mpRegen="1.8" />
 			<attack physical="116.781775" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="114.1611545" magical="91.89199" />
 			<speed>
-				<walk ground="80" />
-				<run ground="80" />
+				<walk ground="88" />
+				<run ground="88" />
 			</speed>
 			<hitTime>350</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -1127,14 +1127,14 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="3267" sp="98" />
+		<acquire exp="2622" sp="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="260.719135" hpRegen="4.5" mp="374.355" mpRegen="1.8" />
-			<attack physical="90.19987273" magical="67.7543" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="671.59728578" hpRegen="4.5" mp="374.355" mpRegen="1.8" />
+			<attack physical="109.77813968" magical="83.38990769" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="134.187009" magical="89.26566" />
 			<speed>
-				<walk ground="90" />
-				<run ground="90" />
+				<walk ground="99" />
+				<run ground="99" />
 			</speed>
 			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -1191,14 +1191,14 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="3471" sp="104" />
+		<acquire exp="2784" sp="83" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="274.38934" hpRegen="4.5" mp="390.285" mpRegen="1.8" />
+			<vitals hp="706.06991642" hpRegen="4.5" mp="390.285" mpRegen="1.8" />
 			<attack physical="116.781775" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="114.1611545" magical="91.89199" />
 			<speed>
-				<walk ground="60" />
-				<run ground="100" />
+				<walk ground="66" />
+				<run ground="110" />
 			</speed>
 			<hitTime>840</hitTime>
 			<abnormalResist physical="10" magical="10" />

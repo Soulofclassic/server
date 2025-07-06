@@ -4580,11 +4580,11 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2382" sp="71" />
+		<acquire exp="1389" sp="41" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="461.58494" hpRegen="4.5" mp="374.355" mpRegen="1.8" />
+			<vitals hp="671.16603073" hpRegen="4.5" mp="374.355" mpRegen="1.8" />
 			<attack physical="109.141846" magical="67.7543" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="110.8983545" magical="89.26566" />
+			<defence physical="121.89653842" magical="89.26566" />
 			<speed>
 				<walk ground="40" />
 				<run ground="130" />
@@ -4642,9 +4642,9 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="3629" sp="108" />
+		<acquire exp="2784" sp="83" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="274.38934" hpRegen="4.5" mp="390.285" mpRegen="1.8" />
+			<vitals hp="706.06991642" hpRegen="4.5" mp="390.285" mpRegen="1.8" />
 			<attack physical="116.781775" magical="72.49711" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="114.1611545" magical="91.89199" />
 			<speed>
