@@ -2631,7 +2631,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2332" sp="69" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="332.02588" hpRegen="4.5" mp="454.89" mpRegen="1.8" />
+			<vitals hp="854.77654985" hpRegen="4.5" mp="454.89" mpRegen="1.8" />
 			<attack physical="137.86467" magical="94.1437" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="140.57278" magical="102.86506" />
 			<speed>
@@ -4377,9 +4377,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="66" /> <!-- Gladius -->
-		<acquire exp="2205" sp="66" />
+		<acquire exp="2646" sp="79" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="317.24728" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
+			<vitals hp="773.17151473" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
 			<attack physical="129.32896" magical="88.31491" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="136.72948" magical="100.0527" />
 			<speed>
@@ -4437,10 +4437,10 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="14" /> <!-- Bow -->
-		<acquire exp="2321" sp="69" />
+		<acquire exp="2785" sp="82" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="332.02588" hpRegen="4.5" mp="454.89" mpRegen="1.8" />
-			<attack physical="278.4866334" magical="94.1437" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<vitals hp="811.05558473" hpRegen="4.5" mp="454.89" mpRegen="1.8" />
+			<attack physical="305.60243718" magical="112.97244" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="154.630058" magical="102.86506" />
 			<speed>
 				<walk ground="37" />

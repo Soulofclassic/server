@@ -261,11 +261,11 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="2757" sp="82" />
+		<acquire exp="1900" sp="57" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="509.61539" hpRegen="4.5" mp="405.33" mpRegen="1.8" />
+			<vitals hp="816ю0176866" hpRegen="4.5" mp="475ю89352227" mpRegen="1.8" />
 			<attack physical="117.5717818" magical="88.31491" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="150.402428" magical="100.0527" />
+			<defence physical="165ю53166632" magical="100.0527" />
 			<speed>
 				<walk ground="80" />
 				<run ground="174" />
@@ -1637,7 +1637,7 @@
 		<equipment rhand="14" /> <!-- rhand: Bow -->
 		<acquire exp="3037" sp="91" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="331.902725" hpRegen="4.5" mp="454.89" mpRegen="1.8" />
+			<vitals hp="811.157" hpRegen="4.5" mp="454.89" mpRegen="1.8" />
 			<speed>
 				<walk ground="37" />
 				<run ground="174" />
@@ -2551,8 +2551,8 @@
 		<equipment rhand="2" /> <!-- Long Sword -->
 		<acquire exp="2194" sp="65" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="317.24728" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
-			<attack physical="117.5717818" magical="88.31491" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="773.17151473" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
+			<attack physical="128.66345933" magical="106.21658095" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="150.402428" magical="100.0527" />
 			<speed>
 				<walk ground="50" />
@@ -2612,9 +2612,9 @@
 		<equipment rhand="7" /> <!-- Apprentice's Rod -->
 		<acquire exp="2212" sp="66" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="317.24728" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
+			<vitals hp="816.23102579" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
 			<attack physical="142.261856" magical="88.31491" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="124.2995273" magical="100.0527" />
+			<defence physical="136.72948003" magical="100.0527" />
 			<speed>
 				<walk ground="43" />
 				<run ground="174" />

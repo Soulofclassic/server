@@ -1977,7 +1977,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2205" sp="66" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="317.24728" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
+			<vitals hp="816.23102579" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
 			<speed>
 				<walk ground="55" />
 				<run ground="174" />
@@ -3720,7 +3720,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2212" sp="66" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="317.24728" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
+			<vitals hp="816.23102579" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
 			<attack physical="142.261856" magical="88.31491" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="124.2995273" magical="100.0527" />
 			<speed>
@@ -4020,10 +4020,10 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="3087" sp="92" />
+		<acquire exp="2212" sp="66" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="729.01362337662" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
-			<attack physical="142.261856" magical="88.31491" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="461.08859692" hpRegen="4.5" mp="438.075" mpRegen="1.8" />
+			<attack physical="106.82295949" magical="88.31491" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="124.2995273" magical="100.0527" />
 			<speed>
 				<walk ground="70" />
@@ -4083,9 +4083,9 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="4665" sp="139" />
+		<acquire exp="3615" sp="108" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="331.902725" hpRegen="4.5" mp="454.89" mpRegen="1.8" />
+			<vitals hp="854.45949623" hpRegen="4.5" mp="454.89" mpRegen="1.8" />
 			<attack physical="151.651137" magical="94.1437" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="127.7934364" magical="102.86506" />
 			<speed>
