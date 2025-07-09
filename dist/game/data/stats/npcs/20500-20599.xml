@@ -2696,9 +2696,9 @@
 		<equipment rhand="221" /> <!-- Assassin Knife -->
 		<acquire exp="2464" sp="73" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="347.54341" hpRegen="4.5" mp="470.82" mpRegen="1.8" />
+			<vitals hp="893.86392517" hpRegen="4.5" mp="470.82" mpRegen="1.8" />
 			<attack physical="128.4726363" magical="100.26304" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="122.805943" magical="105.72243" evasion="10" />
+			<defence physical="144.36729177" magical="105.72243" evasion="10" />
 			<speed>
 				<walk ground="80" />
 				<run ground="174" />
@@ -2759,12 +2759,12 @@
 		<sex>MALE</sex>
 		<acquire exp="4834" sp="145" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="363.430405" hpRegen="4.5" mp="487.635" mpRegen="1.8" />
+			<vitals hp="935.16848116" hpRegen="4.5" mp="487.635" mpRegen="1.8" />
 			<attack physical="156.22273" magical="106.67987" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="148.44287" magical="108.62405" />
 			<speed>
-				<walk ground="10" />
-				<run ground="174" />
+				<walk ground="11" />
+				<run ground="191" />
 			</speed>
 			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -4500,9 +4500,9 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="68" /> <!-- Falchion -->
-		<acquire exp="2464" sp="73" />
+		<acquire exp="2957" sp="87" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="347.54341" hpRegen="4.5" mp="470.82" mpRegen="1.8" />
+			<vitals hp="847.65141346" hpRegen="4.5" mp="470.82" mpRegen="1.8" />
 			<attack physical="146.82587" magical="100.26304" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="144.47758" magical="105.72243" />
 			<speed>
@@ -4574,9 +4574,9 @@
 		<equipment rhand="93" /> <!-- Winged Spear -->
 		<acquire exp="4843" sp="145" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="363.430405" hpRegen="4.5" mp="487.635" mpRegen="1.8" />
+			<vitals hp="935.16848116" hpRegen="4.5" mp="487.635" mpRegen="1.8" />
 			<attack physical="171.845003" magical="106.67987" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="134.9480636" magical="108.62405" />
+			<defence physical="163.67894166" magical="108.62405" />
 			<speed>
 				<walk ground="40" />
 				<run ground="174" />
