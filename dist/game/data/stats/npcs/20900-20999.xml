@@ -1003,14 +1003,14 @@
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="1848" sp="119" /> <!-- Need confirm retail values -->
+		<acquire exp="1848" sp="80" /> <!-- Need confirm retail values -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1359" hpRegen="2.25" mp="478" mpRegen="1.8" />
 			<attack physical="176.36077" magical="120.43155" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="156.55035" magical="114.55675" />
 			<speed>
-				<walk ground="35" />
-				<run ground="174" />
+				<walk ground="49" />
+				<run ground="191" />
 			</speed>
 			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />

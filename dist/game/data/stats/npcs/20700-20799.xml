@@ -1429,7 +1429,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="221" /> <!-- rhand: Assassin Knife -->
-		<acquire exp="5535" sp="166" />
+		<acquire exp="5357" sp="159" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="396.5591" hpRegen="4.5" mp="521.265" mpRegen="1.8" />
 			<speed>
@@ -1500,7 +1500,7 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="179" /> <!-- rhand: Mace of Prayer -->
-		<acquire exp="5262" sp="157" />
+		<acquire exp="5092" sp="152" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="379.81002" hpRegen="4.5" mp="505.335" mpRegen="1.8" />
 			<speed>

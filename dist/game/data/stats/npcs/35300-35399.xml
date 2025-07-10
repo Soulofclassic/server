@@ -3075,7 +3075,7 @@
 		<equipment rhand="69" /> <!-- Bastard Sword -->
 		<acquire exp="2450" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2444" hpRegen="4.5" mp="1345" mpRegen="1.8" />
+			<vitals hp="993.17171717" hpRegen="4.5" mp="1345" mpRegen="1.8" />
 			<attack physical="176.36" magical="120.43" random="30" critical="4" accuracy="3.75" attackSpeed="257" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="156.55" magical="114.56" />
 			<speed>
@@ -3115,8 +3115,8 @@
 		<equipment rhand="14" /> <!-- Bow -->
 		<acquire exp="2450" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2444" hpRegen="4.5" mp="1345" mpRegen="1.8" />
-			<attack physical="215.51" magical="120.43" random="30" critical="4" accuracy="3.75" attackSpeed="231" reuseDelay="1500" type="BOW" range="1100" distance="80" width="120" />
+			<vitals hp="993.17171717" hpRegen="4.5" mp="1345" mpRegen="1.8" />
+			<attack physical="176.36" magical="120.43" random="30" critical="4" accuracy="3.75" attackSpeed="231" reuseDelay="1500" type="BOW" range="1100" distance="80" width="120" />
 			<defence physical="156.55" magical="114.56" />
 			<speed>
 				<walk ground="50" />
@@ -3367,7 +3367,7 @@
 		<equipment rhand="69" /> <!-- Bastard Sword -->
 		<acquire exp="2450" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2444" hpRegen="4.5" mp="1345" mpRegen="1.8" />
+			<vitals hp="993.17171717" hpRegen="4.5" mp="1345" mpRegen="1.8" />
 			<attack physical="176.36" magical="120.43" random="30" critical="4" accuracy="3.75" attackSpeed="257" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="156.55" magical="114.56" />
 			<speed>
@@ -3407,8 +3407,8 @@
 		<equipment rhand="14" /> <!-- Bow -->
 		<acquire exp="2450" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2444" hpRegen="4.5" mp="1345" mpRegen="1.8" />
-			<attack physical="215.51" magical="120.43" random="30" critical="4" accuracy="3.75" attackSpeed="231" reuseDelay="1500" type="BOW" range="1100" distance="80" width="120" />
+			<vitals hp="993.17171717" hpRegen="4.5" mp="1345" mpRegen="1.8" />
+			<attack physical="176.36" magical="120.43" random="30" critical="4" accuracy="3.75" attackSpeed="231" reuseDelay="1500" type="BOW" range="1100" distance="80" width="120" />
 			<defence physical="156.55" magical="114.56" />
 			<speed>
 				<walk ground="50" />

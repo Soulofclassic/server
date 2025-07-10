@@ -800,11 +800,11 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="16152" sp="484" />
+		<acquire exp="6819" sp="204" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="396.5591" hpRegen="4.5" mp="521.265" mpRegen="1.8" />
-			<attack physical="160.3279727" magical="120.43155" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="172.205385" magical="114.55675" />
+			<vitals hp="1020.41684327" hpRegen="4.5" mp="521.265" mpRegen="1.8" />
+			<attack physical="160.3279727" magical="143.42302773" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="116.7330621" magical="114.55675" />
 			<speed>
 				<walk ground="23" />
 				<run ground="23" />
