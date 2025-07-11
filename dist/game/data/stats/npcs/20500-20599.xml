@@ -3009,9 +3009,9 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="3035" sp="91" />
+		<acquire exp="3642" sp="109" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="413.8008" hpRegen="5.5" mp="549.585" mpRegen="2.1" />
+			<vitals hp="1065.86974824" hpRegen="5.5" mp="549.585" mpRegen="2.1" />
 			<speed>
 				<walk ground="90" />
 				<run ground="174" />
@@ -3072,15 +3072,15 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="3160" sp="94" />
+		<acquire exp="3792" sp="112" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="431.28881" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
+			<vitals hp="1109.57121163" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
 			<speed>
 				<walk ground="70" />
 				<run ground="174" />
 			</speed>
 			<hitTime>190</hitTime>
-			<attack physical="180.3144636" magical="135.44454" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="198.55639377" magical="160.84039125" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="181.373643" magical="120.65578" />
 		</stats>
 		<status undying="false" canBeSown="true" />
@@ -3531,7 +3531,7 @@
 		<sex>MALE</sex>
 		<acquire exp="3035" sp="91" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="413.8008" hpRegen="5.5" mp="549.585" mpRegen="2.1" />
+			<vitals hp="1065.86974824" hpRegen="5.5" mp="549.585" mpRegen="2.1" />
 			<attack physical="205.830658" magical="127.77787" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="146.0818364" magical="117.58598" />
 			<speed>
@@ -3598,11 +3598,11 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="3668" sp="110" />
+		<acquire exp="3666" sp="109" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="431.28881" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
+			<vitals hp="1109.57121163" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
 			<attack physical="218.180501" magical="135.44454" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="149.8955727" magical="120.65578" />
+			<defence physical="165.05355196" magical="56.45658155" />
 			<speed>
 				<walk ground="23" />
 				<run ground="23" />
@@ -4833,12 +4833,12 @@
 		<equipment rhand="14" /> <!-- Bow -->
 		<acquire exp="3011" sp="90" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="413.8008" hpRegen="5.5" mp="549.585" mpRegen="2.1" />
-			<attack physical="377.9799356" magical="127.77787" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<vitals hp="1010.10486248" hpRegen="5.5" mp="549.585" mpRegen="2.1" />
+			<attack physical="415.35481729" magical="152.68372602" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="176.759022" magical="117.58598" />
 			<speed>
-				<walk ground="45" />
-				<run ground="174" />
+				<walk ground="49" />
+				<run ground="191" />
 			</speed>
 			<hitTime>960</hitTime>
 			<abnormalResist physical="10" magical="10" />
@@ -4893,12 +4893,12 @@
 		<equipment rhand="66" /> <!-- Gladius -->
 		<acquire exp="3175" sp="95" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="431.28881" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
+			<vitals hp="1051.93937358" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
 			<attack physical="198.34591" magical="135.44454" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="164.88513" magical="120.65578" />
 			<speed>
-				<walk ground="80" />
-				<run ground="174" />
+				<walk ground="88" />
+				<run ground="191" />
 			</speed>
 			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />

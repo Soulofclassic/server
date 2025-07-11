@@ -83,7 +83,7 @@
 		<equipment rhand="2" /> <!-- Long Sword -->
 		<acquire exp="3025" sp="90" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="413.8008" hpRegen="5.5" mp="549.585" mpRegen="2.1" />
+			<vitals hp="1065.86974824" hpRegen="5.5" mp="549.585" mpRegen="2.1" />
 			<attack physical="187.11878" magical="127.77787" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="160.69002" magical="117.58598" />
 			<speed>
@@ -144,7 +144,7 @@
 		<equipment rhand="14" /> <!-- Bow -->
 		<acquire exp="3175" sp="95" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="431.28881" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
+			<vitals hp="1109.57121163" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
 			<attack physical="440.724612" magical="135.44454" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="164.88513" magical="120.65578" />
 			<speed>

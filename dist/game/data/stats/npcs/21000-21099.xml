@@ -1956,11 +1956,11 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="144" /> <!-- Sword of Occult -->
-		<acquire exp="8647" sp="259" />
+		<acquire exp="6930" sp="207" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="431.20670666667" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
+			<vitals hp="1109.35998543" hpRegen="5.5" mp="578.79" mpRegen="2.1" />
 			<attack physical="218.180501" magical="135.44454" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="149.8955727" magical="120.65578" />
+			<defence physical="165.05355196" magical="120.65578" />
 			<speed>
 				<walk ground="30" />
 				<run ground="174" />

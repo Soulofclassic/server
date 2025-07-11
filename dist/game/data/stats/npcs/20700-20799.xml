@@ -1897,14 +1897,14 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="13" /> <!-- Short Bow -->
-		<acquire exp="5183" sp="340" /> <!-- Need confirm retail value -->
+		<acquire exp="3175" sp="95" /> <!-- Need confirm retail value -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1063" hpRegen="5.5" mp="504" mpRegen="2.1" />
 			<attack physical="457.3557221" magical="127.77787" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<defence physical="146.0818364" magical="117.58598" />
 			<speed>
-				<walk ground="45" />
-				<run ground="174" />
+				<walk ground="49" />
+				<run ground="191" />
 			</speed>
 			<hitTime>960</hitTime>
 			<abnormalResist physical="10" magical="10" />
