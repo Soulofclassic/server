@@ -6,9 +6,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="1" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="1" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="1" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="1" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="1" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="1" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="2" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -17,9 +17,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="2" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="2" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="2" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="2" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="2" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="2" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="3" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -28,9 +28,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="3" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="3" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="3" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="3" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="3" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="3" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="4" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -39,9 +39,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="4" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="4" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="4" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="4" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="4" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="4" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="5" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -50,9 +50,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="5" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="5" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="5" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="5" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="5" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="5" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="6" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -61,9 +61,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="6" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="6" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="6" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="6" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="6" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="6" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="7" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -72,9 +72,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="7" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="7" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="7" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="7" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="7" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="7" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="8" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -83,9 +83,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="8" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="8" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="8" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="8" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="8" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="8" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="9" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -94,9 +94,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="9" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="9" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="9" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="9" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="9" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="9" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="10" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -105,9 +105,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="10" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="10" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="10" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="10" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="10" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="10" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="11" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -116,9 +116,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="11" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="11" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="11" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="11" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="11" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="11" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="12" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -127,9 +127,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="12" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="12" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="12" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="12" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="12" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="12" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 	<cubic id="5" level="13" slot="5" duration="900" delay="5" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
@@ -138,9 +138,9 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4053" level="13" triggerRate="33" successRate="40" /> <!-- Cubic Weakness -->
-			<skill id="4054" level="13" triggerRate="34" successRate="40" /> <!-- Cubic Hex -->
-			<skill id="4055" level="13" triggerRate="33" successRate="40" /> <!-- Cubic Shackle -->
+			<skill id="4053" level="13" triggerRate="40" successRate="40" /> <!-- Cubic Weakness -->
+			<skill id="4054" level="13" triggerRate="45" successRate="40" /> <!-- Cubic Hex -->
+			<skill id="4055" level="13" triggerRate="40" successRate="40" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
 </list>
