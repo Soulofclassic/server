@@ -258,7 +258,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-		<set name="reuse_delay" val="60000" />
+		<set name="reuse_delay" val="120000" />
 		<skills>
 			<skill id="39144" level="1" /> <!-- Special Pirate Fruit -->
 		</skills>
