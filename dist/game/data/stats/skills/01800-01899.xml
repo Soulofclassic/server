@@ -14,7 +14,7 @@
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitCancelTime>0</hitCancelTime>
-		<hitTime>3000</hitTime>
+		<hitTime>0</hitTime>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>49543</itemConsumeId>
@@ -83,7 +83,7 @@
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitCancelTime>0</hitCancelTime>
-		<hitTime>3000</hitTime>
+		<hitTime>0</hitTime>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>49543</itemConsumeId>
@@ -152,7 +152,7 @@
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<effectPoint>1</effectPoint>
 		<hitCancelTime>0</hitCancelTime>
-		<hitTime>3000</hitTime>
+		<hitTime>0</hitTime>
 		<isMagic>4</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>2</itemConsumeCount>
 		<itemConsumeId>49543</itemConsumeId>
