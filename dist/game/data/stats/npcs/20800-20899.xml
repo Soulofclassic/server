@@ -342,9 +342,9 @@
 		<equipment rhand="5128" /> <!-- Crokian Blade -->
 		<acquire exp="6201" sp="186" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="449.146285" hpRegen="5.5" mp="607.11" mpRegen="2.1" />
+			<vitals hp="1154.99280759" hpRegen="5.5" mp="607.11" mpRegen="2.1" />
 			<attack physical="231.053152" magical="143.43577" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="153.7583364" magical="123.76505" />
+			<defence physical="168.79991279" magical="123.76505" />
 			<speed>
 				<walk ground="18" />
 				<run ground="174" />

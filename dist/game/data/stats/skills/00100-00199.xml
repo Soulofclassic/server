@@ -1790,7 +1790,7 @@
 		<abnormalLevel>3</abnormalLevel>
 		<abnormalTime>60</abnormalTime>
 		<abnormalType>SPEED_DOWN</abnormalType>
-		<activateRate>80</activateRate>
+		<activateRate>70</activateRate>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>PHYSICAL</basicProperty>
 		<castRange>600</castRange>

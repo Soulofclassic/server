@@ -3383,7 +3383,7 @@
 		<abnormalTime>7</abnormalTime>
 		<abnormalType>TURN_FLEE</abnormalType>
 		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
-		<activateRate>40</activateRate>
+		<activateRate>90</activateRate>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>MAGIC</basicProperty>
 		<castRange>600</castRange>
@@ -3480,7 +3480,7 @@
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
-		<activateRate>80</activateRate>
+		<activateRate>90</activateRate>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>MAGIC</basicProperty>
 		<castRange>400</castRange>

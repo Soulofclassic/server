@@ -1791,7 +1791,7 @@
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>BLEEDING</abnormalType>
 		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
-		<activateRate>50</activateRate>
+		<activateRate>70</activateRate>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>PHYSICAL</basicProperty>
 		<castRange>40</castRange>
@@ -8076,7 +8076,7 @@
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
-		<activateRate>80</activateRate>
+		<activateRate>90</activateRate>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>PHYSICAL</basicProperty>
 		<castRange>400</castRange>
@@ -8119,7 +8119,6 @@
 			<value level="8">103</value>
 			<value level="9">109</value>
 		</mpConsume>
-		<nextAction>ATTACK</nextAction>
 		<reuseDelay>10000</reuseDelay>
 		<trait>PARALYZE</trait>
 		<effects>

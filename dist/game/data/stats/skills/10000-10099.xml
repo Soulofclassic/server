@@ -64,7 +64,7 @@
 		<abnormalTime>5</abnormalTime>
 		<abnormalType>PARALYZE</abnormalType>
 		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
-		<activateRate>40</activateRate>
+		<activateRate>90</activateRate>
 		<affectLimit>5-12</affectLimit>
 		<affectObject>NOT_FRIEND</affectObject>
 		<affectRange>400</affectRange>
@@ -99,7 +99,6 @@
 			<value level="4">159</value>
 			<value level="5">166</value>
 		</mpConsume>
-		<nextAction>ATTACK</nextAction>
 		<reuseDelay>60000</reuseDelay>
 		<trait>PARALYZE</trait>
 		<effects>
