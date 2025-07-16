@@ -927,7 +927,7 @@
 					<value level="9">70</value>
 					<value level="10">90</value>
 				</amount>
-				<mode>DIF</mode>
+				<mode>DIFF</mode>
 			</effect>
 			<effect name="MagicalAttack">
 				<amount>
