@@ -891,6 +891,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="1" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91062" name="Talisman of Authority Lv. 2" type="Armor">
 		<!-- P./ M. Def. +15, Max HP +8%, Max MP +4%, P./ M. Atk. +2%. Can be upgraded to higher level with Talisman of Authority Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -900,7 +904,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="2" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91063" name="Talisman of Authority Lv. 3" type="Armor">
 		<!-- P./ M. Def. +18, Max HP +10%, Max MP +6%, P./ M. Atk. +3%. Can be upgraded to higher level with Talisman of Authority Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -910,7 +917,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="3" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91064" name="Talisman of Authority Lv. 4" type="Armor">
 		<!-- P./ M. Def. +20, Max HP +12%, Max MP +8%, P./ M. Atk. +3%. Can be upgraded to higher level with Talisman of Authority Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -920,7 +930,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="4" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91065" name="Talisman of Authority Lv. 5" type="Armor">
 		<!-- P./ M. Def. +24, Max HP +12%, Max MP +8%, P./ M. Atk. +5%. Can be upgraded to Noble Talisman of Authority by Blacksmith Baggins in Giran. The effect doesn't stack if two identical talismans are equipped. -->
@@ -930,7 +943,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="5" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91066" name="Noble Talisman of Authority Lv. 1" type="Armor">
 		<!-- P./ M. Def. +26, Max HP +12%, Max MP +8%, P./ M. Atk. +5%. Can be upgraded to higher level with Talisman of Authority Fragment. Does not disappear in case of failure. The effect doesn't stack if two identical talismans are equipped. -->
@@ -940,7 +956,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="6" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91067" name="Noble Talisman of Authority Lv. 2" type="Armor">
 		<!-- P./ M. Def. +31, Max HP +14%, Max MP +10%, P./ M. Atk. +6%, Atk. Spd. +3%, Casting Spd. +2%. Can be upgraded to higher level with Talisman of Authority Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -950,7 +969,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="7" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91068" name="Noble Talisman of Authority Lv. 3" type="Armor">
 		<!-- P./ M. Def. +36, Max HP +14%, Max MP +12%, P./ M. Atk. +7%, Atk. Spd. +4%, Casting Spd. +3%. Can be upgraded to higher level with Talisman of Authority Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -960,7 +982,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="8" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91069" name="Noble Talisman of Authority Lv. 4" type="Armor">
 		<!-- P./ M. Def. +41, Max HP +18%, Max MP +14%, P./ M. Atk. +8%, Atk. Spd. +4%, Casting Spd. +3%. Can be upgraded to higher level with Talisman of Authority Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -970,7 +995,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="9" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91070" name="Noble Talisman of Authority Lv. 5" type="Armor">
 		<!-- P./ M. Def. +46, Max HP +18%, Max MP +14%, P./ M. Atk. +10%, Atk Spd. +5%, Casting Spd. +3%. Can be upgraded to Radiant Talisman of Authority by Blacksmith Baggins in Giran. The effect doesn't stack if two identical talismans are equipped. -->
@@ -980,7 +1008,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="10" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91071" name="Radiant Talisman of Authority Lv. 1" type="Armor">
 		<!-- P./ M. Def. +51, Max HP +18%, Max MP +14%, P./ M. Atk. +10%, Atk Spd. +6%, Casting Spd. +4%, P. Critical Rate +10, M. Critical Rate +20, P. Skill Power +5%, M. Skill Power +10%. Activates Power of Shunaiman Lv. 1. Can be upgraded to higher level with Talisman of Authority Fragment. Does not disappear in case of failure. The effect doesn't stack if two identical talismans are equipped. -->
@@ -990,7 +1021,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="11" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91072" name="Radiant Talisman of Authority Lv. 2" type="Armor">
 		<!-- P./ M. Def. +55, Max HP +20%, Max MP +16%, P./ M. Atk. +11%, Atk Spd. +7%, Casting Spd. +5%, P. Critical Rate +10, M. Critical Rate +20, P. Skill Power +6%, M. Skill Power +11%. Activates Power of Shunaiman Lv. 1. Can be upgraded to higher level with Talisman of Authority Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -1000,7 +1034,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="12" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91073" name="Radiant Talisman of Authority Lv. 3" type="Armor">
 		<!-- P./ M. Def. +59, Max HP +22%, Max MP +18%, P./ M. Atk. +12%, Atk Spd. +8%, Casting Spd. +6%, P. Critical Rate +20, M. Critical Rate +30, P. Skill Power +7%, M. Skill Power +12%. Activates Power of Shunaiman Lv. 1. Can be upgraded to higher level with Talisman of Authority Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -1010,7 +1047,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="13" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91074" name="Radiant Talisman of Authority Lv. 4" type="Armor">
 		<!-- P./ M. Def. +63, Max HP +24%, Max MP +20%, P./ M. Atk. +13%, Atk Spd. +10%, Casting Spd. +7%, P. Critical Rate +20, M. Critical Rate +30, P. Skill Power +8%, M. Skill Power +13%. Activates Power of Shunaiman Lv. 1. Can be upgraded to higher level with Talisman of Authority Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -1020,7 +1060,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="14" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91075" name="Radiant Talisman of Authority Lv. 5" type="Armor">
 		<!-- P./ M. Def. +70, Max HP +30%, Max MP +25%, P./ M. Atk. +15%, Atk Spd. +15%, Casting Spd. +10%, P. Critical Rate +30, M. Critical Rate +40, P. Skill Power +15%, M. Skill Power +22%. Activates Power of Shunaiman Lv. 2. The effect doesn't stack if two identical talismans are equipped. -->
@@ -1030,7 +1073,10 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="bodypart" val="deco1" />
+		<set name="bodypart" val="talisman" />
+		<skills>
+			<skill id="54021" level="15" /> <!-- talisman of power-->
+		</skills>
 	</item>
 	<item id="91076" name="Venir's Talisman Fragment" type="EtcItem">
 		<!-- Required to upgrade Venir's Talisman. In case of failure the talisman level value drops to 1. Venir's Talisman can be purchased from Pona in Giran. -->
