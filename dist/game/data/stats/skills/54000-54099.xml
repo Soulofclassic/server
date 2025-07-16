@@ -754,11 +754,11 @@
 			</effect>
 			<effect name="MpVampiricAttack">
 				<amount>
-					<value level="6">75</value>
-					<value level="7">150</value>
-					<value level="8">225</value>
-					<value level="9">300</value>
-					<value level="10">600</value>
+					<value level="6">0.5</value>
+					<value level="7">1</value>
+					<value level="8">1.5</value>
+					<value level="9">2</value>
+					<value level="10">4</value>
 				</amount>
 				<chance>80</chance>
 			</effect>
@@ -827,7 +827,7 @@
 					<value level="9">4</value>
 					<value level="10">9</value>
 				</amount>
-				<chancd>80</chancd>
+				<chancd>80</chance>
 			</effect>
 		</effects>
 	</skill>
