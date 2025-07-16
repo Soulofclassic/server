@@ -792,7 +792,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="material" val="PAPER" />
+		<set name="material" val="CRYSTAL" />
 	</item>
 	<item id="71079" name="Bracelet of Power" type="Armor">
 		<!-- Unlocks 5 talisman slots. HP/ MP Recovery Bonus +15%, P./ M. Accuracy +2, Weight Limit +10,000. -->
@@ -813,7 +813,7 @@
 		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
-		<set name="is_stackable" val="true" />
+		<set name="enchant_enabled" val="true" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
