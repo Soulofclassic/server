@@ -817,7 +817,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<passive_skill id="54021" level="1" /> <!-- talisman of power-->
+			<skill id="54021" level="1" /> <!-- talisman of power-->
 		</skills>
 	</item>
 	<item id="71081" name="Talisman of Power - Lv. 2" type="Armor">
