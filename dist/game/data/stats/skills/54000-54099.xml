@@ -792,7 +792,7 @@
 			<value level="4">icon.skill0000</value>
 			<value level="5">icon.skill0000</value>
 		</icon>
-		<operateType>A2</operateType>
+		<operateType>P</operateType>
 		<effects>
 			<effect name="VampiricAttack">
 				<amount>
@@ -803,7 +803,6 @@
 					<value level="5">9</value>
 				</amount>
 				<chance>80</chance>
-				<reuseDelay>60000</reuseDelay>
 			</effect>
 		</effects>
 	</skill>
