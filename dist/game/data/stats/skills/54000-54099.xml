@@ -1019,7 +1019,7 @@
 					<value level="9">4</value>
 					<value level="10">9</value>
 				</amount>
-				<chancd>80</chance>
+				<chance>80</chance>
 			</effect>
 		</effects>
 	</skill>
