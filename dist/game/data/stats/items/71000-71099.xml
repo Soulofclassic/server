@@ -810,13 +810,14 @@
 		<set name="icon" val="icon.sayhas_talisman_g_Lv1" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="54021" level="1" /> <!-- talisman of power-->
+			<passive_skill id="54021" level="1" /> <!-- talisman of power-->
 		</skills>
 	</item>
 	<item id="71081" name="Talisman of Power - Lv. 2" type="Armor">
@@ -824,6 +825,7 @@
 		<set name="icon" val="icon.sayhas_talisman_g_Lv2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -838,6 +840,7 @@
 		<set name="icon" val="icon.sayhas_talisman_g_Lv3" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -852,6 +855,7 @@
 		<set name="icon" val="icon.sayhas_talisman_g_Lv4" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -866,6 +870,7 @@
 		<set name="icon" val="icon.sayhas_talisman_g_lv5" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -880,6 +885,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pve_Lv1" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -894,6 +900,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pve_Lv2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -908,6 +915,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pve_Lv3" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -922,6 +930,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pve_Lv4" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -936,6 +945,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pve_lv5" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -950,6 +960,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pvp_Lv1" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -964,6 +975,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pvp_Lv2" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -978,6 +990,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pvp_Lv3" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="enchant_enabled" val="true" />
@@ -992,6 +1005,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pvp_Lv4" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
@@ -1005,6 +1019,7 @@
 		<set name="icon" val="icon.sayhas_talisman_pvp_lv5" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="talisman" />
+		<set name="weight" val="120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
