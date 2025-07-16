@@ -765,7 +765,7 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-		</effect>
+		</effects>
 	</skill>
 	<skill id="54036" toLevel="5" name="Anakim Recovery">
 		<!-- Level 1: Recovers 75 MP when skills are used. -->
