@@ -1743,6 +1743,56 @@
 		<!-- Inventory Slots +6, Weight Limit +7000, STR +1, INT +1, HP Recovery Bonus +2.31, MP Recovery Bonus +1.54, CP Recovery Bonus +3.07, Max HP/ MP/ CP +10%, HP Recovery Potions' Effect +100, P./ M. Critical Damage +4%. -->
 		<icon>icon.bm_vallakas_belt</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="WeightLimit">
+				<amount>7000</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="EnlargeSlot">
+				<amount>6</amount>
+			</effect>
+			<effect name="HpRegen">
+				<amount>2.31</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>1.54</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CpRegen">
+				<amount>3.07</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxCp">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>4</amount>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>4</amount>
+			</effect>
+			<effect name="AdditionalPotionHp">
+				<amount>100</amount>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="45040" toLevel="6" name="Dragon Pendant Effect Lv. 1">
 		<!-- Level 1: M. Def. +14. -->

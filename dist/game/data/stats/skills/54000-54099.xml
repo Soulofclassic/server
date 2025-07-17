@@ -890,16 +890,16 @@
 		</effects>
 	</skill>
 	<skill id="54034" toLevel="10" name="Anakim's Power">
-		<!-- Level 1: When using the Recharge skill, MP Recovery Bonus +5, M. Atk. +1%. -->
-		<!-- Level 2: When using the Recharge skill, MP Recovery Bonus +10, M. Atk. +1%. -->
-		<!-- Level 3: When using the Recharge skill, MP Recovery Bonus +15, M. Atk. +1%. -->
-		<!-- Level 4: When using the Recharge skill, MP Recovery Bonus +20, M. Atk. +2%. -->
-		<!-- Level 5: When using the Recharge skill, MP Recovery Bonus +25, M. Atk. +2%. -->
-		<!-- Level 6: When using the Recharge skill, MP Recovery Bonus +35, M. Atk. +2%, mpvam 1% -->
-		<!-- Level 7: When using the Recharge skill, MP Recovery Bonus +45, M. Atk. +5%, mpvamp 2% -->
-		<!-- Level 8: When using the Recharge skill, MP Recovery Bonus +55, M. Atk. +8%, mpvamp 3% -->
-		<!-- Level 9: When using the Recharge skill, MP Recovery Bonus +70, M. Atk. +11%, mpvamp 4% -->
-		<!-- Level 10: When using the Recharge skill, MP Recovery Bonus +90, M. Atk. +15%, mpvamp 5%. -->
+		<!-- Level 1: MP Recovery +5, M. Atk. +1%. -->
+		<!-- Level 2: MP Recovery +10, M. Atk. +1%. -->
+		<!-- Level 3: MP Recovery +15, M. Atk. +1%. -->
+		<!-- Level 4: MP Recovery +20, M. Atk. +2%. -->
+		<!-- Level 5: MP Recovery +25, M. Atk. +2%. -->
+		<!-- Level 6: MP Recovery +35, M. Atk. +2%, MpVamp 1% -->
+		<!-- Level 7: MP Recovery +45, M. Atk. +5%, MpVamp 2% -->
+		<!-- Level 8: MP Recovery +55, M. Atk. +8%, MpVamp 3% -->
+		<!-- Level 9: MP Recovery +70, M. Atk. +11%, MpVamp 4% -->
+		<!-- Level 10: MP Recovery +90, M. Atk. +15%, MpVamp 5%. -->
 		<icon>
 			<value level="1">icon.etc_water_rune_i00</value>
 			<value level="2">icon.etc_water_rune_i00</value>
@@ -963,9 +963,9 @@
 		<!-- Level 3: Hp regen +3%, P. Atk. +1%. -->
 		<!-- Level 4: Hp regen +4%, P. Atk. +2%. -->
 		<!-- Level 5: Hp regen +5%, P. Atk. +2%. -->
-		<!-- Level 6: Hp regen +5%, P. Atk. +2%, vamp 1%. -->
-		<!-- Level 7: Hp regen +7%, P. Atk. +5%, vamp 2% -->
-		<!-- Level 8: Hp regen +9%, P. Atk. +8%, vamp 3% -->
+		<!-- Level 6: Hp regen +5%, P. Atk. +2%, Vamp +1% -->
+		<!-- Level 7: Hp regen +7%, P. Atk. +5%, Vamp 2% -->
+		<!-- Level 8: Hp regen +9%, P. Atk. +8%, Vamp 3% -->
 		<!-- Level 9: Hp regen +12%, P. Atk. +11%, vamp 4% -->
 		<!-- Level 10: Hp regen +15%, P. Atk. +15%, vamp 5% -->
 		<icon>icon.etc_fire_rune_i00</icon>
