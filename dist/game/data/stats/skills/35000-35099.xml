@@ -119,11 +119,9 @@
 			</effect>
 			<effect name="ExpModify">
 				<amount>30</amount>
-				<mode>PER</mode>
 			</effect>
 			<effect name="SpModify">
 				<amount>30</amount>
-				<mode>PER</mode>
 			</effect>
 			<effect name="PhysicalAttack">
 				<amount>80</amount>
