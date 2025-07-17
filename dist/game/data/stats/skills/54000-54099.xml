@@ -1022,7 +1022,7 @@
 				<!-- Recover HP -->
 				<magicTypes>0;1</magicTypes>
 				<skillId>54037</skillId> <!-- Lilith Recovery -->
-				<chance>10</chance>
+				<chance>100</chance>
 				<skillLevel>
 					<value level="6">1</value>
 					<value level="7">2</value>
