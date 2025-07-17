@@ -67,6 +67,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="true" />
 		<set name="enchant_limit" val="10" />
+		<skills>
+			<skill id="35005" level="1" /> <!-- land dragon pendant-->
+		</skills>
 		<stats>
 			<stat type="pDef">28</stat>
 		</stats>
