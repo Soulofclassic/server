@@ -1026,7 +1026,6 @@
 		<set name="is_stackable" val="true" />
 		<skills>
 			<skill id="54035" level="6" /> <!-- Lilith's Power -->
-			<skill id="54037" level="6" /> <!-- lilith's recovery -->
 		</skills>
 	</item>
 	<item id="91179" name="Lilith's Rune - Stage 7" type="EtcItem">
@@ -1038,7 +1037,6 @@
 		<set name="is_stackable" val="true" />
 		<skills>
 			<skill id="54035" level="7" /> <!-- Lilith's Power -->
-			<skill id="54037" level="7" /> <!-- lilith's recovery -->
 		</skills>
 	</item>
 	<item id="91180" name="Lilith's Rune - Stage 8" type="EtcItem">
@@ -1050,7 +1048,6 @@
 		<set name="is_stackable" val="true" />
 		<skills>
 			<skill id="54035" level="8" /> <!-- Lilith's Power -->
-			<skill id="54037" level="8" /> <!-- lilith's recovery -->
 		</skills>
 	</item>
 	<item id="91181" name="Lilith's Rune - Stage 9" type="EtcItem">
@@ -1062,7 +1059,6 @@
 		<set name="is_stackable" val="true" />
 		<skills>
 			<skill id="54035" level="9" /> <!-- Lilith's Power -->
-			<skill id="54037" level="9" /> <!-- lilith's recovery -->
 		</skills>
 	</item>
 	<item id="91182" name="Lilith's Rune - Stage 10" type="EtcItem">
@@ -1074,7 +1070,6 @@
 		<set name="is_stackable" val="true" />
 		<skills>
 			<skill id="54035" level="10" /> <!-- Lilith's Power -->
-			<skill id="54037" level="10" /> <!-- lilith's recovery -->
 		</skills>
 	</item>
 	<item id="91183" name="Wind Treasure Chest" type="EtcItem">

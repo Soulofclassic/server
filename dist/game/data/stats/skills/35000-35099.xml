@@ -89,7 +89,7 @@
 				<type>ENEMY_ALL</type>
 			</effect>
 			<effect name="DamageShieldResist">
-				<amount>-20</amount>
+				<amount>20</amount>
 			</effect>
 		</effects>
 	</skill>

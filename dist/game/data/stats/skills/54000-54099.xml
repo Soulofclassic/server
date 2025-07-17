@@ -895,11 +895,11 @@
 		<!-- Level 3: When using the Recharge skill, MP Recovery Bonus +15, M. Atk. +1%. -->
 		<!-- Level 4: When using the Recharge skill, MP Recovery Bonus +20, M. Atk. +2%. -->
 		<!-- Level 5: When using the Recharge skill, MP Recovery Bonus +25, M. Atk. +2%. -->
-		<!-- Level 6: When using the Recharge skill, MP Recovery Bonus +35, M. Atk. +2%, recovers 75 MP when damage is dealt or skill used. -->
-		<!-- Level 7: When using the Recharge skill, MP Recovery Bonus +45, M. Atk. +5%, recovers 150 MP when damage is dealt or skill used. -->
-		<!-- Level 8: When using the Recharge skill, MP Recovery Bonus +55, M. Atk. +8%, recovers 225 MP when damage is dealt or skill used. -->
-		<!-- Level 9: When using the Recharge skill, MP Recovery Bonus +70, M. Atk. +11%, recovers 300 MP when damage is dealt or skill used. -->
-		<!-- Level 10: When using the Recharge skill, MP Recovery Bonus +90, M. Atk. +15%, recovers 600 MP when damage is dealt or skill used. -->
+		<!-- Level 6: When using the Recharge skill, MP Recovery Bonus +35, M. Atk. +2%, mpvam 1% -->
+		<!-- Level 7: When using the Recharge skill, MP Recovery Bonus +45, M. Atk. +5%, mpvamp 2% -->
+		<!-- Level 8: When using the Recharge skill, MP Recovery Bonus +55, M. Atk. +8%, mpvamp 3% -->
+		<!-- Level 9: When using the Recharge skill, MP Recovery Bonus +70, M. Atk. +11%, mpvamp 4% -->
+		<!-- Level 10: When using the Recharge skill, MP Recovery Bonus +90, M. Atk. +15%, mpvamp 5%. -->
 		<icon>
 			<value level="1">icon.etc_water_rune_i00</value>
 			<value level="2">icon.etc_water_rune_i00</value>
@@ -946,12 +946,13 @@
 			</effect>
 			<effect name="MpVampiricAttack">
 				<amount>
-					<value level="6">0.5</value>
-					<value level="7">1</value>
-					<value level="8">1.5</value>
-					<value level="9">2</value>
-					<value level="10">4</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
 				</amount>
+				<mode>PER</mode>
 				<chance>80</chance>
 			</effect>
 		</effects>
@@ -962,11 +963,11 @@
 		<!-- Level 3: Hp regen +3%, P. Atk. +1%. -->
 		<!-- Level 4: Hp regen +4%, P. Atk. +2%. -->
 		<!-- Level 5: Hp regen +5%, P. Atk. +2%. -->
-		<!-- Level 6: Hp regen +5%, P. Atk. +2%, restores 100 HP when striking. -->
-		<!-- Level 7: Hp regen +7%, P. Atk. +5%, restores 200 HP when striking. -->
-		<!-- Level 8: Hp regen +9%, P. Atk. +8%, restores 300 HP when striking. -->
-		<!-- Level 9: Hp regen +12%, P. Atk. +11%, restores 400 HP when striking. -->
-		<!-- Level 10: Hp regen +15%, P. Atk. +15%, restores 900 HP when basic attack used. -->
+		<!-- Level 6: Hp regen +5%, P. Atk. +2%, vamp 1%. -->
+		<!-- Level 7: Hp regen +7%, P. Atk. +5%, vamp 2% -->
+		<!-- Level 8: Hp regen +9%, P. Atk. +8%, vamp 3% -->
+		<!-- Level 9: Hp regen +12%, P. Atk. +11%, vamp 4% -->
+		<!-- Level 10: Hp regen +15%, P. Atk. +15%, vamp % -->
 		<icon>icon.etc_fire_rune_i00</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1000,6 +1001,17 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
+			<effect name="VampiricAttack">
+				<amount>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+				<chance>50</chance>
+			</effect>	
 		</effects>
 	</skill>
 	<skill id="54036" toLevel="5" name="Anakim Recovery">
