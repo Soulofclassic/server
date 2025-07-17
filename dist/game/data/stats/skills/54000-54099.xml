@@ -1010,7 +1010,7 @@
 					<value level="10">5</value>
 				</amount>
 				<mode>PER</mode>
-				<chance>50</chance>
+				<chance>80</chance>
 			</effect>	
 		</effects>
 	</skill>
