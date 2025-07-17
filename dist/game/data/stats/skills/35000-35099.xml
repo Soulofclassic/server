@@ -110,6 +110,8 @@
 		<!-- Level 11: M. Def. +24, Acquired XP/ SP +30%, P./ M. Atk. +80, P./ M. Critical Damage +10%, Damage Reflection Resistance +10%. -->
 		<icon>icon.bm_pendant_pve</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>24</amount>
