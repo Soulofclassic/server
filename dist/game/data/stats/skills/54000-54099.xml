@@ -957,16 +957,16 @@
 		</effects>
 	</skill>
 	<skill id="54035" toLevel="10" name="Lilith's Power">
-		<!-- Level 1: Received Healing +1%, P. Atk. +1%. -->
-		<!-- Level 2: Received Healing +2%, P. Atk. +1%. -->
-		<!-- Level 3: Received Healing +3%, P. Atk. +1%. -->
-		<!-- Level 4: Received Healing +4%, P. Atk. +2%. -->
-		<!-- Level 5: Received Healing +5%, P. Atk. +2%. -->
-		<!-- Level 6: Received Healing +5%, P. Atk. +2%, restores 100 HP when striking. -->
-		<!-- Level 7: Received Healing +7%, P. Atk. +5%, restores 200 HP when striking. -->
-		<!-- Level 8: Received Healing +9%, P. Atk. +8%, restores 300 HP when striking. -->
-		<!-- Level 9: Received Healing +12%, P. Atk. +11%, restores 400 HP when striking. -->
-		<!-- Level 10: Received Healing +15%, P. Atk. +15%, restores 900 HP when basic attack used. -->
+		<!-- Level 1: Hp regen +1%, P. Atk. +1%. -->
+		<!-- Level 2: Hp regen +2%, P. Atk. +1%. -->
+		<!-- Level 3: Hp regen +3%, P. Atk. +1%. -->
+		<!-- Level 4: Hp regen +4%, P. Atk. +2%. -->
+		<!-- Level 5: Hp regen +5%, P. Atk. +2%. -->
+		<!-- Level 6: Hp regen +5%, P. Atk. +2%, restores 100 HP when striking. -->
+		<!-- Level 7: Hp regen +7%, P. Atk. +5%, restores 200 HP when striking. -->
+		<!-- Level 8: Hp regen +9%, P. Atk. +8%, restores 300 HP when striking. -->
+		<!-- Level 9: Hp regen +12%, P. Atk. +11%, restores 400 HP when striking. -->
+		<!-- Level 10: Hp regen +15%, P. Atk. +15%, restores 900 HP when basic attack used. -->
 		<icon>icon.etc_fire_rune_i00</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1004,7 +1004,7 @@
 				<!-- Recover HP -->
 				<attackerType>Creature</attackerType>
 				<minDamage>1</minDamage>
-				<chance>30</chance>
+				<chance>100</chance>
 				<targetType>SELF</targetType>
 				<allowSkillAttack>true</allowSkillAttack>
 				<allowNormalAttack>true</allowNormalAttack>
