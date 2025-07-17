@@ -966,7 +966,7 @@
 		<set name="is_freightable" val="true" />
 		<set name="bodypart" val="underwear" />
 		<skills>
-			<skill id="35005" level="11" /> <!-- land dragon pendant-->
+			<skill id="35005" level="1" /> <!-- land dragon pendant-->
 		</skills>
 		<stats>
 			<stat type="pDef">55</stat>
