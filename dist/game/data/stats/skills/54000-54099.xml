@@ -1022,7 +1022,7 @@
 				<!-- Recover HP -->
 				<magicTypes>0;1</magicTypes>
 				<skillId>54037</skillId> <!-- Lilith Recovery -->
-				<chance>100</chance>
+				<chance>50</chance>
 				<skillLevel>
 					<value level="6">1</value>
 					<value level="7">2</value>
@@ -1058,7 +1058,7 @@
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effectPoint>1</effectPoint>
-		<reuseDelay>1</reuseDelay>
+		<reuseDelay>60000</reuseDelay>
 		<effects>
 			<effect name="Hp">
 				<amount>
