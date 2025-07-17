@@ -1352,7 +1352,7 @@
 			<stat type="pDef">14</stat>
 		</stats>
 		<skills>
-			<skill id="45039" level="1" /> <!-- Fire Dragon Belt -->
+			<skill id="35047" level="1" /> <!-- Fire Dragon Belt -->
 		</skills>
 	</item>
 	<item id="90498" name="Mysterious Jewelry Box" type="EtcItem">
