@@ -1000,38 +1000,6 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="TriggerSkillByDamageDealt">
-				<!-- Recover HP -->
-				<attackerType>Creature</attackerType>
-				<minDamage>1</minDamage>
-				<chance>100</chance>
-				<targetType>SELF</targetType>
-				<allowSkillAttack>true</allowSkillAttack>
-				<allowNormalAttack>true</allowNormalAttack>
-				<allowWeapons>ALL</allowWeapons>
-				<skillId>54037</skillId> <!-- Lilith Recovery -->
-				<skillLevel>
-					<value level="6">1</value>
-					<value level="7">2</value>
-					<value level="8">3</value>
-					<value level="9">4</value>
-					<value level="10">5</value>
-				</skillLevel>
-			</effect>
-			<effect name="TriggerSkillByMagicType" fromLevel="6" toLevel="10">
-				<!-- Recover HP -->
-				<magicTypes>0;1</magicTypes>
-				<skillId>54037</skillId> <!-- Lilith Recovery -->
-				<chance>50</chance>
-				<skillLevel>
-					<value level="6">1</value>
-					<value level="7">2</value>
-					<value level="8">3</value>
-					<value level="9">4</value>
-					<value level="10">5</value>
-				</skillLevel>
-				<targetType>SELF</targetType>
-			</effect>
 		</effects>
 	</skill>
 		</effects>
