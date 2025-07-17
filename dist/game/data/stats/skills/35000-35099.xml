@@ -134,7 +134,7 @@
 			</effect>
 			<effect name="CriticalDamage">
 				<amount>10</amount>
-				<mode>DIFF</mode>
+				<mode>PER</mode>
 			</effect>
 			<effect name="MagicCriticalDamage">
 				<amount>10</amount>
