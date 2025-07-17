@@ -951,6 +951,8 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="bodypart" val="underwear" />
+		<skills>
+			<skill id="35007" /> <!-- fire dragon pendant +1 (blessed fire dragon pendant!!!) -->
 		<stats>
 			<stat type="pDef">55</stat>
 		</stats>
@@ -966,7 +968,7 @@
 		<set name="is_freightable" val="true" />
 		<set name="bodypart" val="underwear" />
 		<skills>
-			<skill id="35005" level="1" /> <!-- land dragon pendant-->
+			<skill id="35005" level="1" /> <!-- land dragon pendant +1 (blessed land dragon pendant!!!) -->
 		</skills>
 		<stats>
 			<stat type="pDef">55</stat>

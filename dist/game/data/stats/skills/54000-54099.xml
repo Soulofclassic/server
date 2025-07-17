@@ -967,7 +967,7 @@
 		<!-- Level 7: Hp regen +7%, P. Atk. +5%, vamp 2% -->
 		<!-- Level 8: Hp regen +9%, P. Atk. +8%, vamp 3% -->
 		<!-- Level 9: Hp regen +12%, P. Atk. +11%, vamp 4% -->
-		<!-- Level 10: Hp regen +15%, P. Atk. +15%, vamp % -->
+		<!-- Level 10: Hp regen +15%, P. Atk. +15%, vamp 5% -->
 		<icon>icon.etc_fire_rune_i00</icon>
 		<operateType>P</operateType>
 		<effects>
