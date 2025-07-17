@@ -652,9 +652,6 @@
 		<stats>
 			<stat type="pDef">40</stat>
 		</stats>
-		<skills>
-			<skill id="35007" level="6" /> <!-- Fire Dragon Pendant +6 -->
-		</skills>
 	</item>
 	<item id="90159" name="Talisman of Battle - Liberate" type="Armor">
 		<!-- Cancels all debuffs. Cooldown: 10 min. -->
