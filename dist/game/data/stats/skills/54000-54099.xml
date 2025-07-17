@@ -104,7 +104,7 @@
 		<icon>icon.agathion_sag_star_1</icon>
 		<operateType>P</operateType>
 	</skill>
-	<skill id="54004" toLevel="10" name="Agathion Virgo">
+	<skill id="54004" toLevel="11" name="Agathion Virgo">
 		<!-- Level 1: M. Def. +1%. M. Def. increases when Agathion is upgraded. -->
 		<!-- Level 2: M. Def. +1.5%. -->
 		<!-- Level 3: M. Def. +2%. -->
@@ -152,11 +152,12 @@
 					<value level="8">8</value>
 					<value level="9">14</value>
 					<value level="10">22</value>
+					<value level="11">22</value>
 				</DERANGEMENT>
 			</effect>
 		</effects>
 	</skill>
-	<skill id="54005" toLevel="22" name="Agathion Aquarius">
+	<skill id="54005" toLevel="11" name="Agathion Aquarius">
 		<!-- Level 1: M. Atk. +1%. M. Atk. increases when Agathion is upgraded. -->
 		<!-- Level 2: M. Atk. +1.5%. -->
 		<!-- Level 3: M. Atk. +2%. -->
@@ -181,6 +182,42 @@
 		<!-- Level 22: M. Atk. +35%, Hold/ Sleep Atk. Rate +60%. -->
 		<icon>icon.agathion_aqu_star_1</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1.5</value>
+					<value level="3">2</value>
+					<value level="4">2.5</value>
+					<value level="5">3</value>
+					<value level="6">4</value>
+					<value level="7">5</value>
+					<value level="8">6</value>
+					<value level="9">7</value>
+					<value level="10">7</value>
+					<value level="11">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AttackTrait">
+				<HOLD>
+					<value level="7">5</value>
+					<value level="8">8</value>
+					<value level="9">14</value>
+					<value level="10">22</value>
+					<value level="11">22</value>
+				</HOLD>
+			</effect>
+			<effect name="AttackTrait">
+				<SLEEP>
+					<value level="7">5</value>
+					<value level="8">8</value>
+					<value level="9">14</value>
+					<value level="10">22</value>
+					<value level="11">22</value>
+				</SLEEP>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="54006" toLevel="22" name="Agathion Capricorn">
 		<!-- Level 1: M. Critical Rate +1%. M. Critical Rate increases when Agathion is upgraded. -->
