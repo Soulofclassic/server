@@ -1545,6 +1545,7 @@
 				<slot>ALL</slot>
 			</effect>
 		</effects>
+	</skill>
 	<skill id="55495" toLevel="1" name="Fortune Brooch">
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
