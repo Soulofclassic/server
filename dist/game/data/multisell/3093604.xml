@@ -19,4 +19,24 @@
 		<ingredient count="500000" id="57" /> <!-- Adena -->
 		<production count="1" id="90888" /> <!-- Agathion Bracelet - Lv. 1 -->
 	</item>
+	<item>
+		<ingredient count="5000000" id="57" /> <!-- Adena -->
+		<ingredient count="1" id="90888" /> <!-- Agathion Bracelet - Lv. 1  -->
+		<production count="1" id="90889" /> <!-- Agathion Bracelet - Lv. 2 -->
+	</item>
+	<item>
+		<ingredient count="10000000" id="57" /> <!-- Adena -->
+		<ingredient count="1" id="90889" /> <!-- Agathion Bracelet - Lv. 2  -->
+		<production count="1" id="90890" /> <!-- Agathion Bracelet - Lv. 3 -->
+	</item>
+	<item>
+		<ingredient count="200000000" id="57" /> <!-- Adena -->
+		<ingredient count="1" id="90890" /> <!-- Agathion Bracelet - Lv. 3  -->
+		<production count="1" id="90891" /> <!-- Agathion Bracelet - Lv. 4 -->
+	</item>
+	<item>
+		<ingredient count="400000000" id="57" /> <!-- Adena -->
+		<ingredient count="1" id="90890" /> <!-- Agathion Bracelet - Lv. 4  -->
+		<production count="1" id="91161" /> <!-- Agathion Bracelet - Lv. 5 -->
+	</item>
 </list>
