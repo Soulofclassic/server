@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="50912" toLevel="6" name="Talisman Bracelet">
-		<!-- Level 1: Activates 1 talisman slot. -->
-		<!-- Level 2: Activates 1 talisman slot. -->
-		<!-- Level 3: Activates 1 talisman slot. -->
+		<!-- Level 1: Activates 1 talisman slot. <Attributes>. HP/ MP Recovery Rate +1%. -->
+		<!-- Level 2: Activates 2 talisman slot. <Attributes>. HP/ MP Recovery Rate +3%. -->
+		<!-- Level 3: Activates 3 talisman slot. <Attributes>. HP/ MP Recovery Rate +5%.  -->
 		<!-- Level 4: Activates 4 talisman slots. <Attributes>. HP/ MP Recovery Rate +7%, P. Accuracy +1, M. Accuracy +1, Weight Limit +7000. -->
-		<!-- Level 5: Activates 5 talisman slots. <Attributes>. HP/ MP Recovery Rate +10%, P. Accuracy +1, M. Accuracy +1, Weight Limit +7000. -->
-		<!-- Level 6: Activates 6 talisman slots. <Attributes>. HP/ MP Recovery Rate +15%, P. Accuracy +2, M. Accuracy +2, Weight Limit +7000. -->
+		<!-- Level 5: Activates 5 talisman slots. <Attributes>. HP/ MP Recovery Rate +10%, P. Accuracy +1, M. Accuracy +1, Weight Limit +9000. -->
+		<!-- Level 6: Activates 6 talisman slots. <Attributes>. HP/ MP Recovery Rate +15%, P. Accuracy +2, M. Accuracy +2, Weight Limit +11000. -->
 		<icon>
 			<value level="1">icon.dimension_bracelet_i00</value>
 			<value level="2">icon.dimension_bracelet_i01</value>
@@ -30,6 +30,9 @@
 			</effect>
 			<effect name="MpRegen">
 				<amount>
+					<value level="1">1</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
 					<value level="4">7</value>
 					<value level="5">10</value>
 					<value level="6">15</value>
@@ -38,6 +41,9 @@
 			</effect>
 			<effect name="HpRegen">
 				<amount>
+					<value level="1">1</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
 					<value level="4">7</value>
 					<value level="5">10</value>
 					<value level="6">15</value>
