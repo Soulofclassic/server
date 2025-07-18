@@ -98,23 +98,9 @@
 			<value level="6">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
 			<value level="7">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
 		</icon>
-		<operateType>A1</operateType>
-		<targetType>SELF</targetType>
-		<affectScope>SINGLE</affectScope>
-		<effectPoint>100</effectPoint>
-		<hitTime>1000</hitTime>
-		<isMagic>2</isMagic>
-		<magicCriticalRate>5</magicCriticalRate>
-		<mpConsume>50</mpConsume>
-		<reuseDelay>600000</reuseDelay>
-		<staticReuse>true</staticReuse>
-		<effects>
-			<effect name="DispelByCategory">
-				<slot>DEBUFF</slot>
-				<rate>100</rate>
-				<max>10</max>
-			</effect>
-		</effects>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>300000</reuseDelay>
+		<reuseDelayGroup>18567</reuseDelayGroup>
 	</skill>
 	<skill id="18571" toLevel="1" name="Hero's Basics - I">
 		<!-- Acquired XP/ SP +3%. -->

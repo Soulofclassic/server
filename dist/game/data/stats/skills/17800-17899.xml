@@ -60,6 +60,13 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount><value level="10">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
 		</effects>
 	</skill>
 	<skill id="17818" toLevel="4" name="Sapphire">
@@ -118,6 +125,11 @@
 					<value level="8">6</value>
 					<value level="9">10</value>
 					<value level="10">14</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount><value level="10">10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
