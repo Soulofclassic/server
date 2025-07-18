@@ -1321,7 +1321,7 @@
 	</item>
 	<item id="90891" name="Agathion Bracelet - Lv. 4" type="Armor">
 		<!-- Opens up 4 Agathion slots. STR/ INT/ CON/ MEN +1. Cannot be dropped. Mental/ Stun/ Sleep/ Paralysis Resistance +5%. -->
-		<set name="icon" val="icon.high_agathion_bracelet_i01" />
+		<set name="icon" val="icon.high_agathion_bracelet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="immediate_effect" val="true" />
