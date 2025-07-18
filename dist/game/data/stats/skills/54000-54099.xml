@@ -152,11 +152,11 @@
 			</effect>
 			<effect name="Reuse">
 				<amount>
-					<value level="7">1</value>
-					<value level="8">3</value>
-					<value level="9">5</value>
-					<value level="10">7</value>
-					<value level="11">10</value>
+					<value level="7">-1</value>
+					<value level="8">-3</value>
+					<value level="9">-5</value>
+					<value level="10">-7</value>
+					<value level="11">-10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -206,11 +206,11 @@
 			</effect>
 			<effect name="Reuse">
 				<amount>
-					<value level="7">1</value>
-					<value level="8">3</value>
-					<value level="9">5</value>
-					<value level="10">7</value>
-					<value level="11">10</value>
+					<value level="7">-1</value>
+					<value level="8">-3</value>
+					<value level="9">-5</value>
+					<value level="10">-7</value>
+					<value level="11">-10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -378,11 +378,11 @@
 			</effect>
 			<effect name="Reuse">
 				<amount>
-					<value level="7">1</value>
-					<value level="8">3</value>
-					<value level="9">5</value>
-					<value level="10">7</value>
-					<value level="11">10</value>
+					<value level="7">-1</value>
+					<value level="8">-3</value>
+					<value level="9">-5</value>
+					<value level="10">-7</value>
+					<value level="11">-10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -432,11 +432,11 @@
 			</effect>
 			<effect name="Reuse">
 				<amount>
-					<value level="7">2</value>
-					<value level="8">4</value>
-					<value level="9">6</value>
-					<value level="10">8</value>
-					<value level="11">12</value>
+					<value level="7">-2</value>
+					<value level="8">-4</value>
+					<value level="9">-6</value>
+					<value level="10">-8</value>
+					<value level="11">-12</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
