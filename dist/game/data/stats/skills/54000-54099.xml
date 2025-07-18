@@ -38,7 +38,7 @@
 					<value level="8">5</value>
 					<value level="9">6</value>
 					<value level="10">8</value>
-					<value level="11">8</value>
+					<value level="11">12</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -48,8 +48,9 @@
 					<value level="8">8</value>
 					<value level="9">14</value>
 					<value level="10">22</value>
-					<value level="11">22</value>
+					<value level="11">30</value>
 				</SHOCK>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -91,7 +92,7 @@
 					<value level="8">5</value>
 					<value level="9">6</value>
 					<value level="10">7</value>
-					<value level="11">7</value>
+					<value level="11">10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -101,8 +102,9 @@
 					<value level="8">8</value>
 					<value level="9">14</value>
 					<value level="10">22</value>
-					<value level="11">22</value>
+					<value level="11">30</value>
 				</PARALYZE>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -144,7 +146,7 @@
 					<value level="8">7</value>
 					<value level="9">8</value>
 					<value level="10">12</value>
-					<value level="11">12</value>
+					<value level="11">18</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -154,8 +156,9 @@
 					<value level="8">3</value>
 					<value level="9">5</value>
 					<value level="10">7</value>
-					<value level="11">7</value>
+					<value level="11">10</value>
 				</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -197,7 +200,7 @@
 					<value level="8">30</value>
 					<value level="9">40</value>
 					<value level="10">50</value>
-					<value level="11">50</value>
+					<value level="11">70</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -207,8 +210,9 @@
 					<value level="8">3</value>
 					<value level="9">5</value>
 					<value level="10">7</value>
-					<value level="11">7</value>
+					<value level="11">10</value>
 				</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -250,7 +254,7 @@
 					<value level="8">6</value>
 					<value level="9">7</value>
 					<value level="10">8</value>
-					<value level="11">8</value>
+					<value level="11">12</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -260,8 +264,9 @@
 					<value level="8">8</value>
 					<value level="9">14</value>
 					<value level="10">22</value>
-					<value level="11">22</value>
+					<value level="11">30</value>
 				</DERANGEMENT>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -303,7 +308,7 @@
 					<value level="8">6</value>
 					<value level="9">7</value>
 					<value level="10">7</value>
-					<value level="11">7</value>
+					<value level="11">10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -313,8 +318,9 @@
 					<value level="8">8</value>
 					<value level="9">14</value>
 					<value level="10">22</value>
-					<value level="11">22</value>
+					<value level="11">30</value>
 				</HOLD>
+				<mode>PER</mode>
 			</effect>
 			<effect name="AttackTrait">
 				<SLEEP>
@@ -322,8 +328,9 @@
 					<value level="8">8</value>
 					<value level="9">14</value>
 					<value level="10">22</value>
-					<value level="11">22</value>
+					<value level="11">30</value>
 				</SLEEP>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -365,7 +372,7 @@
 					<value level="8">7</value>
 					<value level="9">8</value>
 					<value level="10">12</value>
-					<value level="11">12</value>
+					<value level="11">18</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -375,8 +382,9 @@
 					<value level="8">3</value>
 					<value level="9">5</value>
 					<value level="10">7</value>
-					<value level="11">7</value>
+					<value level="11">10</value>
 				</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -418,7 +426,7 @@
 					<value level="8">25</value>
 					<value level="9">35</value>
 					<value level="10">45</value>
-					<value level="11">45</value>
+					<value level="11">60</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -428,8 +436,9 @@
 					<value level="8">4</value>
 					<value level="9">6</value>
 					<value level="10">8</value>
-					<value level="11">8</value>
+					<value level="11">12</value>
 				</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -471,7 +480,7 @@
 					<value level="8">12</value>
 					<value level="9">16</value>
 					<value level="10">20</value>
-					<value level="11">20</value>
+					<value level="11">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -487,7 +496,7 @@
 					<value level="8">12</value>
 					<value level="9">16</value>
 					<value level="10">20</value>
-					<value level="11">20</value>
+					<value level="11">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -497,8 +506,9 @@
 					<value level="8">4</value>
 					<value level="9">5</value>
 					<value level="10">7</value>
-					<value level="11">7</value>
+					<value level="11">10</value>
 				</amount>
+				<mode>PER</mode>
 			</effect>
 			<effect name="MaxMp">
 				<amount>
@@ -506,8 +516,9 @@
 					<value level="8">4</value>
 					<value level="9">5</value>
 					<value level="10">7</value>
-					<value level="11">7</value>
+					<value level="11">10</value>
 				</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
