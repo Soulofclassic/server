@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
-	<skill id="54000" toLevel="22" name="Agathion Taurus">
+	<skill id="54000" toLevel="11" name="Agathion Taurus">
 		<!-- Level 1: P. Def. +1%. P. Def. increases when Agathion is upgraded. -->
 		<!-- Level 2: When equipped P. Def. +1.5%. -->
 		<!-- Level 3: When equipped P. Def. +2%. -->
@@ -25,8 +25,35 @@
 		<!-- Level 22: P. Def. +25%, Stun Atk. Rate +65%. -->
 		<icon>icon.agathion_tau_star_1</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1.5</value>
+					<value level="3">2</value>
+					<value level="4">2.5</value>
+					<value level="5">3</value>
+					<value level="6">4</value>
+					<value level="7">4</value>
+					<value level="8">5</value>
+					<value level="9">6</value>
+					<value level="10">8</value>
+					<value level="11">8</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AttackTrait">
+				<SHOCK>
+					<value level="7">5</value>
+					<value level="8">8</value>
+					<value level="9">14</value>
+					<value level="10">22</value>
+					<value level="11">22</value>
+				</SHOCK>
+			</effect>
+		</effects>
 	</skill>
-	<skill id="54001" toLevel="22" name="Agathion Leo">
+	<skill id="54001" toLevel="11" name="Agathion Leo">
 		<!-- Level 1: P. Atk. +1%. P. Atk. increases when Agathion is upgraded. -->
 		<!-- Level 2: P. Atk. +1.5%. -->
 		<!-- Level 3: P. Atk. +2%. -->
@@ -51,8 +78,35 @@
 		<!-- Level 22: P. Atk. +15%, Paralysis Atk. Rate +55%. -->
 		<icon>icon.agathion_leo_star_1</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1.5</value>
+					<value level="3">2</value>
+					<value level="4">2.5</value>
+					<value level="5">3</value>
+					<value level="6">4</value>
+					<value level="7">4</value>
+					<value level="8">5</value>
+					<value level="9">6</value>
+					<value level="10">7</value>
+					<value level="11">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AttackTrait">
+				<PARALYZE>
+					<value level="7">5</value>
+					<value level="8">8</value>
+					<value level="9">14</value>
+					<value level="10">22</value>
+					<value level="11">22</value>
+				</PARALYZE>
+			</effect>
+		</effects>
 	</skill>
-	<skill id="54002" toLevel="22" name="Agathion Scorpio">
+	<skill id="54002" toLevel="11" name="Agathion Scorpio">
 		<!-- Level 1: P. Critical Rate +1%. P. Critical Rate increases when Agathion is upgraded. -->
 		<!-- Level 2: P. Critical Rate +2%. -->
 		<!-- Level 3: P. Critical Rate +3%. -->
@@ -77,8 +131,35 @@
 		<!-- Level 22: Cooldown of P. Skills and songs/ dances -20%, P. Critical Rate +25%. -->
 		<icon>icon.agathion_sco_star_1</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">7</value>
+					<value level="7">7</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">12</value>
+					<value level="11">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="7">1</value>
+					<value level="8">3</value>
+					<value level="9">5</value>
+					<value level="10">7</value>
+					<value level="11">7</value>
+				</amount>
+			</effect>
+		</effects>
 	</skill>
-	<skill id="54003" toLevel="22" name="Agathion Sagittarius">
+	<skill id="54003" toLevel="11" name="Agathion Sagittarius">
 		<!-- Level 1: Atk. Spd. +2. Atk. Spd. increases when Agathion is upgraded. -->
 		<!-- Level 2: Atk. Spd. +3. -->
 		<!-- Level 3: Atk. Spd. +4. -->
@@ -103,6 +184,33 @@
 		<!-- Level 22: Cooldown of P. Skills and songs/ dances -20%, Atk. Spd. +120. -->
 		<icon>icon.agathion_sag_star_1</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttackSpeed">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+					<value level="4">5</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">15</value>
+					<value level="8">30</value>
+					<value level="9">40</value>
+					<value level="10">50</value>
+					<value level="11">50</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="7">1</value>
+					<value level="8">3</value>
+					<value level="9">5</value>
+					<value level="10">7</value>
+					<value level="11">7</value>
+				</amount>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="54004" toLevel="11" name="Agathion Virgo">
 		<!-- Level 1: M. Def. +1%. M. Def. increases when Agathion is upgraded. -->
@@ -219,7 +327,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="54006" toLevel="22" name="Agathion Capricorn">
+	<skill id="54006" toLevel="11" name="Agathion Capricorn">
 		<!-- Level 1: M. Critical Rate +1%. M. Critical Rate increases when Agathion is upgraded. -->
 		<!-- Level 2: M. Critical Rate +2%. -->
 		<!-- Level 3: M. Critical Rate +3%. -->
@@ -244,8 +352,35 @@
 		<!-- Level 22: Cooldown of P. Skills and songs/ dances -20%, M. Critical Rate +35%. -->
 		<icon>icon.agathion_capr_star_1</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicCriticalRate">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">7</value>
+					<value level="7">7</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">12</value>
+					<value level="11">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="7">1</value>
+					<value level="8">3</value>
+					<value level="9">5</value>
+					<value level="10">7</value>
+					<value level="11">7</value>
+				</amount>
+			</effect>
+		</effects>
 	</skill>
-	<skill id="54007" toLevel="22" name="Agathion Libra">
+	<skill id="54007" toLevel="11" name="Agathion Libra">
 		<!-- Level 1: Casting Spd. +2. M. Casting Spd. increases when Agathion is upgraded. -->
 		<!-- Level 2: Casting Spd. +3 -->
 		<!-- Level 3: Casting Spd. +4 -->
@@ -270,8 +405,35 @@
 		<!-- Level 22: Cooldown of P. Skills and songs/ dances -20%, Casting Spd. +160. -->
 		<icon>icon.agathion_lib_star_1</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttackSpeed">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+					<value level="4">5</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">15</value>
+					<value level="8">25</value>
+					<value level="9">35</value>
+					<value level="10">45</value>
+					<value level="11">45</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="7">2</value>
+					<value level="8">4</value>
+					<value level="9">6</value>
+					<value level="10">8</value>
+					<value level="11">8</value>
+				</amount>
+			</effect>
+		</effects>
 	</skill>
-	<skill id="54008" toLevel="22" name="Agathion Gemini">
+	<skill id="54008" toLevel="11" name="Agathion Gemini">
 		<!-- Level 1: When Sayha's Grace is active Acquired XP/ SP (hunting) +1%. The effect of Sayha's Grace increases when Agathion is upgraded. -->
 		<!-- Level 2: When Sayha's Grace is active Acquired XP/ SP (hunting) +2%. -->
 		<!-- Level 3: When Sayha's Grace is active Acquired XP/ SP (hunting) +3%. -->
@@ -296,6 +458,58 @@
 		<!-- Level 22: Max. HP +25%, Max. MP +30%, Max. CP +15%, Acquired XP/ SP from MP Grace +40% while hunting. -->
 		<icon>icon.agathion_gem_star_1</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">6</value>
+					<value level="6">9</value>
+					<value level="7">9</value>
+					<value level="8">12</value>
+					<value level="9">16</value>
+					<value level="10">20</value>
+					<value level="11">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">6</value>
+					<value level="6">9</value>
+					<value level="7">9</value>
+					<value level="8">12</value>
+					<value level="9">16</value>
+					<value level="10">20</value>
+					<value level="11">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value level="7">2</value>
+					<value level="8">4</value>
+					<value level="9">5</value>
+					<value level="10">7</value>
+					<value level="11">7</value>
+				</amount>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="7">2</value>
+					<value level="8">4</value>
+					<value level="9">5</value>
+					<value level="10">7</value>
+					<value level="11">7</value>
+				</amount>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="54009" toLevel="1" name="Summon Agathion - Taurus">
 		<!-- Summons Agathion. -->
