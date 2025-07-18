@@ -524,7 +524,6 @@
 	</skill>
 	<skill id="54009" toLevel="1" name="Summon Agathion - Taurus">
 		<!-- Summons Agathion. -->
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
@@ -532,9 +531,11 @@
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>65</magicLevel>
+		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<npcId>48052</npcId> <!-- Taurus -->
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54010" toLevel="1" name="Summon Agathion - Leo">
@@ -547,9 +548,11 @@
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>65</magicLevel>
+		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<npcId>48053</npcId> <!-- Leo -->
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54011" toLevel="1" name="Summon Agathion - Scorpio">
@@ -562,9 +565,11 @@
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>65</magicLevel>
+		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<npcId>48055</npcId> <!-- Scorpio -->
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54012" toLevel="1" name="Summon Agathion - Sagittarius">
@@ -577,9 +582,11 @@
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>65</magicLevel>
+		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<npcId>48058</npcId> <!-- Sagittarius -->
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54013" toLevel="1" name="Summon Agathion - Virgo">
@@ -592,9 +599,11 @@
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>65</magicLevel>
+		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<npcId>48048</npcId> <!-- Virgo -->
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54014" toLevel="1" name="Summon Agathion - Aquarius">
@@ -607,9 +616,11 @@
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>65</magicLevel>
+		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<npcId>48056</npcId> <!-- Aquarius -->
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54015" toLevel="1" name="Summon Agathion - Capricorn">
@@ -622,9 +633,11 @@
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>65</magicLevel>
+		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<npcId>48049</npcId> <!-- Capricorn -->
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54016" toLevel="1" name="Summon Agathion - Libra">
@@ -637,9 +650,11 @@
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>65</magicLevel>
+		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<npcId>48050</npcId> <!-- Libra -->
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54017" toLevel="1" name="Summon Agathion - Gemini">
@@ -652,9 +667,11 @@
 		<hitTime>3000</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>65</magicLevel>
+		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<npcId>48054</npcId> <!-- Gemini -->
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54018" toLevel="1" name="Seal Agathion">
@@ -1577,6 +1594,7 @@
 		<hitTime>4000</hitTime>
 		<isDebuff>true</isDebuff>
 		<reuseDelay>120000</reuseDelay>
+
 	</skill>
 	<skill id="54043" toLevel="1" name="Rapid Wind">
 		<!-- For 5 sec., P. Def. +1000, M. Def. +1000, Speed +50. -->
