@@ -533,9 +533,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion">
-				<npcId>48052</npcId> <!-- Taurus -->
-			</effect>
+			<effect name="SummonAgathion" />
 		</effects>
 	</skill>
 	<skill id="54010" toLevel="1" name="Summon Agathion - Leo">
@@ -550,9 +548,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion">
-				<npcId>48053</npcId> <!-- Leo -->
-			</effect>
+			<effect name="SummonAgathion" />
 		</effects>
 	</skill>
 	<skill id="54011" toLevel="1" name="Summon Agathion - Scorpio">
@@ -567,9 +563,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion">
-				<npcId>48055</npcId> <!-- Scorpio -->
-			</effect>
+			<effect name="SummonAgathion" />
 		</effects>
 	</skill>
 	<skill id="54012" toLevel="1" name="Summon Agathion - Sagittarius">
@@ -584,9 +578,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion">
-				<npcId>48058</npcId> <!-- Sagittarius -->
-			</effect>
+			<effect name="SummonAgathion" />
 		</effects>
 	</skill>
 	<skill id="54013" toLevel="1" name="Summon Agathion - Virgo">
@@ -601,9 +593,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion">
-				<npcId>48048</npcId> <!-- Virgo -->
-			</effect>
+			<effect name="SummonAgathion" />
 		</effects>
 	</skill>
 	<skill id="54014" toLevel="1" name="Summon Agathion - Aquarius">
@@ -618,9 +608,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion">
-				<npcId>48056</npcId> <!-- Aquarius -->
-			</effect>
+			<effect name="SummonAgathion" />
 		</effects>
 	</skill>
 	<skill id="54015" toLevel="1" name="Summon Agathion - Capricorn">
@@ -635,9 +623,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion">
-				<npcId>48049</npcId> <!-- Capricorn -->
-			</effect>
+			<effect name="SummonAgathion" />
 		</effects>
 	</skill>
 	<skill id="54016" toLevel="1" name="Summon Agathion - Libra">
@@ -652,9 +638,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion">
-				<npcId>48050</npcId> <!-- Libra -->
-			</effect>
+			<effect name="SummonAgathion" />
 		</effects>
 	</skill>
 	<skill id="54017" toLevel="1" name="Summon Agathion - Gemini">
@@ -669,9 +653,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion">
-				<npcId>48054</npcId> <!-- Gemini -->
-			</effect>
+			<effect name="SummonAgathion" />
 		</effects>
 	</skill>
 	<skill id="54018" toLevel="1" name="Seal Agathion">
