@@ -26,7 +26,7 @@
 	</item>
 	<item id="49703" name="Talisman Bracelet Lv. 4" type="Armor">
 		<!-- Activates 4 talisman slots. HP/ MP Recovery Rate +7%, P./ M. Accuracy +1, Weight Limit +7000. -->
-		<set name="icon" val="icon.dimension_bracelet_i05" />
+		<set name="icon" val="icon.dimension_bracelet_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
