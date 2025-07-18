@@ -48,6 +48,11 @@
 		<effects>
 			<effect name="PhysicalAttack">
 				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
+					<value level="4">8</value>
+					<value level="5">16</value>
 					<value level="6">1</value>
 					<value level="7">2</value>
 					<value level="8">3</value>
@@ -56,8 +61,9 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="MagicCriticalRate">
-				<amount><value level="10">10</value>
+			<effect name="CriticalRate">
+				<amount>
+					<value level="9">10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -108,8 +114,14 @@
 		</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
 			<effect name="MagicalAttack">
 				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
+					<value level="4">8</value>
+					<value level="5">16</value>
 					<value level="6">2</value>
 					<value level="7">4</value>
 					<value level="8">6</value>
@@ -119,7 +131,8 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="MagicCriticalRate">
-				<amount><value level="10">10</value>
+				<amount>
+					<value level="10">10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>

@@ -98,6 +98,7 @@
 			<value level="6">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
 			<value level="7">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
 		</icon>
+		<operateType>A1</operateType>
 		<effectPoint>1</effectPoint>
 		<reuseDelay>300000</reuseDelay>
 		<reuseDelayGroup>18567</reuseDelayGroup>
