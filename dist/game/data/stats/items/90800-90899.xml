@@ -1270,12 +1270,12 @@
 		<set name="time" val="86400" />
 		<set name="weight" val="100" />
 		<skills>
-			<skill id="51025" level="2" /> <!-- Expand Primary and Secondary Agathion Slots -->
-			<skill id="55885" level="1" /> <!-- Agathion Bracelet Stats Increase -->
+			<skill id="51025" level="3" /> <!-- Expand Primary and Secondary Agathion Slots -->
+			<skill id="55885" level="3" /> <!-- Agathion Bracelet Stats Increase -->
 		</skills>
 	</item>
 	<item id="90888" name="Agathion Bracelet - Lv. 1" type="Armor">
-		<!-- Activates 2 Agathion slots. -->
+		<!-- Activates 1 Agathion slots. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1286,6 +1286,7 @@
 		<set name="is_sellable" val="false" />
 		<skills>
 			<skill id="51025" level="1" /> <!-- Expand Primary and Secondary Agathion Slots -->
+			<skill id="55885" level="1" /> <!-- Agathion Bracelet Stats Increase -->
 		</skills>
 	</item>
 	<item id="90889" name="Agathion Bracelet - Lv. 2" type="Armor">
@@ -1300,6 +1301,7 @@
 		<set name="is_sellable" val="false" />
 		<skills>
 			<skill id="51025" level="2" /> <!-- Expand Primary and Secondary Agathion Slots -->
+			<skill id="55885" level="2" /> <!-- Agathion Bracelet Stats Increase -->
 		</skills>
 	</item>
 	<item id="90890" name="Agathion Bracelet - Lv. 3" type="Armor">
@@ -1314,7 +1316,7 @@
 		<set name="is_sellable" val="false" />
 		<skills>
 			<skill id="51025" level="3" /> <!-- Expand Primary and Secondary Agathion Slots -->
-			<skill id="55886" level="1" /> <!-- Agathion Bracelet Resistance Increase -->
+			<skill id="55885" level="1" /> <!-- Agathion Bracelet Stats Increase -->
 		</skills>
 	</item>
 	<item id="90891" name="Agathion Bracelet - Lv. 4" type="Armor">
@@ -1329,7 +1331,7 @@
 		<set name="is_sellable" val="false" />
 		<skills>
 			<skill id="51025" level="4" /> <!-- Expand Primary and Secondary Agathion Slots -->
-			<skill id="55885" level="1" /> <!-- Agathion Bracelet Stats Increase -->
+			<skill id="55885" level="4" /> <!-- Agathion Bracelet Stats Increase -->
 			<skill id="55886" level="1" /> <!-- Agathion Bracelet Resistance Increase -->
 		</skills>
 	</item>
