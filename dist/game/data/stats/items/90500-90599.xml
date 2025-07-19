@@ -222,7 +222,7 @@
 		<set name="is_freightable" val="true" />
 		<set name="material" val="STEEL" />
 	</item>
-	<item id="90519" name="Shining Scroll of Mood Melody" type="EtcItem">
+	<item id="90519" name="Shining Scroll of Mood Melody" type="is_infinite">
 		<!-- For 20 min., grants the following effects: Might, Shield, Haste, Empower, Acumen, Wind Walk, Vampiric Rage, Berserker Spirit, Focus, Death Whisper, Guidance, Clarity, Wild Magic, Concentration. The effect remains after death. <Note>. 1. Cannot be used together with Scroll of Mood Melody. 2. The effect of the last applied item will be active. -->
 		<set name="icon" val="icon.bm_magmeld" />
 		<set name="default_action" val="SKILL_REDUCE" />
@@ -235,6 +235,7 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="120000" />
+		<set name="is_consumable" val="false" />
 		<skills>
 			<skill id="54070" level="1" /> <!-- Shining Mood Melody(PA!!!) -->
 		</skills>

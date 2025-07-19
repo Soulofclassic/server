@@ -1817,7 +1817,7 @@
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>1200000</abnormalTime>
+		<abnormalTime>1200</abnormalTime>
 		<abnormalType>VOTE</abnormalType>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>NONE</basicProperty>
