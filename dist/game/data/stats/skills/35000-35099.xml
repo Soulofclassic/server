@@ -232,9 +232,6 @@
 		<hitTime>200</hitTime>
 		<isMagic>1</isMagic>
 		<reuseDelay>120000</reuseDelay>
-		<conditions>
-			<condition name="NotFeared" />
-		</conditions>
 		<effects>
 			<effect name="DispelByCategory">
 				<slot>DEBUFF</slot>

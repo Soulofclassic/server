@@ -631,7 +631,7 @@
 		</skills>
 	</item>
 	<item id="91553" name="Immortal Frintezza's Necklace" type="Armor">
-		<!-- MP +65, Sleep Resistance/ Atk. Rate +30%, Paralysis Resistance/ Atk. Rate +20%, Skill Cooldown -10%, Received P. Critical Rate -10%, Received M. Critical Rate -5%, Damage Reflection Resistance +10%, P./ M. Skill Power +20%. Allows use of a special ability that increases the target's cooldowns. Cannot be enchanted. -->
+		<!-- MP +65, Sleep Resistance/ Atk. Rate +30%, Paralysis Resistance/ Atk. Rate +20%, Skill Cooldown -10%, Received P. Critical Rate -10%, Received M. Critical Rate -5%, Damage Reflection Resistance +10%, P./ M. Skill Power +20%. Cannot be enchanted. -->
 		<set name="icon" val="icon.accessory_necklace_of_frintessa_i05" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
