@@ -1817,7 +1817,7 @@
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>1200</abnormalTime>
+		<abnormalTime>1200000</abnormalTime>
 		<abnormalType>VOTE</abnormalType>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>NONE</basicProperty>
@@ -1827,7 +1827,7 @@
 		<itemConsumeId>90519</itemConsumeId>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>1</magicLevel>
-		<reuseDelay>120000</reuseDelay>
+		<reuseDelay>60000</reuseDelay>
 		<stayAfterDeath>true</stayAfterDeath>
 		<selfEffects>
 			<effect name="CallSkill">
