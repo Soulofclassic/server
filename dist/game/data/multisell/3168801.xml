@@ -56,42 +56,98 @@
 		<production id="90037" count="1" />
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient id="57" count="600000" />
 		<!-- Mark of Battle -->
-		<ingredient id="45584" count="272" />
+		<ingredient id="45584" count="100" />
+		<!-- Eva Talisman Enchant -->
+		<production id="92018" count="1" />
+	</item>
+	<item>
+		<!-- Mark of Battle -->
+		<ingredient id="45584" count="100" />
+		<!-- Aden Talisman Ecnhant -->
+		<production id="91756" count="1" />
+	</item>
+	<item>
+		<!-- Mark of Battle -->
+		<ingredient id="45584" count="100" />
+		<!-- Talisman of Power Fragment -->
+		<production id="91059" count="1" />
+	</item>
+	<item>
+		<!-- Mark of Battle -->
+		<ingredient id="45584" count="100" />
+		<!-- High-grade life stone -->
+		<production id="90014" count="1" />
+	</item>
+	<item>
+		<!-- Adena -->
+		<ingredient id="57" count="800000" />
+		<!-- Mark of Battle -->
+		<ingredient id="45584" count="420" />
+		<!-- Scroll: Enchant Armor (S-grade) -->
+		<production id="960" count="1" />
+	</item>
+	<item>
+		<!-- Adena -->
+		<ingredient id="57" count="300000" />
+		<!-- Mark of Battle -->
+		<ingredient id="45584" count="181" />
 		<!-- Scroll: Enchant Armor (A-grade) -->
 		<production id="730" count="1" />
 	</item>
 	<item>
 		<!-- Adena -->
-		<ingredient id="57" count="200000" />
+		<ingredient id="57" count="100000" />
 		<!-- Mark of Battle -->
-		<ingredient id="45584" count="92" />
+		<ingredient id="45584" count="46" />
 		<!-- Scroll: Enchant Armor (B-grade) -->
 		<production id="948" count="1" />
 	</item>
 	<item>
 		<!-- Adena -->
-		<ingredient id="57" count="4500000" />
+		<ingredient id="57" count="50000" />
 		<!-- Mark of Battle -->
-		<ingredient id="45584" count="1019" />
+		<ingredient id="45584" count="23" />
+		<!-- Scroll: Enchant Armor (C-grade) -->
+		<production id="952" count="1" />
+	</item>
+	<item>
+		<!-- Adena -->
+		<ingredient id="57" count="5000000" />
+		<!-- Mark of Battle -->
+		<ingredient id="45584" count="509" />
+		<!-- Scroll: Enchant Weapon (A-grade) -->
+		<production id="959" count="1" />
+	</item>
+	<item>
+		<!-- Adena -->
+		<ingredient id="57" count="2250000" />
+		<!-- Mark of Battle -->
+		<ingredient id="45584" count="1018" />
 		<!-- Scroll: Enchant Weapon (A-grade) -->
 		<production id="729" count="1" />
 	</item>
 	<item>
 		<!-- Adena -->
-		<ingredient id="57" count="1250000" />
+		<ingredient id="57" count="625000" />
 		<!-- Mark of Battle -->
-		<ingredient id="45584" count="283" />
+		<ingredient id="45584" count="141" />
 		<!-- Scroll: Enchant Weapon (B-grade) -->
 		<production id="947" count="1" />
 	</item>
 	<item>
 		<!-- Adena -->
+		<ingredient id="57" count="250000" />
+		<!-- Mark of Battle -->
+		<ingredient id="45584" count="141" />
+		<!-- Scroll: Enchant Weapon (C-grade) -->
+		<production id="951" count="1" />
+	</item>
+	<item>
+		<!-- Adena -->
 		<ingredient id="57" count="123483" />
 		<!-- Mark of Battle -->
-		<ingredient id="45584" count="140" />
+		<ingredient id="45584" count="70" />
 		<!-- Sealed Rune - Stage 1 -->
 		<production id="70000" count="1" />
 	</item>
