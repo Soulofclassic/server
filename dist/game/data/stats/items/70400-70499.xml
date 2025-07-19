@@ -782,7 +782,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17814" level="1" /> <!-- Ruby -->
+			<skill id="17817" level="1" /> <!-- Ruby -->
 		</skills>
 	</item>
 	<item id="70452" name="Ruby" additionalName="Lv. 2" type="Armor">
@@ -795,7 +795,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17814" level="2" /> <!-- Ruby -->
+			<skill id="17817" level="2" /> <!-- Ruby -->
 		</skills>
 	</item>
 	<item id="70453" name="Ruby" additionalName="Lv. 3" type="Armor">
@@ -808,7 +808,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17814" level="3" /> <!-- Greater Ruby -->
+			<skill id="17817" level="3" /> <!-- Greater Ruby -->
 		</skills>
 	</item>
 	<item id="70454" name="Ruby" additionalName="Lv. 4" type="Armor">
@@ -821,7 +821,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17814" level="4" /> <!-- Greater Ruby -->
+			<skill id="17817" level="4" /> <!-- Greater Ruby -->
 		</skills>
 	</item>
 	<item id="70455" name="Ruby" additionalName="Lv. 5" type="Armor">
@@ -834,7 +834,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17814" level="5" /> <!-- Greater Ruby -->
+			<skill id="17817" level="5" /> <!-- Greater Ruby -->
 		</skills>
 	</item>
 	<item id="70456" name="Sapphire" additionalName="Lv. 1" type="Armor">
@@ -847,7 +847,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17818" level="1" /> <!-- Sapphire -->
+			<skill id="17821" level="1" /> <!-- Sapphire -->
 		</skills>
 	</item>
 	<item id="70457" name="Sapphire" additionalName="Lv. 2" type="Armor">
@@ -860,7 +860,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17818" level="2" /> <!-- Sapphire -->
+			<skill id="17821" level="2" /> <!-- Sapphire -->
 		</skills>
 	</item>
 	<item id="70458" name="Sapphire" additionalName="Lv. 3" type="Armor">
@@ -873,7 +873,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17818" level="3" /> <!-- Greater Sapphire -->
+			<skill id="17821" level="3" /> <!-- Greater Sapphire -->
 		</skills>
 	</item>
 	<item id="70459" name="Sapphire" additionalName="Lv. 4" type="Armor">
@@ -886,7 +886,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17818" level="4" /> <!-- Greater Sapphire -->
+			<skill id="17821" level="4" /> <!-- Greater Sapphire -->
 		</skills>
 	</item>
 	<item id="70460" name="Sapphire" additionalName="Lv. 5" type="Armor">
@@ -899,7 +899,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17818" level="5" /> <!-- Greater Sapphire -->
+			<skill id="17821" level="5" /> <!-- Greater Sapphire -->
 		</skills>
 	</item>
 	<item id="70461" name="Diamond" additionalName="Lv. 1" type="Armor">

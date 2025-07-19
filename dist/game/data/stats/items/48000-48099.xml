@@ -104,7 +104,7 @@
 		<set name="enchant_enabled" val="true" />
 		<skills>
 			<skill id="54013" level="1" type="ON_EQUIP" /> <!-- Summon Agathion - Virgo -->
-			<skill id="54018" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
 	</item>
 	<item id="48049" name="Agathion - Capricorn" type="Armor">
