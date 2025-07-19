@@ -230,9 +230,8 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="material" val="PAPER" />
-		<set name="is_stackable" val="true" />
+		<set name="is_stackable" val="false" />
 		<set name="is_freightable" val="true" />
-		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="120000" />
