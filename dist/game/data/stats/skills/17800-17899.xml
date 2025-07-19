@@ -35,7 +35,7 @@
 		</icon>
 		<operateType>P</operateType>
 		<effects>
-			<effect name="PhysicalDamage">
+			<effect name="ShotsBonus">
 				<amount>
 					<value level="1">5</value>
 					<value level="2">9</value>
@@ -82,7 +82,7 @@
 		</icon>
 		<operateType>P</operateType>
 		<effects>
-			<effect name="MagicalDamage">
+			<effect name="ShotsBonus">
 				<amount>
 					<value level="1">5</value>
 					<value level="2">9</value>
