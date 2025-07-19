@@ -1820,56 +1820,56 @@
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>VOTE</abnormalType>
 		<effectPoint>1</effectPoint>
-		<isMagic>4</isMagic> <!-- Static Skill -->
-		<itemConsumeCount>-1</itemConsumeCount>
-		<itemConsumeId>90519</itemConsumeId>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>1</magicLevel>
+		<isMagic>2</isMagic> <!-- Static Skill -->
 		<reuseDelay>60000</reuseDelay>
 		<stayAfterDeath>true</stayAfterDeath>
 		<selfEffects>
 			<effect name="CallSkill">
-				<skillId>1068</skillId> <!-- Might -->
-				<skillLevel>3</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>1040</skillId> <!-- Shield -->
-				<skillLevel>3</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>1077</skillId> <!-- Focus -->
-				<skillLevel>2</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>1086</skillId> <!-- Haste -->
-				<skillLevel>2</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>1085</skillId> <!-- Acumen -->
-				<skillLevel>3</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>1059</skillId> <!-- Empower -->
-				<skillLevel>3</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>1204</skillId> <!-- Wind Walk -->
-				<skillLevel>2</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>1242</skillId> <!-- Death Whisper -->
-				<skillLevel>3</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>1268</skillId> <!-- Vampiric Rage -->
-				<skillLevel>4</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>54118</skillId> <!-- Sayha's Recover MP -->
+				<skillId>54100</skillId> <!-- Shield -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54104</skillId> <!-- Berserker Spirit lvl 1 -->
+				<skillId>54101</skillId> <!-- Magic Barrier -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54103</skillId> <!-- Deacrease weight -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54104</skillId> <!-- Berserker Spirit  -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54105</skillId> <!-- Wind Walk -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54106</skillId> <!-- Might -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54108</skillId> <!-- Focus -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54109</skillId> <!-- Haste -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54110</skillId> <!-- Death Whisper -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54111</skillId> <!-- Empower -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54114</skillId> <!-- Acumen -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54118</skillId> <!-- Sayha's Recover MP -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</selfEffects>
