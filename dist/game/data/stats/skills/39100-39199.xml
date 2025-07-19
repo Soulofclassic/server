@@ -1467,12 +1467,15 @@
 	<skill id="39164" toLevel="1" name="Mood Melody">
 		<!-- For 20 min., grants the following effects: Might, Shield, Focus, Haste, Acumen, Empower, Wind Walk, Death Whisper, and Vampiric Rage. Effect remains after death. -->
 		<icon>icon.bm_magmeld</icon>
-		<operateType>A1</operateType>
+		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1200</abnormalTime>
+		<abnormalType>VOTE</abnormalType>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>NONE</basicProperty>
 		<effectPoint>1</effectPoint>
-		<isMagic>2</isMagic> <!-- Item Skill -->
+		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>49772</itemConsumeId>
 		<magicCriticalRate>5</magicCriticalRate>
