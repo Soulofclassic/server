@@ -1514,6 +1514,18 @@
 				<skillId>1268</skillId> <!-- Vampiric Rage -->
 				<skillLevel>4</skillLevel>
 			</effect>
+			<effect name="CallSkill">
+				<skillId>1268</skillId> <!-- Vampiric Rage -->
+				<skillLevel>4</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54118</skillId> <!-- Sayha's Recover MP -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>55242</skillId> <!-- Berserker Spirit lvl 1 -->
+				<skillLevel>1</skillLevel>
+			</effect>
 		</selfEffects>
 	</skill>
 	<skill id="39165" toLevel="1" name="Transformation into a Prophet">

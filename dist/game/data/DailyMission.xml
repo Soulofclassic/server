@@ -95,7 +95,7 @@
 		<!-- Weekly quest. A reward is given for playing the game on Saturday or Sunday. -->
 		<handler name="loginweekend" />
 		<items>
-			<item id="91781" count="1" />
+			<item id="49772" count="1" />
 		</items>
 	</reward>
 	<reward id="1021" reward_id="121" name="Siege Participation" requiredCompletion="1" isOneTime="false">
@@ -123,7 +123,7 @@
 			<param name="maxLevel">99</param>
 		</handler>
 		<items>
-			<item id="91781" count="3" />
+			<item id="49772" count="3" />
 		</items>
 	</reward>
 	<reward id="1096" reward_id="804" name="Clan Raid Suppression" requiredCompletion="20" isOneTime="true" dailyReset="false">
@@ -134,7 +134,7 @@
 			<param name="maxLevel">99</param>
 		</handler>
 		<items>
-			<item id="91781" count="10" />
+			<item id="49772" count="10" />
 		</items>
 	</reward>
 	<!-- FIXME: Add ids.
@@ -818,7 +818,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="91781" count="3" />
+			<item id="49772" count="3" />
 			<item id="90917" count="4" />
 		</items>
 	</reward>
@@ -829,7 +829,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="91781" count="6" />
+			<item id="49772" count="6" />
 			<item id="90917" count="6" />
 		</items>
 	</reward>
@@ -902,7 +902,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="91781" count="9" />
+			<item id="49772" count="9" />
 			<item id="90917" count="8" />
 		</items>
 	</reward>
@@ -913,7 +913,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="91781" count="12" />
+			<item id="49772" count="12" />
 			<item id="90917" count="12" />
 		</items>
 	</reward>
@@ -924,7 +924,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="91781" count="12" />
+			<item id="49772" count="12" />
 			<item id="91780" count="12" />
 		</items>
 	</reward>
@@ -935,7 +935,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="91781" count="12" />
+			<item id="49772" count="12" />
 			<item id="91780" count="12" />
 		</items>
 	</reward>
@@ -946,7 +946,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="91781" count="12" />
+			<item id="49772" count="12" />
 			<item id="91780" count="12" />
 		</items>
 	</reward>
@@ -957,7 +957,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="91781" count="15" />
+			<item id="49772" count="15" />
 			<item id="91780" count="12" />
 		</items>
 	</reward>
@@ -968,7 +968,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="15" />
-			<item id="91781" count="15" />
+			<item id="49772" count="15" />
 			<item id="91780" count="12" />
 		</items>
 	</reward>
@@ -979,7 +979,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="15" />
-			<item id="91781" count="15" />
+			<item id="49772" count="15" />
 			<item id="91780" count="15" />
 		</items>
 	</reward>
@@ -990,7 +990,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="15" />
-			<item id="91781" count="18" />
+			<item id="49772" count="18" />
 			<item id="91780" count="15" />
 		</items>
 	</reward>
@@ -1001,7 +1001,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="18" />
-			<item id="91781" count="18" />
+			<item id="49772" count="18" />
 			<item id="91780" count="15" />
 		</items>
 	</reward>
@@ -1012,7 +1012,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="18" />
-			<item id="91781" count="18" />
+			<item id="49772" count="18" />
 			<item id="91780" count="18" />
 		</items>
 	</reward>
@@ -1023,7 +1023,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="20" />
-			<item id="91781" count="20" />
+			<item id="49772" count="20" />
 			<item id="91780" count="20" />
 		</items>
 	</reward>

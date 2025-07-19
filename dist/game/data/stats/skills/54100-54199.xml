@@ -432,7 +432,7 @@
 		<specialLevel>-1</specialLevel>
 		<effects>
 			<effect name="ManaHealOverTime">
-				<power>11</power>
+				<power>4</power>
 				<ticks>15</ticks>
 			</effect>
 		</effects>
