@@ -34,10 +34,8 @@
 			<value level="5">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
 		</icon>
 		<operateType>P</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>1</magicLevel>
 		<effects>
-			<effect name="PhysicalSoulDamage">
+			<effect name="PhysicalDamage">
 				<amount>
 					<value level="1">5</value>
 					<value level="2">9</value>
@@ -83,8 +81,6 @@
 			<value level="5">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
 		</icon>
 		<operateType>P</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>1</magicLevel>
 		<effects>
 			<effect name="MagicalDamage">
 				<amount>
