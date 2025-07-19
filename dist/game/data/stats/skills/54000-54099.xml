@@ -1270,7 +1270,7 @@
 					<value level="9">12</value>
 					<value level="10">15</value>
 				</amount>
-				<mode>PER</mode>
+				<mode>DIFF</mode>
 			</effect>
 			<effect name="PhysicalAttack">
 				<amount>
@@ -1289,11 +1289,11 @@
 			</effect>
 			<effect name="VampiricAttack">
 				<amount>
-					<value level="6">1</value>
-					<value level="7">2</value>
-					<value level="8">3</value>
-					<value level="9">4</value>
-					<value level="10">5</value>
+					<value level="6">3</value>
+					<value level="7">6</value>
+					<value level="8">9</value>
+					<value level="9">12</value>
+					<value level="10">15</value>
 				</amount>
 				<mode>PER</mode>
 				<chance>80</chance>
