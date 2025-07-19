@@ -234,12 +234,6 @@
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-		<set name="reuseDelay" val="60000"/>
-		<set name="itemConsume" val="0"/>  
-		<set name="itemConsumeId" val="90519"/> 
-		<set name="mpConsume" val="0"/>
-		<set name="hpConsume" val="0"/>
-		<set name="operateType" val="A1"/>
 		<skills>
 			<skill id="54070" level="1" /> <!-- Shining Mood Melody(PA!!!) -->
 		</skills>

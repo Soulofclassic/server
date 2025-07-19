@@ -1823,7 +1823,7 @@
 		<stayAfterDeath>true</stayAfterDeath>
 		<itemConsumeCount>0</itemConsumeCount>
 		<itemConsumeId>90519</itemConsumeId>
-		<reuseDelay>60000</reuseDelay>
+		<reuseDelay>1110000</reuseDelay>
 		<selfEffects>
 			<effect name="CallSkill">
 				<skillId>54100</skillId> <!-- Shield -->
