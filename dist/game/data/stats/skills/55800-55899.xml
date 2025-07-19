@@ -1770,7 +1770,7 @@
 		<magicLevel>20</magicLevel>
 		<effects>
 			<effect name="TalismanSlot">
-				<slots>4</slots>
+				<slots>6</slots>
 			</effect>
 			<effect name="StatUp">
 				<amount>1</amount>
