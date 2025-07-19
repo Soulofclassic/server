@@ -38,7 +38,7 @@
 		<affectScope>SINGLE</affectScope>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
-			<effect name="PhysicalAttack">
+			<effect name="PhysicalSoulDamage">
 				<amount>
 					<value level="1">2</value>
 					<value level="2">3</value>
@@ -70,7 +70,7 @@
 		<icon>icon.etc_bm_jewel_sapphire_i00</icon>
 		<operateType>P</operateType>
 	</skill>
-	<skill id="17821" toLevel="10" name="Sapphire">
+	<skill id="17821" toLevel="5" name="Sapphire">
 		<!-- Level 1: Spiritshot Damage +16%. -->
 		<!-- Level 2: Blessed Spiritshot Damage +16%. -->
 		<!-- Level 3: Spiritshot Damage +17%. -->
@@ -88,7 +88,7 @@
 		<affectScope>SINGLE</affectScope>
 		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
-			<effect name="MagicalAttack">
+			<effect name="MagicalDamage">
 				<amount>
 					<value level="1">2</value>
 					<value level="2">3</value>
