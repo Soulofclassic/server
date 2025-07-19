@@ -826,8 +826,6 @@
 			<skill id="51025" level="5" /> <!-- Expand Primary and Secondary Agathion Slots -->
 			<skill id="55885" level="5" /> <!-- Agathion Bracelet Stats Increase -->
 			<skill id="55886" level="2" /> <!-- Agathion Bracelet Resistance Increase -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" />
-			<skill id="3267" level="1" type="ON_EQUIP" />
 		</skills>
 	</item>
 	<item id="91162" name="Golden Cheer Stamen" additionalName="Event" type="Weapon">

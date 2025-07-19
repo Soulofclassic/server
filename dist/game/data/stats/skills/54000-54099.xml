@@ -593,7 +593,8 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<effects>
-			<effect name="SummonAgathion" />
+			<effect name="SummonAgathion">
+				<itemId>48048</itemId>
 		</effects>
 	</skill>
 	<skill id="54014" toLevel="1" name="Summon Agathion - Aquarius">
