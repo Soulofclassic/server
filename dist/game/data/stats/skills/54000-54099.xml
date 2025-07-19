@@ -1816,13 +1816,14 @@
 		<icon>icon.etc_ssq_i00</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
-		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
-		<abnormalType>VOTE</abnormalType>
-		<effectPoint>1</effectPoint>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<irreplaceableBuff>true</irreplaceableBuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<reuseDelay>60000</reuseDelay>
 		<stayAfterDeath>true</stayAfterDeath>
+		<itemConsumeCount>0</itemConsumeCount>
+		<itemConsumeId>90519</itemConsumeId>
+		<reuseDelay>60000</reuseDelay>
 		<selfEffects>
 			<effect name="CallSkill">
 				<skillId>54100</skillId> <!-- Shield -->
