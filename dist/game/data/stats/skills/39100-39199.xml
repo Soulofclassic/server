@@ -1477,6 +1477,8 @@
 		<itemConsumeId>49772</itemConsumeId>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>1</magicLevel>
+		<reuseDelay>120000</reuseDelay>
+		<stayAfterDeath>true</stayAfterDeath>
 		<selfEffects>
 			<effect name="CallSkill">
 				<skillId>1068</skillId> <!-- Might -->
@@ -1515,15 +1517,11 @@
 				<skillLevel>4</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>1268</skillId> <!-- Vampiric Rage -->
-				<skillLevel>4</skillLevel>
-			</effect>
-			<effect name="CallSkill">
 				<skillId>54118</skillId> <!-- Sayha's Recover MP -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>55242</skillId> <!-- Berserker Spirit lvl 1 -->
+				<skillId>54104</skillId> <!-- Berserker Spirit lvl 1 -->
 				<skillLevel>1</skillLevel>
 			</effect>
 		</selfEffects>
