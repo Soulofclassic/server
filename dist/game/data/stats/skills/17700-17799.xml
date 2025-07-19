@@ -40,7 +40,7 @@
 		<hitTime>1000</hitTime>
 		<reuseDelay>300000</reuseDelay>
 	</skill>
-	<skill id="17706" toLevel="10" name="Vital Stone">
+	<skill id="17706" toLevel="5" name="Vital Stone">
 		<!-- Level 1: While Sayha's Grace is active, Acquired XP/ SP +5%. Acquired Attribute XP +5%. -->
 		<!-- Level 2: While Sayha's Grace is active, Acquired XP/ SP +10%. Acquired Attribute XP +10%. -->
 		<!-- Level 3: While Sayha's Grace is active, Acquired XP/ SP +15%. Acquired Attribute XP +15%. -->
