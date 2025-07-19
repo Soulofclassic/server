@@ -4,63 +4,129 @@
 		<npc>30020</npc> <!-- Baggins -->
 	</npcs>
 	<item>
-		<ingredient count="1" id="6660" /> <!-- Queen Ant's Ring -->
-		<ingredient count="1" id="6660" /> <!-- Queen Ant's Ring -->
+		<ingredient count="1" id="6660" /> <!-- Queen Ant's Ring lvl 1 -->
+		<ingredient count="1" id="6660" /> <!-- Queen Ant's Ring lvl 1 -->
 		<ingredient count="1000000" id="57" /> <!-- Adena -->
-		<production count="1" id="49574" /> <!-- Enhanced Queen Ant's Ring -->
+		<production count="1" id="49574" /> <!-- Queen Ant's Ring lvl 2 -->
 	</item>
 	<item>
-		<ingredient count="1" id="49574" /> <!-- Enhanced Queen Ant's Ring -->
-		<ingredient count="1" id="49574" /> <!-- Enhanced Queen Ant's Ring -->
+		<ingredient count="1" id="49574" /> <!-- Queen Ant's Ring lvl 2 -->
+		<ingredient count="1" id="49574" /> <!-- Queen Ant's Ring lvl 2-->
 		<ingredient count="2000000" id="57" /> <!-- Adena -->
-		<production count="1" id="49577" /> <!-- Refined Queen Ant's Ring -->
+		<production count="1" id="49577" /> <!-- Queen Ant's Ring lvl 3 -->
 	</item>
 	<item>
-		<ingredient count="1" id="6662" /> <!-- Ring of Core -->
-		<ingredient count="1" id="6662" /> <!-- Ring of Core -->
+		<ingredient count="1" id="49577" /> <!-- Queen Ant's Ring lvl 3 -->
+		<ingredient count="1" id="49577" /> <!-- Queen Ant's Ring lvl 3  -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91378" /> <!-- Queen Ant's Ring lvl 4-->
+	</item>
+	<item>
+		<ingredient count="1" id="6662" /> <!-- Ring of Core lvl 1 -->
+		<ingredient count="1" id="6662" /> <!-- Ring of Core lvl 1 -->
 		<ingredient count="1000000" id="57" /> <!-- Adena -->
-		<production count="1" id="49576" /> <!-- Enhanced Ring of Core -->
+		<production count="1" id="49576" /> <!-- Ring of Core lvl 2 -->
 	</item>
 	<item>
-		<ingredient count="1" id="49576" /> <!-- Enhanced Ring of Core -->
-		<ingredient count="1" id="49576" /> <!-- Enhanced Ring of Core -->
+		<ingredient count="1" id="49576" /> <!-- Ring of Core lvl 2  -->
+		<ingredient count="1" id="49576" /> <!-- Ring of Core lvl 2  -->
 		<ingredient count="2000000" id="57" /> <!-- Adena -->
-		<production count="1" id="49579" /> <!-- Refined Ring of Core -->
+		<production count="1" id="49579" /> <!-- Ring of Core lvl 3  -->
 	</item>
 	<item>
-		<ingredient count="1" id="6661" /> <!-- Orfen's Earring -->
-		<ingredient count="1" id="6661" /> <!-- Orfen's Earring -->
+		<ingredient count="1" id="49579" /> <!-- Ring of Core lvl 3   -->
+		<ingredient count="1" id="49579" /> <!-- Ring of Core lvl 3  -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91380" /> <!-- Ring of Core lvl 4  -->
+	</item>
+	<item>
+		<ingredient count="1" id="6661" /> <!-- Orfen's Earring lvl 1-->
+		<ingredient count="1" id="6661" /> <!-- Orfen's Earring lvl 1 -->
 		<ingredient count="1000000" id="57" /> <!-- Adena -->
-		<production count="1" id="49575" /> <!-- Enhanced Orfen's Earring -->
+		<production count="1" id="49575" /> <!-- Orfen's Earring lvl 2 -->
 	</item>
 	<item>
-		<ingredient count="1" id="49575" /> <!-- Enhanced Orfen's Earring -->
-		<ingredient count="1" id="49575" /> <!-- Enhanced Orfen's Earring -->
+		<ingredient count="1" id="49575" /> <!-- Orfen's Earring lvl 2 -->
+		<ingredient count="1" id="49575" /> <!-- Orfen's Earring lvl 2 -->
 		<ingredient count="2000000" id="57" /> <!-- Adena -->
-		<production count="1" id="49578" /> <!-- Refined Orfen's Earring -->
+		<production count="1" id="49578" /> <!-- Orfen's Earring lvl 3 -->
 	</item>
 	<item>
-		<ingredient count="1" id="90763" /> <!-- Zaken's Earring -->
-		<ingredient count="1" id="90763" /> <!-- Zaken's Earring -->
+		<ingredient count="1" id="49578" /> <!-- Orfen's Earring lvl 3 -->
+		<ingredient count="1" id="49578" /> <!-- Orfen's Earring lvl 3 -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91379" /> <!-- Orfen's Earring lvl 4 -->
+	</item>
+	<item>
+		<ingredient count="1" id="90763" /> <!-- Zaken's Earring lvl 1-->
+		<ingredient count="1" id="90763" /> <!-- Zaken's Earring lvl 1-->
 		<ingredient count="1000000" id="57" /> <!-- Adena -->
-		<production count="1" id="90764" /> <!-- Enhanced Zaken's Earring -->
+		<production count="1" id="90764" /> <!-- Zaken's Earring lvl 2 -->
 	</item>
 	<item>
-		<ingredient count="1" id="90764" /> <!-- Enhanced Zaken's Earring -->
-		<ingredient count="1" id="90764" /> <!-- Enhanced Zaken's Earring -->
+		<ingredient count="1" id="90764" /> <!-- Zaken's Earring lvl 2 -->
+		<ingredient count="1" id="90764" /> <!-- Zaken's Earring lvl 2 -->
 		<ingredient count="2000000" id="57" /> <!-- Adena -->
-		<production count="1" id="90765" /> <!-- Refined Zaken's Earring -->
+		<production count="1" id="90765" /> <!-- Zaken's Earring lvl 3 -->
 	</item>
 	<item>
-		<ingredient count="1" id="49580" /> <!-- Baium's Ring -->
-		<ingredient count="1" id="49580" /> <!-- Baium's Ring -->
+		<ingredient count="1" id="90765" /> <!-- Zaken's Earring lvl 3 -->
+		<ingredient count="1" id="90765" /> <!-- Zaken's Earring lvl 3 -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91382" /> <!-- Zaken's Earring lvl 4 -->
+	</item>
+	<item>
+		<ingredient count="1" id="49580" /> <!-- Baium's Ring lvl 1 -->
+		<ingredient count="1" id="49580" /> <!-- Baium's Ring lvl 1-->
 		<ingredient count="1000000" id="57" /> <!-- Adena -->
-		<production count="1" id="49581" /> <!-- Reinforced Baium's Ring -->
+		<production count="1" id="49581" /> <!-- Baium's Ring lvl 2-->
 	</item>
 	<item>
-		<ingredient count="1" id="49581" /> <!-- Reinforced Baium's Ring -->
-		<ingredient count="1" id="49581" /> <!-- Reinforced Baium's Ring -->
+		<ingredient count="1" id="49581" /> <!-- Baium's Ring lvl 2 -->
+		<ingredient count="1" id="49581" /> <!-- Baium's Ring lvl 2 -->
 		<ingredient count="2000000" id="57" /> <!-- Adena -->
-		<production count="1" id="49582" /> <!-- Refined Baium's Ring -->
+		<production count="1" id="49582" /> <!-- Baium's Ring lvl 3 -->
+	</item>
+	<item>
+		<ingredient count="1" id="49582" /> <!-- Baium's Ring lvl 3 -->
+		<ingredient count="1" id="49582" /> <!-- Baium's Ring lvl 3 -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91381" /> <!-- Baium's Ring lvl 4 -->
+	</item>
+	<item>
+		<ingredient count="1" id="90992" /> <!-- Antharas' Earring lvl 1 -->
+		<ingredient count="1" id="90992" /> <!-- Antharas' Earring lvl 1 -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91138" /> <!-- Antharas' Earring lvl 2 -->
+	</item>
+	<item>
+		<ingredient count="1" id="91138" /> <!-- Antharas' Earring lvl 2 -->
+		<ingredient count="1" id="91138" /> <!-- Antharas' Earring lvl 2 -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91139" /> <!-- Antharas' Earring lvl 3 -->
+	</item>
+	<item>
+		<ingredient count="1" id="91139" /> <!-- Antharas' Earring lvl 3 -->
+		<ingredient count="1" id="91139" /> <!-- Antharas' Earring lvl 3 -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91383" /> <!-- Antharas' Earring lvl 4 -->
+	</item>
+	<item>
+		<ingredient count="1" id="91550" /> <!-- Frintezza's Necklace lvl 1 -->
+		<ingredient count="1" id="91550" /> <!-- Frintezza's Necklace lvl 1 -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91551" /> <!-- Frintezza's Necklace lvl 2 -->
+	</item>
+	<item>
+		<ingredient count="1" id="91551" /> <!-- Frintezza's Necklace lvl 2 -->
+		<ingredient count="1" id="91551" /> <!-- Frintezza's Necklace lvl 2 -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91552" /> <!-- Frintezza's Necklace lvl 3 -->
+	</item>
+	<item>
+		<ingredient count="1" id="91552" /> <!-- Frintezza's Necklace lvl 3 -->
+		<ingredient count="1" id="91552" /> <!-- Frintezza's Necklace lvl 3 -->
+		<ingredient count="2000000" id="57" /> <!-- Adena -->
+		<production count="1" id="91553" /> <!-- Frintezza's Necklace lvl 4 -->
 	</item>
 </list>
