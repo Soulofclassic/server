@@ -1230,7 +1230,7 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="MpVampiricAttack">
+			<effect name="MpVampiricAttack" fromLevel="6" toLevel="10">
 				<amount>
 					<value level="6">1</value>
 					<value level="7">2</value>
@@ -1287,7 +1287,7 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="VampiricAttack">
+			<effect name="VampiricAttack" fromLevel="6" toLevel="10"> 
 				<amount>
 					<value level="6">3</value>
 					<value level="7">6</value>
