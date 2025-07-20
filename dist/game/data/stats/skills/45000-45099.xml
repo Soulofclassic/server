@@ -1792,9 +1792,20 @@
 	<skill id="45045" toLevel="1" name="Dragon Meditation">
 		<!-- For 15 sec speed +33 -->
 	    <icon>icon.dragon_invocation</icon>
-		<operateType>A1</operateType>
-		<effectPoint>673</effectPoint>
-		<hitTime>2000</hitTime>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>SPEED_UP_SPECIAL</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>400</castRange>
+		<effectPoint>438</effectPoint>
+		<effectRange>900</effectRange>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>46</magicLevel>
+		<mpConsume>20</mpConsume>
 		<reuseDelay>600000</reuseDelay>
 		<effects>
 			<effect name="Speed">
