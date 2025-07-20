@@ -914,6 +914,25 @@
 					<value level="11">4</value>
 				</skillLevel>
 			</effect>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
+				<condition>
+					<damageType type="MAGIC" />
+					<attacker>true</attacker>
+				</condition>
+				<attackerType>Creature</attackerType>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+				<minDamage>1</minDamage>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>35027</skillId> <!-- Dimensional Border Power -->
+				<skillLevel>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+					<value level="11">4</value>
+				</skillLevel>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="35025" toLevel="1" name="Border Purification">
