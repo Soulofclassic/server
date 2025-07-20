@@ -665,7 +665,7 @@
 		<hitTime>1000</hitTime>
 		<reuseDelay>7200000</reuseDelay>
 	</skill>
-	<skill id="35024" toLevel="21" name="Talisman of Border">
+	<skill id="35024" toLevel="11" name="Talisman of Border">
 		<!-- Level 1: Activates Dimensional Border Power. <Defence>: P./ M. Def. +12. -->
 		<!-- Level 2: Activates Dimensional Border Power. <Defence>: P./ M. Def. +14, P./ M. Evasion +1. -->
 		<!-- Level 3: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +3%. <Defence>: P./ M. Def. +17, P./ M. Evasion +1, Max HP/ MP/ CP +80. <Speed>: Speed +3. -->
@@ -677,16 +677,6 @@
 		<!-- Level 9: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +38, P./ M. Evasion +2, Max HP/ MP/ CP +240. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +15. <Destruction>: Returns 4% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
 		<!-- Level 10: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +43, P./ M. Evasion +2, Max HP/ MP/ CP +280. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +20. <Destruction>: Returns 6% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
 		<!-- Level 11: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +48, P./ M. Evasion +2, Max HP/ MP/ CP +320. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +30. <Destruction>: Returns 8% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 12: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +3%. <Defence>: P./ M. Def. +25, P./ M. Evasion +1, Max HP/ MP/ CP +150. <Speed>: Speed +5, Atk. Spd./ Casting Spd. +10. -->
-		<!-- Level 13: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +30, P./ M. Evasion +2, Max HP/ MP/ CP +200. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: Returns 1% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 14: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +6%. <Defence>: P./ M. Def. +35, P./ M. Evasion +2, Max HP/ MP/ CP +250. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: Returns 2% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 15: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +7%. <Defence>: P./ M. Def. +40, P./ M. Evasion +2, Max HP/ MP/ CP +300. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: Returns 4% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 16: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +8%. <Defence>: P./ M. Def. +45, P./ M. Evasion +3, Max HP/ MP/ CP +400. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +20. <Destruction>: Returns 6% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 17: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +10%. <Defence>: P./ M. Def. +50, P./ M. Evasion +3, Max HP/ MP/ CP +500. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +30. <Destruction>: Returns 8% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 18: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +12%. <Defence>: P./ M. Def. +70, P./ M. Evasion +4, Max HP/ MP/ CP +1000. <Speed>: Speed +9, Atk. Spd. +40, Casting Spd. +50. <Destruction>: Returns 9% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 19: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +15%. <Defence>: P./ M. Def. +80, P./ M. Evasion +4, Max HP/ MP/ CP +1300. <Speed>: Speed +9, Atk. Spd. +40, Casting Spd. +65. <Destruction>: Returns 9% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 20: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +20%. <Defence>: P./ M. Def. +90, P./ M. Evasion +4, Max HP/ MP/ CP +1600. <Speed>: Speed +9, Atk. Spd. +50, Casting Spd. +80. <Destruction>: Returns 9% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 21: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +30%. <Defence>: P./ M. Def. +100, P./ M. Evasion +5, Max HP/ MP/ CP +2000. <Speed>: Speed +10, Atk. Spd. +50, Casting Spd. +100. <Destruction>: Returns 10% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
 		<icon>
 			<value level="1">icon.bm_magic_square_talisman</value>
 			<value level="2">icon.bm_magic_square_talisman</value>
@@ -699,16 +689,6 @@
 			<value level="9">icon.bm_magic_square_talisman</value>
 			<value level="10">icon.bm_magic_square_talisman</value>
 			<value level="11">icon.bm_blessed_magic_square_talisman</value>
-			<value level="12">icon.bm_dimension_tallisman</value>
-			<value level="13">icon.bm_dimension_tallisman</value>
-			<value level="14">icon.bm_dimension_tallisman</value>
-			<value level="15">icon.bm_dimension_tallisman</value>
-			<value level="16">icon.bm_dimension_tallisman</value>
-			<value level="17">icon.bm_dimension_tallisman</value>
-			<value level="18">icon.bm_dimension_tallisman</value>
-			<value level="19">icon.bm_dimension_tallisman</value>
-			<value level="20">icon.bm_dimension_tallisman</value>
-			<value level="21">icon.bm_dimension_tallisman</value>
 		</icon>
 		<operateType>P</operateType>
 		<excludedFromCheck>true</excludedFromCheck>
@@ -727,16 +707,6 @@
 					<value level="9">38</value>
 					<value level="10">43</value>
 					<value level="11">48</value>
-					<value level="12">25</value>
-					<value level="13">30</value>
-					<value level="14">35</value>
-					<value level="15">40</value>
-					<value level="16">45</value>
-					<value level="17">50</value>
-					<value level="18">70</value>
-					<value level="19">80</value>
-					<value level="20">90</value>
-					<value level="21">100</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -753,16 +723,6 @@
 					<value level="9">38</value>
 					<value level="10">43</value>
 					<value level="11">48</value>
-					<value level="12">25</value>
-					<value level="13">30</value>
-					<value level="14">35</value>
-					<value level="15">40</value>
-					<value level="16">45</value>
-					<value level="17">50</value>
-					<value level="18">70</value>
-					<value level="19">80</value>
-					<value level="20">90</value>
-					<value level="21">100</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -779,16 +739,6 @@
 					<value level="9">2</value>
 					<value level="10">2</value>
 					<value level="11">2</value>
-					<value level="12">1</value>
-					<value level="13">2</value>
-					<value level="14">2</value>
-					<value level="15">2</value>
-					<value level="16">3</value>
-					<value level="17">3</value>
-					<value level="18">4</value>
-					<value level="19">4</value>
-					<value level="20">4</value>
-					<value level="21">5</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -805,16 +755,6 @@
 					<value level="9">2</value>
 					<value level="10">2</value>
 					<value level="11">2</value>
-					<value level="12">1</value>
-					<value level="13">2</value>
-					<value level="14">2</value>
-					<value level="15">2</value>
-					<value level="16">3</value>
-					<value level="17">3</value>
-					<value level="18">4</value>
-					<value level="19">4</value>
-					<value level="20">4</value>
-					<value level="21">5</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -831,16 +771,6 @@
 					<value level="9">240</value>
 					<value level="10">280</value>
 					<value level="11">320</value>
-					<value level="12">150</value>
-					<value level="13">200</value>
-					<value level="14">250</value>
-					<value level="15">300</value>
-					<value level="16">400</value>
-					<value level="17">500</value>
-					<value level="18">1000</value>
-					<value level="19">1300</value>
-					<value level="20">1600</value>
-					<value level="21">2000</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -857,16 +787,6 @@
 					<value level="9">240</value>
 					<value level="10">280</value>
 					<value level="11">320</value>
-					<value level="12">150</value>
-					<value level="13">200</value>
-					<value level="14">250</value>
-					<value level="15">300</value>
-					<value level="16">400</value>
-					<value level="17">500</value>
-					<value level="18">1000</value>
-					<value level="19">1300</value>
-					<value level="20">1600</value>
-					<value level="21">2000</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -883,16 +803,6 @@
 					<value level="9">240</value>
 					<value level="10">280</value>
 					<value level="11">320</value>
-					<value level="12">150</value>
-					<value level="13">200</value>
-					<value level="14">250</value>
-					<value level="15">300</value>
-					<value level="16">400</value>
-					<value level="17">500</value>
-					<value level="18">1000</value>
-					<value level="19">1300</value>
-					<value level="20">1600</value>
-					<value level="21">2000</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -909,16 +819,6 @@
 					<value level="9">8</value>
 					<value level="10">8</value>
 					<value level="11">8</value>
-					<value level="12">5</value>
-					<value level="13">7</value>
-					<value level="14">7</value>
-					<value level="15">7</value>
-					<value level="16">8</value>
-					<value level="17">8</value>
-					<value level="18">9</value>
-					<value level="19">9</value>
-					<value level="20">9</value>
-					<value level="21">10</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -935,16 +835,6 @@
 					<value level="9">15</value>
 					<value level="10">20</value>
 					<value level="11">30</value>
-					<value level="12">10</value>
-					<value level="13">15</value>
-					<value level="14">15</value>
-					<value level="15">15</value>
-					<value level="16">20</value>
-					<value level="17">30</value>
-					<value level="18">40</value>
-					<value level="19">40</value>
-					<value level="20">50</value>
-					<value level="21">50</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -961,16 +851,6 @@
 					<value level="9">15</value>
 					<value level="10">20</value>
 					<value level="11">30</value>
-					<value level="12">10</value>
-					<value level="13">15</value>
-					<value level="14">15</value>
-					<value level="15">15</value>
-					<value level="16">20</value>
-					<value level="17">30</value>
-					<value level="18">50</value>
-					<value level="19">65</value>
-					<value level="20">80</value>
-					<value level="21">100</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
@@ -987,16 +867,6 @@
 					<value level="9">5</value>
 					<value level="10">5</value>
 					<value level="11">5</value>
-					<value level="12">3</value>
-					<value level="13">5</value>
-					<value level="14">6</value>
-					<value level="15">7</value>
-					<value level="16">8</value>
-					<value level="17">10</value>
-					<value level="18">12</value>
-					<value level="19">15</value>
-					<value level="20">20</value>
-					<value level="21">30</value>
 				</amount>
 			</effect>
 			<effect name="SpModify">
@@ -1012,16 +882,6 @@
 					<value level="9">5</value>
 					<value level="10">5</value>
 					<value level="11">5</value>
-					<value level="12">3</value>
-					<value level="13">5</value>
-					<value level="14">6</value>
-					<value level="15">7</value>
-					<value level="16">8</value>
-					<value level="17">10</value>
-					<value level="18">12</value>
-					<value level="19">15</value>
-					<value level="20">20</value>
-					<value level="21">30</value>
 				</amount>
 			</effect>
 			<effect name="DamageShield">
@@ -1037,16 +897,6 @@
 					<value level="9">4</value>
 					<value level="10">6</value>
 					<value level="11">8</value>
-					<value level="12">0</value>
-					<value level="13">1</value>
-					<value level="14">2</value>
-					<value level="15">4</value>
-					<value level="16">6</value>
-					<value level="17">8</value>
-					<value level="18">9</value>
-					<value level="19">9</value>
-					<value level="20">9</value>
-					<value level="21">10</value>
 				</amount>
 			</effect>
 			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
@@ -1063,55 +913,6 @@
 					<value level="10">3</value>
 					<value level="11">4</value>
 				</skillLevel>
-			</effect>
-			<effect name="TriggerSkillByDamageDealt" fromLevel="13" toLevel="21">
-				<attackerType>Creature</attackerType>
-				<chance>30</chance>
-				<targetType>SELF</targetType>
-				<minDamage>1</minDamage>
-				<allowWeapons>ALL</allowWeapons>
-				<skillId>35027</skillId> <!-- Dimensional Border Power -->
-				<skillLevel>
-					<value level="13">1</value>
-					<value level="14">2</value>
-					<value level="15">3</value>
-					<value level="16">4</value>
-					<value level="17">5</value>
-					<value level="18">6</value>
-					<value level="19">7</value>
-					<value level="20">8</value>
-					<value level="21">9</value>
-				</skillLevel>
-			</effect>
-			<effect name="TriggerSkillByMagicType" fromLevel="7" toLevel="11">
-				<magicTypes>1;2;3</magicTypes>
-				<skillId>35027</skillId> <!-- Dimensional Border Power -->
-				<skillLevel>
-					<value level="7">1</value>
-					<value level="8">2</value>
-					<value level="9">2</value>
-					<value level="10">3</value>
-					<value level="11">4</value>
-				</skillLevel>
-				<chance>30</chance>
-				<targetType>SELF</targetType>
-			</effect>
-			<effect name="TriggerSkillByMagicType" fromLevel="13" toLevel="21">
-				<magicTypes>1;2;3</magicTypes>
-				<skillId>35027</skillId> <!-- Dimensional Border Power -->
-				<skillLevel>
-					<value level="13">1</value>
-					<value level="14">2</value>
-					<value level="15">3</value>
-					<value level="16">4</value>
-					<value level="17">5</value>
-					<value level="18">6</value>
-					<value level="19">7</value>
-					<value level="20">8</value>
-					<value level="21">9</value>
-				</skillLevel>
-				<chance>30</chance>
-				<targetType>SELF</targetType>
 			</effect>
 		</effects>
 	</skill>
@@ -1147,20 +948,20 @@
 		<operateType>A1</operateType>
 		<coolTime>200</coolTime>
 		<effectPoint>100</effectPoint>
-		<hitTime>3000</hitTime>
+		<hitTime>1000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<reuseDelay>1200000</reuseDelay>
+		<effects>
+			<effect name="Heal" percent="50" />          <!-- 50% HP restore -->
+			<effect name="MpHeal" percent="50" />        <!-- 50% MP restore -->
+			<effect name="CpHeal" percent="50" />        <!-- 50% CP restore -->
+		</effects>
 	</skill>
 	<skill id="35027" toLevel="9" name="Dimensional Border Power">
 		<!-- Level 1: P./ M. Atk. +2%, P./ M. Critical Damage +10%. -->
 		<!-- Level 2: P./ M. Atk. +5%, P./ M. Critical Damage +30%. -->
 		<!-- Level 3: P./ M. Atk. +7%, P./ M. Critical Damage +40%. -->
 		<!-- Level 4: P./ M. Atk. +10%, P./ M. Critical Damage +40%. -->
-		<!-- Level 5: P. Atk. +11%, M. Atk. +12%, P./ M. Critical Damage +40%. -->
-		<!-- Level 6: P. Atk. +13%, M. Atk. +15%, P./ M. Critical Damage +40%, P./ M. Critical Rate +2%. -->
-		<!-- Level 7: P. Atk. +15%, M. Atk. +20%, P./ M. Critical Damage +40%, P./ M. Critical Rate +3%. -->
-		<!-- Level 8: P. Atk. +17%, M. Atk. +25%, P./ M. Critical Damage +40%, P./ M. Critical Rate +5%. -->
-		<!-- Level 9: P. Atk. +20%, M. Atk. +30%, P./ M. Critical Damage +40%, P./ M. Critical Rate +10%. -->
 		<icon>icon.skill10030</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
@@ -1169,11 +970,6 @@
 			<value level="2">2</value>
 			<value level="3">3</value>
 			<value level="4">4</value>
-			<value level="5">5</value>
-			<value level="6">6</value>
-			<value level="7">7</value>
-			<value level="8">8</value>
-			<value level="9">9</value>
 		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
 		<abnormalType>COUNTER_CRITICAL_TRIGGER</abnormalType>
@@ -1192,11 +988,6 @@
 					<value level="2">5</value>
 					<value level="3">7</value>
 					<value level="4">10</value>
-					<value level="5">11</value>
-					<value level="6">13</value>
-					<value level="7">15</value>
-					<value level="8">17</value>
-					<value level="9">20</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -1206,11 +997,6 @@
 					<value level="2">5</value>
 					<value level="3">7</value>
 					<value level="4">10</value>
-					<value level="5">12</value>
-					<value level="6">15</value>
-					<value level="7">20</value>
-					<value level="8">25</value>
-					<value level="9">30</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -1220,11 +1006,6 @@
 					<value level="2">30</value>
 					<value level="3">40</value>
 					<value level="4">40</value>
-					<value level="5">40</value>
-					<value level="6">40</value>
-					<value level="7">40</value>
-					<value level="8">40</value>
-					<value level="9">40</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -1234,31 +1015,6 @@
 					<value level="2">30</value>
 					<value level="3">40</value>
 					<value level="4">40</value>
-					<value level="5">40</value>
-					<value level="6">40</value>
-					<value level="7">40</value>
-					<value level="8">40</value>
-					<value level="9">40</value>
-				</amount>
-				<mode>PER</mode>
-			</effect>
-			<effect name="CriticalRate">
-				<amount>
-					<value fromLevel="1" toLevel="5">0</value>
-					<value level="6">2</value>
-					<value level="7">3</value>
-					<value level="8">5</value>
-					<value level="9">10</value>
-				</amount>
-				<mode>PER</mode>
-			</effect>
-			<effect name="MagicCriticalRate">
-				<amount>
-					<value fromLevel="1" toLevel="5">0</value>
-					<value level="6">2</value>
-					<value level="7">3</value>
-					<value level="8">5</value>
-					<value level="9">10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>

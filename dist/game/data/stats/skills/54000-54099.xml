@@ -1816,17 +1816,10 @@
 		<icon>icon.etc_ssq_i00</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
-		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
-		<abnormalType>DRAGON_FRUIT</abnormalType>
-		<affectScope>SINGLE</affectScope>
-		<effectPoint>1</effectPoint>
 		<blockedInOlympiad>true</blockedInOlympiad>
 		<irreplaceableBuff>true</irreplaceableBuff>
 		<isMagic>2</isMagic> <!-- Static Skill -->
-		<stayAfterDeath>true</stayAfterDeath>
-		<itemConsumeCount>-1</itemConsumeCount>
-		<itemConsumeId>-1</itemConsumeId>
 		<reuseDelay>1110000</reuseDelay>
 		<selfEffects>
 			<effect name="CallSkill">
