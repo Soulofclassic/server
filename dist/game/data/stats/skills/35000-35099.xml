@@ -878,7 +878,6 @@
 			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
 				<attackerType>Creature</attackerType>
 				<chance>15</chance>
-				<reuseDelay>15000</reuseDelay>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
@@ -894,7 +893,6 @@
 			<effect name="TriggerSkillByMagicType" fromLevel="7" toLevel="11">
 				<magicTypes>0;1;</magicTypes>
 				<chance>15</chance>
-				<reuseDelay>15000</reuseDelay>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
@@ -965,6 +963,7 @@
 			<value level="4">4</value>
 		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
+		<reuseDelay>15000</reuseDelay>
 		<abnormalType>COUNTER_CRITICAL_TRIGGER</abnormalType>
 		<affectScope>SINGLE</affectScope>
 		<hitCancelTime>0</hitCancelTime>
