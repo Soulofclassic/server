@@ -1800,6 +1800,7 @@
 	    <targetType>SELF</targetType>
 	    <isMagic>1</isMagic>
 	    <magicLevel>80</magicLevel>  <!-- Must be >=1 -->
+	    <abnormalLevel>1</abnormalLevel>
 	    <abnormalType>BUFF</abnormalType>
 	    <affectScope>SINGLE</affectScope>
 	    <castRange>-1</castRange>
