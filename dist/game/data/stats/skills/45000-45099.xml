@@ -1793,38 +1793,36 @@
 		<!-- For 15 sec. gives self buf = HP Recovery Bonus +50, MP Recovery Bonus +50, Speed +33. -->
 		<icon>icon.dragon_invocation</icon>
 		<operateType>A1</operateType>
-	    <effectPoint>673</effectPoint>
-	    <hitTime>1000</hitTime>
 	    <reuseDelay>600000</reuseDelay>
 	    <abnormalTime>15000</abnormalTime>
-	    <targetType>SELF</targetType>
-	    <isMagic>1</isMagic>
-	    <magicLevel>80</magicLevel>  <!-- Must be >=1 -->
-	    <abnormalLevel>1</abnormalLevel>
 	    <abnormalType>BUFF</abnormalType>
+	    <abnormalLevel>1</abnormalLevel>
+	    <targetType>SELF</targetType>
 	    <affectScope>SINGLE</affectScope>
 	    <castRange>-1</castRange>
-	    <hitCancelTime>1000</hitCancelTime>
+	    <isMagic>1</isMagic>
+	    <magicLevel>80</magicLevel>  <!-- Must be >=1 -->
 	    <mpConsume>100</mpConsume>  <!-- Required field -->
 	    <isDebuff>0</isDebuff>      <!-- Must be 0 for buffs -->
+	    <castTime>0</castTime>
 	    <effects>
-	    	<effect name="HpRegen">
-	    		<amount>50</amount>
-	    		<mode>DIFF</mode>
+	    	<effect name="HealOverTime">
+	    		<period>3000</period>
+	    		<count>5</count>
+	    		<power>50</power>
+	    		<targetType>SELF</targetType>
 	        </effect>
-	        <effect name="MpRegen">
-	    		<amount>50</amount>
-	    		<mode>DIFF</mode>
+	        <effect name="ManaHealOverTime">
+	    		<period>3000</period>
+	    		<count>5</count>
+	    		<power>50</power>
+	    		<targetType>SELF</targetType>
 	        </effect>
 	        <effect name="Speed">
-	        	<amount>33</amount>  <!-- +33 movement speed -->
-	            <mode>DIFF</mode>
+	        	<amount>1.33</amount>  <!-- +33 movement speed -->
+	            <mode>MUL</mode>
 	        </effect>
-	    </effects>
-	    <graphic>
-	        <start>0</start>
-        	<end>0</end>
-        </graphic>	
+	    </effects>	
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">
 		<!-- For 10 sec. creates temporary defensive barrier that reflects normal attacks, skills and debuffs. -->
