@@ -875,7 +875,11 @@
             	</percent>
             	<damageType>PHYSICAL;MAGIC</damageType>
         	</effect>
-			<effect name="TriggerSkillByDamage" fromLevel="7" toLevel="11">
+			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
+				<attackerType>Creature</attackerType>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+				<minDamage>1</minDamage>
 				<damageType>PHYSICAL</damageType>
 				<skillId>35027</skillId> <!-- Dimensional Border Power -->
 				<skillLevel>
@@ -885,12 +889,19 @@
 					<value level="10">4</value>
 					<value level="11">4</value>
 				</skillLevel>
-				<chance>30</chance>
-				<targetType>SELF</targetType>
 			</effect>
 			<!-- Magic Attack Trigger -->
-			<effect name="TriggerSkillByDamage" fromLevel="7" toLevel="11">
-				<damageType>MAGIC</damageType>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
+				<attackerType>Creature</attackerType>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+				<minDamage>1</minDamage>
+				<condition>
+					<!-- Use magicTypes instead of damageType for magic detection -->
+		            <magicTypes>1;2;3</magicTypes>
+		            <attacker>true</attacker>
+		            <successOnly>true</successOnly> <!-- Ensure damage was dealt -->
+		        </condition>
 				<skillId>35027</skillId> <!-- Dimensional Border Power -->
 				<skillLevel>
 					<value level="7">1</value>
@@ -899,8 +910,6 @@
 					<value level="10">4</value>
 					<value level="11">4</value>
 				</skillLevel>
-				<chance>30</chance>
-				<targetType>SELF</targetType>
 			</effect>
 		</effects>
 	</skill>
