@@ -1796,6 +1796,7 @@
 	    <reuseDelay>600000</reuseDelay>  <!-- 10 min cooldown -->
 	    
 	    <!-- Buff properties -->
+	    <hitTime>1000</hitTime>
 	    <abnormalTime>15000</abnormalTime>
 	    <abnormalType>BUFF</abnormalType>
 	    <abnormalLevel>1</abnormalLevel>
@@ -1829,6 +1830,7 @@
     			<amount>33</amount>
     			<mode>DIFF</mode>
     		</effect>
+    	</effects>
     		<effect>
     			<self>
     				<effect name="Buff" stackType="DragonMeditation" stackOrder="1" time="15000">
