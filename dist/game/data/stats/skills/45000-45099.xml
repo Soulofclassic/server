@@ -1802,9 +1802,8 @@
 	    <stayOnDeath>false</stayOnDeath>
 	    <ignoreResists>true</ignoreResists>
 	    <!-- Proper buff container with category and stack management -->
-	    <abnormalType>GENERAL_BUFF</abnormalType>
-	    <abnormalLevel>1</abnormalLevel>
-	    <abnormalVisualEffect>1</abnormalVisualEffect>
+	    <abnormalType>BUFF</abnormalType>  <!-- Buff classification -->
+    	<affectScope>SINGLE</affectScope>
 	    <effects>
 	    	<!-- HP Recovery Bonus -->
 	    	<effect name="HealPower">
@@ -1818,7 +1817,7 @@
 	    	<effect name="Speed">
 	    		<amount>33</amount>
 	    		<mode>DIFF</mode>
-	    		</effect>
+	    	</effect>
 	    </effects>
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">
