@@ -18,8 +18,8 @@
 		<specialLevel>-1</specialLevel>
 		<effects>
 			<effect name="PhysicalDefence">
-				<amount>300</amount>
-				<mode>DIFF</mode>
+				<amount>15</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -41,8 +41,8 @@
 		<specialLevel>-1</specialLevel>
 		<effects>
 			<effect name="MagicalDefence">
-				<amount>300</amount>
-				<mode>DIFF</mode>
+				<amount>23</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -179,8 +179,8 @@
 		<specialLevel>-1</specialLevel>
 		<effects>
 			<effect name="CriticalRate">
-				<amount>40</amount>
-				<mode>DIFF</mode>
+				<amount>30</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -248,8 +248,8 @@
 		<specialLevel>-1</specialLevel>
 		<effects>
 			<effect name="MagicalAttack">
-				<amount>300</amount>
-				<mode>DIFF</mode>
+				<amount>75</amount>
+				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
