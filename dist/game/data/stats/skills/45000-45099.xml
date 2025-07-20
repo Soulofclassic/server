@@ -1792,7 +1792,7 @@
 	<skill id="45045" toLevel="1" name="Dragon Meditation">
 		<!-- For 15 sec., HP Recovery Bonus +50, MP Recovery Bonus +50, Speed +33. -->
 		<icon>icon.dragon_invocation</icon>
-		<operateType>A1</operateType>
+	    <operateType>A1</operateType>
 	    <effectPoint>673</effectPoint>
 	    <hitTime>1000</hitTime>
 	    <reuseDelay>600000</reuseDelay>
@@ -1800,24 +1800,34 @@
 	    <targetType>SELF</targetType>
 	    <isMagic>1</isMagic>
 	    <stayOnDeath>false</stayOnDeath>
+	    <ignoreResists>true</ignoreResists>
+	    
+	    <!-- Proper buff container with category and stack management -->
+	    <abnormalType>DRAGON_MEDITATION_BUFF</abnormalType>
+	    <abnormalLevel>1</abnormalLevel>
+	    <abnormalVisualEffect>1</abnormalVisualEffect>
+	    <stackType>DRAGON_MEDITATION</stackType>
+	    <stackOrder>1</stackOrder>
+	    
 	    <effects>
-    		<effect name="Buff" abnormalTime="15000" stackType="dragon_meditation" stackOrder="1">
-    			<subEffects>
-    				<effect name="HealPower">
-                    	<amount>50</amount>
-                    	<mode>DIFF</mode>
-                	</effect>
-                	<effect name="MpHealPower">
-                    	<amount>50</amount>
-                   		<mode>DIFF</mode>
-                	</effect>
-                	<effect name="Speed">
-                    	<amount>33</amount>
-                    	<mode>DIFF</mode>
-               		</effect>
-               	</subEffects>
-            </effect>
-    	</effects>
+	        <!-- HP Recovery Bonus -->
+	        <effect name="HpRegenBonus" abnormalTime="15000">
+	            <amount>50</amount>
+	            <mode>DIFF</mode>
+	        </effect>
+	        
+	        <!-- MP Recovery Bonus -->
+	        <effect name="MpRegenBonus" abnormalTime="15000">
+	            <amount>50</amount>
+	            <mode>DIFF</mode>
+	        </effect>
+	        
+	        <!-- Movement Speed Bonus -->
+	        <effect name="Speed" abnormalTime="15000">
+	            <amount>33</amount>
+	            <mode>DIFF</mode>
+	        </effect>
+	    </effects>
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">
 		<!-- For 10 sec. creates temporary defensive barrier that reflects normal attacks, skills and debuffs. -->

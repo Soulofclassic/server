@@ -672,11 +672,11 @@
 		<!-- Level 4: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +3%. <Defence>: P./ M. Def. +19, P./ M. Evasion +1, Max HP/ MP/ CP +80. <Speed>: Speed +3, Atk. Spd./ Casting Spd. +7. -->
 		<!-- Level 5: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +4%. <Defence>: P./ M. Def. +22, P./ M. Evasion +1, Max HP/ MP/ CP +120. <Speed>: Speed +5, Atk. Spd./ Casting Spd. +10. -->
 		<!-- Level 6: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +4%. <Defence>: P./ M. Def. +24, P./ M. Evasion +2, Max HP/ MP/ CP +160. <Speed>: Speed +5, Atk. Spd./ Casting Spd. +15. -->
-		<!-- Level 7: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +29, P./ M. Evasion +2, Max HP/ MP/ CP +160. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: with a certain chance activates Dimensional Border Power during physical or magical skill damage. -->
-		<!-- Level 8: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +34, P./ M. Evasion +2, Max HP/ MP/ CP +200. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: with a certain chance activates Dimensional Border Power during physical or magical skill damage. -->
-		<!-- Level 9: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +38, P./ M. Evasion +2, Max HP/ MP/ CP +240. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +15. <Destruction>: Returns 4% of damage received back to the enemy, with a certain chance activates Dimensional Border Power during physical or magical skill damage. -->
-		<!-- Level 10: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +43, P./ M. Evasion +2, Max HP/ MP/ CP +280. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +20. <Destruction>: Returns 6% of damage received back to the enemy, with a certain chance activates Dimensional Border Power during physical or magical skill damage. -->
-		<!-- Level 11: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +48, P./ M. Evasion +2, Max HP/ MP/ CP +320. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +30. <Destruction>: Returns 8% of damage received back to the enemy, with a certain chance activates Dimensional Border Power during physical or magical skill damage. -->
+		<!-- Level 7: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +29, P./ M. Evasion +2, Max HP/ MP/ CP +160. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: with a certain chance activates Dimensional Border Power when dealing damage. -->
+		<!-- Level 8: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +34, P./ M. Evasion +2, Max HP/ MP/ CP +200. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: with a certain chance activates Dimensional Border Power when dealing damage. -->
+		<!-- Level 9: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +38, P./ M. Evasion +2, Max HP/ MP/ CP +240. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +15. <Destruction>: Returns 4% of damage received back to the enemy, with a certain chance activates Dimensional Border Power when dealing damage. -->
+		<!-- Level 10: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +43, P./ M. Evasion +2, Max HP/ MP/ CP +280. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +20. <Destruction>: Returns 6% of damage received back to the enemy, with a certain chance activates Dimensional Border Power when dealing damage. -->
+		<!-- Level 11: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +48, P./ M. Evasion +2, Max HP/ MP/ CP +320. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +30. <Destruction>: Returns 8% of damage received back to the enemy, with a certain chance activates Dimensional Border Power when dealing damage. -->
 		<icon>
 			<value level="1">icon.bm_magic_square_talisman</value>
 			<value level="2">icon.bm_magic_square_talisman</value>
@@ -875,31 +875,10 @@
             	</percent>
             	<damageType>PHYSICAL;MAGIC</damageType>
         	</effect>
-			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
+			<effect name="TriggerSkillByDamage" fromLevel="7" toLevel="11">
 	            <condition>
-	                <damageType>PHYSICAL</damageType>
-	                <skill>true</skill> <!-- Only trigger on skill-based damage -->
 	                <attacker>true</attacker>
 	                <successOnly>true</successOnly>
-	            </condition>
-	            <skillId>35027</skillId>
-	            <skillLevel>
-	                <value level="7">1</value>
-	                <value level="8">2</value>
-	                <value level="9">3</value>
-	                <value level="10">4</value>
-	                <value level="11">4</value>
-	            </skillLevel>
-	            <chance>30</chance>
-	            <targetType>SELF</targetType>
-	        </effect>
-			<!-- Magic Attack Trigger -->
-			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
-				<condition>
-                <magicTypes>1;2;3</magicTypes>
-                <skill>true</skill> <!-- Only trigger on skill-based damage -->
-                <attacker>true</attacker>
-                <successOnly>true</successOnly>
 	            </condition>
 	            <skillId>35027</skillId>
 	            <skillLevel>
@@ -970,7 +949,7 @@
 			<value level="4">4</value>
 		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
-		<abnormalType>COUNTER_CRITICAL_TRIGGER</abnormalType>
+		<abnormalType>ATTACK_BUFF</abnormalType>
 		<affectScope>SINGLE</affectScope>
 		<hitCancelTime>0</hitCancelTime>
 		<isMagic>4</isMagic>
