@@ -1790,19 +1790,22 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="45045" toLevel="1" name="Dragon Meditation">
-		<!-- For 15 sec., HP Recovery Bonus +50, MP Recovery Bonus +50, Speed +33. -->
+		<!-- For 15 sec. gives self buf = HP Recovery Bonus +50, MP Recovery Bonus +50, Speed +33. -->
 		<icon>icon.dragon_invocation</icon>
 		<operateType>A1</operateType>
 	    <effectPoint>673</effectPoint>
 	    <hitTime>1000</hitTime>
 	    <reuseDelay>600000</reuseDelay>
-	    <abnormalTime>15000</abnormalTime>  <!-- 15 seconds duration -->
-	    <targetType>SELF</targetType>        <!-- Self-targeted skill -->
-	    <isMagic>1</isMagic>                <!-- Confirmed magic skill -->
-	    <magicLevel>1</magicLevel>          <!-- Required magic level field -->
-	    <abnormalType>DRAGON_INVOCATION</abnormalType>   <!-- Buff classification -->
-	    <affectScope>SINGLE</affectScope>    <!-- Standard for self-buffs -->
-	    <castRange>-1</castRange>           <!-- -1 = self-cast range -->
+	    <abnormalTime>15000</abnormalTime>
+	    <targetType>SELF</targetType>
+	    <isMagic>1</isMagic>
+	    <magicLevel>80</magicLevel>  <!-- Must be >=1 -->
+	    <abnormalType>BUFF</abnormalType>
+	    <affectScope>SINGLE</affectScope>
+	    <castRange>-1</castRange>
+	    <hitCancelTime>1000</hitCancelTime>
+	    <mpConsume>100</mpConsume>  <!-- Required field -->
+	    <isDebuff>0</isDebuff>      <!-- Must be 0 for buffs -->
 	    <effects>
 	    	<effect name="HpRegen">
 	    		<amount>50</amount>
@@ -1816,6 +1819,10 @@
 	        	<amount>33</amount>  <!-- +33 movement speed -->
 	            <mode>DIFF</mode>
 	        </effect>
+	        <graphic>
+	        	<start>0</start>
+        		<end>0</end>
+        	</graphic>
 	    </effects>
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">
