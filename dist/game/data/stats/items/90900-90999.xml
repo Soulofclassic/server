@@ -953,7 +953,6 @@
 		<set name="bodypart" val="underwear" />
 		<skills>
 			<skill id="35007" level="1" /> <!-- fire dragon pendant +1 (blessed fire dragon pendant!!!) -->
-			<skill id="45045" level="1" /> <!--Dragon Meditation -->
 		</skills>
 		<stats>
 			<stat type="pDef">55</stat>
