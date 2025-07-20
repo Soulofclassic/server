@@ -543,6 +543,7 @@
 		<skills>
 			<skill id="35024" level="11" /> <!-- Blessed Talisman of Border -->
 			<skill id="35025" level="1" /> <!-- Border Purification -->
+			<skill id="35026" level="1" /> <!--"Blessing of Borders"> -->
 		</skills>
 	</item>
 	<item id="49738" name="Sealed Blessed Talisman of Border" type="EtcItem">
