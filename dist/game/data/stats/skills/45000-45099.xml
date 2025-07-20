@@ -1792,7 +1792,6 @@
 	<skill id="45045" toLevel="1" name="Dragon Meditation">
 		<!-- For 15 sec. gives self buff: HP Recovery Bonus +50, MP Recovery Bonus +50, Speed +33. -->
 	    <icon>icon.dragon_invocation</icon>
-	    <icon>icon.dragon_barrier</icon>
 		<operateType>A1</operateType>
 		<effectPoint>673</effectPoint>
 		<hitTime>2000</hitTime>
