@@ -899,39 +899,36 @@
 					<value level="11">8</value>
 				</amount>
 			</effect>
-			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
-				<attackerType>Creature</attackerType>
-				<chance>30</chance>
-				<targetType>SELF</targetType>
-				<minDamage>1</minDamage>
-				<allowWeapons>ALL</allowWeapons>
-				<skillId>35027</skillId> <!-- Dimensional Border Power -->
-				<skillLevel>
-					<value level="7">1</value>
-					<value level="8">2</value>
-					<value level="9">2</value>
-					<value level="10">3</value>
-					<value level="11">4</value>
-				</skillLevel>
-			</effect>
-			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
+			<effect name="TriggerSkillByDamage" fromLevel="8" toLevel="11">
 				<condition>
-					<damageType type="MAGIC" />
+					<damageType>PHYSICAL</damageType>
 					<attacker>true</attacker>
 				</condition>
-				<attackerType>Creature</attackerType>
-				<chance>30</chance>
-				<targetType>SELF</targetType>
-				<minDamage>1</minDamage>
-				<allowWeapons>ALL</allowWeapons>
 				<skillId>35027</skillId> <!-- Dimensional Border Power -->
 				<skillLevel>
-					<value level="7">1</value>
-					<value level="8">2</value>
+					<value level="8">1</value>
 					<value level="9">2</value>
 					<value level="10">3</value>
 					<value level="11">4</value>
 				</skillLevel>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+			</effect>
+			<!-- Magic Attack Trigger -->
+			<effect name="TriggerSkillByDamage" fromLevel="8" toLevel="11">
+				<condition>
+					<damageType>MAGIC</damageType>
+					<attacker>true</attacker>
+				</condition>
+				<skillId>35027</skillId> <!-- Dimensional Border Power -->
+				<skillLevel>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+					<value level="11">4</value>
+				</skillLevel>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
 			</effect>
 		</effects>
 	</skill>
@@ -943,7 +940,7 @@
 		<affectScope>SINGLE</affectScope>
 		<castRange>600</castRange>
 		<effectPoint>100</effectPoint>
-		<hitTime>3000</hitTime>
+		<hitTime>1000</hitTime>
 		<isMagic>1</isMagic>
 		<reuseDelay>60000</reuseDelay>
 		<effects>
