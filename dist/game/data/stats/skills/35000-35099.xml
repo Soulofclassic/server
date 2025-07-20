@@ -876,10 +876,7 @@
             	<damageType>PHYSICAL;MAGIC</damageType>
         	</effect>
 			<effect name="TriggerSkillByDamage" fromLevel="7" toLevel="11">
-				<condition>
-					<damageType>PHYSICAL</damageType>
-					<attacker>true</attacker>
-				</condition>
+				<damageType>PHYSICAL</damageType>
 				<skillId>35027</skillId> <!-- Dimensional Border Power -->
 				<skillLevel>
 					<value level="7">1</value>
@@ -893,10 +890,7 @@
 			</effect>
 			<!-- Magic Attack Trigger -->
 			<effect name="TriggerSkillByDamage" fromLevel="7" toLevel="11">
-				<condition>
-					<damageType>MAGIC</damageType>
-					<attacker>true</attacker>
-				</condition>
+				<damageType>MAGIC</damageType>
 				<skillId>35027</skillId> <!-- Dimensional Border Power -->
 				<skillLevel>
 					<value level="7">1</value>
