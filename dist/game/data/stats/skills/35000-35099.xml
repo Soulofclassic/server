@@ -890,8 +890,12 @@
 					<value level="11">4</value>
 				</skillLevel>
 			</effect>
-			<effect name="TriggerSkillByMagicType" fromLevel="7" toLevel="11">
-				<magicTypes>1;2;3</magicTypes>
+			<effect name="TriggerSkillBySkillDamage" fromLevel="7" toLevel="11">
+				<attackerType>Creature</attackerType>
+				<chance>15</chance>
+				<targetType>SELF</targetType>
+				<minDamage>1</minDamage>
+				<allowWeapons>ALL</allowWeapons>
 				<skillId>35027</skillId> <!-- Dimensional Border Power -->
 				<skillLevel>
 					<value level="7">1</value>
@@ -900,8 +904,6 @@
 					<value level="10">3</value>
 					<value level="11">4</value>
 				</skillLevel>
-				<chance>15</chance>
-				<targetType>SELF</targetType>
 			</effect>
     	</effects>
 	</skill>
@@ -968,7 +970,6 @@
 		<isTriggeredSkill>true</isTriggeredSkill>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
-		<reuseDelay>30000</reuseDelay>
 		<staticReuse>true</staticReuse>
 		<effects>
 			<effect name="PhysicalAttack">
