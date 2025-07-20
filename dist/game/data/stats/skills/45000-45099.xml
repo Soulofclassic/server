@@ -1790,39 +1790,55 @@
 		<operateType>P</operateType>
 	</skill>
 	<skill id="45045" toLevel="1" name="Dragon Meditation">
-		<!-- For 15 sec. gives self buf = HP Recovery Bonus +50, MP Recovery Bonus +50, Speed +33. -->
-		<icon>icon.dragon_invocation</icon>
-		<operateType>A1</operateType>
-	    <reuseDelay>600000</reuseDelay>
+		<!-- For 15 sec. gives self buff: HP Recovery Bonus +50, MP Recovery Bonus +50, Speed +33. -->
+	    <icon>icon.dragon_invocation</icon>
+	    <operateType>A1</operateType>
+	    <reuseDelay>600000</reuseDelay>  <!-- 10 min cooldown -->
+	    
+	    <!-- Buff properties -->
 	    <abnormalTime>15000</abnormalTime>
 	    <abnormalType>BUFF</abnormalType>
 	    <abnormalLevel>1</abnormalLevel>
+	    
+	    <!-- Targeting -->
 	    <targetType>SELF</targetType>
 	    <affectScope>SINGLE</affectScope>
 	    <castRange>-1</castRange>
+	    
+	    <!-- Skill properties -->
 	    <isMagic>1</isMagic>
-	    <magicLevel>80</magicLevel>  <!-- Must be >=1 -->
-	    <mpConsume>100</mpConsume>  <!-- Required field -->
-	    <isDebuff>0</isDebuff>      <!-- Must be 0 for buffs -->
-	    <castTime>0</castTime>
-	    <effects>
-	    	<effect name="HealOverTime">
-	    		<period>3000</period>
-	    		<count>5</count>
-	    		<power>50</power>
-	    		<targetType>SELF</targetType>
-	        </effect>
-	        <effect name="ManaHealOverTime">
-	    		<period>3000</period>
-	    		<count>5</count>
-	    		<power>50</power>
-	    		<targetType>SELF</targetType>
-	        </effect>
-	        <effect name="Speed">
-	        	<amount>1.33</amount>  <!-- +33 movement speed -->
-	            <mode>MUL</mode>
-	        </effect>
-	    </effects>	
+	    <magicLevel>80</magicLevel>
+	    <mpConsume>100</mpConsume>
+	    <hpConsume>0</hpConsume>
+	    <cpConsume>0</cpConsume>
+	    <itemConsume count="0" id="0"/>
+	    <isDebuff>0</isDebuff>
+    
+    <!-- Casting mechanics -->
+    	<castTime>0</castTime>
+    	<effects>
+    		<effect name="HpRegen">
+    			<amount>50</amount>
+    			<mode>DIFF</mode>
+    		</effect>
+    		<effect name="MpRegen">
+    			<amount>50</amount>
+    			<mode>DIFF</mode>
+    		</effect>
+    		<effect name="Speed">
+    			<amount>33</amount>
+    			<mode>DIFF</mode>
+    		</effect>
+    		<effect>
+    			<self>
+    				<effect name="Buff" stackType="DragonMeditation" stackOrder="1" time="15000">
+    					<mesh index="0" />
+    					<startEffect name="none" />
+    					<endEffect name="none" />
+    				</effect>
+    			</self>
+    		</effect>
+    	</effects>
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">
 		<!-- For 10 sec. creates temporary defensive barrier that reflects normal attacks, skills and debuffs. -->
