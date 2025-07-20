@@ -1808,6 +1808,14 @@
 		<mpConsume>20</mpConsume>
 		<reuseDelay>600000</reuseDelay>
 		<effects>
+			<effect name="HealOverTime">
+				<power>100</power>
+				<ticks>15</ticks>
+			</effect>
+			<effect name="ManaHealOverTime">
+				<power>50</power>
+				<ticks>15</ticks>
+			</effect>
 			<effect name="Speed">
 				<amount>33</amount>
 				<mode>DIFF</mode>
