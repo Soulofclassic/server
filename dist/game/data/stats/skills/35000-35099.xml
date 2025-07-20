@@ -672,11 +672,11 @@
 		<!-- Level 4: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +3%. <Defence>: P./ M. Def. +19, P./ M. Evasion +1, Max HP/ MP/ CP +80. <Speed>: Speed +3, Atk. Spd./ Casting Spd. +7. -->
 		<!-- Level 5: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +4%. <Defence>: P./ M. Def. +22, P./ M. Evasion +1, Max HP/ MP/ CP +120. <Speed>: Speed +5, Atk. Spd./ Casting Spd. +10. -->
 		<!-- Level 6: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +4%. <Defence>: P./ M. Def. +24, P./ M. Evasion +2, Max HP/ MP/ CP +160. <Speed>: Speed +5, Atk. Spd./ Casting Spd. +15. -->
-		<!-- Level 7: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +29, P./ M. Evasion +2, Max HP/ MP/ CP +160. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: With a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 8: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +34, P./ M. Evasion +2, Max HP/ MP/ CP +200. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: With a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 9: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +38, P./ M. Evasion +2, Max HP/ MP/ CP +240. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +15. <Destruction>: Returns 4% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 10: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +43, P./ M. Evasion +2, Max HP/ MP/ CP +280. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +20. <Destruction>: Returns 6% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
-		<!-- Level 11: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +48, P./ M. Evasion +2, Max HP/ MP/ CP +320. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +30. <Destruction>: Returns 8% of damage received back to the enemy, with a certain chance activates Dimensional Border Power under normal attacks. -->
+		<!-- Level 7: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +29, P./ M. Evasion +2, Max HP/ MP/ CP +160. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: With a certain chance activates Dimensional Border Power during normal attacks and magical attacks. -->
+		<!-- Level 8: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +34, P./ M. Evasion +2, Max HP/ MP/ CP +200. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: With a certain chance activates Dimensional Border Power during normal attacks and magical attacks. -->
+		<!-- Level 9: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +38, P./ M. Evasion +2, Max HP/ MP/ CP +240. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +15. <Destruction>: Returns 4% of damage received back to the enemy, with a certain chance activates Dimensional Border Power during normal attacks and magical attacks. -->
+		<!-- Level 10: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +43, P./ M. Evasion +2, Max HP/ MP/ CP +280. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +20. <Destruction>: Returns 6% of damage received back to the enemy, with a certain chance activates Dimensional Border Power during normal attacks and magical attacks. -->
+		<!-- Level 11: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +48, P./ M. Evasion +2, Max HP/ MP/ CP +320. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +30. <Destruction>: Returns 8% of damage received back to the enemy, with a certain chance activates Dimensional Border Power during normal attacks and magical attacks. -->
 		<icon>
 			<value level="1">icon.bm_magic_square_talisman</value>
 			<value level="2">icon.bm_magic_square_talisman</value>
@@ -756,7 +756,7 @@
 					<value level="10">2</value>
 					<value level="11">2</value>
 				</amount>
-				<mode>PER</mode>
+				<mode>DIFF</mode>
 			</effect>
 			<effect name="MaxHp">
 				<amount>
@@ -854,77 +854,55 @@
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
-			<effect name="ExpModify">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">0</value>
-					<value level="3">3</value>
-					<value level="4">3</value>
-					<value level="5">4</value>
-					<value level="6">4</value>
-					<value level="7">5</value>
-					<value level="8">5</value>
-					<value level="9">5</value>
-					<value level="10">5</value>
-					<value level="11">5</value>
-				</amount>
+			<effect name="GainExpSp" fromLevel="3" toLevel="11">
+				<rate>
+					<value level="3">1.03</value> <!-- +3% -->
+                	<value level="4">1.03</value> <!-- +3% -->
+               		<value level="5">1.04</value> <!-- +4% -->
+                	<value level="6">1.04</value> <!-- +4% -->
+                	<value level="7">1.05</value> <!-- +5% -->
+                	<value level="8">1.05</value> <!-- +5% -->
+                	<value level="9">1.05</value> <!-- +5% -->
+                	<value level="10">1.05</value> <!-- +5% -->
+                	<value level="11">1.05</value> <!-- +5% -->
+            	</rate>
 			</effect>
-			<effect name="SpModify">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">0</value>
-					<value level="3">3</value>
-					<value level="4">3</value>
-					<value level="5">4</value>
-					<value level="6">4</value>
-					<value level="7">5</value>
-					<value level="8">5</value>
-					<value level="9">5</value>
-					<value level="10">5</value>
-					<value level="11">5</value>
-				</amount>
-			</effect>
-			<effect name="DamageShield">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">0</value>
-					<value level="3">0</value>
-					<value level="4">0</value>
-					<value level="5">0</value>
-					<value level="6">0</value>
-					<value level="7">0</value>
-					<value level="8">0</value>
+			<effect name="ReflectDamage" fromLevel="9" toLevel="11">
+				<percent>
 					<value level="9">4</value>
-					<value level="10">6</value>
-					<value level="11">8</value>
-				</amount>
-			</effect>
-			<effect name="TriggerSkillByDamage" fromLevel="8" toLevel="11">
+	                <value level="10">6</value>
+	                <value level="11">8</value>
+            	</percent>
+            	<damageType>PHYSICAL;MAGIC</damageType>
+        	</effect>
+			<effect name="TriggerSkillByDamage" fromLevel="7" toLevel="11">
 				<condition>
 					<damageType>PHYSICAL</damageType>
 					<attacker>true</attacker>
 				</condition>
 				<skillId>35027</skillId> <!-- Dimensional Border Power -->
 				<skillLevel>
-					<value level="8">1</value>
-					<value level="9">2</value>
-					<value level="10">3</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+					<value level="10">4</value>
 					<value level="11">4</value>
 				</skillLevel>
 				<chance>30</chance>
 				<targetType>SELF</targetType>
 			</effect>
 			<!-- Magic Attack Trigger -->
-			<effect name="TriggerSkillByDamage" fromLevel="8" toLevel="11">
+			<effect name="TriggerSkillByDamage" fromLevel="7" toLevel="11">
 				<condition>
 					<damageType>MAGIC</damageType>
 					<attacker>true</attacker>
 				</condition>
 				<skillId>35027</skillId> <!-- Dimensional Border Power -->
 				<skillLevel>
-					<value level="8">1</value>
-					<value level="9">2</value>
-					<value level="10">3</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+					<value level="10">4</value>
 					<value level="11">4</value>
 				</skillLevel>
 				<chance>30</chance>
@@ -1000,10 +978,10 @@
 		<effects>
 			<effect name="PhysicalAttack">
 				<amount>
-					<value level="1">2</value>
-					<value level="2">5</value>
-					<value level="3">7</value>
-					<value level="4">10</value>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
