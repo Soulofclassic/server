@@ -891,7 +891,7 @@
 				</skillLevel>
 			</effect>
 			<effect name="TriggerSkillBySkillDamage" fromLevel="7" toLevel="11">
-				<skillType>ATTACK</skillType>
+				<skillTypes>ATTACK;MAGIC;PDAM;MDAM</skillType>
 				<chance>15</chance>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
