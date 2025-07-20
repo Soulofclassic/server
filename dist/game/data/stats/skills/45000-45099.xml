@@ -1793,27 +1793,30 @@
 		<!-- For 15 sec., HP Recovery Bonus +50, MP Recovery Bonus +50, Speed +33. -->
 		<icon>icon.dragon_invocation</icon>
 		<operateType>A1</operateType>
-		<effectPoint>673</effectPoint>
-		<hitTime>1000</hitTime>
-		<reuseDelay>600000</reuseDelay>
-		<abnormalTime>15000</abnormalTime> 
-		<targetType>SELF</targetType>
-		<isMagic>1</isMagic>
-		<stayOnDeath>false</stayOnDeath>
-    	<ignoreResists>true</ignoreResists>
-    	<effects>
-    		<effect name="HealPower" abnormalTime="15000">
-    			<amount>50</amount>
-    			<mode>DIFF</mode>
-    		</effect>
-    		<effect name="MpHealPower" abnormalTime="15000">
-    			<amount>50</amount>
-    			<mode>DIFF</mode>
-    		</effect>
-    		<effect name="Speed" abnormalTime="15000">
-    			<amount>33</amount>
-    			<mode>DIFF</mode>
-    		</effect>
+	    <effectPoint>673</effectPoint>
+	    <hitTime>1000</hitTime>
+	    <reuseDelay>600000</reuseDelay>
+	    <abnormalTime>15000</abnormalTime>
+	    <targetType>SELF</targetType>
+	    <isMagic>1</isMagic>
+	    <stayOnDeath>false</stayOnDeath>
+	    <effects>
+    		<effect name="Buff" abnormalTime="15000" stackType="dragon_meditation" stackOrder="1">
+    			<subEffects>
+    				<effect name="HealPower">
+                    	<amount>50</amount>
+                    	<mode>DIFF</mode>
+                	</effect>
+                	<effect name="MpHealPower">
+                    	<amount>50</amount>
+                   		<mode>DIFF</mode>
+                	</effect>
+                	<effect name="Speed">
+                    	<amount>33</amount>
+                    	<mode>DIFF</mode>
+               		</effect>
+               	</subEffects>
+            </effect>
     	</effects>
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">
