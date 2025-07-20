@@ -1807,21 +1807,18 @@
 	    <abnormalVisualEffect>1</abnormalVisualEffect>
 	    <effects>
 	    	<!-- HP Recovery Bonus -->
-	    	<effect name="Buff" stackType="dragon_meditation" stackOrder="1">
-	    		<subEffects>
-	    			<effect name="HealPower">
-	    				<amount>50</amount>
-	    				<mode>DIFF</mode>
-	    			</effect>
-	    			<effect name="MpHealPower">
-	    				<amount>50</amount>
-	    				<mode>DIFF</mode>
-	    			</effect>
-	    			<effect name="Speed">
-	    				<amount>33</amount>
-	    				<mode>PER</mode>
-	    			</effect>
-	    		</subEffects>
+	    	<effect name="HealPower">
+	    		<amount>50</amount>
+	    		<mode>DIFF</mode>
+	    	</effect>
+	    	<effect name="MpHealPower">
+	    		<amount>50</amount>
+	    		<mode>DIFF</mode>
+	    	</effect>
+	    	<effect name="Speed">
+	    		<amount>33</amount>
+	    		<mode>DIFF</mode>
+	    		</effect>
 	    </effects>
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">

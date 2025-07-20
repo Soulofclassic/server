@@ -951,7 +951,7 @@
 			<value level="4">4</value>
 		</abnormalLevel>
 		<abnormalTime>15</abnormalTime>
-		<abnormalType>BUFF</abnormalType>
+		<abnormalType>COUNTER_CRITICAL_TRIGGER</abnormalType>
 		<affectScope>SINGLE</affectScope>
 		<hitCancelTime>0</hitCancelTime>
 		<isMagic>4</isMagic>
