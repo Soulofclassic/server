@@ -1840,7 +1840,6 @@
     				</effect>
     			</self>
     		</effect>
-    	</effects>
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">
 		<!-- For 10 sec. creates temporary defensive barrier that reflects normal attacks, skills and debuffs. -->
