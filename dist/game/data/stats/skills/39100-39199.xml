@@ -1464,7 +1464,7 @@
 		</effects>
 	</skill>
 	<skill id="39164" toLevel="1" name="Mood Melody">
-		<!-- For 20 min., grants the following effects: Might, Shield, Focus, Haste, Acumen, Empower, Wind Walk, Death Whisper, and Vampiric Rage. Effect remains after death. -->
+		<!-- For 20 min., grants the following effects: Shield, Magic Barrier, Deacrease weight, Berserker Spirit, Wind Walk, Might, Focus, Haste, Death Whisper, Empower, Acumen, Sayha's Recover MP . Effect remains after death. -->
 		<icon>icon.bm_magmeld</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
