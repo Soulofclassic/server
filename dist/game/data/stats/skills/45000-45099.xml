@@ -1796,6 +1796,27 @@
 	    <effectPoint>673</effectPoint>
 	    <hitTime>1000</hitTime>
 	    <reuseDelay>600000</reuseDelay>
+	    <abnormalTime>15000</abnormalTime>  <!-- 15 seconds duration -->
+	    <targetType>SELF</targetType>        <!-- Self-targeted skill -->
+	    <isMagic>1</isMagic>                <!-- Confirmed magic skill -->
+	    <magicLevel>1</magicLevel>          <!-- Required magic level field -->
+	    <abnormalType>BUFF</abnormalType>   <!-- Buff classification -->
+	    <affectScope>SINGLE</affectScope>    <!-- Standard for self-buffs -->
+	    <castRange>-1</castRange>           <!-- -1 = self-cast range -->
+	    <effects>
+	    	<effect name="HpRegen">
+	    		<amount>50</amount>
+	    		<mode>DIFF</mode>
+	        </effect>
+	        <effect name="MPRegen">
+	    		<amount>50</amount>
+	    		<mode>DIFF</mode>
+	        </effect>
+	        <effect name="Speed">
+	        	<amount>33</amount>  <!-- +33 movement speed -->
+	            <mode>DIFF</mode>
+	        </effect>
+	    </effects>
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">
 		<!-- For 10 sec. creates temporary defensive barrier that reflects normal attacks, skills and debuffs. -->
