@@ -877,7 +877,7 @@
         	</effect>
 			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
 				<attackerType>Creature</attackerType>
-				<chance>25</chance>
+				<chance>15</chance>
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
@@ -900,7 +900,7 @@
 					<value level="10">3</value>
 					<value level="11">4</value>
 				</skillLevel>
-				<chance>25</chance>
+				<chance>15</chance>
 				<targetType>SELF</targetType>
 			</effect>
     	</effects>

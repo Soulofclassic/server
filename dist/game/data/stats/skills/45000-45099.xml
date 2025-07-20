@@ -1800,7 +1800,7 @@
 	    <targetType>SELF</targetType>        <!-- Self-targeted skill -->
 	    <isMagic>1</isMagic>                <!-- Confirmed magic skill -->
 	    <magicLevel>1</magicLevel>          <!-- Required magic level field -->
-	    <abnormalType>BUFF</abnormalType>   <!-- Buff classification -->
+	    <abnormalType>DRAGON_INVOCATION</abnormalType>   <!-- Buff classification -->
 	    <affectScope>SINGLE</affectScope>    <!-- Standard for self-buffs -->
 	    <castRange>-1</castRange>           <!-- -1 = self-cast range -->
 	    <effects>
@@ -1808,7 +1808,7 @@
 	    		<amount>50</amount>
 	    		<mode>DIFF</mode>
 	        </effect>
-	        <effect name="MPRegen">
+	        <effect name="MpRegen">
 	    		<amount>50</amount>
 	    		<mode>DIFF</mode>
 	        </effect>
