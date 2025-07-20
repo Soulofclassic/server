@@ -1819,11 +1819,11 @@
 	        	<amount>33</amount>  <!-- +33 movement speed -->
 	            <mode>DIFF</mode>
 	        </effect>
-	        <graphic>
-	        	<start>0</start>
-        		<end>0</end>
-        	</graphic>
 	    </effects>
+	    <graphic>
+	        <start>0</start>
+        	<end>0</end>
+        </graphic>	
 	</skill>
 	<skill id="45046" toLevel="1" name="Dragon Barrier">
 		<!-- For 10 sec. creates temporary defensive barrier that reflects normal attacks, skills and debuffs. -->
