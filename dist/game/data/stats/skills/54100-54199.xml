@@ -450,7 +450,7 @@
 		<effects>
 			<effect name="ManaHealOverTime">
 				<power>4</power>
-				<ticks>15</ticks>
+				<ticks>12</ticks>
 			</effect>
 		</effects>
 	</skill>

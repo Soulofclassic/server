@@ -1810,11 +1810,11 @@
 		<effects>
 			<effect name="HealOverTime">
 				<power>100</power>
-				<ticks>15</ticks>
+				<ticks>1</ticks>
 			</effect>
 			<effect name="ManaHealOverTime">
 				<power>50</power>
-				<ticks>15</ticks>
+				<ticks>1</ticks>
 			</effect>
 			<effect name="Speed">
 				<amount>33</amount>
