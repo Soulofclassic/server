@@ -4,6 +4,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
+		<acquire exp="938865" sp="28208" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="1400.075302" hpRegen="8.5" mp="1789.47" mpRegen="3" />
 			<speed>
@@ -215,15 +216,15 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="85409" sp="8226" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4299.79748617" hpRegen="8.5" mp="1949.06328671" mpRegen="3" />
+		<acquire exp="938865" sp="28208" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
 			<speed>
-				<walk ground="27" />
-				<run ground="160" />
+				<walk ground="50" />
+				<run ground="180" />
 			</speed>
-			<attack physical="955.79626642" magical="272.87926367" critical="4" attackSpeed="253" range="40" />
-			<defence physical="322.81287129" magical="192.17123746" />
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
 		</stats>
 		<status attackable="false" />
 		<collision>
@@ -268,15 +269,15 @@
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
 		<equipment rhand="78" />
-		<acquire exp="105036" sp="10020" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4299.79748617" hpRegen="8.5" mp="1935.528125" mpRegen="3" />
+		<acquire exp="938865" sp="28208" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
 			<speed>
-				<walk ground="27" />
+				<walk ground="25" />
 				<run ground="160" />
 			</speed>
-			<attack physical="955.79626642" magical="225.70891178" critical="4" attackSpeed="253" range="40" />
-			<defence physical="249.64854518" magical="192.17123746" />
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
 		</stats>
 		<status attackable="false" />
 		<collision>
@@ -317,20 +318,21 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
-		<acquire exp="105036" sp="10020" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3570.99645713" hpRegen="8.5" mp="1613.76" mpRegen="3" />
+		<acquire exp="938865" sp="28208" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
 			<speed>
 				<walk ground="80" />
-				<run ground="182" />
+				<run ground="200" />
 			</speed>
-			<attack physical="1049.77977075" magical="267.07351689" critical="4" attackSpeed="253" range="40" />
-			<defence physical="290.83241252" magical="185.27068724" />
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
 		</stats>
 		<status attackable="false" />
 		<collision>
 			<radius normal="24" />
 			<height normal="50.4" />
+		</collision>
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
@@ -370,15 +372,16 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
-		<acquire exp="90032" sp="9768" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3345.88741121" hpRegen="8.5" mp="1545.55241409" mpRegen="3" />
+		<acquire exp="938865" sp="28208" />
+		<equipment rhand="78" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
 			<speed>
-				<walk ground="27" />
-				<run ground="220" />
+				<walk ground="40" />
+				<run ground="190" />
 			</speed>
-			<attack physical="974.05104167" magical="205.31363401" critical="4" attackSpeed="253" range="40" />
-			<defence physical="240.3007335" magical="164.23470745" />
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
 		</stats>
 		<status attackable="false" />
 		<collision>
@@ -414,15 +417,15 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
-		<acquire exp="105036" sp="10020" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3570.99645713" hpRegen="8.5" mp="1613.76" mpRegen="3" />
+		<acquire exp="938865" sp="28208" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1400.075302" hpRegen="8.5" mp="1789.47" mpRegen="3" />
 			<speed>
-				<walk ground="80" />
-				<run ground="182" />
+				<walk ground="48" />
+				<run ground="200" />
 			</speed>
-			<attack physical="951.97545717" magical="267.07351689" critical="4" attackSpeed="253" range="40" />
-			<defence physical="290.83241252" magical="168.81533546" />
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
 		</stats>
 		<status attackable="false" />
 		<collision>
@@ -468,15 +471,15 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="85409" sp="8226" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3175.31646" hpRegen="8.5" mp="1445.08197" mpRegen="3" />
+		<acquire exp="938865" sp="28208" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1339.827876" hpRegen="8.5" mp="1679.73" mpRegen="3" />
 			<speed>
 				<walk ground="70" />
-				<run ground="182" />
+				<run ground="165" />
 			</speed>
-			<attack physical="814.329268" magical="228.77095" critical="4" attackSpeed="253" range="40" />
-			<defence physical="298.850575" magical="190.12421" />
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
 		</stats>
 		<status attackable="false" />
 		<collision>
@@ -520,15 +523,15 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
-		<acquire exp="105036" sp="10020" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3570.99645713" hpRegen="8.5" mp="1613.76" mpRegen="3" />
+		<acquire exp="961904" sp="28857" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
 			<speed>
 				<walk ground="80" />
 				<run ground="182" />
 			</speed>
-			<attack physical="951.97545717" magical="267.07351689" critical="4" attackSpeed="253" range="40" />
-			<defence physical="271.81067126" magical="185.27068724" />
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
 		</stats>
 		<status attackable="false" />
 		<collision>
@@ -576,15 +579,15 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
-		<acquire exp="105216" sp="8748" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2994.41773935" hpRegen="8.5" mp="1124.77041667" mpRegen="3" />
+		<acquire exp="961904" sp="28857" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
 			<speed>
 				<walk ground="50" />
 				<run ground="187" />
 			</speed>
-			<attack physical="558.15302425" magical="80.24936816" critical="1" attackSpeed="253" range="40" />
-			<defence physical="240.78058252" magical="198.791587" />
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
 		</stats>
 		<status attackable="false" />
 		<collision>
@@ -632,15 +635,14 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
-		<acquire exp="105216" sp="8748" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2974.47301893" hpRegen="8.5" mp="1295.07041667" mpRegen="3" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
 			<speed>
-				<walk ground="65" />
+				<walk ground="40" />
 				<run ground="190" />
 			</speed>
-			<attack physical="968.07205228" magical="88.00627481" critical="4" attackSpeed="253" range="40" />
-			<defence physical="252.79944547" magical="208.47080292" />
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
 		</stats>
 		<status attackable="false" />
 		<collision>
