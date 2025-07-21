@@ -6243,7 +6243,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="122052" sp="3667" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="1339.827876" hpRegen="8.5" mp="1679.73" mpRegen="3" />
 			<speed>
@@ -6295,7 +6295,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BEAST</race>
 		<sex>FEMALE</sex>
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="206550" sp="6206" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
 			<speed>
@@ -6344,7 +6344,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>FEMALE</sex>
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="206550" sp="6206" />
 		<equipment rhand="135" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
@@ -6399,7 +6399,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="347380" sp="10437" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
 			<speed>
@@ -6445,7 +6445,7 @@
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
 		<equipment rhand="78" />
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="347380" sp="10437" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
 			<speed>
