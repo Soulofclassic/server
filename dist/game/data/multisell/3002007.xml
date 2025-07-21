@@ -4,8 +4,15 @@
 		<npc>30020</npc> <!-- Baggins. Enchant Talisman of Power -->
 	</npcs>
 	<item>
-		<ingredient count="1" id="71085" /> <!-- Talisman of Authority Fragment x1 -->
-		<ingredient count="1000000" id="57" /> <!--  Adena x1kk -->
-		<production count="1" id="71084" /> <!-- Talisman of Power  -->
+		<ingredient count="1" id="71084" />
+		<ingredient count="5" id="71078" />
+		<ingredient count="5000000" id="57" /> 
+		<production count="1" id="71085" /> <!-- Noble Talisman of Authority Lv. 1  -->
+	</item>
+	<item>
+		<ingredient count="1" id="71089" />
+		<ingredient count="10" id="71078" />
+		<ingredient count="10000000" id="57" /> 
+		<production count="1" id="71090" /> <!-- Radiant Talisman of Authority Lv. 1  -->
 	</item>
 </list>
