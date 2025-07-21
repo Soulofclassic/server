@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list applyTaxes="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>30020</npc> <!-- Baggins. Enchant Talisman of Power -->
+	</npcs>
+	<item>
+		<ingredient count="1" id="71085" /> <!-- Talisman of Authority Fragment x1 -->
+		<ingredient count="1000000" id="57" /> <!--  Adena x1kk -->
+		<production count="1" id="71084" /> <!-- Talisman of Power  -->
+	</item>
+</list>
