@@ -854,18 +854,31 @@
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
-			<effect name="GainExpSp" fromLevel="3" toLevel="11">
-				<rate>
-					<value level="3">1.03</value> <!-- +3% -->
-                	<value level="4">1.03</value> <!-- +3% -->
-               		<value level="5">1.04</value> <!-- +4% -->
-                	<value level="6">1.04</value> <!-- +4% -->
-                	<value level="7">1.05</value> <!-- +5% -->
-                	<value level="8">1.05</value> <!-- +5% -->
-                	<value level="9">1.05</value> <!-- +5% -->
-                	<value level="10">1.05</value> <!-- +5% -->
-                	<value level="11">1.05</value> <!-- +5% -->
-            	</rate>
+			<effect name="ExpModify" fromLevel="3" toLevel="11">
+				<amount>
+					<value level="3">3</value> <!-- +3% -->
+                	<value level="4">3</value> <!-- +3% -->
+               		<value level="5">4</value> <!-- +4% -->
+                	<value level="6">4</value> <!-- +4% -->
+                	<value level="7">5</value> <!-- +5% -->
+                	<value level="8">5</value> <!-- +5% -->
+                	<value level="9">5</value> <!-- +5% -->
+                	<value level="10">5</value> <!-- +5% -->
+                	<value level="11">5</value> <!-- +5% -->
+            	</amount>
+			</effect>
+			<effect name="SpModify" fromLevel="3" toLevel="11">
+				<amount>
+					<value level="3">3</value> <!-- +3% -->
+                	<value level="4">3</value> <!-- +3% -->
+               		<value level="5">4</value> <!-- +4% -->
+                	<value level="6">4</value> <!-- +4% -->
+                	<value level="7">5</value> <!-- +5% -->
+                	<value level="8">5</value> <!-- +5% -->
+                	<value level="9">5</value> <!-- +5% -->
+                	<value level="10">5</value> <!-- +5% -->
+                	<value level="11">5</value> <!-- +5% -->
+            	</amount>
 			</effect>
 			<effect name="DamageShield" fromLevel="9" toLevel="11">
 				<percent>
