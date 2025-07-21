@@ -25,7 +25,7 @@
 		<!-- Level 2: Blessed Soulshot Damage +9%. -->
 		<!-- Level 3: Soulshot Damage +13%. -->
 		<!-- Level 4: Blessed Soulshot Damage +18%. -->
-		<!-- Level 5: Soulshot Damage +21%. -->
+		<!-- Level 5: Soulshot Damage +24%. -->
 		<icon>
 			<value level="1">icon.etc_bm_jewel_ruby_i00</value>
 			<value level="2">icon.etc_bm_jewel_ruby_i00</value>
@@ -33,8 +33,9 @@
 			<value level="4">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
 			<value level="5">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
 		</icon>
-		<operateType>A1</operateType>
+		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
 		<effects>
 			<effect name="ShotsBonus">
 				<amount>
@@ -81,8 +82,9 @@
 			<value level="4">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
 			<value level="5">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
 		</icon>
-		<operateType>A1</operateType>
+		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
 		<effects>
 			<effect name="ShotsBonus">
 				<amount>
@@ -92,7 +94,6 @@
 					<value level="4">18</value>
 					<value level="5">24</value>
 				</amount>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
