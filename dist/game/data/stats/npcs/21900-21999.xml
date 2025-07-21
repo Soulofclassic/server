@@ -212,16 +212,16 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21904" level="83" type="Monster" name="Graveyard Prophet">
+	<npc id="21904" level="76" type="Monster" name="Graveyard Prophet">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="295000" sp="13600" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
+			<vitals hp="1339.827876" hpRegen="8.5" mp="1679.73" mpRegen="3" />
 			<speed>
-				<walk ground="50" />
-				<run ground="180" />
+				<walk ground="70" />
+				<run ground="165" />
 			</speed>
 			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
 			<defence physical="405.85106382979" magical="297.0297029703" />
@@ -264,17 +264,17 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21905" level="83" type="Monster" name="Netherworld Gatekeeper">
+	<npc id="21905" level="77" type="Monster" name="Netherworld Gatekeeper">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
 		<equipment rhand="78" />
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="310000" sp="14000" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
 			<speed>
 				<walk ground="25" />
-				<run ground="160" />
+				<run ground="200" />
 			</speed>
 			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
 			<defence physical="405.85106382979" magical="297.0297029703" />
@@ -314,16 +314,16 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21906" level="82" type="Monster" name="Netherworld Guide">
+	<npc id="21906" level="77" type="Monster" name="Netherworld Guide">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="330000" sp="14000" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
+			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
 			<speed>
 				<walk ground="80" />
-				<run ground="200" />
+				<run ground="165" />
 			</speed>
 			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
 			<defence physical="405.85106382979" magical="297.0297029703" />
@@ -332,7 +332,6 @@
 		<collision>
 			<radius normal="24" />
 			<height normal="50.4" />
-		</collision>
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
@@ -368,17 +367,17 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21907" level="81" type="Monster" name="Sepulcher Royal Guard">
+	<npc id="21907" level="78" type="Monster" name="Sepulcher Royal Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="315000" sp="14300" />
 		<equipment rhand="78" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
 			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
 			<speed>
 				<walk ground="40" />
-				<run ground="190" />
+				<run ground="200" />
 			</speed>
 			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
 			<defence physical="405.85106382979" magical="297.0297029703" />
@@ -413,16 +412,16 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21908" level="82" type="Monster" name="Sepulcher Prophet">
+	<npc id="21908" level="78" type="Monster" name="Sepulcher Prophet">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>FEMALE</sex>
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="320000" sp="14000" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1400.075302" hpRegen="8.5" mp="1789.47" mpRegen="3" />
+			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
 			<speed>
-				<walk ground="48" />
-				<run ground="200" />
+				<walk ground="80" />
+				<run ground="165" />
 			</speed>
 			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
 			<defence physical="405.85106382979" magical="297.0297029703" />
@@ -467,13 +466,13 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21909" level="81" type="Monster" name="Sepulcher Hermit">
+	<npc id="21909" level="79" type="Monster" name="Sepulcher Hermit">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="938865" sp="28208" />
+		<acquire exp="340000" sp="14800" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1339.827876" hpRegen="8.5" mp="1679.73" mpRegen="3" />
+			<vitals hp="1400.075302" hpRegen="8.5" mp="1789.47" mpRegen="3" />
 			<speed>
 				<walk ground="70" />
 				<run ground="165" />
@@ -519,16 +518,16 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21910" level="82" type="Monster" name="Nephilim Royal Guard">
+	<npc id="21910" level="79" type="Monster" name="Nephilim Royal Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
-		<acquire exp="961904" sp="28857" />
+		<acquire exp="370000" sp="17000" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
+			<vitals hp="1400.075302" hpRegen="8.5" mp="1789.47" mpRegen="3" />
 			<speed>
-				<walk ground="80" />
-				<run ground="182" />
+				<walk ground="65" />
+				<run ground="200" />
 			</speed>
 			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
 			<defence physical="405.85106382979" magical="297.0297029703" />
@@ -575,16 +574,16 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21911" level="82" type="Monster" name="Nephilim High Priest">
+	<npc id="21911" level="80" type="Monster" name="Nephilim High Priest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
-		<acquire exp="961904" sp="28857" />
+		<acquire exp="350000" sp="15000" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1360.37013" hpRegen="8.5" mp="1716.015" mpRegen="3" />
+			<vitals hp="1418.7456" hpRegen="8.5" mp="1825.755" mpRegen="3" />
 			<speed>
 				<walk ground="50" />
-				<run ground="187" />
+				<run ground="180" />
 			</speed>
 			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
 			<defence physical="405.85106382979" magical="297.0297029703" />
@@ -631,12 +630,13 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21912" level="82" type="Monster" name="Nephilim Escort">
+	<npc id="21912" level="80" type="Monster" name="Nephilim Escort">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>FEMALE</sex>
+		<acquire exp="400000" sp="18000" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="1380.469026" hpRegen="8.5" mp="1752.3" mpRegen="3" />
+			<vitals hp="1418.7456" hpRegen="8.5" mp="1825.755" mpRegen="3" />
 			<speed>
 				<walk ground="40" />
 				<run ground="190" />
