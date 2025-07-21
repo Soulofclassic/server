@@ -45,7 +45,6 @@
 					<value level="4">18</value>
 					<value level="5">24</value>
 				</amount>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
