@@ -943,15 +943,15 @@
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<reuseDelay>1200000</reuseDelay>
 		<effects>
-			<effect name="Heal">
+			<effect name="Cp">
 				<amount>50</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="MpHeal">
+			<effect name="Hp">
 				<amount>50</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="CpHeal">
+			<effect name="Mp">
 				<amount>50</amount>
 				<mode>PER</mode>
 			</effect>
