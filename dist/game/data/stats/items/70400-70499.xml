@@ -834,7 +834,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17817" level="5" /> <!-- Greater Ruby -->
+			<skill id="55477" level="5" /> <!-- Greater Ruby -->
 		</skills>
 	</item>
 	<item id="70456" name="Sapphire" additionalName="Lv. 1" type="Armor">
@@ -899,7 +899,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="17821" level="5" /> <!-- Greater Sapphire -->
+			<skill id="55481" level="5" /> <!-- Greater Sapphire -->
 		</skills>
 	</item>
 	<item id="70461" name="Diamond" additionalName="Lv. 1" type="Armor">

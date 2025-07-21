@@ -1259,30 +1259,43 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="55477" toLevel="10" name="Ruby">
-		<!-- Level 1: Soulshot Damage +2%. -->
-		<!-- Level 2: Soulshot Damage +3%. -->
-		<!-- Level 3: Soulshot Damage +5%. -->
-		<!-- Level 4: Soulshot Damage +8%. -->
-		<!-- Level 5: Soulshot Damage +16%. -->
-		<!-- Level 6: Soulshot Damage +17%. -->
-		<!-- Level 7: Soulshot Damage +18%. -->
-		<!-- Level 8: Soulshot Damage +19%. -->
-		<!-- Level 9: Soulshot Damage +20%. -->
-		<!-- Level 10: Soulshot Damage +20%. -->
+	<skill id="55477" toLevel="5" name="Ruby">
+		<!-- Level 1: Soulshot/Bless soulshot Damage +5%. P. Atk +2% -->
+		<!-- Level 2: Soulshot/Bless soulshot Damage +9%. P. Atk +4% -->
+		<!-- Level 3: Soulshot/Bless soulshot Damage +13%. P. Atk +7% -->
+		<!-- Level 4: Soulshot/Bless soulshot Damage +18%. P. Atk +10% -->
+		<!-- Level 5: Soulshot/Bless soulshot Damage +24%. P. Atk +15% -->
 		<icon>
 			<value level="1">icon.etc_bm_jewel_ruby_i00</value>
 			<value level="2">icon.etc_bm_jewel_ruby_i00</value>
 			<value level="3">icon.etc_bm_jewel_ruby_i00</value>
 			<value level="4">icon.etc_bm_jewel_ruby_i00</value>
 			<value level="5">icon.etc_bm_jewel_ruby_i00</value>
-			<value level="6">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
-			<value level="7">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
-			<value level="8">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
-			<value level="9">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
-			<value level="10">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
 		</icon>
-		<operateType>A1</operateType>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="ShotsBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">9</value>
+					<value level="3">13</value>
+					<value level="4">18</value>
+					<value level="5">24</value>
+				</amount>
+			</effect>
+			<effect name="PhysicalDamage">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">7</value>
+					<value level="4">10</value>
+					<value level="5">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="55478" toLevel="10" name="Ruby">
 		<!-- Level 1: Blessed Soulshot Damage +2%. -->
@@ -1340,24 +1353,37 @@
 		<!-- Level 3: Spiritshot Damage +5%. -->
 		<!-- Level 4: Spiritshot Damage +8%. -->
 		<!-- Level 5: Spiritshot Damage +16%. -->
-		<!-- Level 6: Spiritshot Damage +17%. -->
-		<!-- Level 7: Spiritshot Damage +18%. -->
-		<!-- Level 8: Spiritshot Damage +19%. -->
-		<!-- Level 9: Spiritshot Damage +20%. -->
-		<!-- Level 10: Spiritshot Damage +20%. -->
 		<icon>
 			<value level="1">icon.etc_bm_jewel_sapphire_i00</value>
 			<value level="2">icon.etc_bm_jewel_sapphire_i00</value>
 			<value level="3">icon.etc_bm_jewel_sapphire_i00</value>
 			<value level="4">icon.etc_bm_jewel_sapphire_i00</value>
 			<value level="5">icon.etc_bm_jewel_sapphire_i00</value>
-			<value level="6">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
-			<value level="7">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
-			<value level="8">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
-			<value level="9">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
-			<value level="10">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
 		</icon>
-		<operateType>A1</operateType>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="ShotsBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">9</value>
+					<value level="3">13</value>
+					<value level="4">18</value>
+					<value level="5">24</value>
+				</amount>
+			</effect>
+			<effect name="MagicalDamage">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">6</value>
+					<value level="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="55482" toLevel="10" name="Sapphire">
 		<!-- Level 1: Blessed Spiritshot Damage +2%. -->
