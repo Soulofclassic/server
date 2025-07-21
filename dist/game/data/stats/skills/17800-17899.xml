@@ -34,6 +34,7 @@
 			<value level="5">icon.bm_jewel_ssdmg_high_lv1_lavianrose</value>
 		</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="ShotsBonus">
 				<amount>
@@ -81,6 +82,7 @@
 			<value level="5">icon.bm_jewel_spsdmg_high_lv1_lavianrose</value>
 		</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
 		<effects>
 			<effect name="ShotsBonus">
 				<amount>
