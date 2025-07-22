@@ -1868,9 +1868,9 @@
 		<equipment rhand="150" lhand="103" />
 		<acquire exp="702678" sp="10540" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43455.234" hpRegen="17" mp="2666.1" mpRegen="6" />
+			<vitals hp="21727.617" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="43976.95" magical="22522.925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1528.6814208" magical="699.139215" />
+			<defence physical="764.3407104" magical="349.5696075" />
 			<speed>
 				<walk ground="40" />
 				<run ground="165" />
@@ -1883,6 +1883,13 @@
 			<radius normal="10" />
 			<height normal="25" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="10000" max="13000" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1902,9 +1909,9 @@
 		<equipment rhand="150" lhand="103" />
 		<acquire exp="702678" sp="10540" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43455.234" hpRegen="17" mp="2666.1" mpRegen="6" />
+			<vitals hp="21727.617" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="43976.95" magical="22522.925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1528.6814208" magical="699.139215" />
+			<defence physical="764.3407104" magical="349.5696075" />
 			<speed>
 				<walk ground="40" />
 				<run ground="165" />
@@ -1917,6 +1924,13 @@
 			<radius normal="10" />
 			<height normal="25" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="10000" max="13000" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -1935,9 +1949,9 @@
 		<sex>MALE</sex>
 		<acquire exp="702678" sp="10540" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43455.234" hpRegen="17" mp="2666.1" mpRegen="6" />
+			<vitals hp="21727.617" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="43976.95" magical="22522.925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1528.6814208" magical="699.139215" />
+			<defence physical="764.3407104" magical="349.5696075" />
 			<speed>
 				<walk ground="15" />
 				<run ground="15" />
@@ -1950,6 +1964,13 @@
 			<radius normal="13" />
 			<height normal="21" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="10000" max="13000" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
