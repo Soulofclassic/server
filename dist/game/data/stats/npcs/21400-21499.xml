@@ -70,7 +70,7 @@
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="772.9932168" magical="353.5268085" />
+			<defence physical="772.9932168" magical="707.053617" />
 			<speed>
 				<walk ground="45" />
 				<run ground="145" />
@@ -359,9 +359,9 @@
 		<equipment rhand="150" lhand="103" />
 		<acquire exp="691558" sp="10373" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="772.9932168" magical="353.5268085" />
+			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
 				<walk ground="40" />
 				<run ground="145" />
@@ -376,12 +376,12 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="5" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="10" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="5" /> <!-- Average P. Def. -->
+			<skill id="4413" level="5" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -389,14 +389,23 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="876" max="9000" chance="11000" /> <!-- Adena -->
-					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
+					<item id="57" min="876" max="2049" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.117">
 					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
 					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
 					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
 					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
+				</group>
+				<group chance="1.7619">
+					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
+					<item id="92912" min="1" max="1" chance="19.3968" /> <!-- Crafting Herb: Soft Fabric Piece -->
+					<item id="92913" min="1" max="1" chance="9.6984" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
+					<item id="92914" min="1" max="1" chance="3.2328" /> <!-- Crafting Herb: Parts Pouch -->
+					<item id="92915" min="1" max="1" chance="1.9397" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
+					<item id="92916" min="1" max="1" chance="0.9698" /> <!-- Crafting Herb: Energy of Animals -->
+					<item id="92919" min="1" max="1" chance="0.097" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
+					<item id="94328" min="1" max="1" chance="0.0096" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -411,9 +420,9 @@
 		<equipment rhand="150" lhand="103" />
 		<acquire exp="1375920" sp="20638" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="772.9932168" magical="353,5268085" />
+			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
 				<walk ground="40" />
 				<run ground="145" />
@@ -426,32 +435,14 @@
 			<radius normal="10" />
 			<height normal="25" />
 		</collision>
-				<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="876" max="9000" chance="11000" /> <!-- Adena -->
-					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
-				</group>
-				<group chance="0.117">
-					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
-					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5522" min="1" max="1" chance="0.2207" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="5523" min="1" max="1" chance="0.2207" /> <!-- Sealed Majestic Plate Armor Pattern -->
-			</spoil>
-		</dropLists>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="5" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="10" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -767,9 +758,9 @@
 		<equipment rhand="946" lhand="945" />
 		<acquire exp="758237" sp="11373" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="772.9932168" magical="353.5268085" />
+			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
 				<walk ground="80" />
 				<run ground="175" />
@@ -797,7 +788,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
+					<item id="57" min="996" max="2330" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1752">
 					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
@@ -807,6 +798,14 @@
 				</group>
 				<group chance="0.8659">
 					<item id="1893" min="1" max="1" chance="18.2398" /> <!-- Oriharukon -->
+					<item id="92912" min="1" max="1" chance="44.8698" /> <!-- Crafting Herb: Soft Fabric Piece -->
+					<item id="92913" min="1" max="1" chance="22.4349" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
+					<item id="92914" min="1" max="1" chance="7.4783" /> <!-- Crafting Herb: Parts Pouch -->
+					<item id="92915" min="1" max="1" chance="4.487" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
+					<item id="92916" min="1" max="1" chance="2.2435" /> <!-- Crafting Herb: Energy of Animals -->
+					<item id="92919" min="1" max="1" chance="0.2243" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
+					<item id="94328" min="1" max="1" chance="0.0224" /> <!-- Elixir Powder -->
+				</group>
 			</drop>
 			<spoil>
 				<item id="5480" min="1" max="1" chance="0.3307" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
@@ -820,9 +819,9 @@
 		<equipment rhand="946" lhand="945" />
 		<acquire exp="1397934" sp="20969" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="772.9932168" magical="353.5268085" />
+			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
 				<walk ground="80" />
 				<run ground="175" />
@@ -847,25 +846,6 @@
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-				<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1752">
-					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5480" min="1" max="1" chance="49.7481" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="5323" min="1" max="1" chance="0.2519" /> <!-- Sealed Majestic Leather Armor -->
-					<item id="5481" min="1" max="1" chance="49.7481" /> <!-- Sealed Majestic Leather Armor Fabric -->
-				</group>
-				<group chance="0.8659">
-					<item id="1893" min="1" max="1" chance="18.2398" /> <!-- Oriharukon -->
-			</drop>
-			<spoil>
-				<item id="5480" min="1" max="1" chance="0.3307" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="5481" min="1" max="1" chance="0.3307" /> <!-- Sealed Majestic Leather Armor Fabric -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21416" level="84" type="Monster" name="Imperial Commander">
 		<race>UNDEAD</race>
@@ -968,9 +948,9 @@
 		<equipment rhand="142" />
 		<acquire exp="705317" sp="10579" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="772.9932168" magical="353.5268085" />
+			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
 				<walk ground="27" />
 				<run ground="160" />
@@ -998,14 +978,23 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10000" max="12000" chance="100" /> <!-- Adena -->
-					<item id="1895" min="1" max="1" chance="88.6877" /> <!-- Metallic Fiber -->
+					<item id="57" min="901" max="2107" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4227">
 					<item id="5312" min="1" max="1" chance="0.3068" /> <!-- Sealed Helm of Nightmare -->
 					<item id="5527" min="1" max="1" chance="49.6932" /> <!-- Sealed Helm of Nightmare Design -->
 					<item id="5317" min="1" max="1" chance="0.3068" /> <!-- Sealed Majestic Circlet -->
 					<item id="5528" min="1" max="1" chance="49.6932" /> <!-- Sealed Majestic Circlet Design -->
+				</group>
+				<group chance="5.6603">
+					<item id="1895" min="1" max="1" chance="88.6877" /> <!-- Metallic Fiber -->
+					<item id="92912" min="1" max="1" chance="6.2081" /> <!-- Crafting Herb: Soft Fabric Piece -->
+					<item id="92913" min="1" max="1" chance="3.1041" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
+					<item id="92914" min="1" max="1" chance="1.0347" /> <!-- Crafting Herb: Parts Pouch -->
+					<item id="92915" min="1" max="1" chance="0.6208" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
+					<item id="92916" min="1" max="1" chance="0.3104" /> <!-- Crafting Herb: Energy of Animals -->
+					<item id="92919" min="1" max="1" chance="0.031" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
+					<item id="94328" min="1" max="1" chance="0.0032" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1020,9 +1009,9 @@
 		<equipment rhand="142" />
 		<acquire exp="1388620" sp="20829" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="772.9932168" magical="353.5268085" />
+			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
 				<walk ground="27" />
 				<run ground="160" />
@@ -1047,24 +1036,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="10000" max="12000" chance="100" /> <!-- Adena -->
-					<item id="1895" min="1" max="1" chance="88.6877" /> <!-- Metallic Fiber -->
-				</group>
-				<group chance="0.4227">
-					<item id="5312" min="1" max="1" chance="0.3068" /> <!-- Sealed Helm of Nightmare -->
-					<item id="5527" min="1" max="1" chance="49.6932" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="5317" min="1" max="1" chance="0.3068" /> <!-- Sealed Majestic Circlet -->
-					<item id="5528" min="1" max="1" chance="49.6932" /> <!-- Sealed Majestic Circlet Design -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5527" min="1" max="1" chance="0.7968" /> <!-- Sealed Helm of Nightmare Design -->
-				<item id="5528" min="1" max="1" chance="0.7968" /> <!-- Sealed Majestic Circlet Design -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21420" level="85" type="Monster" name="Ashuras">
 		<race>DEMONIC</race>
@@ -1163,9 +1134,9 @@
 		<equipment rhand="3939" />
 		<acquire exp="767945" sp="11519" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="22175.427" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="781.4623824" magical="357.400161" />
+			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
 				<walk ground="80" />
 				<run ground="120" />
@@ -1194,12 +1165,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10000" max="2295" chance="12000" /> <!-- Adena -->
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="57" min="982" max="2295" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0931">
 					<item id="8679" min="1" max="1" chance="0.2286" /> <!-- Sword of Ipos -->
 					<item id="8713" min="1" max="1" chance="99.7714" /> <!-- Sword of Ipos Blade -->
+				</group>
+				<group chance="0.7293">
+					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
+					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
+					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
+					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
+					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
+					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
+					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1214,9 +1194,9 @@
 		<equipment rhand="3939" />
 		<acquire exp="1430983" sp="21464" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="22175.427" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="781.4623824" magical="357.400161" />
+			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
 				<walk ground="80" />
 				<run ground="120" />
@@ -1242,31 +1222,15 @@
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
 			<skill id="4233" level="1" /> <!-- Vampiric Attack -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="10000" max="12000" chance="100" /> <!-- Adena -->
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
-				<group chance="0.0931">
-					<item id="8679" min="1" max="1" chance="0.2286" /> <!-- Sword of Ipos -->
-					<item id="8713" min="1" max="1" chance="99.7714" /> <!-- Sword of Ipos Blade -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="8713" min="1" max="1" chance="0.1762" /> <!-- Sword of Ipos Blade -->
-				<item id="8692" min="1" max="1" chance="0.0308" /> <!-- Recipe: Sword of Ipos (60%) -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21424" level="85" type="Monster" name="Ashkenas">
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire exp="1059474" sp="15892" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="22175.427" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="781.4623824" magical="357.400161" />
+			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
 				<walk ground="41" />
 				<run ground="190" />
@@ -1294,12 +1258,21 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10000" max="12000" chance="100" /> <!-- Adena -->
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="57" min="1316" max="3076" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1248">
 					<item id="8680" min="1" max="1" chance="0.2286" /> <!-- Barakiel's Axe -->
 					<item id="8714" min="1" max="1" chance="99.7714" /> <!-- Barakiel's Axe Piece -->
+				</group>
+				<group chance="0.9775">
+					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
+					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
+					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
+					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
+					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
+					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
+					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1313,9 +1286,9 @@
 		<sex>MALE</sex>
 		<acquire exp="2076464" sp="31146" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="22175.427" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="781.4623824" magical="357.400161" />
+			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
 				<walk ground="41" />
 				<run ground="190" />
@@ -1340,22 +1313,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
 		</skillList>
-				<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="10000" max="12000" chance="100" /> <!-- Adena -->
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
-				<group chance="0.1248">
-					<item id="8680" min="1" max="1" chance="0.2286" /> <!-- Barakiel's Axe -->
-					<item id="8714" min="1" max="1" chance="99.7714" /> <!-- Barakiel's Axe Piece -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="8714" min="1" max="1" chance="0.2362" /> <!-- Barakiel's Axe Piece -->
-				<item id="8694" min="1" max="1" chance="0.0413" /> <!-- Recipe: Barakiel's Axe (60%) -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21426" level="85" type="Monster" name="Abraxion">
 		<race>DEMONIC</race>
