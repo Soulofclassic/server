@@ -28,8 +28,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -43,24 +43,18 @@
 					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+					<item id="6676" min="1" max="1" chance="0.0828" /> <!-- Sealed Imperial Crusader Gauntlets -->
+					<item id="6703" min="1" max="1" chance="12.8372" /> <!-- Sealed Imperial Crusader Gauntlets Design -->
+					<item id="6677" min="1" max="1" chance="0.0828" /> <!-- Sealed Imperial Crusader Boots -->
+					<item id="6704" min="1" max="1" chance="12.8372" /> <!-- Sealed Imperial Crusader Boots Design -->
 				</group>
 				<group chance="1.2413">
 					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="6703" min="1" max="1" chance="0.7757" /> <!-- Sealed Imperial Crusader Gauntlets Design -->
+				<item id="6704" min="1" max="1" chance="0.7757" /> <!-- Sealed Imperial Crusader Boots Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -87,8 +81,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -102,24 +96,15 @@
 					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+					<item id="6683" min="1" max="1" chance="0.0828" /> <!-- Sealed Draconic Leather Helm  -->
+					<item id="6710" min="1" max="1" chance="12.8372" /> <!-- Sealed Draconic Leather Helm Design -->
 				</group>
 				<group chance="1.2413">
 					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="6710" min="1" max="1" chance="0.7757" /> <!-- Sealed Draconic Leather Helm Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -146,8 +131,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -161,24 +146,18 @@
 					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+					<item id="6681" min="1" max="1" chance="0.0828" /> <!-- Sealed Draconic Leather Gloves -->
+					<item id="6708" min="1" max="1" chance="12.8372" /> <!-- Sealed Draconic Leather Gloves Design -->
+					<item id="6682" min="1" max="1" chance="0.0828" /> <!-- Sealed Draconic Leather Boots -->
+					<item id="6709" min="1" max="1" chance="12.8372" /> <!-- Sealed Draconic Leather Boots Design -->
 				</group>
 				<group chance="1.4804">
 					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="6708" min="1" max="1" chance="0.7757" /> <!-- Sealed Draconic Leather Gloves Design -->
+				<item id="6709" min="1" max="1" chance="0.7757" /> <!-- Sealed Draconic Leather Boots Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -205,8 +184,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="7" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="7" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -220,24 +199,18 @@
 					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+					<item id="6685" min="1" max="1" chance="0.0828" /> <!-- Sealed Major Arcana Gloves -->
+					<item id="6712" min="1" max="1" chance="12.8372" /> <!-- Sealed Major Arcana Gloves Design -->
+					<item id="6686" min="1" max="1" chance="0.0828" /> <!-- Sealed Major Arcana Boots -->
+					<item id="6713" min="1" max="1" chance="12.8372" /> <!-- Sealed Major Arcana Boots Design -->
 				</group>
 				<group chance="1.4804">
 					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="6712" min="1" max="1" chance="0.7757" /> <!-- Sealed Major Arcana Gloves Design -->
+				<item id="6713" min="1" max="1" chance="0.7757" /> <!-- Sealed Major Arcana Boots Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -264,8 +237,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -279,24 +252,18 @@
 					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+					<item id="6676" min="1" max="1" chance="0.0828" /> <!-- Sealed Imperial Crusader Gauntlets -->
+					<item id="6703" min="1" max="1" chance="12.8372" /> <!-- Sealed Imperial Crusader Gauntlets Design -->
+					<item id="6677" min="1" max="1" chance="0.0828" /> <!-- Sealed Imperial Crusader Boots -->
+					<item id="6704" min="1" max="1" chance="12.8372" /> <!-- Sealed Imperial Crusader Boots Design -->
 				</group>
 				<group chance="1.6163">
 					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="6703" min="1" max="1" chance="0.7757" /> <!-- Sealed Imperial Crusader Gauntlets Design -->
+				<item id="6704" min="1" max="1" chance="0.7757" /> <!-- Sealed Imperial Crusader Boots Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -323,8 +290,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -338,24 +305,15 @@
 					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+					<item id="6683" min="1" max="1" chance="0.0828" /> <!-- Sealed Draconic Leather Helm  -->
+					<item id="6710" min="1" max="1" chance="12.8372" /> <!-- Sealed Draconic Leather Helm Design -->
 				</group>
 				<group chance="1.6163">
 					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="6710" min="1" max="1" chance="0.7757" /> <!-- Sealed Draconic Leather Helm Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -383,8 +341,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -397,18 +355,18 @@
 					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.117">
-					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
-					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
+					<item id="6701" min="1" max="1" chance="24.7511" /> <!-- Sealed Imperial Crusader Chest Pattern -->
+					<item id="6702" min="1" max="1" chance="24.7511" /> <!-- Sealed Imperial Crusader Gaitlers Pattern -->
+					<item id="6674" min="1" max="1" chance="0.1289" /> <!-- Sealed Imperial Crusader Chest -->
+					<item id="6675" min="1" max="1" chance="0.1289" /> <!-- Sealed Imperial Crusader Gaitlers -->
 				</group>
 				<group chance="1.7619">
 					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5522" min="1" max="1" chance="0.2207" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="5523" min="1" max="1" chance="0.2207" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="6701" min="1" max="1" chance="0.2207" /> <!-- Sealed Imperial Crusader Chest Pattern -->
+				<item id="6702" min="1" max="1" chance="0.2207" /> <!-- Sealed Imperial Crusader Gaitlers Pattern -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -436,8 +394,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="7" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="7" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -450,18 +408,18 @@
 					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.117">
-					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
-					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
+					<item id="6681" min="1" max="1" chance="0.0828" /> <!-- Sealed Draconic Leather Gloves -->
+					<item id="6708" min="1" max="1" chance="12.8372" /> <!-- Sealed Draconic Leather Gloves Design -->
+					<item id="6682" min="1" max="1" chance="0.0828" /> <!-- Sealed Draconic Leather Boots -->
+					<item id="6709" min="1" max="1" chance="12.8372" /> <!-- Sealed Draconic Leather Boots Design -->
 				</group>
 				<group chance="1.7619">
 					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5522" min="1" max="1" chance="0.2207" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="5523" min="1" max="1" chance="0.2207" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="6708" min="1" max="1" chance="0.2207" /> <!-- Sealed Draconic Leather Gloves Design -->
+				<item id="6709" min="1" max="1" chance="0.2207" /> <!-- Sealed Draconic Leather Boots Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -489,8 +447,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -504,18 +462,18 @@
 					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.121">
-					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
-					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
+					<item id="6701" min="1" max="1" chance="24.7511" /> <!-- Sealed Imperial Crusader Chest Pattern -->
+					<item id="6702" min="1" max="1" chance="24.7511" /> <!-- Sealed Imperial Crusader Gaitlers Pattern -->
+					<item id="6674" min="1" max="1" chance="0.1289" /> <!-- Sealed Imperial Crusader Chest -->
+					<item id="6675" min="1" max="1" chance="0.1289" /> <!-- Sealed Imperial Crusader Gaitlers -->
 				</group>
 				<group chance="0.9143">
 					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5522" min="1" max="1" chance="0.2284" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="5523" min="1" max="1" chance="0.2284" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="6701" min="1" max="1" chance="0.2207" /> <!-- Sealed Imperial Crusader Chest Pattern -->
+				<item id="6702" min="1" max="1" chance="0.2207" /> <!-- Sealed Imperial Crusader Gaitlers Pattern -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -543,8 +501,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="9" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="5" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -557,18 +515,15 @@
 					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.121">
-					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
-					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
+					<item id="6679" min="1" max="1" chance="0.1568" /> <!-- Sealed Imperial Crusader Helmet -->
+					<item id="6706" min="1" max="1" chance="24.6932" /> <!-- Sealed Imperial Crusader Helmet Design -->
 				</group>
 				<group chance="0.9143">
 					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5522" min="1" max="1" chance="0.2284" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="5523" min="1" max="1" chance="0.2284" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="6706" min="1" max="1" chance="0.2207" /> <!-- Sealed Imperial Crusader Helmet Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -595,8 +550,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -610,18 +565,15 @@
 					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2245">
-					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
-					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
-					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
-					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
+					<item id="6687" min="1" max="1" chance="0.1568" /> <!-- Sealed Major Arcana Helm -->
+					<item id="6714" min="1" max="1" chance="24.6932" /> <!-- Sealed Major Arcana Helm Design -->
 				</group>
 				<group chance="0.9564">
 					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5487" min="1" max="1" chance="0.4238" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="5488" min="1" max="1" chance="0.4238" /> <!-- Sealed Majestic Robe Fabric -->
+				<item id="6714" min="1" max="1" chance="0.4238" /> <!-- Sealed Major Arcana Helm Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -648,8 +600,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -663,18 +615,15 @@
 					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2245">
-					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
-					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
-					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
-					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
+					<item id="6684" min="1" max="1" chance="0.121" /> <!-- Sealed Major Arcana Robe -->
+					<item id="6711" min="1" max="1" chance="24.749" /> <!-- Sealed Major Arcana Robe Fabric -->
 				</group>
 				<group chance="0.9564">
 					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5487" min="1" max="1" chance="0.4238" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="5488" min="1" max="1" chance="0.4238" /> <!-- Sealed Majestic Robe Fabric -->
+				<item id="6711" min="1" max="1" chance="0.4238" /> <!-- Sealed Major Arcana Robe Fabric -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -701,8 +650,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -716,18 +665,15 @@
 					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2192">
-					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
-					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
-					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
-					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
+					<item id="6684" min="1" max="1" chance="0.121" /> <!-- Sealed Major Arcana Robe -->
+					<item id="6711" min="1" max="1" chance="24.749" /> <!-- Sealed Major Arcana Robe Fabric -->
 				</group>
 				<group chance="0.9582">
 					<item id="1892" min="1" max="1" chance="7.8977" /> <!-- Blacksmith' Frame -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5487" min="1" max="1" chance="0.4137" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="5488" min="1" max="1" chance="0.4137" /> <!-- Sealed Majestic Robe Fabric -->
+				<item id="6711" min="1" max="1" chance="0.4238" /> <!-- Sealed Major Arcana Robe Fabric -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -754,8 +700,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -769,18 +715,18 @@
 					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2192">
-					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
-					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
-					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
-					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
+					<item id="6685" min="1" max="1" chance="0.0828" /> <!-- Sealed Major Arcana Gloves -->
+					<item id="6712" min="1" max="1" chance="12.8372" /> <!-- Sealed Major Arcana Gloves Design -->
+					<item id="6686" min="1" max="1" chance="0.0828" /> <!-- Sealed Major Arcana Boots -->
+					<item id="6713" min="1" max="1" chance="12.8372" /> <!-- Sealed Major Arcana Boots Design -->
 				</group>
 				<group chance="0.9582">
 					<item id="1892" min="1" max="1" chance="7.8977" /> <!-- Blacksmith' Frame -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5487" min="1" max="1" chance="0.4137" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="5488" min="1" max="1" chance="0.4137" /> <!-- Sealed Majestic Robe Fabric -->
+				<item id="6712" min="1" max="1" chance="0.4238" /> <!-- Sealed Major Arcana Gloves Design -->
+				<item id="6713" min="1" max="1" chance="0.4238" /> <!-- Sealed Major Arcana Boots Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -808,8 +754,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="9" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="9" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="5" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="5" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -822,18 +768,15 @@
 					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1752">
-					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5480" min="1" max="1" chance="49.7481" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="5323" min="1" max="1" chance="0.2519" /> <!-- Sealed Majestic Leather Armor -->
-					<item id="5481" min="1" max="1" chance="49.7481" /> <!-- Sealed Majestic Leather Armor Fabric -->
+					<item id="6680" min="1" max="1" chance="0.1219" /> <!-- Sealed Draconic Leather Armor-->
+					<item id="6707" min="1" max="1" chance="24.7481" /> <!-- Sealed Draconic Leather Armor Fabric -->
 				</group>
 				<group chance="0.8659">
 					<item id="1893" min="1" max="1" chance="18.2398" /> <!-- Oriharukon -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5480" min="1" max="1" chance="0.3307" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="5481" min="1" max="1" chance="0.3307" /> <!-- Sealed Majestic Leather Armor Fabric -->
+				<item id="6707" min="1" max="1" chance="0.3307" /> <!-- Sealed Draconic Leather Armor Fabric -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -861,8 +804,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="9" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="9" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="5" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="5" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -875,18 +818,15 @@
 					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1752">
-					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5480" min="1" max="1" chance="49.7481" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="5323" min="1" max="1" chance="0.2519" /> <!-- Sealed Majestic Leather Armor -->
-					<item id="5481" min="1" max="1" chance="49.7481" /> <!-- Sealed Majestic Leather Armor Fabric -->
+					<item id="6680" min="1" max="1" chance="0.1219" /> <!-- Sealed Draconic Leather Armor-->
+					<item id="6707" min="1" max="1" chance="24.7481" /> <!-- Sealed Draconic Leather Armor Fabric -->
 				</group>
 				<group chance="0.8659">
 					<item id="1893" min="1" max="1" chance="18.2398" /> <!-- Oriharukon -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5480" min="1" max="1" chance="0.3307" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="5481" min="1" max="1" chance="0.3307" /> <!-- Sealed Majestic Leather Armor Fabric -->
+				<item id="6707" min="1" max="1" chance="0.3307" /> <!-- Sealed Draconic Leather Armor Fabric -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -914,8 +854,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -928,18 +868,18 @@
 					<item id="57" min="9000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1852">
-					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5480" min="1" max="1" chance="49.7481" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="5323" min="1" max="1" chance="0.2519" /> <!-- Sealed Majestic Leather Armor -->
-					<item id="5481" min="1" max="1" chance="49.7481" /> <!-- Sealed Majestic Leather Armor Fabric -->
+					<item id="6681" min="1" max="1" chance="0.0828" /> <!-- Sealed Draconic Leather Gloves -->
+					<item id="6708" min="1" max="1" chance="12.8372" /> <!-- Sealed Draconic Leather Gloves Design -->
+					<item id="6682" min="1" max="1" chance="0.0828" /> <!-- Sealed Draconic Leather Boots -->
+					<item id="6709" min="1" max="1" chance="12.8372" /> <!-- Sealed Draconic Leather Boots Design -->
 				</group>
 				<group chance="1.4693">
 					<item id="1894" min="1" max="1" chance="49.0524" /> <!-- Quality Leather -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5480" min="1" max="1" chance="0.3496" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="5481" min="1" max="1" chance="0.3496" /> <!-- Sealed Majestic Leather Armor Fabric -->
+				<item id="6708" min="1" max="1" chance="0.3307" /> <!-- Sealed Draconic Leather Gloves Design  -->
+				<item id="6709" min="1" max="1" chance="0.3307" /> <!-- Sealed Draconic Leather Boots Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -967,8 +907,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -981,18 +921,15 @@
 					<item id="57" min="9000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1852">
-					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5480" min="1" max="1" chance="49.7481" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="5323" min="1" max="1" chance="0.2519" /> <!-- Sealed Majestic Leather Armor -->
-					<item id="5481" min="1" max="1" chance="49.7481" /> <!-- Sealed Majestic Leather Armor Fabric -->
+					<item id="6680" min="1" max="1" chance="0.1219" /> <!-- Sealed Draconic Leather Armor-->
+					<item id="6707" min="1" max="1" chance="24.7481" /> <!-- Sealed Draconic Leather Armor Fabric -->
 				</group>
 				<group chance="1.4693">
 					<item id="1894" min="1" max="1" chance="49.0524" /> <!-- Quality Leather -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5480" min="1" max="1" chance="0.3496" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="5481" min="1" max="1" chance="0.3496" /> <!-- Sealed Majestic Leather Armor Fabric -->
+				<item id="6707" min="1" max="1" chance="0.3307" /> <!-- Sealed Draconic Leather Armor Fabric -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1020,8 +957,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1034,18 +971,15 @@
 					<item id="57" min="8000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4227">
-					<item id="5312" min="1" max="1" chance="0.3068" /> <!-- Sealed Helm of Nightmare -->
-					<item id="5527" min="1" max="1" chance="49.6932" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="5317" min="1" max="1" chance="0.3068" /> <!-- Sealed Majestic Circlet -->
-					<item id="5528" min="1" max="1" chance="49.6932" /> <!-- Sealed Majestic Circlet Design -->
+					<item id="6679" min="1" max="1" chance="0.1568" /> <!-- Sealed Imperial Crusader Helmet -->
+					<item id="6706" min="1" max="1" chance="24.6932" /> <!-- Sealed Imperial Crusader Helmet Design -->
 				</group>
 				<group chance="5.6603">
 					<item id="1895" min="1" max="1" chance="88.6877" /> <!-- Metallic Fiber -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5527" min="1" max="1" chance="0.7968" /> <!-- Sealed Helm of Nightmare Design -->
-				<item id="5528" min="1" max="1" chance="0.7968" /> <!-- Sealed Majestic Circlet Design -->
+				<item id="6706" min="1" max="1" chance="0.7968" /> <!-- Sealed Imperial Crusader Helmet Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1073,8 +1007,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1087,18 +1021,15 @@
 					<item id="57" min="8000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4227">
-					<item id="5312" min="1" max="1" chance="0.3068" /> <!-- Sealed Helm of Nightmare -->
-					<item id="5527" min="1" max="1" chance="49.6932" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="5317" min="1" max="1" chance="0.3068" /> <!-- Sealed Majestic Circlet -->
-					<item id="5528" min="1" max="1" chance="49.6932" /> <!-- Sealed Majestic Circlet Design -->
+					<item id="6687" min="1" max="1" chance="0.1568" /> <!-- Sealed Major Arcana Helm -->
+					<item id="6714" min="1" max="1" chance="24.6932" /> <!-- Sealed Major Arcana Helm Design -->
 				</group>
 				<group chance="5.6603">
 					<item id="1895" min="1" max="1" chance="88.6877" /> <!-- Metallic Fiber -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="5527" min="1" max="1" chance="0.7968" /> <!-- Sealed Helm of Nightmare Design -->
-				<item id="5528" min="1" max="1" chance="0.7968" /> <!-- Sealed Majestic Circlet Design -->
+				<item id="6714" min="1" max="1" chance="0.7968" /> <!-- Sealed Major Arcana Helm Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1125,8 +1056,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1139,16 +1070,14 @@
 					<item id="57" min="8000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2302">
-					<item id="8678" min="1" max="1" chance="0.1525" /> <!-- Sirra's Blade -->
-					<item id="8712" min="1" max="1" chance="99.8475" /> <!-- Sirra's Blade Edge -->
+					<item id="6863" min="1" max="1" chance="0.0825" /> <!-- Imperial Crusader Helm Recipe  -->
 				</group>
 				<group chance="1.2028">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8712" min="1" max="1" chance="0.4359" /> <!-- Sirra's Blade Edge -->
-				<item id="8690" min="1" max="1" chance="0.0509" /> <!-- Recipe: Sirra's Blade (60%) -->
+				<item id="6863" min="1" max="1" chance="0.4359" /> <!-- Imperial Crusader Helm Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1175,8 +1104,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1189,16 +1118,14 @@
 					<item id="57" min="8000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2302">
-					<item id="8678" min="1" max="1" chance="0.1525" /> <!-- Sirra's Blade -->
-					<item id="8712" min="1" max="1" chance="99.8475" /> <!-- Sirra's Blade Edge -->
+					<item id="6853" min="1" max="1" chance="0.0825" /> <!-- Imperial Crusader Chest Recipe -->
 				</group>
 				<group chance="1.2028">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8712" min="1" max="1" chance="0.4359" /> <!-- Sirra's Blade Edge -->
-				<item id="8690" min="1" max="1" chance="0.0509" /> <!-- Recipe: Sirra's Blade (60%) -->
+				<item id="6853" min="1" max="1" chance="0.4359" /> <!-- Imperial Crusader Chest Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1226,8 +1153,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="9" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="5" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1241,16 +1168,14 @@
 					<item id="57" min="8000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0931">
-					<item id="8679" min="1" max="1" chance="0.2286" /> <!-- Sword of Ipos -->
-					<item id="8713" min="1" max="1" chance="99.7714" /> <!-- Sword of Ipos Blade -->
+					<item id="6855" min="1" max="1" chance="0.1186" /> <!-- Imperial Crusader Gaitlers Recipe -->
 				</group>
 				<group chance="0.7293">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8713" min="1" max="1" chance="0.1762" /> <!-- Sword of Ipos Blade -->
-				<item id="8692" min="1" max="1" chance="0.0308" /> <!-- Recipe: Sword of Ipos (60%) -->
+				<item id="6855" min="1" max="1" chance="0.4359" /> <!-- Imperial Crusader Gaitlers Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1278,8 +1203,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1293,16 +1218,14 @@
 					<item id="57" min="8000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0931">
-					<item id="8679" min="1" max="1" chance="0.2286" /> <!-- Sword of Ipos -->
-					<item id="8713" min="1" max="1" chance="99.7714" /> <!-- Sword of Ipos Blade -->
+					<item id="6857" min="1" max="1" chance="0.1186" /> <!-- Imperial Crusader Gauntlents Recipe -->
 				</group>
 				<group chance="0.7293">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8713" min="1" max="1" chance="0.1762" /> <!-- Sword of Ipos Blade -->
-				<item id="8692" min="1" max="1" chance="0.0308" /> <!-- Recipe: Sword of Ipos (60%) -->
+				<item id="6857" min="1" max="1" chance="0.4359" /> <!-- Imperial Crusader Gauntlents Recipe  -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1329,8 +1252,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1343,16 +1266,14 @@
 					<item id="57" min="9000" max="14500" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1248">
-					<item id="8680" min="1" max="1" chance="0.2286" /> <!-- Barakiel's Axe -->
-					<item id="8714" min="1" max="1" chance="99.7714" /> <!-- Barakiel's Axe Piece -->
+					<item id="6859" min="1" max="1" chance="0.1186" /> <!-- Imperial Crusader Boots Recipe -->
 				</group>
 				<group chance="0.9775">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8714" min="1" max="1" chance="0.2362" /> <!-- Barakiel's Axe Piece -->
-				<item id="8694" min="1" max="1" chance="0.0413" /> <!-- Recipe: Barakiel's Axe (60%) -->
+				<item id="6859" min="1" max="1" chance="0.2362" /> <!-- Imperial Crusader Boots Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1379,8 +1300,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1393,16 +1314,14 @@
 					<item id="57" min="9000" max="14500" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1248">
-					<item id="8680" min="1" max="1" chance="0.2286" /> <!-- Barakiel's Axe -->
-					<item id="8714" min="1" max="1" chance="99.7714" /> <!-- Barakiel's Axe Piece -->
+					<item id="6879" min="1" max="1" chance="0.1186" /> <!-- Major Arcana Helm Recipe -->
 				</group>
 				<group chance="0.9775">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8714" min="1" max="1" chance="0.2362" /> <!-- Barakiel's Axe Piece -->
-				<item id="8694" min="1" max="1" chance="0.0413" /> <!-- Recipe: Barakiel's Axe (60%) -->
+				<item id="6879" min="1" max="1" chance="0.4359" /> <!-- Major Arcana Helm Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1429,8 +1348,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1443,16 +1362,14 @@
 					<item id="57" min="9500" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1248">
-					<item id="8681" min="1" max="1" chance="0.2286" /> <!-- Behemoth' Tuning Fork -->
-					<item id="8715" min="1" max="1" chance="99.7714" /> <!-- Behemoth' Tuning Fork Piece -->
+					<item id="6873" min="1" max="1" chance="0.2286" /> <!-- Major Arcana Robe Recipe -->
 				</group>
 				<group chance="0.9775">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8715" min="1" max="1" chance="0.2362" /> <!-- Behemoth' Tuning Fork Piece -->
-				<item id="8696" min="1" max="1" chance="0.0413" /> <!-- Recipe: Behemoth' Tuning Fork (60%) -->
+				<item id="6873" min="1" max="1" chance="0.4359" /> <!-- Major Arcana Robe Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1479,8 +1396,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="7" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="7" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1493,16 +1410,14 @@
 					<item id="57" min="9500" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1248">
-					<item id="8681" min="1" max="1" chance="0.2286" /> <!-- Behemoth' Tuning Fork -->
-					<item id="8715" min="1" max="1" chance="99.7714" /> <!-- Behemoth' Tuning Fork Piece -->
+					<item id="6877" min="1" max="1" chance="0.1186" /> <!-- Major Arcana Boots Recipe -->
 				</group>
 				<group chance="0.9775">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8715" min="1" max="1" chance="0.2362" /> <!-- Behemoth' Tuning Fork Piece -->
-				<item id="8696" min="1" max="1" chance="0.0413" /> <!-- Recipe: Behemoth' Tuning Fork (60%) -->
+				<item id="6877" min="1" max="1" chance="0.4359" /> <!-- Major Arcana Boots Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1529,8 +1444,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1544,16 +1459,14 @@
 					<item id="57" min="9000" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1582">
-					<item id="8683" min="1" max="1" chance="0.2286" /> <!-- Tiphon's Spear -->
-					<item id="8717" min="1" max="1" chance="99.7714" /> <!-- Tiphon's Spear Edge -->
+					<item id="6875" min="1" max="1" chance="0.1186" /> <!-- Major Arcana Gloves Recipe -->
 				</group>
 				<group chance="1.239">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8717" min="1" max="1" chance="0.2993" /> <!-- Tiphon's Spear Edge -->
-				<item id="8700" min="1" max="1" chance="0.0524" /> <!-- Recipe: Tiphon's Spear (60%) -->
+				<item id="6875" min="1" max="1" chance="0.4359" /> <!-- Major Arcana Gloves Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1580,8 +1493,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="7" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="7" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1595,16 +1508,14 @@
 					<item id="57" min="9000" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1582">
-					<item id="8683" min="1" max="1" chance="0.2286" /> <!-- Tiphon's Spear -->
-					<item id="8717" min="1" max="1" chance="99.7714" /> <!-- Tiphon's Spear Edge -->
+					<item id="6871" min="1" max="1" chance="0.1186" /> <!-- Draconic Helm Recipe -->
 				</group>
 				<group chance="1.239">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8717" min="1" max="1" chance="0.2993" /> <!-- Tiphon's Spear Edge -->
-				<item id="8700" min="1" max="1" chance="0.0524" /> <!-- Recipe: Tiphon's Spear (60%) -->
+				<item id="6871" min="1" max="1" chance="0.4359" /> <!-- Tiphon's Spear Edge -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1632,8 +1543,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="9" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="9" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="5" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="5" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1646,16 +1557,14 @@
 					<item id="57" min="9000" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.174">
-					<item id="8685" min="1" max="1" chance="0.2286" /> <!-- Sobekk's Hurricane -->
-					<item id="8719" min="1" max="1" chance="99.7714" /> <!-- Sobekk's Hurricane Edge -->
+					<item id="6865" min="1" max="1" chance="0.1186" /> <!-- Draconic Leather Armor Recipe -->
 				</group>
 				<group chance="1.3627">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8719" min="1" max="1" chance="0.3292" /> <!-- Sobekk's Hurricane Edge -->
-				<item id="8704" min="1" max="1" chance="0.0576" /> <!-- Recipe: Sobekk's Hurricane (60%) -->
+				<item id="6865" min="1" max="1" chance="0.4359" /> <!-- Draconic Leather Armor Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1683,8 +1592,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="7" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="7" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Very Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1697,16 +1606,14 @@
 					<item id="57" min="9000" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.174">
-					<item id="8685" min="1" max="1" chance="0.2286" /> <!-- Sobekk's Hurricane -->
-					<item id="8719" min="1" max="1" chance="99.7714" /> <!-- Sobekk's Hurricane Edge -->
+					<item id="6867" min="1" max="1" chance="0.1186" /> <!-- Draconic gloves recipe -->
 				</group>
 				<group chance="1.3627">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8719" min="1" max="1" chance="0.3292" /> <!-- Sobekk's Hurricane Edge -->
-				<item id="8704" min="1" max="1" chance="0.0576" /> <!-- Recipe: Sobekk's Hurricane (60%) -->
+				<item id="6867" min="1" max="1" chance="0.4359" /> <!-- Draconic gloves recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1733,8 +1640,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="9" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="9" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="5" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="5" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Very Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1749,8 +1656,7 @@
 					<item id="57" min="9000" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2381">
-					<item id="8686" min="1" max="1" chance="0.1255" /> <!-- Themis' Tongue -->
-					<item id="8720" min="1" max="1" chance="54.7558" /> <!-- Themis' Tongue Piece -->
+					<item id="6869" min="1" max="1" chance="0.1255" /> <!-- Draconic Boots Recipe -->
 					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
 				</group>
 				<group chance="1.5359">
@@ -1758,9 +1664,8 @@
 				</group>
 			</drop>
 			<spoil>
-				<item id="8720" min="1" max="1" chance="0.2474" /> <!-- Themis' Tongue Piece -->
+				<item id="6869" min="1" max="1" chance="0.2474" /> <!-- Draconic Boots Recipe -->
 				<item id="90045" min="1" max="1" chance="0.2038" /> <!-- Magical Tablet -->
-				<item id="8706" min="1" max="1" chance="0.0433" /> <!-- Recipe: Themis' Tongue (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1787,8 +1692,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="7" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="7" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1802,8 +1707,7 @@
 					<item id="57" min="8000" max="14000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1958">
-					<item id="8687" min="1" max="1" chance="0.1255" /> <!-- Cabrio's Hand -->
-					<item id="8721" min="1" max="1" chance="54.7558" /> <!-- Cabrio's Hand Head -->
+					<item id="6869" min="1" max="1" chance="0.1255" /> <!-- Draconic Boots Recipe -->
 					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
 				</group>
 				<group chance="1.2625">
@@ -1811,9 +1715,8 @@
 				</group>
 			</drop>
 			<spoil>
-				<item id="8721" min="1" max="1" chance="0.2033" /> <!-- Cabrio's Hand Head -->
+				<item id="6869" min="1" max="1" chance="0.2033" /> <!-- Draconic Boots Recipe  -->
 				<item id="90045" min="1" max="1" chance="0.1676" /> <!-- Magical Tablet -->
-				<item id="8708" min="1" max="1" chance="0.0356" /> <!-- Recipe: Cabrio's Hand (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1840,8 +1743,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="9" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="9" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4410" level="5" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="5" /> <!-- Extremely Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Extremely Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Extremely Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1855,14 +1758,12 @@
 					<item id="57" min="12000" max="16000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5766">
-					<item id="8684" min="1" max="1" chance="0.0748" /> <!-- Shyeed's Bow -->
-					<item id="8718" min="1" max="1" chance="32.6553" /> <!-- Shyeed's Bow Shaft -->
+					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
 					<item id="2133" min="1" max="1" chance="67.2699" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8718" min="1" max="1" chance="0.5354" /> <!-- Shyeed's Bow Shaft -->
-				<item id="8702" min="1" max="1" chance="0.0937" /> <!-- Recipe: Shyeed's Bow (60%) -->
+				<item id="90045" min="1" max="1" chance="0.5354" /> <!-- Magical Tablet -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1890,8 +1791,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1904,14 +1805,12 @@
 					<item id="57" min="7000" max="14000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2742">
-					<item id="8682" min="1" max="1" chance="0.0748" /> <!-- Naga Storm -->
-					<item id="8716" min="1" max="1" chance="32.6553" /> <!-- Naga Storm Piece -->
+					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
 					<item id="2133" min="1" max="1" chance="67.2699" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8716" min="1" max="1" chance="0.2546" /> <!-- Naga Storm Piece -->
-				<item id="8698" min="1" max="1" chance="0.0446" /> <!-- Recipe: Naga Storm (60%) -->
+				<item id="90045" min="1" max="1" chance="0.5354" /> <!-- Magic Tablet -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1939,8 +1838,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1953,14 +1852,12 @@
 					<item id="57" min="8000" max="14000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2742">
-					<item id="8688" min="1" max="1" chance="0.0748" /> <!-- Daimon Crystal -->
-					<item id="8722" min="1" max="1" chance="32.6553" /> <!-- Daimon Crystal Fragment -->
+					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
 					<item id="2133" min="1" max="1" chance="67.2699" /> <!-- Gemstone (A-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="8722" min="1" max="1" chance="0.2546" /> <!-- Daimon Crystal Fragment -->
-				<item id="8710" min="1" max="1" chance="0.0446" /> <!-- Recipe: Daimon Crystal (60%) -->
+				<item id="90045" min="1" max="1" chance="0.5354" /> <!-- Magic Tablet -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1987,8 +1884,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="6" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="6" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -2021,8 +1918,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="6" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="6" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -2055,8 +1952,8 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="6" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="6" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -2087,8 +1984,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="6" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="6" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
