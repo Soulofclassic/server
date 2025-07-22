@@ -5,9 +5,9 @@
 		<sex>MALE</sex>
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="45" />
 				<run ground="145" />
@@ -42,6 +42,7 @@
 			<drop>
 				<group chance="70">
 					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -52,16 +53,6 @@
 					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
 					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
-				</group>
-				<group chance="1.2413">
-					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
-					<item id="92912" min="1" max="1" chance="39.0182" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="19.5091" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="6.503" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="3.9018" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.9509" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1951" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0195" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -77,9 +68,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1943222" sp="29148" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="45" />
 				<run ground="145" />
@@ -92,6 +83,30 @@
 			<radius normal="25" />
 			<height normal="54.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
+				</group>
+				<group chance="0.8233">
+					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
+					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
+					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
+					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
+					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
+					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
+					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
+					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+			</spoil>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
@@ -439,9 +454,9 @@
 		<equipment rhand="98" />
 		<acquire exp="708492" sp="10627" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="50" />
 				<run ground="190" />
@@ -470,23 +485,14 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="907" max="2120" chance="100" /> <!-- Adena -->
+					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
+					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
 				</group>
 				<group chance="0.121">
 					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
 					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
 					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
 					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
-				</group>
-				<group chance="0.9143">
-					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
-					<item id="92912" min="1" max="1" chance="38.6769" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="19.3384" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="6.4461" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="3.8677" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.9338" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1934" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0194" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -501,9 +507,9 @@
 		<equipment rhand="98" />
 		<acquire exp="1387139" sp="20807" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="50" />
 				<run ground="190" />
@@ -516,6 +522,24 @@
 			<radius normal="10" />
 			<height normal="28" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
+					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
+				</group>
+				<group chance="0.121">
+					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
+					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
+					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
+					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5522" min="1" max="1" chance="0.2284" /> <!-- Sealed Armor of Nightmare Pattern -->
+				<item id="5523" min="1" max="1" chance="0.2284" /> <!-- Sealed Majestic Plate Armor Pattern -->
+			</spoil>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -534,9 +558,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1010772" sp="15161" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="45" />
 				<run ground="195" />
@@ -565,23 +589,14 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1273" max="2975" chance="100" /> <!-- Adena -->
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
+					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
 				</group>
 				<group chance="0.2245">
 					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
 					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
 					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
 					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
-				</group>
-				<group chance="0.9564">
-					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
-					<item id="92912" min="1" max="1" chance="51.8826" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="25.9413" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.6471" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.1883" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.5941" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2594" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0259" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -595,9 +610,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1991697" sp="29875" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="45" />
 				<run ground="195" />
@@ -610,6 +625,24 @@
 			<radius normal="17" />
 			<height normal="26.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
+					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
+				</group>
+				<group chance="0.2245">
+					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
+					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
+					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
+					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5487" min="1" max="1" chance="0.4238" /> <!-- Sealed Robe of Nightmare Fabric -->
+				<item id="5488" min="1" max="1" chance="0.4238" /> <!-- Sealed Majestic Robe Fabric -->
+			</spoil>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
