@@ -128,12 +128,12 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4408" level="3" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4412" level="5" /> <!-- Average P. Def. -->
+			<skill id="4413" level="5" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -156,13 +156,6 @@
 				</group>
 				<group chance="1.4804">
 					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
-					<item id="92912" min="1" max="1" chance="32.7146" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="16.3573" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="5.4524" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="3.2715" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.6357" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1636" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0164" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -195,17 +188,43 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4408" level="3" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.8233">
+					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
+					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
+					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
+					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
+					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
+					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
+					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
+					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+				</group>
+				<group chance="1.4804">
+					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21404" level="84" type="Monster" name="Tera Beetle">
 		<race>BUG</race>
