@@ -27,12 +27,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="10" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -41,7 +40,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -55,13 +54,6 @@
 				</group>
 				<group chance="1.2413">
 					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
-					<item id="92912" min="1" max="1" chance="39.0182" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="19.5091" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="6.503" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="3.9018" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.9509" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1951" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0195" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -94,17 +86,42 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="10" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="10" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.8233">
+					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
+					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
+					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
+					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
+					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
+					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
+					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
+					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+				</group>
+				<group chance="1.2413">
+					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21402" level="84" type="Monster" name="Katraxis">
 		<race>BUG</race>
@@ -129,8 +146,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="11" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -246,12 +263,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="11" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -260,7 +276,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -274,13 +290,6 @@
 				</group>
 				<group chance="1.6163">
 					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
-					<item id="92912" min="1" max="1" chance="29.9642" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="14.9821" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="4.994" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="2.9964" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.4982" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1498" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.015" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -313,17 +322,42 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="8000" max="12000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.8233">
+					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
+					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
+					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
+					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
+					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
+					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
+					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
+					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+				</group>
+				<group chance="1.6163">
+					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21406" level="84" type="Monster" name="Knight of Empire">
 		<race>UNDEAD</race>
@@ -348,12 +382,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="11" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -361,7 +394,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="876" max="2049" chance="100" /> <!-- Adena -->
+					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.117">
 					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
@@ -371,13 +404,6 @@
 				</group>
 				<group chance="1.7619">
 					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
-					<item id="92912" min="1" max="1" chance="19.3968" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="9.6984" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="3.2328" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="1.9397" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.9698" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.097" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0096" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -409,16 +435,35 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.117">
+					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
+					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
+					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
+					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
+				</group>
+				<group chance="1.7619">
+					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5522" min="1" max="1" chance="0.2207" /> <!-- Sealed Armor of Nightmare Pattern -->
+				<item id="5523" min="1" max="1" chance="0.2207" /> <!-- Sealed Majestic Plate Armor Pattern -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21408" level="84" type="Monster" name="Royal Guard of Empire">
 		<race>UNDEAD</race>
@@ -443,12 +488,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="11" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -457,7 +501,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="907" max="2120" chance="100" /> <!-- Adena -->
+					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.121">
 					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
@@ -467,13 +511,6 @@
 				</group>
 				<group chance="0.9143">
 					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
-					<item id="92912" min="1" max="1" chance="38.6769" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="19.3384" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="6.4461" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="3.8677" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.9338" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1934" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0194" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -505,16 +542,35 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="11" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.121">
+					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
+					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
+					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
+					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
+				</group>
+				<group chance="0.9143">
+					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5522" min="1" max="1" chance="0.2284" /> <!-- Sealed Armor of Nightmare Pattern -->
+				<item id="5523" min="1" max="1" chance="0.2284" /> <!-- Sealed Majestic Plate Armor Pattern -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21410" level="84" type="Monster" name="Guardian Scarab">
 		<race>BUG</race>
@@ -538,12 +594,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="11" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -552,7 +607,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1273" max="2975" chance="100" /> <!-- Adena -->
+					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2245">
 					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
@@ -562,13 +617,6 @@
 				</group>
 				<group chance="0.9564">
 					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
-					<item id="92912" min="1" max="1" chance="51.8826" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="25.9413" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.6471" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.1883" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.5941" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2594" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0259" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -599,17 +647,36 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="11" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="7000" max="11000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.2245">
+					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
+					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
+					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
+					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
+				</group>
+				<group chance="0.9564">
+					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5487" min="1" max="1" chance="0.4238" /> <!-- Sealed Robe of Nightmare Fabric -->
+				<item id="5488" min="1" max="1" chance="0.4238" /> <!-- Sealed Majestic Robe Fabric -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21412" level="84" type="Monster" name="Ustralith">
 		<race>BUG</race>
