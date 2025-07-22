@@ -124,7 +124,7 @@
 	<npc id="21402" level="84" type="Monster" name="Katraxis">
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="993837" sp="14907" />
+		<acquire exp="496918" sp="7453" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
