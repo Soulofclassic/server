@@ -5,7 +5,7 @@
 		<sex>MALE</sex>
 		<acquire exp="680551" sp="10208" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -27,8 +27,8 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -43,21 +43,24 @@
 					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7816">
-					<item id="6342" min="1" max="1" chance="32.271" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="6344" min="1" max="1" chance="20.884" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="6346" min="1" max="1" chance="46.3814" /> <!-- Sealed Majestic Ring Gemstone -->
-					<item id="6327" min="1" max="1" chance="0.1427" /> <!-- Sealed Majestic Earring -->
-					<item id="6328" min="1" max="1" chance="0.2139" /> <!-- Sealed Majestic Ring -->
-					<item id="6326" min="1" max="1" chance="0.107" /> <!-- Sealed Majestic Necklace -->
+					<item id="6698" min="1" max="1" chance="16.271" /> <!-- Sealed TT Earring Gemstone -->
+					<item id="6699" min="1" max="1" chance="10.884" /> <!-- Sealed TT Necklace Beads -->
+					<item id="6670" min="1" max="1" chance="23.3814" /> <!-- Sealed TT Ring Gemstone -->
+					<item id="6724" min="1" max="1" chance="0.0727" /> <!-- Sealed TT Earring -->
+					<item id="6725" min="1" max="1" chance="0.1039" /> <!-- Sealed TT Ring -->
+					<item id="6726" min="1" max="1" chance="0.057" /> <!-- Sealed TT Necklace -->
+					<item id="6678" min="1" max="1" chance="0.057" /> <!-- Sealed IC Shield -->
+					<item id="6705" min="1" max="1" chance="10.884" /> <!-- Sealed IC Shield Peace -->
 				</group>
 				<group chance="10.8862">
 					<item id="1884" min="1" max="1" chance="94.4091" /> <!-- Cord -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="6342" min="1" max="1" chance="0.9567" /> <!-- Sealed Majestic Earring Gemstone -->
-				<item id="6344" min="1" max="1" chance="0.6191" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="6346" min="1" max="1" chance="1.3751" /> <!-- Sealed Majestic Ring Gemstone -->
+				<item id="6698" min="1" max="1" chance="0.9567" /> <!-- Sealed TT Earring Gemstone -->
+				<item id="6699" min="1" max="1" chance="0.6191" /> <!-- Sealed TT Necklace Beads -->
+				<item id="6670" min="1" max="1" chance="1.3751" /> <!-- Sealed TT Ring Gemstone -->
+				<item id="6705" min="1" max="1" chance="0.6191" /> <!-- Sealed IC Shield Peace -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -66,7 +69,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1355598" sp="20333" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -84,8 +87,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -100,21 +103,20 @@
 					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7816">
-					<item id="6342" min="1" max="1" chance="32.271" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="6344" min="1" max="1" chance="20.884" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="6346" min="1" max="1" chance="46.3814" /> <!-- Sealed Majestic Ring Gemstone -->
-					<item id="6327" min="1" max="1" chance="0.1427" /> <!-- Sealed Majestic Earring -->
-					<item id="6328" min="1" max="1" chance="0.2139" /> <!-- Sealed Majestic Ring -->
-					<item id="6326" min="1" max="1" chance="0.107" /> <!-- Sealed Majestic Necklace -->
+					<item id="6847" min="1" max="1" chance="16.271" /> <!-- Sealed TT Earring Recipe -->
+					<item id="6849" min="1" max="1" chance="10.884" /> <!-- Sealed TT Necklace Recipe -->
+					<item id="6851" min="1" max="1" chance="23.3814" /> <!-- Sealed TT Ring Recipe -->
+					<item id="6861" min="1" max="1" chance="10.884" /> <!-- Sealed IC shield Recipe -->
 				</group>
 				<group chance="10.8862">
 					<item id="1884" min="1" max="1" chance="94.4091" /> <!-- Cord -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="6342" min="1" max="1" chance="0.9567" /> <!-- Sealed Majestic Earring Gemstone -->
-				<item id="6344" min="1" max="1" chance="0.6191" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="6346" min="1" max="1" chance="1.3751" /> <!-- Sealed Majestic Ring Gemstone -->
+				<item id="6847" min="1" max="1" chance="0.9567" /> <!-- Sealed TT Earring Recipe -->
+				<item id="6849" min="1" max="1" chance="0.6191" /> <!-- Sealed TT Necklace Recipe -->
+				<item id="6851" min="1" max="1" chance="1.3751" /> <!-- Sealed TT Ring Recipe -->
+				<item id="6861" min="1" max="1" chance="0.6191" /> <!-- Sealed IC shield Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -123,7 +125,7 @@
 		<sex>MALE</sex>
 		<acquire exp="680551" sp="20416" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -141,8 +143,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -156,24 +158,24 @@
 					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7138">
-					<item id="6342" min="1" max="1" chance="26.4989" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="6344" min="1" max="1" chance="17.1486" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="6346" min="1" max="1" chance="38.0854" /> <!-- Sealed Majestic Ring Gemstone -->
-					<item id="6327" min="1" max="1" chance="0.1171" /> <!-- Sealed Majestic Earring -->
-					<item id="6328" min="1" max="1" chance="0.1756" /> <!-- Sealed Majestic Ring -->
-					<item id="6326" min="1" max="1" chance="0.0878" /> <!-- Sealed Majestic Necklace -->
-					<item id="5315" min="1" max="1" chance="0.1234" /> <!-- Sealed Shield of Nightmare -->
-					<item id="5495" min="1" max="1" chance="17.7632" /> <!-- Sealed Shield of Nightmare Fragment -->
+					<item id="6698" min="1" max="1" chance="16.271" /> <!-- Sealed TT Earring Gemstone -->
+					<item id="6699" min="1" max="1" chance="10.884" /> <!-- Sealed TT Necklace Beads -->
+					<item id="6670" min="1" max="1" chance="23.3814" /> <!-- Sealed TT Ring Gemstone -->
+					<item id="6724" min="1" max="1" chance="0.0727" /> <!-- Sealed TT Earring -->
+					<item id="6725" min="1" max="1" chance="0.1039" /> <!-- Sealed TT Ring -->
+					<item id="6726" min="1" max="1" chance="0.057" /> <!-- Sealed TT Necklace -->
+					<item id="6678" min="1" max="1" chance="0.057" /> <!-- Sealed IC Shield -->
+					<item id="6705" min="1" max="1" chance="10.884" /> <!-- Sealed IC Shield Peace -->
 				</group>
 				<group chance="2.0004">
 					<item id="1885" min="1" max="1" chance="69.5739" /> <!-- High-grade Suede -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="6342" min="1" max="1" chance="0.7176" /> <!-- Sealed Majestic Earring Gemstone -->
-				<item id="6344" min="1" max="1" chance="0.4644" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="6346" min="1" max="1" chance="1.0313" /> <!-- Sealed Majestic Ring Gemstone -->
-				<item id="5495" min="1" max="1" chance="0.481" /> <!-- Sealed Shield of Nightmare Fragment -->
+				<item id="6698" min="1" max="1" chance="0.9567" /> <!-- Sealed TT Earring Gemstone -->
+				<item id="6699" min="1" max="1" chance="0.6191" /> <!-- Sealed TT Necklace Beads -->
+				<item id="6670" min="1" max="1" chance="1.3751" /> <!-- Sealed TT Ring Gemstone -->
+				<item id="6705" min="1" max="1" chance="0.6191" /> <!-- Sealed IC Shield Peace -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -182,7 +184,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1355598" sp="40667" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -200,8 +202,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="8" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -216,24 +218,20 @@
 					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7138">
-					<item id="6342" min="1" max="1" chance="26.4989" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="6344" min="1" max="1" chance="17.1486" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="6346" min="1" max="1" chance="38.0854" /> <!-- Sealed Majestic Ring Gemstone -->
-					<item id="6327" min="1" max="1" chance="0.1171" /> <!-- Sealed Majestic Earring -->
-					<item id="6328" min="1" max="1" chance="0.1756" /> <!-- Sealed Majestic Ring -->
-					<item id="6326" min="1" max="1" chance="0.0878" /> <!-- Sealed Majestic Necklace -->
-					<item id="5315" min="1" max="1" chance="0.1234" /> <!-- Sealed Shield of Nightmare -->
-					<item id="5495" min="1" max="1" chance="17.7632" /> <!-- Sealed Shield of Nightmare Fragment -->
+					<item id="6847" min="1" max="1" chance="16.271" /> <!-- Sealed TT Earring Recipe -->
+					<item id="6849" min="1" max="1" chance="10.884" /> <!-- Sealed TT Necklace Recipe -->
+					<item id="6851" min="1" max="1" chance="23.3814" /> <!-- Sealed TT Ring Recipe -->
+					<item id="6861" min="1" max="1" chance="10.884" /> <!-- Sealed IC shield Recipe -->
 				</group>
 				<group chance="2.0004">
 					<item id="1885" min="1" max="1" chance="69.5739" /> <!-- High-grade Suede -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="6342" min="1" max="1" chance="0.7176" /> <!-- Sealed Majestic Earring Gemstone -->
-				<item id="6344" min="1" max="1" chance="0.4644" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="6346" min="1" max="1" chance="1.0313" /> <!-- Sealed Majestic Ring Gemstone -->
-				<item id="5495" min="1" max="1" chance="0.481" /> <!-- Sealed Shield of Nightmare Fragment -->
+				<item id="6847" min="1" max="1" chance="0.9567" /> <!-- Sealed TT Earring Recipe -->
+				<item id="6849" min="1" max="1" chance="0.6191" /> <!-- Sealed TT Necklace Recipe -->
+				<item id="6851" min="1" max="1" chance="1.3751" /> <!-- Sealed TT Ring Recipe -->
+				<item id="6861" min="1" max="1" chance="0.6191" /> <!-- Sealed IC shield Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
