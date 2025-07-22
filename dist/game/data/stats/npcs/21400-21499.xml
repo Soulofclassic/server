@@ -131,6 +131,8 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -188,6 +190,8 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
