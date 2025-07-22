@@ -42,7 +42,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="857" max="2003" chance="100" /> <!-- Adena -->
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7816">
 					<item id="6342" min="1" max="1" chance="32.271" /> <!-- Sealed Majestic Earring Gemstone -->
@@ -54,13 +54,6 @@
 				</group>
 				<group chance="10.8862">
 					<item id="1884" min="1" max="1" chance="94.4091" /> <!-- Cord -->
-					<item id="92912" min="1" max="1" chance="3.0683" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="1.5341" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.5114" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.3068" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.1534" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.0153" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0016" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -75,9 +68,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1355598" sp="20333" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="45" />
 				<run ground="130" />
@@ -90,6 +83,29 @@
 			<radius normal="14" />
 			<height normal="22" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.7816">
+					<item id="6342" min="1" max="1" chance="32.271" /> <!-- Sealed Majestic Earring Gemstone -->
+					<item id="6344" min="1" max="1" chance="20.884" /> <!-- Sealed Majestic Necklace Beads -->
+					<item id="6346" min="1" max="1" chance="46.3814" /> <!-- Sealed Majestic Ring Gemstone -->
+					<item id="6327" min="1" max="1" chance="0.1427" /> <!-- Sealed Majestic Earring -->
+					<item id="6328" min="1" max="1" chance="0.2139" /> <!-- Sealed Majestic Ring -->
+					<item id="6326" min="1" max="1" chance="0.107" /> <!-- Sealed Majestic Necklace -->
+				</group>
+				<group chance="10.8862">
+					<item id="1884" min="1" max="1" chance="94.4091" /> <!-- Cord -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="6342" min="1" max="1" chance="0.9567" /> <!-- Sealed Majestic Earring Gemstone -->
+				<item id="6344" min="1" max="1" chance="0.6191" /> <!-- Sealed Majestic Necklace Beads -->
+				<item id="6346" min="1" max="1" chance="1.3751" /> <!-- Sealed Majestic Ring Gemstone -->
+			</spoil>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -110,9 +126,9 @@
 		<sex>MALE</sex>
 		<acquire exp="680551" sp="20416" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353,5268085" />
 			<speed>
 				<walk ground="45" />
 				<run ground="180" />
@@ -125,6 +141,13 @@
 			<radius normal="14" />
 			<height normal="22" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
@@ -141,7 +164,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="857" max="2003" chance="100" /> <!-- Adena -->
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7138">
 					<item id="6342" min="1" max="1" chance="26.4989" /> <!-- Sealed Majestic Earring Gemstone -->
@@ -155,13 +178,6 @@
 				</group>
 				<group chance="2.0004">
 					<item id="1885" min="1" max="1" chance="69.5739" /> <!-- High-grade Suede -->
-					<item id="92912" min="1" max="1" chance="16.6977" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="8.3489" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="2.783" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="1.6698" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.8349" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.0835" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0083" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -177,9 +193,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1355598" sp="40667" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="45" />
 				<run ground="180" />
@@ -192,6 +208,32 @@
 			<radius normal="14" />
 			<height normal="22" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.7138">
+					<item id="6342" min="1" max="1" chance="26.4989" /> <!-- Sealed Majestic Earring Gemstone -->
+					<item id="6344" min="1" max="1" chance="17.1486" /> <!-- Sealed Majestic Necklace Beads -->
+					<item id="6346" min="1" max="1" chance="38.0854" /> <!-- Sealed Majestic Ring Gemstone -->
+					<item id="6327" min="1" max="1" chance="0.1171" /> <!-- Sealed Majestic Earring -->
+					<item id="6328" min="1" max="1" chance="0.1756" /> <!-- Sealed Majestic Ring -->
+					<item id="6326" min="1" max="1" chance="0.0878" /> <!-- Sealed Majestic Necklace -->
+					<item id="5315" min="1" max="1" chance="0.1234" /> <!-- Sealed Shield of Nightmare -->
+					<item id="5495" min="1" max="1" chance="17.7632" /> <!-- Sealed Shield of Nightmare Fragment -->
+				</group>
+				<group chance="2.0004">
+					<item id="1885" min="1" max="1" chance="69.5739" /> <!-- High-grade Suede -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="6342" min="1" max="1" chance="0.7176" /> <!-- Sealed Majestic Earring Gemstone -->
+				<item id="6344" min="1" max="1" chance="0.4644" /> <!-- Sealed Majestic Necklace Beads -->
+				<item id="6346" min="1" max="1" chance="1.0313" /> <!-- Sealed Majestic Ring Gemstone -->
+				<item id="5495" min="1" max="1" chance="0.481" /> <!-- Sealed Shield of Nightmare Fragment -->
+			</spoil>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->

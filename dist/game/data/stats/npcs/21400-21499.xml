@@ -111,9 +111,9 @@
 		<sex>MALE</sex>
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="37" />
 				<run ground="165" />
@@ -142,7 +142,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -156,14 +156,6 @@
 				</group>
 				<group chance="1.4804">
 					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
-					<item id="92912" min="1" max="1" chance="32.7146" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="16.3573" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="5.4524" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="3.2715" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.6357" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1636" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0164" /> <!-- Elixir Powder -->
-				</group>
 			</drop>
 			<spoil>
 				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
@@ -178,9 +170,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1980478" sp="29707" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="37" />
 				<run ground="165" />
@@ -193,6 +185,31 @@
 			<radius normal="24" />
 			<height normal="52.8" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.8233">
+					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
+					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
+					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
+					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
+					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
+					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
+					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
+					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+				</group>
+				<group chance="1.4804">
+					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
+			</drop>
+			<spoil>
+				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+			</spoil>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
@@ -212,9 +229,9 @@
 		<sex>MALE</sex>
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="45" />
 				<run ground="185" />
@@ -243,7 +260,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -257,13 +274,6 @@
 				</group>
 				<group chance="1.6163">
 					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
-					<item id="92912" min="1" max="1" chance="29.9642" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="14.9821" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="4.994" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="2.9964" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.4982" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1498" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.015" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -279,9 +289,9 @@
 		<sex>MALE</sex>
 		<acquire exp="1980478" sp="29707" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="21957.87" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<defence physical="772.9932168" magical="353.5268085" />
 			<speed>
 				<walk ground="45" />
 				<run ground="185" />
@@ -294,6 +304,32 @@
 			<radius normal="25" />
 			<height normal="54.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.8233">
+					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
+					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
+					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
+					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
+					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
+					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
+					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
+					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
+				</group>
+				<group chance="1.6163">
+					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+			</spoil>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
@@ -1886,7 +1922,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10000" max="13000" chance="100" /> <!-- Adena -->
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1927,7 +1963,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10000" max="13000" chance="100" /> <!-- Adena -->
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1967,7 +2003,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10000" max="13000" chance="100" /> <!-- Adena -->
+					<item id="57" min="8000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 		</dropLists>
