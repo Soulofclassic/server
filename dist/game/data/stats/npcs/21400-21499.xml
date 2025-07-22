@@ -5,7 +5,7 @@
 		<sex>MALE</sex>
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -28,8 +28,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -63,7 +63,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1943222" sp="29148" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -81,8 +81,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -113,7 +113,7 @@
 		<sex>MALE</sex>
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -131,8 +131,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -166,7 +166,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1980478" sp="29707" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -184,8 +184,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -219,7 +219,7 @@
 		<sex>MALE</sex>
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -237,8 +237,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -272,7 +272,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1980478" sp="29707" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -290,8 +290,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -323,7 +323,7 @@
 		<equipment rhand="150" lhand="103" />
 		<acquire exp="691558" sp="10373" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -341,8 +341,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -376,7 +376,7 @@
 		<equipment rhand="150" lhand="103" />
 		<acquire exp="1375920" sp="20638" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -394,8 +394,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -429,7 +429,7 @@
 		<equipment rhand="98" />
 		<acquire exp="708492" sp="10627" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -447,8 +447,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -483,7 +483,7 @@
 		<equipment rhand="98" />
 		<acquire exp="1387139" sp="20807" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -501,8 +501,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="5" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -532,7 +532,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1010772" sp="15161" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -550,8 +550,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -582,7 +582,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1991697" sp="29875" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -600,8 +600,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -632,7 +632,7 @@
 		<sex>MALE</sex>
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -650,8 +650,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -682,7 +682,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1980478" sp="29707" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -700,8 +700,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -736,7 +736,7 @@
 		<equipment rhand="946" lhand="945" />
 		<acquire exp="758237" sp="11373" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -754,8 +754,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="5" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="5" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -786,7 +786,7 @@
 		<equipment rhand="946" lhand="945" />
 		<acquire exp="1397934" sp="20969" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -804,8 +804,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="5" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="5" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -836,7 +836,7 @@
 		<equipment rhand="134" lhand="6721" />
 		<acquire exp="789989" sp="11849" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -854,8 +854,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -889,7 +889,7 @@
 		<equipment rhand="134" lhand="6721" />
 		<acquire exp="1442599" sp="21638" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -907,8 +907,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -939,7 +939,7 @@
 		<equipment rhand="142" />
 		<acquire exp="705317" sp="10579" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -957,8 +957,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -989,7 +989,7 @@
 		<equipment rhand="142" />
 		<acquire exp="1388620" sp="20829" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -1007,8 +1007,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1038,7 +1038,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1330194" sp="19952" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1056,8 +1056,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1073,7 +1073,7 @@
 					<item id="6863" min="1" max="1" chance="0.0825" /> <!-- Imperial Crusader Helm Recipe  -->
 				</group>
 				<group chance="1.2028">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1086,7 +1086,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2640882" sp="39613" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1104,8 +1104,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1121,7 +1121,7 @@
 					<item id="6853" min="1" max="1" chance="0.0825" /> <!-- Imperial Crusader Chest Recipe -->
 				</group>
 				<group chance="1.2028">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1135,7 +1135,7 @@
 		<equipment rhand="3939" />
 		<acquire exp="767945" sp="11519" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1153,8 +1153,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="5" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1171,7 +1171,7 @@
 					<item id="6855" min="1" max="1" chance="0.1186" /> <!-- Imperial Crusader Gaitlers Recipe -->
 				</group>
 				<group chance="0.7293">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1185,7 +1185,7 @@
 		<equipment rhand="3939" />
 		<acquire exp="1430983" sp="21464" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1203,8 +1203,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1221,7 +1221,7 @@
 					<item id="6857" min="1" max="1" chance="0.1186" /> <!-- Imperial Crusader Gauntlents Recipe -->
 				</group>
 				<group chance="0.7293">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1234,7 +1234,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1059474" sp="15892" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1252,8 +1252,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1269,7 +1269,7 @@
 					<item id="6859" min="1" max="1" chance="0.1186" /> <!-- Imperial Crusader Boots Recipe -->
 				</group>
 				<group chance="0.9775">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1282,7 +1282,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2076464" sp="31146" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1317,7 +1317,7 @@
 					<item id="6879" min="1" max="1" chance="0.1186" /> <!-- Major Arcana Helm Recipe -->
 				</group>
 				<group chance="0.9775">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1330,7 +1330,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1059474" sp="15892" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1348,8 +1348,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1365,7 +1365,7 @@
 					<item id="6873" min="1" max="1" chance="0.2286" /> <!-- Major Arcana Robe Recipe -->
 				</group>
 				<group chance="0.9775">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1378,7 +1378,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2076464" sp="31146" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1396,8 +1396,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1413,7 +1413,7 @@
 					<item id="6877" min="1" max="1" chance="0.1186" /> <!-- Major Arcana Boots Recipe -->
 				</group>
 				<group chance="0.9775">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1426,7 +1426,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1357938" sp="20369" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1444,8 +1444,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1462,7 +1462,7 @@
 					<item id="6875" min="1" max="1" chance="0.1186" /> <!-- Major Arcana Gloves Recipe -->
 				</group>
 				<group chance="1.239">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1475,7 +1475,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2673394" sp="40100" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1493,8 +1493,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1511,11 +1511,11 @@
 					<item id="6871" min="1" max="1" chance="0.1186" /> <!-- Draconic Helm Recipe -->
 				</group>
 				<group chance="1.239">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="6871" min="1" max="1" chance="0.4359" /> <!-- Tiphon's Spear Edge -->
+				<item id="6871" min="1" max="1" chance="0.4359" /> <!-- Draconic Helm Recipe -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1525,7 +1525,7 @@
 		<equipment rhand="6722" />
 		<acquire exp="1452658" sp="21789" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1543,8 +1543,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="5" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="5" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1560,7 +1560,7 @@
 					<item id="6865" min="1" max="1" chance="0.1186" /> <!-- Draconic Leather Armor Recipe -->
 				</group>
 				<group chance="1.3627">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1574,7 +1574,7 @@
 		<equipment rhand="6722" />
 		<acquire exp="2697670" sp="40465" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1592,8 +1592,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Very Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1609,7 +1609,7 @@
 					<item id="6867" min="1" max="1" chance="0.1186" /> <!-- Draconic gloves recipe -->
 				</group>
 				<group chance="1.3627">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1622,7 +1622,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2878656" sp="43179" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1640,8 +1640,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="5" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="5" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Very Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1660,7 +1660,7 @@
 					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
 				</group>
 				<group chance="1.5359">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1674,7 +1674,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2669276" sp="40039" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1692,8 +1692,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1711,7 +1711,7 @@
 					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
 				</group>
 				<group chance="1.2625">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="4.3733" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1725,7 +1725,7 @@
 		<sex>MALE</sex>
 		<acquire exp="3792041" sp="56880" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1743,8 +1743,8 @@
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="5" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="5" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Extremely Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Extremely Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Extremely Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1759,7 +1759,7 @@
 				</group>
 				<group chance="0.5766">
 					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
-					<item id="2133" min="1" max="1" chance="67.2699" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="67.2699" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1773,7 +1773,7 @@
 		<equipment rhand="134" lhand="6721" />
 		<acquire exp="1701921" sp="25528" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1791,8 +1791,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1806,7 +1806,7 @@
 				</group>
 				<group chance="0.2742">
 					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
-					<item id="2133" min="1" max="1" chance="67.2699" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="67.2699" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1820,7 +1820,7 @@
 		<equipment rhand="134" lhand="6721" />
 		<acquire exp="1701921" sp="25528" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1838,8 +1838,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="4" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="4" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="3" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="3" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1853,7 +1853,7 @@
 				</group>
 				<group chance="0.2742">
 					<item id="90045" min="1" max="1" chance="45.1187" /> <!-- Magical Tablet -->
-					<item id="2133" min="1" max="1" chance="67.2699" /> <!-- Gemstone (A-grade) -->
+					<item id="2134" min="1" max="1" chance="67.2699" /> <!-- Gemstone (S-grade) -->
 				</group>
 			</drop>
 			<spoil>
@@ -1866,7 +1866,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2056090" sp="30841" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1884,8 +1884,8 @@
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1900,7 +1900,7 @@
 		<equipment rhand="150" lhand="103" />
 		<acquire exp="702678" sp="10540" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43455.234" hpRegen="17" mp="2666.1" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="43976.95" magical="22522.925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1528.6814208" magical="699.139215" />
 			<speed>
@@ -1918,8 +1918,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1933,7 +1933,7 @@
 		<equipment rhand="150" lhand="103" />
 		<acquire exp="702678" sp="10540" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43455.234" hpRegen="17" mp="2666.1" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="43976.95" magical="22522.925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1528.6814208" magical="699.139215" />
 			<speed>
@@ -1952,8 +1952,8 @@
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -1966,7 +1966,7 @@
 		<sex>MALE</sex>
 		<acquire exp="702678" sp="10540" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43455.234" hpRegen="17" mp="2666.1" mpRegen="6" />
+			<vitals hp="30741.018" hpRegen="17" mp="2666.1" mpRegen="6" />
 			<attack physical="43976.95" magical="22522.925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1528.6814208" magical="699.139215" />
 			<speed>
@@ -1984,8 +1984,8 @@
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="3" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="3" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="2" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="2" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
