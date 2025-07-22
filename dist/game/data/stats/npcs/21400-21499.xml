@@ -143,6 +143,7 @@
 			<drop>
 				<group chance="70">
 					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
+					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -154,8 +155,6 @@
 					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
 				</group>
-				<group chance="1.4804">
-					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
 			</drop>
 			<spoil>
 				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
@@ -189,6 +188,7 @@
 			<drop>
 				<group chance="70">
 					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
+					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -200,8 +200,6 @@
 					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
 				</group>
-				<group chance="1.4804">
-					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
 			</drop>
 			<spoil>
 				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
@@ -261,6 +259,7 @@
 			<drop>
 				<group chance="70">
 					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
+					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -271,9 +270,6 @@
 					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
 					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
-				</group>
-				<group chance="1.6163">
-					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
 				</group>
 			</drop>
 			<spoil>
@@ -308,6 +304,7 @@
 			<drop>
 				<group chance="70">
 					<item id="57" min="9000" max="11000" chance="100" /> <!-- Adena -->
+					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -318,9 +315,6 @@
 					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
 					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
-				</group>
-				<group chance="1.6163">
-					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
 				</group>
 			</drop>
 			<spoil>
