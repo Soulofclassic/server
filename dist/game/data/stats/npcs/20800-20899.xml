@@ -759,6 +759,28 @@
 			<radius normal="15" />
 			<height normal="30" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1196" max="2795" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1869" min="1" max="3" chance="19.57" /> <!-- iron ore -->
+					<item id="1873" min="1" max="1" chance="15.76" /> <!-- silver nugget -->
+					<item id="2952" min="1" max="1" chance="13.88" /> <!-- demon boots piece -->
+					<item id="1880" min="1" max="1" chance="3.859" /> <!-- steel -->
+					<item id="3005" min="1" max="1" chance="1.514" /> <!-- demon boots rec -->
+					<item id="2115" min="1" max="1" chance="1" /> <!-- sls blade  -->
+					<item id="2231" min="1" max="1" chance="0.005" /> <!-- fp rec  -->
+					<item id="135" min="1" max="1" chance="0.0001" /> <!-- sls  -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1874" min="1" max="1" chance="40.77" /> <!-- oo  -->
+				<item id="4039" min="1" max="1" chance="19.88" /> <!-- mold glue  -->
+				<item id="4042" min="1" max="1" chance="10.347" /> <!-- enria  -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20811" level="56" type="Monster" name="Ghastly Warrior">
 		<parameters>
@@ -1142,6 +1164,27 @@
 			<radius normal="11" />
 			<height normal="28.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1921" max="4490" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1869" min="1" max="3" chance="19.77" /> <!-- iron ore -->
+					<item id="1880" min="1" max="1" chance="6.182" /> <!-- steel -->
+					<item id="1873" min="2" max="6" chance="4.903" /> <!-- silver nugget -->
+					<item id="2109" min="1" max="1" chance="3.595" /> <!-- akat piece -->
+					<item id="2347" min="1" max="1" chance="0.005" /> <!-- akat recipe  -->
+					<item id="2360" min="1" max="1" chance="0.001" /> <!-- orchish poleaxe recipe  -->
+					<item id="283" min="1" max="1" chance="0.0005" /> <!-- akat  -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1874" min="1" max="1" chance="63.59" /> <!-- oo -->
+				<item id="4039" min="1" max="1" chance="33.72" /> <!-- mold glue -->
+				<item id="4042" min="1" max="1" chance="17.09" /> <!-- enria -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20817" level="62" type="Monster" name="Corrupt Sage">
 		<parameters>
@@ -1405,6 +1448,24 @@
 			<radius normal="12" grown="14.5" />
 			<height normal="31" grown="36" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2023" max="4667" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="4049" min="1" max="3" chance="17.73" /> <!-- ada aer piece -->
+					<item id="1869" min="3" max="9" chance="15.95" /> <!-- iron ore -->
+					<item id="1873" min="2" max="6" chance="9.785" /> <!-- silver nugget -->
+					<item id="1880" min="1" max="1" chance="9.776" /> <!-- steel -->
+					<item id="1874" min="1" max="1" chance="6.455" /> <!-- oo  -->
+					<item id="856" min="1" max="1" chance="0.005" /> <!-- ada ear  -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4937" min="1" max="1" chance="49.39" /> <!-- ada ear rec-->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20821" level="66" type="Monster" name="Erin Ediunce">
 		<parameters>
@@ -1530,6 +1591,24 @@
 			<radius normal="14" />
 			<height normal="40" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2000" max="4667" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1869" min="3" max="9" chance="16.45" /> <!-- iron ore -->
+					<item id="4051" min="1" max="3" chance="12.71" /> <!-- ada neck piece -->
+					<item id="1873" min="2" max="6" chance="9.96" /> <!-- silver nugget -->
+					<item id="1880" min="1" max="1" chance="9.592" /> <!-- steel -->
+					<item id="1874" min="1" max="1" chance="6.471" /> <!-- oo  -->
+					<item id="918" min="1" max="1" chance="0.005" /> <!-- ada neck  -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4939" min="1" max="1" chance="39.16" /> <!-- ada neck rec-->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20823" level="68" type="Monster" name="Platinum Tribe Soldier">
 		<parameters>

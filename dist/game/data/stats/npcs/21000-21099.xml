@@ -4234,6 +4234,23 @@
 			<radius normal="12" grown="14.5" />
 			<height normal="31" grown="36" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="3742" max="8731" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="2121" min="1" max="1" chance="5.854" /> <!-- emic piece -->
+					<item id="2133" min="1" max="1" chance="1.228" /> <!-- gem A -->
+					<item id="2359" min="1" max="1" chance="1" /> <!-- emic rec -->
+					<item id="286" min="1" max="1" chance="0.0005" /> <!-- emic -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1874" min="1" max="1" chance="40.04" /> <!-- EAC  -->
+				<item id="4039" min="1" max="1" chance="5.279" /> <!-- EWC  -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21076" level="59" type="Monster" name="Bathin's Knight">
 		<parameters>
@@ -4293,6 +4310,22 @@
 			<radius normal="10" />
 			<height normal="25" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1508" max="3530" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="2093" min="1" max="1" chance="2.727" /> <!-- poleaxe piece -->
+					<item id="2360" min="1" max="1" chance="0.005" /> <!-- orchish poleaxe rec -->
+					<item id="2331" min="1" max="1" chance="0.005" /> <!-- poleaxe rec -->
+					<item id="95" min="1" max="1" chance="0.0005" /> <!-- poleaxe -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="45" chance="99" /> <!-- coal  -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21077" level="58" type="Monster" name="Bathin's Wizard">
 		<parameters>
@@ -4354,6 +4387,22 @@
 			<radius normal="9" />
 			<height normal="23" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1489" max="3484" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="2109" min="1" max="1" chance="2.727" /> <!-- akat piece -->
+					<item id="2347" min="1" max="1" chance="0.005" /> <!-- akat rec -->
+					<item id="2360" min="1" max="1" chance="0.005" /> <!-- orchish poleaxe rec -->
+					<item id="2347" min="1" max="1" chance="0.0005" /> <!-- akat -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="45" chance="99" /> <!-- coal  -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21078" level="74" type="Monster" name="Magus Valac">
 		<parameters>
