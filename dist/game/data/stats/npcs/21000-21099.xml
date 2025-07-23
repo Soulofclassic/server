@@ -3488,6 +3488,27 @@
 			<radius normal="13" />
 			<height normal="25" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="3450" max="9200" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="90045" min="1" max="1" chance="1" /> <!-- Magical Tablet-->
+					<item id="1879" min="1" max="1" chance="17.5574" /> <!-- Cokes -->
+					<item id="1895" min="1" max="4" chance="5.2787" /> <!-- Metal fiber -->
+					<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
+					<item id="1875" min="1" max="1" chance="7.929" /> <!-- SOP -->
+					<item id="4078" min="1" max="1" chance="7.929" /> <!-- BWH chest piece -->
+					<item id="1870" min="4" max="8" chance="13.929" /> <!-- Coal -->
+					<item id="1871" min="4" max="8" chance="7.3934" /> <!-- Charcoal -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4981" min="1" max="1" chance="9.1834" /> <!-- BWH rec -->
+				<item id="4982" min="1" max="1" chance="16.1834" /> <!-- BWH rec gait-->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21067" level="78" type="Monster" name="Guardian Archangel">
 		<parameters>
@@ -3608,9 +3629,9 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3789" max="8841" chance="100" /> <!-- Adena -->
+					<item id="57" min="5684" max="13262" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="10.0652">
+				<group chance="100">
 					<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
 					<item id="1878" min="3" max="6" chance="1.3934" /> <!-- Durable Braid -->
 					<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
@@ -3878,9 +3899,9 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2067" max="4824" chance="100" /> <!-- Adena -->
+					<item id="57" min="3101" max="7702" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="10.9652">
+				<group chance="100">
 					<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
 					<item id="1878" min="3" max="6" chance="16.3934" /> <!-- Durable Braid -->
 					<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
