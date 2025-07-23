@@ -786,6 +786,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="1" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71272" name="Venir's Talisman Lv. 2" type="Armor">
 		<!-- CON/ MEN +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -795,6 +798,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="2" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71273" name="Venir's Talisman Lv. 3" type="Armor">
 		<!-- CON/ MEN/ DEX +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -804,6 +810,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="3" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71274" name="Venir's Talisman Lv. 4" type="Armor">
 		<!-- CON/ MEN/ DEX/ WIT +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -813,6 +822,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="4" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71275" name="Venir's Talisman Lv. 5" type="Armor">
 		<!-- CON/ MEN/ DEX/ WIT/ STR +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 1. The effect doesn't stack if two identical talismans are equipped. -->
@@ -822,6 +834,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="5" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71276" name="Venir's Talisman Lv. 6" type="Armor">
 		<!-- CON/ MEN/ DEX/ WIT/ STR/ INT +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 6. The effect doesn't stack if two identical talismans are equipped. -->
@@ -831,6 +846,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="6" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71277" name="Venir's Talisman Lv. 7" type="Armor">
 		<!-- CON +2, MEN/ DEX/ WIT/ STR/ INT +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 6. The effect doesn't stack if two identical talismans are equipped. -->
@@ -840,6 +858,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="7" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71278" name="Venir's Talisman Lv. 8" type="Armor">
 		<!-- CON/ MEN +2, DEX/ WIT/ STR/ INT +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 6. The effect doesn't stack if two identical talismans are equipped. -->
@@ -849,6 +870,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="8" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71279" name="Venir's Talisman Lv. 9" type="Armor">
 		<!-- CON/ MEN/ DEX +2, WIT/ STR/ INT +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 6. The effect doesn't stack if two identical talismans are equipped. -->
@@ -858,6 +882,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="9" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71280" name="Venir's Talisman Lv. 10" type="Armor">
 		<!-- CON/ MEN/ DEX/ WIT +2, STR/ INT +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 6. The effect doesn't stack if two identical talismans are equipped. -->
@@ -867,6 +894,9 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="18024" level="10" /> <!-- Venir's power -->
+		</skills>
 	</item>
 	<item id="71281" name="Venir's Talisman Lv. 11" type="Armor">
 		<!-- CON/ MEN/ DEX/ WIT/ STR +2, INT +1. Can be upgraded to higher level with Venir's Talisman Fragment. In case of failure the talisman level value drops to 6. The effect doesn't stack if two identical talismans are equipped. -->

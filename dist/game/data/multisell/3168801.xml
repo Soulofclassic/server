@@ -71,13 +71,13 @@
 		<!-- Mark of Battle -->
 		<ingredient id="45584" count="100" />
 		<!-- Talisman of Power Fragment -->
-		<production id="91059" count="1" />
+		<production id="71078" count="1" />
 	</item>
 	<item>
 		<!-- Mark of Battle -->
 		<ingredient id="45584" count="100" />
-		<!-- High-grade life stone -->
-		<production id="90014" count="1" />
+		<!-- Venir's Talisman Fragment -->
+		<production id="71270" count="1" />
 	</item>
 	<item>
 		<!-- Adena -->
@@ -131,7 +131,7 @@
 		<!-- Adena -->
 		<ingredient id="57" count="625000" />
 		<!-- Mark of Battle -->
-		<ingredient id="45584" count="141" />
+		<ingredient id="45584" count="327" />
 		<!-- Scroll: Enchant Weapon (B-grade) -->
 		<production id="947" count="1" />
 	</item>
@@ -158,14 +158,6 @@
 		<ingredient id="45584" count="740" />
 		<!-- Spellbook Box - 3rd Class Transfer -->
 		<production id="90034" count="1" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient id="57" count="25000" />
-		<!-- Mark of Battle -->
-		<ingredient id="45584" count="29" />
-		<!-- Superspeed Potion -->
-		<production id="70283" count="1" />
 	</item>
 	<item>
 		<!-- Adena -->
