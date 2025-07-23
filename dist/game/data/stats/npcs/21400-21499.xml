@@ -27,12 +27,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -41,7 +40,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="57" min="2484" max="5808" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -55,13 +54,6 @@
 				</group>
 				<group chance="1.2413">
 					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
-					<item id="92912" min="1" max="1" chance="39.0182" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="19.5091" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="6.503" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="3.9018" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.9509" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1951" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0195" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -94,12 +86,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -128,12 +119,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -142,7 +132,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="57" min="2484" max="5808" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -156,13 +146,6 @@
 				</group>
 				<group chance="1.4804">
 					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
-					<item id="92912" min="1" max="1" chance="32.7146" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="16.3573" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="5.4524" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="3.2715" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.6357" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1636" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0164" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -195,12 +178,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -229,12 +211,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -243,7 +224,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="57" min="2484" max="5808" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8233">
 					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
@@ -257,13 +238,6 @@
 				</group>
 				<group chance="1.6163">
 					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
-					<item id="92912" min="1" max="1" chance="29.9642" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="14.9821" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="4.994" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="2.9964" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.4982" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1498" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.015" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -296,12 +270,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -331,12 +304,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -344,7 +316,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="876" max="2049" chance="100" /> <!-- Adena -->
+					<item id="57" min="2484" max="5808" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.117">
 					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
@@ -354,13 +326,6 @@
 				</group>
 				<group chance="1.7619">
 					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
-					<item id="92912" min="1" max="1" chance="19.3968" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="9.6984" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="3.2328" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="1.9397" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.9698" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.097" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0096" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -392,12 +357,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -426,12 +390,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -440,7 +403,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="907" max="2120" chance="100" /> <!-- Adena -->
+					<item id="57" min="2484" max="5808" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.121">
 					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
@@ -450,13 +413,6 @@
 				</group>
 				<group chance="0.9143">
 					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
-					<item id="92912" min="1" max="1" chance="38.6769" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="19.3384" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="6.4461" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="3.8677" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.9338" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1934" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0194" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -488,12 +444,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -521,12 +476,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -535,7 +489,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1273" max="2975" chance="100" /> <!-- Adena -->
+					<item id="57" min="2506" max="5950" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2245">
 					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
@@ -545,13 +499,6 @@
 				</group>
 				<group chance="0.9564">
 					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
-					<item id="92912" min="1" max="1" chance="51.8826" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="25.9413" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.6471" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.1883" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.5941" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2594" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0259" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -582,12 +529,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -616,12 +562,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -630,7 +575,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1242" max="2904" chance="100" /> <!-- Adena -->
+					<item id="57" min="2506" max="5950" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2192">
 					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
@@ -640,13 +585,6 @@
 				</group>
 				<group chance="0.9582">
 					<item id="1892" min="1" max="1" chance="7.8977" /> <!-- Blacksmith' Frame -->
-					<item id="92912" min="1" max="1" chance="50.5455" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="25.2727" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.4242" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.0545" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.5273" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2527" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0254" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -677,12 +615,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -712,12 +649,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -725,7 +661,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="996" max="2330" chance="100" /> <!-- Adena -->
+					<item id="57" min="2506" max="5950" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1752">
 					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
@@ -735,13 +671,6 @@
 				</group>
 				<group chance="0.8659">
 					<item id="1893" min="1" max="1" chance="18.2398" /> <!-- Oriharukon -->
-					<item id="92912" min="1" max="1" chance="44.8698" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="22.4349" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="7.4783" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="4.487" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.2435" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2243" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0224" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -773,12 +702,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -807,12 +735,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -820,7 +747,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1054" max="2463" chance="100" /> <!-- Adena -->
+					<item id="57" min="2506" max="5950" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1852">
 					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
@@ -830,13 +757,6 @@
 				</group>
 				<group chance="1.4693">
 					<item id="1894" min="1" max="1" chance="49.0524" /> <!-- Quality Leather -->
-					<item id="92912" min="1" max="1" chance="27.9599" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="13.9799" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="4.66" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="2.796" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="1.398" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.1398" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.014" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -868,12 +788,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -902,12 +821,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -915,7 +833,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="901" max="2107" chance="100" /> <!-- Adena -->
+					<item id="57" min="2506" max="5950" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4227">
 					<item id="5312" min="1" max="1" chance="0.3068" /> <!-- Sealed Helm of Nightmare -->
@@ -925,13 +843,6 @@
 				</group>
 				<group chance="5.6603">
 					<item id="1895" min="1" max="1" chance="88.6877" /> <!-- Metallic Fiber -->
-					<item id="92912" min="1" max="1" chance="6.2081" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="3.1041" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="1.0347" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.6208" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.3104" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.031" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0032" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -963,12 +874,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -996,12 +906,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1009,7 +918,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1619" max="3785" chance="100" /> <!-- Adena -->
+					<item id="57" min="3238" max="7570" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2302">
 					<item id="8678" min="1" max="1" chance="0.1525" /> <!-- Sirra's Blade -->
@@ -1017,13 +926,6 @@
 				</group>
 				<group chance="1.2028">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1054,12 +956,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1088,12 +989,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1102,7 +1002,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="982" max="2295" chance="100" /> <!-- Adena -->
+					<item id="57" min="3238" max="7570" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0931">
 					<item id="8679" min="1" max="1" chance="0.2286" /> <!-- Sword of Ipos -->
@@ -1110,13 +1010,6 @@
 				</group>
 				<group chance="0.7293">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1148,12 +1041,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1182,12 +1074,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1195,7 +1086,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1316" max="3076" chance="100" /> <!-- Adena -->
+					<item id="57" min="3238" max="7570" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1248">
 					<item id="8680" min="1" max="1" chance="0.2286" /> <!-- Barakiel's Axe -->
@@ -1203,13 +1094,6 @@
 				</group>
 				<group chance="0.9775">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1240,12 +1124,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1273,12 +1156,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1286,7 +1168,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1316" max="3076" chance="100" /> <!-- Adena -->
+					<item id="57" min="3238" max="7570" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1248">
 					<item id="8681" min="1" max="1" chance="0.2286" /> <!-- Behemoth' Tuning Fork -->
@@ -1294,13 +1176,6 @@
 				</group>
 				<group chance="0.9775">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1331,12 +1206,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1364,12 +1238,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1378,7 +1251,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1668" max="3899" chance="100" /> <!-- Adena -->
+					<item id="57" min="3336" max="7798" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1582">
 					<item id="8683" min="1" max="1" chance="0.2286" /> <!-- Tiphon's Spear -->
@@ -1386,13 +1259,6 @@
 				</group>
 				<group chance="1.239">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1423,12 +1289,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1458,12 +1323,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1471,7 +1335,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1834" max="4288" chance="100" /> <!-- Adena -->
+					<item id="57" min="3668" max="8576" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.174">
 					<item id="8685" min="1" max="1" chance="0.2286" /> <!-- Sobekk's Hurricane -->
@@ -1479,13 +1343,6 @@
 				</group>
 				<group chance="1.3627">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1517,12 +1374,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Very Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1550,12 +1406,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="17" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Very Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -1565,7 +1420,7 @@
 			<drop>
 				<item id="91406" min="1" max="1" chance="39.6" /> <!-- Entrance Pass to the Sepulcher -->
 				<group chance="70">
-					<item id="57" min="2067" max="4833" chance="100" /> <!-- Adena -->
+					<item id="57" min="3668" max="8676" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2381">
 					<item id="8686" min="1" max="1" chance="0.1255" /> <!-- Themis' Tongue -->
@@ -1574,13 +1429,6 @@
 				</group>
 				<group chance="1.5359">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1612,12 +1460,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -1626,7 +1473,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1699" max="3973" chance="100" /> <!-- Adena -->
+					<item id="57" min="3668" max="8576" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1958">
 					<item id="8687" min="1" max="1" chance="0.1255" /> <!-- Cabrio's Hand -->
@@ -1635,13 +1482,6 @@
 				</group>
 				<group chance="1.2625">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1673,12 +1513,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
-			<skill id="4413" level="19" /> <!-- Extremely Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Extremely Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
@@ -1687,21 +1526,12 @@
 			<drop>
 				<item id="91406" min="1" max="1" chance="39.6" /> <!-- Entrance Pass to the Sepulcher -->
 				<group chance="70">
-					<item id="57" min="2983" max="6974" chance="100" /> <!-- Adena -->
+					<item id="57" min="5966" max="13948" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5766">
 					<item id="8684" min="1" max="1" chance="0.0748" /> <!-- Shyeed's Bow -->
 					<item id="8718" min="1" max="1" chance="32.6553" /> <!-- Shyeed's Bow Shaft -->
 					<item id="2133" min="1" max="1" chance="67.2699" /> <!-- Gemstone (A-grade) -->
-				</group>
-				<group chance="2.422">
-					<item id="92912" min="1" max="1" chance="54.8797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="27.4399" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="9.1466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.488" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.744" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2744" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0274" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1733,12 +1563,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -1746,21 +1575,12 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1418" max="3316" chance="100" /> <!-- Adena -->
+					<item id="57" min="5966" max="13948" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2742">
 					<item id="8682" min="1" max="1" chance="0.0748" /> <!-- Naga Storm -->
 					<item id="8716" min="1" max="1" chance="32.6553" /> <!-- Naga Storm Piece -->
 					<item id="2133" min="1" max="1" chance="67.2699" /> <!-- Gemstone (A-grade) -->
-				</group>
-				<group chance="1.1518">
-					<item id="92912" min="1" max="1" chance="54.8797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="27.4399" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="9.1466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.488" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.744" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2744" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0274" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1792,12 +1612,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -1805,21 +1624,12 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1418" max="3316" chance="100" /> <!-- Adena -->
+					<item id="57" min="5966" max="13948" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2742">
 					<item id="8688" min="1" max="1" chance="0.0748" /> <!-- Daimon Crystal -->
 					<item id="8722" min="1" max="1" chance="32.6553" /> <!-- Daimon Crystal Fragment -->
 					<item id="2133" min="1" max="1" chance="67.2699" /> <!-- Gemstone (A-grade) -->
-				</group>
-				<group chance="1.1518">
-					<item id="92912" min="1" max="1" chance="54.8797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="27.4399" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="9.1466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.488" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.744" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2744" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0274" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>
@@ -1850,12 +1660,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
@@ -1885,12 +1694,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -1919,12 +1727,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -1952,12 +1759,11 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->

@@ -4072,6 +4072,26 @@
 			<radius normal="10" />
 			<height normal="25" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="4006" max="9345" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1870" min="3" max="9" chance="21.61" /> <!-- coal -->
+					<item id="1875" min="1" max="1" chance="8.581" /> <!-- sop -->
+					<item id="1874" min="1" max="1" chance="8.511" /> <!-- OO  -->
+					<item id="2121" min="1" max="1" chance="4.167" /> <!-- emic piece  -->
+					<item id="2359" min="15" max="45" chance="0.005" /> <!-- emic recipe  -->
+					<item id="286" min="1" max="1" chance="0.0005" /> <!-- emic -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="2347" min="1" max="1" chance="3.178" /> <!-- akat rec-->
+				<item id="2359" min="1" max="1" chance="2.312" /> <!-- emic rec -->
+				<item id="4190" min="1" max="1" chance="1.65" /> <!-- dark elven rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21074" level="76" type="Monster" name="Bound Wizard">
 		<parameters>

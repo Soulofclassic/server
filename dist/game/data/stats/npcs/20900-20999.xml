@@ -3797,6 +3797,25 @@
 			<radius normal="13.5" />
 			<height normal="38" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="10313" max="24054" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="49685" min="1" max="1" chance="100" /> <!-- energy -->
+					<item id="49684" min="1" max="1" chance="100" /> <!-- talisman crystal -->
+					<item id="1887" min="1" max="1" chance="25.17" /> <!-- vop -->
+					<item id="4112" min="1" max="1" chance="20.002" /> <!-- DEB piece -->
+					<item id="4971" min="1" max="1" chance="1.077" /> <!-- DEB rec  -->
+					<item id="284" min="1" max="1" chance="0.001" /> <!-- DEB  -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="948" min="1" max="1" chance="20.75" /> <!-- EAB-->
+				<item id="947" min="1" max="1" chance="3.19" /> <!-- EWB -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20978" level="66" type="Monster" name="Elmoreden's Archer">
 		<parameters>
@@ -3914,6 +3933,26 @@
 			<radius normal="6" />
 			<height normal="12" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="4006" max="9345" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1870" min="3" max="9" chance="21.61" /> <!-- coal -->
+					<item id="1875" min="1" max="1" chance="8.581" /> <!-- sop -->
+					<item id="1874" min="1" max="1" chance="8.511" /> <!-- OO  -->
+					<item id="2121" min="1" max="1" chance="4.167" /> <!-- emic piece  -->
+					<item id="2359" min="15" max="45" chance="0.005" /> <!-- emic recipe  -->
+					<item id="286" min="1" max="1" chance="0.0005" /> <!-- emic -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="2347" min="1" max="1" chance="3.178" /> <!-- akat rec-->
+				<item id="2359" min="1" max="1" chance="2.312" /> <!-- emic rec -->
+				<item id="4190" min="1" max="1" chance="1.65" /> <!-- dark elven rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20980" level="69" type="Monster" name="Hallate's Subordinate Mul">
 		<parameters>
@@ -3974,6 +4013,26 @@
 			<radius normal="12" />
 			<height normal="40" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="5672" max="13239" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1875" min="1" max="1" chance="36.28" /> <!-- sop -->
+					<item id="4081" min="1" max="1" chance="18.29" /> <!-- doom plate piece -->
+					<item id="2133" min="1" max="1" chance="1.786" /> <!-- gem A  -->
+					<item id="2381" min="15" max="45" chance="4.332" /> <!-- doom plate  -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4989" min="1" max="1" chance="7.173" /> <!-- doom stock rec -->
+				<item id="4987" min="1" max="1" chance="7.167" /> <!-- doom tunic rec -->
+				<item id="4985" min="1" max="1" chance="4.459" /> <!-- leather doom rec -->
+				<item id="4946" min="1" max="1" chance="4.443" /> <!-- zubei leather chest rec -->
+				<item id="4983" min="1" max="1" chance="0.001" /> <!-- doom plate rec rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20981" level="68" type="Monster" name="Mul's Wizard">
 		<parameters>
