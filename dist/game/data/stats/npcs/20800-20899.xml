@@ -3644,6 +3644,24 @@
 			<radius normal="13.5" grown="16" />
 			<height normal="36.5" grown="42.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="4880" max="11396" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1854" min="4" max="10" chance="20.62" /> <!-- stem -->
+					<item id="1885" min="4" max="10" chance="2.8934" /> <!-- varnish -->
+					<item id="1870" min="2" max="5" chance="3.8574" /> <!-- metal fiber  -->
+					<item id="4044" min="1" max="1" chance="3.4005" /> <!-- thons -->
+					<item id="1878" min="3" max="9" chance="3.4005" /> <!-- durable braid -->
+					<item id="91748" min="1" max="1" chance="0.001" /> <!-- bwl -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4159" min="1" max="1" chance="14.6834" /> <!-- bwl rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20860" level="76" type="Monster" name="Seal Angel">
 		<parameters>

@@ -4156,6 +4156,24 @@
 			<radius normal="19" />
 			<height normal="48" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="7547" max="17632" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1878" min="1" max="1" chance="31.3934" /> <!-- sop -->
+					<item id="4121" min="1" max="1" chance="10.85574" /> <!-- bop shaft -->
+					<item id="2133" min="1" max="1" chance="1.6587" /> <!-- gem A -->
+					<item id="287" min="1" max="1" chance="0.005" /> <!-- BOP -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1878" min="1" max="5" chance="85.3934" /> <!-- sop -->
+				<item id="1870" min="1" max="50" chance="85.1834" /> <!-- coal -->
+				<item id="1874" min="1" max="5" chance="83.1834" /> <!-- oo -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20984" level="76" type="Monster" name="Bound Warrior">
 		<parameters>
@@ -4214,6 +4232,24 @@
 			<radius normal="13" grown="15" />
 			<height normal="28" grown="34" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="3950" max="9213" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1874" min="1" max="1" chance="24.62" /> <!-- oo -->
+					<item id="4089" min="3" max="9" chance="8.8934" /> <!-- doom helm piece -->
+					<item id="2417" min="1" max="1" chance="0.005" /> <!-- doom helm  -->
+					<item id="49766" min="1" max="1" chance="0.003003" /> <!-- STONE -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4962" min="1" max="1" chance="25.92" /> <!-- zubei helm rec -->
+				<item id="4991" min="1" max="1" chance="17.9834" /> <!-- doom helm rec -->
+				<item id="4990" min="1" max="1" chance="16.1834" /> <!-- bw helm rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20985" level="76" type="Monster" name="Bound Archer">
 		<parameters>
