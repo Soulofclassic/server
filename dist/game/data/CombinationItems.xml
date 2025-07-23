@@ -22,33 +22,33 @@
 	</item>
 	<item one="29823" two="29818" chance="41"> <!-- Sigel's Rune Lv. 6 / Sigel's Rune Lv. 1 -->
 		<reward id="29824" count="1" type="ON_SUCCESS" /> <!-- Sigel's Rune Lv. 7 -->
-		<reward id="29818" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 1 -->
+		<reward id="29823" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 6 -->
 	</item>
-	<item one="29824" two="29818" chance="42"> <!-- Sigel's Rune Lv. 7 / Sigel's Rune Lv. 1 -->
+	<item one="29824" two="29818" chance="35"> <!-- Sigel's Rune Lv. 7 / Sigel's Rune Lv. 1 -->
 		<reward id="29825" count="1" type="ON_SUCCESS" /> <!-- Sigel's Rune Lv. 8 -->
-		<reward id="29818" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 1 -->
+		<reward id="29823" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 6 -->
 	</item>
-	<item one="29825" two="29818" chance="40"> <!-- Sigel's Rune Lv. 8 / Sigel's Rune Lv. 1 -->
+	<item one="29825" two="29818" chance="35"> <!-- Sigel's Rune Lv. 8 / Sigel's Rune Lv. 1 -->
 		<reward id="29826" count="1" type="ON_SUCCESS" /> <!-- Sigel's Rune Lv. 9 -->
-		<reward id="29818" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 1 -->
+		<reward id="29823" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 6 -->
 	</item>
-	<item one="29826" two="29818" chance="42"> <!-- Sigel's Rune Lv. 9 / Sigel's Rune Lv. 1 -->
+	<item one="29826" two="29818" chance="35"> <!-- Sigel's Rune Lv. 9 / Sigel's Rune Lv. 1 -->
 		<reward id="29827" count="1" type="ON_SUCCESS" /> <!-- Sigel's Rune Lv. 10 -->
-		<reward id="29818" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 1 -->
+		<reward id="29823" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 6 -->
 	</item>
-	<item one="29827" two="29818" chance="43"> <!-- Sigel's Rune Lv. 10 / Sigel's Rune Lv. 1 -->
+	<item one="29827" two="29818" chance="35"> <!-- Sigel's Rune Lv. 10 / Sigel's Rune Lv. 1 -->
 		<reward id="29828" count="1" type="ON_SUCCESS" /> <!-- Sigel's Rune Lv. 11 -->
-		<reward id="29818" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 1 -->
+		<reward id="29823" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 6 -->
 	</item>
-	<item one="29828" two="29818" chance="42"> <!-- Sigel's Rune Lv. 11 / Sigel's Rune Lv. 1 -->
+	<item one="29828" two="29818" chance="35"> <!-- Sigel's Rune Lv. 11 / Sigel's Rune Lv. 1 -->
 		<reward id="29829" count="1" type="ON_SUCCESS" /> <!-- Sigel's Rune Lv. 12 -->
-		<reward id="29818" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 1 -->
+		<reward id="29823" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 6 -->
 	</item>
-	<item one="29829" two="29818" chance="42"> <!-- Sigel's Rune Lv. 12 / Sigel's Rune Lv. 1 -->
+	<item one="29829" two="29818" chance="35"> <!-- Sigel's Rune Lv. 12 / Sigel's Rune Lv. 1 -->
 		<reward id="29830" count="1" type="ON_SUCCESS" /> <!-- Sigel's Rune Lv. 13 -->
-		<reward id="29818" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 1 -->
+		<reward id="29823" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 6 -->
 	</item>
-	<item one="29830" two="29818" chance="33"> <!-- Sigel's Rune Lv. 13 / Sigel's Rune Lv. 1 -->
+	<item one="29830" two="29818" chance="35"> <!-- Sigel's Rune Lv. 13 / Sigel's Rune Lv. 1 -->
 		<reward id="29831" count="1" type="ON_SUCCESS" /> <!-- Sigel's Rune Lv. 14 (Not Available) -->
 		<reward id="29818" count="1" type="ON_FAILURE" /> <!-- Sigel's Rune Lv. 1 -->
 	</item>
@@ -96,35 +96,35 @@
 		<reward id="29843" count="1" type="ON_SUCCESS" /> <!-- Tyrr's Rune Lv. 6 -->
 		<reward id="29838" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 1 -->
 	</item>
-	<item one="29843" two="29838" chance="41"> <!-- Tyrr's Rune Lv. 6 / Tyrr's Rune Lv. 1 -->
+	<item one="29843" two="29838" chance="35"> <!-- Tyrr's Rune Lv. 6 / Tyrr's Rune Lv. 1 -->
 		<reward id="29844" count="1" type="ON_SUCCESS" /> <!-- Tyrr's Rune Lv. 7 -->
-		<reward id="29838" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 1 -->
+		<reward id="29843" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 6 -->
 	</item>
-	<item one="29844" two="29838" chance="42"> <!-- Tyrr's Rune Lv. 7 / Tyrr's Rune Lv. 1 -->
+	<item one="29844" two="29838" chance="35"> <!-- Tyrr's Rune Lv. 7 / Tyrr's Rune Lv. 1 -->
 		<reward id="29845" count="1" type="ON_SUCCESS" /> <!-- Tyrr's Rune Lv. 8 -->
-		<reward id="29838" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 1 -->
+		<reward id="29843" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 6 -->
 	</item>
-	<item one="29845" two="29838" chance="40"> <!-- Tyrr's Rune Lv. 8 / Tyrr's Rune Lv. 1 -->
+	<item one="29845" two="29838" chance="35"> <!-- Tyrr's Rune Lv. 8 / Tyrr's Rune Lv. 1 -->
 		<reward id="29846" count="1" type="ON_SUCCESS" /> <!-- Tyrr's Rune Lv. 9 -->
-		<reward id="29838" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 1 -->
+		<reward id="29843" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 6 -->
 	</item>
-	<item one="29846" two="29838" chance="42"> <!-- Tyrr's Rune Lv. 9 / Tyrr's Rune Lv. 1 -->
+	<item one="29846" two="29838" chance="35"> <!-- Tyrr's Rune Lv. 9 / Tyrr's Rune Lv. 1 -->
 		<reward id="29847" count="1" type="ON_SUCCESS" /> <!-- Tyrr's Rune Lv. 10 -->
-		<reward id="29838" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 1 -->
+		<reward id="29843" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 6 -->
 	</item>
-	<item one="29847" two="29838" chance="43"> <!-- Tyrr's Rune Lv. 10 / Tyrr's Rune Lv. 1 -->
+	<item one="29847" two="29838" chance="35"> <!-- Tyrr's Rune Lv. 10 / Tyrr's Rune Lv. 1 -->
 		<reward id="29848" count="1" type="ON_SUCCESS" /> <!-- Tyrr's Rune Lv. 11 -->
-		<reward id="29838" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 1 -->
+		<reward id="29843" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 6 -->
 	</item>
-	<item one="29848" two="29838" chance="42"> <!-- Tyrr's Rune Lv. 11 / Tyrr's Rune Lv. 1 -->
+	<item one="29848" two="29838" chance="35"> <!-- Tyrr's Rune Lv. 11 / Tyrr's Rune Lv. 1 -->
 		<reward id="29849" count="1" type="ON_SUCCESS" /> <!-- Tyrr's Rune Lv. 12 -->
-		<reward id="29838" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 1 -->
+		<reward id="29843" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 6 -->
 	</item>
-	<item one="29849" two="29838" chance="42"> <!-- Tyrr's Rune Lv. 12 / Tyrr's Rune Lv. 1 -->
+	<item one="29849" two="29838" chance="35"> <!-- Tyrr's Rune Lv. 12 / Tyrr's Rune Lv. 1 -->
 		<reward id="29850" count="1" type="ON_SUCCESS" /> <!-- Tyrr's Rune Lv. 13 -->
-		<reward id="29838" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 1 -->
+		<reward id="29843" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 6 -->
 	</item>
-	<item one="29850" two="29838" chance="33"> <!-- Tyrr's Rune Lv. 13 / Tyrr's Rune Lv. 1 -->
+	<item one="29850" two="29838" chance="35"> <!-- Tyrr's Rune Lv. 13 / Tyrr's Rune Lv. 1 -->
 		<reward id="29851" count="1" type="ON_SUCCESS" /> <!-- Tyrr's Rune Lv. 14 (Not Available) -->
 		<reward id="29838" count="1" type="ON_FAILURE" /> <!-- Tyrr's Rune Lv. 1 -->
 	</item>
@@ -172,35 +172,35 @@
 		<reward id="29863" count="1" type="ON_SUCCESS" /> <!-- Othell's Rune Lv. 6 -->
 		<reward id="29858" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 1 -->
 	</item>
-	<item one="29863" two="29858" chance="41"> <!-- Othell's Rune Lv. 6 / Othell's Rune Lv. 1 -->
+	<item one="29863" two="29858" chance="35"> <!-- Othell's Rune Lv. 6 / Othell's Rune Lv. 1 -->
 		<reward id="29864" count="1" type="ON_SUCCESS" /> <!-- Othell's Rune Lv. 7 -->
-		<reward id="29858" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 1 -->
+		<reward id="29863" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 6 -->
 	</item>
-	<item one="29864" two="29858" chance="42"> <!-- Othell's Rune Lv. 7 / Othell's Rune Lv. 1 -->
+	<item one="29864" two="29858" chance="35"> <!-- Othell's Rune Lv. 7 / Othell's Rune Lv. 1 -->
 		<reward id="29865" count="1" type="ON_SUCCESS" /> <!-- Othell's Rune Lv. 8 -->
-		<reward id="29858" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 1 -->
+		<reward id="29863" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 6 -->
 	</item>
-	<item one="29865" two="29858" chance="40"> <!-- Othell's Rune Lv. 8 / Othell's Rune Lv. 1 -->
+	<item one="29865" two="29858" chance="35"> <!-- Othell's Rune Lv. 8 / Othell's Rune Lv. 1 -->
 		<reward id="29866" count="1" type="ON_SUCCESS" /> <!-- Othell's Rune Lv. 9 -->
-		<reward id="29858" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 1 -->
+		<reward id="29863" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 6 -->
 	</item>
-	<item one="29866" two="29858" chance="42"> <!-- Othell's Rune Lv. 9 / Othell's Rune Lv. 1 -->
+	<item one="29866" two="29858" chance="35"> <!-- Othell's Rune Lv. 9 / Othell's Rune Lv. 1 -->
 		<reward id="29867" count="1" type="ON_SUCCESS" /> <!-- Othell's Rune Lv. 10 -->
-		<reward id="29858" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 1 -->
+		<reward id="29863" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 6 -->
 	</item>
-	<item one="29867" two="29858" chance="43"> <!-- Othell's Rune Lv. 10 / Othell's Rune Lv. 1 -->
+	<item one="29867" two="29858" chance="35"> <!-- Othell's Rune Lv. 10 / Othell's Rune Lv. 1 -->
 		<reward id="29868" count="1" type="ON_SUCCESS" /> <!-- Othell's Rune Lv. 11 -->
-		<reward id="29858" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 1 -->
+		<reward id="29863" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 6 -->
 	</item>
-	<item one="29868" two="29858" chance="42"> <!-- Othell's Rune Lv. 11 / Othell's Rune Lv. 1 -->
+	<item one="29868" two="29858" chance="35"> <!-- Othell's Rune Lv. 11 / Othell's Rune Lv. 1 -->
 		<reward id="29869" count="1" type="ON_SUCCESS" /> <!-- Othell's Rune Lv. 12 -->
-		<reward id="29858" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 1 -->
+		<reward id="29863" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 6 -->
 	</item>
-	<item one="29869" two="29858" chance="42"> <!-- Othell's Rune Lv. 12 / Othell's Rune Lv. 1 -->
+	<item one="29869" two="29858" chance="35"> <!-- Othell's Rune Lv. 12 / Othell's Rune Lv. 1 -->
 		<reward id="29870" count="1" type="ON_SUCCESS" /> <!-- Othell's Rune Lv. 13 -->
-		<reward id="29858" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 1 -->
+		<reward id="29863" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 6 -->
 	</item>
-	<item one="29870" two="29858" chance="33"> <!-- Othell's Rune Lv. 13 / Othell's Rune Lv. 1 -->
+	<item one="29870" two="29858" chance="35"> <!-- Othell's Rune Lv. 13 / Othell's Rune Lv. 1 -->
 		<reward id="29871" count="1" type="ON_SUCCESS" /> <!-- Othell's Rune Lv. 14 (Not Available) -->
 		<reward id="29858" count="1" type="ON_FAILURE" /> <!-- Othell's Rune Lv. 1 -->
 	</item>
@@ -248,35 +248,35 @@
 		<reward id="29883" count="1" type="ON_SUCCESS" /> <!-- Yul's Rune Lv. 6 -->
 		<reward id="29878" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 1 -->
 	</item>
-	<item one="29883" two="29878" chance="41"> <!-- Yul's Rune Lv. 6 / Yul's Rune Lv. 1 -->
+	<item one="29883" two="29878" chance="35"> <!-- Yul's Rune Lv. 6 / Yul's Rune Lv. 1 -->
 		<reward id="29884" count="1" type="ON_SUCCESS" /> <!-- Yul's Rune Lv. 7 -->
-		<reward id="29878" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 1 -->
+		<reward id="29883" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 6 -->
 	</item>
-	<item one="29884" two="29878" chance="42"> <!-- Yul's Rune Lv. 7 / Yul's Rune Lv. 1 -->
+	<item one="29884" two="29878" chance="35"> <!-- Yul's Rune Lv. 7 / Yul's Rune Lv. 1 -->
 		<reward id="29885" count="1" type="ON_SUCCESS" /> <!-- Yul's Rune Lv. 8 -->
-		<reward id="29878" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 1 -->
+		<reward id="29883" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 6 -->
 	</item>
-	<item one="29885" two="29878" chance="40"> <!-- Yul's Rune Lv. 8 / Yul's Rune Lv. 1 -->
+	<item one="29885" two="29878" chance="35"> <!-- Yul's Rune Lv. 8 / Yul's Rune Lv. 1 -->
 		<reward id="29886" count="1" type="ON_SUCCESS" /> <!-- Yul's Rune Lv. 9 -->
-		<reward id="29878" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 1 -->
+		<reward id="29883" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 6 -->
 	</item>
-	<item one="29886" two="29878" chance="42"> <!-- Yul's Rune Lv. 9 / Yul's Rune Lv. 1 -->
+	<item one="29886" two="29878" chance="35"> <!-- Yul's Rune Lv. 9 / Yul's Rune Lv. 1 -->
 		<reward id="29887" count="1" type="ON_SUCCESS" /> <!-- Yul's Rune Lv. 10 -->
-		<reward id="29878" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 1 -->
+		<reward id="29883" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 6 -->
 	</item>
-	<item one="29887" two="29878" chance="43"> <!-- Yul's Rune Lv. 10 / Yul's Rune Lv. 1 -->
+	<item one="29887" two="29878" chance="35"> <!-- Yul's Rune Lv. 10 / Yul's Rune Lv. 1 -->
 		<reward id="29888" count="1" type="ON_SUCCESS" /> <!-- Yul's Rune Lv. 11 -->
-		<reward id="29878" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 1 -->
+		<reward id="29883" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 6 -->
 	</item>
-	<item one="29888" two="29878" chance="42"> <!-- Yul's Rune Lv. 11 / Yul's Rune Lv. 1 -->
+	<item one="29888" two="29878" chance="35"> <!-- Yul's Rune Lv. 11 / Yul's Rune Lv. 1 -->
 		<reward id="29889" count="1" type="ON_SUCCESS" /> <!-- Yul's Rune Lv. 12 -->
-		<reward id="29878" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 1 -->
+		<reward id="29883" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 6 -->
 	</item>
-	<item one="29889" two="29878" chance="42"> <!-- Yul's Rune Lv. 12 / Yul's Rune Lv. 1 -->
+	<item one="29889" two="29878" chance="35"> <!-- Yul's Rune Lv. 12 / Yul's Rune Lv. 1 -->
 		<reward id="29890" count="1" type="ON_SUCCESS" /> <!-- Yul's Rune Lv. 13 -->
-		<reward id="29878" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 1 -->
+		<reward id="29883" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 6 -->
 	</item>
-	<item one="29890" two="29878" chance="33"> <!-- Yul's Rune Lv. 13 / Yul's Rune Lv. 1 -->
+	<item one="29890" two="29878" chance="35"> <!-- Yul's Rune Lv. 13 / Yul's Rune Lv. 1 -->
 		<reward id="29891" count="1" type="ON_SUCCESS" /> <!-- Yul's Rune Lv. 14 (Not Available) -->
 		<reward id="29878" count="1" type="ON_FAILURE" /> <!-- Yul's Rune Lv. 1 -->
 	</item>
@@ -324,35 +324,35 @@
 		<reward id="29903" count="1" type="ON_SUCCESS" /> <!-- Feoh's Rune Lv. 6 -->
 		<reward id="29898" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 1 -->
 	</item>
-	<item one="29903" two="29898" chance="41"> <!-- Feoh's Rune Lv. 6 / Feoh's Rune Lv. 1 -->
+	<item one="29903" two="29898" chance="35"> <!-- Feoh's Rune Lv. 6 / Feoh's Rune Lv. 1 -->
 		<reward id="29904" count="1" type="ON_SUCCESS" /> <!-- Feoh's Rune Lv. 7 -->
-		<reward id="29898" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 1 -->
+		<reward id="29903" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 6 -->
 	</item>
-	<item one="29904" two="29898" chance="42"> <!-- Feoh's Rune Lv. 7 / Feoh's Rune Lv. 1 -->
+	<item one="29904" two="29898" chance="35"> <!-- Feoh's Rune Lv. 7 / Feoh's Rune Lv. 1 -->
 		<reward id="29905" count="1" type="ON_SUCCESS" /> <!-- Feoh's Rune Lv. 8 -->
-		<reward id="29898" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 1 -->
+		<reward id="29903" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 6 -->
 	</item>
-	<item one="29905" two="29898" chance="40"> <!-- Feoh's Rune Lv. 8 / Feoh's Rune Lv. 1 -->
+	<item one="29905" two="29898" chance="35"> <!-- Feoh's Rune Lv. 8 / Feoh's Rune Lv. 1 -->
 		<reward id="29906" count="1" type="ON_SUCCESS" /> <!-- Feoh's Rune Lv. 9 -->
-		<reward id="29898" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 1 -->
+		<reward id="29903" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 6 -->
 	</item>
-	<item one="29906" two="29898" chance="42"> <!-- Feoh's Rune Lv. 9 / Feoh's Rune Lv. 1 -->
+	<item one="29906" two="29898" chance="35"> <!-- Feoh's Rune Lv. 9 / Feoh's Rune Lv. 1 -->
 		<reward id="29907" count="1" type="ON_SUCCESS" /> <!-- Feoh's Rune Lv. 10 -->
-		<reward id="29898" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 1 -->
+		<reward id="29903" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 6 -->
 	</item>
-	<item one="29907" two="29898" chance="43"> <!-- Feoh's Rune Lv. 10 / Feoh's Rune Lv. 1 -->
+	<item one="29907" two="29898" chance="35"> <!-- Feoh's Rune Lv. 10 / Feoh's Rune Lv. 1 -->
 		<reward id="29908" count="1" type="ON_SUCCESS" /> <!-- Feoh's Rune Lv. 11 -->
-		<reward id="29898" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 1 -->
+		<reward id="29903" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 6 -->
 	</item>
-	<item one="29908" two="29898" chance="42"> <!-- Feoh's Rune Lv. 11 / Feoh's Rune Lv. 1 -->
+	<item one="29908" two="29898" chance="35"> <!-- Feoh's Rune Lv. 11 / Feoh's Rune Lv. 1 -->
 		<reward id="29909" count="1" type="ON_SUCCESS" /> <!-- Feoh's Rune Lv. 12 -->
-		<reward id="29898" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 1 -->
+		<reward id="29903" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 6 -->
 	</item>
-	<item one="29909" two="29898" chance="42"> <!-- Feoh's Rune Lv. 12 / Feoh's Rune Lv. 1 -->
+	<item one="29909" two="29898" chance="35"> <!-- Feoh's Rune Lv. 12 / Feoh's Rune Lv. 1 -->
 		<reward id="29910" count="1" type="ON_SUCCESS" /> <!-- Feoh's Rune Lv. 13 -->
-		<reward id="29898" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 1 -->
+		<reward id="29903" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 6 -->
 	</item>
-	<item one="29910" two="29898" chance="33"> <!-- Feoh's Rune Lv. 13 / Feoh's Rune Lv. 1 -->
+	<item one="29910" two="29898" chance="35"> <!-- Feoh's Rune Lv. 13 / Feoh's Rune Lv. 1 -->
 		<reward id="29911" count="1" type="ON_SUCCESS" /> <!-- Feoh's Rune Lv. 14 (Not Available) -->
 		<reward id="29898" count="1" type="ON_FAILURE" /> <!-- Feoh's Rune Lv. 1 -->
 	</item>
@@ -400,33 +400,33 @@
 		<reward id="29923" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 6 -->
 		<reward id="29918" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 1 -->
 	</item>
-	<item one="29923" two="29918" chance="41"> <!-- Iss' Rune Lv. 6 / Iss' Rune Lv. 1 -->
+	<item one="29923" two="29918" chance="35"> <!-- Iss' Rune Lv. 6 / Iss' Rune Lv. 1 -->
 		<reward id="29924" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 7 -->
-		<reward id="29918" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 1 -->
+		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29924" two="29918" chance="42"> <!-- Iss' Rune Lv. 7 / Iss' Rune Lv. 1 -->
+	<item one="29924" two="29918" chance="35"> <!-- Iss' Rune Lv. 7 / Iss' Rune Lv. 1 -->
 		<reward id="29925" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 8 -->
-		<reward id="29918" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 1 -->
+		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29925" two="29918" chance="40"> <!-- Iss' Rune Lv. 8 / Iss' Rune Lv. 1 -->
+	<item one="29925" two="29918" chance="35"> <!-- Iss' Rune Lv. 8 / Iss' Rune Lv. 1 -->
 		<reward id="29926" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 9 -->
-		<reward id="29918" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 1 -->
+		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29926" two="29918" chance="42"> <!-- Iss' Rune Lv. 9 / Iss' Rune Lv. 1 -->
+	<item one="29926" two="29918" chance="35"> <!-- Iss' Rune Lv. 9 / Iss' Rune Lv. 1 -->
 		<reward id="29927" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 10 -->
-		<reward id="29918" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 1 -->
+		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29927" two="29918" chance="43"> <!-- Iss' Rune Lv. 10 / Iss' Rune Lv. 1 -->
+	<item one="29927" two="29918" chance="35"> <!-- Iss' Rune Lv. 10 / Iss' Rune Lv. 1 -->
 		<reward id="29928" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 11 -->
-		<reward id="29918" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 1 -->
+		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29928" two="29918" chance="42"> <!-- Iss' Rune Lv. 11 / Iss' Rune Lv. 1 -->
+	<item one="29928" two="29918" chance="35"> <!-- Iss' Rune Lv. 11 / Iss' Rune Lv. 1 -->
 		<reward id="29929" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 12 -->
-		<reward id="29918" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 1 -->
+		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29929" two="29918" chance="42"> <!-- Iss' Rune Lv. 12 / Iss' Rune Lv. 1 -->
+	<item one="29929" two="29918" chance="35"> <!-- Iss' Rune Lv. 12 / Iss' Rune Lv. 1 -->
 		<reward id="29930" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 13 -->
-		<reward id="29918" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 1 -->
+		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
 	<item one="29930" two="29918" chance="33"> <!-- Iss' Rune Lv. 13 / Iss' Rune Lv. 1 -->
 		<reward id="29931" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 14 (Not Available) -->
@@ -476,33 +476,33 @@
 		<reward id="29943" count="1" type="ON_SUCCESS" /> <!-- Wynn's Rune Lv. 6 -->
 		<reward id="29938" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 1 -->
 	</item>
-	<item one="29943" two="29938" chance="41"> <!-- Wynn's Rune Lv. 6 / Wynn's Rune Lv. 1 -->
+	<item one="29943" two="29938" chance="35"> <!-- Wynn's Rune Lv. 6 / Wynn's Rune Lv. 1 -->
 		<reward id="29944" count="1" type="ON_SUCCESS" /> <!-- Wynn's Rune Lv. 7 -->
-		<reward id="29938" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 1 -->
+		<reward id="29943" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 6 -->
 	</item>
-	<item one="29944" two="29938" chance="42"> <!-- Wynn's Rune Lv. 7 / Wynn's Rune Lv. 1 -->
+	<item one="29944" two="29938" chance="35"> <!-- Wynn's Rune Lv. 7 / Wynn's Rune Lv. 1 -->
 		<reward id="29945" count="1" type="ON_SUCCESS" /> <!-- Wynn's Rune Lv. 8 -->
-		<reward id="29938" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 1 -->
+		<reward id="29943" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 6 -->
 	</item>
-	<item one="29945" two="29938" chance="40"> <!-- Wynn's Rune Lv. 8 / Wynn's Rune Lv. 1 -->
+	<item one="29945" two="29938" chance="35"> <!-- Wynn's Rune Lv. 8 / Wynn's Rune Lv. 1 -->
 		<reward id="29946" count="1" type="ON_SUCCESS" /> <!-- Wynn's Rune Lv. 9 -->
-		<reward id="29938" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 1 -->
+		<reward id="29943" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 6 -->
 	</item>
-	<item one="29946" two="29938" chance="42"> <!-- Wynn's Rune Lv. 9 / Wynn's Rune Lv. 1 -->
+	<item one="29946" two="29938" chance="35"> <!-- Wynn's Rune Lv. 9 / Wynn's Rune Lv. 1 -->
 		<reward id="29947" count="1" type="ON_SUCCESS" /> <!-- Wynn's Rune Lv. 10 -->
-		<reward id="29938" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 1 -->
+		<reward id="29943" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 6 -->
 	</item>
-	<item one="29947" two="29938" chance="43"> <!-- Wynn's Rune Lv. 10 / Wynn's Rune Lv. 1 -->
+	<item one="29947" two="29938" chance="35"> <!-- Wynn's Rune Lv. 10 / Wynn's Rune Lv. 1 -->
 		<reward id="29948" count="1" type="ON_SUCCESS" /> <!-- Wynn's Rune Lv. 11 -->
-		<reward id="29938" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 1 -->
+		<reward id="29943" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 6 -->
 	</item>
-	<item one="29948" two="29938" chance="42"> <!-- Wynn's Rune Lv. 11 / Wynn's Rune Lv. 1 -->
+	<item one="29948" two="29938" chance="35"> <!-- Wynn's Rune Lv. 11 / Wynn's Rune Lv. 1 -->
 		<reward id="29949" count="1" type="ON_SUCCESS" /> <!-- Wynn's Rune Lv. 12 -->
-		<reward id="29938" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 1 -->
+		<reward id="29943" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 6 -->
 	</item>
-	<item one="29949" two="29938" chance="42"> <!-- Wynn's Rune Lv. 12 / Wynn's Rune Lv. 1 -->
+	<item one="29949" two="29938" chance="35"> <!-- Wynn's Rune Lv. 12 / Wynn's Rune Lv. 1 -->
 		<reward id="29950" count="1" type="ON_SUCCESS" /> <!-- Wynn's Rune Lv. 13 -->
-		<reward id="29938" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 1 -->
+		<reward id="29943" count="1" type="ON_FAILURE" /> <!-- Wynn's Rune Lv. 6 -->
 	</item>
 	<item one="29950" two="29938" chance="33"> <!-- Wynn's Rune Lv. 13 / Wynn's Rune Lv. 1 -->
 		<reward id="29951" count="1" type="ON_SUCCESS" /> <!-- Wynn's Rune Lv. 14 (Not Available) -->
@@ -552,33 +552,33 @@
 		<reward id="29963" count="1" type="ON_SUCCESS" /> <!-- Aeore's Rune Lv. 6 -->
 		<reward id="29958" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 1 -->
 	</item>
-	<item one="29963" two="29958" chance="41"> <!-- Aeore's Rune Lv. 6 / Aeore's Rune Lv. 1 -->
+	<item one="29963" two="29958" chance="35"> <!-- Aeore's Rune Lv. 6 / Aeore's Rune Lv. 1 -->
 		<reward id="29964" count="1" type="ON_SUCCESS" /> <!-- Aeore's Rune Lv. 7 -->
-		<reward id="29958" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 1 -->
+		<reward id="29963" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 6 -->
 	</item>
-	<item one="29964" two="29958" chance="42"> <!-- Aeore's Rune Lv. 7 / Aeore's Rune Lv. 1 -->
+	<item one="29964" two="29958" chance="35"> <!-- Aeore's Rune Lv. 7 / Aeore's Rune Lv. 1 -->
 		<reward id="29965" count="1" type="ON_SUCCESS" /> <!-- Aeore's Rune Lv. 8 -->
-		<reward id="29958" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 1 -->
+		<reward id="29963" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 6 -->
 	</item>
-	<item one="29965" two="29958" chance="40"> <!-- Aeore's Rune Lv. 8 / Aeore's Rune Lv. 1 -->
+	<item one="29965" two="29958" chance="35"> <!-- Aeore's Rune Lv. 8 / Aeore's Rune Lv. 1 -->
 		<reward id="29966" count="1" type="ON_SUCCESS" /> <!-- Aeore's Rune Lv. 9 -->
-		<reward id="29958" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 1 -->
+		<reward id="29963" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 6 -->
 	</item>
-	<item one="29966" two="29958" chance="42"> <!-- Aeore's Rune Lv. 9 / Aeore's Rune Lv. 1 -->
+	<item one="29966" two="29958" chance="35"> <!-- Aeore's Rune Lv. 9 / Aeore's Rune Lv. 1 -->
 		<reward id="29967" count="1" type="ON_SUCCESS" /> <!-- Aeore's Rune Lv. 10 -->
-		<reward id="29958" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 1 -->
+		<reward id="29963" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 6 -->
 	</item>
-	<item one="29967" two="29958" chance="43"> <!-- Aeore's Rune Lv. 10 / Aeore's Rune Lv. 1 -->
+	<item one="29967" two="29958" chance="35"> <!-- Aeore's Rune Lv. 10 / Aeore's Rune Lv. 1 -->
 		<reward id="29968" count="1" type="ON_SUCCESS" /> <!-- Aeore's Rune Lv. 11 -->
-		<reward id="29958" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 1 -->
+		<reward id="29963" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 6 -->
 	</item>
-	<item one="29968" two="29958" chance="42"> <!-- Aeore's Rune Lv. 11 / Aeore's Rune Lv. 1 -->
+	<item one="29968" two="29958" chance="35"> <!-- Aeore's Rune Lv. 11 / Aeore's Rune Lv. 1 -->
 		<reward id="29969" count="1" type="ON_SUCCESS" /> <!-- Aeore's Rune Lv. 12 -->
-		<reward id="29958" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 1 -->
+		<reward id="29963" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 6 -->
 	</item>
-	<item one="29969" two="29958" chance="42"> <!-- Aeore's Rune Lv. 12 / Aeore's Rune Lv. 1 -->
+	<item one="29969" two="29958" chance="35"> <!-- Aeore's Rune Lv. 12 / Aeore's Rune Lv. 1 -->
 		<reward id="29970" count="1" type="ON_SUCCESS" /> <!-- Aeore's Rune Lv. 13 -->
-		<reward id="29958" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 1 -->
+		<reward id="29963" count="1" type="ON_FAILURE" /> <!-- Aeore's Rune Lv. 6 -->
 	</item>
 	<item one="29970" two="29958" chance="33"> <!-- Aeore's Rune Lv. 13 / Aeore's Rune Lv. 1 -->
 		<reward id="29971" count="1" type="ON_SUCCESS" /> <!-- Aeore's Rune Lv. 14 (Not Available) -->
