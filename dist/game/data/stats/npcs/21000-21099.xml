@@ -3571,6 +3571,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
+		<acquire exp="215904" sp="6476" />
 		<equipment rhand="148" /> <!-- rhand: Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2956.64545357656" hpRegen="8.5" mp="1607.4" mpRegen="3" />
@@ -3604,6 +3605,24 @@
 			<skill id="4046" level="7" /> <!-- Sleep -->
 			<skill id="4087" level="7" /> <!-- NPC Blaze -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="3789" max="8841" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="9.9652">
+					<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
+					<item id="1878" min="3" max="6" chance="16.3934" /> <!-- Durable Braid -->
+					<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
+					<item id="1895" min="1" max="4" chance="14.2787" /> <!-- Metal fiber -->
+					<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
+					<item id="1864" min="5" max="15" chance="10.929" /> <!-- Stem -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4983" min="1" max="1" chance="13.1834" /> <!-- Doom plate recipe -->
+			</spoil>
+		</dropLists>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
@@ -3856,6 +3875,26 @@
 			<skill id="4158" level="8" /> <!-- NPC Prominence - Magic -->
 			<skill id="4160" level="8" /> <!-- NPC Aura Burn - Magic -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2067" max="4824" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="9.9652">
+					<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
+					<item id="1878" min="3" max="6" chance="16.3934" /> <!-- Durable Braid -->
+					<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
+					<item id="1895" min="1" max="4" chance="14.2787" /> <!-- Metal fiber -->
+					<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
+					<item id="1864" min="5" max="15" chance="10.929" /> <!-- Stem -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4987" min="1" max="1" chance="7.1834" /> <!-- Tunic of Doom rec -->
+				<item id="4989" min="1" max="1" chance="9.1834" /> <!-- Stockings of Doom-->
+			</spoil>
+		</dropLists>
+		</dropLists>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
