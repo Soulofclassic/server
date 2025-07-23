@@ -3571,7 +3571,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="215904" sp="6476" />
+		<acquire exp="150000" sp="4000" />
 		<equipment rhand="148" /> <!-- rhand: Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2956.64545357656" hpRegen="8.5" mp="1607.4" mpRegen="3" />
@@ -3880,7 +3880,7 @@
 				<group chance="70">
 					<item id="57" min="2067" max="4824" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="0.9652">
+				<group chance="1.9652">
 					<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
 					<item id="1878" min="3" max="6" chance="16.3934" /> <!-- Durable Braid -->
 					<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
@@ -3893,7 +3893,6 @@
 				<item id="4987" min="1" max="1" chance="7.1834" /> <!-- Tunic of Doom rec -->
 				<item id="4989" min="1" max="1" chance="9.1834" /> <!-- Stockings of Doom-->
 			</spoil>
-		</dropLists>
 		</dropLists>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
