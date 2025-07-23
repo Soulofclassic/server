@@ -1861,6 +1861,25 @@
 			<radius normal="13" />
 			<height normal="25" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="3097" max="7233" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="4054" min="1" max="1" chance="20.26" /> <!-- bo neck piece-->
+					<item id="1866" min="2" max="6" chance="17.27" /> <!-- suede -->
+					<item id="1870" min="5" max="15" chance="9.934" /> <!-- Coal -->
+					<item id="1871" min="9" max="27" chance="5.517" /> <!-- Charcoal -->
+					<item id="1895" min="3" max="9" chance="5.2787" /> <!-- Metal fiber -->
+					<item id="1876" min="1" max="5" chance="5.3934" /> <!-- MO -->
+					<item id="926" min="1" max="1" chance="0.005" /> <!-- bo neck -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4975" min="1" max="1" chance="40.64" /> <!-- bo neck rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20829" level="73" type="Monster" name="Platinum Tribe Prefect">
 		<parameters>
@@ -3650,12 +3669,12 @@
 					<item id="57" min="4880" max="11396" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="100">
-					<item id="1854" min="4" max="10" chance="20.62" /> <!-- stem -->
+					<item id="1864" min="4" max="10" chance="20.62" /> <!-- stem -->
 					<item id="1885" min="4" max="10" chance="2.8934" /> <!-- varnish -->
 					<item id="1895" min="2" max="5" chance="3.8574" /> <!-- metal fiber  -->
 					<item id="4044" min="1" max="1" chance="3.4005" /> <!-- thons -->
 					<item id="1878" min="3" max="9" chance="3.4005" /> <!-- durable braid -->
-					<item id="91748" min="1" max="1" chance="0.001" /> <!-- bwl -->
+					<item id="2391" min="1" max="1" chance="0.001" /> <!-- bwl -->
 				</group>
 			</drop>
 			<spoil>
