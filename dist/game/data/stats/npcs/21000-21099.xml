@@ -4476,6 +4476,24 @@
 			<radius normal="13.5" grown="16" />
 			<height normal="36.5" grown="42.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="14716" max="34338" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="49685" min="1" max="1" chance="100" /> <!-- energy of insolence -->
+					<item id="1887" min="1" max="1" chance="22.3934" /> <!-- vop -->
+					<item id="4121" min="1" max="1" chance="14.5574" /> <!-- bop shaft -->
+					<item id="5007" min="1" max="1" chance="3.2787" /> <!-- bop recipe -->
+					<item id="287" min="1" max="1" chance="0.0005" /> <!-- bop -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="947" min="1" max="1" chance="2.9834" /> <!-- EWB -->
+				<item id="948" min="1" max="1" chance="19.3269" /> <!-- EAB -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21082" level="77" type="Monster" name="Amon's Escort">
 		<parameters>
@@ -4535,6 +4553,25 @@
 			<radius normal="13" />
 			<height normal="32" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="6043" max="14093" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1874" min="1" max="1" chance="13" /> <!-- oo -->
+					<item id="1875" min="1" max="1" chance="12.3934" /> <!-- sop -->
+					<item id="1870" min="4" max="12" chance="8.5574" /> <!-- coal -->
+					<item id="5000" min="1" max="1" chance="0.005" /> <!-- damasc recipe -->
+					<item id="79" min="1" max="1" chance="0.0005" /> <!-- damasc -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4186" min="1" max="1" chance="2.4834" /> <!-- valhalla rec -->
+				<item id="4192" min="1" max="1" chance="1.6269" /> <!-- damasc rec -->
+				<item id="4199" min="1" max="1" chance="1.5569" /> <!-- bop rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21083" level="77" type="Monster" name="Amon's Spirits">
 		<parameters>
@@ -4593,6 +4630,24 @@
 			<radius normal="5" />
 			<height normal="25" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="6013" max="14023" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1874" min="1" max="1" chance="13" /> <!-- oo -->
+					<item id="1875" min="1" max="1" chance="12.8934" /> <!-- sop -->
+					<item id="1870" min="4" max="12" chance="8.5574" /> <!-- coal -->
+					<item id="4967" min="1" max="1" chance="0.005" /> <!-- vall recipe -->
+					<item id="148" min="1" max="1" chance="0.0005" /> <!-- vall -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4186" min="1" max="1" chance="3.6834" /> <!-- valhalla rec -->
+				<item id="4192" min="1" max="1" chance="2.4269" /> <!-- damasc rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21084" level="84" type="Monster" name="Bloody Lady">
 		<parameters>
