@@ -786,6 +786,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="1" /> <!-- Venir's power -->
 		</skills>
@@ -798,6 +800,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="2" /> <!-- Venir's power -->
 		</skills>
@@ -810,6 +814,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="3" /> <!-- Venir's power -->
 		</skills>
@@ -822,6 +828,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="4" /> <!-- Venir's power -->
 		</skills>
@@ -834,6 +842,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="5" /> <!-- Venir's power -->
 		</skills>
@@ -846,6 +856,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="6" /> <!-- Venir's power -->
 		</skills>
@@ -858,6 +870,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="7" /> <!-- Venir's power -->
 		</skills>
@@ -870,6 +884,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="8" /> <!-- Venir's power -->
 		</skills>
@@ -882,6 +898,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="9" /> <!-- Venir's power -->
 		</skills>
@@ -894,6 +912,8 @@
 		<set name="material" val="GOLD" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="talisman" />
+		<set name="is_tradable" val="false" />
 		<skills>
 			<skill id="18024" level="10" /> <!-- Venir's power -->
 		</skills>
