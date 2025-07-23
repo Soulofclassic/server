@@ -1548,6 +1548,25 @@
 			<radius normal="13" />
 			<height normal="26" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2700" max="6306" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="4053" min="1" max="1" chance="19.1" /> <!-- bo ring piece -->
+					<item id="1866" min="2" max="6" chance="17.8" /> <!-- suede -->
+					<item id="1870" min="5" max="15" chance="10.396" /> <!-- coal  -->
+					<item id="1871" min="9" max="27" chance="5.835" /> <!-- charcoal -->
+					<item id="1895" min="3" max="9" chance="4.284" /> <!-- metal fiber -->
+					<item id="1876" min="4" max="12" chance="2.561" /> <!-- mo -->
+					<item id="895" min="9" max="27" chance="0.005" /> <!-- bo ring -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4973" min="1" max="1" chance="84" /> <!-- bo ear rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20824" level="69" type="Monster" name="Hallate's Commander">
 		<parameters>
@@ -1797,6 +1816,25 @@
 			<radius normal="13" grown="15" />
 			<height normal="28" grown="34" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2713" max="12674" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1895" min="1" max="1" chance="19.3" /> <!-- metal fiber -->
+					<item id="4054" min="1" max="1" chance="11.67" /> <!-- bo neck piece -->
+					<item id="1879" min="1" max="1" chance="11.5" /> <!-- cokes -->
+					<item id="1870" min="4" max="12" chance="8.674" /> <!-- coal -->
+					<item id="1875" min="1" max="1" chance="4.612" /> <!-- sop -->
+					<item id="1871" min="7" max="21" chance="4.581" /> <!-- charcoal -->
+					<item id="926" min="1" max="1" chance="0.001" /> <!-- bo neck -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4975" min="1" max="1" chance="23.06" /> <!-- bo neck rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20828" level="71" type="Monster" name="Platinum Tribe Shaman">
 		<parameters>

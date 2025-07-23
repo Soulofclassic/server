@@ -3177,6 +3177,35 @@
 			<radius normal="24" grown="29" />
 			<height normal="40" grown="48" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2583" max="6030" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1872" min="4" max="12" chance="13.95" /> <!-- ab -->
+					<item id="1881" min="1" max="1" chance="11.24" /> <!-- cbp -->
+					<item id="4091" min="1" max="1" chance="9.795" /> <!-- doom g piece  -->
+					<item id="1867" min="7" max="21" chance="7.344" /> <!-- as -->
+					<item id="4090" min="1" max="3" chance="4.898" /> <!-- bw boots piece -->
+					<item id="4099" min="1" max="3" chance="3.256" /> <!-- doom boots piece -->
+					<item id="1882" min="3" max="9" chance="3.082" /> <!-- leather -->
+					<item id="4043" min="1" max="1" chance="2.82" /> <!-- asofe -->
+					<item id="4096" min="2" max="6" chance="2.394" /> <!-- bw g piece -->
+					<item id="4040" min="1" max="1" chance="1.677" /> <!-- mold lubricant -->
+					<item id="2439" min="1" max="1" chance="0.0005" /> <!-- bw boots -->
+					<item id="2487" min="1" max="1" chance="0.0005" /> <!-- bw gloves -->
+					<item id="601" min="1" max="1" chance="0.0005" /> <!-- doom boots -->
+					<item id="2475" min="1" max="1" chance="0.0005" /> <!-- doom gloves -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="4992" min="1" max="1" chance="13.07" /> <!-- bw boots rec -->
+				<item id="4998" min="1" max="1" chance="12.68" /> <!-- bw gloves rec -->
+				<item id="4993" min="1" max="1" chance="12.18" /> <!-- doom glove rec -->
+				<item id="4999" min="1" max="1" chance="12.12" /> <!-- doom boots rec -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21062" level="73" type="Monster" name="Messenger Angel">
 		<parameters>
