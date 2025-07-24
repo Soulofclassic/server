@@ -1733,7 +1733,7 @@
 					<item id="1869" min="1" max="1" chance="34.0886" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="3.4089" /> <!-- Steel -->
 					<item id="1874" min="1" max="1" chance="2.2726" /> <!-- Oriharukon Ore -->
-					<item id="951" min="1" max="3" chance="0.004" /> <!-- ewc-->
+					<item id="951" min="1" max="1" chance="0.004" /> <!-- ewc-->
 				</group>
 			</drop>
 			<spoil>
@@ -1743,7 +1743,7 @@
 				<item id="1874" min="1" max="1" chance="5.15" /> <!-- Oriharukon Ore -->
 				<item id="4042" min="1" max="1" chance="1.2875" /> <!-- Enria -->
 				<item id="4039" min="1" max="1" chance="2.575" /> <!-- Mold Glue -->
-				<item id="951" min="1" max="3" chance="0.1" /> <!-- ewc-->
+				<item id="951" min="1" max="1" chance="0.5" /> <!-- ewc-->
 			</spoil>
 		</dropLists>
 	</npc>

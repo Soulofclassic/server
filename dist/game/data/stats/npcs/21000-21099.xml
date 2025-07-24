@@ -2523,7 +2523,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21037" level="67" type="Monster" name="Ossiud">
+	<npc id="21037" level="47" type="Monster" name="Ossiud">
 		<parameters>
 			<param name="MoveAroundSocial" value="40" />
 			<param name="MoveAroundSocial1" value="40" />
@@ -2584,7 +2584,7 @@
 					<item id="57" min="1022" max="2385" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.5234">
-					<item id="864" min="1" max="1" chance="0.3291" /> <!-- ring of protection -->
+					<item id="884" min="1" max="1" chance="0.3291" /> <!-- ring of protection -->
 					<item id="4053" min="1" max="1" chance="43.4418" /> <!--r ing of protection Gemstone -->
 					<item id="853" min="1" max="1" chance="0.2194" /> <!-- Earring of protection  -->
 					<item id="1913" min="1" max="1" chance="35.8824" /> <!-- Earring of protection Piece -->
