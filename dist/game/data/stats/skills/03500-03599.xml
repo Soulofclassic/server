@@ -348,8 +348,8 @@
 	<skill id="3518" toLevel="4" name="Set Effect - Zubei Heavy Armor, 2-piece">
 		<!-- Level 1: HP Recovery Bonus +5.24%. -->
 		<!-- Level 2: HP Recovery Bonus +5.24%, Max HP +294. -->
-		<!-- Level 3: HP Recovery Bonus +5.24%, Max HP +294, Paralysis Resistance +20%. -->
-		<!-- Level 4: HP Recovery Bonus +5.24%, Max HP +294, Paralysis Resistance +20%, P. Def. +5.26%. -->
+		<!-- Level 3: HP Recovery Bonus +5.24%, Max HP +294, Paralysis Resistance +30%. -->
+		<!-- Level 4: HP Recovery Bonus +5.24%, Max HP +294, Paralysis Resistance +30%, P. Def. +5.26%. -->
 		<icon>icon.armor_t64_u_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -364,7 +364,7 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="4">
-				<PARALYZE>20</PARALYZE>
+				<PARALYZE>30</PARALYZE>
 			</effect>
 			<effect name="PhysicalDefence" fromLevel="4" toLevel="4">
 				<amount>5.26</amount>
@@ -391,8 +391,8 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="4">
-				<POISON>20</POISON>
-				<BLEED>20</BLEED>
+				<POISON>60</POISON>
+				<BLEED>60</BLEED>
 			</effect>
 			<effect name="StatUp" fromLevel="4" toLevel="4">
 				<amount>1</amount>
@@ -403,8 +403,8 @@
 	<skill id="3520" toLevel="4" name="Set Effect - Zubei Light Armor, 2-piece">
 		<!-- Level 1: P. Evasion +4. -->
 		<!-- Level 2: P. Accuracy +4, P. Critical Rate +10. -->
-		<!-- Level 3: P. Accuracy +4, P. Critical Rate +10, Paralysis Resistance +20%. -->
-		<!-- Level 4: DEX +1, P. Accuracy +4, P. Critical Rate +10, Paralysis Resistance +20%. -->
+		<!-- Level 3: P. Accuracy +4, P. Critical Rate +10, Paralysis Resistance +30%. -->
+		<!-- Level 4: DEX +1, P. Accuracy +4, P. Critical Rate +10, Paralysis Resistance +30%. -->
 		<icon>icon.armor_t65_u_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -419,7 +419,7 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="4">
-				<PARALYZE>20</PARALYZE>
+				<PARALYZE>30</PARALYZE>
 			</effect>
 			<effect name="StatUp" fromLevel="4" toLevel="4">
 				<amount>1</amount>
@@ -430,7 +430,7 @@
 	<skill id="3521" toLevel="3" name="Set Effect - Avadon Light Armor, 2-piece">
 		<!-- Level 1: Weight limit +5759. -->
 		<!-- Level 2: Weight Limit +5759, P. Critical Damage +30. -->
-		<!-- Level 3: Weight Limit +5759, P. Critical Damage +30, Poison/ Bleed Resistance +20%, M. Def. +5.25%. -->
+		<!-- Level 3: Weight Limit +5759, P. Critical Damage +30, Poison/ Bleed Resistance +60%, M. Def. +5.25%. -->
 		<icon>icon.armor_t67_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -445,8 +445,8 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="3">
-				<POISON>20</POISON>
-				<BLEED>20</BLEED>
+				<POISON>30</POISON>
+				<BLEED>30</BLEED>
 			</effect>
 			<effect name="MagicalDefence" fromLevel="3" toLevel="3">
 				<amount>5.25</amount>
@@ -457,8 +457,8 @@
 	<skill id="3522" toLevel="4" name="Set Effect - Zubei Robe, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +5.26%. -->
 		<!-- Level 2: MP Recovery Bonus +5.26%, Max MP +102. -->
-		<!-- Level 3: MP Recovery Bonus +5.26%, Max MP +102, Paralysis Resistance +20%. -->
-		<!-- Level 4: MP Recovery Bonus +5.26%, Max MP +102, Paralysis Resistance +20%, M. Atk. +10%. -->
+		<!-- Level 3: MP Recovery Bonus +5.26%, Max MP +102, Paralysis Resistance +30%. -->
+		<!-- Level 4: MP Recovery Bonus +5.26%, Max MP +102, Paralysis Resistance +30%, M. Atk. +10%. -->
 		<icon>icon.armor_t56_u_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -473,7 +473,7 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="4">
-				<PARALYZE>20</PARALYZE>
+				<PARALYZE>30</PARALYZE>
 			</effect>
 			<effect name="MagicalAttack" fromLevel="4" toLevel="4">
 				<amount>10</amount>
@@ -491,8 +491,8 @@
 		<magicLevel>1</magicLevel>
 		<effects>
 			<effect name="DefenceTrait" fromLevel="1" toLevel="3">
-				<POISON>20</POISON>
-				<BLEED>20</BLEED>
+				<POISON>60</POISON>
+				<BLEED>60</BLEED>
 			</effect>
 			<effect name="PhysicalDefence" fromLevel="2" toLevel="3">
 				<amount>5.26</amount>
@@ -507,7 +507,7 @@
 	<skill id="3524" toLevel="4" name="Set Effect - Blue Wolf Heavy Armor, 2-piece">
 		<!-- Level 1: HP Recovery Bonus +5.24%. -->
 		<!-- Level 2: HP Recovery Bonus +5.24%, Speed +7. -->
-		<!-- Level 3: HP Recovery Bonus +5.24%, Speed +7, Stun Resistance +20%. -->
+		<!-- Level 3: HP Recovery Bonus +5.24%, Speed +7, Stun Resistance +30%. -->
 		<!-- Level 4: STR +3, CON -1, DEX -2, HP Recovery Bonus +5.24%, Speed +7, Stun Resistance +30%. -->
 		<icon>icon.armor_t68_u_i00</icon>
 		<operateType>P</operateType>
@@ -523,7 +523,7 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="4">
-				<SHOCK>20</SHOCK>
+				<SHOCK>30</SHOCK>
 			</effect>
 			<effect name="StatUp" fromLevel="4" toLevel="4">
 				<amount>3</amount>
@@ -541,8 +541,8 @@
 	</skill>
 	<skill id="3525" toLevel="3" name="Set Effect - Doom Heavy Armor, 2-piece">
 		<!-- Level 1: Max HP +320. -->
-		<!-- Level 2: Max HP +320, Sleep/ Hold Resistance +20%. -->
-		<!-- Level 3: STR -3, CON +3, Max HP +320, Sleep/ Hold Resistance +20%. -->
+		<!-- Level 2: Max HP +320, Sleep/ Hold Resistance +50%. -->
+		<!-- Level 3: STR -3, CON +3, Max HP +320, Sleep/ Hold Resistance +50%. -->
 		<icon>icon.armor_t71_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -553,8 +553,8 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="2" toLevel="3">
-				<SLEEP>20</SLEEP>
-				<HOLD>20</HOLD>
+				<SLEEP>50</SLEEP>
+				<HOLD>50</HOLD>
 			</effect>
 			<effect name="StatUp" fromLevel="3" toLevel="3">
 				<amount>-3</amount>
@@ -569,7 +569,7 @@
 	<skill id="3526" toLevel="3" name="Set Effect - Wolf Light Armor, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +5.26%. -->
 		<!-- Level 2: INT -2, MEN +3, WIT -1, MP Recovery Bonus +5.26%, P. Def. +5.26%. -->
-		<!-- Level 3: INT -2, MEN +3, WIT -1, MP Recovery Bonus +5.26%, P. Def. +5.26%, Stun Resistance +20%, Casting Spd. +15%. -->
+		<!-- Level 3: INT -2, MEN +3, WIT -1, MP Recovery Bonus +5.26%, P. Def. +5.26%, Stun Resistance +30%, Casting Spd. +15%. -->
 		<icon>icon.armor_t69_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -596,7 +596,7 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="3">
-				<SHOCK>20</SHOCK>
+				<SHOCK>30</SHOCK>
 			</effect>
 			<effect name="MagicalAttackSpeed" fromLevel="3" toLevel="3">
 				<amount>15</amount>
@@ -607,7 +607,7 @@
 	<skill id="3527" toLevel="3" name="Set Effect - Doom Light Armor, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +5.26%. -->
 		<!-- Level 2: MP Recovery Bonus +5.26%, P. Atk. +2.7%. -->
-		<!-- Level 3: DEX +3, MP Recovery Bonus +5.26%, P. Atk. +2.7%, Sleep/ Hold Resistance +20%. -->
+		<!-- Level 3: DEX +3, MP Recovery Bonus +5.26%, P. Atk. +2.7%, Sleep/ Hold Resistance +50%. -->
 		<icon>icon.armor_t72_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -622,8 +622,8 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="3">
-				<SLEEP>20</SLEEP>
-				<HOLD>20</HOLD>
+				<SLEEP>50</SLEEP>
+				<HOLD>50</HOLD>
 			</effect>
 			<effect name="StatUp" fromLevel="3" toLevel="3">
 				<amount>3</amount>
@@ -634,7 +634,7 @@
 	<skill id="3528" toLevel="4" name="Set Effect - Blue Wolf Robe, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +5.26%. -->
 		<!-- Level 2: MP Recovery Bonus +5.26%, Max MP +206. -->
-		<!-- Level 3: MP Recovery Bonus +5.26%, Max MP +206, Stun Resistance +20%. -->
+		<!-- Level 3: MP Recovery Bonus +5.26%, Max MP +206, Stun Resistance +30%. -->
 		<!-- Level 4: INT -2, MEN -1, WIT +3, MP Recovery Bonus +5.26%, Max MP +206, Stun Resistance +30%. -->
 		<icon>icon.armor_t70_u_i00</icon>
 		<operateType>P</operateType>
@@ -650,7 +650,7 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="4">
-				<SHOCK>20</SHOCK>
+				<SHOCK>30</SHOCK>
 			</effect>
 			<effect name="StatUp" fromLevel="4" toLevel="4">
 				<amount>-2</amount>
@@ -669,8 +669,8 @@
 	<skill id="3529" toLevel="4" name="Set Effect - Doom Robe, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +5.26%. -->
 		<!-- Level 2: MP Recovery Bonus +5.26%, Speed +7. -->
-		<!-- Level 3: MP Recovery Bonus +5.26%, Speed +7, Sleep/ Hold Resistance +20%. -->
-		<!-- Level 4: INT +2, MEN +1, WIT -3, MP Recovery Bonus +5.26%, Speed +7, Sleep/ Hold Resistance +20%, M. Critical Damage +30. -->
+		<!-- Level 3: MP Recovery Bonus +5.26%, Speed +7, Sleep/ Hold Resistance +50%. -->
+		<!-- Level 4: INT +2, MEN +1, WIT -3, MP Recovery Bonus +5.26%, Speed +7, Sleep/ Hold Resistance +50%, M. Critical Damage +30. -->
 		<icon>icon.armor_t73_u_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -685,8 +685,8 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="4">
-				<SLEEP>20</SLEEP>
-				<HOLD>20</HOLD>
+				<SLEEP>50</SLEEP>
+				<HOLD>50</HOLD>
 			</effect>
 			<effect name="Breath" fromLevel="3" toLevel="4">
 				<amount>200</amount>
@@ -713,7 +713,7 @@
 	<skill id="3530" toLevel="4" name="Set Effect - Dark Crystal Heavy Armor, 2-piece">
 		<!-- Level 1: HP Recovery Bonus +5.24%. -->
 		<!-- Level 2: HP Recovery Bonus +5.24%, Received Healing +4%. -->
-		<!-- Level 3: HP Recovery Bonus +5.24%, Received Healing +4%, Paralysis Resistance +30%. -->
+		<!-- Level 3: HP Recovery Bonus +5.24%, Received Healing +4%, Paralysis Resistance +50%. -->
 		<!-- Level 4: STR -2, CON +2, HP Recovery Bonus +5.24%, Received Healing +4%, Max HP +238, Paralysis Resistance +50%. -->
 		<icon>icon.armor_t74_u_i00</icon>
 		<operateType>P</operateType>
@@ -729,7 +729,7 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="4">
-				<PARALYZE>30</PARALYZE>
+				<PARALYZE>50</PARALYZE>
 			</effect>
 			<effect name="StatUp" fromLevel="4" toLevel="4">
 				<amount>-2</amount>
@@ -747,7 +747,7 @@
 	</skill>
 	<skill id="3531" toLevel="3" name="Set Effect - Tallum Heavy Armor, 2-piece">
 		<!-- Level 1: Weight limit +5759. -->
-		<!-- Level 2: Weight Limit +5759, Poison/ Bleed Resistance +30%, Speed +4. -->
+		<!-- Level 2: Weight Limit +5759, Poison/ Bleed Resistance +80%, Speed +4. -->
 		<!-- Level 3: STR +2, CON -2, Weight Limit +5759, Poison/ Bleed Resistance +80%, Speed +4, Atk. Spd. +8%. -->
 		<icon>icon.armor_t77_ul_i00</icon>
 		<operateType>P</operateType>
@@ -759,8 +759,8 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="2" toLevel="3">
-				<POISON>30</POISON>
-				<BLEED>30</BLEED>
+				<POISON>80</POISON>
+				<BLEED>80</BLEED>
 			</effect>
 			<effect name="Speed" fromLevel="2" toLevel="3">
 				<amount>4</amount>
@@ -783,8 +783,8 @@
 	<skill id="3532" toLevel="4" name="Set Effect - Dark Crystal Light Armor, 2-piece">
 		<!-- Level 1: P. Evasion +4. -->
 		<!-- Level 2: P. Evasion +4, P. Critical Damage +30. -->
-		<!-- Level 3: P. Evasion +4, P. Critical Damage +30, Atk. Spd. +4%, Paralysis Resistance +30%. -->
-		<!-- Level 4: STR +1, CON -1, P. Evasion +4, P. Critical Damage +30, P. Atk. +4%, Atk. Spd. +4%, Paralysis Resistance +30%. -->
+		<!-- Level 3: P. Evasion +4, P. Critical Damage +30, Atk. Spd. +4%, Paralysis Resistance +50%. -->
+		<!-- Level 4: STR +1, CON -1, P. Evasion +4, P. Critical Damage +30, P. Atk. +4%, Atk. Spd. +4%, Paralysis Resistance +50%. -->
 		<icon>icon.armor_t75_u_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -803,7 +803,7 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="4">
-				<PARALYZE>30</PARALYZE>
+				<PARALYZE>50</PARALYZE>
 			</effect>
 			<effect name="StatUp" fromLevel="4" toLevel="4">
 				<amount>1</amount>
@@ -822,7 +822,7 @@
 	<skill id="3533" toLevel="3" name="Set Effect - Tallum Light Armor, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +8%. -->
 		<!-- Level 2: MP Recovery Bonus +8%, Max MP +222. -->
-		<!-- Level 3: MEN +2, WIT -2, MP Recovery Bonus +8%, Max MP +222, Poison/ Bleed Resistance +30%. -->
+		<!-- Level 3: MEN +2, WIT -2, MP Recovery Bonus +8%, Max MP +222, Poison/ Bleed Resistance +80%. -->
 		<icon>icon.armor_t78_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -845,16 +845,16 @@
 				<stat>WIT</stat>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="3">
-				<POISON>30</POISON>
-				<BLEED>30</BLEED>
+				<POISON>80</POISON>
+				<BLEED>80</BLEED>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3534" toLevel="4" name="Set Effect - Tallum Robe, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +5.26%. -->
-		<!-- Level 2: MP Recovery Bonus +5.26%, Poison/ Bleed Resistance +30%. -->
-		<!-- Level 3: MP Recovery Bonus +5.26%, Poison/ Bleed Resistance +30%, M. Def. +8%. -->
-		<!-- Level 4: INT -2, WIT +2, MP Recovery Bonus +5.26%, Poison/ Bleed Resistance +30%, M. Def. +8%, Casting Spd. +15%. -->
+		<!-- Level 2: MP Recovery Bonus +5.26%, Poison/ Bleed Resistance +80%. -->
+		<!-- Level 3: MP Recovery Bonus +5.26%, Poison/ Bleed Resistance +80%, M. Def. +8%. -->
+		<!-- Level 4: INT -2, WIT +2, MP Recovery Bonus +5.26%, Poison/ Bleed Resistance +80%, M. Def. +8%, Casting Spd. +15%. -->
 		<icon>icon.armor_t79_u_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -865,8 +865,8 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="2" toLevel="4">
-				<POISON>30</POISON>
-				<BLEED>30</BLEED>
+				<POISON>80</POISON>
+				<BLEED>80</BLEED>
 			</effect>
 			<effect name="MagicalDefence" fromLevel="3" toLevel="4">
 				<amount>8</amount>
@@ -889,7 +889,7 @@
 	<skill id="3535" toLevel="3" name="Set Effect - Dark Crystal Robe, 2-piece">
 		<!-- Level 1: Speed +1. Decreases probability of magic being canceled due to damage received. -->
 		<!-- Level 2: Speed +7, Paralysis Resistance +50%, P. Def. +8%. Decreases Magic Cancel Rate. Decreases probability of magic being canceled due to damage received. -->
-		<!-- Level 3: WIT +2, MEN -2, Speed +7, Paralysis Resistance +30%, P. Def. +8%, Casting Spd. +15%. Decreases Magic Cancel Rate. Decreases probability of magic being canceled due to damage received. -->
+		<!-- Level 3: WIT +2, MEN -2, Speed +7, Paralysis Resistance +50%, P. Def. +8%, Casting Spd. +15%. Decreases Magic Cancel Rate. Decreases probability of magic being canceled due to damage received. -->
 		<icon>icon.armor_t76_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -904,7 +904,7 @@
 				<mode>DIFF</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="2" toLevel="3">
-				<PARALYZE>30</PARALYZE>
+				<PARALYZE>50</PARALYZE>
 			</effect>
 			<effect name="PhysicalDefence" fromLevel="2" toLevel="3">
 				<amount>8</amount>
@@ -927,7 +927,7 @@
 	<skill id="3536" toLevel="3" name="Set Effect - Heavy Armor of Nightmare, 2-piece">
 		<!-- Level 1: P. Accuracy +3, HP Recovery Bonus +5.24%. -->
 		<!-- Level 2: P. Accuracy +3, HP Recovery Bonus +5.24%, P. Atk. +4%, Damage Reflection +5%. -->
-		<!-- Level 3: CON +2, DEX -2, P. Accuracy +3, HP Recovery Bonus +5.24%, P. Atk. +4%, Sleep/ Hold Resistance +30%. Additionally reflects 5% of P. melee damage. -->
+		<!-- Level 3: CON +2, DEX -2, P. Accuracy +3, HP Recovery Bonus +5.24%, P. Atk. +4%, Sleep/ Hold Resistance +70%. Additionally reflects 5% of P. melee damage. -->
 		<icon>icon.armor_t80_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -957,15 +957,15 @@
 				<stat>DEX</stat>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="3">
-				<SLEEP>30</SLEEP>
-				<HOLD>30</HOLD>
+				<SLEEP>70</SLEEP>
+				<HOLD>70</HOLD>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3537" toLevel="3" name="Set Effect - Majestic Heavy Armor, 2-piece">
 		<!-- Level 1: P. Accuracy +3, HP Recovery Bonus +5.24%. -->
 		<!-- Level 2: P. Accuracy +3, HP Recovery Bonus +5.24%, P. Atk. +4%, Speed +7. -->
-		<!-- Level 3: STR +2, CON -2, P. Accuracy +3, HP Recovery Bonus +5.24%, P. Atk. +4%, Speed +7, Stun Resistance +30%. -->
+		<!-- Level 3: STR +2, CON -2, P. Accuracy +3, HP Recovery Bonus +5.24%, P. Atk. +4%, Speed +7, Stun Resistance +50%. -->
 		<icon>icon.armor_t83_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -996,14 +996,14 @@
 				<stat>CON</stat>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="3">
-				<SHOCK>30</SHOCK>
+				<SHOCK>50</SHOCK>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3538" toLevel="3" name="Set Effect - Light Armor of Nightmare, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +5.26%. -->
 		<!-- Level 2: MP Recovery Bonus +5.26%, M. Def. +4%. With a certain chance, absorbs 3% of the inflicted damage as HP. -->
-		<!-- Level 3: DEX +1, CON -1, MP Recovery Bonus +5.26%, M. Def. +4%, Sleep/ Hold Resistance +30%. With a certain chance, absorbs 3% of the inflicted melee damage as HP. -->
+		<!-- Level 3: DEX +1, CON -1, MP Recovery Bonus +5.26%, M. Def. +4%, Sleep/ Hold Resistance +70%. With a certain chance, absorbs 3% of the inflicted melee damage as HP. -->
 		<icon>icon.armor_t81_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1030,15 +1030,15 @@
 				<stat>CON</stat>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="3">
-				<SLEEP>30</SLEEP>
-				<HOLD>30</HOLD>
+				<SLEEP>70</SLEEP>
+				<HOLD>70</HOLD>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3539" toLevel="3" name="Set Effect - Majestic Light Armor, 2-piece">
 		<!-- Level 1: Weight Limit +5759, P. Accuracy +3. -->
 		<!-- Level 2: Weight Limit +5759, P. Accuracy +3, P. Atk. +8% when using a bow, Max MP +240. -->
-		<!-- Level 3: DEX +1, CON -1, Weight Limit +5759, P. Accuracy +3 at night, P. Atk. +8% when using a bow, Max MP +240, Stun Resistance +30%. -->
+		<!-- Level 3: DEX +1, CON -1, Weight Limit +5759, P. Accuracy +3 at night, P. Atk. +8% when using a bow, Max MP +240, Stun Resistance +50%. -->
 		<icon>icon.armor_t84_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1073,14 +1073,14 @@
 				<stat>CON</stat>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="3">
-				<SHOCK>30</SHOCK>
+				<SHOCK>50</SHOCK>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3540" toLevel="3" name="Set Effect - Robe of Nightmare, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +5.26%. -->
 		<!-- Level 2: MP Recovery Bonus +5.26%, Sleep/ Hold Resistance +70%, M. Critical Damage +30. -->
-		<!-- Level 3: INT +2, WIT -2, MP Recovery Bonus +5.26%, Sleep/ Hold Resistance +30%, M. Critical Damage +30, M. Atk. +8%. -->
+		<!-- Level 3: INT +2, WIT -2, MP Recovery Bonus +5.26%, Sleep/ Hold Resistance +70%, M. Critical Damage +30, M. Atk. +8%. -->
 		<icon>icon.armor_t82_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1091,8 +1091,8 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="2" toLevel="3">
-				<SLEEP>30</SLEEP>
-				<HOLD>30</HOLD>
+				<SLEEP>70</SLEEP>
+				<HOLD>70</HOLD>
 			</effect>
 			<effect name="MagicCriticalDamage" fromLevel="2" toLevel="3">
 				<amount>30</amount>
@@ -1115,7 +1115,7 @@
 	<skill id="3541" toLevel="3" name="Set Effect - Majestic Robe, 2-piece">
 		<!-- Level 1: MP Recovery Bonus +8%. -->
 		<!-- Level 2: MEN +1, INT -1, MP Recovery Bonus +8%, Max MP +240. -->
-		<!-- Level 3: MEN +1, INT -1, MP Recovery Bonus +8%, Max MP +240, Casting Spd. +15%, Stun Resistance +30%. -->
+		<!-- Level 3: MEN +1, INT -1, MP Recovery Bonus +8%, Max MP +240, Casting Spd. +15%, Stun Resistance +50%. -->
 		<icon>icon.armor_t85_ul_i00</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1142,7 +1142,7 @@
 				<mode>PER</mode>
 			</effect>
 			<effect name="DefenceTrait" fromLevel="3" toLevel="3">
-				<SHOCK>30</SHOCK>
+				<SHOCK>50</SHOCK>
 			</effect>
 		</effects>
 	</skill>
