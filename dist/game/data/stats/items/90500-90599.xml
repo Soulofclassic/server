@@ -230,6 +230,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<skills>
+			<skill id="54070" level="1" /> <!-- Shining Mood Melody(PA!!!) -->
+		</skills>
 	</item>
 	<item id="90520" name="Fire Dragon's Blessing Scroll" type="EtcItem">
 		<!-- For 20 minutes. Blessing Of Fire Dragon: Buff/ debuff effects remain after death, but Blessing of Fire Dragon is consumed. -->

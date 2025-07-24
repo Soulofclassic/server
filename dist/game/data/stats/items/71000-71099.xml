@@ -587,15 +587,19 @@
 		<!-- Santa's warm cloak. -->
 		<set name="icon" val="BranchSys3.icon.g_christmas_cloak" />
 		<set name="default_action" val="EQUIP" />
-		<set name="bodypart" val="head" />
+		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
 		<set name="enchant_enabled" val="true" />
 		<set name="is_sellable" val="false" />
 		<stats>
-			<stat type="pDef">20</stat>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="71059" name="Fishermen's Guild Support Certificate Lv 1" type="EtcItem">
 		<!-- Special certificate from Fishermen's Guild. For 1 hour, Acquired XP/SP (fishing) +20% when used. Effect remains after death. -->

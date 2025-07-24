@@ -482,7 +482,6 @@
 					<value level="10">20</value>
 					<value level="11">30</value>
 				</amount>
-				<mode>PER</mode>
 			</effect>
 			<effect name="SpModify">
 				<amount>
@@ -498,7 +497,6 @@
 					<value level="10">20</value>
 					<value level="11">30</value>
 				</amount>
-				<mode>PER</mode>
 			</effect>
 			<effect name="MaxHp">
 				<amount>
@@ -524,7 +522,6 @@
 	</skill>
 	<skill id="54009" toLevel="1" name="Summon Agathion - Taurus">
 		<!-- Summons Agathion. -->
-		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
 		<hitTime>3000</hitTime>
 	</skill>
@@ -538,7 +535,6 @@
 		<!-- Summons Agathion. -->
 		<icon>icon.etc_summon_aga_agit_i00</icon>
 		<operateType>A1</operateType>
-		<hitTime>3000</hitTime>
 	</skill>
 	<skill id="54012" toLevel="1" name="Summon Agathion - Sagittarius">
 		<!-- Summons Agathion. -->
@@ -1232,7 +1228,7 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="MpVampiricAttack">
+			<effect name="MpVampiricAttack" fromLevel="6" toLevel="10">
 				<amount>
 					<value level="6">1</value>
 					<value level="7">2</value>
@@ -1272,7 +1268,7 @@
 					<value level="9">12</value>
 					<value level="10">15</value>
 				</amount>
-				<mode>PER</mode>
+				<mode>DIFF</mode>
 			</effect>
 			<effect name="PhysicalAttack">
 				<amount>
@@ -1289,13 +1285,13 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="VampiricAttack">
+			<effect name="VampiricAttack" fromLevel="6" toLevel="10"> 
 				<amount>
-					<value level="6">1</value>
-					<value level="7">2</value>
-					<value level="8">3</value>
-					<value level="9">4</value>
-					<value level="10">5</value>
+					<value level="6">3</value>
+					<value level="7">6</value>
+					<value level="8">9</value>
+					<value level="9">12</value>
+					<value level="10">15</value>
 				</amount>
 				<mode>PER</mode>
 				<chance>80</chance>
@@ -1496,6 +1492,7 @@
 		<hitTime>4000</hitTime>
 		<isDebuff>true</isDebuff>
 		<reuseDelay>120000</reuseDelay>
+
 	</skill>
 	<skill id="54043" toLevel="1" name="Rapid Wind">
 		<!-- For 5 sec., P. Def. +1000, M. Def. +1000, Speed +50. -->
@@ -1817,77 +1814,54 @@
 		<icon>icon.etc_ssq_i00</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
-		<hitTime>0</hitTime>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<itemConsumeCount>1</itemConsumeCount>
-		<itemConsumeId>91781</itemConsumeId>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>1</magicLevel>
+		<abnormalTime>1200</abnormalTime>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<reuseDelay>1110000</reuseDelay>
 		<selfEffects>
 			<effect name="CallSkill">
-				<skillId>54100</skillId> <!-- Sayha's Shield -->
+				<skillId>54100</skillId> <!-- Shield -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54101</skillId> <!-- Sayha's Magic Barrier -->
+				<skillId>54101</skillId> <!-- Magic Barrier -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54103</skillId> <!-- Sayha's Decrease Weight -->
+				<skillId>54103</skillId> <!-- Deacrease weight -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54112</skillId> <!-- Sayha's Clarity -->
+				<skillId>54104</skillId> <!-- Berserker Spirit  -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54104</skillId> <!-- Sayha's Berserker Spirit -->
+				<skillId>54105</skillId> <!-- Wind Walk -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54105</skillId> <!-- Sayha's Wind Walk -->
+				<skillId>54106</skillId> <!-- Might -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54106</skillId> <!-- Sayha's Might -->
+				<skillId>54108</skillId> <!-- Focus -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54108</skillId> <!-- Sayha's Focus -->
+				<skillId>54109</skillId> <!-- Haste -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54109</skillId> <!-- Sayha's Haste -->
+				<skillId>54110</skillId> <!-- Death Whisper -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54110</skillId> <!-- Sayha's Death Whisper -->
+				<skillId>54111</skillId> <!-- Empower -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54111</skillId> <!-- Sayha's Empower -->
-				<skillLevel>1</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>54113</skillId> <!-- Sayha's Wild Magic -->
-				<skillLevel>1</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>54114</skillId> <!-- Sayha's Acumen -->
-				<skillLevel>1</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>54115</skillId> <!-- Sayha's Concentration -->
-				<skillLevel>1</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>54116</skillId> <!-- Sayha's Victory -->
-				<skillLevel>1</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>54117</skillId> <!-- Sayha's Recover HP -->
+				<skillId>54114</skillId> <!-- Acumen -->
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">

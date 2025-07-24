@@ -253,12 +253,11 @@
 		<!-- For 20 min., P./ M. Atk. +7%, P./ M. Def. +10%, Max HP/ CP/ MP +15%, HP/ MP Recovery Bonus +20%, Acquired XP/ SP +5%. Has a chance to absorb 3% of the inflicted damage as HP. Cooldown is 1 min. Effect remains after death. -->
 		<set name="icon" val="icon.etc_codran_i09" />
 		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="material" val="PAPER" />
+		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="immediate_effect" val="true" />
-		<set name="reuse_delay" val="120000" />
+		<set name="material" val="PAPER" />
 		<skills>
 			<skill id="39144" level="1" /> <!-- Special Pirate Fruit -->
 		</skills>

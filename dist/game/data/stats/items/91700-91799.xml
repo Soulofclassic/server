@@ -190,6 +190,13 @@
 		<set name="weight" val="220" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
+		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="91720" name="Special White Sayha's Cloak" type="Armor">
 		<!-- A cloak filled with Sayha's energy. Can be upgraded only with Scrolls: Enchant Special Sayha's Cloak. Activates special effects depending on the enchant level. -->
@@ -201,6 +208,13 @@
 		<set name="weight" val="220" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
+		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="91721" name="Special Red Sayha's Cloak" type="Armor">
 		<!-- A cloak filled with Sayha's energy. Can be upgraded only with Scrolls: Enchant Special Sayha's Cloak. Activates special effects depending on the enchant level. -->
@@ -212,6 +226,13 @@
 		<set name="weight" val="220" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
+		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="91722" name="Scroll: Enchant Special Sayha's Cloak" type="EtcItem">
 		<!-- Can be used only for enchanting Special Sayha's Cloak. In case of failure the item doesn't disappear, and its enchant value remains the same. -->

@@ -814,7 +814,7 @@
 	</item>
 	<item id="91161" name="Agathion Bracelet - Stage 5" type="Armor">
 		<!-- Opens up 5 Agathion slots. STR/ INT/ CON/ MEN/ DEX/ WIT +1. Mental/ Stun/ Sleep/ Paralysis Resistance +8%. -->
-		<set name="icon" val="icon.pi_high_agathion_bracelet_i00" />
+		<set name="icon" val="icon.high_agathion_bracelet_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="immediate_effect" val="true" />

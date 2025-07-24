@@ -844,8 +844,12 @@
 		<set name="enchant_enabled" val="true" />
 		<set name="enchant_limit" val="10" />
 		<stats>
-			<stat type="pDef">10</stat>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="70878" name="Aden Cloak" type="Armor">
 		<!-- Cloak with the crest of the ancient Aden Kingdom. Can be enchanted up to +10 with the Scroll: Enchant Cloak, and different effects are applied depending on the level. Use Life Stone - Ancient Kingdom at +10 to bestow an additional effect. -->
@@ -862,8 +866,12 @@
 		<set name="enchant_enabled" val="true" />
 		<set name="enchant_limit" val="10" />
 		<stats>
-			<stat type="pDef">10</stat>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="70879" name="Elmore Cloak" type="Armor">
 		<!-- Cloak with the crest of the ancient Elmore Kingdom. Can be enchanted up to +10 with the Scroll: Enchant Cloak, and different effects are applied depending on the level. Use Life Stone - Ancient Kingdom at +10 to bestow an additional effect. -->
@@ -880,8 +888,12 @@
 		<set name="enchant_enabled" val="true" />
 		<set name="enchant_limit" val="10" />
 		<stats>
-			<stat type="pDef">10</stat>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="70880" name="Ferios Cloak" type="Armor">
 		<!-- Cloak with the crest of the ancient Ferios Kingdom. Can be enchanted up to +10 with the Scroll: Enchant Cloak, and different effects are applied depending on the level. Use Life Stone - Ancient Empire at +10 to bestow an additional effect. -->
@@ -898,8 +910,12 @@
 		<set name="enchant_enabled" val="true" />
 		<set name="enchant_limit" val="10" />
 		<stats>
-			<stat type="pDef">10</stat>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="70881" name="Elmoreden Cloak - Legendary" type="Armor">
 		<!-- Legendary cloak with the crest of the ancient Elmoreden Kingdom. Can be enchanted up to +10 with the Scroll: Enchant Cloak and from +10 to +20 with the Scroll: Enchant Cloak - Legendary, and different effects are applied depending on the level. Use Life Stone - Ancient Kingdom at +10 to bestow an additional effect, and use Spirit Stone - Elmoreden at +15 to add a second effect. -->
@@ -915,9 +931,12 @@
 		<set name="enchant_enabled" val="true" />
 		<set name="enchant_limit" val="10" />
 		<stats>
-			<stat type="mDef">20</stat>
-			<stat type="pDef">10</stat>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="70882" name="Aden Cloak - Legendary" type="Armor">
 		<!-- Legendary cloak with the crest of the ancient Aden Kingdom. Can be enchanted up to +10 with the Scroll: Enchant Cloak and from +10 to +20 with the Scroll: Enchant Cloak - Legendary, and different effects are applied depending on the level. Use Life Stone - Ancient Kingdom at +10 to bestow an additional effect, and use Life Stone - Aden at +15 to add a second effect. -->
@@ -933,9 +952,12 @@
 		<set name="enchant_enabled" val="true" />
 		<set name="enchant_limit" val="10" />
 		<stats>
-			<stat type="mDef">20</stat>
-			<stat type="pDef">10</stat>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="70883" name="Elmore Cloak - Legendary" type="Armor">
 		<!-- Legendary cloak with the crest of the ancient Elmore Kingdom. Can be enchanted up to +10 with the Scroll: Enchant Cloak and from +10 to +20 with the Scroll: Enchant Cloak - Legendary, and different effects are applied depending on the level. Use Life Stone - Ancient Kingdom at +10 to bestow an additional effect, and use Life Stone - Elmore at +15 to add a second effect. -->
@@ -951,9 +973,12 @@
 		<set name="enchant_enabled" val="true" />
 		<set name="enchant_limit" val="10" />
 		<stats>
-			<stat type="mDef">20</stat>
-			<stat type="pDef">10</stat>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="70884" name="Ferios Cloak - Legendary" type="Armor">
 		<!-- Legendary cloak with the crest of the ancient Ferios Kingdom. Can be enchanted up to +10 with the Scroll: Enchant Cloak and from +10 to +20 with the Scroll: Enchant Cloak - Legendary, and different effects are applied depending on the level. Use Life Stone - Ancient Kingdom at +10 to bestow an additional effect, and use Life Stone - Ferios at +15 to add a second effect. -->
@@ -969,9 +994,12 @@
 		<set name="enchant_enabled" val="true" />
 		<set name="enchant_limit" val="10" />
 		<stats>
-			<stat type="mDef">20</stat>
-			<stat type="pDef">10</stat>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="70885" name="Scroll: Enchant Cloak" type="EtcItem">
 		<!-- Enchant scroll for the Ancient Kingdom's Cloak. Can be enchanted up to +10. Enchant level goes up by 1 when it succeeds, and if it fails, the item remains and the level goes down by 1. -->

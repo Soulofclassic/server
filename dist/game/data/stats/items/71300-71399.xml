@@ -515,9 +515,12 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
 		<stats>
-			<stat type="mDef">40</stat>
 			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="71345" name="Festival Coat - Pearl White" type="Armor">
 		<!-- White coat for Pegasus Warriors. -->
@@ -532,9 +535,12 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
 		<stats>
-			<stat type="mDef">40</stat>
 			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="71346" name="Festival Coat - Bloody Red" type="Armor">
 		<!-- Red coat for Phoenix Warriors. -->
@@ -549,9 +555,12 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
 		<stats>
-			<stat type="mDef">40</stat>
 			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
 		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="71347" name="Package: Magic Trumpet (30-day)" type="EtcItem">
 		<!-- Double-click to obtain Magic Trumpet (30-day). Required level: 40. -->

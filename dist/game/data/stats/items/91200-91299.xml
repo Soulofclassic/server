@@ -98,6 +98,13 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="back" />
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
+		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="91211" name="White Sayha's Cloak" type="Armor">
 		<!-- A cloak filled with Sayha's energy. Can be enchanted with Sayha's Cloak Enchantment Scrolls. Depending on the enchant value, activates various abilities. -->
@@ -109,6 +116,13 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="back" />
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
+		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="91212" name="Red Sayha's Cloak" type="Armor">
 		<!-- A cloak filled with Sayha's energy. Can be enchanted with Sayha's Cloak Enchantment Scrolls. Depending on the enchant value, activates various abilities. -->
@@ -120,6 +134,13 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="back" />
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
+		</stats>
+		<skills>
+			<skill id="19040" level="1" /> <!-- Cloak of Darkness -->
+		</skills>
 	</item>
 	<item id="91213" name="Sayha's Cloak Enchantment Scroll" type="EtcItem">
 		<!-- Required to enchant Sayha's Cloak. The maximum level of enchantment is +10. -->

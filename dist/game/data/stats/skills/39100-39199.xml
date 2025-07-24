@@ -757,9 +757,8 @@
 		<targetType>SELF</targetType>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
-		<abnormalType>VOTE</abnormalType>
+		<abnormalType>DRAGON_FRUIT</abnormalType>
 		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
 		<effectPoint>1</effectPoint>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
@@ -1465,54 +1464,66 @@
 		</effects>
 	</skill>
 	<skill id="39164" toLevel="1" name="Mood Melody">
-		<!-- For 20 min., grants the following effects: Might, Shield, Focus, Haste, Acumen, Empower, Wind Walk, Death Whisper, and Vampiric Rage. Effect remains after death. -->
+		<!-- For 20 min., grants the following effects: Shield, Magic Barrier, Deacrease weight, Berserker Spirit, Wind Walk, Might, Focus, Haste, Death Whisper, Empower, Acumen, Sayha's Recover MP . Effect remains after death. -->
 		<icon>icon.bm_magmeld</icon>
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
-		<effectPoint>1</effectPoint>
-		<isMagic>2</isMagic> <!-- Item Skill -->
+		<abnormalTime>1200</abnormalTime>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<isMagic>2</isMagic> <!-- Static Skill -->
 		<itemConsumeCount>1</itemConsumeCount>
 		<itemConsumeId>49772</itemConsumeId>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>1</magicLevel>
+		<stayAfterDeath>true</stayAfterDeath>
+		<reuseDelay>1110000</reuseDelay>
 		<selfEffects>
 			<effect name="CallSkill">
-				<skillId>1068</skillId> <!-- Might -->
-				<skillLevel>3</skillLevel>
+				<skillId>54100</skillId> <!-- Shield -->
+				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>1040</skillId> <!-- Shield -->
-				<skillLevel>3</skillLevel>
+				<skillId>54101</skillId> <!-- Magic Barrier -->
+				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>1077</skillId> <!-- Focus -->
-				<skillLevel>2</skillLevel>
+				<skillId>54103</skillId> <!-- Deacrease weight -->
+				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>1086</skillId> <!-- Haste -->
-				<skillLevel>2</skillLevel>
+				<skillId>54104</skillId> <!-- Berserker Spirit  -->
+				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>1085</skillId> <!-- Acumen -->
-				<skillLevel>3</skillLevel>
+				<skillId>54105</skillId> <!-- Wind Walk -->
+				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>1059</skillId> <!-- Empower -->
-				<skillLevel>3</skillLevel>
+				<skillId>54106</skillId> <!-- Might -->
+				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>1204</skillId> <!-- Wind Walk -->
-				<skillLevel>2</skillLevel>
+				<skillId>54108</skillId> <!-- Focus -->
+				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>1242</skillId> <!-- Death Whisper -->
-				<skillLevel>3</skillLevel>
+				<skillId>54109</skillId> <!-- Haste -->
+				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>1268</skillId> <!-- Vampiric Rage -->
-				<skillLevel>4</skillLevel>
+				<skillId>54110</skillId> <!-- Death Whisper -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54111</skillId> <!-- Empower -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54114</skillId> <!-- Acumen -->
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>54118</skillId> <!-- Sayha's Recover MP -->
+				<skillLevel>1</skillLevel>
 			</effect>
 		</selfEffects>
 	</skill>

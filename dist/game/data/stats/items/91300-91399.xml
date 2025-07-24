@@ -1025,7 +1025,7 @@
 		</stats>
 		<skills>
 			<skill id="3563" level="4" /> <!-- Ring of Core -->
-			<skill id="35010" level="1" /> <!-- Refined Romantic Chapeau -->
+			<skill id="35016" level="1" /> <!-- Ring of Core - Special Ability -->
 		</skills>
 	</item>
 	<item id="91381" name="Immortal Baium's Ring" type="Armor">

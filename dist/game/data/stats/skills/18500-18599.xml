@@ -7,28 +7,18 @@
 		<hitTime>500</hitTime>
 		<reuseDelay>1000</reuseDelay>
 	</skill>
-	<skill id="18566" toLevel="10" name="Garnet">
+	<skill id="18566" toLevel="5" name="Garnet">
 		<!-- Level 1: Stun/ Pulling/ Silence/ Paralyze/ Fear Resistance +3%. -->
 		<!-- Level 2: Stun/ Pulling/ Silence/ Paralyze/ Fear Resistance +5%. -->
 		<!-- Level 3: Stun/ Pulling/ Silence/ Paralyze/ Fear Resistance +8%. -->
 		<!-- Level 4: Stun/ Pulling/ Silence/ Paralyze/ Fear Resistance +11%. -->
 		<!-- Level 5: Stun/ Pulling/ Silence/ Paralyze/ Fear Resistance +20%. -->
-		<!-- Level 6: Stun/ Pulling/ Silence/ Paralyze/ Fear Resistance +22%. -->
-		<!-- Level 7: Stun/ Pulling/ Silence/ Paralyze/ Fear Resistance +24%. -->
-		<!-- Level 8: Stun/ Pulling/ Silence/ Paralyze/ Fear Resistance +26%. -->
-		<!-- Level 9: Stun/ Pulling/ Silence/ Paralyze/ Fear Resistance +30%. -->
-		<!-- Level 10: Stun/ Pull/ Silence/ Paralysis/ Fear/ Resistance +40%, Sleep/ Poison Resistance +10%. -->
 		<icon>
 			<value level="1">icon.etc_bm_jewel_garnet</value>
 			<value level="2">icon.etc_bm_jewel_garnet</value>
 			<value level="3">icon.etc_bm_jewel_garnet</value>
 			<value level="4">icon.etc_bm_jewel_garnet</value>
 			<value level="5">icon.etc_bm_jewel_garnet</value>
-			<value level="6">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
-			<value level="7">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
-			<value level="8">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
-			<value level="9">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
-			<value level="10">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
 		</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
