@@ -25,6 +25,8 @@
 		<!-- Level 22: P. Def. +25%, Stun Atk. Rate +65%. -->
 		<icon>icon.agathion_tau_star_1</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>75</magicLevel>
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>
@@ -79,6 +81,8 @@
 		<!-- Level 22: P. Atk. +15%, Paralysis Atk. Rate +55%. -->
 		<icon>icon.agathion_leo_star_1</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>75</magicLevel>
 		<effects>
 			<effect name="PhysicalAttack">
 				<amount>
@@ -241,6 +245,8 @@
 		<!-- Level 22: M. Def. +30%, Mental Atk. Rate +65%. -->
 		<icon>icon.agathion_virgo_star_1</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>75</magicLevel>
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>
@@ -295,6 +301,8 @@
 		<!-- Level 22: M. Atk. +35%, Hold/ Sleep Atk. Rate +60%. -->
 		<icon>icon.agathion_aqu_star_1</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>75</magicLevel>
 		<effects>
 			<effect name="MagicalAttack">
 				<amount>
