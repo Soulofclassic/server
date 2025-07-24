@@ -816,7 +816,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20753" level="70" type="Monster" name="Dark Lord">
+	<npc id="20753" level="50" type="Monster" name="Dark Lord">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
@@ -891,39 +891,36 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3800" max="8882" chance="100" /> <!-- Adena -->
+					<item id="57" min="8455" max="19775" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="1.2521">
-					<item id="287" min="1" max="1" chance="0.1742" /> <!-- Bow of Peril -->
-					<item id="4121" min="1" max="1" chance="49.7001" /> <!-- Bow of Peril Shaft -->
-					<item id="234" min="1" max="1" chance="0.1742" /> <!-- Demon's Dagger -->
-					<item id="4119" min="1" max="1" chance="49.9515" /> <!-- Demon's Dagger Edge -->
-				</group>
-				<group chance="48.2615">
-					<item id="1866" min="18" max="54" chance="1.0442" /> <!-- Suede -->
-					<item id="1876" min="4" max="12" chance="1.4097" /> <!-- Mithril Ore -->
-					<item id="1895" min="3" max="9" chance="2.3016" /> <!-- Metallic Fiber -->
-					<item id="1870" min="5" max="15" chance="5.6388" /> <!-- Coal -->
-					<item id="1871" min="9" max="27" chance="3.1327" /> <!-- Charcoal -->
-					<item id="1879" min="1" max="1" chance="9.398" /> <!-- Cokes -->
-					<item id="92908" min="1" max="1" chance="56.3881" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="11.2776" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="5.6388" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.8796" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="1.1278" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.5639" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.188" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0112" /> <!-- Crafting Herb: Blacksmith's Energy -->
+				<group chance="100">
+					<item id="75" min="1" max="1" chance="0.0005" /> <!-- caliburs -->
+					<item id="233" min="1" max="1" chance="0.0005" /> <!-- dark screamer -->
+					<item id="231" min="1" max="1" chance="0.0005" /> <!-- grace dagger -->
+					<item id="84" min="1" max="1" chance="0.0005" /> <!-- homka -->
+					<item id="76" min="1" max="1" chance="0.0005" /> <!-- delusion -->
+					<item id="134" min="1" max="1" chance="0.0005" /> <!-- sword of nightmare -->
+					<item id="145" min="1" max="1" chance="0.0005" /> <!-- sword of whispering death -->
+					<item id="77" min="1" max="1" chance="0.0005" /> <!-- tsurugi -->
+					<item id="952" min="1" max="1" chance="0.05" /> <!-- eac -->
+					<item id="951" min="1" max="1" chance="0.05" /> <!-- ewc -->
+					<item id="1866" min="18" max="54" chance="10.0442" /> <!-- Suede -->
+					<item id="1876" min="4" max="12" chance="10.4097" /> <!-- Mithril Ore -->
+					<item id="1895" min="3" max="9" chance="10.3016" /> <!-- Metallic Fiber -->
+					<item id="1870" min="5" max="15" chance="10.6388" /> <!-- Coal -->
+					<item id="1871" min="9" max="27" chance="10.1327" /> <!-- Charcoal -->
+					<item id="1879" min="1" max="1" chance="10.398" /> <!-- Cokes -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="4199" min="1" max="1" chance="0.2758" /> <!-- Recipe: Bow of Peril -->
-				<item id="4192" min="1" max="1" chance="0.2758" /> <!-- Recipe: Damascus Sword -->
-				<item id="4186" min="1" max="1" chance="0.4162" /> <!-- Recipe: Sword of Valhalla -->
+				<item id="1875" min="1" max="5" chance="77.2758" /> <!-- sop -->
+				<item id="1874" min="1" max="5" chance="76.2758" /> <!-- oo -->
+				<item id="952" min="1" max="1" chance="1" /> <!-- eac -->
+				<item id="951" min="1" max="1" chance="1" /> <!-- ewc -->
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20754" level="68" type="Monster" name="Dark Knight">
+	<npc id="20754" level="48" type="Monster" name="Dark Knight">
 		<parameters>
 			<param name="MoveAroundSocial" value="74" />
 			<param name="MoveAroundSocial1" value="74" />
@@ -986,31 +983,21 @@
 				<group chance="70">
 					<item id="57" min="1196" max="2797" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="0.9918">
-					<item id="79" min="1" max="1" chance="0.0346" /> <!-- Damascus Sword -->
-					<item id="4114" min="1" max="1" chance="9.9252" /> <!-- Damascus Sword Blade -->
-					<item id="287" min="1" max="1" chance="0.0346" /> <!-- Bow of Peril -->
-					<item id="4121" min="1" max="1" chance="9.8753" /> <!-- Bow of Peril Shaft -->
-					<item id="358" min="1" max="1" chance="0.1408" /> <!-- Blue Wolf Breastplate -->
-					<item id="4078" min="1" max="1" chance="33.1217" /> <!-- Blue Wolf Breastplate Part -->
-					<item id="2380" min="1" max="1" chance="0.2256" /> <!-- Blue Wolf Gaiters -->
-					<item id="4080" min="1" max="1" chance="46.6422" /> <!-- Blue Wolf Gaiter Material -->
-				</group>
-				<group chance="25.5477">
+				<group chance="100">
 					<item id="1873" min="1" max="1" chance="13.4069" /> <!-- Silver Nugget -->
 					<item id="1869" min="1" max="1" chance="33.5173" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="3.3517" /> <!-- Steel -->
 					<item id="1874" min="1" max="1" chance="2.2345" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="0.5586" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="1.1172" /> <!-- Mold Glue -->
-					<item id="92908" min="1" max="1" chance="33.5173" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.7035" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.3517" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1172" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.6703" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3352" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1117" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0069" /> <!-- Crafting Herb: Blacksmith's Energy -->
+					<item id="201" min="1" max="1" chance="0.000009" /> <!-- club of nature -->
+					<item id="202" min="1" max="1" chance="0.000009" /> <!-- mace of underworld -->
+					<item id="174" min="1" max="1" chance="0.000009" /> <!--  nirvana axe -->
+					<item id="199" min="1" max="1" chance="0.000009" /> <!-- paagrio hammer -->
+					<item id="197" min="1" max="1" chance="0.000009" /> <!-- paradia staff -->
+					<item id="200" min="1" max="1" chance="0.000009" /> <!-- sage's staff -->
+					<item id="196" min="1" max="1" chance="0.000009" /> <!-- stick of eternity -->
+					<item id="162" min="1" max="1" chance="0.000009" /> <!-- war axe -->
 				</group>
 			</drop>
 			<spoil>

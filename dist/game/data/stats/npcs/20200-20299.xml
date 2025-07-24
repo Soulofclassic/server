@@ -1636,8 +1636,38 @@
 			<radius normal="12" />
 			<height normal="25.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="617" max="1437" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1867" min="1" max="1" chance="14.31" /> <!-- as -->
+					<item id="1868" min="1" max="3" chance="10.798" /> <!-- thread -->
+					<item id="1866" min="1" max="1" chance="7.16" /> <!-- suede -->
+					<item id="2948" min="1" max="1" chance="2.475" /> <!-- rind leather boot piece -->
+					<item id="2950" min="1" max="1" chance="2.457" /> <!-- gloves of seal pattern -->
+					<item id="1974" min="1" max="1" chance="2.456" /> <!-- crimson boot fabric -->
+					<item id="1882" min="1" max="1" chance="2.427" /> <!-- leather -->
+					<item id="2951" min="1" max="1" chance="2.407" /> <!-- rind leather gloves piece -->
+					<item id="2946" min="1" max="1" chance="1.57" /> <!-- plated leather gloves piece -->
+					<item id="1866" min="1" max="1" chance="1" /> <!-- hg suede -->
+					<item id="1126" min="1" max="1" chance="0.0005" /> <!-- crimson boots -->
+					<item id="2457" min="1" max="1" chance="0.0005" /> <!-- gloves of seal -->
+					<item id="2455" min="1" max="1" chance="0.0005" /> <!--  pl gloves -->
+					<item id="198" min="1" max="1" chance="0.0005" /> <!-- inferno staff -->
+					<item id="203" min="1" max="1" chance="0.0005" /> <!-- pa'agrio axe -->
+					<item id="2434" min="1" max="1" chance="0.0005" /> <!--  rind leather boots -->
+					<item id="2458" min="1" max="1" chance="0.0005" /> <!-- rind leather gloves  -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1895" min="1" max="3" chance="57.7" /> <!-- metalic fiber  -->
+				<item id="2944" min="1" max="1" chance="34.31" /> <!-- karmian gloves piece  -->
+			</spoil>
+		</dropLists>
 	</npc>
-	<npc id="20221" level="68" type="Monster" name="Perum">
+	<npc id="20221" level="48" type="Monster" name="Perum">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -1698,17 +1728,12 @@
 				<group chance="70">
 					<item id="57" min="1625" max="3801" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="0.6962">
-					<item id="92" min="1" max="1" chance="0.2022" /> <!-- Spirit's Staff -->
-					<item id="4106" min="1" max="1" chance="49.3859" /> <!-- Spirit's Staff Head -->
-					<item id="91" min="1" max="1" chance="0.2022" /> <!-- Heavy War Axe -->
-					<item id="4105" min="1" max="1" chance="50.2097" /> <!-- Heavy War Axe Head -->
-				</group>
-				<group chance="39.8269">
+				<group chance="100">
 					<item id="1873" min="1" max="1" chance="13.6354" /> <!-- Silver Nugget -->
 					<item id="1869" min="1" max="1" chance="34.0886" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="3.4089" /> <!-- Steel -->
 					<item id="1874" min="1" max="1" chance="2.2726" /> <!-- Oriharukon Ore -->
+					<item id="951" min="1" max="3" chance="0.004" /> <!-- ewc-->
 				</group>
 			</drop>
 			<spoil>
@@ -1718,6 +1743,7 @@
 				<item id="1874" min="1" max="1" chance="5.15" /> <!-- Oriharukon Ore -->
 				<item id="4042" min="1" max="1" chance="1.2875" /> <!-- Enria -->
 				<item id="4039" min="1" max="1" chance="2.575" /> <!-- Mold Glue -->
+				<item id="951" min="1" max="3" chance="0.1" /> <!-- ewc-->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1787,14 +1813,6 @@
 			<drop>
 				<group chance="70">
 					<item id="57" min="1025" max="2394" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="1.1613">
-					<item id="2381" min="1" max="1" chance="0.0939" /> <!-- Doom Plate Armor -->
-					<item id="4081" min="1" max="1" chance="21.7877" /> <!-- Doom Plate Armor Temper -->
-					<item id="358" min="1" max="1" chance="0.1373" /> <!-- Blue Wolf Breastplate -->
-					<item id="4078" min="1" max="1" chance="32.2901" /> <!-- Blue Wolf Breastplate Part -->
-					<item id="2380" min="1" max="1" chance="0.22" /> <!-- Blue Wolf Gaiters -->
-					<item id="4080" min="1" max="1" chance="45.471" /> <!-- Blue Wolf Gaiter Material -->
 				</group>
 				<group chance="43.2501">
 					<item id="1865" min="1" max="1" chance="19.7919" /> <!-- Varnish -->

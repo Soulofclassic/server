@@ -1791,13 +1791,6 @@
 				<group chance="42.1419">
 					<item id="1867" min="1" max="1" chance="36.0653" /> <!-- Animal Skin -->
 					<item id="1864" min="1" max="3" chance="27.049" /> <!-- Stem -->
-					<item id="92908" min="1" max="1" chance="27.049" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="5.4098" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.7049" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.9016" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.541" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2705" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.0089" /> <!-- Crafting Herb: Metal Ingot -->
 				</group>
 			</drop>
 			<spoil>
@@ -1892,7 +1885,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20136" level="70" type="Monster" name="Death Knight">
+	<npc id="20136" level="50" type="Monster" name="Death Knight">
 		<parameters>
 			<param name="MoveAroundSocial" value="74" />
 			<param name="MoveAroundSocial1" value="74" />
@@ -1959,6 +1952,38 @@
 			<radius normal="12" grown="14.5" />
 			<height normal="31" grown="36" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1196" max="2797" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1873" min="1" max="1" chance="13.4069" /> <!-- Silver Nugget -->
+					<item id="1869" min="1" max="1" chance="33.5173" /> <!-- Iron Ore -->
+					<item id="1880" min="1" max="1" chance="3.3517" /> <!-- Steel -->
+					<item id="1874" min="1" max="1" chance="2.2345" /> <!-- Oriharukon Ore -->
+					<item id="4042" min="1" max="1" chance="0.5586" /> <!-- Enria -->
+					<item id="4039" min="1" max="1" chance="1.1172" /> <!-- Mold Glue -->
+					<item id="2099" min="1" max="1" chance="0.005" /> <!-- stick of eternity shaft -->
+					<item id="201" min="1" max="1" chance="0.000009" /> <!-- club of nature -->
+					<item id="202" min="1" max="1" chance="0.000009" /> <!-- mace of underworld -->
+					<item id="174" min="1" max="1" chance="0.000009" /> <!--  nirvana axe -->
+					<item id="199" min="1" max="1" chance="0.000009" /> <!-- paagrio hammer -->
+					<item id="197" min="1" max="1" chance="0.000009" /> <!-- paradia staff -->
+					<item id="200" min="1" max="1" chance="0.000009" /> <!-- sage's staff -->
+					<item id="196" min="1" max="1" chance="0.000009" /> <!-- stick of eternity -->
+					<item id="162" min="1" max="1" chance="0.000009" /> <!-- war axe -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="22.7373" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="1" chance="56.8433" /> <!-- Iron Ore -->
+				<item id="1880" min="1" max="1" chance="5.6843" /> <!-- Steel -->
+				<item id="1874" min="1" max="1" chance="3.7896" /> <!-- Oriharukon Ore -->
+				<item id="4042" min="1" max="1" chance="0.9474" /> <!-- Enria -->
+				<item id="4039" min="1" max="1" chance="1.8948" /> <!-- Mold Glue -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20137" level="57" type="Monster" name="Drake" element="EARTH">
 		<parameters>
