@@ -1191,19 +1191,15 @@
 				<group chance="70">
 					<item id="57" min="513" max="1197" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="0.2491">
-					<item id="2055" min="1" max="1" chance="99.1391" /> <!-- glaive edge -->
-					<item id="2162" min="1" max="1" chance="0.8609" /> <!-- aquastone neck rec -->
-					<item id="297" min="1" max="1" chance="0.8609" /> <!-- glaive  -->
-					<item id="2312" min="1" max="1" chance="0.8609" /> <!-- crystal bow rec  -->
-				</group>
-				<group chance="16.563">
-					<item id="1868" min="1" max="1" chance="23.15" /> <!-- thread -->
-					<item id="1867" min="1" max="1" chance="15.26" /> <!-- animal skin -->
-					<item id="1866" min="1" max="1" chance="7.701" /> <!-- suede -->
-					<item id="1882" min="1" max="1" chance="2.555" /> <!-- leather -->
-					<item id="1885" min="1" max="1" chance="1" /> <!-- hg suede  -->
-				</group>
+				<item id="2055" min="1" max="1" chance="99.1391" /> <!-- glaive edge -->
+				<item id="2162" min="1" max="1" chance="0.8609" /> <!-- aquastone neck rec -->
+				<item id="297" min="1" max="1" chance="0.8609" /> <!-- glaive  -->
+				<item id="2312" min="1" max="1" chance="0.8609" /> <!-- crystal bow rec  -->
+				<item id="1868" min="1" max="1" chance="23.15" /> <!-- thread -->
+				<item id="1867" min="1" max="1" chance="15.26" /> <!-- animal skin -->
+				<item id="1866" min="1" max="1" chance="7.701" /> <!-- suede -->
+				<item id="1882" min="1" max="1" chance="2.555" /> <!-- leather -->
+				<item id="1885" min="1" max="1" chance="1" /> <!-- hg suede  -->
 			</drop>
 			<spoil>
 				<item id="1872" min="1" max="9" chance="85.09" /> <!-- ab  -->
