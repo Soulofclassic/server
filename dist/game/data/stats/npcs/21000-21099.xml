@@ -2435,7 +2435,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21036" level="54" type="Monster" name="Shindebarn">
+	<npc id="21036" level="44" type="Monster" name="Shindebarn">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -2502,6 +2502,26 @@
 			<radius normal="11" grown="13" />
 			<height normal="20" grown="24" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="498" max="1158" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1869" min="1" max="1" chance="5.254" /> <!-- aqua ring piece -->
+					<item id="1908" min="1" max="1" chance="3.638" /> <!-- moonstone ear piece -->
+					<item id="2952" min="1" max="1" chance="2.99" /> <!-- aqua neck piece -->
+					<item id="2212" min="1" max="1" chance="1" /> <!-- pl gaiter rec -->
+					<item id="852" min="1" max="1" chance="0.001" /> <!-- moon ear -->
+					<item id="915" min="1" max="1" chance="0.0005" /> <!-- aquastone neck -->
+					<item id="883" min="1" max="1" chance="0.0005" /> <!-- aqua ring  -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="2323" min="1" max="1" chance="1.118" /> <!-- elemental bow  -->
+				<item id="2322" min="1" max="1" chance="1.081" /> <!-- soulfire dirk  -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21037" level="67" type="Monster" name="Ossiud">
 		<parameters>

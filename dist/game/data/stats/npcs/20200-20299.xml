@@ -1398,7 +1398,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20218" level="55" type="Monster" name="Premo">
+	<npc id="20218" level="45" type="Monster" name="Premo">
 		<parameters>
 			<param name="MoveAroundSocial" value="135" />
 			<param name="MoveAroundSocial1" value="135" />
@@ -1454,6 +1454,34 @@
 			<radius normal="21" grown="25" />
 			<height normal="35" grown="43" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="548" max="1281" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="1868" min="1" max="1" chance="2069.57" /> <!-- thread -->
+					<item id="1867" min="1" max="1" chance="14.33" /> <!-- animal skin -->
+					<item id="1866" min="1" max="1" chance="7.194" /> <!-- suede -->
+					<item id="1964" min="1" max="1" chance="3.514" /> <!-- aldrake temper -->
+					<item id="2945" min="1" max="1" chance="3.435" /> <!-- chain shield fragment -->
+					<item id="2936" min="1" max="1" chance="3.159" /> <!-- chain hood pattern -->
+					<item id="1882" min="1" max="1" chance="2.377" /> <!-- leather -->
+					<item id="1885" min="1" max="1" chance="1" /> <!-- hg suede  -->
+					<item id="2207" min="1" max="1" chance="0.005" /> <!-- karmian tunic rec  -->
+					<item id="2495" min="1" max="1" chance="0.001" /> <!-- chain shield  -->
+					<item id="631" min="1" max="1" chance="0.0005" /> <!-- eldrake  -->
+					<item id="2413" min="1" max="1" chance="0.0005" /> <!-- chain hood  -->
+					<item id="2323" min="1" max="1" chance="0.0005" /> <!-- elemental bow rec  -->
+					<item id="2326" min="1" max="1" chance="0.0005" /> <!-- horn of glory  -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1876" min="1" max="1" chance="45.46" /> <!-- mo  -->
+				<item id="1962" min="1" max="1" chance="7.518" /> <!-- karmian tunic pattern  -->
+				<item id="2073" min="1" max="1" chance="1.793" /> <!-- chakram edge  -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20219" level="46" type="Monster" name="Validus">
 		<parameters>
@@ -2076,11 +2104,6 @@
 					<item id="1866" min="1" max="1" chance="12.763" /> <!-- Suede -->
 					<item id="1868" min="1" max="1" chance="38.2889" /> <!-- Thread -->
 					<item id="1884" min="1" max="1" chance="11.7812" /> <!-- Cord -->
-					<item id="92908" min="1" max="1" chance="19.1445" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.8289" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.9144" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.6381" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0383" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
 					<item id="1061" min="1" max="1" chance="11.6027" /> <!-- Major HP Potion -->
 				</group>
 			</drop>

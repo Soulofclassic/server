@@ -652,7 +652,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="20751" level="54" type="Monster" name="Snipe">
+	<npc id="20751" level="44" type="Monster" name="Snipe">
 		<parameters>
 			<param name="MoveAroundSocial" value="90" />
 			<param name="MoveAroundSocial1" value="90" />
@@ -729,13 +729,6 @@
 					<item id="7891" min="1" max="1" chance="29.1921" /> <!-- Ecliptic Axe -->
 				</group>
 				<group chance="32.7018">
-					<item id="92908" min="1" max="1" chance="73.0638" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="14.6128" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="7.3064" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="2.4355" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="1.4613" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.7306" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.0244" /> <!-- Crafting Herb: Metal Ingot -->
 					<item id="3050" min="1" max="1" chance="0.1461" /> <!-- Spellbook: Hex -->
 					<item id="3047" min="1" max="1" chance="0.1461" /> <!-- Spellbook: Iron Will -->
 					<item id="4912" min="1" max="1" chance="0.073" /> <!-- Spellbook: Benediction -->
@@ -747,7 +740,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20752" level="52" type="Monster" name="Snipe's Subordinate">
+	<npc id="20752" level="42" type="Monster" name="Snipe's Subordinate">
 		<parameters>
 			<param name="MoveAroundSocial" value="90" />
 			<param name="MoveAroundSocial1" value="90" />
@@ -812,13 +805,6 @@
 					<item id="2070" min="1" max="1" chance="25.0234" /> <!-- Cursed Dagger Blade -->
 				</group>
 				<group chance="11.328">
-					<item id="92908" min="1" max="1" chance="73.1172" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="14.6234" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="7.3117" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="2.4372" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="1.4623" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.7312" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.0244" /> <!-- Crafting Herb: Metal Ingot -->
 					<item id="3064" min="1" max="1" chance="0.1462" /> <!-- Spellbook: Silence -->
 					<item id="3111" min="1" max="1" chance="0.1464" /> <!-- Amulet: Seal of Suspension -->
 				</group>
