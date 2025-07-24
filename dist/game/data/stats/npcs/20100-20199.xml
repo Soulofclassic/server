@@ -1869,12 +1869,6 @@
 					<item id="1864" min="1" max="1" chance="45.0448" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="9.009" /> <!-- Durable Braid -->
 					<item id="1866" min="1" max="1" chance="15.0149" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="22.5224" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.5045" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.2522" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.7507" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.4504" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92916" min="1" max="1" chance="0.0225" /> <!-- Crafting Herb: Energy of Animals -->
 					<item id="2269" min="1" max="1" chance="0.1609" /> <!-- Recipe: Morning Star -->
 					<item id="2028" min="1" max="1" chance="0.2677" /> <!-- Shilen Knife Edge -->
 				</group>
@@ -1957,13 +1951,15 @@
 				<group chance="70">
 					<item id="57" min="1196" max="2797" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
+				<group chance="32.1419">
 					<item id="1873" min="1" max="1" chance="13.4069" /> <!-- Silver Nugget -->
 					<item id="1869" min="1" max="1" chance="33.5173" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="3.3517" /> <!-- Steel -->
 					<item id="1874" min="1" max="1" chance="2.2345" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="0.5586" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="1.1172" /> <!-- Mold Glue -->
+				</group>
+				<group chance="1.1419">
 					<item id="2099" min="1" max="1" chance="0.005" /> <!-- stick of eternity shaft -->
 					<item id="201" min="1" max="1" chance="0.000009" /> <!-- club of nature -->
 					<item id="202" min="1" max="1" chance="0.000009" /> <!-- mace of underworld -->

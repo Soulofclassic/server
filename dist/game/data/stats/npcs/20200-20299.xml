@@ -61,11 +61,6 @@
 					<item id="1876" min="1" max="1" chance="6.4706" /> <!-- Mithril Ore -->
 					<item id="1872" min="1" max="1" chance="43.1375" /> <!-- Animal Bone Fragment -->
 					<item id="1882" min="1" max="1" chance="7.1896" /> <!-- Leather -->
-					<item id="92908" min="1" max="1" chance="32.3532" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.4706" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.2353" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.0784" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0648" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
 				</group>
 			</drop>
 			<spoil>
@@ -1019,21 +1014,23 @@
 				<group chance="70">
 					<item id="57" min="487" max="1140" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1865" min="1" max="1" chance="13.09" /> <!-- varnish -->
-					<item id="1869" min="1" max="1" chance="12.72" /> <!-- iron ore -->
-					<item id="1873" min="1" max="1" chance="5.04" /> <!-- silver nugget -->
+				<group chance="1">
 					<item id="2918" min="1" max="1" chance="1.713" /> <!-- mithril scale gaiter material -->
 					<item id="2919" min="1" max="1" chance="1.706" /> <!-- brigandine gaiter material -->
 					<item id="1944" min="1" max="1" chance="1.42" /> <!-- Mithril Tunic Fabric -->
-					<item id="1880" min="1" max="1" chance="1.33" /> <!-- steel -->
 					<item id="1941" min="1" max="1" chance="1.207" /> <!-- brigandine temper -->
-					<item id="1874" min="1" max="1" chance="1" /> <!-- oo -->
 					<item id="352" min="1" max="1" chance="0.0005" /> <!-- brigandine  -->
 					<item id="2378" min="1" max="1" chance="0.0005" /> <!-- brigandine gaitlers  -->
 					<item id="2377" min="1" max="1" chance="0.0005" /> <!-- mithril scale gaitles  -->
 					<item id="437" min="1" max="1" chance="0.0005" /> <!-- mithril tunic  -->
 					<item id="955" min="1" max="1" chance="0.0005" /> <!-- ewd  -->
+				</group>
+				<group chance="13">
+					<item id="1865" min="1" max="1" chance="13.09" /> <!-- varnish -->
+					<item id="1869" min="1" max="1" chance="12.72" /> <!-- iron ore -->
+					<item id="1873" min="1" max="1" chance="5.04" /> <!-- silver nugget -->
+					<item id="1880" min="1" max="1" chance="1.33" /> <!-- steel -->
+					<item id="1874" min="1" max="1" chance="1" /> <!-- oo -->
 				</group>
 			</drop>
 			<spoil>
@@ -1194,17 +1191,18 @@
 				<group chance="70">
 					<item id="57" min="513" max="1197" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
+				<group chance="16.5683">
 					<item id="1868" min="1" max="1" chance="23.15" /> <!-- thread -->
 					<item id="1867" min="1" max="1" chance="15.26" /> <!-- animal skin -->
 					<item id="1866" min="1" max="1" chance="7.701" /> <!-- suede -->
 					<item id="1882" min="1" max="1" chance="2.555" /> <!-- leather -->
-					<item id="2055" min="1" max="1" chance="1" /> <!-- glaive edge -->
 					<item id="1885" min="1" max="1" chance="1" /> <!-- hg suede  -->
-					<item id="2162" min="1" max="1" chance="1" /> <!-- aquastone neck rec -->
-					<item id="297" min="1" max="1" chance="0.0005" /> <!-- glaive  -->
-					<item id="2312" min="1" max="1" chance="0.0005" /> <!-- crystal bow rec  -->
 				</group>
+				<group chance="0.2491">
+					<item id="2055" min="1" max="1" chance="99.1391" /> <!-- glaive edge -->
+					<item id="2162" min="1" max="1" chance="99.1391" /> <!-- aquastone neck rec -->
+					<item id="297" min="1" max="1" chance="0.8609" /> <!-- glaive  -->
+					<item id="2312" min="1" max="1" chance="0.8609" /> <!-- crystal bow rec  -->
 			</drop>
 			<spoil>
 				<item id="1872" min="1" max="9" chance="85.09" /> <!-- ab  -->
