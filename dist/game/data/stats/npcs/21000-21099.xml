@@ -2345,7 +2345,7 @@
 			<height normal="44" grown="52.5" />
 		</collision>
 	</npc>
-	<npc id="21035" level="52" type="Monster" name="Catherok">
+	<npc id="21035" level="42" type="Monster" name="Catherok">
 		<parameters>
 			<param name="MoveAroundSocial" value="57" />
 			<param name="MoveAroundSocial1" value="62" />
@@ -2423,13 +2423,6 @@
 					<item id="1877" min="1" max="1" chance="1.06" /> <!-- Adamantite Nugget -->
 					<item id="1875" min="1" max="1" chance="1.7667" /> <!-- Stone of Purity -->
 					<item id="1881" min="1" max="1" chance="3.5333" /> <!-- Coarse Bone Powder -->
-					<item id="92908" min="1" max="1" chance="26.4999" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="5.3" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.65" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.8833" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.53" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.265" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.0088" /> <!-- Crafting Herb: Metal Ingot -->
 					<item id="2359" min="1" max="1" chance="0.0432" /> <!-- Recipe: Eminence Bow -->
 					<item id="2508" min="1" max="1" chance="22.0833" /> <!-- Cursed Bone -->
 					<item id="2355" min="1" max="1" chance="0.0433" /> <!-- Recipe: Ghoul's Staff -->
