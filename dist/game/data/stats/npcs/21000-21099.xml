@@ -2507,15 +2507,13 @@
 				<group chance="70">
 					<item id="57" min="498" max="1158" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1869" min="1" max="1" chance="5.254" /> <!-- aqua ring piece -->
-					<item id="1908" min="1" max="1" chance="3.638" /> <!-- moonstone ear piece -->
-					<item id="2952" min="1" max="1" chance="2.99" /> <!-- aqua neck piece -->
-					<item id="2212" min="1" max="1" chance="1" /> <!-- pl gaiter rec -->
-					<item id="852" min="1" max="1" chance="0.001" /> <!-- moon ear -->
-					<item id="915" min="1" max="1" chance="0.0005" /> <!-- aquastone neck -->
-					<item id="883" min="1" max="1" chance="0.0005" /> <!-- aqua ring  -->
-				</group>
+				<item id="1869" min="1" max="1" chance="5.254" /> <!-- aqua ring piece -->
+				<item id="1908" min="1" max="1" chance="3.638" /> <!-- moonstone ear piece -->
+				<item id="2952" min="1" max="1" chance="2.99" /> <!-- aqua neck piece -->
+				<item id="2212" min="1" max="1" chance="1" /> <!-- pl gaiter rec -->
+				<item id="852" min="1" max="1" chance="0.001" /> <!-- moon ear -->
+				<item id="915" min="1" max="1" chance="0.0005" /> <!-- aquastone neck -->
+				<item id="883" min="1" max="1" chance="0.0005" /> <!-- aqua ring  -->
 			</drop>
 			<spoil>
 				<item id="2323" min="1" max="1" chance="1.118" /> <!-- elemental bow  -->
@@ -2674,18 +2672,16 @@
 				<group chance="70">
 					<item id="57" min="1196" max="2797" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1866" min="1" max="1" chance="12.28" /> <!-- suede -->
-					<item id="1878" min="1" max="1" chance="7.064" /> <!--  durable braid -->
-					<item id="1864" min="3" max="9" chance="5.802" /> <!-- stem -->
-					<item id="2947" min="1" max="1" chance="4.459" /> <!--  dwarven chain shield fragment -->
-					<item id="1865" min="2" max="6" chance="4.39" /> <!-- varnish -->
-					<item id="1971" min="1" max="1" chance="3.892" /> <!--  great helmet material -->
-					<item id="1975" min="1" max="1" chance="2.07" /> <!-- rind leather armor design -->
-					<item id="2496" min="1" max="1" chance="0.001" /> <!--  dwaven chain shield  -->
-					<item id="500" min="1" max="1" chance="0.0005" /> <!-- great helmet -->
-					<item id="2334" min="1" max="1" chance="0.0005" /> <!-- whispering death rec -->
-				</group>
+				<item id="1866" min="1" max="1" chance="12.28" /> <!-- suede -->
+				<item id="1878" min="1" max="1" chance="7.064" /> <!--  durable braid -->
+				<item id="1864" min="3" max="9" chance="5.802" /> <!-- stem -->
+				<item id="2947" min="1" max="1" chance="4.459" /> <!--  dwarven chain shield fragment -->
+				<item id="1865" min="2" max="6" chance="4.39" /> <!-- varnish -->
+				<item id="1971" min="1" max="1" chance="3.892" /> <!--  great helmet material -->
+				<item id="1975" min="1" max="1" chance="2.07" /> <!-- rind leather armor design -->
+				<item id="2496" min="1" max="1" chance="0.001" /> <!--  dwaven chain shield  -->
+				<item id="500" min="1" max="1" chance="0.0005" /> <!-- great helmet -->
+				<item id="2334" min="1" max="1" chance="0.0005" /> <!-- whispering death rec -->
 			</drop>
 			<spoil>
 				<item id="1876" min="1" max="1" chance="79.99" /> <!-- mo -->
@@ -2851,22 +2847,20 @@
 				<group chance="70">
 					<item id="57" min="1196" max="2797" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1873" min="1" max="1" chance="13.4069" /> <!-- Silver Nugget -->
-					<item id="1869" min="1" max="1" chance="33.5173" /> <!-- Iron Ore -->
-					<item id="1880" min="1" max="1" chance="3.3517" /> <!-- Steel -->
-					<item id="1874" min="1" max="1" chance="2.2345" /> <!-- Oriharukon Ore -->
-					<item id="4042" min="1" max="1" chance="0.5586" /> <!-- Enria -->
-					<item id="4039" min="1" max="1" chance="1.1172" /> <!-- Mold Glue -->
-					<item id="201" min="1" max="1" chance="0.000009" /> <!-- club of nature -->
-					<item id="202" min="1" max="1" chance="0.000009" /> <!-- mace of underworld -->
-					<item id="174" min="1" max="1" chance="0.000009" /> <!--  nirvana axe -->
-					<item id="199" min="1" max="1" chance="0.000009" /> <!-- paagrio hammer -->
-					<item id="197" min="1" max="1" chance="0.000009" /> <!-- paradia staff -->
-					<item id="200" min="1" max="1" chance="0.000009" /> <!-- sage's staff -->
-					<item id="196" min="1" max="1" chance="0.000009" /> <!-- stick of eternity -->
-					<item id="162" min="1" max="1" chance="0.000009" /> <!-- war axe -->
-				</group>
+				<item id="1873" min="1" max="1" chance="13.4069" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="1" chance="33.5173" /> <!-- Iron Ore -->
+				<item id="1880" min="1" max="1" chance="3.3517" /> <!-- Steel -->
+				<item id="1874" min="1" max="1" chance="2.2345" /> <!-- Oriharukon Ore -->
+				<item id="4042" min="1" max="1" chance="0.5586" /> <!-- Enria -->
+				<item id="4039" min="1" max="1" chance="1.1172" /> <!-- Mold Glue -->
+				<item id="201" min="1" max="1" chance="0.000009" /> <!-- club of nature -->
+				<item id="202" min="1" max="1" chance="0.000009" /> <!-- mace of underworld -->
+				<item id="174" min="1" max="1" chance="0.000009" /> <!--  nirvana axe -->
+				<item id="199" min="1" max="1" chance="0.000009" /> <!-- paagrio hammer -->
+				<item id="197" min="1" max="1" chance="0.000009" /> <!-- paradia staff -->
+				<item id="200" min="1" max="1" chance="0.000009" /> <!-- sage's staff -->
+				<item id="196" min="1" max="1" chance="0.000009" /> <!-- stick of eternity -->
+				<item id="162" min="1" max="1" chance="0.000009" /> <!-- war axe -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="22.7373" /> <!-- Silver Nugget -->
@@ -3205,22 +3199,20 @@
 				<group chance="70">
 					<item id="57" min="2583" max="6030" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1872" min="4" max="12" chance="13.95" /> <!-- ab -->
-					<item id="1881" min="1" max="1" chance="11.24" /> <!-- cbp -->
-					<item id="4091" min="1" max="1" chance="9.795" /> <!-- doom g piece  -->
-					<item id="1867" min="7" max="21" chance="7.344" /> <!-- as -->
-					<item id="4090" min="1" max="3" chance="4.898" /> <!-- bw boots piece -->
-					<item id="4099" min="1" max="3" chance="3.256" /> <!-- doom boots piece -->
-					<item id="1882" min="3" max="9" chance="3.082" /> <!-- leather -->
-					<item id="4043" min="1" max="1" chance="2.82" /> <!-- asofe -->
-					<item id="4096" min="2" max="6" chance="2.394" /> <!-- bw g piece -->
-					<item id="4040" min="1" max="1" chance="1.677" /> <!-- mold lubricant -->
-					<item id="2439" min="1" max="1" chance="0.0005" /> <!-- bw boots -->
-					<item id="2487" min="1" max="1" chance="0.0005" /> <!-- bw gloves -->
-					<item id="601" min="1" max="1" chance="0.0005" /> <!-- doom boots -->
-					<item id="2475" min="1" max="1" chance="0.0005" /> <!-- doom gloves -->
-				</group>
+				<item id="1872" min="4" max="12" chance="13.95" /> <!-- ab -->
+				<item id="1881" min="1" max="1" chance="11.24" /> <!-- cbp -->
+				<item id="4091" min="1" max="1" chance="9.795" /> <!-- doom g piece  -->
+				<item id="1867" min="7" max="21" chance="7.344" /> <!-- as -->
+				<item id="4090" min="1" max="3" chance="4.898" /> <!-- bw boots piece -->
+				<item id="4099" min="1" max="3" chance="3.256" /> <!-- doom boots piece -->
+				<item id="1882" min="3" max="9" chance="3.082" /> <!-- leather -->
+				<item id="4043" min="1" max="1" chance="2.82" /> <!-- asofe -->
+				<item id="4096" min="2" max="6" chance="2.394" /> <!-- bw g piece -->
+				<item id="4040" min="1" max="1" chance="1.677" /> <!-- mold lubricant -->
+				<item id="2439" min="1" max="1" chance="0.0005" /> <!-- bw boots -->
+				<item id="2487" min="1" max="1" chance="0.0005" /> <!-- bw gloves -->
+				<item id="601" min="1" max="1" chance="0.0005" /> <!-- doom boots -->
+				<item id="2475" min="1" max="1" chance="0.0005" /> <!-- doom gloves -->
 			</drop>
 			<spoil>
 				<item id="4992" min="1" max="1" chance="13.07" /> <!-- bw boots rec -->
@@ -3362,18 +3354,16 @@
 				<group chance="70">
 					<item id="57" min="4880" max="11396" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1864" min="4" max="12" chance="24.14" /> <!-- stem -->
-					<item id="4053" min="1" max="3" chance="10.896" /> <!-- bo ring gem -->
-					<item id="1878" min="2" max="6" chance="7.734" /> <!-- durable braid -->
-					<item id="4052" min="1" max="3" chance="6.092" /> <!-- bo ear gem -->
-					<item id="1865" min="9" max="27" chance="5.364" /> <!-- varnish -->
-					<item id="1895" min="3" max="9" chance="4.032" /> <!-- metal fiber  -->
-					<item id="4044" min="1" max="1" chance="3.259" /> <!-- thons -->
-					<item id="4041" min="1" max="1" chance="1" /> <!-- mold hardener -->
-					<item id="864" min="1" max="1" chance="0.005" /> <!-- bo ear -->
-					<item id="895" min="1" max="1" chance="0.005" /> <!-- bo ring -->
-				</group>
+				<item id="1864" min="4" max="12" chance="24.14" /> <!-- stem -->
+				<item id="4053" min="1" max="3" chance="10.896" /> <!-- bo ring gem -->
+				<item id="1878" min="2" max="6" chance="7.734" /> <!-- durable braid -->
+				<item id="4052" min="1" max="3" chance="6.092" /> <!-- bo ear gem -->
+				<item id="1865" min="9" max="27" chance="5.364" /> <!-- varnish -->
+				<item id="1895" min="3" max="9" chance="4.032" /> <!-- metal fiber  -->
+				<item id="4044" min="1" max="1" chance="3.259" /> <!-- thons -->
+				<item id="4041" min="1" max="1" chance="1" /> <!-- mold hardener -->
+				<item id="864" min="1" max="1" chance="0.005" /> <!-- bo ear -->
+				<item id="895" min="1" max="1" chance="0.005" /> <!-- bo ring -->
 			</drop>
 			<spoil>
 				<item id="4973" min="1" max="1" chance="25.54" /> <!-- bo ear rec -->
@@ -3505,15 +3495,13 @@
 				<group chance="70">
 					<item id="57" min="2713" max="6337" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1895" min="1" max="1" chance="19.3" /> <!-- metal fiber -->
-					<item id="4053" min="1" max="1" chance="11.5" /> <!-- BO neckl pieace -->
-					<item id="1879" min="1" max="1" chance="11.5" /> <!-- cokes  -->
-					<item id="1870" min="4" max="12" chance="8.674" /> <!-- coal -->
-					<item id="1874" min="1" max="1" chance="4.612" /> <!-- sop -->
-					<item id="1871" min="7" max="21" chance="4.581" /> <!-- charcoal -->
-					<item id="926" min="1" max="1" chance="0.001" /> <!-- BO neckl -->
-				</group>
+				<item id="1895" min="1" max="1" chance="19.3" /> <!-- metal fiber -->
+				<item id="4053" min="1" max="1" chance="11.5" /> <!-- BO neckl pieace -->
+				<item id="1879" min="1" max="1" chance="11.5" /> <!-- cokes  -->
+				<item id="1870" min="4" max="12" chance="8.674" /> <!-- coal -->
+				<item id="1874" min="1" max="1" chance="4.612" /> <!-- sop -->
+				<item id="1871" min="7" max="21" chance="4.581" /> <!-- charcoal -->
+				<item id="926" min="1" max="1" chance="0.001" /> <!-- BO neckl -->
 			</drop>
 			<spoil>
 				<item id="4975" min="1" max="1" chance="23.06" /> <!-- bo neck rec -->
@@ -3587,16 +3575,14 @@
 				<group chance="70">
 					<item id="57" min="3450" max="9200" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="90045" min="1" max="1" chance="1" /> <!-- Magical Tablet-->
-					<item id="1879" min="1" max="1" chance="17.5574" /> <!-- Cokes -->
-					<item id="1895" min="1" max="4" chance="5.2787" /> <!-- Metal fiber -->
-					<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
-					<item id="1875" min="1" max="1" chance="7.929" /> <!-- SOP -->
-					<item id="4078" min="1" max="1" chance="7.929" /> <!-- BWH chest piece -->
-					<item id="1870" min="4" max="8" chance="13.929" /> <!-- Coal -->
-					<item id="1871" min="4" max="8" chance="7.3934" /> <!-- Charcoal -->
-				</group>
+				<item id="90045" min="1" max="1" chance="1" /> <!-- Magical Tablet-->
+				<item id="1879" min="1" max="1" chance="17.5574" /> <!-- Cokes -->
+				<item id="1895" min="1" max="4" chance="5.2787" /> <!-- Metal fiber -->
+				<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
+				<item id="1875" min="1" max="1" chance="7.929" /> <!-- SOP -->
+				<item id="4078" min="1" max="1" chance="7.929" /> <!-- BWH chest piece -->
+				<item id="1870" min="4" max="8" chance="13.929" /> <!-- Coal -->
+				<item id="1871" min="4" max="8" chance="7.3934" /> <!-- Charcoal -->
 			</drop>
 			<spoil>
 				<item id="4981" min="1" max="1" chance="9.1834" /> <!-- BWH rec -->
@@ -3725,14 +3711,12 @@
 				<group chance="70">
 					<item id="57" min="5684" max="13262" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
-					<item id="1878" min="3" max="6" chance="1.3934" /> <!-- Durable Braid -->
-					<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
-					<item id="1895" min="1" max="4" chance="14.2787" /> <!-- Metal fiber -->
-					<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
-					<item id="1864" min="5" max="15" chance="10.929" /> <!-- Stem -->
-				</group>
+				<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
+				<item id="1878" min="3" max="6" chance="1.3934" /> <!-- Durable Braid -->
+				<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
+				<item id="1895" min="1" max="4" chance="14.2787" /> <!-- Metal fiber -->
+				<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
+				<item id="1864" min="5" max="15" chance="10.929" /> <!-- Stem -->
 			</drop>
 			<spoil>
 				<item id="4983" min="1" max="1" chance="13.1834" /> <!-- Doom plate recipe -->
@@ -3894,6 +3878,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
+		<acquire exp="101366" sp="3040" />
 		<equipment rhand="148" /> <!-- rhand: Sword of Valhalla -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2956.64545357656" hpRegen="8.5" mp="1607.4" mpRegen="3" />
@@ -3945,13 +3930,11 @@
 				<group chance="70">
 					<item id="57" min="5102" max="12901" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1854" min="4" max="10" chance="22" /> <!-- stem -->
-					<item id="1885" min="4" max="10" chance="5.8934" /> <!-- varnish -->
-					<item id="1870" min="2" max="5" chance="3.8574" /> <!-- metal fiber  -->
-					<item id="4044" min="1" max="1" chance="3.005" /> <!-- thons -->
-					<item id="2392" min="1" max="1" chance="0.001" /> <!-- leather armor of doom -->
-				</group>
+				<item id="1864" min="4" max="10" chance="22" /> <!-- stem -->
+				<item id="1885" min="4" max="10" chance="5.8934" /> <!-- varnish -->
+				<item id="1870" min="2" max="5" chance="3.8574" /> <!-- metal fiber  -->
+				<item id="4044" min="1" max="1" chance="3.005" /> <!-- thons -->
+				<item id="2392" min="1" max="1" chance="0.001" /> <!-- leather armor of doom -->
 			</drop>
 			<spoil>
 				<item id="4985" min="1" max="1" chance="15.6834" /> <!-- leather doom rec -->
@@ -4012,14 +3995,12 @@
 				<group chance="70">
 					<item id="57" min="3101" max="7702" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
-					<item id="1878" min="3" max="6" chance="16.3934" /> <!-- Durable Braid -->
-					<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
-					<item id="1895" min="1" max="4" chance="14.2787" /> <!-- Metal fiber -->
-					<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
-					<item id="1864" min="5" max="15" chance="10.929" /> <!-- Stem -->
-				</group>
+				<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
+				<item id="1878" min="3" max="6" chance="16.3934" /> <!-- Durable Braid -->
+				<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
+				<item id="1895" min="1" max="4" chance="14.2787" /> <!-- Metal fiber -->
+				<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
+				<item id="1864" min="5" max="15" chance="10.929" /> <!-- Stem -->
 			</drop>
 			<spoil>
 				<item id="4987" min="1" max="1" chance="7.1834" /> <!-- Tunic of Doom rec -->
@@ -4100,14 +4081,12 @@
 				<group chance="70">
 					<item id="57" min="4006" max="9345" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1870" min="3" max="9" chance="21.61" /> <!-- coal -->
-					<item id="1875" min="1" max="1" chance="8.581" /> <!-- sop -->
-					<item id="1874" min="1" max="1" chance="8.511" /> <!-- OO  -->
-					<item id="2121" min="1" max="1" chance="4.167" /> <!-- emic piece  -->
-					<item id="2359" min="15" max="45" chance="0.005" /> <!-- emic recipe  -->
-					<item id="286" min="1" max="1" chance="0.0005" /> <!-- emic -->
-				</group>
+				<item id="1870" min="3" max="9" chance="21.61" /> <!-- coal -->
+				<item id="1875" min="1" max="1" chance="8.581" /> <!-- sop -->
+				<item id="1874" min="1" max="1" chance="8.511" /> <!-- OO  -->
+				<item id="2121" min="1" max="1" chance="4.167" /> <!-- emic piece  -->
+				<item id="2359" min="15" max="45" chance="0.005" /> <!-- emic recipe  -->
+				<item id="286" min="1" max="1" chance="0.0005" /> <!-- emic -->
 			</drop>
 			<spoil>
 				<item id="2347" min="1" max="1" chance="3.178" /> <!-- akat rec-->
@@ -4180,12 +4159,10 @@
 				<group chance="70">
 					<item id="57" min="3871" max="9030" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1870" min="12" max="36" chance="14.9834" /> <!-- coal -->
-					<item id="4088" min="3" max="9" chance="8.3934" /> <!-- bw helm piece -->
-					<item id="2416" min="1" max="1" chance="0.005" /> <!-- bw helm -->
-					<item id="49766" min="1" max="1" chance="0.003003" /> <!-- STONE -->
-				</group>
+				<item id="1870" min="12" max="36" chance="14.9834" /> <!-- coal -->
+				<item id="4088" min="3" max="9" chance="8.3934" /> <!-- bw helm piece -->
+				<item id="2416" min="1" max="1" chance="0.005" /> <!-- bw helm -->
+				<item id="49766" min="1" max="1" chance="0.003003" /> <!-- STONE -->
 			</drop>
 			<spoil>
 				<item id="4962" min="1" max="1" chance="25.92" /> <!-- zubei helm rec -->
@@ -4262,12 +4239,10 @@
 				<group chance="70">
 					<item id="57" min="3742" max="8731" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="2121" min="1" max="1" chance="5.854" /> <!-- emic piece -->
-					<item id="2133" min="1" max="1" chance="1.228" /> <!-- gem A -->
-					<item id="2359" min="1" max="1" chance="1" /> <!-- emic rec -->
-					<item id="286" min="1" max="1" chance="0.0005" /> <!-- emic -->
-				</group>
+				<item id="2121" min="1" max="1" chance="5.854" /> <!-- emic piece -->
+				<item id="2133" min="1" max="1" chance="1.228" /> <!-- gem A -->
+				<item id="2359" min="1" max="1" chance="1" /> <!-- emic rec -->
+				<item id="286" min="1" max="1" chance="0.0005" /> <!-- emic -->
 			</drop>
 			<spoil>
 				<item id="1874" min="1" max="1" chance="40.04" /> <!-- EAC  -->
@@ -4338,12 +4313,10 @@
 				<group chance="70">
 					<item id="57" min="1508" max="3530" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="2093" min="1" max="1" chance="2.727" /> <!-- poleaxe piece -->
-					<item id="2360" min="1" max="1" chance="0.005" /> <!-- orchish poleaxe rec -->
-					<item id="2331" min="1" max="1" chance="0.005" /> <!-- poleaxe rec -->
-					<item id="95" min="1" max="1" chance="0.0005" /> <!-- poleaxe -->
-				</group>
+				<item id="2093" min="1" max="1" chance="2.727" /> <!-- poleaxe piece -->
+				<item id="2360" min="1" max="1" chance="0.005" /> <!-- orchish poleaxe rec -->
+				<item id="2331" min="1" max="1" chance="0.005" /> <!-- poleaxe rec -->
+				<item id="95" min="1" max="1" chance="0.0005" /> <!-- poleaxe -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="45" chance="99" /> <!-- coal  -->
@@ -4415,12 +4388,10 @@
 				<group chance="70">
 					<item id="57" min="1489" max="3484" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="2109" min="1" max="1" chance="2.727" /> <!-- akat piece -->
-					<item id="2347" min="1" max="1" chance="0.005" /> <!-- akat rec -->
-					<item id="2360" min="1" max="1" chance="0.005" /> <!-- orchish poleaxe rec -->
-					<item id="2347" min="1" max="1" chance="0.0005" /> <!-- akat -->
-				</group>
+				<item id="2109" min="1" max="1" chance="2.727" /> <!-- akat piece -->
+				<item id="2347" min="1" max="1" chance="0.005" /> <!-- akat rec -->
+				<item id="2360" min="1" max="1" chance="0.005" /> <!-- orchish poleaxe rec -->
+				<item id="2347" min="1" max="1" chance="0.0005" /> <!-- akat -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="45" chance="99" /> <!-- coal  -->
@@ -4497,12 +4468,10 @@
 				<group chance="70">
 					<item id="57" min="5482" max="25582" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1875" min="1" max="1" chance="23.85" /> <!-- sop -->
-					<item id="4121" min="1" max="1" chance="5.331" /> <!-- bop piece -->
-					<item id="2133" min="1" max="1" chance="2.346" /> <!-- gem  A  -->
-					<item id="287" min="1" max="1" chance="0.0005" /> <!-- bop -->
-				</group>
+				<item id="1875" min="1" max="1" chance="23.85" /> <!-- sop -->
+				<item id="4121" min="1" max="1" chance="5.331" /> <!-- bop piece -->
+				<item id="2133" min="1" max="1" chance="2.346" /> <!-- gem  A  -->
+				<item id="287" min="1" max="1" chance="0.0005" /> <!-- bop -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="37" chance="84" /> <!-- coal -->
@@ -4576,11 +4545,9 @@
 				<group chance="70">
 					<item id="57" min="2798" max="6535" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1874" min="1" max="1" chance="24.18" /> <!-- OO -->
-					<item id="4089" min="1" max="3" chance="12.15" /> <!-- doom helm piece -->
-					<item id="2417" min="1" max="1" chance="0.001" /> <!-- doom helm  -->
-				</group>
+				<item id="1874" min="1" max="1" chance="24.18" /> <!-- OO -->
+				<item id="4089" min="1" max="3" chance="12.15" /> <!-- doom helm piece -->
+				<item id="2417" min="1" max="1" chance="0.001" /> <!-- doom helm  -->
 			</drop>
 			<spoil>
 				<item id="4179" min="1" max="1" chance="12.89" /> <!-- zubei helm  rec -->
@@ -4653,11 +4620,9 @@
 				<group chance="70">
 					<item id="57" min="2731" max="6379" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1874" min="12" max="36" chance="14.54" /> <!-- coal -->
-					<item id="4089" min="1" max="3" chance="11.73" /> <!-- bw helm piece -->
-					<item id="2417" min="1" max="1" chance="0.001" /> <!-- bw helm  -->
-				</group>
+				<item id="1874" min="12" max="36" chance="14.54" /> <!-- coal -->
+				<item id="4089" min="1" max="3" chance="11.73" /> <!-- bw helm piece -->
+				<item id="2417" min="1" max="1" chance="0.001" /> <!-- bw helm  -->
 			</drop>
 			<spoil>
 				<item id="4962" min="1" max="1" chance="12.08" /> <!-- zubei helm  rec -->
@@ -4731,13 +4696,11 @@
 				<group chance="70">
 					<item id="57" min="14716" max="34338" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="49685" min="1" max="1" chance="100" /> <!-- energy of insolence -->
-					<item id="1887" min="1" max="1" chance="22.3934" /> <!-- vop -->
-					<item id="4121" min="1" max="1" chance="14.5574" /> <!-- bop shaft -->
-					<item id="5007" min="1" max="1" chance="3.2787" /> <!-- bop recipe -->
-					<item id="287" min="1" max="1" chance="0.0005" /> <!-- bop -->
-				</group>
+				<item id="49685" min="1" max="1" chance="100" /> <!-- energy of insolence -->
+				<item id="1887" min="1" max="1" chance="22.3934" /> <!-- vop -->
+				<item id="4121" min="1" max="1" chance="14.5574" /> <!-- bop shaft -->
+				<item id="5007" min="1" max="1" chance="3.2787" /> <!-- bop recipe -->
+				<item id="287" min="1" max="1" chance="0.0005" /> <!-- bop -->
 			</drop>
 			<spoil>
 				<item id="947" min="1" max="1" chance="2.9834" /> <!-- EWB -->
@@ -4808,13 +4771,11 @@
 				<group chance="70">
 					<item id="57" min="6043" max="14093" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1874" min="1" max="1" chance="13" /> <!-- oo -->
-					<item id="1875" min="1" max="1" chance="12.3934" /> <!-- sop -->
-					<item id="1870" min="4" max="12" chance="8.5574" /> <!-- coal -->
-					<item id="5000" min="1" max="1" chance="0.005" /> <!-- damasc recipe -->
-					<item id="79" min="1" max="1" chance="0.0005" /> <!-- damasc -->
-				</group>
+				<item id="1874" min="1" max="1" chance="13" /> <!-- oo -->
+				<item id="1875" min="1" max="1" chance="12.3934" /> <!-- sop -->
+				<item id="1870" min="4" max="12" chance="8.5574" /> <!-- coal -->
+				<item id="5000" min="1" max="1" chance="0.005" /> <!-- damasc recipe -->
+				<item id="79" min="1" max="1" chance="0.0005" /> <!-- damasc -->
 			</drop>
 			<spoil>
 				<item id="4186" min="1" max="1" chance="2.4834" /> <!-- valhalla rec -->
@@ -4885,13 +4846,11 @@
 				<group chance="70">
 					<item id="57" min="6013" max="14023" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1874" min="1" max="1" chance="13" /> <!-- oo -->
-					<item id="1875" min="1" max="1" chance="12.8934" /> <!-- sop -->
-					<item id="1870" min="4" max="12" chance="8.5574" /> <!-- coal -->
-					<item id="4967" min="1" max="1" chance="0.005" /> <!-- vall recipe -->
-					<item id="148" min="1" max="1" chance="0.0005" /> <!-- vall -->
-				</group>
+				<item id="1874" min="1" max="1" chance="13" /> <!-- oo -->
+				<item id="1875" min="1" max="1" chance="12.8934" /> <!-- sop -->
+				<item id="1870" min="4" max="12" chance="8.5574" /> <!-- coal -->
+				<item id="4967" min="1" max="1" chance="0.005" /> <!-- vall recipe -->
+				<item id="148" min="1" max="1" chance="0.0005" /> <!-- vall -->
 			</drop>
 			<spoil>
 				<item id="4186" min="1" max="1" chance="3.6834" /> <!-- valhalla rec -->

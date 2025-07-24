@@ -1951,25 +1951,21 @@
 				<group chance="70">
 					<item id="57" min="1196" max="2797" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="32.1419">
-					<item id="1873" min="1" max="1" chance="13.4069" /> <!-- Silver Nugget -->
-					<item id="1869" min="1" max="1" chance="33.5173" /> <!-- Iron Ore -->
-					<item id="1880" min="1" max="1" chance="3.3517" /> <!-- Steel -->
-					<item id="1874" min="1" max="1" chance="2.2345" /> <!-- Oriharukon Ore -->
-					<item id="4042" min="1" max="1" chance="0.5586" /> <!-- Enria -->
-					<item id="4039" min="1" max="1" chance="1.1172" /> <!-- Mold Glue -->
-				</group>
-				<group chance="1.1419">
-					<item id="2099" min="1" max="1" chance="0.005" /> <!-- stick of eternity shaft -->
-					<item id="201" min="1" max="1" chance="0.000009" /> <!-- club of nature -->
-					<item id="202" min="1" max="1" chance="0.000009" /> <!-- mace of underworld -->
-					<item id="174" min="1" max="1" chance="0.000009" /> <!--  nirvana axe -->
-					<item id="199" min="1" max="1" chance="0.000009" /> <!-- paagrio hammer -->
-					<item id="197" min="1" max="1" chance="0.000009" /> <!-- paradia staff -->
-					<item id="200" min="1" max="1" chance="0.000009" /> <!-- sage's staff -->
-					<item id="196" min="1" max="1" chance="0.000009" /> <!-- stick of eternity -->
-					<item id="162" min="1" max="1" chance="0.000009" /> <!-- war axe -->
-				</group>
+				<item id="1873" min="1" max="1" chance="13.4069" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="1" chance="33.5173" /> <!-- Iron Ore -->
+				<item id="1880" min="1" max="1" chance="3.3517" /> <!-- Steel -->
+				<item id="1874" min="1" max="1" chance="2.2345" /> <!-- Oriharukon Ore -->
+				<item id="4042" min="1" max="1" chance="0.5586" /> <!-- Enria -->
+				<item id="4039" min="1" max="1" chance="1.1172" /> <!-- Mold Glue -->
+				<item id="2099" min="1" max="1" chance="0.005" /> <!-- stick of eternity shaft -->
+				<item id="201" min="1" max="1" chance="0.000009" /> <!-- club of nature -->
+				<item id="202" min="1" max="1" chance="0.000009" /> <!-- mace of underworld -->
+				<item id="174" min="1" max="1" chance="0.000009" /> <!--  nirvana axe -->
+				<item id="199" min="1" max="1" chance="0.000009" /> <!-- paagrio hammer -->
+				<item id="197" min="1" max="1" chance="0.000009" /> <!-- paradia staff -->
+				<item id="200" min="1" max="1" chance="0.000009" /> <!-- sage's staff -->
+				<item id="196" min="1" max="1" chance="0.000009" /> <!-- stick of eternity -->
+				<item id="162" min="1" max="1" chance="0.000009" /> <!-- war axe -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="22.7373" /> <!-- Silver Nugget -->

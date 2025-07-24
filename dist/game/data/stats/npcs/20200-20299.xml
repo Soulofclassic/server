@@ -1014,24 +1014,20 @@
 				<group chance="70">
 					<item id="57" min="487" max="1140" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="1">
-					<item id="2918" min="1" max="1" chance="1.713" /> <!-- mithril scale gaiter material -->
-					<item id="2919" min="1" max="1" chance="1.706" /> <!-- brigandine gaiter material -->
-					<item id="1944" min="1" max="1" chance="1.42" /> <!-- Mithril Tunic Fabric -->
-					<item id="1941" min="1" max="1" chance="1.207" /> <!-- brigandine temper -->
-					<item id="352" min="1" max="1" chance="0.0005" /> <!-- brigandine  -->
-					<item id="2378" min="1" max="1" chance="0.0005" /> <!-- brigandine gaitlers  -->
-					<item id="2377" min="1" max="1" chance="0.0005" /> <!-- mithril scale gaitles  -->
-					<item id="437" min="1" max="1" chance="0.0005" /> <!-- mithril tunic  -->
-					<item id="955" min="1" max="1" chance="0.0005" /> <!-- ewd  -->
-				</group>
-				<group chance="13">
-					<item id="1865" min="1" max="1" chance="13.09" /> <!-- varnish -->
-					<item id="1869" min="1" max="1" chance="12.72" /> <!-- iron ore -->
-					<item id="1873" min="1" max="1" chance="5.04" /> <!-- silver nugget -->
-					<item id="1880" min="1" max="1" chance="1.33" /> <!-- steel -->
-					<item id="1874" min="1" max="1" chance="1" /> <!-- oo -->
-				</group>
+				<item id="2918" min="1" max="1" chance="1.713" /> <!-- mithril scale gaiter material -->
+				<item id="2919" min="1" max="1" chance="1.706" /> <!-- brigandine gaiter material -->
+				<item id="1944" min="1" max="1" chance="1.42" /> <!-- Mithril Tunic Fabric -->
+				<item id="1941" min="1" max="1" chance="1.207" /> <!-- brigandine temper -->
+				<item id="352" min="1" max="1" chance="0.0005" /> <!-- brigandine  -->
+				<item id="2378" min="1" max="1" chance="0.0005" /> <!-- brigandine gaitlers  -->
+				<item id="2377" min="1" max="1" chance="0.0005" /> <!-- mithril scale gaitles  -->
+				<item id="437" min="1" max="1" chance="0.0005" /> <!-- mithril tunic  -->
+				<item id="955" min="1" max="1" chance="0.0005" /> <!-- ewd  -->
+				<item id="1865" min="1" max="1" chance="13.09" /> <!-- varnish -->
+				<item id="1869" min="1" max="1" chance="12.72" /> <!-- iron ore -->
+				<item id="1873" min="1" max="1" chance="5.04" /> <!-- silver nugget -->
+				<item id="1880" min="1" max="1" chance="1.33" /> <!-- steel -->
+				<item id="1874" min="1" max="1" chance="1" /> <!-- oo -->
 			</drop>
 			<spoil>
 				<item id="2147" min="1" max="1" chance="9.498" /> <!-- Recipe: Blacksmith' frame  -->
@@ -1191,10 +1187,10 @@
 				<group chance="70">
 					<item id="57" min="513" max="1197" chance="100" /> <!-- Adena -->
 				</group>
-				<item id="2055" min="1" max="1" chance="99.1391" /> <!-- glaive edge -->
-				<item id="2162" min="1" max="1" chance="0.8609" /> <!-- aquastone neck rec -->
-				<item id="297" min="1" max="1" chance="0.8609" /> <!-- glaive  -->
-				<item id="2312" min="1" max="1" chance="0.8609" /> <!-- crystal bow rec  -->
+				<item id="2055" min="1" max="1" chance="1" /> <!-- glaive edge -->
+				<item id="2162" min="1" max="1" chance="0.0005" /> <!-- aquastone neck rec -->
+				<item id="297" min="1" max="1" chance="0.0005" /> <!-- glaive  -->
+				<item id="2312" min="1" max="1" chance="0.0005" /> <!-- crystal bow rec  -->
 				<item id="1868" min="1" max="1" chance="23.15" /> <!-- thread -->
 				<item id="1867" min="1" max="1" chance="15.26" /> <!-- animal skin -->
 				<item id="1866" min="1" max="1" chance="7.701" /> <!-- suede -->
@@ -1454,22 +1450,20 @@
 				<group chance="70">
 					<item id="57" min="548" max="1281" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1868" min="1" max="1" chance="2069.57" /> <!-- thread -->
-					<item id="1867" min="1" max="1" chance="14.33" /> <!-- animal skin -->
-					<item id="1866" min="1" max="1" chance="7.194" /> <!-- suede -->
-					<item id="1964" min="1" max="1" chance="3.514" /> <!-- aldrake temper -->
-					<item id="2945" min="1" max="1" chance="3.435" /> <!-- chain shield fragment -->
-					<item id="2936" min="1" max="1" chance="3.159" /> <!-- chain hood pattern -->
-					<item id="1882" min="1" max="1" chance="2.377" /> <!-- leather -->
-					<item id="1885" min="1" max="1" chance="1" /> <!-- hg suede  -->
-					<item id="2207" min="1" max="1" chance="0.005" /> <!-- karmian tunic rec  -->
-					<item id="2495" min="1" max="1" chance="0.001" /> <!-- chain shield  -->
-					<item id="631" min="1" max="1" chance="0.0005" /> <!-- eldrake  -->
-					<item id="2413" min="1" max="1" chance="0.0005" /> <!-- chain hood  -->
-					<item id="2323" min="1" max="1" chance="0.0005" /> <!-- elemental bow rec  -->
-					<item id="2326" min="1" max="1" chance="0.0005" /> <!-- horn of glory  -->
-				</group>
+				<item id="1868" min="1" max="1" chance="20.6957" /> <!-- thread -->
+				<item id="1867" min="1" max="1" chance="14.33" /> <!-- animal skin -->
+				<item id="1866" min="1" max="1" chance="7.194" /> <!-- suede -->
+				<item id="1964" min="1" max="1" chance="3.514" /> <!-- aldrake temper -->
+				<item id="2945" min="1" max="1" chance="3.435" /> <!-- chain shield fragment -->
+				<item id="2936" min="1" max="1" chance="3.159" /> <!-- chain hood pattern -->
+				<item id="1882" min="1" max="1" chance="2.377" /> <!-- leather -->
+				<item id="1885" min="1" max="1" chance="1" /> <!-- hg suede  -->
+				<item id="2207" min="1" max="1" chance="0.005" /> <!-- karmian tunic rec  -->
+				<item id="2495" min="1" max="1" chance="0.001" /> <!-- chain shield  -->
+				<item id="631" min="1" max="1" chance="0.0005" /> <!-- eldrake  -->
+				<item id="2413" min="1" max="1" chance="0.0005" /> <!-- chain hood  -->
+				<item id="2323" min="1" max="1" chance="0.0005" /> <!-- elemental bow rec  -->
+				<item id="2326" min="1" max="1" chance="0.0005" /> <!-- horn of glory  -->
 			</drop>
 			<spoil>
 				<item id="1876" min="1" max="1" chance="45.46" /> <!-- mo  -->
@@ -1548,18 +1542,16 @@
 				<group chance="70">
 					<item id="57" min="1196" max="2795" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1864" min="1" max="3" chance="12.53" /> <!-- stem -->
-					<item id="1865" min="1" max="1" chance="11.83" /> <!-- varnish -->
-					<item id="1866" min="1" max="1" chance="8.234" /> <!-- suede -->
-					<item id="1878" min="1" max="1" chance="4.969" /> <!-- durable braid -->
-					<item id="1959" min="1" max="1" chance="1.799" /> <!-- chainmail shirt material -->
-					<item id="2074" min="1" max="1" chance="0.005" /> <!-- crystal bow shaft -->
-					<item id="354" min="1" max="1" chance="0.0005" /> <!-- chainmail shirt  -->
-					<item id="133" min="1" max="1" chance="0.0005" /> <!-- raid sword  -->
-					<item id="951" min="1" max="1" chance="0.0005" /> <!-- ewc  -->
-					<item id="281" min="1" max="1" chance="0.00001" /> <!-- crystal bow -->
-				</group>
+				<item id="1864" min="1" max="3" chance="12.53" /> <!-- stem -->
+				<item id="1865" min="1" max="1" chance="11.83" /> <!-- varnish -->
+				<item id="1866" min="1" max="1" chance="8.234" /> <!-- suede -->
+				<item id="1878" min="1" max="1" chance="4.969" /> <!-- durable braid -->
+				<item id="1959" min="1" max="1" chance="1.799" /> <!-- chainmail shirt material -->
+				<item id="2074" min="1" max="1" chance="0.005" /> <!-- crystal bow shaft -->
+				<item id="354" min="1" max="1" chance="0.0005" /> <!-- chainmail shirt  -->
+				<item id="133" min="1" max="1" chance="0.0005" /> <!-- raid sword  -->
+				<item id="951" min="1" max="1" chance="0.0005" /> <!-- ewc  -->
+				<item id="281" min="1" max="1" chance="0.00001" /> <!-- crystal bow -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="95.57" /> <!-- silver nugget  -->
@@ -1636,25 +1628,23 @@
 				<group chance="70">
 					<item id="57" min="617" max="1437" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1867" min="1" max="1" chance="14.31" /> <!-- as -->
-					<item id="1868" min="1" max="3" chance="10.798" /> <!-- thread -->
-					<item id="1866" min="1" max="1" chance="7.16" /> <!-- suede -->
-					<item id="2948" min="1" max="1" chance="2.475" /> <!-- rind leather boot piece -->
-					<item id="2950" min="1" max="1" chance="2.457" /> <!-- gloves of seal pattern -->
-					<item id="1974" min="1" max="1" chance="2.456" /> <!-- crimson boot fabric -->
-					<item id="1882" min="1" max="1" chance="2.427" /> <!-- leather -->
-					<item id="2951" min="1" max="1" chance="2.407" /> <!-- rind leather gloves piece -->
-					<item id="2946" min="1" max="1" chance="1.57" /> <!-- plated leather gloves piece -->
-					<item id="1866" min="1" max="1" chance="1" /> <!-- hg suede -->
-					<item id="1126" min="1" max="1" chance="0.0005" /> <!-- crimson boots -->
-					<item id="2457" min="1" max="1" chance="0.0005" /> <!-- gloves of seal -->
-					<item id="2455" min="1" max="1" chance="0.0005" /> <!--  pl gloves -->
-					<item id="198" min="1" max="1" chance="0.0005" /> <!-- inferno staff -->
-					<item id="203" min="1" max="1" chance="0.0005" /> <!-- pa'agrio axe -->
-					<item id="2434" min="1" max="1" chance="0.0005" /> <!--  rind leather boots -->
-					<item id="2458" min="1" max="1" chance="0.0005" /> <!-- rind leather gloves  -->
-				</group>
+				<item id="1867" min="1" max="1" chance="14.31" /> <!-- as -->
+				<item id="1868" min="1" max="3" chance="10.798" /> <!-- thread -->
+				<item id="1866" min="1" max="1" chance="7.16" /> <!-- suede -->
+				<item id="2948" min="1" max="1" chance="2.475" /> <!-- rind leather boot piece -->
+				<item id="2950" min="1" max="1" chance="2.457" /> <!-- gloves of seal pattern -->
+				<item id="1974" min="1" max="1" chance="2.456" /> <!-- crimson boot fabric -->
+				<item id="1882" min="1" max="1" chance="2.427" /> <!-- leather -->
+				<item id="2951" min="1" max="1" chance="2.407" /> <!-- rind leather gloves piece -->
+				<item id="2946" min="1" max="1" chance="1.57" /> <!-- plated leather gloves piece -->
+				<item id="1866" min="1" max="1" chance="1" /> <!-- hg suede -->
+				<item id="1126" min="1" max="1" chance="0.0005" /> <!-- crimson boots -->
+				<item id="2457" min="1" max="1" chance="0.0005" /> <!-- gloves of seal -->
+				<item id="2455" min="1" max="1" chance="0.0005" /> <!--  pl gloves -->
+				<item id="198" min="1" max="1" chance="0.0005" /> <!-- inferno staff -->
+				<item id="203" min="1" max="1" chance="0.0005" /> <!-- pa'agrio axe -->
+				<item id="2434" min="1" max="1" chance="0.0005" /> <!--  rind leather boots -->
+				<item id="2458" min="1" max="1" chance="0.0005" /> <!-- rind leather gloves  -->
 			</drop>
 			<spoil>
 				<item id="1895" min="1" max="3" chance="57.7" /> <!-- metalic fiber  -->
@@ -1723,13 +1713,11 @@
 				<group chance="70">
 					<item id="57" min="1625" max="3801" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="100">
-					<item id="1873" min="1" max="1" chance="13.6354" /> <!-- Silver Nugget -->
-					<item id="1869" min="1" max="1" chance="34.0886" /> <!-- Iron Ore -->
-					<item id="1880" min="1" max="1" chance="3.4089" /> <!-- Steel -->
-					<item id="1874" min="1" max="1" chance="2.2726" /> <!-- Oriharukon Ore -->
-					<item id="951" min="1" max="1" chance="0.004" /> <!-- ewc-->
-				</group>
+				<item id="1873" min="1" max="1" chance="13.6354" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="1" chance="34.0886" /> <!-- Iron Ore -->
+				<item id="1880" min="1" max="1" chance="3.4089" /> <!-- Steel -->
+				<item id="1874" min="1" max="1" chance="2.2726" /> <!-- Oriharukon Ore -->
+				<item id="951" min="1" max="1" chance="0.004" /> <!-- ewc-->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="30.8999" /> <!-- Silver Nugget -->
