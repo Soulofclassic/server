@@ -5214,6 +5214,17 @@
 			<radius normal="17" />
 			<height normal="34" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="3418" max="6315" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="41.9497" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="52.4371" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21872" level="80" type="Monster" name="Varka Silenos Scout">
 		<!-- Classic Seven Sings -->
@@ -5283,7 +5294,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1418" max="3315" chance="100" /> <!-- Adena -->
+					<item id="57" min="3418" max="8315" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.507">
 					<item id="5478" min="1" max="1" chance="22.9254" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
@@ -5299,12 +5310,6 @@
 					<item id="1872" min="1" max="3" chance="52.0476" /> <!-- Animal Bone Fragment -->
 					<item id="1867" min="1" max="3" chance="34.6984" /> <!-- Animal Skin -->
 					<item id="1881" min="1" max="1" chance="10.4095" /> <!-- Coarse Bone Powder -->
-					<item id="92912" min="1" max="1" chance="1.5614" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.7807" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2602" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1561" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.0781" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.008" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -6571,12 +6576,6 @@
 					<item id="1875" min="1" max="1" chance="19.4307" /> <!-- Stone of Purity -->
 					<item id="1876" min="1" max="1" chance="58.292" /> <!-- Mithril Ore -->
 					<item id="1877" min="1" max="1" chance="11.6584" /> <!-- Adamantite Nugget -->
-					<item id="92912" min="1" max="1" chance="5.8292" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="2.9146" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.9715" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.5829" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.2915" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.0292" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -6604,6 +6603,7 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
+		<acquire exp="281240" sp="10293" />
 		<equipment rhand="2500" lhand="6918" /> <!-- rhand: Dark Legion's Edge lhand: Monster Only (Shield of Silenos) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
@@ -6623,8 +6623,8 @@
 			<skill id="4409" level="7" /> <!-- MP Very High -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6645,7 +6645,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2204" max="5152" chance="100" /> <!-- Adena -->
+					<item id="57" min="4204" max="9152" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2749">
 					<item id="90045" min="1" max="1" chance="62.5" /> <!-- Magical Tablet -->
@@ -6654,12 +6654,6 @@
 				<group chance="47.3883">
 					<item id="1874" min="1" max="1" chance="6.0436" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="90.6536" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="1.8131" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.9065" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.3022" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1813" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.0907" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.009" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -6668,7 +6662,6 @@
 				<item id="1870" min="1" max="7" chance="81.4796" /> <!-- Coal -->
 			</spoil>
 		</dropLists>
-
 	</npc>
 	<npc id="21890" level="82" type="Monster" name="Varka's Chief Magus">
 		<!-- Classic Seven Sings -->
