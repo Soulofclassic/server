@@ -1784,7 +1784,7 @@
 		<equipment rhand="221" />
 		<acquire exp="969283" sp="29079" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -1826,19 +1826,17 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="774" max="1809" chance="100" /> <!-- Adena -->
+					<item id="57" min="7740" max="18090" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0734">
 					<item id="8679" min="1" max="1" chance="0.2286" /> <!-- Sword of Ipos -->
 					<item id="8713" min="1" max="1" chance="99.7714" /> <!-- Sword of Ipos Blade -->
 				</group>
-				<group chance="0.5751">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
+				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 			</drop>
 			<spoil>
-				<item id="8713" min="1" max="1" chance="0.1389" /> <!-- Sword of Ipos Blade -->
-				<item id="8692" min="1" max="1" chance="0.0243" /> <!-- Recipe: Sword of Ipos (60%) -->
+				<item id="8713" min="1" max="1" chance="1.1389" /> <!-- Sword of Ipos Blade -->
+				<item id="8692" min="1" max="1" chance="1.0243" /> <!-- Recipe: Sword of Ipos (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1859,7 +1857,7 @@
 		<equipment rhand="2507" />
 		<acquire exp="1955500" sp="58665" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -1874,6 +1872,22 @@
 			<radius normal="10" />
 			<height normal="22" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="11351" max="18210" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0499">
+					<item id="8684" min="1" max="1" chance="0.1525" /> <!-- shyeed -->
+					<item id="8718" min="1" max="1" chance="99.8475" /> <!-- shyeed shaft -->
+				</group>
+				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+			</drop>
+			<spoil>
+				<item id="8718" min="1" max="1" chance="1.0946" /> <!-- shyeed shaft -->
+				<item id="8702" min="1" max="1" chance="1.011" /> <!-- Recipe: shyeed (60%) -->
+			</spoil>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="1" /> <!-- HP Increase (2x) -->
@@ -1914,7 +1928,7 @@
 		<sex>MALE</sex>
 		<acquire exp="2997653" sp="89930" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -1929,6 +1943,22 @@
 			<radius normal="17" />
 			<height normal="39" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="11351" max="18210" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.0499">
+					<item id="8681" min="1" max="1" chance="0.1525" /> <!-- behemoth -->
+					<item id="8715" min="1" max="1" chance="99.8475" /> <!-- behemoth piece -->
+				</group>
+				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+			</drop>
+			<spoil>
+				<item id="8715" min="1" max="1" chance="1.0946" /> <!-- behemoth piece -->
+				<item id="8696" min="1" max="1" chance="1.011" /> <!-- Recipe: behemoth  -->
+			</spoil>
+		</dropLists>
 		<skillList>
 			<skill id="4416" level="11" /> <!-- Giants -->
 			<skill id="4408" level="1" /> <!-- HP Increase (3x) -->
