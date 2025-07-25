@@ -618,7 +618,11 @@ public class AdminSpawn implements IAdminCommandHandler
 		try
 		{
 			final Spawn spawn = new Spawn(template1);
-			spawn.setXYZ(target);
+			int x = target.getX();
+			int y = target.getY();
+			int z = GeoEngine.getInstance().getHeight(x, y, target.getZ());
+
+			spawn.setXYZ(x, y, z);
 			spawn.setAmount(mobCount);
 			spawn.setHeading(activeChar.getHeading());
 			spawn.setRespawnDelay(respawnTime);
