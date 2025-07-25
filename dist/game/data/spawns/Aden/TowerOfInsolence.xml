@@ -321,11 +321,6 @@
 				<node x="114008" y="15108" />
 			</territory>
 		</territories>
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
@@ -354,10 +349,6 @@
 				<node x="112744" y="14672" />
 			</territory>
 		</territories>
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
@@ -379,9 +370,6 @@
 				<node x="115987" y="14105" />
 			</territory>
 		</territories>
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
