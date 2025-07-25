@@ -303,24 +303,17 @@
 	<spawn>
 		<territories>
 			<territory name="aden35_2318_01" minZ="-2160" maxZ="-1960">
-				<node x="114324" y="14992" />
-				<node x="114976" y="15004" />
-				<node x="115280" y="15128" />
-				<node x="115600" y="15432" />
-				<node x="115724" y="15728" />
-				<node x="115724" y="16388" />
-				<node x="115560" y="16720" />
-				<node x="115280" y="17008" />
-				<node x="114980" y="17136" />
-				<node x="114304" y="17144" />
-				<node x="114032" y="17024" />
-				<node x="113696" y="16700" />
-				<node x="113596" y="16416" />
-				<node x="113580" y="15720" />
-				<node x="113692" y="15436" />
-				<node x="114008" y="15108" />
+				<node x="114140" y="15950" />
+				<node x="114382" y="15682" />
+				<node x="114117" y="15538" />
+				<node x="113882" y="15949" />
 			</territory>
 		</territories>
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
@@ -349,6 +342,10 @@
 				<node x="112744" y="14672" />
 			</territory>
 		</territories>
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
@@ -370,6 +367,9 @@
 				<node x="115987" y="14105" />
 			</territory>
 		</territories>
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
@@ -392,6 +392,10 @@
 				<node x="115056" y="17415" />
 			</territory>
 		</territories>
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
+		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20817" count="1" respawnTime="180sec" respawnRandom="40sec" />
@@ -401,17 +405,6 @@
 		<npc id="20822" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20822" count="1" respawnTime="180sec" respawnRandom="40sec" />
 		<npc id="20822" count="1" respawnTime="180sec" respawnRandom="40sec" />
-	</spawn>
-	<spawn>
-		<territories>
-			<territory name="aden35_2318_04" minZ="-2160" maxZ="-1960">
-				<node x="115025" y="16737" />
-			</territory>
-		</territories>
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
-		<npc id="20816" count="1" respawnTime="180sec" respawnRandom="40sec" />
 	</spawn>
 	<spawn>
 		<territories>
