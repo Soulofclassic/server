@@ -1293,10 +1293,10 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="TriggerSkillByDamageDealt">
+			<effect name="TriggerSkillByDamageDealt" fromLevel="6" toLevel="10">
 				<attackerType>Creature</attackerType>
 				<minDamage>1</minDamage>
-				<chance>30</chance>
+				<chance>10</chance>
 				<targetType>SELF</targetType>
 				<allowSkillAttack>true</allowSkillAttack>
 				<allowNormalAttack>true</allowNormalAttack>
@@ -1315,7 +1315,7 @@
 				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
 				<skillId>54037</skillId>
-				<chance>30</chance>
+				<chance>100</chance>
 				<skillLevel>
 					<value level="6">1</value>
 					<value level="7">2</value>
