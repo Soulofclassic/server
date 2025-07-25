@@ -21,9 +21,9 @@
 			<value level="5">icon.etc_bm_jewel_garnet</value>
 		</icon>
 		<operateType>P</operateType>
-		<targetType>SELF</targetType>
-		<affectScope>SINGLE</affectScope>
+		<isMagic>1</isMagic>
 		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
 		<effects>
 			<effect name="DefenceTrait">
 				<SHOCK>
@@ -77,7 +77,7 @@
 			<value level="4">icon.etc_bm_jewel_garnet</value>
 			<value level="5">icon.etc_bm_jewel_garnet</value>
 		</icon>
-			<operateType>A2</operateType>
+		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>

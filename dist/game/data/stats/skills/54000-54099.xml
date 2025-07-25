@@ -1243,7 +1243,6 @@
 				<allowWeapons>ALL</allowWeapons>
 				<skillId>54036</skillId>
 				<chance>100</chance>
-				<reuseDelay>60000</reuseDelay>
 				<skillLevel>
 					<value level="6">1</value>
 					<value level="7">2</value>
