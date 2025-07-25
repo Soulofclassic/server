@@ -6015,8 +6015,8 @@
 			<skill id="4409" level="7" /> <!-- MP Very High -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6042,7 +6042,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2240" max="5237" chance="100" /> <!-- Adena -->
+					<item id="57" min="6240" max="10237" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.6029">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -6132,6 +6132,13 @@
 			<radius normal="18" />
 			<height normal="34" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2310" max="5400" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21883" level="82" type="Monster" name="Varka Silenos Chief Priest">
 		<!-- Classic Seven Sings -->
@@ -6743,8 +6750,8 @@
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6766,7 +6773,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2210" max="5166" chance="100" /> <!-- Adena -->
+					<item id="57" min="4210" max="10166" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4372">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -6785,12 +6792,6 @@
 					<item id="1875" min="1" max="1" chance="19.4307" /> <!-- Stone of Purity -->
 					<item id="1876" min="1" max="1" chance="58.292" /> <!-- Mithril Ore -->
 					<item id="1877" min="1" max="1" chance="11.6584" /> <!-- Adamantite Nugget -->
-					<item id="92912" min="1" max="1" chance="5.8292" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="2.9146" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.9715" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.5829" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.2915" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.0292" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -6845,6 +6846,21 @@
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 			<skill id="4573" level="9" /> <!-- NPC Sonic Blaster -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="10110" max="20400" chance="100" /> <!-- Adena -->
+				</group>
+				<item id="1870" min="3" max="9" chance="33.6957" /> <!-- coal -->
+				<item id="1874" min="1" max="1" chance="14.6957" /> <!-- oo -->
+			</drop>
+			<spoil>
+				<item id="1872" min="2" max="14" chance="81.0363" /> <!-- ab -->
+				<item id="1867" min="2" max="14" chance="81.0363" /> <!-- as -->
+				<item id="1881" min="1" max="1" chance="64.0363" /> <!-- cbp -->
+				<item id="4043" min="1" max="1" chance="16.0363" /> <!-- asofe -->
+			</spoil>
+		</dropLists>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="false">
@@ -6903,8 +6919,8 @@
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6929,7 +6945,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2310" max="5400" chance="100" /> <!-- Adena -->
+					<item id="57" min="4310" max="10400" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4571">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -6948,12 +6964,6 @@
 					<item id="1875" min="1" max="1" chance="19.4307" /> <!-- Stone of Purity -->
 					<item id="1876" min="1" max="1" chance="58.292" /> <!-- Mithril Ore -->
 					<item id="1877" min="1" max="1" chance="11.6584" /> <!-- Adamantite Nugget -->
-					<item id="92912" min="1" max="1" chance="5.8292" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="2.9146" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.9715" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.5829" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.2915" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.0292" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
