@@ -1347,7 +1347,7 @@
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
-		<isMagic>1</isMagic>
+		<effectPoint>1</effectPoint>
 		<reuseDelay>60000</reuseDelay>
 		<effects>
 			<effect name="Hp">
