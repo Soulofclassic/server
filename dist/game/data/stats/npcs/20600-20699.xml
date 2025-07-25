@@ -4150,7 +4150,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2955" max="8570" chance="100" /> <!-- Adena -->
+					<item id="57" min="4955" max="12570" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8343">
 					<item id="5534" min="1" max="1" chance="8.3658" /> <!-- Soul Bow Shaft -->
@@ -4231,7 +4231,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1998" max="4665" chance="100" /> <!-- Adena -->
+					<item id="57" min="2998" max="8665" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.4172">
 					<item id="5494" min="1" max="1" chance="57.614" /> <!-- Sealed Dark Crystal Shield Fragment -->
@@ -4393,7 +4393,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2551" max="6621" chance="100" /> <!-- Adena -->
+					<item id="57" min="4551" max="9621" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.2684">
 					<item id="5509" min="1" max="1" chance="24.9552" /> <!-- Sealed Tallum Glove Design -->

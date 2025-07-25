@@ -525,7 +525,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2269" max="4962" chance="100" /> <!-- Adena -->
+					<item id="57" min="4269" max="8962" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.3367">
 					<item id="5515" min="1" max="1" chance="24.9591" /> <!-- Sealed Majestic Gauntlet Design -->
@@ -573,7 +573,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
@@ -590,7 +590,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2084" max="4878" chance="100" /> <!-- Adena -->
+					<item id="57" min="4084" max="8878" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5691">
 					<item id="5520" min="1" max="1" chance="30.7213" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
@@ -605,11 +605,6 @@
 					<item id="1880" min="1" max="1" chance="7.3058" /> <!-- Steel -->
 					<item id="1869" min="1" max="3" chance="36.5292" /> <!-- Iron Ore -->
 					<item id="1865" min="1" max="3" chance="24.3528" /> <!-- Varnish -->
-					<item id="92912" min="1" max="1" chance="1.4612" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.7306" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2435" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1461" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0074" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -831,7 +826,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
@@ -846,21 +841,14 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2002" max="4680" chance="100" /> <!-- Adena -->
+					<item id="57" min="4002" max="12680" chance="100" /> <!-- Adena -->
 				</group>
-				<group chance="0.026">
+				<group chance="1.126">
 					<item id="729" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Weapon (A-grade) - Exchangeable -->
-				</group>
-				<group chance="2.2142">
-					<item id="92912" min="1" max="1" chance="56.444" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="28.222" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="9.4073" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.6444" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.2823" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
-				<item id="729" min="1" max="1" chance="0.0494" /> <!-- Scroll: Enchant Weapon (A-grade) - Exchangeable -->
+				<item id="729" min="1" max="1" chance="1.0494" /> <!-- Scroll: Enchant Weapon (A-grade) - Exchangeable -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -887,7 +875,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
@@ -902,7 +890,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2013" max="4707" chance="100" /> <!-- Adena -->
+					<item id="57" min="4013" max="8707" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.4646">
 					<item id="5509" min="1" max="1" chance="24.9105" /> <!-- Sealed Tallum Glove Design -->
@@ -916,11 +904,6 @@
 					<item id="1880" min="1" max="1" chance="10.3224" /> <!-- Steel -->
 					<item id="1869" min="1" max="3" chance="51.612" /> <!-- Iron Ore -->
 					<item id="1865" min="1" max="3" chance="34.408" /> <!-- Varnish -->
-					<item id="92912" min="1" max="1" chance="2.0645" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="1.0322" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.3441" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.2064" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0104" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -955,7 +938,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
@@ -971,7 +954,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1629" max="3808" chance="100" /> <!-- Adena -->
+					<item id="57" min="3629" max="7808" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.72">
 					<item id="5515" min="1" max="1" chance="24.9591" /> <!-- Sealed Majestic Gauntlet Design -->
@@ -984,11 +967,6 @@
 					<item id="1880" min="1" max="1" chance="10.3224" /> <!-- Steel -->
 					<item id="1869" min="1" max="3" chance="51.612" /> <!-- Iron Ore -->
 					<item id="1865" min="1" max="3" chance="34.408" /> <!-- Varnish -->
-					<item id="92912" min="1" max="1" chance="2.0645" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="1.0322" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.3441" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.2064" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0104" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
