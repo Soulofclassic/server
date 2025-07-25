@@ -67,13 +67,7 @@
 		<!-- Level 3: Becomes invincible from debuffs for 9 sec. -->
 		<!-- Level 4: Becomes invincible from debuffs for 12 sec. -->
 		<!-- Level 5: Becomes invincible from debuffs for 15 sec. -->
-		<icon>
-			<value level="1">icon.etc_bm_jewel_garnet</value>
-			<value level="2">icon.etc_bm_jewel_garnet</value>
-			<value level="3">icon.etc_bm_jewel_garnet</value>
-			<value level="4">icon.etc_bm_jewel_garnet</value>
-			<value level="5">icon.etc_bm_jewel_garnet</value>
-		</icon>
+		<icon>icon.etc_bm_jewel_garnet</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<abnormalLevel>1</abnormalLevel>
@@ -84,6 +78,33 @@
 			<value level="4">12</value>
 			<value level="5">15</value>
 		</abnormalTime>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>1</effectPoint>
+		<hitTime>0</hitTime>
+		<magicLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+			<value level="5">5</value>
+		</magicLevel>
+		<reuseDelay>300000</reuseDelay>
+		<reuseDelayGroup>18567</reuseDelayGroup>
+		<effects>
+			<effect name="DebuffBlock" />
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>10</max>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-100</amount>
+				<slot>ALL</slot>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="18571" toLevel="1" name="Hero's Basics - I">
 		<!-- Acquired XP/ SP +3%. -->
