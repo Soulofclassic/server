@@ -550,14 +550,14 @@
 					<item id="57" min="11351" max="18210" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0499">
-					<item id="8678" min="1" max="1" chance="0.1525" /> <!-- Sirra's Blade -->
-					<item id="8712" min="1" max="1" chance="99.8475" /> <!-- Sirra's Blade Edge -->
+					<item id="8686" min="1" max="1" chance="0.1525" /> <!-- themis -->
+					<item id="8720" min="1" max="1" chance="99.8475" /> <!-- themis edge Edge -->
 				</group>
 				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 			</drop>
 			<spoil>
-				<item id="8712" min="1" max="1" chance="1.0946" /> <!-- Sirra's Blade Edge -->
-				<item id="8690" min="1" max="1" chance="1.011" /> <!-- Recipe: Sirra's Blade (60%) -->
+				<item id="8720" min="1" max="1" chance="1.0946" /> <!-- themis Edge -->
+				<item id="8706" min="1" max="1" chance="1.011" /> <!-- Recipe: themis (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
