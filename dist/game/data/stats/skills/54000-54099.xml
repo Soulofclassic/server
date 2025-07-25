@@ -1293,17 +1293,37 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="VampiricAttack" fromLevel="6" toLevel="10"> 
-				<amount>
-					<value level="6">3</value>
-					<value level="7">6</value>
-					<value level="8">9</value>
-					<value level="9">12</value>
-					<value level="10">15</value>
-				</amount>
-				<mode>PER</mode>
-				<chance>80</chance>
-			</effect>	
+			<effect name="TriggerSkillByDamageDealt">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>54037</skillId>
+				<skillLevel>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</skillLevel>
+			<effect name="TriggerSkillByMagicType" fromLevel="6" toLevel="10">
+				<magicType>0</magicType>
+				<targetType>SELF</targetType>
+				<minDamage>1</minDamage>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>54037</skillId>
+				<chance>30</chance>
+				<skillLevel>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</skillLevel>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54036" toLevel="5" name="Anakim Recovery">
@@ -1327,7 +1347,7 @@
 		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
-		<effectPoint>1</effectPoint>
+		<isMagic>1</isMagic>
 		<reuseDelay>60000</reuseDelay>
 		<effects>
 			<effect name="Hp">
