@@ -1192,18 +1192,7 @@
 		<!-- Level 8: MP Recovery +55, M. Atk. +8%, Restores 225 hp when using Magical skills. -->
 		<!-- Level 9: MP Recovery +70, M. Atk. +11%, Restores 300 hp when using Magical skills. -->
 		<!-- Level 10: MP Recovery +90, M. Atk. +15%, Restores 600 hp when using Magical skills.. -->
-		<icon>
-			<value level="1">icon.etc_water_rune_i00</value>
-			<value level="2">icon.etc_water_rune_i00</value>
-			<value level="3">icon.etc_water_rune_i00</value>
-			<value level="4">icon.etc_water_rune_i00</value>
-			<value level="5">icon.etc_water_rune_i00</value>
-			<value level="6">icon.etc_water_rune_i00</value>
-			<value level="7">icon.etc_water_rune_i00</value>
-			<value level="8">icon.etc_water_rune_i00</value>
-			<value level="9">icon.etc_water_rune_i00</value>
-			<value level="10">icon.etc_water_rune_i00</value>
-		</icon>
+		<icon>icon.etc_water_rune_i00</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="MpRegen">
@@ -1235,6 +1224,21 @@
 					<value level="10">15</value>
 				</amount>
 				<mode>PER</mode>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="6" toLevel="10">
+				<attackerType>Creature</attackerType>
+				<targetType>SELF</targetType>
+				<allowWeapons>ALL</allowWeapons>
+				<minDamage>1</minDamage>
+				<chance>80</chance>
+				<skillId>54036</skillId>
+				<skillLevel>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</skillLevel>
 			</effect>
 			<effect name="TriggerSkillByMagicType" fromLevel="6" toLevel="10">
 				<targetType>SELF</targetType>
@@ -1332,6 +1336,7 @@
 		<!-- Level 4: Recovers 300 MP when skills are used. -->
 		<!-- Level 5: Recovers 600 MP when skills are used. -->
 		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<effectPoint>1</effectPoint>
