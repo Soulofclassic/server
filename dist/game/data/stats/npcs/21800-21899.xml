@@ -5056,6 +5056,18 @@
 			<skill id="4072" level="8" /> <!-- Stun -->
 			<skill id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="7200" max="24000" chance="100" /> <!-- Adena -->
+				</group>
+				<item id="2133" min="1" max="1" chance="2" /> <!-- gem A -->
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="41.9497" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="52.4371" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>2</sNpcPropHpRate>
@@ -5108,8 +5120,8 @@
 			<skill id="4409" level="5" /> <!-- MP High -->
 			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5145,12 +5157,6 @@
 					<item id="1864" min="4" max="12" chance="19.15" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="30.64" /> <!-- Durable Braid -->
 					<item id="1895" min="1" max="1" chance="21.8857" /> <!-- Metallic Fiber -->
-					<item id="92912" min="1" max="1" chance="1.532" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.766" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2553" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1532" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.0766" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.0078" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -5267,8 +5273,8 @@
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -5294,7 +5300,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="3418" max="8315" chance="100" /> <!-- Adena -->
+					<item id="57" min="4418" max="10315" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.507">
 					<item id="5478" min="1" max="1" chance="22.9254" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
@@ -5361,8 +5367,8 @@
 			<skill id="4409" level="6" /> <!-- MP Very High -->
 			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="9" /> <!-- Bow -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5383,7 +5389,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2092" max="4890" chance="100" /> <!-- Adena -->
+					<item id="57" min="4092" max="8890" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7478">
 					<item id="5478" min="1" max="1" chance="22.9254" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
@@ -5400,12 +5406,6 @@
 					<item id="1880" min="1" max="1" chance="7.3005" /> <!-- Steel -->
 					<item id="1869" min="1" max="3" chance="36.5026" /> <!-- Iron Ore -->
 					<item id="1865" min="1" max="3" chance="24.335" /> <!-- Varnish -->
-					<item id="92912" min="1" max="1" chance="1.4601" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.7301" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2434" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.146" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.073" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.0072" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -5461,8 +5461,8 @@
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5472,6 +5472,18 @@
 			<skill id="4160" level="8" /> <!-- NPC Aura Burn - Magic -->
 			<skill id="4563" level="8" /> <!-- NPC Solar Flare - Magic -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="7200" max="24000" chance="100" /> <!-- Adena -->
+				</group>
+				<item id="2133" min="1" max="1" chance="2" /> <!-- gem A -->
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="41.9497" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="52.4371" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>2</sNpcPropHpRate>
@@ -5522,8 +5534,8 @@
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4277" level="5" /> <!-- Poison Resistance -->
@@ -5540,6 +5552,17 @@
 			<radius normal="28" />
 			<height normal="43.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="3453" max="7811" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="41.9497" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="52.4371" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21876" level="80" type="Monster" name="Varka Silenos Priest">
 		<!-- Classic Seven Sings -->
@@ -5582,8 +5605,8 @@
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5603,6 +5626,17 @@
 			<radius normal="9" />
 			<height normal="41.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="7200" max="24000" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="41.9497" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="52.4371" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21877" level="80" type="Monster" name="Varka Silenos Warrior">
 		<!-- Classic Seven Sings -->
@@ -5646,8 +5680,8 @@
 			<skill id="4409" level="7" /> <!-- MP Very High -->
 			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -5673,7 +5707,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2149" max="5023" chance="100" /> <!-- Adena -->
+					<item id="57" min="4149" max="10023" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4664">
 					<item id="5520" min="1" max="1" chance="23.1665" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
@@ -5691,12 +5725,6 @@
 					<item id="1872" min="1" max="3" chance="52.0476" /> <!-- Animal Bone Fragment -->
 					<item id="1867" min="1" max="3" chance="34.6984" /> <!-- Animal Skin -->
 					<item id="1881" min="1" max="1" chance="10.4095" /> <!-- Coarse Bone Powder -->
-					<item id="92912" min="1" max="1" chance="1.5614" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.7807" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2602" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1561" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.0781" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.008" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -5762,6 +5790,17 @@
 			<radius normal="18" />
 			<height normal="25" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="3431" max="7890" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="41.9497" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="52.4371" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21879" level="81" type="Monster" name="Varka Silenos Medium">
 		<!-- Classic Seven Sings -->
@@ -5807,8 +5846,8 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5835,7 +5874,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2052" max="4797" chance="100" /> <!-- Adena -->
+					<item id="57" min="4052" max="9797" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7343">
 					<item id="5485" min="1" max="1" chance="22.9056" /> <!-- Sealed Tallum Tunic Texture -->
@@ -5850,12 +5889,6 @@
 				<group chance="44.128">
 					<item id="1874" min="1" max="1" chance="6.0436" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="90.6536" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="1.8131" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.9065" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.3022" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1813" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.0907" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.009" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -5907,8 +5940,8 @@
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5928,6 +5961,17 @@
 			<radius normal="11" />
 			<height normal="55.2" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="8200" max="24000" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="41.9497" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="52.4371" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21881" level="81" type="Monster" name="Varka Silenos Sergeant">
 		<!-- Classic Seven Sings -->
@@ -6132,8 +6176,8 @@
 			<skill id="4409" level="2" /> <!-- MP Medium-High -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6158,7 +6202,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2143" max="5009" chance="100" /> <!-- Adena -->
+					<item id="57" min="4143" max="9009" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7667">
 					<item id="5485" min="1" max="1" chance="22.9056" /> <!-- Sealed Tallum Tunic Texture -->
@@ -6174,12 +6218,6 @@
 					<item id="1872" min="1" max="3" chance="52.0476" /> <!-- Animal Bone Fragment -->
 					<item id="1867" min="1" max="3" chance="34.6984" /> <!-- Animal Skin -->
 					<item id="1881" min="1" max="1" chance="10.4095" /> <!-- Coarse Bone Powder -->
-					<item id="92912" min="1" max="1" chance="1.5614" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.7807" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2602" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1561" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.0781" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.008" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -6531,8 +6569,8 @@
 			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
 			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6557,7 +6595,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2392" max="5593" chance="100" /> <!-- Adena -->
+					<item id="57" min="4392" max="10593" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4734">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
