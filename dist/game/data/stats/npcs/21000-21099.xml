@@ -4999,9 +4999,9 @@
 				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 			</drop>
 			<spoil>
-				<item id="8720" min="1" max="1" chance="0.1394" /> <!-- Themis' Tongue Piece -->
-				<item id="90045" min="1" max="1" chance="0.1149" /> <!-- Magical Tablet -->
-				<item id="8706" min="1" max="1" chance="0.0244" /> <!-- Recipe: Themis' Tongue (60%) -->
+				<item id="8720" min="1" max="1" chance="1.1394" /> <!-- Themis' Tongue Piece -->
+				<item id="90045" min="1" max="1" chance="4.1149" /> <!-- Magical Tablet -->
+				<item id="8706" min="1" max="1" chance="1.0244" /> <!-- Recipe: Themis' Tongue (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
