@@ -1644,7 +1644,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1984500" sp="59535" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -1667,13 +1667,11 @@
 				<group chance="0.0869">
 					<item id="91902" min="1" max="1" chance="0.2286" /> <!-- bijou -->
 				</group>
-				<group chance="0.6809">
-					<item id="2133" min="1" max="1" chance="40.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
+				<item id="2133" min="1" max="1" chance="2.3733" /> <!-- Gemstone (A-grade) -->
 			</drop>
 			<spoil>
-				<item id="2133" min="1" max="1" chance="1.1645" /> <!-- gem A -->
-				<item id="90045" min="1" max="1" chance="1.1149" /> <!-- Magical Tablet -->
+				<item id="2133" min="1" max="1" chance="4.1645" /> <!-- gem A -->
+				<item id="90045" min="1" max="1" chance="4.1149" /> <!-- Magical Tablet -->
 			</spoil>
 		</dropLists>
 		<skillList>
@@ -1713,7 +1711,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1986617" sp="59599" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -1737,13 +1735,11 @@
 					<item id="8682" min="1" max="1" chance="0.2286" /> <!-- naga storm -->
 					<item id="8716" min="1" max="1" chance="99.7714" /> <!-- naga storm piece -->
 				</group>
-				<group chance="0.8654">
-					<item id="2133" min="1" max="1" chance="40.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
+				<item id="2133" min="1" max="1" chance="2.3733" /> <!-- Gemstone (A-grade) -->
 			</drop>
 			<spoil>
 				<item id="8716" min="1" max="1" chance="1.1394" /> <!-- naga storm piece -->
-				<item id="90045" min="1" max="1" chance="1.1149" /> <!-- Magical Tablet -->
+				<item id="90045" min="1" max="1" chance="4.1149" /> <!-- Magical Tablet -->
 				<item id="8698" min="1" max="1" chance="1.0244" /> <!-- Recipe: naga storm (60%) -->
 			</spoil>
 		</dropLists>
@@ -2169,8 +2165,8 @@
 				</group>
 			</drop>
 			<spoil>
-				<item id="8717" min="1" max="1" chance="0.1645" /> <!-- Tiphon's Spear Edge -->
-				<item id="8700" min="1" max="1" chance="0.0288" /> <!-- Recipe: Tiphon's Spear (60%) -->
+				<item id="8717" min="1" max="1" chance="1.1645" /> <!-- Tiphon's Spear Edge -->
+				<item id="8700" min="1" max="1" chance="1.0288" /> <!-- Recipe: Tiphon's Spear (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2221,8 +2217,8 @@
 				</group>
 			</drop>
 			<spoil>
-				<item id="8718" min="1" max="1" chance="0.1645" /> <!-- shyeed Edge -->
-				<item id="8702" min="1" max="1" chance="0.0288" /> <!-- Recipe: shyeed(60%) -->
+				<item id="8718" min="1" max="1" chance="1.1645" /> <!-- shyeed Edge -->
+				<item id="8702" min="1" max="1" chance="1.0288" /> <!-- Recipe: shyeed(60%) -->
 			</spoil>
 		</dropLists>
 		<skillList>
@@ -2296,8 +2292,8 @@
 				</group>
 			</drop>
 			<spoil>
-				<item id="2133" min="1" max="1" chance="0.1645" /> <!-- Gem A-->
-				<item id="8700" min="1" max="1" chance="0.0288" /> <!-- Recipe: Tiphon's Spear (60%) -->
+				<item id="2133" min="1" max="1" chance="1.1645" /> <!-- Gem A-->
+				<item id="90045" min="1" max="1" chance="1.1149" /> <!-- Magical Tablet -->
 			</spoil>
 		</dropLists>
 		<skillList>
