@@ -4875,7 +4875,7 @@
 		<sex>FEMALE</sex>
 		<acquire exp="1436673" sp="43101" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="43915.74" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
 			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1545.9864336" magical="707.053617" />
 			<speed>
@@ -4892,12 +4892,12 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="6" /> <!-- Very Weak M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Very Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4276" level="3" /> <!-- Bow Vulnerability -->
@@ -4916,27 +4916,18 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1165" max="2723" chance="100" /> <!-- Adena -->
+					<item id="57" min="11650" max="27230" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1105">
 					<item id="8687" min="1" max="1" chance="0.2286" /> <!-- Cabrio's Hand -->
 					<item id="8721" min="1" max="1" chance="99.7714" /> <!-- Cabrio's Hand Head -->
 				</group>
-				<group chance="0.8654">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
-				</group>
+				<item id="2133" min="1" max="1" chance="2.3733" /> <!-- Gemstone (A-grade) -->
 			</drop>
 			<spoil>
-				<item id="8721" min="1" max="1" chance="0.1394" /> <!-- Cabrio's Hand Head -->
-				<item id="90045" min="1" max="1" chance="0.1149" /> <!-- Magical Tablet -->
-				<item id="8708" min="1" max="1" chance="0.0244" /> <!-- Recipe: Cabrio's Hand (60%) -->
+				<item id="8721" min="1" max="1" chance="1.1394" /> <!-- Cabrio's Hand Head -->
+				<item id="90045" min="1" max="1" chance="4.1149" /> <!-- Magical Tablet -->
+				<item id="8708" min="1" max="1" chance="1.0244" /> <!-- Recipe: Cabrio's Hand (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4975,12 +4966,12 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="6" /> <!-- Very Weak M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Very Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="9" /> <!-- Bow -->
 			<skill id="4389" level="2" /> <!-- Mental Attack Resistance -->
@@ -5007,13 +4998,6 @@
 				</group>
 				<group chance="0.8654">
 					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="52.4797" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.2398" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.7466" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.248" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="2.624" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.2624" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
-					<item id="94328" min="1" max="1" chance="0.0262" /> <!-- Elixir Powder -->
 				</group>
 			</drop>
 			<spoil>

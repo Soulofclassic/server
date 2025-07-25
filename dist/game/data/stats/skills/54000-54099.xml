@@ -25,6 +25,8 @@
 		<!-- Level 22: P. Def. +25%, Stun Atk. Rate +65%. -->
 		<icon>icon.agathion_tau_star_1</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>75</magicLevel>
 		<effects>
 			<effect name="PhysicalDefence">
 				<amount>
@@ -79,6 +81,8 @@
 		<!-- Level 22: P. Atk. +15%, Paralysis Atk. Rate +55%. -->
 		<icon>icon.agathion_leo_star_1</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>75</magicLevel>
 		<effects>
 			<effect name="PhysicalAttack">
 				<amount>
@@ -241,6 +245,8 @@
 		<!-- Level 22: M. Def. +30%, Mental Atk. Rate +65%. -->
 		<icon>icon.agathion_virgo_star_1</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>75</magicLevel>
 		<effects>
 			<effect name="MagicalDefence">
 				<amount>
@@ -295,6 +301,8 @@
 		<!-- Level 22: M. Atk. +35%, Hold/ Sleep Atk. Rate +60%. -->
 		<icon>icon.agathion_aqu_star_1</icon>
 		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>75</magicLevel>
 		<effects>
 			<effect name="MagicalAttack">
 				<amount>
@@ -1179,23 +1187,12 @@
 		<!-- Level 3: MP Recovery +15, M. Atk. +1%. -->
 		<!-- Level 4: MP Recovery +20, M. Atk. +2%. -->
 		<!-- Level 5: MP Recovery +25, M. Atk. +2%. -->
-		<!-- Level 6: MP Recovery +35, M. Atk. +2%, MpVamp 1% -->
-		<!-- Level 7: MP Recovery +45, M. Atk. +5%, MpVamp 2% -->
-		<!-- Level 8: MP Recovery +55, M. Atk. +8%, MpVamp 3% -->
-		<!-- Level 9: MP Recovery +70, M. Atk. +11%, MpVamp 4% -->
-		<!-- Level 10: MP Recovery +90, M. Atk. +15%, MpVamp 5%. -->
-		<icon>
-			<value level="1">icon.etc_water_rune_i00</value>
-			<value level="2">icon.etc_water_rune_i00</value>
-			<value level="3">icon.etc_water_rune_i00</value>
-			<value level="4">icon.etc_water_rune_i00</value>
-			<value level="5">icon.etc_water_rune_i00</value>
-			<value level="6">icon.etc_water_rune_i00</value>
-			<value level="7">icon.etc_water_rune_i00</value>
-			<value level="8">icon.etc_water_rune_i00</value>
-			<value level="9">icon.etc_water_rune_i00</value>
-			<value level="10">icon.etc_water_rune_i00</value>
-		</icon>
+		<!-- Level 6: MP Recovery +35, M. Atk. +2%, Restores 75 hp when using Magical skills. -->
+		<!-- Level 7: MP Recovery +45, M. Atk. +5%, Restores 150 hp when using Magical skills. -->
+		<!-- Level 8: MP Recovery +55, M. Atk. +8%, Restores 225 hp when using Magical skills. -->
+		<!-- Level 9: MP Recovery +70, M. Atk. +11%, Restores 300 hp when using Magical skills. -->
+		<!-- Level 10: MP Recovery +90, M. Atk. +15%, Restores 600 hp when using Magical skills.. -->
+		<icon>icon.etc_water_rune_i00</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="MpRegen">
@@ -1228,16 +1225,33 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="MpVampiricAttack" fromLevel="6" toLevel="10">
-				<amount>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="6" toLevel="10">
+				<attackerType>Creature</attackerType>
+				<targetType>SELF</targetType>
+				<allowWeapons>ALL</allowWeapons>
+				<minDamage>1</minDamage>
+				<chance>80</chance>
+				<skillId>54036</skillId>
+				<skillLevel>
 					<value level="6">1</value>
 					<value level="7">2</value>
 					<value level="8">3</value>
 					<value level="9">4</value>
 					<value level="10">5</value>
-				</amount>
-				<mode>PER</mode>
+				</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByMagicType" fromLevel="6" toLevel="10">
+				<targetType>SELF</targetType>
+				<magicTypes>0;1</magicTypes>
 				<chance>80</chance>
+				<skillId>54036</skillId>
+				<skillLevel>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</skillLevel>
 			</effect>
 		</effects>
 	</skill>
@@ -1247,11 +1261,11 @@
 		<!-- Level 3: Hp regen +3%, P. Atk. +1%. -->
 		<!-- Level 4: Hp regen +4%, P. Atk. +2%. -->
 		<!-- Level 5: Hp regen +5%, P. Atk. +2%. -->
-		<!-- Level 6: Hp regen +5%, P. Atk. +2%, Vamp +1% -->
-		<!-- Level 7: Hp regen +7%, P. Atk. +5%, Vamp 2% -->
-		<!-- Level 8: Hp regen +9%, P. Atk. +8%, Vamp 3% -->
-		<!-- Level 9: Hp regen +12%, P. Atk. +11%, vamp 4% -->
-		<!-- Level 10: Hp regen +15%, P. Atk. +15%, vamp 5% -->
+		<!-- Level 6: Hp regen +5%, P. Atk. +2%. Restores 100 HP when dealing Physical Damage. -->
+		<!-- Level 7: Hp regen +7%, P. Atk. +5%. Restores 200 HP when dealing Physical Damage. -->
+		<!-- Level 8: Hp regen +9%, P. Atk. +8%. Restores 300 HP when dealing Physical Damage. -->
+		<!-- Level 9: Hp regen +12%, P. Atk. +11%. Restores 500 HP when dealing Physical Damage. -->
+		<!-- Level 10: Hp regen +15%, P. Atk. +15%, Restores 900 HP when dealing Physical Damage. -->
 		<icon>icon.etc_fire_rune_i00</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -1285,17 +1299,34 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="VampiricAttack" fromLevel="6" toLevel="10"> 
-				<amount>
-					<value level="6">3</value>
-					<value level="7">6</value>
-					<value level="8">9</value>
-					<value level="9">12</value>
-					<value level="10">15</value>
-				</amount>
-				<mode>PER</mode>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="6" toLevel="10">
+				<attackerType>Creature</attackerType>
+				<targetType>SELF</targetType>
+				<allowWeapons>ALL</allowWeapons>
+				<minDamage>1</minDamage>
 				<chance>80</chance>
-			</effect>	
+				<skillId>54037</skillId>
+				<skillLevel>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByMagicType" fromLevel="6" toLevel="10">
+				<targetType>SELF</targetType>
+				<magicTypes>0;1</magicTypes>
+				<chance>80</chance>
+				<skillId>54037</skillId>
+				<skillLevel>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</skillLevel>
+			</effect>
 		</effects>
 	</skill>
 	<skill id="54036" toLevel="5" name="Anakim Recovery">
@@ -1306,10 +1337,24 @@
 		<!-- Level 5: Recovers 600 MP when skills are used. -->
 		<icon>icon.skill0000</icon>
 		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
 		<effectPoint>1</effectPoint>
 		<reuseDelay>60000</reuseDelay>
+		<effects>
+			<effect name="Mp">
+				<amount>
+					<value level="1">75</value>
+					<value level="2">150</value>
+					<value level="3">225</value>
+					<value level="4">300</value>
+					<value level="5">600</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
 	</skill>
-	<skill id="54037" toLevel="6" name="Lilith Recovery">
+	<skill id="54037" toLevel="5" name="Lilith Recovery">
 		<!-- Level 1: Restores 100 HP when striking. -->
 		<!-- Level 2: Restores 200 HP when striking. -->
 		<!-- Level 3: Restores 300 HP when striking. -->
@@ -1327,9 +1372,8 @@
 					<value level="1">100</value>
 					<value level="2">200</value>
 					<value level="3">300</value>
-					<value level="4">400</value>
-					<value level="5">500</value>
-					<value level="6">900</value>
+					<value level="4">500</value>
+					<value level="5">900</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>
