@@ -1236,21 +1236,6 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="TriggerSkillByDamageDealt" fromLevel="6" toLevel="10">
-				<attackerType>Creature</attackerType>
-				<targetType>SELF</targetType>
-				<allowWeapons>ALL</allowWeapons>
-				<minDamage>1</minDamage>
-				<chance>80</chance>
-				<skillId>54036</skillId>
-				<skillLevel>
-					<value level="6">1</value>
-					<value level="7">2</value>
-					<value level="8">3</value>
-					<value level="9">4</value>
-					<value level="10">5</value>
-				</skillLevel>
-			</effect>
 			<effect name="TriggerSkillByMagicType" fromLevel="6" toLevel="10">
 				<targetType>SELF</targetType>
 				<magicTypes>0;1</magicTypes>
