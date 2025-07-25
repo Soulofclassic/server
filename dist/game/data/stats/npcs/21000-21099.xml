@@ -4949,7 +4949,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1471083" sp="44133" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -4990,15 +4990,13 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1165" max="2723" chance="100" /> <!-- Adena -->
+					<item id="57" min="11650" max="27230" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1105">
 					<item id="8686" min="1" max="1" chance="0.2286" /> <!-- Themis' Tongue -->
 					<item id="8720" min="1" max="1" chance="99.7714" /> <!-- Themis' Tongue Piece -->
 				</group>
-				<group chance="0.8654">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
+				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 			</drop>
 			<spoil>
 				<item id="8720" min="1" max="1" chance="0.1394" /> <!-- Themis' Tongue Piece -->

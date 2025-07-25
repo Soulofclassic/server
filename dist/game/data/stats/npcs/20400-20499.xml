@@ -515,7 +515,7 @@
 		<sex>MALE</sex>
 		<acquire exp="1045169" sp="31356" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="44350.854" hpRegen="17" mp="2770.2" mpRegen="6" />
+			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
 			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="1562.9247648" magical="714.800322" />
 			<speed>
@@ -547,19 +547,17 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="351" max="821" chance="100" /> <!-- Adena -->
+					<item id="57" min="11351" max="18210" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.0499">
-					<item id="8678" min="1" max="1" chance="0.1525" /> <!-- Sirra's Blade -->
-					<item id="8712" min="1" max="1" chance="99.8475" /> <!-- Sirra's Blade Edge -->
+					<item id="8686" min="1" max="1" chance="0.1525" /> <!-- themis -->
+					<item id="8720" min="1" max="1" chance="99.8475" /> <!-- themis edge Edge -->
 				</group>
-				<group chance="0.2609">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
+				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
 			</drop>
 			<spoil>
-				<item id="8712" min="1" max="1" chance="0.0946" /> <!-- Sirra's Blade Edge -->
-				<item id="8690" min="1" max="1" chance="0.011" /> <!-- Recipe: Sirra's Blade (60%) -->
+				<item id="8720" min="1" max="1" chance="1.0946" /> <!-- themis Edge -->
+				<item id="8706" min="1" max="1" chance="1.011" /> <!-- Recipe: themis (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
