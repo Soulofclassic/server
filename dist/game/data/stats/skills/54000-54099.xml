@@ -1241,7 +1241,7 @@
 				<targetType>SELF</targetType>
 				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
-				<skillId>54037</skillId>
+				<skillId>54036</skillId>
 				<chance>100</chance>
 				<reuseDelay>60000</reuseDelay>
 				<skillLevel>
@@ -1300,13 +1300,10 @@
 			</effect>
 			<effect name="TriggerSkillByDamageDealt" fromLevel="6" toLevel="10">
 				<attackerType>Creature</attackerType>
-				<minDamage>1</minDamage>
 				<chance>100</chance>
 				<targetType>SELF</targetType>
-				<allowSkillAttack>true</allowSkillAttack>
-				<allowNormalAttack>true</allowNormalAttack>
+				<minDamage>1</minDamage>
 				<allowWeapons>ALL</allowWeapons>
-				<reuseDelay>60000</reuseDelay>
 				<skillId>54037</skillId>
 				<skillLevel>
 					<value level="6">1</value>
@@ -1322,7 +1319,6 @@
 				<allowWeapons>ALL</allowWeapons>
 				<skillId>54037</skillId>
 				<chance>100</chance>
-				<reuseDelay>60000</reuseDelay>
 				<skillLevel>
 					<value level="6">1</value>
 					<value level="7">2</value>
@@ -1368,6 +1364,7 @@
 		<targetType>SELF</targetType>
 		<affectScope>SINGLE</affectScope>
 		<isMagic>1</isMagic>
+		<reuseDelay>60000</reuseDelay>
 		<effects>
 			<effect name="Hp">
 				<amount>
