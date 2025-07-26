@@ -665,6 +665,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10080" />
 		<skills>
 			<skill id="35045" level="1" /> <!-- Talisman of Battle - Liberate -->
 		</skills>

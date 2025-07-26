@@ -381,7 +381,7 @@
 			<skill id="39203" level="1" /> <!-- Life Stone Pack -->
 		</skills>
 	</item>
-	<item id="90036" name="Hero's Talisman - Attack" additionalName="30-day" type="Armor">
+	<item id="90036" name="Hero's Talisman - Attack" type="Armor">
 		<!-- Available for 30 days. PvP Damage +3%, P./ M. Critical Damage +20, P./ M. Skill Power +2%, P./ M. Accuracy +1. -->
 		<set name="icon" val="icon.r90_sp_talisman_dr_hp_active" />
 		<set name="default_action" val="EQUIP" />
@@ -392,13 +392,12 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="time" val="43200" />
 		<set name="handler" val="ItemSkills" />
 		<skills>
 			<skill id="35038" level="1" /> <!-- Hero's Talisman - Attack -->
 		</skills>
 	</item>
-	<item id="90037" name="Hero's Talisman - Defense" additionalName="30-day" type="Armor">
+	<item id="90037" name="Hero's Talisman - Defense" type="Armor">
 		<!-- Available for 30 days. Received PvP Damage -3%, M. Damage Resistance +2%, P./ M. Skill Evasion +4%, Debuff Resistance +3%. -->
 		<set name="icon" val="icon.r95_talisman_ca_down_active" />
 		<set name="default_action" val="EQUIP" />
@@ -409,7 +408,6 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="time" val="43200" />
 		<set name="handler" val="ItemSkills" />
 		<skills>
 			<skill id="35039" level="1" /> <!-- Hero's Talisman - Defense -->

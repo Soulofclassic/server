@@ -142,7 +142,7 @@
 		</effects>
 	</skill>
 	<skill id="19039" toLevel="1" name="Cloak of Light">
-		<!-- Max HP/ MP/ CP +5%, P. Def. +3%, M. Def. +5%, all kinds of Weapon Resistance +3%, P./ M. Critical Rate +10, damage reflection +3%, Speed +10 Not available in a chaotic state. -->
+		<!-- Max HP/ MP/ CP +5%, P. Def. +3%, M. Def. +5%, all kinds of Weapon Resistance +3%, P./ M. Critical Rate +10, damage reflection +3%, Speed +5 Not available in a chaotic state. -->
 		<icon>icon.amor_goodness_cloak</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -190,13 +190,13 @@
 				<amount>3</amount>
 			</effect>
 			<effect name="Speed">
-				<amount>10</amount>
+				<amount>5</amount>
 				<mode>DIFF</mode>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="19040" toLevel="1" name="Cloak of Darkness">
-		<!-- Max HP/ MP/ CP +5%, P. Def. +3%, M. Def. +5%, all kinds of Weapon Resistance +3%, P./ M. Critical Rate +10, damage reflection +3%, Speed +10 -->
+		<!-- Max HP/ MP/ CP +5%, P. Def. +3%, M. Def. +5%, all kinds of Weapon Resistance +3%, P./ M. Critical Rate +10, damage reflection +3%, Speed +5 -->
 		<icon>icon.amor_evilness_cloak</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -244,7 +244,7 @@
 				<amount>3</amount>
 			</effect>
 			<effect name="Speed">
-				<amount>10</amount>
+				<amount>5</amount>
 				<mode>DIFF</mode>
 			</effect>
 		</effects>
