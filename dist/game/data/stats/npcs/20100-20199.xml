@@ -2029,6 +2029,34 @@
 			<radius normal="30" />
 			<height normal="100" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1389" max="3245" chance="100" /> <!-- Adena -->
+				</group>
+				<item id="1867" min="1" max="3" chance="16.15" /> <!-- as -->
+				<item id="1878" min="1" max="1" chance="13.88" /> <!-- durable braid  -->
+				<item id="1864" min="4" max="12" chance="9.059" /> <!-- stem -->
+				<item id="1882" min="1" max="1" chance="8.006" /> <!-- leather -->
+				<item id="2003" min="1" max="1" chance="4.151" /> <!-- Gauntlets of Ghost Pattern -->
+				<item id="4049" min="1" max="1" chance="3.993" /> <!-- Adamantite Earring Gemstone -->
+				<item id="1877" min="1" max="1" chance="1.405" /> <!-- Adamantite Nugget -->
+				<item id="2121" min="1" max="1" chance="0.005" /> <!-- Eminence Bow Shaft -->
+				<item id="4104" min="1" max="1" chance="0.005" /> <!-- Great Sword Blade -->
+				<item id="4107" min="1" max="1" chance="0.005" /> <!-- Keshanberk Blade -->
+				<item id="952" min="1" max="1" chance="0.005" /> <!-- Scroll: Enchant Armor (C-grade) -->
+				<item id="4108" min="1" max="1" chance="0.005" /> <!-- Sword of Valhalla Blade -->
+				<item id="286" min="1" max="1" chance="0.00005" /> <!-- Eminence Bow -->
+				<item id="78" min="1" max="1" chance="0.00005" /> <!-- Great Sword -->
+				<item id="142" min="1" max="1" chance="0.00005" /> <!-- Keshanberk -->
+				<item id="148" min="1" max="1" chance="0.00005" /> <!-- Sword of Valhalla -->
+			</drop>
+			<spoil>
+				<item id="4952" min="1" max="1" chance="7.588" /> <!-- Recipe: Sealed Avadon Circlet (60%) -->
+				<item id="4999" min="1" max="1" chance="7.344" /> <!-- Recipe: Sealed Doom Boots (60%) -->
+				<item id="4948" min="1" max="1" chance="2.601" /> <!-- Recipe: Avadon Leather Armor (60%) -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20138" level="31" type="Monster" name="Turek Orc Commander" title="Turek Guardian">
 		<parameters>
@@ -2283,7 +2311,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1055" max="2468" chance="100" /> <!-- Adena -->
+					<item id="57" min="1622" max="3780" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.8741">
 					<item id="2475" min="1" max="1" chance="0.1275" /> <!-- Sealed Doom Gloves -->
@@ -2299,13 +2327,6 @@
 					<item id="1873" min="1" max="1" chance="19.5727" /> <!-- Silver Nugget -->
 					<item id="1874" min="1" max="1" chance="3.2621" /> <!-- Oriharukon Ore -->
 					<item id="1876" min="1" max="1" chance="9.7863" /> <!-- Mithril Ore -->
-					<item id="92908" min="1" max="1" chance="48.9317" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="9.7863" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="4.8932" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.6311" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.9786" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.4893" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.0163" /> <!-- Crafting Herb: Metal Ingot -->
 					<item id="952" min="1" max="1" chance="0.6524" /> <!-- Scroll: Enchant Armor (C-grade) - Exchangeable -->
 				</group>
 			</drop>
