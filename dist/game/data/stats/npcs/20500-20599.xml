@@ -7111,6 +7111,33 @@
 			<radius normal="12" />
 			<height normal="27" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="583" max="1363" chance="100" /> <!-- Adena -->
+				</group>
+				<item id="1873" min="1" max="1" chance="4.096" /> <!-- sn -->
+				<item id="2003" min="1" max="1" chance="2.218" /> <!-- Gauntlets of Ghost Pattern -->
+				<item id="4049" min="2" max="6" chance="2.065" /> <!-- Adamantite Earring Gemstone -->
+				<item id="1876" min="1" max="1" chance="2.061" /> <!-- Mithril Ore -->
+				<item id="1874" min="1" max="1" chance="1" /> <!--  Oriharukon Ore -->
+				<item id="1875" min="1" max="1" chance="1" /> <!-- Stone of Purity  -->
+				<item id="1877" min="1" max="1" chance="0.005" /> <!--  Adamantite Nugget -->
+				<item id="4104" min="1" max="1" chance="0.005" /> <!-- Great Sword Blade -->
+				<item id="4107" min="1" max="1" chance="0.005" /> <!-- Keshanberk Blade -->
+				<item id="952" min="1" max="1" chance="0.005" /> <!-- Scroll: Enchant Armor (C-grade) -->
+				<item id="4108" min="1" max="1" chance="0.005" /> <!-- Sword of Valhalla Blade -->
+				<item id="4599" min="1" max="1" chance="0.0005" /> <!-- Greater Dye of WIT <Wit +2 Int -2> 2nd Class -->
+				<item id="4600" min="1" max="1" chance="0.0005" /> <!-- Greater Dye of WIT <Wit +2 Men -2> 2nd Class -->
+				<item id="49571" min="1" max="1" chance="0.0005" /> <!-- Spellbook: Clear Mind -->
+				<item id="78" min="1" max="1" chance="0.000009" /> <!-- Great Sword -->
+				<item id="142" min="1" max="1" chance="0.000009" /> <!-- Keshanberk -->
+				<item id="148" min="1" max="1" chance="0.000009" /> <!-- Sword of Valhalla -->
+			</drop>
+			<spoil>
+				<item id="4043" min="1" max="1" chance="25.09" /> <!-- Asofe -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20597" level="58" type="Monster" name="Valley Treant Elder" element="EARTH">
 		<parameters>

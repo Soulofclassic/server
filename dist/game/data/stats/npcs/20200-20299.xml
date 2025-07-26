@@ -2781,7 +2781,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="107" max="251" chance="100" /> <!-- Adena -->
+					<item id="57" min="243" max="568" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1022">
 					<item id="96" min="1" max="1" chance="0.3671" /> <!-- Scythe -->
@@ -2794,12 +2794,6 @@
 				<group chance="4.8245">
 					<item id="1872" min="1" max="1" chance="36.53" /> <!-- Animal Bone Fragment -->
 					<item id="1877" min="1" max="1" chance="1.0959" /> <!-- Adamantite Nugget -->
-					<item id="92908" min="1" max="1" chance="27.3975" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="5.4795" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.7398" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.9133" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.548" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.274" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
 					<item id="92917" min="1" max="1" chance="0.0091" /> <!-- Crafting Herb: Metal Ingot -->
 					<item id="2508" min="1" max="1" chance="22.8313" /> <!-- Cursed Bone -->
 					<item id="2209" min="1" max="1" chance="2.06" /> <!-- Recipe: Eldarake -->
@@ -2967,7 +2961,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="217" max="506" chance="100" /> <!-- Adena -->
+					<item id="57" min="423" max="1968" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1843">
 					<item id="282" min="1" max="1" chance="0.4987" /> <!-- Elemental Bow -->
@@ -2978,13 +2972,6 @@
 				<group chance="12.8624">
 					<item id="1872" min="1" max="1" chance="28.0479" /> <!-- Animal Bone Fragment -->
 					<item id="1877" min="1" max="1" chance="0.8414" /> <!-- Adamantite Nugget -->
-					<item id="92908" min="1" max="1" chance="21.0359" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.2072" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.1036" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.7012" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.4207" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2104" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.007" /> <!-- Crafting Herb: Metal Ingot -->
 					<item id="2229" min="1" max="1" chance="0.255" /> <!-- Recipe: Theca Leather Armor -->
 					<item id="2333" min="1" max="1" chance="0.0489" /> <!-- Recipe: Sword of Nightmare -->
 					<item id="1342" min="10" max="30" chance="42.0719" /> <!-- Steel Arrow -->
@@ -2994,6 +2981,7 @@
 			<spoil>
 				<item id="2329" min="1" max="1" chance="0.1662" /> <!-- Recipe: Tsurugi -->
 				<item id="3010" min="1" max="1" chance="1.9415" /> <!-- Recipe: Compound Helmet -->
+				<item id="951" min="1" max="1" chance="0.003003" /> <!-- ewc -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3055,7 +3043,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="321" max="752" chance="100" /> <!-- Adena -->
+					<item id="57" min="655" max="3054" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.2411">
 					<item id="355" min="1" max="1" chance="0.492" /> <!-- Dwarven Chain Mail Shirt -->
@@ -3066,13 +3054,6 @@
 				<group chance="14.4269">
 					<item id="1872" min="1" max="1" chance="37.2741" /> <!-- Animal Bone Fragment -->
 					<item id="1877" min="1" max="1" chance="1.1182" /> <!-- Adamantite Nugget -->
-					<item id="92908" min="1" max="1" chance="27.9556" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="5.5911" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.7956" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.9319" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.5591" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2796" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.0093" /> <!-- Crafting Herb: Metal Ingot -->
 					<item id="2345" min="1" max="1" chance="0.065" /> <!-- Recipe: Dark Screamer -->
 					<item id="2508" min="1" max="1" chance="23.2963" /> <!-- Cursed Bone -->
 					<item id="4604" min="1" max="1" chance="0.0621" /> <!-- Greater Dye of CON <Con +3 DEX -3> - 2nd Class Transfer -->
@@ -5350,7 +5331,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="205" max="481" chance="100" /> <!-- Adena -->
+					<item id="57" min="387" max="891" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.2911">
 					<item id="62" min="1" max="1" chance="0.1928" /> <!-- Reinforced Mithril Boots -->
@@ -5377,13 +5358,6 @@
 					<item id="1877" min="1" max="1" chance="1.343" /> <!-- Adamantite Nugget -->
 					<item id="1875" min="1" max="1" chance="2.2384" /> <!-- Stone of Purity -->
 					<item id="1881" min="1" max="1" chance="4.4768" /> <!-- Coarse Bone Powder -->
-					<item id="92908" min="1" max="1" chance="33.5759" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.7152" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.3576" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1192" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.6715" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3358" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.0112" /> <!-- Crafting Herb: Metal Ingot -->
 					<item id="2216" min="1" max="1" chance="1.3875" /> <!-- Recipe: Great Helmet -->
 				</group>
 			</drop>
