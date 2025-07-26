@@ -1254,7 +1254,7 @@
 		</effects>
 	</skill>
 	<skill id="35039" toLevel="1" name="Hero's Talisman - Defense">
-		<!-- PvP Damage +3%, Magic Attack Resistance +2%, P./ M. Skill Evasion +4%, Debuff Resistance +3%, Debuff Resistance +10%. -->
+		<!-- PvP Defence +3%, Magic Attack Resistance +2%, P./ M. Skill Evasion +4%, Debuff Resistance +3%, Debuff Resistance +10%. -->
 		<icon>icon.r95_talisman_ca_down_active</icon>
 		<operateType>P</operateType>
 		<irreplaceableBuff>true</irreplaceableBuff>
