@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/cubics.xsd">
-	<cubic id="5" level="1" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="1" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -11,7 +11,7 @@
 			<skill id="4055" level="1" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="2" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="2" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -22,7 +22,7 @@
 			<skill id="4055" level="2" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="3" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="3" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -33,7 +33,7 @@
 			<skill id="4055" level="3" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="4" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="4" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -44,7 +44,7 @@
 			<skill id="4055" level="4" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="5" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="5" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -55,7 +55,7 @@
 			<skill id="4055" level="5" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="6" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="6" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -66,7 +66,7 @@
 			<skill id="4055" level="6" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="7" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="7" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -77,7 +77,7 @@
 			<skill id="4055" level="7" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="8" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="8" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -88,7 +88,7 @@
 			<skill id="4055" level="8" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="9" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="9" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -99,7 +99,7 @@
 			<skill id="4055" level="9" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="10" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="10" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -110,7 +110,7 @@
 			<skill id="4055" level="10" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="11" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="11" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -121,7 +121,7 @@
 			<skill id="4055" level="11" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>
 	</cubic>
-	<cubic id="5" level="12" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="12" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />
@@ -132,7 +132,7 @@
 			<skill id="4055" level="12" triggerRate="33" successRate="30" /> <!-- Cubic Shackle -->
 		</skills>30
 	</cubic>
-	<cubic id="5" level="13" slot="5" duration="900" delay="7" maxCount="300" useUp="1" power="0.0" targetType="TARGET">
+	<cubic id="5" level="13" slot="5" duration="900" delay="7" maxCount="30" useUp="1" power="0.0" targetType="TARGET">
 		<conditions>
 			<hp type="GREATER" percent="1" />
 			<range value="1000" />

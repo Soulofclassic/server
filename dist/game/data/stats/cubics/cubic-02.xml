@@ -6,7 +6,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="1" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="1" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="2" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="55.0" targetType="TARGET">
@@ -15,7 +15,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="2" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="2" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="3" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="70.0" targetType="TARGET">
@@ -24,7 +24,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="3" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="3" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="4" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="85.0" targetType="TARGET">
@@ -33,7 +33,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="4" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="4" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="5" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="100.0" targetType="TARGET">
@@ -42,7 +42,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="5" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="5" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="6" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="115.0" targetType="TARGET">
@@ -51,7 +51,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="6" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="6" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="7" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="130.0" targetType="TARGET">
@@ -60,7 +60,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="7" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="7" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="8" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="150.0" targetType="TARGET">
@@ -69,7 +69,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="8" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="8" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="9" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="165.0" targetType="TARGET">
@@ -78,7 +78,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="9" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="9" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="10" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="180.0" targetType="TARGET">
@@ -87,7 +87,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="10" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="10" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="11" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="200.0" targetType="TARGET">
@@ -96,7 +96,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="11" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="11" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="12" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="215.0" targetType="TARGET">
@@ -105,7 +105,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="12" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="12" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 	<cubic id="2" level="13" slot="2" duration="900" delay="10" maxCount="20" useUp="0" power="250.0" targetType="TARGET">
@@ -114,7 +114,7 @@
 			<range value="1000" />
 		</conditions>
 		<skills>
-			<skill id="4050" level="13" successRate="90" /> <!-- Cubic Drain -->
+			<skill id="4050" level="13" successRate="30" /> <!-- Cubic Drain -->
 		</skills>
 	</cubic>
 </list>
