@@ -5043,12 +5043,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (5x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
 			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5116,12 +5116,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (5x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="5" /> <!-- MP High -->
 			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Average M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5199,12 +5199,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="11" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="2" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Average M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5270,11 +5270,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (3x) -->
 			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -5363,12 +5363,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (5x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="6" /> <!-- MP Very High -->
 			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="9" /> <!-- Bow -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5457,12 +5457,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Average P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Average P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5530,12 +5530,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="11" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Average M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4277" level="5" /> <!-- Poison Resistance -->
@@ -5601,12 +5601,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5676,12 +5676,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (5x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
 			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -5769,12 +5769,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="3" /> <!-- Beast -->
-			<skill id="4408" level="11" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5842,12 +5842,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Average P. Def. -->
-			<skill id="4413" level="3" /> <!-- Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Average P. Def. -->
+			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5936,12 +5936,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6011,12 +6011,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
 			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6103,12 +6103,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="11" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="4" /> <!-- MP High -->
 			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Average P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4412" level="5" /> <!-- Average P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4277" level="5" /> <!-- Poison Resistance -->
@@ -6173,12 +6173,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="2" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Average P. Def. -->
-			<skill id="4413" level="3" /> <!-- Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Average P. Def. -->
+			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6269,12 +6269,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6347,11 +6347,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
 			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6440,12 +6440,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="11" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="4" /> <!-- MP High -->
 			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Average M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6513,12 +6513,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6594,11 +6594,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (8x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (8x) -->
 			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6685,12 +6685,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
 			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6767,12 +6767,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (8x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6856,12 +6856,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
 			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6936,12 +6936,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (8x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -7029,12 +7029,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
 			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="3" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -7109,12 +7109,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="3" /> <!-- Average P. Def. -->
-			<skill id="4413" level="3" /> <!-- Strong M. Def. -->
+			<skill id="4412" level="5" /> <!-- Average P. Def. -->
+			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
