@@ -5043,12 +5043,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5270,9 +5270,9 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4408" level="1" /> <!-- HP Increase (3x) -->
+			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -5363,10 +5363,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="6" /> <!-- MP Very High -->
-			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -5457,10 +5457,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
@@ -5530,10 +5530,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -5601,10 +5601,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -5676,10 +5676,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -5769,12 +5769,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="3" /> <!-- Beast -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5842,10 +5842,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
@@ -5936,10 +5936,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -6011,10 +6011,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -6042,7 +6042,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="6240" max="10237" chance="100" /> <!-- Adena -->
+					<item id="57" min="11140" max="33137" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.6029">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -6059,12 +6059,6 @@
 					<item id="1874" min="1" max="1" chance="4.0328" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="1.0082" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="2.0164" /> <!-- Mold Glue -->
-					<item id="92912" min="1" max="1" chance="1.2098" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.6049" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2016" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.121" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.0605" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.0062" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -6109,12 +6103,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="4" /> <!-- MP High -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4277" level="5" /> <!-- Poison Resistance -->
@@ -6179,10 +6173,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="2" /> <!-- MP Medium-High -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Average P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
@@ -6209,7 +6203,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4143" max="9009" chance="100" /> <!-- Adena -->
+					<item id="57" min="7643" max="24109" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7667">
 					<item id="5485" min="1" max="1" chance="22.9056" /> <!-- Sealed Tallum Tunic Texture -->
@@ -6275,12 +6269,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6303,6 +6297,17 @@
 			<radius normal="20" />
 			<height normal="49.2" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="12179" max="34118" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="69.826" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="87.2825" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21885" level="82" type="Monster" name="Varka Silenos Officer">
 		<!-- Classic Seven Sings -->
@@ -6342,11 +6347,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4408" level="1" /> <!-- HP Increase (7x) -->
+			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6372,7 +6377,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2360" max="5518" chance="100" /> <!-- Adena -->
+					<item id="57" min="14660" max="38118" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5124">
 					<item id="5520" min="1" max="1" chance="23.1665" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
@@ -6391,12 +6396,6 @@
 					<item id="1880" min="1" max="1" chance="10.0526" /> <!-- Steel -->
 					<item id="1869" min="4" max="12" chance="12.5658" /> <!-- Iron Ore -->
 					<item id="1865" min="1" max="3" chance="33.5087" /> <!-- Varnish -->
-					<item id="92912" min="1" max="1" chance="2.0105" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="1.0053" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.3351" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.2011" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.1005" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.01" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -6441,17 +6440,28 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="4" /> <!-- MP High -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 			<skill id="4580" level="9" /> <!-- Decrease P. Atk. -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1679" max="3218" chance="100" /> <!-- Adena -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="69.826" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="87.2825" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 		<exCrtEffect>false</exCrtEffect>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300">
 			<clanList>
@@ -6503,12 +6513,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6519,6 +6529,16 @@
 			<skill id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
 			<skill id="4576" level="3" /> <!-- NPC Clan Buff - Damage Shield -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="10779" max="32118" chance="100" /> <!-- Adena -->
+				</group>
+			<spoil>
+				<item id="1873" min="1" max="1" chance="69.826" /> <!-- Silver Nugget -->
+				<item id="1869" min="1" max="3" chance="87.2825" /> <!-- Iron Ore -->
+			</spoil>
+		</dropLists>
 		<shots shotChance="50" spiritChance="50" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>2</sNpcPropHpRate>
@@ -6574,8 +6594,8 @@
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
-			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Very Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -6664,10 +6684,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -6746,10 +6766,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
@@ -6835,12 +6855,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6915,10 +6935,10 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Extremely Strong M. Atk. -->
 			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
 			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
@@ -6945,7 +6965,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4310" max="10400" chance="100" /> <!-- Adena -->
+					<item id="57" min="14710" max="38100" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4571">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -7008,12 +7028,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -7033,7 +7053,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2240" max="5237" chance="100" /> <!-- Adena -->
+					<item id="57" min="12140" max="34137" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2795">
 					<item id="90045" min="1" max="1" chance="62.5" /> <!-- Magical Tablet -->
@@ -7044,12 +7064,6 @@
 					<item id="1864" min="4" max="12" chance="19.15" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="30.64" /> <!-- Durable Braid -->
 					<item id="1895" min="1" max="1" chance="21.8857" /> <!-- Metallic Fiber -->
-					<item id="92912" min="1" max="1" chance="1.532" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.766" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2553" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1532" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92916" min="1" max="1" chance="0.0766" /> <!-- Crafting Herb: Energy of Animals -->
-					<item id="92919" min="1" max="1" chance="0.0078" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -7094,18 +7108,37 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="1" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="1" /> <!-- Average P. Def. -->
+			<skill id="4413" level="1" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 			<skill id="4066" level="9" /> <!-- NPC Twister -->
 			<skill id="4098" level="9" /> <!-- Silence -->
 		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="7652" max="24197" chance="100" /> <!-- Adena -->
+				</group>
+				<item id="1864" min="4" max="12" chance="33.3333" /> <!-- stem -->
+				<item id="1878" min="2" max="6" chance="14.2857" /> <!-- durable braid -->
+				<item id="1865" min="9" max="27" chance="11.1111" /> <!-- varnish -->
+				<item id="1895" min="3" max="9" chance="8.33333" /> <!-- mf -->
+			</drop>
+			<spoil>
+				<item id="1869" min="1" max="1" chance="75.8739" /> <!-- io -->
+				<item id="1873" min="1" max="1" chance="60.6991" /> <!-- sn -->
+				<item id="1880" min="1" max="1" chance="30.1748" /> <!-- steel -->
+				<item id="1874" min="1" max="1" chance="20.1165" /> <!-- oo -->
+				<item id="4039" min="1" max="1" chance="10.0583" /> <!-- mg -->
+				<item id="4042" min="1" max="1" chance="5.0291" /> <!-- enria -->
+			</spoil>
+		</dropLists>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="false">
@@ -7169,11 +7202,6 @@
 					<item id="1874" min="1" max="1" chance="4.0353" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="1.0088" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="2.0176" /> <!-- Mold Glue -->
-					<item id="92912" min="1" max="1" chance="1.2106" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.6053" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2018" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1211" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.006" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
