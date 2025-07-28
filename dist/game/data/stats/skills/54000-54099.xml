@@ -52,7 +52,6 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</SHOCK>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -108,7 +107,6 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</PARALYZE>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -272,7 +270,6 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</DERANGEMENT>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -328,7 +325,6 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</HOLD>
-				<mode>PER</mode>
 			</effect>
 			<effect name="AttackTrait">
 				<SLEEP>
@@ -338,7 +334,6 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</SLEEP>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
