@@ -7306,7 +7306,6 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4105" level="11" /> <!-- NPC Straight Beam Cannon -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -7340,7 +7339,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4287" level="3" /> <!-- Hold Resistance -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
-			<skill id="4105" level="11" /> <!-- NPC Straight Beam Cannon -->
 		</skillList>
 		<dropLists>
 			<drop>

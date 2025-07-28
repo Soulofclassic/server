@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="21900" level="79" type="Monster" name="Ancient Holy Ground Dead">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="60" />
 			<param name="MoveAroundSocial1" value="60" />
@@ -11,10 +10,6 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="CheckMagic" id="4098" level="11" /> <!-- Silence -->
-			<skill name="CheckMagic1" id="4046" level="11" /> <!-- Sleep -->
-			<skill name="DDMagic" id="4105" level="11" /> <!-- NPC Straight Beam Cannon -->
-			<skill name="SleepMagic" id="4046" level="11" /> <!-- Sleep -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
@@ -50,9 +45,6 @@
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4046" level="11" /> <!-- Sleep -->
-			<skill id="4098" level="11" /> <!-- Silence -->
-			<skill id="4105" level="11" /> <!-- NPC Straight Beam Cannon -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -175,9 +167,7 @@
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
 			<skill name="CheckMagic" id="4098" level="11" /> <!-- Silence -->
-			<skill name="CheckMagic1" id="4046" level="11" /> <!-- Sleep -->
 			<skill name="DDMagic" id="4002" level="11" /> <!-- NPC HP Drain -->
-			<skill name="SleepMagic" id="4046" level="11" /> <!-- Sleep -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
@@ -210,7 +200,6 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
 			<skill id="4002" level="11" /> <!-- NPC HP Drain -->
-			<skill id="4046" level="11" /> <!-- Sleep -->
 			<skill id="4098" level="11" /> <!-- Silence -->
 		</skillList>
 		<dropLists>
@@ -333,8 +322,6 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="W_LongRangeDDMagic" id="4158" level="11" /> <!-- NPC Prominence - Magic -->
-			<skill name="W_ShortRangeDDMagic" id="4160" level="11" /> <!-- NPC Aura Burn - Magic -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
@@ -366,8 +353,6 @@
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4158" level="11" /> <!-- NPC Prominence - Magic -->
-			<skill id="4160" level="11" /> <!-- NPC Aura Burn - Magic -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -688,7 +673,6 @@
 		</dropLists>
 	</npc>
 	<npc id="21909" level="79" type="Monster" name="Sepulcher Hermit">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="60" />
 			<param name="MoveAroundSocial1" value="60" />
@@ -698,7 +682,6 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4099" level="2" /> <!-- NPC Berserk -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
@@ -730,7 +713,6 @@
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4099" level="2" /> <!-- NPC Berserk -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -853,8 +835,6 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="CheckMagic" id="4098" level="11" /> <!-- Silence -->
-			<skill name="CheckMagic1" id="4046" level="11" /> <!-- Sleep -->
 			<skill name="MagicHeal" id="4065" level="11" /> <!-- NPC Heal -->
 			<skill name="Buff" id="4030" level="3" /> <!-- NPC Clan Might -->
 		</parameters>
@@ -889,9 +869,7 @@
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
 			<skill id="4030" level="3" /> <!-- NPC Clan Might -->
-			<skill id="4046" level="11" /> <!-- Sleep -->
 			<skill id="4065" level="11" /> <!-- NPC Heal -->
-			<skill id="4098" level="11" /> <!-- Silence -->
 		</skillList>
 		<dropLists>
 			<drop>
