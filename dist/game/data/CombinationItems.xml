@@ -944,65 +944,6 @@
 		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 10 -->
 		<reward id="71276" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 6 -->
 	</item>
-
-	<!-- Максимальный уровень заточки Venir's Talisman Lv. 10. Если попытаться его заточнить дальше - всегда будет 10уровень. -->
-	<item one="71280" two="71270" chance="33"> <!-- Venir's Talisman Lv. 10 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 11 (71281)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 6 (71276)-->
-	</item>
-	<item one="71281" two="71270" chance="33"> <!-- Venir's Talisman Lv. 11 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 12 (71282)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 6 (71276)-->
-	</item>
-	<item one="71282" two="71270" chance="33"> <!-- Venir's Talisman Lv. 12 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 13 (71283)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 12 (71282)-->
-	</item>
-	<item one="71283" two="71270" chance="33"> <!-- Venir's Talisman Lv. 13 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 14 (71284)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 12 ()-->
-	</item>
-	<item one="71284" two="71270" chance="33"> <!-- Venir's Talisman Lv. 14 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 15 (71285)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 12 (71282)-->
-	</item>
-	<item one="71285" two="71270" chance="33"> <!-- Venir's Talisman Lv. 15 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 16 (71286)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 12 (71282)-->
-	</item>
-	<item one="71286" two="71270" chance="33"> <!-- Venir's Talisman Lv. 16 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 17 (71287)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 12 (71282)-->
-	</item>
-	<item one="71287" two="71270" chance="33"> <!-- Venir's Talisman Lv. 17 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 18 (71288)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 12 (71282)-->
-	</item>
-	<item one="71288" two="71270" chance="33"> <!-- Venir's Talisman Lv. 18 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 19 (71289)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 18 (71288)-->
-	</item>
-	<item one="71289" two="71270" chance="33"> <!-- Venir's Talisman Lv. 19 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 20 (71290)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 18 (71288)-->
-	</item>
-	<item one="71290" two="71270" chance="33"> <!-- Venir's Talisman Lv. 20 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 21 (71291)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 18 (71288)-->
-	</item>
-	<item one="71291" two="71270" chance="33"> <!-- Venir's Talisman Lv. 21 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 22 (71292)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 18 (71288)-->
-	</item>
-	<item one="71292" two="71270" chance="33"> <!-- Venir's Talisman Lv. 22 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 23 (71293)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 18 (71288)-->
-	</item>
-	<item one="71293" two="71270" chance="33"> <!-- Venir's Talisman Lv. 23 / Venir's Talisman Fragment -->
-		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 24 (71294)-->
-		<reward id="71280" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 18 (71288)-->
-	</item>
-
 	<item one="71348" two="71348" chance="33"> <!-- Emerald Lv. 1 (Lv. 1) / Emerald Lv. 1 (Lv. 1) -->
 		<reward id="71349" count="1" type="ON_SUCCESS" /> <!-- Emerald Lv. 2 (Lv. 2) -->
 		<reward id="71348" count="1" type="ON_FAILURE" /> <!-- Emerald Lv. 1 (Lv. 1) -->
