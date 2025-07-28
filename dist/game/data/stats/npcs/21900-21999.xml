@@ -11,7 +11,10 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4035" level="5" /> <!-- Poison -->
+			<skill name="CheckMagic" id="4098" level="11" /> <!-- Silence -->
+			<skill name="CheckMagic1" id="4046" level="11" /> <!-- Sleep -->
+			<skill name="DDMagic" id="4105" level="11" /> <!-- NPC Straight Beam Cannon -->
+			<skill name="SleepMagic" id="4046" level="11" /> <!-- Sleep -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
@@ -47,7 +50,9 @@
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
-			<skill id="4035" level="5" /> <!-- Poison -->
+			<skill id="4046" level="11" /> <!-- Sleep -->
+			<skill id="4098" level="11" /> <!-- Silence -->
+			<skill id="4105" level="11" /> <!-- NPC Straight Beam Cannon -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -90,10 +95,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4067" level="11" /> <!-- NPC Mortal Blow -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<equipment rhand="234" lhand="234" /> <!-- rhand: Demon's Dagger lhand: Demon's Dagger -->
 		<acquire exp="123530" sp="12546" />
 		<equipment rhand="236" lhand="236" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
@@ -123,7 +129,7 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4287" level="5" /> <!-- Hold Resistance -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
+			<skill id="4067" level="11" /> <!-- NPC Mortal Blow -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -248,11 +254,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
-			<skill name="SelfRangeDDMagic" id="4072" level="5" /> <!-- Stun -->
+			<skill name="PhysicalSpecial" id="4032" level="11" /> <!-- NPC Strike -->
+			<skill name="SelfRangeDDMagic" id="4072" level="11" /> <!-- Stun -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<equipment rhand="5800" lhand="5799" /> <!-- rhand: Nephilim Lord lhand: Nephilim Lord -->
 		<acquire exp="123530" sp="12546" />
 		<equipment rhand="5800" lhand="5799" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
@@ -283,8 +290,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4287" level="3" /> <!-- Hold Resistance -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
-			<skill id="4072" level="5" /> <!-- Stun -->
+			<skill id="4032" level="11" /> <!-- NPC Strike -->
+			<skill id="4072" level="11" /> <!-- Stun -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -323,11 +330,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="W_LongRangeDDMagic" id="4158" level="6" /> <!-- NPC Prominence - Magic -->
-			<skill name="W_ShortRangeDDMagic" id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
+			<skill name="W_LongRangeDDMagic" id="4158" level="11" /> <!-- NPC Prominence - Magic -->
+			<skill name="W_ShortRangeDDMagic" id="4160" level="11" /> <!-- NPC Aura Burn - Magic -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<equipment rhand="311" /> <!-- rhand: Crucifix of Blessing -->
 		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2869.17670907346" hpRegen="8.5" mp="1540.8" mpRegen="3" />
@@ -355,8 +363,8 @@
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4158" level="6" /> <!-- NPC Prominence - Magic -->
-			<skill id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
+			<skill id="4158" level="11" /> <!-- NPC Prominence - Magic -->
+			<skill id="4160" level="11" /> <!-- NPC Aura Burn - Magic -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -389,7 +397,6 @@
 		</dropLists>
 	</npc>
 	<npc id="21905" level="77" type="Monster" name="Netherworld Gatekeeper">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="60" />
 			<param name="MoveAroundSocial1" value="60" />
@@ -399,12 +406,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="11" /> <!-- NPC Strike -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
-		<equipment rhand="78" />
+		<equipment rhand="78" /> <!-- rhand: Great Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2913.59120921392" hpRegen="8.5" mp="1574" mpRegen="3" />
 			<attack physical="4262.26211790116" magical="848.57983705" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -431,7 +438,7 @@
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
+			<skill id="4032" level="11" /> <!-- NPC Strike -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -471,7 +478,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SelfRangeDDMagic" id="4072" level="5" /> <!-- Stun -->
+			<skill name="DDMagic" id="4002" level="11" /> <!-- NPC HP Drain -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -503,7 +510,7 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4072" level="5" /> <!-- Stun -->
+			<skill id="4002" level="11" /> <!-- NPC HP Drain -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -546,10 +553,11 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="11" /> <!-- NPC Strike -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
+		<equipment rhand="78" /> <!-- rhand: Great Sword -->
 		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2956.64545357656" hpRegen="8.5" mp="1607.4" mpRegen="3" />
@@ -577,7 +585,7 @@
 			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
+			<skill id="4032" level="11" /> <!-- NPC Strike -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -613,7 +621,7 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
+			<skill name="DDMagic" id="4002" level="11" /> <!-- NPC HP Drain -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
@@ -645,7 +653,7 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
-			<skill id="4002" level="5" /> <!-- NPC HP Drain -->
+			<skill id="4002" level="11" /> <!-- NPC HP Drain -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -693,6 +701,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<equipment rhand="311" /> <!-- rhand: Crucifix of Blessing -->
 		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2998.26357950914" hpRegen="8.5" mp="1641" mpRegen="3" />
@@ -763,10 +772,12 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+			<skill name="PhysicalSpecial" id="4032" level="11" /> <!-- NPC Strike -->
+			<skill name="SelfRangeDDMagic" id="4072" level="11" /> <!-- Stun -->
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
+		<equipment rhand="5800" lhand="5799" /> <!-- rhand: Nephilim Lord lhand: Nephilim Lord -->
 		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2998.26357950914" hpRegen="8.5" mp="1641" mpRegen="3" />
@@ -795,7 +806,8 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4287" level="5" /> <!-- Hold Resistance -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
+			<skill id="4032" level="11" /> <!-- NPC Strike -->
+			<skill id="4072" level="11" /> <!-- Stun -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -842,7 +854,10 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Fury" id="4317" level="1" /> <!-- Increase Rage Might -->
+			<skill name="CheckMagic" id="4098" level="11" /> <!-- Silence -->
+			<skill name="CheckMagic1" id="4046" level="11" /> <!-- Sleep -->
+			<skill name="MagicHeal" id="4065" level="11" /> <!-- NPC Heal -->
+			<skill name="Buff" id="4030" level="3" /> <!-- NPC Clan Might -->
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
@@ -874,7 +889,10 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
-			<skill id="4317" level="1" /> <!-- Increase Rage Might -->
+			<skill id="4030" level="3" /> <!-- NPC Clan Might -->
+			<skill id="4046" level="11" /> <!-- Sleep -->
+			<skill id="4065" level="11" /> <!-- NPC Heal -->
+			<skill id="4098" level="11" /> <!-- Silence -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -920,7 +938,9 @@
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+			<skill name="SelfRangeDDMagic" id="4072" level="11" /> <!-- Stun -->
+			<skill name="SelfBuff" id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
+			<skill name="PhysicalSpecial" id="4032" level="11" /> <!-- NPC Strike -->
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
@@ -953,7 +973,9 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4287" level="3" /> <!-- Hold Resistance -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
-			<skill id="4032" level="5" /> <!-- NPC Strike -->
+			<skill id="4032" level="11" /> <!-- NPC Strike -->
+			<skill id="4072" level="11" /> <!-- Stun -->
+			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
 		</skillList>
 		<dropLists>
 			<drop>
