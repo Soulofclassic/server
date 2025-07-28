@@ -50,7 +50,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="480" max="1119" chance="100" /> <!-- Adena -->
+					<item id="57" min="980" max="2238" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.5123">
 					<item id="2406" min="1" max="1" chance="0.0348" /> <!-- Avadon Robe -->
@@ -71,14 +71,6 @@
 					<item id="1869" min="1" max="1" chance="34.0886" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="3.4089" /> <!-- Steel -->
 					<item id="1874" min="1" max="1" chance="2.2726" /> <!-- Oriharukon Ore -->
-					<item id="92908" min="1" max="1" chance="34.0886" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.8177" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.4089" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1363" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.6818" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3409" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1136" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0067" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -142,7 +134,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="507" max="1185" chance="100" /> <!-- Adena -->
+					<item id="57" min="1014" max="2234" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.9309">
 					<item id="887" min="1" max="1" chance="0.3221" /> <!-- Adamantite Ring -->
@@ -156,14 +148,6 @@
 					<item id="1895" min="1" max="1" chance="6.3222" /> <!-- Metallic Fiber -->
 					<item id="1870" min="1" max="1" chance="22.1276" /> <!-- Coal -->
 					<item id="1871" min="1" max="1" chance="22.1276" /> <!-- Charcoal -->
-					<item id="92908" min="1" max="1" chance="22.1276" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.4255" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.2128" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.7376" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.4426" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2213" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0738" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0042" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -228,7 +212,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="523" max="1223" chance="100" /> <!-- Adena -->
+					<item id="57" min="1046" max="2446" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.0013">
 					<item id="284" min="1" max="1" chance="0.0453" /> <!-- Dark Elven Longbow -->
@@ -240,14 +224,6 @@
 					<item id="1864" min="1" max="1" chance="45.1107" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="9.0221" /> <!-- Durable Braid -->
 					<item id="1866" min="1" max="1" chance="15.0369" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="22.5554" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.5111" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.2555" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.7518" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.4511" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2256" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0752" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0046" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -318,7 +294,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="527" max="1231" chance="100" /> <!-- Adena -->
+					<item id="57" min="1054" max="2561" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.5695">
 					<item id="2379" min="1" max="1" chance="0.0647" /> <!-- Avadon Gaiters -->
@@ -339,14 +315,6 @@
 					<item id="1869" min="1" max="1" chance="34.0886" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="3.4089" /> <!-- Steel -->
 					<item id="1874" min="1" max="1" chance="2.2726" /> <!-- Oriharukon Ore -->
-					<item id="92908" min="1" max="1" chance="34.0886" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.8177" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.4089" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1363" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.6818" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3409" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1136" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0067" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -412,7 +380,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="547" max="1278" chance="100" /> <!-- Adena -->
+					<item id="57" min="1094" max="2568" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2158">
 					<item id="300" min="1" max="1" chance="0.1463" /> <!-- Great Axe -->
@@ -428,14 +396,6 @@
 					<item id="1895" min="1" max="1" chance="6.3222" /> <!-- Metallic Fiber -->
 					<item id="1870" min="1" max="1" chance="22.1276" /> <!-- Coal -->
 					<item id="1871" min="1" max="1" chance="22.1276" /> <!-- Charcoal -->
-					<item id="92908" min="1" max="1" chance="22.1276" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.4255" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.2128" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.7376" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.4426" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2213" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0738" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0042" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -504,7 +464,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="681" max="1592" chance="100" /> <!-- Adena -->
+					<item id="57" min="1361" max="3088" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.5763">
 					<item id="2390" min="1" max="1" chance="0.0712" /> <!-- Avadon Leather Armor -->
@@ -520,14 +480,6 @@
 					<item id="1864" min="1" max="1" chance="45.1107" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="9.0221" /> <!-- Durable Braid -->
 					<item id="1866" min="1" max="1" chance="15.0369" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="22.5554" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.5111" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.2555" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.7518" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.4511" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2256" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0752" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0046" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -590,7 +542,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="698" max="1633" chance="100" /> <!-- Adena -->
+					<item id="57" min="1401" max="3368" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2992">
 					<item id="92" min="1" max="1" chance="0.2022" /> <!-- Spirit's Staff -->
@@ -603,14 +555,6 @@
 					<item id="1869" min="1" max="1" chance="34.0886" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="3.4089" /> <!-- Steel -->
 					<item id="1874" min="1" max="1" chance="2.2726" /> <!-- Oriharukon Ore -->
-					<item id="92908" min="1" max="1" chance="34.0886" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.8177" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.4089" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1363" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.6818" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3409" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1136" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0067" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -680,7 +624,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="792" max="1849" chance="100" /> <!-- Adena -->
+					<item id="57" min="1592" max="3681" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="43.5153">
 					<item id="1866" min="2" max="6" chance="5.8427" /> <!-- Suede -->
@@ -688,14 +632,6 @@
 					<item id="1895" min="1" max="1" chance="10.016" /> <!-- Metallic Fiber -->
 					<item id="1870" min="1" max="3" chance="17.528" /> <!-- Coal -->
 					<item id="1871" min="1" max="3" chance="11.6853" /> <!-- Charcoal -->
-					<item id="92908" min="1" max="1" chance="35.056" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="7.0112" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.5056" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1685" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.7011" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3506" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1169" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0069" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -755,7 +691,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="792" max="1849" chance="100" /> <!-- Adena -->
+					<item id="57" min="1594" max="3712" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3391">
 					<item id="78" min="1" max="1" chance="0.2021" /> <!-- Great Sword -->
@@ -767,14 +703,6 @@
 					<item id="1864" min="1" max="1" chance="45.1107" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="9.0221" /> <!-- Durable Braid -->
 					<item id="1866" min="1" max="1" chance="15.0369" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="22.5554" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.5111" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.2555" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.7518" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.4511" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2256" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0752" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0046" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -843,7 +771,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="536" max="1252" chance="100" /> <!-- Adena -->
+					<item id="57" min="1072" max="2511" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.7513">
 					<item id="600" min="1" max="1" chance="0.1975" /> <!-- Sealed Avadon Boots -->
@@ -862,11 +790,6 @@
 					<item id="1870" min="1" max="1" chance="29.8109" /> <!-- Coal -->
 					<item id="1871" min="1" max="1" chance="29.8109" /> <!-- Charcoal -->
 					<item id="1879" min="1" max="1" chance="4.9685" /> <!-- Cokes -->
-					<item id="92912" min="1" max="1" chance="0.5962" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2981" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0994" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.0596" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0029" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -939,7 +862,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="588" max="1372" chance="100" /> <!-- Adena -->
+					<item id="57" min="1190" max="2714" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3595">
 					<item id="175" min="1" max="1" chance="0.1788" /> <!-- Art of Battle Axe -->
@@ -952,11 +875,6 @@
 					<item id="1864" min="1" max="1" chance="53.7469" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="10.7494" /> <!-- Durable Braid -->
 					<item id="1895" min="1" max="1" chance="7.6781" /> <!-- Metallic Fiber -->
-					<item id="92912" min="1" max="1" chance="0.5375" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2687" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0896" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.0537" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0027" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1027,7 +945,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="574" max="1339" chance="100" /> <!-- Adena -->
+					<item id="57" min="1164" max="2701" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="4.0093">
 					<item id="2475" min="1" max="1" chance="0.1275" /> <!-- Sealed Doom Gloves -->
@@ -1042,11 +960,6 @@
 				<group chance="17.2555">
 					<item id="1874" min="1" max="1" chance="6.0491" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="90.7359" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="1.8147" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.9074" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.3025" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1815" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0089" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1116,7 +1029,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="597" max="1396" chance="100" /> <!-- Adena -->
+					<item id="57" min="2400" max="5611" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3761">
 					<item id="171" min="1" max="1" chance="0.1739" /> <!-- Deadman's Glory -->
@@ -1131,11 +1044,6 @@
 					<item id="1870" min="1" max="1" chance="29.8109" /> <!-- Coal -->
 					<item id="1871" min="1" max="1" chance="29.8109" /> <!-- Charcoal -->
 					<item id="1879" min="1" max="1" chance="4.9685" /> <!-- Cokes -->
-					<item id="92912" min="1" max="1" chance="0.5962" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2981" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0994" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.0596" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0029" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1205,7 +1113,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="609" max="1425" chance="100" /> <!-- Adena -->
+					<item id="57" min="1218" max="2901" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.3196">
 					<item id="2417" min="1" max="1" chance="0.2177" /> <!-- Sealed Doom Helmet -->
@@ -1218,11 +1126,6 @@
 					<item id="1864" min="1" max="1" chance="53.7469" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="10.7494" /> <!-- Durable Braid -->
 					<item id="1895" min="1" max="1" chance="7.6781" /> <!-- Metallic Fiber -->
-					<item id="92912" min="1" max="1" chance="0.5375" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2687" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0896" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.0537" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0027" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1288,7 +1191,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="661" max="1544" chance="100" /> <!-- Adena -->
+					<item id="57" min="1312" max="3088" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4155">
 					<item id="97" min="1" max="1" chance="0.1742" /> <!-- Lance -->
@@ -1299,11 +1202,6 @@
 				<group chance="19.9044">
 					<item id="1874" min="1" max="1" chance="6.0491" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="90.7359" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="1.8147" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.9074" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.3025" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1815" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0089" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1371,7 +1269,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="673" max="1574" chance="100" /> <!-- Adena -->
+					<item id="57" min="1290" max="3141" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.1779">
 					<item id="895" min="1" max="1" chance="0.3291" /> <!-- Black Ore Ring -->
@@ -1388,11 +1286,6 @@
 					<item id="1870" min="1" max="1" chance="29.8109" /> <!-- Coal -->
 					<item id="1871" min="1" max="1" chance="29.8109" /> <!-- Charcoal -->
 					<item id="1879" min="1" max="1" chance="4.9685" /> <!-- Cokes -->
-					<item id="92912" min="1" max="1" chance="0.5962" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2981" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0994" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.0596" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0029" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1460,7 +1353,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="947" max="2213" chance="100" /> <!-- Adena -->
+					<item id="57" min="1999" max="4416" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5955">
 					<item id="287" min="1" max="1" chance="0.1742" /> <!-- Bow of Peril -->
@@ -1473,11 +1366,6 @@
 					<item id="1864" min="1" max="3" chance="48.6741" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="19.4696" /> <!-- Durable Braid -->
 					<item id="1895" min="1" max="1" chance="13.9069" /> <!-- Metallic Fiber -->
-					<item id="92912" min="1" max="1" chance="0.9735" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.4867" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1622" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.0973" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.005" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1544,16 +1432,11 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="947" max="2213" chance="100" /> <!-- Adena -->
+					<item id="57" min="1999" max="4416" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="38.9633">
 					<item id="1874" min="1" max="1" chance="11.0724" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="3" chance="83.0427" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="3.3217" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="1.6609" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.5536" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.3322" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0165" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1638,14 +1521,6 @@
 					<item id="1874" min="1" max="1" chance="2.2345" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="0.5586" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="1.1172" /> <!-- Mold Glue -->
-					<item id="92908" min="1" max="1" chance="33.5173" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.7035" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.3517" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1172" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.6703" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3352" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1117" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0069" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1730,14 +1605,6 @@
 					<item id="1875" min="1" max="1" chance="2.6665" /> <!-- Stone of Purity -->
 					<item id="1874" min="1" max="1" chance="2.6665" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="39.9968" /> <!-- Coal -->
-					<item id="92908" min="1" max="1" chance="39.9968" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="7.9994" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.9997" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.3332" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.7999" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.4" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1333" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0079" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1817,14 +1684,6 @@
 					<item id="1873" min="1" max="1" chance="13.9525" /> <!-- Silver Nugget -->
 					<item id="1869" min="1" max="1" chance="34.8813" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="3.4881" /> <!-- Steel -->
-					<item id="92908" min="1" max="1" chance="34.8813" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.9763" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.4881" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1627" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.6976" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3488" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1163" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.007" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1907,14 +1766,6 @@
 					<item id="1872" min="1" max="1" chance="31.9985" /> <!-- Animal Bone Fragment -->
 					<item id="1867" min="1" max="1" chance="31.9985" /> <!-- Animal Skin -->
 					<item id="1881" min="1" max="1" chance="3.1998" /> <!-- Coarse Bone Powder -->
-					<item id="92908" min="1" max="1" chance="23.9988" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.7998" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.3999" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.8" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.48" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.24" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.08" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0047" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -1992,14 +1843,6 @@
 					<item id="1864" min="4" max="12" chance="12.2661" /> <!-- Stem -->
 					<item id="1878" min="2" max="6" chance="3.9252" /> <!-- Durable Braid -->
 					<item id="1895" min="1" max="1" chance="14.0184" /> <!-- Metallic Fiber -->
-					<item id="92908" min="1" max="1" chance="49.0644" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="9.8129" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="4.9064" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.6355" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.9813" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.4906" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1635" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0099" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2084,14 +1927,6 @@
 					<item id="1872" min="1" max="1" chance="31.9985" /> <!-- Animal Bone Fragment -->
 					<item id="1867" min="1" max="1" chance="31.9985" /> <!-- Animal Skin -->
 					<item id="1881" min="1" max="1" chance="3.1998" /> <!-- Coarse Bone Powder -->
-					<item id="92908" min="1" max="1" chance="23.9988" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.7998" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.3999" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.8" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.48" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.24" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.08" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0047" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2175,14 +2010,6 @@
 					<item id="1874" min="1" max="1" chance="2.2345" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="0.5586" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="1.1172" /> <!-- Mold Glue -->
-					<item id="92908" min="1" max="1" chance="33.5173" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.7035" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.3517" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1172" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.6703" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3352" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1117" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0069" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2264,14 +2091,6 @@
 					<item id="1875" min="1" max="1" chance="2.6665" /> <!-- Stone of Purity -->
 					<item id="1874" min="1" max="1" chance="2.6665" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="39.9968" /> <!-- Coal -->
-					<item id="92908" min="1" max="1" chance="39.9968" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="7.9994" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.9997" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.3332" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.7999" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.4" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1333" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0079" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2354,14 +2173,6 @@
 					<item id="1864" min="1" max="3" chance="24.6756" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="9.8703" /> <!-- Durable Braid -->
 					<item id="1895" min="1" max="1" chance="7.0502" /> <!-- Metallic Fiber -->
-					<item id="92908" min="1" max="1" chance="24.6756" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.9351" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.4676" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.8225" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.4935" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2468" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.0823" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92918" min="1" max="1" chance="0.0049" /> <!-- Crafting Herb: Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2430,7 +2241,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1004" max="2346" chance="100" /> <!-- Adena -->
+					<item id="57" min="2008" max="4692" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="5.4708">
 					<item id="2417" min="1" max="1" chance="0.2177" /> <!-- Sealed Doom Helmet -->
@@ -2445,11 +2256,6 @@
 					<item id="1874" min="1" max="1" chance="4.0353" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="1.0088" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="2.0176" /> <!-- Mold Glue -->
-					<item id="92912" min="1" max="1" chance="1.2106" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.6053" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2018" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1211" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.006" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2521,17 +2327,12 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1070" max="2499" chance="100" /> <!-- Adena -->
+					<item id="57" min="2140" max="5000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="42.7435">
 					<item id="1875" min="1" max="1" chance="9.9686" /> <!-- Stone of Purity -->
 					<item id="1874" min="1" max="1" chance="9.9686" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="3" chance="74.7645" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="2.9906" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="1.4953" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.4984" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.2991" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0149" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2597,7 +2398,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1056" max="2466" chance="100" /> <!-- Adena -->
+					<item id="57" min="2112" max="5922" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.7193">
 					<item id="2391" min="1" max="1" chance="0.4989" /> <!-- Blue Wolf Leather Armor -->
@@ -2607,11 +2408,6 @@
 					<item id="1872" min="1" max="3" chance="52.0883" /> <!-- Animal Bone Fragment -->
 					<item id="1867" min="1" max="3" chance="34.7255" /> <!-- Animal Skin -->
 					<item id="1881" min="1" max="1" chance="10.4177" /> <!-- Coarse Bone Powder -->
-					<item id="92912" min="1" max="1" chance="1.5626" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.7813" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2604" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1563" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0079" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2683,7 +2479,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1080" max="2525" chance="100" /> <!-- Adena -->
+					<item id="57" min="2160" max="5050" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="6.1058">
 					<item id="895" min="1" max="1" chance="0.412" /> <!-- Black Ore Ring -->
@@ -2696,11 +2492,6 @@
 					<item id="1864" min="1" max="3" chance="48.6741" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="19.4696" /> <!-- Durable Braid -->
 					<item id="1895" min="1" max="1" chance="13.9069" /> <!-- Metallic Fiber -->
-					<item id="92912" min="1" max="1" chance="0.9735" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.4867" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1622" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.0973" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.005" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2774,7 +2565,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1092" max="2554" chance="100" /> <!-- Adena -->
+					<item id="57" min="2184" max="5108" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.3626">
 					<item id="2381" min="1" max="1" chance="0.0939" /> <!-- Doom Plate Armor -->
@@ -2788,11 +2579,6 @@
 					<item id="1875" min="1" max="1" chance="5.704" /> <!-- Stone of Purity -->
 					<item id="1874" min="1" max="1" chance="5.704" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="85.5603" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="1.7112" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.8556" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2852" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1711" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0086" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2858,7 +2644,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1053" max="2461" chance="100" /> <!-- Adena -->
+					<item id="57" min="2106" max="4892" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.1021">
 					<item id="2403" min="1" max="1" chance="0.3226" /> <!-- Blue Wolf Stockings -->
@@ -2873,11 +2659,6 @@
 					<item id="1874" min="1" max="1" chance="4.0353" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="1.0088" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="2.0176" /> <!-- Mold Glue -->
-					<item id="92912" min="1" max="1" chance="1.2106" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.6053" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2018" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1211" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.006" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -2944,7 +2725,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1066" max="2491" chance="100" /> <!-- Adena -->
+					<item id="57" min="2112" max="5002" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.0369">
 					<item id="926" min="1" max="1" chance="0.8188" /> <!-- Black Ore Necklace -->
@@ -2954,11 +2735,6 @@
 					<item id="1872" min="1" max="3" chance="52.0883" /> <!-- Animal Bone Fragment -->
 					<item id="1867" min="1" max="3" chance="34.7255" /> <!-- Animal Skin -->
 					<item id="1881" min="1" max="1" chance="10.4177" /> <!-- Coarse Bone Powder -->
-					<item id="92912" min="1" max="1" chance="1.5626" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.7813" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2604" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1563" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0079" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -3030,7 +2806,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1341" max="3133" chance="100" /> <!-- Adena -->
+					<item id="57" min="2682" max="5999" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.1222">
 					<item id="79" min="1" max="1" chance="0.0346" /> <!-- Damascus Sword -->
@@ -3046,11 +2822,6 @@
 					<item id="1875" min="1" max="1" chance="5.704" /> <!-- Stone of Purity -->
 					<item id="1874" min="1" max="1" chance="5.704" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="85.5603" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="1.7112" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.8556" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2852" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1711" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0086" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -3116,15 +2887,10 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1341" max="3133" chance="100" /> <!-- Adena -->
+					<item id="57" min="2682" max="5999" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.9652">
 					<item id="2133" min="1" max="1" chance="4.4924" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="53.9084" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.9542" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.9847" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.3908" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.2695" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
