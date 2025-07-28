@@ -71,6 +71,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<equipment rhand="236" lhand="236" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2998.26357950914" hpRegen="8.5" mp="1641" mpRegen="3" />
@@ -103,7 +104,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1129" max="2635" chance="100" /> <!-- Adena -->
+					<item id="57" min="2238" max="5270" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4035">
 					<item id="5485" min="1" max="1" chance="22.9056" /> <!-- Sealed Tallum Tunic Texture -->
@@ -122,11 +123,6 @@
 					<item id="1874" min="1" max="1" chance="4.0353" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="1.0088" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="2.0176" /> <!-- Mold Glue -->
-					<item id="92912" min="1" max="1" chance="1.2106" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.6053" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2018" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1211" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.006" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -143,6 +139,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3038.37159811439" hpRegen="8.5" mp="1674.8" mpRegen="3" />
 			<attack physical="5077.59311939322" magical="938.4781208" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -174,7 +171,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1198" max="2802" chance="100" /> <!-- Adena -->
+					<item id="57" min="2388" max="5604" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2601">
 					<item id="5520" min="1" max="1" chance="23.1665" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
@@ -192,11 +189,6 @@
 					<item id="1875" min="1" max="1" chance="5.704" /> <!-- Stone of Purity -->
 					<item id="1874" min="1" max="1" chance="5.704" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="85.5603" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="1.7112" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.8556" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2852" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1711" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0086" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -213,6 +205,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<equipment rhand="5800" lhand="5799" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3038.37159811439" hpRegen="8.5" mp="1674.8" mpRegen="3" />
@@ -246,7 +239,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1198" max="2802" chance="100" /> <!-- Adena -->
+					<item id="57" min="2316" max="5604" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8575">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -258,11 +251,6 @@
 				</group>
 				<group chance="1.1557">
 					<item id="2133" min="1" max="1" chance="4.4924" /> <!-- Gemstone (A-grade) -->
-					<item id="92912" min="1" max="1" chance="53.9084" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="26.9542" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="8.9847" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="5.3908" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.2695" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -278,6 +266,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2869.17670907346" hpRegen="8.5" mp="1540.8" mpRegen="3" />
 			<attack physical="4021.2275906" magical="819.1749115" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -308,7 +297,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="728" max="1699" chance="100" /> <!-- Adena -->
+					<item id="57" min="2456" max="4342" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8285">
 					<item id="6343" min="1" max="1" chance="24.3576" /> <!-- Sealed Phoenix Necklace Beads -->
@@ -325,11 +314,6 @@
 					<item id="1874" min="1" max="1" chance="4.0353" /> <!-- Oriharukon Ore -->
 					<item id="4042" min="1" max="1" chance="1.0088" /> <!-- Enria -->
 					<item id="4039" min="1" max="1" chance="2.0176" /> <!-- Mold Glue -->
-					<item id="92912" min="1" max="1" chance="1.2106" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.6053" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2018" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1211" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.006" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -344,6 +328,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<equipment rhand="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2913.59120921392" hpRegen="8.5" mp="1574" mpRegen="3" />
@@ -375,7 +360,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="766" max="1791" chance="100" /> <!-- Adena -->
+					<item id="57" min="2431" max="4872" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6995">
 					<item id="6342" min="1" max="1" chance="32.271" /> <!-- Sealed Majestic Earring Gemstone -->
@@ -389,11 +374,6 @@
 					<item id="1875" min="1" max="1" chance="5.704" /> <!-- Stone of Purity -->
 					<item id="1874" min="1" max="1" chance="5.704" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="85.5603" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="1.7112" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.8556" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2852" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1711" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0086" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -408,6 +388,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2913.59120921392" hpRegen="8.5" mp="1574" mpRegen="3" />
 			<attack physical="4262.26211790116" magical="848.57983705" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -439,7 +420,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="751" max="1755" chance="100" /> <!-- Adena -->
+					<item id="57" min="2435" max="4781" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6918">
 					<item id="5509" min="1" max="1" chance="24.8216" /> <!-- Sealed Tallum Glove Design -->
@@ -455,11 +436,6 @@
 					<item id="1873" min="1" max="1" chance="26.0513" /> <!-- Silver Nugget -->
 					<item id="1869" min="1" max="1" chance="65.1282" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="6.5128" /> <!-- Steel -->
-					<item id="92912" min="1" max="1" chance="1.3026" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.6513" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2171" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1303" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0064" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -475,6 +451,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2956.64545357656" hpRegen="8.5" mp="1607.4" mpRegen="3" />
 			<attack physical="4522.00615127786" magical="878.3296104" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -505,7 +482,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1558" max="3648" chance="100" /> <!-- Adena -->
+					<item id="57" min="3154" max="6892" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5542">
 					<item id="5494" min="1" max="1" chance="57.614" /> <!-- Sealed Dark Crystal Shield Fragment -->
@@ -529,6 +506,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2956.64545357656" hpRegen="8.5" mp="1607.4" mpRegen="3" />
 			<attack physical="4522.00615127786" magical="878.3296104" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -560,7 +538,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1586" max="3712" chance="100" /> <!-- Adena -->
+					<item id="57" min="3341" max="6912" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.526">
 					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
@@ -592,6 +570,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2998.26357950914" hpRegen="8.5" mp="1641" mpRegen="3" />
 			<attack physical="4799.79963533554" magical="908.4038656" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -622,7 +601,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1500" max="3504" chance="100" /> <!-- Adena -->
+					<item id="57" min="3001" max="7014" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.268">
 					<item id="5478" min="1" max="1" chance="22.9254" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
@@ -653,6 +632,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2998.26357950914" hpRegen="8.5" mp="1641" mpRegen="3" />
 			<attack physical="4799.79963533554" magical="908.4038656" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -684,7 +664,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1528" max="3570" chance="100" /> <!-- Adena -->
+					<item id="57" min="3456" max="7129" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2732">
 					<item id="5485" min="1" max="1" chance="22.9056" /> <!-- Sealed Tallum Tunic Texture -->
@@ -719,6 +699,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3038.37159811439" hpRegen="8.5" mp="1674.8" mpRegen="3" />
 			<attack physical="5077.59311939322" magical="938.4781208" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -750,7 +731,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2128" max="4978" chance="100" /> <!-- Adena -->
+					<item id="57" min="4341" max="9213" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2311">
 					<item id="5520" min="1" max="1" chance="23.1665" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
@@ -784,6 +765,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3038.37159811439" hpRegen="8.5" mp="1674.8" mpRegen="3" />
 			<attack physical="5077.59311939322" magical="938.4781208" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -816,7 +798,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2128" max="4978" chance="100" /> <!-- Adena -->
+					<item id="57" min="4251" max="9011" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7617">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -846,6 +828,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="224799.7" hpRegen="8.5" mp="1679.733" mpRegen="3" />
 			<attack physical="1088.192" magical="743.0941" random="10" critical="4" accuracy="5" attackSpeed="223" type="SWORD" range="40" distance="80" width="120" />
@@ -878,6 +861,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<equipment rhand="5800" lhand="5799" /> <!-- Nephilim Lord - Not Available / Nephilim Lord -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="74933.22" hpRegen="8.5" mp="1679.733" mpRegen="3" />
@@ -943,6 +927,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="74933.22" hpRegen="8.5" mp="1679.733" mpRegen="3" />
 			<attack physical="1088.192" magical="743.0941" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -975,6 +960,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="234166.319923264" hpRegen="8.5" mp="1768.14" mpRegen="3" />
 			<attack physical="1157.65111798445" magical="790.525655306599" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1007,6 +993,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<equipment rhand="5800" lhand="5799" /> <!-- Nephilim Lord - Not Available / Nephilim Lord -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="78055.4399744213" hpRegen="8.5" mp="1768.14" mpRegen="3" />
@@ -1072,6 +1059,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DIVINE</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="78055.4399744213" hpRegen="8.5" mp="1768.14" mpRegen="3" />
 			<attack physical="1157.65111798445" magical="790.525655306599" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
