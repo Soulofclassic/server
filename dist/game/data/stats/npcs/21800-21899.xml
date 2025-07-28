@@ -7156,6 +7156,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2869.17670907346" hpRegen="8.5" mp="1540.8" mpRegen="3" />
 			<attack physical="4021.2275906" magical="819.1749115" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -7186,7 +7187,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1059" max="2473" chance="100" /> <!-- Adena -->
+					<item id="57" min="2018" max="4976" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.2063">
 					<item id="6343" min="1" max="1" chance="24.3576" /> <!-- Sealed Phoenix Necklace Beads -->
@@ -7217,6 +7218,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BEAST</race>
 		<sex>FEMALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2913.59120921392" hpRegen="8.5" mp="1574" mpRegen="3" />
 			<attack physical="4262.26211790116" magical="848.57983705" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -7247,7 +7249,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1071" max="2504" chance="100" /> <!-- Adena -->
+					<item id="57" min="2072" max="5008" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.9778">
 					<item id="6342" min="1" max="1" chance="32.271" /> <!-- Sealed Majestic Earring Gemstone -->
@@ -7261,11 +7263,6 @@
 					<item id="1875" min="1" max="1" chance="5.704" /> <!-- Stone of Purity -->
 					<item id="1874" min="1" max="1" chance="5.704" /> <!-- Oriharukon Ore -->
 					<item id="1870" min="1" max="1" chance="85.5603" /> <!-- Coal -->
-					<item id="92912" min="1" max="1" chance="1.7112" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.8556" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2852" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1711" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0086" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -7280,6 +7277,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<equipment rhand="135" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2913.59120921392" hpRegen="8.5" mp="1574" mpRegen="3" />
@@ -7313,7 +7311,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1088" max="2545" chance="100" /> <!-- Adena -->
+					<item id="57" min="2076" max="5090" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.0029">
 					<item id="5509" min="1" max="1" chance="24.8216" /> <!-- Sealed Tallum Glove Design -->
@@ -7329,11 +7327,6 @@
 					<item id="1873" min="1" max="1" chance="26.0513" /> <!-- Silver Nugget -->
 					<item id="1869" min="1" max="1" chance="65.1282" /> <!-- Iron Ore -->
 					<item id="1880" min="1" max="1" chance="6.5128" /> <!-- Steel -->
-					<item id="92912" min="1" max="1" chance="1.3026" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.6513" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.2171" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.1303" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0064" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -7349,6 +7342,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2956.64545357656" hpRegen="8.5" mp="1607.4" mpRegen="3" />
 			<attack physical="4522.00615127786" magical="878.3296104" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -7380,7 +7374,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1075" max="2515" chance="100" /> <!-- Adena -->
+					<item id="57" min="2150" max="5030" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7643">
 					<item id="5494" min="1" max="1" chance="57.614" /> <!-- Sealed Dark Crystal Shield Fragment -->
@@ -7392,11 +7386,6 @@
 					<item id="1872" min="1" max="3" chance="30.7394" /> <!-- Animal Bone Fragment -->
 					<item id="1867" min="1" max="1" chance="61.4789" /> <!-- Animal Skin -->
 					<item id="1881" min="1" max="1" chance="6.1479" /> <!-- Coarse Bone Powder -->
-					<item id="92912" min="1" max="1" chance="0.9222" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.4611" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1537" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.0922" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.0046" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
@@ -7409,6 +7398,7 @@
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
+		<acquire exp="123530" sp="12546" />
 		<equipment rhand="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2956.64545357656" hpRegen="8.5" mp="1607.4" mpRegen="3" />
@@ -7442,7 +7432,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1095" max="2563" chance="100" /> <!-- Adena -->
+					<item id="57" min="2090" max="5126" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7264">
 					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
@@ -7459,11 +7449,6 @@
 					<item id="1864" min="1" max="3" chance="48.6741" /> <!-- Stem -->
 					<item id="1878" min="1" max="1" chance="19.4696" /> <!-- Durable Braid -->
 					<item id="1895" min="1" max="1" chance="13.9069" /> <!-- Metallic Fiber -->
-					<item id="92912" min="1" max="1" chance="0.9735" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.4867" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92914" min="1" max="1" chance="0.1622" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="92915" min="1" max="1" chance="0.0973" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="92919" min="1" max="1" chance="0.005" /> <!-- Crafting Herb: High-grade Blacksmith's Energy -->
 				</group>
 			</drop>
 			<spoil>
