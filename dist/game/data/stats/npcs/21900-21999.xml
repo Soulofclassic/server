@@ -2,6 +2,17 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
 	<npc id="21900" level="79" type="Monster" name="Ancient Holy Ground Dead">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DeBuff" id="4035" level="5" /> <!-- Poison -->
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -36,6 +47,7 @@
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4035" level="5" /> <!-- Poison -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -69,6 +81,17 @@
 	</npc>
 	<npc id="21901" level="79" type="Monster" name="Lilim Slayer">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -100,6 +123,7 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4287" level="5" /> <!-- Hold Resistance -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -137,6 +161,17 @@
 	</npc>
 	<npc id="21902" level="80" type="Monster" name="Lilim Sorcerer">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -167,6 +202,7 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4002" level="5" /> <!-- NPC HP Drain -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -203,6 +239,18 @@
 	</npc>
 	<npc id="21903" level="80" type="Monster" name="Lilim Royal Knight">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+			<skill name="SelfRangeDDMagic" id="4072" level="5" /> <!-- Stun -->
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -235,6 +283,8 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4287" level="3" /> <!-- Hold Resistance -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
+			<skill id="4072" level="5" /> <!-- Stun -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -264,6 +314,18 @@
 	</npc>
 	<npc id="21904" level="76" type="Monster" name="Graveyard Prophet">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="W_LongRangeDDMagic" id="4158" level="6" /> <!-- NPC Prominence - Magic -->
+			<skill name="W_ShortRangeDDMagic" id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -293,6 +355,8 @@
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4158" level="6" /> <!-- NPC Prominence - Magic -->
+			<skill id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -326,6 +390,17 @@
 	</npc>
 	<npc id="21905" level="77" type="Monster" name="Netherworld Gatekeeper">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -356,6 +431,7 @@
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -386,6 +462,17 @@
 	</npc>
 	<npc id="21906" level="77" type="Monster" name="Netherworld Guide">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="SelfRangeDDMagic" id="4072" level="5" /> <!-- Stun -->
+		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -416,6 +503,7 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4072" level="5" /> <!-- Stun -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -449,6 +537,17 @@
 	</npc>
 	<npc id="21907" level="78" type="Monster" name="Sepulcher Royal Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -478,6 +577,7 @@
 			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -504,6 +604,17 @@
 	</npc>
 	<npc id="21908" level="78" type="Monster" name="Sepulcher Prophet">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
+		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -534,6 +645,7 @@
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4002" level="5" /> <!-- NPC HP Drain -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -568,6 +680,17 @@
 	</npc>
 	<npc id="21909" level="79" type="Monster" name="Sepulcher Hermit">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="Buff" id="4099" level="2" /> <!-- NPC Berserk -->
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -597,6 +720,7 @@
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4099" level="2" /> <!-- NPC Berserk -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -630,6 +754,17 @@
 	</npc>
 	<npc id="21910" level="79" type="Monster" name="Nephilim Royal Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -660,6 +795,7 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4287" level="5" /> <!-- Hold Resistance -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -697,6 +833,17 @@
 	</npc>
 	<npc id="21911" level="80" type="Monster" name="Nephilim High Priest">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="Fury" id="4317" level="1" /> <!-- Increase Rage Might -->
+		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -727,6 +874,7 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="5" /> <!-- Sleep Resistance -->
+			<skill id="4317" level="1" /> <!-- Increase Rage Might -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -763,6 +911,17 @@
 	</npc>
 	<npc id="21912" level="80" type="Monster" name="Nephilim Royal Escort">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -794,6 +953,7 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4287" level="3" /> <!-- Hold Resistance -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -859,6 +1019,17 @@
 	</npc>
 	<npc id="21914" level="73" type="Monster" name="Lilith's Escort">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -889,6 +1060,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
 		</skillList>
 	</npc>
 	<npc id="21915" level="73" type="Monster" name="Anakim" title="Fallen Angel">
@@ -925,6 +1097,17 @@
 	</npc>
 	<npc id="21916" level="73" type="Monster" name="Anakim's Royal Guard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
+		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -954,6 +1137,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4002" level="5" /> <!-- NPC HP Drain -->
 		</skillList>
 	</npc>
 	<npc id="21917" level="84" type="Monster" name="Lilith" title="Apostle">
