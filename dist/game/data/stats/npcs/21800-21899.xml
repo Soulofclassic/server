@@ -5059,9 +5059,9 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7200" max="24000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7200" max="15000" chance="100" /> <!-- Adena -->
 				</group>
-				<item id="2133" min="1" max="1" chance="2" /> <!-- gem A -->
+				<item id="2133" min="1" max="1" chance="0.5" /> <!-- gem A -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="41.9497" /> <!-- Silver Nugget -->
@@ -5142,7 +5142,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="2012" max="4703" chance="100" /> <!-- Adena -->
+					<item id="57" min="7000" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.4393">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -5389,7 +5389,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4092" max="8890" chance="100" /> <!-- Adena -->
+					<item id="57" min="4092" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7478">
 					<item id="5478" min="1" max="1" chance="22.9254" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
@@ -5477,7 +5477,7 @@
 				<group chance="70">
 					<item id="57" min="7200" max="24000" chance="100" /> <!-- Adena -->
 				</group>
-				<item id="2133" min="1" max="1" chance="2" /> <!-- gem A -->
+				<item id="2133" min="1" max="1" chance="0.5" /> <!-- gem A -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="41.9497" /> <!-- Silver Nugget -->
@@ -5629,7 +5629,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7200" max="24000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7200" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -5707,7 +5707,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4149" max="10023" chance="100" /> <!-- Adena -->
+					<item id="57" min="4149" max="12023" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4664">
 					<item id="5520" min="1" max="1" chance="23.1665" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
@@ -5874,7 +5874,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4052" max="9797" chance="100" /> <!-- Adena -->
+					<item id="57" min="4052" max="13797" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7343">
 					<item id="5485" min="1" max="1" chance="22.9056" /> <!-- Sealed Tallum Tunic Texture -->
@@ -5964,7 +5964,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="8200" max="24000" chance="100" /> <!-- Adena -->
+					<item id="57" min="8200" max="15000" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -6042,7 +6042,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="11140" max="33137" chance="100" /> <!-- Adena -->
+					<item id="57" min="11140" max="16137" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.6029">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -6203,7 +6203,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7643" max="24109" chance="100" /> <!-- Adena -->
+					<item id="57" min="7643" max="14109" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7667">
 					<item id="5485" min="1" max="1" chance="22.9056" /> <!-- Sealed Tallum Tunic Texture -->
@@ -6300,7 +6300,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="12179" max="34118" chance="100" /> <!-- Adena -->
+					<item id="57" min="10179" max="17118" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -6377,7 +6377,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="14660" max="38118" chance="100" /> <!-- Adena -->
+					<item id="57" min="12660" max="18118" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5124">
 					<item id="5520" min="1" max="1" chance="23.1665" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
@@ -6454,7 +6454,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="1679" max="3218" chance="100" /> <!-- Adena -->
+					<item id="57" min="3679" max="5218" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -6532,7 +6532,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10779" max="32118" chance="100" /> <!-- Adena -->
+					<item id="57" min="10779" max="14118" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -6623,7 +6623,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4392" max="10593" chance="100" /> <!-- Adena -->
+					<item id="57" min="4392" max="15593" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4734">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -6711,7 +6711,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4204" max="9152" chance="100" /> <!-- Adena -->
+					<item id="57" min="4204" max="11152" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2749">
 					<item id="90045" min="1" max="1" chance="62.5" /> <!-- Magical Tablet -->
@@ -6794,7 +6794,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4210" max="10166" chance="100" /> <!-- Adena -->
+					<item id="57" min="4210" max="13166" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4372">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -6870,7 +6870,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10110" max="20400" chance="100" /> <!-- Adena -->
+					<item id="57" min="10110" max="15400" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="1870" min="3" max="9" chance="33.6957" /> <!-- coal -->
 				<item id="1874" min="1" max="1" chance="14.6957" /> <!-- oo -->
@@ -6966,7 +6966,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="14710" max="38100" chance="100" /> <!-- Adena -->
+					<item id="57" min="14710" max="18100" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4571">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -7054,7 +7054,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="12140" max="34137" chance="100" /> <!-- Adena -->
+					<item id="57" min="12140" max="18137" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2795">
 					<item id="90045" min="1" max="1" chance="62.5" /> <!-- Magical Tablet -->
@@ -7124,7 +7124,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7652" max="24197" chance="100" /> <!-- Adena -->
+					<item id="57" min="7652" max="16197" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="1864" min="4" max="12" chance="33.3333" /> <!-- stem -->
 				<item id="1878" min="2" max="6" chance="14.2857" /> <!-- durable braid -->

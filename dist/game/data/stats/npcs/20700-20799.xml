@@ -891,7 +891,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="8455" max="19775" chance="100" /> <!-- Adena -->
+					<item id="57" min="4455" max="9371" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="75" min="1" max="1" chance="0.0005" /> <!-- caliburs -->
 				<item id="233" min="1" max="1" chance="0.0005" /> <!-- dark screamer -->
