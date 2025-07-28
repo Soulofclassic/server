@@ -7153,9 +7153,20 @@
 		</collision>
 	</npc>
 	<npc id="21895" level="76" type="Monster" name="Mausoleum Prophet">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="114" />
+			<param name="MoveAroundSocial1" value="114" />
+			<param name="MoveAroundSocial2" value="114" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="Buff" id="4099" level="2" /> <!-- NPC Berserk -->
+		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
+		<equipment rhand="311" /> <!-- rhand: Crucifix of Blessing -->
 		<acquire exp="123530" sp="12546" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2869.17670907346" hpRegen="8.5" mp="1540.8" mpRegen="3" />
@@ -7183,6 +7194,7 @@
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4099" level="2" /> <!-- NPC Berserk -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -7215,7 +7227,17 @@
 		</dropLists>
 	</npc>
 	<npc id="21896" level="77" type="Monster" name="Ancient Holy Ground's Hermit">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DeBuff" id="4035" level="11" /> <!-- Poison -->
+		</parameters>
 		<race>BEAST</race>
 		<sex>FEMALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -7245,6 +7267,7 @@
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4035" level="11" /> <!-- Poison -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -7274,7 +7297,17 @@
 		</dropLists>
 	</npc>
 	<npc id="21897" level="77" type="Monster" name="Ancient Holy Ground's Totem">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DDMagic" id="4105" level="11" /> <!-- NPC Straight Beam Cannon -->
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -7307,6 +7340,7 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4287" level="3" /> <!-- Hold Resistance -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
+			<skill id="4105" level="11" /> <!-- NPC Straight Beam Cannon -->
 		</skillList>
 		<dropLists>
 			<drop>
@@ -7395,7 +7429,17 @@
 		</dropLists>
 	</npc>
 	<npc id="21899" level="78" type="Monster" name="Ancient Martyrium Watchman">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="11" /> <!-- NPC Strike -->
+		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="123530" sp="12546" />
@@ -7428,6 +7472,7 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4287" level="3" /> <!-- Hold Resistance -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
+			<skill id="4032" level="11" /> <!-- NPC Strike -->
 		</skillList>
 		<dropLists>
 			<drop>
