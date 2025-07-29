@@ -340,7 +340,7 @@
 		<skill skillName="Shilen's Cursed Field" skillId="1897" skillLevel="4" getLevel="70" levelUpSp="1800000" />
 		<skill skillName="Might of Heaven" skillId="1028" skillLevel="17" getLevel="70" levelUpSp="1800000" />
 		<skill skillName="Stigma of Shilen" skillId="1539" skillLevel="4" getLevel="70" levelUpSp="1800000" />
-		<skill skillName="Prophecy of Wind" skillId="1357" skillLevel="1" getLevel="70" levelUpSp="1800000">
+		<skill skillName="Prophecy of Wind" skillId="1357" skillLevel="1" getLevel="70" levelUpSp="1800000" />
 		
 		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="71" levelUpSp="2200000" />
 		<skill skillName="Greater Heal" skillId="1217" skillLevel="26" getLevel="71" levelUpSp="2200000" />
