@@ -24,6 +24,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
+          command_timeout: 30
           script: |
             # Фоновая задача для вывода логов
             while sleep 120; do echo "[$(date)] Build in progress..."; done &
