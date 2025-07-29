@@ -46,7 +46,6 @@
 		<skill skillName="Sonic Blaster" skillId="6" skillLevel="40" getLevel="78" levelUpSp="11300000" />
 		<skill skillName="Sonic Storm" skillId="7" skillLevel="31" getLevel="78" levelUpSp="11300000" />
 		<skill skillName="Master of Combat" skillId="430" skillLevel="1" getLevel="78" levelUpSp="11300000" />
-		<skill skillName="Rush" skillId="994" skillLevel="1" getLevel="78" levelUpSp="11300000" />
 		<skill skillName="Triple Sonic Slash" skillId="261" skillLevel="25" getLevel="78" levelUpSp="11300000" />
 		<skill skillName="Triple Slash" skillId="1" skillLevel="40" getLevel="78" levelUpSp="11300000" />
 		<skill skillName="Braveheart" skillId="440" skillLevel="1" getLevel="78" levelUpSp="11300000" />

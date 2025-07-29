@@ -141,6 +141,7 @@
 		<skill skillName="Power Crush" skillId="260" skillLevel="15" getLevel="52" levelUpSp="310000" />
 		<skill skillName="Weapon Reinforcement" skillId="1615" skillLevel="2" getLevel="52" levelUpSp="310000" />
 		<skill skillName="Strengthen Golem" skillId="823" skillLevel="2" getLevel="52" levelUpSp="310000" />
+		<skill skillName="Rush" skillId="994" skillLevel="1" getLevel="52" levelUpSp="200000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="310000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>

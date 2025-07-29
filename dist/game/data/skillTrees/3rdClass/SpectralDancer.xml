@@ -42,9 +42,6 @@
 		<skill skillName="Deadly Strike" skillId="1632" skillLevel="3" getLevel="78" levelUpSp="17800000" />
 		<skill skillName="Power Break" skillId="115" skillLevel="19" getLevel="78" levelUpSp="17800000" />
 		<skill skillName="Poison Blade Dance" skillId="84" skillLevel="4" getLevel="78" levelUpSp="17800000" />
-		<skill skillName="Dance of Siren" skillId="365" skillLevel="1" getLevel="78" levelUpSp="17800000">
-			<item id="90095" count="1" /> <!-- Scroll: Dance of Siren -->
-		</skill>
 
 		<skill skillName="Dance of Medusa" skillId="367" skillLevel="1" getLevel="79" levelUpSp="17800000">
 			<item id="90096" count="1" /> <!-- Scroll: Dance of Medusa -->
@@ -54,9 +51,6 @@
 		<skill skillName="Heavy Armor Mastery" skillId="232" skillLevel="56" getLevel="80" levelUpSp="17800000" />
 		<skill skillName="Magic Resistance" skillId="147" skillLevel="55" getLevel="80" levelUpSp="17800000" />
 		<skill skillName="Deadly Strike" skillId="1632" skillLevel="4" getLevel="80" levelUpSp="17800000" />
-		<skill skillName="Dance of Berserker" skillId="915" skillLevel="1" getLevel="80" levelUpSp="17800000">
-			<item id="90097" count="1" /> <!-- Scroll: Dance of Berserker -->
-		</skill>
 		
 		<skill skillName="Dual Weapon Mastery" skillId="144" skillLevel="42" getLevel="81" levelUpSp="160000000" />
 		<skill skillName="Heavy Armor Mastery" skillId="232" skillLevel="57" getLevel="81" levelUpSp="160000000" />

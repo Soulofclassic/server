@@ -13,14 +13,14 @@
 		<skill skillName="Dreaming Spirit" skillId="1097" skillLevel="21" getLevel="76" levelUpSp="6700000" />
 		<skill skillName="Life Rescue" skillId="1610" skillLevel="21" getLevel="76" levelUpSp="6700000" />
 		<skill skillName="Fear" skillId="1092" skillLevel="20" getLevel="76" levelUpSp="6700000" />
+		<skill skillName="Chant of Gate" skillId="1429" skillLevel="1" getLevel="76" levelUpSp="14800000">
+			<item id="90114" count="1" /> <!-- Scroll: Chant of Gate -->
+		</skill>
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" levelUpSp="6700000">
 			<item id="8620" count="1" /> <!-- Ancient Book: Divine Inspiration (Manuscript) -->
 		</skill>
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="76" levelUpSp="6700000">
 			<item id="8621" count="1" /> <!-- Ancient Book: Divine Inspiration (Original Version) -->
-		</skill>
-		<skill skillName="Chant of Victory" skillId="1363" skillLevel="1" getLevel="76" levelUpSp="6700000">
-			<item id="90112" count="1" />
 		</skill>
 		<skill skillName="Mount Black Bear" skillId="1837" skillLevel="1" getLevel="76">
 			<item id="90042" count="1" /> <!-- Spellbook: Mount Black Bear -->
@@ -51,9 +51,6 @@
 		<skill skillName="Dreaming Spirit" skillId="1097" skillLevel="22" getLevel="78" levelUpSp="14800000" />
 		<skill skillName="Life Rescue" skillId="1610" skillLevel="23" getLevel="78" levelUpSp="14800000" />
 		<skill skillName="Fear" skillId="1092" skillLevel="21" getLevel="78" levelUpSp="14800000" />
-		<skill skillName="Chant of Gate" skillId="1429" skillLevel="1" getLevel="78" levelUpSp="14800000">
-			<item id="90114" count="1" /> <!-- Scroll: Chant of Gate -->
-		</skill>
 		
 		<skill skillName="Freezing Flame" skillId="1244" skillLevel="8" getLevel="79" levelUpSp="14800000" />
 		<skill skillName="Life Rescue" skillId="1610" skillLevel="24" getLevel="79" levelUpSp="14800000" />

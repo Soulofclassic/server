@@ -129,6 +129,7 @@
 		<skill skillName="Detect Beast Weakness" skillId="80" skillLevel="1" getLevel="52" levelUpSp="290000" />
 		<skill skillName="Final Frenzy" skillId="290" skillLevel="4" getLevel="52" levelUpSp="290000" />
 		<skill skillName="Focus Attack" skillId="317" skillLevel="2" getLevel="52" levelUpSp="290000" />
+		<skill skillName="Rush" skillId="994" skillLevel="1" getLevel="52" levelUpSp="200000">
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="290000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>
