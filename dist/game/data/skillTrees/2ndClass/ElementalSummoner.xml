@@ -137,6 +137,8 @@
 		<skill skillName="Summon Merrow the Unicorn" skillId="1277" skillLevel="4" getLevel="52" levelUpSp="360000" />
 		<skill skillName="Summon Life Cubic" skillId="67" skillLevel="3" getLevel="52" levelUpSp="360000" />
 		<skill skillName="Servitor Haste" skillId="1141" skillLevel="2" getLevel="52" levelUpSp="360000" />
+		<skill skillName="Blessing of Seraphim" skillId="4702" skillLevel="13" getLevel="52" levelUpSp="360000" />
+		<skill skillName="Gift of Seraphim" skillId="4703" skillLevel="13" getLevel="52" levelUpSp="360000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="360000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>
