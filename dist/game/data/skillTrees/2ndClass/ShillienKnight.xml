@@ -177,6 +177,7 @@
 		<skill skillName="Summon Phantom Cubic" skillId="33" skillLevel="3" getLevel="52" levelUpSp="200000" />
 		<skill skillName="Hex" skillId="122" skillLevel="5" getLevel="52" levelUpSp="200000" />
 		<skill skillName="Power Break" skillId="115" skillLevel="7" getLevel="52" levelUpSp="200000" />
+		<skill skillName="Chain Strike" skillId="10015" skillLevel="1" getLevel="52" levelUpSp="200000" />
 		<skill skillName="Aegis" skillId="316" skillLevel="1" getLevel="52" levelUpSp="200000">
 			<item id="49428" count="1" />
 		</skill>
