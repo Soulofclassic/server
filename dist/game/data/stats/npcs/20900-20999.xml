@@ -4018,6 +4018,7 @@
 				<item id="4081" min="1" max="1" chance="18.29" /> <!-- doom plate piece -->
 				<item id="2133" min="1" max="1" chance="1.786" /> <!-- gem A  -->
 				<item id="2381" min="15" max="45" chance="4.332" /> <!-- doom plate  -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4989" min="1" max="1" chance="7.173" /> <!-- doom stock rec -->
@@ -4088,6 +4089,25 @@
 			<radius normal="36" />
 			<height normal="60" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2250" max="5811" chance="100" /> <!-- Adena -->
+				</group>
+				<item id="1874" min="12" max="36" chance="19.26" /> <!-- oo -->
+				<item id="4087" min="1" max="1" chance="5.944" /> <!-- doom stock piece -->
+				<item id="4085" min="1" max="1" chance="4.431" /> <!-- doom tunic piece -->
+				<item id="2404" min="1" max="1" chance="0.0005" /> <!-- doom stock  -->
+				<item id="2399" min="1" max="1" chance="0.0005" /> <!-- doom tunic  -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
+			</drop>
+			<spoil>
+				<item id="4989" min="1" max="5" chance="3.191" /> <!-- rec doom stock -->
+				<item id="4987" min="1" max="50" chance="2.483" /> <!-- rec doom tunic -->
+				<item id="4985" min="1" max="5" chance="1.005" /> <!-- rec doom leather arm -->
+				<item id="4983" min="1" max="5" chance="1.258" /> <!-- rec doom plate -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20982" level="67" type="Monster" name="Mul's Knight">
 		<parameters>
@@ -4147,6 +4167,23 @@
 			<radius normal="28" />
 			<height normal="75" />
 		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2250" max="6431" chance="100" /> <!-- Adena -->
+				</group>
+				<item id="1870" min="12" max="36" chance="22.78" /> <!-- coal -->
+				<item id="4083" min="1" max="1" chance="10.554" /> <!-- leather doom armor piece -->
+				<item id="2392" min="1" max="1" chance="0.0005" /> <!-- leather armor of doom -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
+			</drop>
+			<spoil>
+				<item id="4989" min="1" max="5" chance="7.191" /> <!-- rec doom stock -->
+				<item id="4987" min="1" max="50" chance="4.483" /> <!-- rec doom tunic -->
+				<item id="4985" min="1" max="5" chance="3.005" /> <!-- rec doom leather arm -->
+				<item id="4983" min="1" max="5" chance="2.258" /> <!-- rec doom plate -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="20983" level="77" type="Monster" name="Binder">
 		<parameters>
@@ -4218,6 +4255,7 @@
 				<item id="4121" min="1" max="1" chance="10.85574" /> <!-- bop shaft -->
 				<item id="2133" min="1" max="1" chance="1.6587" /> <!-- gem A -->
 				<item id="287" min="1" max="1" chance="0.005" /> <!-- BOP -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="1878" min="1" max="5" chance="85.3934" /> <!-- sop -->
