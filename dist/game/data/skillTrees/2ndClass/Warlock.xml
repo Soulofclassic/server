@@ -136,6 +136,8 @@
 		<skill skillName="Summon Binding Cubic" skillId="1279" skillLevel="4" getLevel="52" levelUpSp="360000" />
 		<skill skillName="Summon Storm Cubic" skillId="10" skillLevel="3" getLevel="52" levelUpSp="360000" />
 		<skill skillName="Servitor Haste" skillId="1141" skillLevel="2" getLevel="52" levelUpSp="360000" />
+		<skill skillName="Blessing of Queen" skillId="4699" skillLevel="6" getLevel="52" levelUpSp="0" />
+		<skill skillName="Gift of Queen" skillId="4700" skillLevel="6" getLevel="52" levelUpSp="0" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="360000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>
