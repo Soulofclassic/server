@@ -138,6 +138,7 @@
 		<skill skillName="Hurricane" skillId="1239" skillLevel="8" getLevel="52" levelUpSp="250000" />
 		<skill skillName="Higher Mana Gain" skillId="285" skillLevel="16" getLevel="52" levelUpSp="250000" />
 		<skill skillName="Sleep" skillId="1069" skillLevel="21" getLevel="52" levelUpSp="250000" />
+		<skill skillName="Jump" skillId="51250" skillLevel="1" getLevel="52" levelUpSp="1400000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="250000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>
@@ -369,6 +370,7 @@
 		<skill skillName="Hurricane" skillId="1239" skillLevel="24" getLevel="70" levelUpSp="1400000" />
 		<skill skillName="Higher Mana Gain" skillId="285" skillLevel="25" getLevel="70" levelUpSp="1400000" />
 		<skill skillName="Sleep" skillId="1069" skillLevel="38" getLevel="70" levelUpSp="1400000" />
+
 
 		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="71" levelUpSp="1700000" />
 		<skill skillName="Robe Mastery" skillId="234" skillLevel="38" getLevel="71" levelUpSp="1700000" />
