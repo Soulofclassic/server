@@ -359,7 +359,7 @@
 		<skill skillName="Eva's Serenade" skillId="1273" skillLevel="11" getLevel="70" levelUpSp="1700000" />
 		<skill skillName="Might of Heaven" skillId="1028" skillLevel="17" getLevel="70" levelUpSp="1700000" />
 		<skill skillName="Sleep" skillId="1069" skillLevel="38" getLevel="70" levelUpSp="1700000" />
-		<skill skillName="Prophecy of Water" skillId="1355" skillLevel="1" getLevel="70" levelUpSp="410000">
+		<skill skillName="Prophecy of Water" skillId="1355" skillLevel="1" getLevel="70" levelUpSp="1700000">
 		
 		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="71" levelUpSp="2000000" />
 		<skill skillName="Greater Heal" skillId="1217" skillLevel="26" getLevel="71" levelUpSp="2000000" />

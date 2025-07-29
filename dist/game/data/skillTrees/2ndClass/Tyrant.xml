@@ -141,7 +141,7 @@
 		<skill skillName="Hurricane Assault" skillId="284" skillLevel="18" getLevel="52" levelUpSp="240000" />
 		<skill skillName="Focus Force" skillId="50" skillLevel="4" getLevel="52" levelUpSp="240000" />
 		<skill skillName="Cripple" skillId="95" skillLevel="10" getLevel="52" levelUpSp="240000" />
-		<skill skillName="Rush" skillId="994" skillLevel="1" getLevel="52" levelUpSp="200000">
+		<skill skillName="Rush" skillId="994" skillLevel="1" getLevel="52" levelUpSp="240000">
 		<skill skillName="Break Duress" skillId="461" skillLevel="1" getLevel="52" levelUpSp="240000">
 			<item id="49426" count="1" />
 		</skill>
