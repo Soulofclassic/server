@@ -4190,9 +4190,9 @@
 		<equipment rhand="3937" /> <!-- rhand: Giant Bar -->
 		<acquire exp="316016" sp="9480" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="5738.36" hpRegen="17" mp="2311.2" mpRegen="6" />
-			<attack physical="13190.75" magical="6755.68" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="932.499504" magical="511.7720184" />
+			<vitals hp="5437.9175761" hpRegen="17" mp="2311.2" mpRegen="6" />
+			<attack physical="10283.95982849" magical="6755.68" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1301.46130385" magical="277.10218899" />
 			<speed>
 				<walk ground="15" />
 				<run ground="220" />
@@ -4518,7 +4518,7 @@
 		<acquire exp="257609" sp="7728" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="7415.34644473" hpRegen="17" mp="2361" mpRegen="6" />
-			<attack physical="8454.26549444" magical="4493.66402157" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<attack physical="8454.26549444" magical="8493.66402157" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1176.34811185" magical="250.53662035" />
 			<speed>
 				<walk ground="15" />
@@ -4606,7 +4606,7 @@
 		<acquire exp="336445" sp="10093" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="4943.50951729" hpRegen="17" mp="2411.1" mpRegen="6" />
-			<attack physical="9237.01923593" magical="4434.56226819" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<attack physical="9237.01923593" magical="8434.56226819" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="1168.61754664" magical="205.95135645" />
 			<speed>
 				<walk ground="30" />

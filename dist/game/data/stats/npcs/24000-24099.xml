@@ -556,9 +556,9 @@
 		<acquire exp="341811" sp="10254" />
 		<equipment rhand="3937" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="5913.3" hpRegen="17" mp="2411.1" mpRegen="6" />
-			<attack physical="14248.01" magical="7297.16" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="958.1777568" magical="525.8646792" />
+			<vitals hp="5437.86046901" hpRegen="17" mp="2411.1" mpRegen="6" />
+			<attack physical="7636.34447118" magical="7297.16" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1285.4793013" magical="273.85586142" />
 			<speed>
 				<walk ground="30" />
 				<run ground="220" />
@@ -809,9 +809,9 @@
 		<race>GIANT</race>
 		<acquire exp="1051810" sp="31554" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="5827.18" hpRegen="17" mp="2361" mpRegen="6" />
-			<attack physical="13703.05" magical="7018.05" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="945.4197024" magical="518.8628232" />
+			<vitals hp="4943.51955106" hpRegen="17" mp="2361" mpRegen="6" />
+			<attack physical="9209.17128994" magical="4493.50796086" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1176.58929035" magical="275.59028238" />
 			<speed>
 				<walk ground="55" />
 				<run ground="140" />

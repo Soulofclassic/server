@@ -5030,9 +5030,9 @@
 		<equipment rhand="2504" lhand="6918" /> <!-- rhand: Meteor Shower lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="685664" sp="18512" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<vitals hp="6525.45622342" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="31153.32280531" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1271.32064241" magical="522.10299611" />
 			<speed>
 				<walk ground="44" />
 				<run ground="175" />
@@ -5059,7 +5059,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7200" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7200" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="2133" min="1" max="1" chance="0.5" /> <!-- gem A -->
 			</drop>
@@ -5103,9 +5103,9 @@
 		<equipment rhand="2504" lhand="6918" /> <!-- rhand: Meteor Shower lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="342048" sp="9235" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<vitals hp="6525.45622342" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="31153.32280531" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1114.25146061" magical="522.10299611" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -5142,7 +5142,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7000" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.4393">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -5257,9 +5257,9 @@
 		<equipment rhand="142" lhand="6918" /> <!-- rhand: Keshanberk lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="231033" sp="6237" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<vitals hp="6525.45622342" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="27088.21561682" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1114.25146061" magical="522.10299611" />
 			<speed>
 				<walk ground="44" />
 				<run ground="175" />
@@ -5350,9 +5350,9 @@
 		<equipment rhand="6917" /> <!-- rhand: Monster Only (Poison Sting) -->
 		<acquire exp="351456" sp="9489" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<vitals hp="6525.45622342" hpRegen="17" mp="2512.2" mpRegen="6" />
 			<attack physical="15528.6" magical="7953.02" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="983.16" magical="539.5753656" />
+			<defence physical="1114.25146061" magical="522.10299611" />
 			<speed>
 				<walk ground="30" />
 				<run ground="175" />
@@ -5389,7 +5389,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4092" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="4092" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7478">
 					<item id="5478" min="1" max="1" chance="22.9254" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
@@ -5444,9 +5444,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="694176" sp="18742" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<vitals hp="7178.00184576" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="15528.6" magical="34708.84882082" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1254.82783408" magical="574.31329572" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -5475,7 +5475,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7200" max="24000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7200" max="14000" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="2133" min="1" max="1" chance="0.5" /> <!-- gem A -->
 			</drop>
@@ -5588,9 +5588,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="714694" sp="19296" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<vitals hp="7178.00184576" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="34268.65508584" magical="34854.37858527" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1225.67660667" magical="574.31329572" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -5629,7 +5629,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7200" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7200" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -5663,9 +5663,9 @@
 		<equipment rhand="142" lhand="6918" /> <!-- rhand: Keshanberk lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="358176" sp="9670" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<vitals hp="7178.00184576" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="34268.65508584" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1225.67660667" magical="574.31329572" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -5829,9 +5829,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="362961" sp="9799" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<vitals hp="7177.96801627" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="24684.95457603" magical="34393.72279614" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1389.03022478" magical="571.52416668" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -5923,9 +5923,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="737082" sp="19901" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<vitals hp="7177.96801627" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="34065.85032016" magical="34393.72279614" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1219.00370349" magical="571.52416668" />
 			<speed>
 				<walk ground="36" />
 				<run ground="175" />
@@ -5964,7 +5964,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="8200" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="8200" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -5998,9 +5998,9 @@
 		<equipment rhand="2504" /> <!-- rhand: Meteor Shower -->
 		<acquire exp="385649" sp="10412" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<vitals hp="7177.96801627" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="34065.85032016" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1219.00370349" magical="571.52416668" />
 			<speed>
 				<walk ground="25" />
 				<run ground="175" />
@@ -6042,7 +6042,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="11140" max="16137" chance="100" /> <!-- Adena -->
+					<item id="57" min="9140" max="13137" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.6029">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -6160,9 +6160,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="388263" sp="10483" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<vitals hp="7177.96801627" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="34065.85032016" magical="34393.72279614" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1219.00370349" magical="571.52416668" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6256,9 +6256,9 @@
 		<equipment rhand="2500" /> <!-- rhand: Dark Legion's Edge -->
 		<acquire exp="760665" sp="20537" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="29448.65246712" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1212.30985435" magical="567.8446394" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -6300,7 +6300,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10179" max="17118" chance="100" /> <!-- Adena -->
+					<item id="57" min="9179" max="14118" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -6334,9 +6334,9 @@
 		<equipment rhand="2500" /> <!-- rhand: Dark Legion's Edge -->
 		<acquire exp="415186" sp="11210" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="21339.42411334" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1212.30985435" magical="567.8446394" />
 			<speed>
 				<walk ground="25" />
 				<run ground="175" />
@@ -6377,7 +6377,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="12660" max="18118" chance="100" /> <!-- Adena -->
+					<item id="57" min="9660" max="14118" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5124">
 					<item id="5520" min="1" max="1" chance="23.1665" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
@@ -6500,9 +6500,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="773044" sp="20872" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="24540.28051089" magical="33954.33022" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1381.27290025" magical="567.8446394" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6532,7 +6532,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10779" max="14118" chance="100" /> <!-- Adena -->
+					<item id="57" min="9779" max="14118" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -6581,9 +6581,9 @@
 		<equipment rhand="2500" /> <!-- rhand: Dark Legion's Edge -->
 		<acquire exp="381240" sp="10293" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<vitals hp="7177.96801627" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="24684.95457603" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1219.00370349" magical="571.52416668" />
 			<speed>
 				<walk ground="25" />
 				<run ground="175" />
@@ -6623,7 +6623,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4392" max="15593" chance="100" /> <!-- Adena -->
+					<item id="57" min="8392" max="15593" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4734">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -6672,9 +6672,9 @@
 		<acquire exp="281240" sp="10293" />
 		<equipment rhand="2500" lhand="6918" /> <!-- rhand: Dark Legion's Edge lhand: Monster Only (Shield of Silenos) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<vitals hp="6525.31914018" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="30968.9548365" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1108.18518499" magical="519.56742426" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -6754,9 +6754,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="390711" sp="10549" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="24540.28051089" magical="33954.33022" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1381.27290025" magical="567.8446394" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6843,9 +6843,9 @@
 		<sex>MALE</sex>
 		<equipment rhand="2500" lhand="6918" /> <!-- rhand: Dark Legion's Edge lhand: Monster Only (Shield of Silenos) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<vitals hp="6525.49785828" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="30787.62384187" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1102.09986759" magical="516.22239945" />
 			<speed>
 				<walk ground="44" />
 				<run ground="175" />
@@ -6870,7 +6870,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10110" max="15400" chance="100" /> <!-- Adena -->
+					<item id="57" min="5110" max="13400" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="1870" min="3" max="9" chance="33.6957" /> <!-- coal -->
 				<item id="1874" min="1" max="1" chance="14.6957" /> <!-- oo -->
@@ -6923,9 +6923,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="371978" sp="10043" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="24540.28051089" magical="33953.21598798" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1212.30985435" magical="567.8446394" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6966,7 +6966,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="14710" max="18100" chance="100" /> <!-- Adena -->
+					<item id="57" min="8710" max="15100" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4571">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -7016,9 +7016,9 @@
 		<equipment rhand="2500" lhand="6918" /> <!-- rhand: Dark Legion's Edge lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="395229" sp="10671" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<vitals hp="6525.49785828" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="26771.48051097" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1102.09986759" magical="516.22239945" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -7054,7 +7054,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="12140" max="18137" chance="100" /> <!-- Adena -->
+					<item id="57" min="8140" max="13137" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2795">
 					<item id="90045" min="1" max="1" chance="62.5" /> <!-- Magical Tablet -->
@@ -7096,9 +7096,9 @@
 		<sex>MALE</sex>
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<vitals hp="6525.49785828" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="26771.50224283" magical="30867.57292727" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1102.09986759" magical="516.22239945" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -7124,7 +7124,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7652" max="16197" chance="100" /> <!-- Adena -->
+					<item id="57" min="7652" max="13197" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="1864" min="4" max="12" chance="33.3333" /> <!-- stem -->
 				<item id="1878" min="2" max="6" chance="14.2857" /> <!-- durable braid -->
