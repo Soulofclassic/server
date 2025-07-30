@@ -44,7 +44,7 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="AttackTrait">
+			<effect name="AttackTrait" fromLevel="7" toLevel="11">
 				<SHOCK>
 					<value level="7">5</value>
 					<value level="8">8</value>
@@ -52,7 +52,6 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</SHOCK>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -100,7 +99,7 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="AttackTrait">
+			<effect name="AttackTrait" fromLevel="7" toLevel="11">
 				<PARALYZE>
 					<value level="7">5</value>
 					<value level="8">8</value>
@@ -108,7 +107,6 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</PARALYZE>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -264,7 +262,7 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="AttackTrait">
+			<effect name="AttackTrait" fromLevel="7" toLevel="11">
 				<DERANGEMENT>
 					<value level="7">5</value>
 					<value level="8">8</value>
@@ -272,7 +270,6 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</DERANGEMENT>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
@@ -320,7 +317,7 @@
 				</amount>
 				<mode>PER</mode>
 			</effect>
-			<effect name="AttackTrait">
+			<effect name="AttackTrait" fromLevel="7" toLevel="11">
 				<HOLD>
 					<value level="7">5</value>
 					<value level="8">8</value>
@@ -328,9 +325,8 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</HOLD>
-				<mode>PER</mode>
 			</effect>
-			<effect name="AttackTrait">
+			<effect name="AttackTrait" fromLevel="7" toLevel="11">
 				<SLEEP>
 					<value level="7">5</value>
 					<value level="8">8</value>
@@ -338,7 +334,6 @@
 					<value level="10">22</value>
 					<value level="11">30</value>
 				</SLEEP>
-				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>

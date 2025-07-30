@@ -322,6 +322,7 @@
 		<skill skillName="Might of Heaven" skillId="1028" skillLevel="17" getLevel="70" levelUpSp="1900000" />
 		<skill skillName="Word of Fear" skillId="1272" skillLevel="11" getLevel="70" levelUpSp="1900000" />
 		<skill skillName="Boost HP" skillId="211" skillLevel="7" getLevel="70" levelUpSp="1900000" />
+		<skill skillName="Prophecy of Fire" skillId="1356" skillLevel="1" getLevel="70" levelUpSp="1900000" />
 		
 		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="71" levelUpSp="2400000" />
 		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="38" getLevel="71" levelUpSp="2400000" />

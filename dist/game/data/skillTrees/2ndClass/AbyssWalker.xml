@@ -163,6 +163,7 @@
 		<skill skillName="Power Break" skillId="115" skillLevel="7" getLevel="52" levelUpSp="230000" />
 		<skill skillName="Trick" skillId="11" skillLevel="2" getLevel="52" levelUpSp="230000" />
 		<skill skillName="Backstab" skillId="30" skillLevel="15" getLevel="52" levelUpSp="230000" />
+		<skill skillName="Bluff" skillId="358" skillLevel="1" getLevel="52" levelUpSp="200000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="230000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>

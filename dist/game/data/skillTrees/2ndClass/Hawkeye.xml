@@ -99,6 +99,7 @@
 		<skill skillName="Double Shot" skillId="19" skillLevel="15" getLevel="52" levelUpSp="390000" />
 		<skill skillName="Vital Force" skillId="148" skillLevel="5" getLevel="52" levelUpSp="390000" />
 		<skill skillName="Stun Shot" skillId="101" skillLevel="18" getLevel="52" levelUpSp="390000" />
+		<skill skillName="Jump" skillId="51250" skillLevel="1" getLevel="52" levelUpSp="1400000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="390000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>

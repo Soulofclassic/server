@@ -158,6 +158,7 @@
 		<skill skillName="Elemental Heal" skillId="58" skillLevel="33" getLevel="52" levelUpSp="230000" />
 		<skill skillName="Sprint" skillId="230" skillLevel="2" getLevel="52" levelUpSp="230000" />
 		<skill skillName="Tribunal" skillId="400" skillLevel="5" getLevel="52" levelUpSp="230000" />
+		<skill skillName="Chain Strike" skillId="10015" skillLevel="1" getLevel="52" levelUpSp="200000" />
 		<skill skillName="Aegis" skillId="316" skillLevel="1" getLevel="52" levelUpSp="230000">
 			<item id="49428" count="1" />
 		</skill>

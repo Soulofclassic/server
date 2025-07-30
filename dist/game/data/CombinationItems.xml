@@ -844,23 +844,23 @@
 		<reward id="71028" count="1" type="ON_SUCCESS" /> <!-- Well-made Matchstick -->
 		<reward id="71029" count="1" type="ON_FAILURE" /> <!-- Powerful Matchstick -->
 	</item>
-	<item one="71080" two="71078" chance="55"> <!-- Talisman of Authority Lv. 1 / Talisman of Authority Fragment -->
+	<item one="71080" two="71078" chance="50"> <!-- Talisman of Authority Lv. 1 / Talisman of Authority Fragment -->
 		<reward id="71081" count="1" type="ON_SUCCESS" /> <!-- Talisman of Authority Lv. 2 -->
 		<reward id="71080" count="1" type="ON_FAILURE" /> <!-- Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71081" two="71078" chance="55"> <!-- Talisman of Authority Lv. 2 / Talisman of Authority Fragment -->
+	<item one="71081" two="71078" chance="50"> <!-- Talisman of Authority Lv. 2 / Talisman of Authority Fragment -->
 		<reward id="71082" count="1" type="ON_SUCCESS" /> <!-- Talisman of Authority Lv. 3 -->
 		<reward id="71080" count="1" type="ON_FAILURE" /> <!-- Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71082" two="71078" chance="55"> <!-- Talisman of Authority Lv. 3 / Talisman of Authority Fragment -->
+	<item one="71082" two="71078" chance="50"> <!-- Talisman of Authority Lv. 3 / Talisman of Authority Fragment -->
 		<reward id="71083" count="1" type="ON_SUCCESS" /> <!-- Talisman of Authority Lv. 4 -->
 		<reward id="71080" count="1" type="ON_FAILURE" /> <!-- Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71083" two="71078" chance="55"> <!-- Talisman of Authority Lv. 4 / Talisman of Authority Fragment -->
+	<item one="71083" two="71078" chance="50"> <!-- Talisman of Authority Lv. 4 / Talisman of Authority Fragment -->
 		<reward id="71084" count="1" type="ON_SUCCESS" /> <!-- Talisman of Authority Lv. 5 -->
 		<reward id="71080" count="1" type="ON_FAILURE" /> <!-- Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71085" two="71078" chance="45"> <!-- Noble Talisman of Authority Lv. 1 / Talisman of Authority Fragment -->
+	<item one="71085" two="71078" chance="40"> <!-- Noble Talisman of Authority Lv. 1 / Talisman of Authority Fragment -->
 		<reward id="71086" count="1" type="ON_SUCCESS" /> <!-- Noble Talisman of Authority Lv. 2 -->
 		<reward id="71085" count="1" type="ON_FAILURE" /> <!-- Noble Talisman of Authority Lv. 1 -->
 	</item>
@@ -868,15 +868,15 @@
 		<reward id="71086" count="1" type="ON_SUCCESS" /> <!-- Noble Talisman of Authority Lv. 2 -->
 		<reward id="71085" count="1" type="ON_FAILURE" /> <!-- Noble Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71086" two="71078" chance="45"> <!-- Noble Talisman of Authority Lv. 2 / Talisman of Authority Fragment -->
+	<item one="71086" two="71078" chance="40"> <!-- Noble Talisman of Authority Lv. 2 / Talisman of Authority Fragment -->
 		<reward id="71087" count="1" type="ON_SUCCESS" /> <!-- Noble Talisman of Authority Lv. 3 -->
 		<reward id="71085" count="1" type="ON_FAILURE" /> <!-- Noble Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71086" two="71095" chance="45"> <!-- Noble Talisman of Authority Lv. 2 / Stable Talisman of Power Fragment -->
+	<item one="71086" two="71095" chance="40"> <!-- Noble Talisman of Authority Lv. 2 / Stable Talisman of Power Fragment -->
 		<reward id="71087" count="1" type="ON_SUCCESS" /> <!-- Noble Talisman of Authority Lv. 3 -->
 		<reward id="71086" count="1" type="ON_FAILURE" /> <!-- Noble Talisman of Authority Lv. 2 -->
 	</item>
-	<item one="71087" two="71078" chance="45"> <!-- Noble Talisman of Authority Lv. 3 / Talisman of Authority Fragment -->
+	<item one="71087" two="71078" chance="40"> <!-- Noble Talisman of Authority Lv. 3 / Talisman of Authority Fragment -->
 		<reward id="71088" count="1" type="ON_SUCCESS" /> <!-- Noble Talisman of Authority Lv. 4 -->
 		<reward id="71085" count="1" type="ON_FAILURE" /> <!-- Noble Talisman of Authority Lv. 1 -->
 	</item>
@@ -884,7 +884,7 @@
 		<reward id="71088" count="1" type="ON_SUCCESS" /> <!-- Noble Talisman of Authority Lv. 4 -->
 		<reward id="71087" count="1" type="ON_FAILURE" /> <!-- Noble Talisman of Authority Lv. 3 -->
 	</item>
-	<item one="71088" two="71078" chance="45"> <!-- Noble Talisman of Authority Lv. 4 / Talisman of Authority Fragment -->
+	<item one="71088" two="71078" chance="40"> <!-- Noble Talisman of Authority Lv. 4 / Talisman of Authority Fragment -->
 		<reward id="71089" count="1" type="ON_SUCCESS" /> <!-- Noble Talisman of Authority Lv. 5 -->
 		<reward id="71085" count="1" type="ON_FAILURE" /> <!-- Noble Talisman of Authority Lv. 1 -->
 	</item>
@@ -892,55 +892,55 @@
 		<reward id="71089" count="1" type="ON_SUCCESS" /> <!-- Noble Talisman of Authority Lv. 5 -->
 		<reward id="71088" count="1" type="ON_FAILURE" /> <!-- Noble Talisman of Authority Lv. 4 -->
 	</item>
-	<item one="71090" two="71078" chance="35"> <!-- Radiant Talisman of Authority Lv. 1 / Talisman of Authority Fragment -->
+	<item one="71090" two="71078" chance="30"> <!-- Radiant Talisman of Authority Lv. 1 / Talisman of Authority Fragment -->
 		<reward id="71091" count="1" type="ON_SUCCESS" /> <!-- Radiant Talisman of Authority Lv. 2 -->
 		<reward id="71090" count="1" type="ON_FAILURE" /> <!-- Radiant Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71091" two="71078" chance="35"> <!-- Radiant Talisman of Authority Lv. 2 / Talisman of Authority Fragment -->
+	<item one="71091" two="71078" chance="30"> <!-- Radiant Talisman of Authority Lv. 2 / Talisman of Authority Fragment -->
 		<reward id="71092" count="1" type="ON_SUCCESS" /> <!-- Radiant Talisman of Authority Lv. 3 -->
 		<reward id="71090" count="1" type="ON_FAILURE" /> <!-- Radiant Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71092" two="71078" chance="35"> <!-- Radiant Talisman of Authority Lv. 3 / Talisman of Authority Fragment -->
+	<item one="71092" two="71078" chance="30"> <!-- Radiant Talisman of Authority Lv. 3 / Talisman of Authority Fragment -->
 		<reward id="71093" count="1" type="ON_SUCCESS" /> <!-- Radiant Talisman of Authority Lv. 4 -->
 		<reward id="71090" count="1" type="ON_FAILURE" /> <!-- Radiant Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71093" two="71078" chance="35"> <!-- Radiant Talisman of Authority Lv. 4 / Talisman of Authority Fragment -->
+	<item one="71093" two="71078" chance="30"> <!-- Radiant Talisman of Authority Lv. 4 / Talisman of Authority Fragment -->
 		<reward id="71094" count="1" type="ON_SUCCESS" /> <!-- Radiant Talisman of Authority Lv. 5 -->
 		<reward id="71090" count="1" type="ON_FAILURE" /> <!-- Radiant Talisman of Authority Lv. 1 -->
 	</item>
-	<item one="71271" two="71270" chance="33"> <!-- Venir's Talisman Lv. 1 / Venir's Talisman Fragment -->
+	<item one="71271" two="71270" chance="50"> <!-- Venir's Talisman Lv. 1 / Venir's Talisman Fragment -->
 		<reward id="71272" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 2 -->
 		<reward id="71271" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 1 -->
 	</item>
-	<item one="71272" two="71270" chance="33"> <!-- Venir's Talisman Lv. 2 / Venir's Talisman Fragment -->
+	<item one="71272" two="71270" chance="50"> <!-- Venir's Talisman Lv. 2 / Venir's Talisman Fragment -->
 		<reward id="71273" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 3 -->
 		<reward id="71271" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 1 -->
 	</item>
-	<item one="71273" two="71270" chance="33"> <!-- Venir's Talisman Lv. 3 / Venir's Talisman Fragment -->
+	<item one="71273" two="71270" chance="50"> <!-- Venir's Talisman Lv. 3 / Venir's Talisman Fragment -->
 		<reward id="71274" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 4 -->
 		<reward id="71271" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 1 -->
 	</item>
-	<item one="71274" two="71270" chance="33"> <!-- Venir's Talisman Lv. 4 / Venir's Talisman Fragment -->
+	<item one="71274" two="71270" chance="50"> <!-- Venir's Talisman Lv. 4 / Venir's Talisman Fragment -->
 		<reward id="71275" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 5 -->
 		<reward id="71271" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 1 -->
 	</item>
-	<item one="71275" two="71270" chance="33"> <!-- Venir's Talisman Lv. 5 / Venir's Talisman Fragment -->
+	<item one="71275" two="71270" chance="50"> <!-- Venir's Talisman Lv. 5 / Venir's Talisman Fragment -->
 		<reward id="71276" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 6 -->
 		<reward id="71271" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 1 -->
 	</item>
-	<item one="71276" two="71270" chance="33"> <!-- Venir's Talisman Lv. 6 / Venir's Talisman Fragment -->
+	<item one="71276" two="71270" chance="40"> <!-- Venir's Talisman Lv. 6 / Venir's Talisman Fragment -->
 		<reward id="71277" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 7 -->
 		<reward id="71276" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 6 -->
 	</item>
-	<item one="71277" two="71270" chance="33"> <!-- Venir's Talisman Lv. 7 / Venir's Talisman Fragment -->
+	<item one="71277" two="71270" chance="30"> <!-- Venir's Talisman Lv. 7 / Venir's Talisman Fragment -->
 		<reward id="71278" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 8 -->
 		<reward id="71276" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 6 -->
 	</item>
-	<item one="71278" two="71270" chance="33"> <!-- Venir's Talisman Lv. 8 / Venir's Talisman Fragment -->
+	<item one="71278" two="71270" chance="20"> <!-- Venir's Talisman Lv. 8 / Venir's Talisman Fragment -->
 		<reward id="71279" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 9 -->
 		<reward id="71276" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 6 -->
 	</item>
-	<item one="71279" two="71270" chance="33"> <!-- Venir's Talisman Lv. 9 / Venir's Talisman Fragment -->
+	<item one="71279" two="71270" chance="10"> <!-- Venir's Talisman Lv. 9 / Venir's Talisman Fragment -->
 		<reward id="71280" count="1" type="ON_SUCCESS" /> <!-- Venir's Talisman Lv. 10 -->
 		<reward id="71276" count="1" type="ON_FAILURE" /> <!-- Venir's Talisman Lv. 6 -->
 	</item>

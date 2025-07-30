@@ -165,6 +165,7 @@
 		<skill skillName="Final Fortress" skillId="291" skillLevel="1" getLevel="52" levelUpSp="210000" />
 		<skill skillName="Hamstring" skillId="127" skillLevel="4" getLevel="52" levelUpSp="210000" />
 		<skill skillName="Horror" skillId="65" skillLevel="3" getLevel="52" levelUpSp="210000" />
+		<skill skillName="Chain Strike" skillId="10015" skillLevel="1" getLevel="52" levelUpSp="200000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="210000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>

@@ -2069,6 +2069,7 @@
 				<item id="1895" min="3" max="9" chance="5.2787" /> <!-- Metal fiber -->
 				<item id="1876" min="1" max="5" chance="5.3934" /> <!-- MO -->
 				<item id="926" min="1" max="1" chance="0.005" /> <!-- bo neck -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4975" min="1" max="1" chance="40.64" /> <!-- bo neck rec -->
@@ -3868,6 +3869,7 @@
 				<item id="4044" min="1" max="1" chance="3.4005" /> <!-- thons -->
 				<item id="1878" min="3" max="9" chance="3.4005" /> <!-- durable braid -->
 				<item id="2391" min="1" max="1" chance="0.001" /> <!-- bwl -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4159" min="1" max="1" chance="14.6834" /> <!-- bwl rec -->
@@ -3947,6 +3949,7 @@
 				<item id="1870" min="2" max="5" chance="3.8574" /> <!-- metal fiber  -->
 				<item id="4044" min="1" max="1" chance="3.005" /> <!-- thons -->
 				<item id="2392" min="1" max="1" chance="0.001" /> <!-- leather armor of doom -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4985" min="1" max="1" chance="15.6834" /> <!-- leather doom rec -->

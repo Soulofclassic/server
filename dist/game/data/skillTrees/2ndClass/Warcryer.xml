@@ -365,6 +365,7 @@
 		<skill skillName="Fear" skillId="1092" skillLevel="17" getLevel="70" levelUpSp="1600000" />
 		<skill skillName="Madness" skillId="1105" skillLevel="16" getLevel="70" levelUpSp="1600000" />
 		<skill skillName="Boost HP" skillId="211" skillLevel="7" getLevel="70" levelUpSp="1600000" />
+		<skill skillName="Chant of Victory" skillId="1363" skillLevel="1" getLevel="70" levelUpSp="1600000" />
 
 		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="71" levelUpSp="2000000" />
 		<skill skillName="Light Armor Mastery" skillId="252" skillLevel="42" getLevel="71" levelUpSp="2000000" />

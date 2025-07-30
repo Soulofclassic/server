@@ -297,6 +297,8 @@
 		<skill skillName="Magic Resistance" skillId="147" skillLevel="47" getLevel="70" levelUpSp="2500000" />
 		<skill skillName="Hex" skillId="122" skillLevel="13" getLevel="70" levelUpSp="2500000" />
 		<skill skillName="Power Break" skillId="115" skillLevel="15" getLevel="70" levelUpSp="2500000" />
+		<skill skillName="Dance of Siren" skillId="365" skillLevel="1" getLevel="70" levelUpSp="2500000" />
+		<skill skillName="Dance of Berserker" skillId="915" skillLevel="1" getLevel="70" levelUpSp="2500000" />
 		
 		<skill skillName="Dual Weapon Mastery" skillId="144" skillLevel="34" getLevel="71" levelUpSp="2500000" />
 		<skill skillName="Heavy Armor Mastery" skillId="232" skillLevel="49" getLevel="71" levelUpSp="2500000" />

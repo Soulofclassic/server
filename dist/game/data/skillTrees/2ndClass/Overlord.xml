@@ -477,6 +477,7 @@
 		<skill skillName="Madness" skillId="1105" skillLevel="16" getLevel="70" levelUpSp="1100000" />
 		<skill skillName="Boost HP" skillId="211" skillLevel="7" getLevel="70" levelUpSp="1100000" />
 		<skill skillName="Pa'agrio's Honor" skillId="1305" skillLevel="8" getLevel="70" levelUpSp="1100000" />
+		<skill skillName="Victories of Pa'agrio" skillId="1414" skillLevel="1" getLevel="70" levelUpSp="1100000" />
 		
 		<skill skillName="Anti Magic" skillId="146" skillLevel="42" getLevel="71" levelUpSp="1300000" />
 		<skill skillName="Light Armor Mastery" skillId="252" skillLevel="42" getLevel="71" levelUpSp="1300000" />

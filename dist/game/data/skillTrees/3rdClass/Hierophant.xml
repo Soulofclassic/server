@@ -10,6 +10,9 @@
 		<skill skillName="Dryad Root" skillId="1201" skillLevel="34" getLevel="76" levelUpSp="8000000" />
 		<skill skillName="Might of Heaven" skillId="1028" skillLevel="20" getLevel="76" levelUpSp="8000000" />
 		<skill skillName="Word of Fear" skillId="1272" skillLevel="14" getLevel="76" levelUpSp="8000000" />
+		<skill skillName="Counter Critical" skillId="1542" skillLevel="1" getLevel="76" levelUpSp="17400000">
+			<item id="90102" count="1" /> <!-- Scroll: Counter Critical -->
+		</skill>
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" levelUpSp="8000000">
 			<item id="8620" count="1" /> <!-- Ancient Book: Divine Inspiration (Manuscript) -->
 		</skill>
@@ -18,9 +21,6 @@
 		</skill>
 		<skill skillName="Mount Gold Maned Lion" skillId="1833" skillLevel="1" getLevel="76">
 			<item id="90038" count="1" /> <!-- Spellbook: Mount Golden Lion -->
-		</skill>
-		<skill skillName="Prophecy of Fire" skillId="1356" skillLevel="1" getLevel="76" levelUpSp="8000000">
-			<item id="90098" count="1" /> <!-- Scroll: Prophecy of Fire -->
 		</skill>
 		
 		<skill skillName="Anti Magic" skillId="146" skillLevel="47" getLevel="77" levelUpSp="8000000" />
@@ -63,9 +63,6 @@
 		<skill skillName="Mana Burn" skillId="1398" skillLevel="5" getLevel="80" levelUpSp="17400000" />
 		<skill skillName="Dryad Root" skillId="1201" skillLevel="37" getLevel="80" levelUpSp="17400000" />
 		<skill skillName="Might of Heaven" skillId="1028" skillLevel="22" getLevel="80" levelUpSp="17400000" />
-		<skill skillName="Counter Critical" skillId="1542" skillLevel="1" getLevel="80" levelUpSp="17400000">
-			<item id="90102" count="1" /> <!-- Scroll: Counter Critical -->
-		</skill>
 
 		<skill skillName="Anti Magic" skillId="146" skillLevel="50" getLevel="81" levelUpSp="160000000" />
 		<skill skillName="Light Armor Mastery" skillId="236" skillLevel="46" getLevel="81" levelUpSp="160000000" />

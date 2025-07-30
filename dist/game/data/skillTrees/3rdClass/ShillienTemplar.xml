@@ -19,7 +19,6 @@
 		<skill skillName="Power Break" skillId="115" skillLevel="18" getLevel="76" levelUpSp="4900000" />
 		<skill skillName="Fortitude" skillId="335" skillLevel="1" getLevel="76" levelUpSp="4900000" />
 		<skill skillName="Critical Vulnerability Decrease" skillId="53004" skillLevel="1" getLevel="76" levelUpSp="4900000" />
-		<skill skillName="Chain Strike" skillId="10015" skillLevel="1" getLevel="76" levelUpSp="4900000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" levelUpSp="4900000">
 			<item id="8620" count="1" /> <!-- Ancient Book: Divine Inspiration (Manuscript) -->
 		</skill>

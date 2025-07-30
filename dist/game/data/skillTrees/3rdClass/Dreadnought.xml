@@ -39,9 +39,6 @@
 		<skill skillName="Master of Combat" skillId="430" skillLevel="1" getLevel="78" levelUpSp="16800000" />
 		<skill skillName="Quick Spear" skillId="1606" skillLevel="10" getLevel="78" levelUpSp="16800000" />
 		<skill skillName="Provoke" skillId="286" skillLevel="8" getLevel="78" levelUpSp="16800000" />
-		<skill skillName="Rush" skillId="994" skillLevel="1" getLevel="78" levelUpSp="16800000">
-			<item id="90071" count="1" /> <!-- Scroll: Rush -->
-		</skill>
 		<skill skillName="Braveheart" skillId="440" skillLevel="1" getLevel="78" levelUpSp="16800000" />
 		
 		<skill skillName="Revival" skillId="181" skillLevel="2" getLevel="79" levelUpSp="16800000" />

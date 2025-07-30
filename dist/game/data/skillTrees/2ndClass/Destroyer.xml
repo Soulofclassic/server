@@ -166,6 +166,7 @@
 		<skill skillName="Power Crush" skillId="260" skillLevel="15" getLevel="52" levelUpSp="240000" />
 		<skill skillName="Excruciating Strike" skillId="1607" skillLevel="15" getLevel="52" levelUpSp="240000" />
 		<skill skillName="Fatal Strike" skillId="190" skillLevel="15" getLevel="52" levelUpSp="240000" />
+		<skill skillName="Rush" skillId="994" skillLevel="1" getLevel="52" levelUpSp="200000" />
 		<skill skillName="Immortal Life" skillId="1608" skillLevel="1" getLevel="52" levelUpSp="240000">
 			<item id="49425" count="1" />
 		</skill>

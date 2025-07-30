@@ -38,7 +38,7 @@
 			<value level="3">360</value>
 			<value level="4">480</value>
 			<value level="5">600</value>
-			<value level="6">180</value>
+			<value level="6">600</value>
 			<value level="7">195</value>
 			<value level="8">210</value>
 			<value level="9">225</value>
@@ -293,12 +293,12 @@
 			<value level="13">3</value>
 		</abnormalLevel>
 		<abnormalTime>
-			<value level="1">120</value>
-			<value level="2">240</value>
-			<value level="3">360</value>
-			<value level="4">480</value>
-			<value level="5">600</value>
-			<value level="6">180</value>
+			<value level="1">1200</value>
+			<value level="2">1200</value>
+			<value level="3">1200</value>
+			<value level="4">1200</value>
+			<value level="5">1200</value>
+			<value level="6">1200</value>
 			<value level="7">195</value>
 			<value level="8">210</value>
 			<value level="9">225</value>
@@ -434,12 +434,12 @@
 			<value level="13">3</value>
 		</abnormalLevel>
 		<abnormalTime>
-			<value level="1">120</value>
-			<value level="2">240</value>
-			<value level="3">360</value>
-			<value level="4">480</value>
-			<value level="5">600</value>
-			<value level="6">180</value>
+			<value level="1">1200</value>
+			<value level="2">1200</value>
+			<value level="3">1200</value>
+			<value level="4">1200</value>
+			<value level="5">1200</value>
+			<value level="6">1200</value>
 			<value level="7">195</value>
 			<value level="8">210</value>
 			<value level="9">225</value>

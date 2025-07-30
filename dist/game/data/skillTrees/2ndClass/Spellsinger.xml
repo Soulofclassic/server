@@ -138,6 +138,7 @@
 		<skill skillName="Aura Bolt" skillId="1275" skillLevel="4" getLevel="52" levelUpSp="270000" />
 		<skill skillName="Higher Mana Gain" skillId="285" skillLevel="16" getLevel="52" levelUpSp="270000" />
 		<skill skillName="Sleep" skillId="1069" skillLevel="21" getLevel="52" levelUpSp="270000" />
+		<skill skillName="Jump" skillId="51250" skillLevel="1" getLevel="52" levelUpSp="1400000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="270000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>

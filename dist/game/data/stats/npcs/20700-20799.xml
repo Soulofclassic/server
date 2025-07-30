@@ -2245,8 +2245,8 @@
 		<acquire exp="324802" sp="9744" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="5827.18" hpRegen="17" mp="2361" mpRegen="6" />
-			<attack physical="13703.05" magical="7018.05" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="945.4197024" magical="518.8628232" />
+			<attack physical="5919.21634255" magical="4739.56367578" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="501.10232909" magical="363.69813131" />
 			<speed>
 				<walk ground="55" />
 				<run ground="180" />
@@ -2261,7 +2261,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->

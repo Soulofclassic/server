@@ -494,8 +494,8 @@
 		<acquire exp="196742" sp="5902" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="5738.36" hpRegen="17" mp="2311.2" mpRegen="6" />
-			<attack physical="13190.75" magical="6755.68" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="932.499504" magical="511.7720184" />
+			<attack physical="525.94394144" magical="511.92174809" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="417.39499561" magical="418.85806943" />
 			<speed>
 				<walk ground="80" />
 				<run ground="170" />
@@ -510,7 +510,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
@@ -557,8 +557,8 @@
 		<equipment rhand="3937" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="5913.3" hpRegen="17" mp="2411.1" mpRegen="6" />
-			<attack physical="14248.01" magical="7297.16" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="958.1777568" magical="525.8646792" />
+			<attack physical="6277.86474984" magical="6529.14597439" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="591.43720009" magical="436.58374895" />
 			<speed>
 				<walk ground="30" />
 				<run ground="220" />
@@ -573,7 +573,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
@@ -810,8 +810,8 @@
 		<acquire exp="1051810" sp="31554" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="5827.18" hpRegen="17" mp="2361" mpRegen="6" />
-			<attack physical="13703.05" magical="7018.05" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="945.4197024" magical="518.8628232" />
+			<attack physical="6361.96859162" magical="7177.75212364" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="789.01201718" magical="560.37184906" />
 			<speed>
 				<walk ground="55" />
 				<run ground="140" />
@@ -826,7 +826,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->

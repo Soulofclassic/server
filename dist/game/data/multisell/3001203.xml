@@ -112,32 +112,32 @@
 		<production count="1" id="70091" />
 	</item>
 	<item>
-		<!-- Old Inventory Expansion Ticket - Lv 1 -->
-		<ingredient count="1" id="91113" />
+		<!-- blue mackerel -->
+		<ingredient count="2000" id="45473" />
 		<!-- Inventory Expansion Ticket - Lv 1 -->
 		<production count="1" id="92004" />
 	</item>
 	<item>
-		<!-- Old Inventory Expansion Ticket - Lv 2 -->
-		<ingredient count="1" id="91114" />
+		<!-- blue mackerel -->
+		<ingredient count="2500" id="45473" />
 		<!-- Inventory Expansion Ticket - Lv 2 -->
 		<production count="1" id="92005" />
 	</item>
 	<item>
-		<!-- Old Inventory Expansion Ticket - Lv 3 -->
-		<ingredient count="1" id="91115" />
+		<!-- blue mackerel -->
+		<ingredient count="3000" id="45473" />
 		<!-- Inventory Expansion Ticket - Lv 3 -->
 		<production count="1" id="92006" />
 	</item>
 	<item>
-		<!-- Old Inventory Expansion Ticket - Lv 4 -->
-		<ingredient count="1" id="91296" />
+		<!-- blue mackerel -->
+		<ingredient count="3500" id="91296" />
 		<!-- Inventory Expansion Ticket - Lv 4 -->
 		<production count="1" id="92007" />
 	</item>
 	<item>
-		<!-- Old Inventory Expansion Ticket - Lv 5 -->
-		<ingredient count="1" id="91297" />
+		<!-- blue mackerel -->
+		<ingredient count="4000" id="45473" />
 		<!-- Inventory Expansion Ticket - Lv 5 -->
 		<production count="1" id="92008" />
 	</item>

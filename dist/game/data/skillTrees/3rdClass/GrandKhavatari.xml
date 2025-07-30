@@ -45,9 +45,6 @@
 		<skill skillName="Hurricane Assault" skillId="284" skillLevel="43" getLevel="78" levelUpSp="14200000" />
 		<skill skillName="Braveheart" skillId="440" skillLevel="1" getLevel="78" levelUpSp="14200000" />
 		<skill skillName="Cripple" skillId="95" skillLevel="22" getLevel="78" levelUpSp="14200000" />
-		<skill skillName="Rush" skillId="994" skillLevel="1" getLevel="78" levelUpSp="14200000">
-			<item id="90071" count="1" /> <!-- Scroll: Rush -->
-		</skill>
 		
 		<skill skillName="Force Mastery" skillId="993" skillLevel="8" getLevel="79" levelUpSp="14200000" />
 		<skill skillName="Burning Fist" skillId="280" skillLevel="41" getLevel="79" levelUpSp="14200000" />

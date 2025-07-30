@@ -3364,6 +3364,7 @@
 				<item id="4041" min="1" max="1" chance="1" /> <!-- mold hardener -->
 				<item id="864" min="1" max="1" chance="0.005" /> <!-- bo ear -->
 				<item id="895" min="1" max="1" chance="0.005" /> <!-- bo ring -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4973" min="1" max="1" chance="25.54" /> <!-- bo ear rec -->
@@ -3502,6 +3503,7 @@
 				<item id="1874" min="1" max="1" chance="4.612" /> <!-- sop -->
 				<item id="1871" min="7" max="21" chance="4.581" /> <!-- charcoal -->
 				<item id="926" min="1" max="1" chance="0.001" /> <!-- BO neckl -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4975" min="1" max="1" chance="23.06" /> <!-- bo neck rec -->
@@ -3575,7 +3577,7 @@
 				<group chance="70">
 					<item id="57" min="3450" max="9200" chance="100" /> <!-- Adena -->
 				</group>
-				<item id="90045" min="1" max="1" chance="1" /> <!-- Magical Tablet-->
+				<item id="90045" min="1" max="1" chance="0.5" /> <!-- Magical Tablet-->
 				<item id="1879" min="1" max="1" chance="17.5574" /> <!-- Cokes -->
 				<item id="1895" min="1" max="4" chance="5.2787" /> <!-- Metal fiber -->
 				<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
@@ -3583,6 +3585,7 @@
 				<item id="4078" min="1" max="1" chance="7.929" /> <!-- BWH chest piece -->
 				<item id="1870" min="4" max="8" chance="13.929" /> <!-- Coal -->
 				<item id="1871" min="4" max="8" chance="7.3934" /> <!-- Charcoal -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4981" min="1" max="1" chance="9.1834" /> <!-- BWH rec -->
@@ -3711,12 +3714,13 @@
 				<group chance="70">
 					<item id="57" min="5684" max="13262" chance="100" /> <!-- Adena -->
 				</group>
-				<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
+				<item id="90045" min="1" max="1" chance="0.5579" /> <!-- Magical Tablet-->
 				<item id="1878" min="3" max="6" chance="1.3934" /> <!-- Durable Braid -->
 				<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
 				<item id="1895" min="1" max="4" chance="14.2787" /> <!-- Metal fiber -->
 				<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
 				<item id="1864" min="5" max="15" chance="10.929" /> <!-- Stem -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4983" min="1" max="1" chance="13.1834" /> <!-- Doom plate recipe -->
@@ -3995,12 +3999,13 @@
 				<group chance="70">
 					<item id="57" min="3101" max="7702" chance="100" /> <!-- Adena -->
 				</group>
-				<item id="90045" min="1" max="1" chance="5.8579" /> <!-- Magical Tablet-->
+				<item id="90045" min="1" max="1" chance="0.5579" /> <!-- Magical Tablet-->
 				<item id="1878" min="3" max="6" chance="16.3934" /> <!-- Durable Braid -->
 				<item id="4041" min="1" max="1" chance="1.5574" /> <!-- Mold Hardener -->
 				<item id="1895" min="1" max="4" chance="14.2787" /> <!-- Metal fiber -->
 				<item id="1865" min="1" max="5" chance="5.3934" /> <!-- Varnish -->
 				<item id="1864" min="5" max="15" chance="10.929" /> <!-- Stem -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4987" min="1" max="1" chance="7.1834" /> <!-- Tunic of Doom rec -->
@@ -4548,6 +4553,7 @@
 				<item id="1874" min="1" max="1" chance="24.18" /> <!-- OO -->
 				<item id="4089" min="1" max="3" chance="12.15" /> <!-- doom helm piece -->
 				<item id="2417" min="1" max="1" chance="0.001" /> <!-- doom helm  -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4179" min="1" max="1" chance="12.89" /> <!-- zubei helm  rec -->
@@ -4623,6 +4629,7 @@
 				<item id="1874" min="12" max="36" chance="14.54" /> <!-- coal -->
 				<item id="4089" min="1" max="3" chance="11.73" /> <!-- bw helm piece -->
 				<item id="2417" min="1" max="1" chance="0.001" /> <!-- bw helm  -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4962" min="1" max="1" chance="12.08" /> <!-- zubei helm  rec -->
@@ -4776,6 +4783,7 @@
 				<item id="1870" min="4" max="12" chance="8.5574" /> <!-- coal -->
 				<item id="5000" min="1" max="1" chance="0.005" /> <!-- damasc recipe -->
 				<item id="79" min="1" max="1" chance="0.0005" /> <!-- damasc -->
+				<item id="49766" min="1" max="1" chance="0.001" /> <!-- stone -->
 			</drop>
 			<spoil>
 				<item id="4186" min="1" max="1" chance="2.4834" /> <!-- valhalla rec -->

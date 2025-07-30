@@ -5031,8 +5031,8 @@
 		<acquire exp="685664" sp="18512" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<attack physical="7127.1649408" magical="4953.58078505" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="688.52354912" magical="387.36481684" />
 			<speed>
 				<walk ground="44" />
 				<run ground="175" />
@@ -5045,10 +5045,10 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5059,7 +5059,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7200" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7200" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="2133" min="1" max="1" chance="0.5" /> <!-- gem A -->
 			</drop>
@@ -5104,8 +5104,8 @@
 		<acquire exp="342048" sp="9235" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<attack physical="7127.32275871" magical="4953.58078505" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="688.70113433" magical="387.21325697" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -5118,10 +5118,10 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="5" /> <!-- MP High -->
-			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Average M. Def. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5142,7 +5142,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7000" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7000" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.4393">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -5187,8 +5187,8 @@
 		<acquire exp="73536" sp="1985" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3646.048" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
-			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="409.65" magical="224.826" />
+			<attack physical="926.60793533" magical="644.24625912" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="287.29336918" magical="184.52241901" />
 			<speed>
 				<walk ground="45" />
 				<run ground="185" />
@@ -5199,12 +5199,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="2" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Average M. Def. -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5258,8 +5258,8 @@
 		<acquire exp="231033" sp="6237" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<attack physical="6101.76862706" magical="4953.47005986" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="688.60214286" magical="387.61985256" />
 			<speed>
 				<walk ground="44" />
 				<run ground="175" />
@@ -5270,11 +5270,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (3x) -->
-			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -5351,8 +5351,8 @@
 		<acquire exp="351456" sp="9489" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="983.16" magical="539.5753656" />
+			<attack physical="3210.48748734" magical="4953.58078505" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="688.52354912" magical="387.36481684" />
 			<speed>
 				<walk ground="30" />
 				<run ground="175" />
@@ -5365,10 +5365,10 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="6" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="9" /> <!-- Bow -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5389,7 +5389,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4092" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="4092" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7478">
 					<item id="5478" min="1" max="1" chance="22.9254" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
@@ -5445,8 +5445,8 @@
 		<acquire exp="694176" sp="18742" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<attack physical="5164.58468004" magical="4953.52691331" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="648.24501416" magical="387.36481684" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -5457,12 +5457,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5475,7 +5475,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7200" max="24000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7200" max="14000" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="2133" min="1" max="1" chance="0.5" /> <!-- gem A -->
 			</drop>
@@ -5518,8 +5518,8 @@
 		<acquire exp="72960" sp="1969" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3646.048" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
-			<attack physical="1552.864" magical="795.304" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="409.65" magical="224.826" />
+			<attack physical="671.58857665" magical="644.24625912" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="287.45479632" magical="184.52241901" />
 			<speed>
 				<walk ground="48" />
 				<run ground="150" />
@@ -5530,12 +5530,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Average M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4277" level="5" /> <!-- Poison Resistance -->
@@ -5589,8 +5589,8 @@
 		<acquire exp="714694" sp="19296" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<attack physical="7127.14041202" magical="4953.52691331" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="688.80394089" magical="387.36481684" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -5601,12 +5601,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5629,7 +5629,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7200" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="7200" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -5664,8 +5664,8 @@
 		<acquire exp="358176" sp="9670" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="983.16" magical="539.5753656" />
+			<attack physical="7127.1649408" magical="4953.58078505" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="688.52354912" magical="387.36481684" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -5678,10 +5678,10 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -5757,8 +5757,8 @@
 		<acquire exp="74688" sp="2016" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3646.048" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
-			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="409.65" magical="224.826" />
+			<attack physical="671.58857665" magical="644.24625912" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="287.29336918" magical="184.63117485" />
 			<speed>
 				<walk ground="30" />
 				<run ground="170" />
@@ -5769,12 +5769,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="3" /> <!-- Beast -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5830,8 +5830,8 @@
 		<acquire exp="362961" sp="9799" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<attack physical="5387.21278477" magical="5160.57830462" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="656.1903434" magical="392.11099563" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -5842,12 +5842,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5924,8 +5924,8 @@
 		<acquire exp="737082" sp="19901" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<attack physical="7434.38341112" magical="5160.57830462" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="697.28719892" magical="392.35828738" />
 			<speed>
 				<walk ground="36" />
 				<run ground="175" />
@@ -5936,12 +5936,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5964,7 +5964,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="8200" max="15000" chance="100" /> <!-- Adena -->
+					<item id="57" min="8200" max="13000" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -5999,8 +5999,8 @@
 		<acquire exp="385649" sp="10412" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<attack physical="2965.2242933" magical="6509.79406514" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="628.2336691" magical="467.01203624" />
 			<speed>
 				<walk ground="25" />
 				<run ground="175" />
@@ -6011,12 +6011,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6042,7 +6042,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="11140" max="16137" chance="100" /> <!-- Adena -->
+					<item id="57" min="9140" max="13137" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.6029">
 					<item id="5525" min="1" max="1" chance="28.0789" /> <!-- Sealed Dark Crystal Helmet Design -->
@@ -6091,8 +6091,8 @@
 		<acquire exp="72422" sp="1955" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3646.048" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
-			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="409.65" magical="224.826" />
+			<attack physical="926.97230181" magical="644.24625912" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="287.11018786" magical="184.77386223" />
 			<speed>
 				<walk ground="30" />
 				<run ground="165" />
@@ -6103,12 +6103,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="4" /> <!-- MP High -->
-			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4277" level="5" /> <!-- Poison Resistance -->
@@ -6161,8 +6161,8 @@
 		<acquire exp="388263" sp="10483" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<attack physical="5199.64258446" magical="4631.97471587" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="721.67337846" magical="472.5854441" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6173,12 +6173,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="2" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6257,8 +6257,8 @@
 		<acquire exp="760665" sp="20537" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<attack physical="7749.35027002" magical="5373.13402769" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="705.72598507" magical="396.7059871" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -6269,12 +6269,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6300,7 +6300,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10179" max="17118" chance="100" /> <!-- Adena -->
+					<item id="57" min="9179" max="14118" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -6335,8 +6335,8 @@
 		<acquire exp="415186" sp="11210" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<attack physical="5528.61951163" magical="5373.19145631" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="705.4728805" magical="396.7059871" />
 			<speed>
 				<walk ground="25" />
 				<run ground="175" />
@@ -6347,11 +6347,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
-			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6377,7 +6377,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="12660" max="18118" chance="100" /> <!-- Adena -->
+					<item id="57" min="9660" max="14118" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5124">
 					<item id="5520" min="1" max="1" chance="23.1665" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
@@ -6428,8 +6428,8 @@
 		<acquire exp="73728" sp="1990" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="3646.048" hpRegen="10.2" mp="2512.2" mpRegen="3.6" />
-			<attack physical="1552.864" magical="795.304" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="409.65" magical="224.826" />
+			<attack physical="926.97230181" magical="644.24625912" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="287.45479632" magical="184.52241901" />
 			<speed>
 				<walk ground="45" />
 				<run ground="185" />
@@ -6440,12 +6440,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="4" /> <!-- MP High -->
-			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Average M. Def. -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6501,8 +6501,8 @@
 		<acquire exp="773044" sp="20872" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<attack physical="5615.54303787" magical="5373.19520062" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="663.80676227" magical="397.05809002" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6513,12 +6513,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6532,7 +6532,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10779" max="14118" chance="100" /> <!-- Adena -->
+					<item id="57" min="9779" max="14118" chance="100" /> <!-- Adena -->
 				</group>
 			</drop>
 			<spoil>
@@ -6582,8 +6582,8 @@
 		<acquire exp="381240" sp="10293" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<attack physical="5831.05812279" magical="5160.51642194" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="697.1908051" magical="392.35828738" />
 			<speed>
 				<walk ground="25" />
 				<run ground="175" />
@@ -6594,11 +6594,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (8x) -->
-			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6623,7 +6623,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="4392" max="15593" chance="100" /> <!-- Adena -->
+					<item id="57" min="8392" max="15593" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4734">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -6673,8 +6673,8 @@
 		<equipment rhand="2500" lhand="6918" /> <!-- rhand: Dark Legion's Edge lhand: Monster Only (Shield of Silenos) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="16197.16" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="995.3604576" magical="546.2711928" />
+			<attack physical="7434.17628548" magical="5160.51642194" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="697.19470275" magical="391.94738873" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -6685,12 +6685,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6755,8 +6755,8 @@
 		<acquire exp="390711" sp="10549" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<attack physical="5615.54303787" magical="5373.13402769" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="664.36271164" magical="396.7059871" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6767,12 +6767,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (8x) -->
+			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6844,8 +6844,8 @@
 		<equipment rhand="2500" lhand="6918" /> <!-- rhand: Dark Legion's Edge lhand: Monster Only (Shield of Silenos) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<attack physical="7749.41878875" magical="5373.19145631" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="705.27784614" magical="396.76287066" />
 			<speed>
 				<walk ground="44" />
 				<run ground="175" />
@@ -6856,12 +6856,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6870,7 +6870,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="10110" max="15400" chance="100" /> <!-- Adena -->
+					<item id="57" min="5110" max="13400" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="1870" min="3" max="9" chance="33.6957" /> <!-- coal -->
 				<item id="1874" min="1" max="1" chance="14.6957" /> <!-- oo -->
@@ -6924,8 +6924,8 @@
 		<acquire exp="371978" sp="10043" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<attack physical="5615.54303787" magical="5373.19520062" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="705.27784614" magical="397.05809002" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6936,12 +6936,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (8x) -->
+			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6966,7 +6966,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="14710" max="18100" chance="100" /> <!-- Adena -->
+					<item id="57" min="8710" max="15100" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4571">
 					<item id="8722" min="1" max="1" chance="8.6957" /> <!-- Daimon Crystal Fragment -->
@@ -7017,8 +7017,8 @@
 		<acquire exp="395229" sp="10671" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<attack physical="7749.41878875" magical="5373.19145631" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="705.62677228" magical="396.7059871" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -7029,12 +7029,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -7054,7 +7054,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="12140" max="18137" chance="100" /> <!-- Adena -->
+					<item id="57" min="8140" max="13137" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2795">
 					<item id="90045" min="1" max="1" chance="62.5" /> <!-- Magical Tablet -->
@@ -7097,8 +7097,8 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1007.3513376" magical="552.852" />
+			<attack physical="7749.54345658" magical="5373.14214449" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="705.49692982" magical="397.05809002" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -7109,12 +7109,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -7124,7 +7124,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="7652" max="16197" chance="100" /> <!-- Adena -->
+					<item id="57" min="7652" max="13197" chance="100" /> <!-- Adena -->
 				</group>
 				<item id="1864" min="4" max="12" chance="33.3333" /> <!-- stem -->
 				<item id="1878" min="2" max="6" chance="14.2857" /> <!-- durable braid -->

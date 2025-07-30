@@ -15,7 +15,6 @@
 		<skill skillName="Hamstring" skillId="127" skillLevel="15" getLevel="76" levelUpSp="5400000" />
 		<skill skillName="Horror" skillId="65" skillLevel="14" getLevel="76" levelUpSp="5400000" />
 		<skill skillName="Critical Vulnerability Decrease" skillId="53004" skillLevel="1" getLevel="76" levelUpSp="5400000" />
-		<skill skillName="Chain Strike" skillId="10015" skillLevel="1" getLevel="76" levelUpSp="5400000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" levelUpSp="5400000">
 			<item id="8620" count="1" /> <!-- Ancient Book: Divine Inspiration (Manuscript) -->
 		</skill>

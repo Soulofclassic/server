@@ -95,7 +95,7 @@
 		<!-- Weekly quest. A reward is given for playing the game on Saturday or Sunday. -->
 		<handler name="loginweekend" />
 		<items>
-			<item id="49772" count="1" />
+			<item id="49518" count="1" />
 		</items>
 	</reward>
 	<reward id="1021" reward_id="121" name="Siege Participation" requiredCompletion="1" isOneTime="false">
@@ -123,7 +123,7 @@
 			<param name="maxLevel">99</param>
 		</handler>
 		<items>
-			<item id="49772" count="3" />
+			<item id="49518" count="3" />
 		</items>
 	</reward>
 	<reward id="1096" reward_id="804" name="Clan Raid Suppression" requiredCompletion="20" isOneTime="true" dailyReset="false">
@@ -134,7 +134,7 @@
 			<param name="maxLevel">99</param>
 		</handler>
 		<items>
-			<item id="49772" count="10" />
+			<item id="49518" count="10" />
 		</items>
 	</reward>
 	<!-- FIXME: Add ids.
@@ -818,7 +818,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="49772" count="3" />
+			<item id="49518" count="3" />
 			<item id="90917" count="4" />
 		</items>
 	</reward>
@@ -829,7 +829,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="49772" count="6" />
+			<item id="49518" count="6" />
 			<item id="90917" count="6" />
 		</items>
 	</reward>
@@ -902,7 +902,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="49772" count="9" />
+			<item id="49518" count="9" />
 			<item id="90917" count="8" />
 		</items>
 	</reward>
@@ -913,7 +913,7 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="49772" count="12" />
+			<item id="49518" count="12" />
 			<item id="90917" count="12" />
 		</items>
 	</reward>
@@ -924,8 +924,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="49772" count="12" />
-			<item id="91780" count="12" />
+			<item id="49518" count="12" />
+			<item id="90919" count="12" /> 
 		</items>
 	</reward>
 	<reward id="4013" reward_id="1090" name="Reaching Level 78" requiredCompletion="78">
@@ -935,8 +935,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="49772" count="12" />
-			<item id="91780" count="12" />
+			<item id="49518" count="12" />
+			<item id="90919" count="12" />
 		</items>
 	</reward>
 	<reward id="4014" reward_id="1091" name="Reaching Level 79" requiredCompletion="79">
@@ -946,8 +946,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="49772" count="12" />
-			<item id="91780" count="12" />
+			<item id="49518" count="12" />
+			<item id="90919" count="12" />
 		</items>
 	</reward>
 	<reward id="4015" reward_id="1092" name="Reaching Level 80" requiredCompletion="80">
@@ -957,8 +957,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="12" />
-			<item id="49772" count="15" />
-			<item id="91780" count="12" />
+			<item id="49518" count="15" />
+			<item id="90919" count="12" />
 		</items>
 	</reward>
 	<reward id="4016" reward_id="1093" name="Reaching Level 81" requiredCompletion="81">
@@ -968,8 +968,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="15" />
-			<item id="49772" count="15" />
-			<item id="91780" count="12" />
+			<item id="49518" count="15" />
+			<item id="90919" count="12" />
 		</items>
 	</reward>
 	<reward id="4017" reward_id="1094" name="Reaching Level 82" requiredCompletion="82">
@@ -979,8 +979,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="15" />
-			<item id="49772" count="15" />
-			<item id="91780" count="15" />
+			<item id="49518" count="15" />
+			<item id="90919" count="15" />
 		</items>
 	</reward>
 	<reward id="4018" reward_id="1095" name="Reaching Level 83" requiredCompletion="83">
@@ -990,8 +990,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="15" />
-			<item id="49772" count="18" />
-			<item id="91780" count="15" />
+			<item id="49518" count="18" />
+			<item id="90919" count="15" />
 		</items>
 	</reward>
 	<reward id="4019" reward_id="1096" name="Reaching Level 84" requiredCompletion="84">
@@ -1001,8 +1001,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="18" />
-			<item id="49772" count="18" />
-			<item id="91780" count="15" />
+			<item id="49518" count="18" />
+			<item id="90919" count="15" />
 		</items>
 	</reward>
 	<reward id="4020" reward_id="1097" name="Reaching Level 85" requiredCompletion="85">
@@ -1012,8 +1012,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="18" />
-			<item id="49772" count="18" />
-			<item id="91780" count="18" />
+			<item id="49518" count="18" />
+			<item id="90919" count="18" />
 		</items>
 	</reward>
 	<reward id="4021" reward_id="1098" name="Reaching Level 86" requiredCompletion="86">
@@ -1023,8 +1023,8 @@
 		</handler>
 		<items>
 			<item id="49674" count="20" />
-			<item id="49772" count="20" />
-			<item id="91780" count="20" />
+			<item id="49518" count="20" />
+			<item id="90919" count="20" />
 		</items>
 	</reward>
 </list>

@@ -136,6 +136,7 @@
 		<skill skillName="Charm" skillId="15" skillLevel="30" getLevel="52" levelUpSp="300000" />
 		<skill skillName="Elemental Heal" skillId="58" skillLevel="33" getLevel="52" levelUpSp="300000" />
 		<skill skillName="Sprint" skillId="230" skillLevel="2" getLevel="52" levelUpSp="300000" />
+		<skill skillName="Jump" skillId="51250" skillLevel="1" getLevel="52" levelUpSp="1400000" />
 		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="300000">
 			<item id="8618" count="1" /> <!-- Ancient Book: Divine Inspiration (Modern Language Version) -->
 		</skill>
