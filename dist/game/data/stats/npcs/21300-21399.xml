@@ -6,8 +6,8 @@
 		<acquire exp="680551" sp="10208" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="130" />
@@ -39,25 +39,19 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.7816">
-					<item id="6342" min="1" max="1" chance="32.271" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="6344" min="1" max="1" chance="20.884" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="6346" min="1" max="1" chance="46.3814" /> <!-- Sealed Majestic Ring Gemstone -->
-					<item id="6327" min="1" max="1" chance="0.1427" /> <!-- Sealed Majestic Earring -->
-					<item id="6328" min="1" max="1" chance="0.2139" /> <!-- Sealed Majestic Ring -->
-					<item id="6326" min="1" max="1" chance="0.107" /> <!-- Sealed Majestic Necklace -->
-				</group>
-				<group chance="10.8862">
-					<item id="1884" min="1" max="1" chance="94.4091" /> <!-- Cord -->
-				</group>
+				<item id="6326" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Necklace -->
+				<item id="6327" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Earring -->
+				<item id="6328" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Ring -->
+				<item id="57" min="7076" max="16511" chance="70" /> <!-- Adena -->
+				<item id="1884" min="12" max="36" chance="32.31" /> <!-- Cord -->
+				<item id="6346" min="1" max="1" chance="7.905" /> <!-- Sealed Majestic Ring Gemstone -->
+				<item id="6342" min="1" max="1" chance="5.44" /> <!-- Sealed Majestic Earring Gemstone -->
+				<item id="6344" min="1" max="1" chance="3.494" /> <!-- Sealed Majestic Necklace Beads -->
 			</drop>
 			<spoil>
-				<item id="6342" min="1" max="1" chance="0.9567" /> <!-- Sealed Majestic Earring Gemstone -->
-				<item id="6344" min="1" max="1" chance="0.6191" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="6346" min="1" max="1" chance="1.3751" /> <!-- Sealed Majestic Ring Gemstone -->
+				<item id="6346" min="1" max="1" chance="34.73" /> <!-- Sealed Majestic Ring Gemstone -->
+				<item id="6342" min="1" max="1" chance="26.04" /> <!-- Sealed Majestic Earring Gemstone -->
+				<item id="6344" min="1" max="1" chance="16.23" /> <!-- Sealed Majestic Necklace Beads -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -67,8 +61,8 @@
 		<acquire exp="1355598" sp="20333" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="130" />
@@ -94,29 +88,6 @@
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 			<skill id="4438" level="2" /> <!-- Greater Sleep Resistance -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.7816">
-					<item id="6342" min="1" max="1" chance="32.271" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="6344" min="1" max="1" chance="20.884" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="6346" min="1" max="1" chance="46.3814" /> <!-- Sealed Majestic Ring Gemstone -->
-					<item id="6327" min="1" max="1" chance="0.1427" /> <!-- Sealed Majestic Earring -->
-					<item id="6328" min="1" max="1" chance="0.2139" /> <!-- Sealed Majestic Ring -->
-					<item id="6326" min="1" max="1" chance="0.107" /> <!-- Sealed Majestic Necklace -->
-				</group>
-				<group chance="10.8862">
-					<item id="1884" min="1" max="1" chance="94.4091" /> <!-- Cord -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="6342" min="1" max="1" chance="0.9567" /> <!-- Sealed Majestic Earring Gemstone -->
-				<item id="6344" min="1" max="1" chance="0.6191" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="6346" min="1" max="1" chance="1.3751" /> <!-- Sealed Majestic Ring Gemstone -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21398" level="84" type="Monster" name="Soldier Scarab">
 		<race>BUG</race>
@@ -124,8 +95,8 @@
 		<acquire exp="680551" sp="20416" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="180" />
@@ -152,28 +123,22 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.7138">
-					<item id="6342" min="1" max="1" chance="26.4989" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="6344" min="1" max="1" chance="17.1486" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="6346" min="1" max="1" chance="38.0854" /> <!-- Sealed Majestic Ring Gemstone -->
-					<item id="6327" min="1" max="1" chance="0.1171" /> <!-- Sealed Majestic Earring -->
-					<item id="6328" min="1" max="1" chance="0.1756" /> <!-- Sealed Majestic Ring -->
-					<item id="6326" min="1" max="1" chance="0.0878" /> <!-- Sealed Majestic Necklace -->
-					<item id="5315" min="1" max="1" chance="0.1234" /> <!-- Sealed Shield of Nightmare -->
-					<item id="5495" min="1" max="1" chance="17.7632" /> <!-- Sealed Shield of Nightmare Fragment -->
-				</group>
-				<group chance="2.0004">
-					<item id="1885" min="1" max="1" chance="69.5739" /> <!-- High-grade Suede -->
-				</group>
+				<item id="5315" min="1" max="1" chance="0.0075" /> <!-- Sealed Shield of Nightmare -->
+				<item id="6328" min="1" max="1" chance="0.0075" /> <!-- Sealed Majestic Ring -->
+				<item id="6326" min="1" max="1" chance="0.003" /> <!-- Sealed Majestic Necklace -->
+				<item id="6327" min="1" max="1" chance="0.003" /> <!-- Sealed Majestic Earring -->
+				<item id="57" min="1868" max="4359" chance="70" /> <!-- Adena -->
+				<item id="1885" min="1" max="1" chance="25.94" /> <!-- High-grade Suede -->
+				<item id="6346" min="1" max="1" chance="1.509" /> <!-- Sealed Majestic Ring Gemstone -->
+				<item id="6342" min="1" max="1" chance="1.14" /> <!-- Sealed Majestic Earring Gemstone -->
+				<item id="5495" min="1" max="1" chance="0.75" /> <!-- Sealed Shield of Nightmare Fragment -->
+				<item id="6344" min="1" max="1" chance="0.75" /> <!-- Sealed Majestic Necklace Beads -->
 			</drop>
 			<spoil>
-				<item id="6342" min="1" max="1" chance="0.7176" /> <!-- Sealed Majestic Earring Gemstone -->
-				<item id="6344" min="1" max="1" chance="0.4644" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="6346" min="1" max="1" chance="1.0313" /> <!-- Sealed Majestic Ring Gemstone -->
-				<item id="5495" min="1" max="1" chance="0.481" /> <!-- Sealed Shield of Nightmare Fragment -->
+				<item id="6346" min="1" max="1" chance="7.156" /> <!-- Sealed Majestic Ring Gemstone -->
+				<item id="6342" min="1" max="1" chance="4.95" /> <!-- Sealed Majestic Earring Gemstone -->
+				<item id="5495" min="1" max="1" chance="3.365" /> <!-- Sealed Shield of Nightmare Fragment -->
+				<item id="6344" min="1" max="1" chance="3.292" /> <!-- Sealed Majestic Necklace Beads -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -183,8 +148,8 @@
 		<acquire exp="1355598" sp="40667" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="180" />
@@ -210,32 +175,5 @@
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 			<skill id="4438" level="2" /> <!-- Greater Sleep Resistance -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="7000" max="10000" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.7138">
-					<item id="6342" min="1" max="1" chance="26.4989" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="6344" min="1" max="1" chance="17.1486" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="6346" min="1" max="1" chance="38.0854" /> <!-- Sealed Majestic Ring Gemstone -->
-					<item id="6327" min="1" max="1" chance="0.1171" /> <!-- Sealed Majestic Earring -->
-					<item id="6328" min="1" max="1" chance="0.1756" /> <!-- Sealed Majestic Ring -->
-					<item id="6326" min="1" max="1" chance="0.0878" /> <!-- Sealed Majestic Necklace -->
-					<item id="5315" min="1" max="1" chance="0.1234" /> <!-- Sealed Shield of Nightmare -->
-					<item id="5495" min="1" max="1" chance="17.7632" /> <!-- Sealed Shield of Nightmare Fragment -->
-
-				</group>
-				<group chance="2.0004">
-					<item id="1885" min="1" max="1" chance="69.5739" /> <!-- High-grade Suede -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="6342" min="1" max="1" chance="0.7176" /> <!-- Sealed Majestic Earring Gemstone -->
-				<item id="6344" min="1" max="1" chance="0.4644" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="6346" min="1" max="1" chance="1.0313" /> <!-- Sealed Majestic Ring Gemstone -->
-				<item id="5495" min="1" max="1" chance="0.481" /> <!-- Sealed Shield of Nightmare Fragment -->
-			</spoil>
-		</dropLists>
 	</npc>
 </list>

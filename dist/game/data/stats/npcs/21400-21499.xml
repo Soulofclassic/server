@@ -6,8 +6,8 @@
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="145" />
@@ -40,28 +40,22 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="12484" max="25808" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
-				</group>
-				<group chance="1.2413">
-					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
-				</group>
+				<item id="5313" min="1" max="1" chance="0.03" /> <!-- Sealed Gauntlets of Nightmare -->
+				<item id="5314" min="1" max="1" chance="0.03" /> <!-- Sealed Boots of Nightmare -->
+				<item id="5318" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Gauntlets -->
+				<item id="5319" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Boots -->
+				<item id="57" min="10234" max="23880" chance="70" /> <!-- Adena -->
+				<item id="1886" min="1" max="1" chance="26.11" /> <!-- Silver Mold -->
+				<item id="5503" min="1" max="1" chance="4.421" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="5514" min="1" max="1" chance="4.388" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5515" min="1" max="1" chance="4.379" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5502" min="1" max="1" chance="4.369" /> <!-- Sealed Boots of Nightmare Lining -->
 			</drop>
 			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="5503" min="1" max="1" chance="21.13" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="5514" min="1" max="1" chance="20.98" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5502" min="1" max="1" chance="20.38" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="5515" min="1" max="1" chance="19.46" /> <!-- Sealed Majestic Gauntlet Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -71,8 +65,8 @@
 		<acquire exp="1943222" sp="29148" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="145" />
@@ -98,32 +92,6 @@
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12484" max="25808" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
-				</group>
-				<group chance="1.2413">
-					<item id="1886" min="1" max="1" chance="28.9024" /> <!-- Silver Mold -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21402" level="84" type="Monster" name="Katraxis">
 		<race>BUG</race>
@@ -131,8 +99,8 @@
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="37" />
 				<run ground="165" />
@@ -160,28 +128,22 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="14840" max="28080" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
-				</group>
-				<group chance="1.4804">
-					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
-				</group>
+				<item id="5313" min="1" max="1" chance="0.03" /> <!-- Sealed Gauntlets of Nightmare -->
+				<item id="5314" min="1" max="1" chance="0.03" /> <!-- Sealed Boots of Nightmare -->
+				<item id="5318" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Gauntlets -->
+				<item id="5319" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Boots -->
+				<item id="57" min="10234" max="23880" chance="70" /> <!-- Adena -->
+				<item id="1887" min="1" max="1" chance="43.47" /> <!-- Varnish of Purity -->
+				<item id="5514" min="1" max="1" chance="4.451" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5515" min="1" max="1" chance="4.44" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5503" min="1" max="1" chance="4.371" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="5502" min="1" max="1" chance="4.355" /> <!-- Sealed Boots of Nightmare Lining -->
 			</drop>
 			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="5515" min="1" max="1" chance="21.42" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5514" min="1" max="1" chance="20.94" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5502" min="1" max="1" chance="20.31" /> <!-- Sealed Boots of Nightmare Lining -->
+				<item id="5503" min="1" max="1" chance="20.13" /> <!-- Sealed Majestic Boot Lining -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -191,8 +153,8 @@
 		<acquire exp="1980478" sp="29707" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="32936.805" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="37" />
 				<run ground="165" />
@@ -205,32 +167,6 @@
 			<radius normal="24" />
 			<height normal="52.8" />
 		</collision>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="14840" max="28080" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
-				</group>
-				<group chance="1.4804">
-					<item id="1887" min="1" max="1" chance="40.3885" /> <!-- Varnish of Purity -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
-			</spoil>
-		</dropLists>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
@@ -251,8 +187,8 @@
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="185" />
@@ -280,28 +216,22 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="12484" max="25808" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
-				</group>
-				<group chance="1.6163">
-					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
-				</group>
+				<item id="5313" min="1" max="1" chance="0.03" /> <!-- Sealed Gauntlets of Nightmare -->
+				<item id="5314" min="1" max="1" chance="0.03" /> <!-- Sealed Boots of Nightmare -->
+				<item id="5318" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Gauntlets -->
+				<item id="5319" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Boots -->
+				<item id="57" min="10234" max="23880" chance="70" /> <!-- Adena -->
+				<item id="1888" min="1" max="3" chance="28.46" /> <!-- Synthetic Cokes -->
+				<item id="5515" min="1" max="1" chance="4.479" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5514" min="1" max="1" chance="4.425" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5503" min="1" max="1" chance="4.386" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="5502" min="1" max="1" chance="4.363" /> <!-- Sealed Boots of Nightmare Lining -->
 			</drop>
 			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="5514" min="1" max="1" chance="21.22" /> <!-- Sealed Gauntlets of Nightmare Design -->
+				<item id="5503" min="1" max="1" chance="21.16" /> <!-- Sealed Majestic Boot Lining -->
+				<item id="5515" min="1" max="1" chance="20.94" /> <!-- Sealed Majestic Gauntlet Design -->
+				<item id="5502" min="1" max="1" chance="20.74" /> <!-- Sealed Boots of Nightmare Lining -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -311,8 +241,8 @@
 		<acquire exp="1980478" sp="29707" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="185" />
@@ -338,32 +268,6 @@
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12484" max="25808" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.8233">
-					<item id="5313" min="1" max="1" chance="0.1628" /> <!-- Sealed Gauntlets of Nightmare -->
-					<item id="5514" min="1" max="1" chance="24.8372" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="5314" min="1" max="1" chance="0.1628" /> <!-- Sealed Boots of Nightmare -->
-					<item id="5502" min="1" max="1" chance="24.8372" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="5318" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Gauntlets -->
-					<item id="5515" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Gauntlet Design -->
-					<item id="5319" min="1" max="1" chance="0.1628" /> <!-- Sealed Majestic Boots -->
-					<item id="5503" min="1" max="1" chance="24.8372" /> <!-- Sealed Majestic Boot Lining -->
-				</group>
-				<group chance="1.6163">
-					<item id="1888" min="1" max="1" chance="45.4003" /> <!-- Synthetic Cokes -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5514" min="1" max="1" chance="0.7757" /> <!-- Sealed Gauntlets of Nightmare Design -->
-				<item id="5502" min="1" max="1" chance="0.7757" /> <!-- Sealed Boots of Nightmare Lining -->
-				<item id="5515" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Gauntlet Design -->
-				<item id="5503" min="1" max="1" chance="0.7757" /> <!-- Sealed Majestic Boot Lining -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21406" level="84" type="Monster" name="Knight of Empire">
 		<race>UNDEAD</race>
@@ -372,8 +276,8 @@
 		<acquire exp="691558" sp="10373" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="40" />
 				<run ground="145" />
@@ -400,22 +304,16 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="12484" max="25808" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.117">
-					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
-					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
-				</group>
-				<group chance="1.7619">
-					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
-				</group>
+				<item id="5311" min="1" max="1" chance="0.0075" /> <!-- Sealed Armor of Nightmare -->
+				<item id="5316" min="1" max="1" chance="0.0075" /> <!-- Sealed Majestic Plate Armor -->
+				<item id="57" min="7193" max="16783" chance="70" /> <!-- Adena -->
+				<item id="1889" min="1" max="3" chance="41.36" /> <!-- Synthetic Braid -->
+				<item id="5523" min="1" max="1" chance="1.299" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="5522" min="1" max="1" chance="1.218" /> <!-- Sealed Armor of Nightmare Pattern -->
 			</drop>
 			<spoil>
-				<item id="5522" min="1" max="1" chance="0.2207" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="5523" min="1" max="1" chance="0.2207" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="5522" min="1" max="1" chance="5.82" /> <!-- Sealed Armor of Nightmare Pattern -->
+				<item id="5523" min="1" max="1" chance="5.819" /> <!-- Sealed Majestic Plate Armor Pattern -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -426,8 +324,8 @@
 		<acquire exp="1375920" sp="20638" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="40" />
 				<run ground="145" />
@@ -452,26 +350,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12484" max="25808" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.117">
-					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
-					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
-				</group>
-				<group chance="1.7619">
-					<item id="1889" min="1" max="1" chance="64.6559" /> <!-- Synthetic Braid -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5522" min="1" max="1" chance="0.2207" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="5523" min="1" max="1" chance="0.2207" /> <!-- Sealed Majestic Plate Armor Pattern -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21408" level="84" type="Monster" name="Royal Guard of Empire">
 		<race>UNDEAD</race>
@@ -480,8 +358,8 @@
 		<acquire exp="708492" sp="10627" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="50" />
 				<run ground="190" />
@@ -509,22 +387,16 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="12484" max="25808" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.121">
-					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
-					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
-				</group>
-				<group chance="0.9143">
-					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
-				</group>
+				<item id="5311" min="1" max="1" chance="0.0075" /> <!-- Sealed Armor of Nightmare -->
+				<item id="5316" min="1" max="1" chance="0.0075" /> <!-- Sealed Majestic Plate Armor -->
+				<item id="57" min="7372" max="17200" chance="70" /> <!-- Adena -->
+				<item id="1890" min="1" max="1" chance="20.11" /> <!-- Mithril Alloy -->
+				<item id="5523" min="1" max="1" chance="1.338" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="5522" min="1" max="1" chance="1.289" /> <!-- Sealed Armor of Nightmare Pattern -->
 			</drop>
 			<spoil>
-				<item id="5522" min="1" max="1" chance="0.2284" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="5523" min="1" max="1" chance="0.2284" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="5523" min="1" max="1" chance="6" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				<item id="5522" min="1" max="1" chance="5.951" /> <!-- Sealed Armor of Nightmare Pattern -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -535,8 +407,8 @@
 		<acquire exp="1387139" sp="20807" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="50" />
 				<run ground="190" />
@@ -561,26 +433,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12484" max="25808" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.121">
-					<item id="5522" min="1" max="1" chance="49.7511" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="5523" min="1" max="1" chance="49.7511" /> <!-- Sealed Majestic Plate Armor Pattern -->
-					<item id="5316" min="1" max="1" chance="0.2489" /> <!-- Sealed Majestic Plate Armor -->
-					<item id="5311" min="1" max="1" chance="0.2489" /> <!-- Sealed Armor of Nightmare -->
-				</group>
-				<group chance="0.9143">
-					<item id="1890" min="1" max="1" chance="29.5243" /> <!-- Mithril Alloy -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5522" min="1" max="1" chance="0.2284" /> <!-- Sealed Armor of Nightmare Pattern -->
-				<item id="5523" min="1" max="1" chance="0.2284" /> <!-- Sealed Majestic Plate Armor Pattern -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21410" level="84" type="Monster" name="Guardian Scarab">
 		<race>BUG</race>
@@ -588,8 +440,8 @@
 		<acquire exp="1010772" sp="15161" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="195" />
@@ -617,22 +469,16 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2245">
-					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
-					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
-					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
-					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
-				</group>
-				<group chance="0.9564">
-					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
-				</group>
+				<item id="5326" min="1" max="1" chance="0.03" /> <!-- Sealed Robe of Nightmare -->
+				<item id="5329" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Robe -->
+				<item id="57" min="10413" max="24297" chance="70" /> <!-- Adena -->
+				<item id="1891" min="1" max="1" chance="3.817" /> <!-- Artisan's Frame -->
+				<item id="5487" min="1" max="1" chance="2.419" /> <!-- Sealed Robe of Nightmare Fabric -->
+				<item id="5488" min="1" max="1" chance="2.38" /> <!-- Sealed Majestic Robe Fabric -->
 			</drop>
 			<spoil>
-				<item id="5487" min="1" max="1" chance="0.4238" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="5488" min="1" max="1" chance="0.4238" /> <!-- Sealed Majestic Robe Fabric -->
+				<item id="5487" min="1" max="1" chance="11.29" /> <!-- Sealed Robe of Nightmare Fabric -->
+				<item id="5488" min="1" max="1" chance="10.97" /> <!-- Sealed Majestic Robe Fabric -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -642,8 +488,8 @@
 		<acquire exp="1991697" sp="29875" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="195" />
@@ -669,26 +515,6 @@
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2245">
-					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
-					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
-					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
-					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
-				</group>
-				<group chance="0.9564">
-					<item id="1891" min="1" max="1" chance="5.4613" /> <!-- Artisan's Frame -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5487" min="1" max="1" chance="0.4238" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="5488" min="1" max="1" chance="0.4238" /> <!-- Sealed Majestic Robe Fabric -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21412" level="84" type="Monster" name="Ustralith">
 		<race>BUG</race>
@@ -696,8 +522,8 @@
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="37" />
 				<run ground="130" />
@@ -725,22 +551,16 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2192">
-					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
-					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
-					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
-					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
-				</group>
-				<group chance="0.9582">
-					<item id="1892" min="1" max="1" chance="7.8977" /> <!-- Blacksmith' Frame -->
-				</group>
+				<item id="5326" min="1" max="1" chance="0.03" /> <!-- Sealed Robe of Nightmare -->
+				<item id="5329" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Robe -->
+				<item id="57" min="10234" max="23880" chance="70" /> <!-- Adena -->
+				<item id="1892" min="1" max="1" chance="5.632" /> <!-- Blacksmith's Frame -->
+				<item id="5487" min="1" max="1" chance="2.378" /> <!-- Sealed Robe of Nightmare Fabric -->
+				<item id="5488" min="1" max="1" chance="2.31" /> <!-- Sealed Majestic Robe Fabric -->
 			</drop>
 			<spoil>
-				<item id="5487" min="1" max="1" chance="0.4137" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="5488" min="1" max="1" chance="0.4137" /> <!-- Sealed Majestic Robe Fabric -->
+				<item id="5487" min="1" max="1" chance="11.45" /> <!-- Sealed Robe of Nightmare Fabric -->
+				<item id="5488" min="1" max="1" chance="10.51" /> <!-- Sealed Majestic Robe Fabric -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -750,8 +570,8 @@
 		<acquire exp="1980478" sp="29707" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="37" />
 				<run ground="130" />
@@ -777,26 +597,6 @@
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2192">
-					<item id="5326" min="1" max="1" chance="0.251" /> <!-- Sealed Robe of Nightmare -->
-					<item id="5487" min="1" max="1" chance="49.749" /> <!-- Sealed Robe of Nightmare Fabric -->
-					<item id="5329" min="1" max="1" chance="0.251" /> <!-- Sealed Majestic Robe -->
-					<item id="5488" min="1" max="1" chance="49.749" /> <!-- Sealed Majestic Robe Fabric -->
-				</group>
-				<group chance="0.9582">
-					<item id="1892" min="1" max="1" chance="7.8977" /> <!-- Blacksmith' Frame -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5487" min="1" max="1" chance="0.4137" /> <!-- Sealed Robe of Nightmare Fabric -->
-				<item id="5488" min="1" max="1" chance="0.4137" /> <!-- Sealed Majestic Robe Fabric -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21414" level="84" type="Monster" name="Assassin of Empire">
 		<race>UNDEAD</race>
@@ -805,8 +605,8 @@
 		<acquire exp="758237" sp="11373" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="80" />
 				<run ground="175" />
@@ -833,22 +633,16 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1752">
-					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5480" min="1" max="1" chance="49.7481" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="5323" min="1" max="1" chance="0.2519" /> <!-- Sealed Majestic Leather Armor -->
-					<item id="5481" min="1" max="1" chance="49.7481" /> <!-- Sealed Majestic Leather Armor Fabric -->
-				</group>
-				<group chance="0.8659">
-					<item id="1893" min="1" max="1" chance="18.2398" /> <!-- Oriharukon -->
-				</group>
+				<item id="5320" min="1" max="1" chance="0.0075" /> <!-- Sealed Leather Armor of Nightmare -->
+				<item id="5323" min="1" max="1" chance="0.0075" /> <!-- Sealed Majestic Leather Armor -->
+				<item id="57" min="7897" max="18427" chance="70" /> <!-- Adena -->
+				<item id="1893" min="1" max="1" chance="11.09" /> <!-- Oriharukon -->
+				<item id="5480" min="1" max="1" chance="1.864" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
+				<item id="5481" min="1" max="1" chance="1.849" /> <!-- Sealed Majestic Leather Armor Fabric -->
 			</drop>
 			<spoil>
-				<item id="5480" min="1" max="1" chance="0.3307" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="5481" min="1" max="1" chance="0.3307" /> <!-- Sealed Majestic Leather Armor Fabric -->
+				<item id="5480" min="1" max="1" chance="8.413" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
+				<item id="5481" min="1" max="1" chance="8.335" /> <!-- Sealed Majestic Leather Armor Fabric -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -859,8 +653,8 @@
 		<acquire exp="1397934" sp="20969" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="80" />
 				<run ground="175" />
@@ -885,26 +679,6 @@
 			<skill id="4415" level="7" /> <!-- Dagger -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1752">
-					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5480" min="1" max="1" chance="49.7481" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="5323" min="1" max="1" chance="0.2519" /> <!-- Sealed Majestic Leather Armor -->
-					<item id="5481" min="1" max="1" chance="49.7481" /> <!-- Sealed Majestic Leather Armor Fabric -->
-				</group>
-				<group chance="0.8659">
-					<item id="1893" min="1" max="1" chance="18.2398" /> <!-- Oriharukon -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5480" min="1" max="1" chance="0.3307" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="5481" min="1" max="1" chance="0.3307" /> <!-- Sealed Majestic Leather Armor Fabric -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21416" level="84" type="Monster" name="Imperial Commander">
 		<race>UNDEAD</race>
@@ -913,8 +687,8 @@
 		<acquire exp="789989" sp="11849" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="39" />
 				<run ground="140" />
@@ -939,26 +713,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1852">
-					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5480" min="1" max="1" chance="49.7481" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="5323" min="1" max="1" chance="0.2519" /> <!-- Sealed Majestic Leather Armor -->
-					<item id="5481" min="1" max="1" chance="49.7481" /> <!-- Sealed Majestic Leather Armor Fabric -->
-				</group>
-				<group chance="1.4693">
-					<item id="1894" min="1" max="1" chance="49.0524" /> <!-- Quality Leather -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5480" min="1" max="1" chance="0.3496" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="5481" min="1" max="1" chance="0.3496" /> <!-- Sealed Majestic Leather Armor Fabric -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21417" level="84" type="Monster" name="Imperial Commander">
 		<race>UNDEAD</race>
@@ -967,8 +721,8 @@
 		<acquire exp="1442599" sp="21638" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="39" />
 				<run ground="140" />
@@ -993,26 +747,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1852">
-					<item id="5320" min="1" max="1" chance="0.2519" /> <!-- Sealed Leather Armor of Nightmare -->
-					<item id="5480" min="1" max="1" chance="49.7481" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="5323" min="1" max="1" chance="0.2519" /> <!-- Sealed Majestic Leather Armor -->
-					<item id="5481" min="1" max="1" chance="49.7481" /> <!-- Sealed Majestic Leather Armor Fabric -->
-				</group>
-				<group chance="1.4693">
-					<item id="1894" min="1" max="1" chance="49.0524" /> <!-- Quality Leather -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5480" min="1" max="1" chance="0.3496" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-				<item id="5481" min="1" max="1" chance="0.3496" /> <!-- Sealed Majestic Leather Armor Fabric -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21418" level="84" type="Monster" name="Imperial Royal Guard">
 		<race>UNDEAD</race>
@@ -1021,8 +755,8 @@
 		<acquire exp="705317" sp="10579" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="27" />
 				<run ground="160" />
@@ -1049,22 +783,16 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.4227">
-					<item id="5312" min="1" max="1" chance="0.3068" /> <!-- Sealed Helm of Nightmare -->
-					<item id="5527" min="1" max="1" chance="49.6932" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="5317" min="1" max="1" chance="0.3068" /> <!-- Sealed Majestic Circlet -->
-					<item id="5528" min="1" max="1" chance="49.6932" /> <!-- Sealed Majestic Circlet Design -->
-				</group>
-				<group chance="5.6603">
-					<item id="1895" min="1" max="1" chance="88.6877" /> <!-- Metallic Fiber -->
-				</group>
+				<item id="5312" min="1" max="1" chance="0.03" /> <!-- Sealed Helm of Nightmare -->
+				<item id="5317" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Circlet -->
+				<item id="57" min="7338" max="17122" chance="70" /> <!-- Adena -->
+				<item id="1895" min="12" max="36" chance="14.74" /> <!-- Metallic Fiber -->
+				<item id="5528" min="1" max="1" chance="4.499" /> <!-- Sealed Majestic Circlet Design -->
+				<item id="5527" min="1" max="1" chance="4.433" /> <!-- Sealed Helm of Nightmare Design -->
 			</drop>
 			<spoil>
-				<item id="5527" min="1" max="1" chance="0.7968" /> <!-- Sealed Helm of Nightmare Design -->
-				<item id="5528" min="1" max="1" chance="0.7968" /> <!-- Sealed Majestic Circlet Design -->
+				<item id="5528" min="1" max="1" chance="21.41" /> <!-- Sealed Majestic Circlet Design -->
+				<item id="5527" min="1" max="1" chance="20.82" /> <!-- Sealed Helm of Nightmare Design -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1075,8 +803,8 @@
 		<acquire exp="1388620" sp="20829" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2718" mpRegen="6" />
-			<attack physical="45789.25" magical="23451.1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1545.9864336" magical="707.053617" />
+			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="27" />
 				<run ground="160" />
@@ -1101,26 +829,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="12506" max="25950" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.4227">
-					<item id="5312" min="1" max="1" chance="0.3068" /> <!-- Sealed Helm of Nightmare -->
-					<item id="5527" min="1" max="1" chance="49.6932" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="5317" min="1" max="1" chance="0.3068" /> <!-- Sealed Majestic Circlet -->
-					<item id="5528" min="1" max="1" chance="49.6932" /> <!-- Sealed Majestic Circlet Design -->
-				</group>
-				<group chance="5.6603">
-					<item id="1895" min="1" max="1" chance="88.6877" /> <!-- Metallic Fiber -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="5527" min="1" max="1" chance="0.7968" /> <!-- Sealed Helm of Nightmare Design -->
-				<item id="5528" min="1" max="1" chance="0.7968" /> <!-- Sealed Majestic Circlet Design -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21420" level="85" type="Monster" name="Ashuras">
 		<race>DEMONIC</race>
@@ -1128,8 +836,8 @@
 		<acquire exp="1330194" sp="19952" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="41" />
 				<run ground="200" />
@@ -1156,20 +864,14 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="13238" max="27570" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2302">
-					<item id="8678" min="1" max="1" chance="0.1525" /> <!-- Sirra's Blade -->
-					<item id="8712" min="1" max="1" chance="99.8475" /> <!-- Sirra's Blade Edge -->
-				</group>
-				<group chance="1.2028">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
+				<item id="8678" min="1" max="1" chance="0.0075" /> <!-- Sirra's Blade -->
+				<item id="57" min="13307" max="31050" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="7.803" /> <!-- Gemstone (A-grade) -->
+				<item id="8712" min="1" max="1" chance="4.953" /> <!-- Sirra's Blade Edge -->
 			</drop>
 			<spoil>
-				<item id="8712" min="1" max="1" chance="0.4359" /> <!-- Sirra's Blade Edge -->
-				<item id="8690" min="1" max="1" chance="0.0509" /> <!-- Recipe: Sirra's Blade (60%) -->
+				<item id="8712" min="1" max="1" chance="11.86" /> <!-- Sirra's Blade Edge -->
+				<item id="8690" min="1" max="1" chance="1.409" /> <!-- Recipe: Sirra's Blade (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1179,8 +881,8 @@
 		<acquire exp="2640882" sp="39613" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="41" />
 				<run ground="200" />
@@ -1205,24 +907,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="13238" max="27570" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2302">
-					<item id="8678" min="1" max="1" chance="0.1525" /> <!-- Sirra's Blade -->
-					<item id="8712" min="1" max="1" chance="99.8475" /> <!-- Sirra's Blade Edge -->
-				</group>
-				<group chance="1.2028">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="8712" min="1" max="1" chance="0.4359" /> <!-- Sirra's Blade Edge -->
-				<item id="8690" min="1" max="1" chance="0.0509" /> <!-- Recipe: Sirra's Blade (60%) -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21422" level="85" type="Monster" name="Dancer of Empire">
 		<race>DEMONIC</race>
@@ -1231,8 +915,8 @@
 		<acquire exp="767945" sp="11519" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="80" />
 				<run ground="120" />
@@ -1260,20 +944,14 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="13238" max="27570" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0931">
-					<item id="8679" min="1" max="1" chance="0.2286" /> <!-- Sword of Ipos -->
-					<item id="8713" min="1" max="1" chance="99.7714" /> <!-- Sword of Ipos Blade -->
-				</group>
-				<group chance="0.7293">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
+				<item id="8679" min="1" max="1" chance="0.003" /> <!-- Sword of Ipos -->
+				<item id="57" min="7810" max="18223" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="4.547" /> <!-- Gemstone (A-grade) -->
+				<item id="8713" min="1" max="1" chance="1.941" /> <!-- Sword of Ipos Blade -->
 			</drop>
 			<spoil>
-				<item id="8713" min="1" max="1" chance="0.1762" /> <!-- Sword of Ipos Blade -->
-				<item id="8692" min="1" max="1" chance="0.0308" /> <!-- Recipe: Sword of Ipos (60%) -->
+				<item id="8713" min="1" max="1" chance="4.557" /> <!-- Sword of Ipos Blade -->
+				<item id="8692" min="1" max="1" chance="0.75" /> <!-- Recipe: Sword of Ipos (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1284,8 +962,8 @@
 		<acquire exp="1430983" sp="21464" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="80" />
 				<run ground="120" />
@@ -1311,24 +989,6 @@
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
 			<skill id="4233" level="1" /> <!-- Vampiric Attack -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="13238" max="27570" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0931">
-					<item id="8679" min="1" max="1" chance="0.2286" /> <!-- Sword of Ipos -->
-					<item id="8713" min="1" max="1" chance="99.7714" /> <!-- Sword of Ipos Blade -->
-				</group>
-				<group chance="0.7293">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="8713" min="1" max="1" chance="0.1762" /> <!-- Sword of Ipos Blade -->
-				<item id="8692" min="1" max="1" chance="0.0308" /> <!-- Recipe: Sword of Ipos (60%) -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21424" level="85" type="Monster" name="Ashkenas">
 		<race>DEMONIC</race>
@@ -1336,8 +996,8 @@
 		<acquire exp="1059474" sp="15892" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="41" />
 				<run ground="190" />
@@ -1364,20 +1024,14 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="13238" max="27570" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1248">
-					<item id="8680" min="1" max="1" chance="0.2286" /> <!-- Barakiel's Axe -->
-					<item id="8714" min="1" max="1" chance="99.7714" /> <!-- Barakiel's Axe Piece -->
-				</group>
-				<group chance="0.9775">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
+				<item id="8680" min="1" max="1" chance="0.0075" /> <!-- Barakiel's Axe -->
+				<item id="57" min="10666" max="24887" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="6.258" /> <!-- Gemstone (A-grade) -->
+				<item id="8714" min="1" max="1" chance="2.66" /> <!-- Barakiel's Axe Piece -->
 			</drop>
 			<spoil>
-				<item id="8714" min="1" max="1" chance="0.2362" /> <!-- Barakiel's Axe Piece -->
-				<item id="8694" min="1" max="1" chance="0.0413" /> <!-- Recipe: Barakiel's Axe (60%) -->
+				<item id="8714" min="1" max="1" chance="6.066" /> <!-- Barakiel's Axe Piece -->
+				<item id="8694" min="1" max="1" chance="1.106" /> <!-- Recipe: Barakiel's Axe (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1387,8 +1041,8 @@
 		<acquire exp="2076464" sp="31146" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="41" />
 				<run ground="190" />
@@ -1413,24 +1067,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="13238" max="27570" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1248">
-					<item id="8680" min="1" max="1" chance="0.2286" /> <!-- Barakiel's Axe -->
-					<item id="8714" min="1" max="1" chance="99.7714" /> <!-- Barakiel's Axe Piece -->
-				</group>
-				<group chance="0.9775">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
-			</drop>
-			<spoil>
-				<item id="8714" min="1" max="1" chance="0.2362" /> <!-- Barakiel's Axe Piece -->
-				<item id="8694" min="1" max="1" chance="0.0413" /> <!-- Recipe: Barakiel's Axe (60%) -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21426" level="85" type="Monster" name="Abraxion">
 		<race>DEMONIC</race>
@@ -1438,8 +1074,8 @@
 		<acquire exp="1059474" sp="15892" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="31" />
 				<run ground="130" />
@@ -1466,20 +1102,14 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="13238" max="27570" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1248">
-					<item id="8681" min="1" max="1" chance="0.2286" /> <!-- Behemoth' Tuning Fork -->
-					<item id="8715" min="1" max="1" chance="99.7714" /> <!-- Behemoth' Tuning Fork Piece -->
-				</group>
-				<group chance="0.9775">
-					<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-				</group>
+				<item id="8681" min="1" max="1" chance="0.0075" /> <!-- Behemoth' Tuning Fork -->
+				<item id="57" min="10666" max="24887" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="6.159" /> <!-- Gemstone (A-grade) -->
+				<item id="8715" min="1" max="1" chance="2.641" /> <!-- Behemoth' Tuning Fork Piece -->
 			</drop>
 			<spoil>
-				<item id="8715" min="1" max="1" chance="0.2362" /> <!-- Behemoth' Tuning Fork Piece -->
-				<item id="8696" min="1" max="1" chance="0.0413" /> <!-- Recipe: Behemoth' Tuning Fork (60%) -->
+				<item id="8715" min="1" max="1" chance="6.145" /> <!-- Behemoth' Tuning Fork Piece -->
+				<item id="8696" min="1" max="1" chance="1.125" /> <!-- Recipe: Behemoth' Tuning Fork (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1489,8 +1119,8 @@
 		<acquire exp="2076464" sp="31146" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="31" />
 				<run ground="130" />
@@ -1515,22 +1145,6 @@
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="13238" max="27570" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1248">
-					<item id="8681" min="1" max="1" chance="0.2286" /> <!-- Behemoth' Tuning Fork -->
-					<item id="8715" min="1" max="1" chance="99.7714" /> <!-- Behemoth' Tuning Fork Piece -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-			</drop>
-			<spoil>
-				<item id="8715" min="1" max="1" chance="0.2362" /> <!-- Behemoth' Tuning Fork Piece -->
-				<item id="8696" min="1" max="1" chance="0.0413" /> <!-- Recipe: Behemoth' Tuning Fork (60%) -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21428" level="85" type="Monster" name="Hasturan">
 		<race>DEMONIC</race>
@@ -1538,8 +1152,8 @@
 		<acquire exp="1357938" sp="20369" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="31" />
 				<run ground="150" />
@@ -1567,18 +1181,14 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="13336" max="27798" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1582">
-					<item id="8683" min="1" max="1" chance="0.2286" /> <!-- Tiphon's Spear -->
-					<item id="8717" min="1" max="1" chance="99.7714" /> <!-- Tiphon's Spear Edge -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+				<item id="8683" min="1" max="1" chance="0.0075" /> <!-- Tiphon's Spear -->
+				<item id="57" min="13593" max="31718" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="7.983" /> <!-- Gemstone (A-grade) -->
+				<item id="8717" min="1" max="1" chance="3.307" /> <!-- Tiphon's Spear Edge -->
 			</drop>
 			<spoil>
-				<item id="8717" min="1" max="1" chance="0.2993" /> <!-- Tiphon's Spear Edge -->
-				<item id="8700" min="1" max="1" chance="0.0524" /> <!-- Recipe: Tiphon's Spear (60%) -->
+				<item id="8717" min="1" max="1" chance="7.859" /> <!-- Tiphon's Spear Edge -->
+				<item id="8700" min="1" max="1" chance="1.418" /> <!-- Recipe: Tiphon's Spear (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1588,8 +1198,8 @@
 		<acquire exp="2673394" sp="40100" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="31" />
 				<run ground="150" />
@@ -1615,22 +1225,6 @@
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
 			<skill id="4233" level="1" /> <!-- Vampiric Attack -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="13336" max="27798" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1582">
-					<item id="8683" min="1" max="1" chance="0.2286" /> <!-- Tiphon's Spear -->
-					<item id="8717" min="1" max="1" chance="99.7714" /> <!-- Tiphon's Spear Edge -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-			</drop>
-			<spoil>
-				<item id="8717" min="1" max="1" chance="0.2993" /> <!-- Tiphon's Spear Edge -->
-				<item id="8700" min="1" max="1" chance="0.0524" /> <!-- Recipe: Tiphon's Spear (60%) -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21430" level="85" type="Monster" name="Arimanes">
 		<race>DEMONIC</race>
@@ -1639,8 +1233,8 @@
 		<acquire exp="1452658" sp="21789" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="35" />
 				<run ground="210" />
@@ -1667,18 +1261,14 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="13668" max="28576" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.174">
-					<item id="8685" min="1" max="1" chance="0.2286" /> <!-- Sobekk's Hurricane -->
-					<item id="8719" min="1" max="1" chance="99.7714" /> <!-- Sobekk's Hurricane Edge -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+				<item id="8685" min="1" max="1" chance="0.0075" /> <!-- Sobekk's Hurricane -->
+				<item id="57" min="14571" max="33999" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="8.441" /> <!-- Gemstone (A-grade) -->
+				<item id="8719" min="1" max="1" chance="3.585" /> <!-- Sobekk's Hurricane Edge -->
 			</drop>
 			<spoil>
-				<item id="8719" min="1" max="1" chance="0.3292" /> <!-- Sobekk's Hurricane Edge -->
-				<item id="8704" min="1" max="1" chance="0.0576" /> <!-- Recipe: Sobekk's Hurricane (60%) -->
+				<item id="8719" min="1" max="1" chance="8.447" /> <!-- Sobekk's Hurricane Edge -->
+				<item id="8704" min="1" max="1" chance="1.456" /> <!-- Recipe: Sobekk's Hurricane (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1689,8 +1279,8 @@
 		<acquire exp="2697670" sp="40465" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="35" />
 				<run ground="210" />
@@ -1715,22 +1305,6 @@
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="4285" level="3" /> <!-- Sleep Resistance -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="13668" max="28576" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.174">
-					<item id="8685" min="1" max="1" chance="0.2286" /> <!-- Sobekk's Hurricane -->
-					<item id="8719" min="1" max="1" chance="99.7714" /> <!-- Sobekk's Hurricane Edge -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-			</drop>
-			<spoil>
-				<item id="8719" min="1" max="1" chance="0.3292" /> <!-- Sobekk's Hurricane Edge -->
-				<item id="8704" min="1" max="1" chance="0.0576" /> <!-- Recipe: Sobekk's Hurricane (60%) -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21432" level="85" type="Monster" name="Chakram Beetle">
 		<race>BUG</race>
@@ -1738,8 +1312,8 @@
 		<acquire exp="2878656" sp="43179" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="45" />
 				<run ground="170" />
@@ -1767,21 +1341,16 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="91406" min="1" max="1" chance="39.6" /> <!-- Entrance Pass to the Sepulcher -->
-				<group chance="70">
-					<item id="57" min="13668" max="28676" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2381">
-					<item id="8686" min="1" max="1" chance="0.1255" /> <!-- Themis' Tongue -->
-					<item id="8720" min="1" max="1" chance="54.7558" /> <!-- Themis' Tongue Piece -->
-					<item id="90045" min="1" max="1" chance="98.1187" /> <!-- Magical Tablet -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+				<item id="8686" min="1" max="1" chance="0.0075" /> <!-- Themis' Tongue -->
+				<item id="57" min="15940" max="37192" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="9.281" /> <!-- Gemstone (A-grade) -->
+				<item id="8720" min="1" max="1" chance="2.596" /> <!-- Themis' Tongue Piece -->
+				<item id="90045" min="1" max="1" chance="2.187" /> <!-- Magical Tablet -->
 			</drop>
 			<spoil>
-				<item id="8720" min="1" max="1" chance="0.2474" /> <!-- Themis' Tongue Piece -->
-				<item id="90045" min="1" max="1" chance="4.2038" /> <!-- Magical Tablet -->
-				<item id="8706" min="1" max="1" chance="0.0433" /> <!-- Recipe: Themis' Tongue (60%) -->
+				<item id="8720" min="1" max="1" chance="6.155" /> <!-- Themis' Tongue Piece -->
+				<item id="90045" min="1" max="1" chance="5.046" /> <!-- Magical Tablet -->
+				<item id="8706" min="1" max="1" chance="1.059" /> <!-- Recipe: Themis' Tongue (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1791,8 +1360,8 @@
 		<acquire exp="2669276" sp="40039" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="45" />
 				<run ground="175" />
@@ -1820,20 +1389,15 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="13668" max="28576" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1958">
-					<item id="8687" min="1" max="1" chance="0.1255" /> <!-- Cabrio's Hand -->
-					<item id="8721" min="1" max="1" chance="54.7558" /> <!-- Cabrio's Hand Head -->
-					<item id="90045" min="1" max="1" chance="98.1187" /> <!-- Magical Tablet -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
+				<item id="8687" min="1" max="1" chance="0.0075" /> <!-- Cabrio's Hand -->
+				<item id="57" min="13779" max="32151" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="8.013" /> <!-- Gemstone (A-grade) -->
+				<item id="8721" min="1" max="1" chance="3.397" /> <!-- Cabrio's Hand Head -->
 			</drop>
 			<spoil>
-				<item id="8721" min="1" max="1" chance="0.2033" /> <!-- Cabrio's Hand Head -->
-				<item id="90045" min="1" max="1" chance="4.1676" /> <!-- Magical Tablet -->
-				<item id="8708" min="1" max="1" chance="0.0356" /> <!-- Recipe: Cabrio's Hand (60%) -->
+				<item id="8721" min="1" max="1" chance="5.298" /> <!-- Cabrio's Hand Head -->
+				<item id="90045" min="1" max="1" chance="4.342" /> <!-- Magical Tablet -->
+				<item id="8708" min="1" max="1" chance="0.75" /> <!-- Recipe: Cabrio's Hand (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1843,8 +1407,8 @@
 		<acquire exp="3792041" sp="56880" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="31" />
 				<run ground="150" />
@@ -1871,19 +1435,14 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<item id="91406" min="1" max="1" chance="39.6" /> <!-- Entrance Pass to the Sepulcher -->
-				<group chance="70">
-					<item id="57" min="15966" max="23948" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.5766">
-					<item id="8684" min="1" max="1" chance="0.0748" /> <!-- Shyeed's Bow -->
-					<item id="8718" min="1" max="1" chance="32.6553" /> <!-- Shyeed's Bow Shaft -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.2699" /> <!-- Gemstone (A-grade) -->
+				<item id="8684" min="1" max="1" chance="0.0075" /> <!-- Shyeed's Bow -->
+				<item id="57" min="22132" max="51642" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="15.59" /> <!-- Gemstone (A-grade) -->
+				<item id="8718" min="1" max="1" chance="3.688" /> <!-- Shyeed's Bow Shaft -->
 			</drop>
 			<spoil>
-				<item id="8718" min="1" max="1" chance="0.5354" /> <!-- Shyeed's Bow Shaft -->
-				<item id="8702" min="1" max="1" chance="0.0937" /> <!-- Recipe: Shyeed's Bow (60%) -->
+				<item id="8718" min="1" max="1" chance="8.532" /> <!-- Shyeed's Bow Shaft -->
+				<item id="8702" min="1" max="1" chance="1.529" /> <!-- Recipe: Shyeed's Bow (60%) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1894,8 +1453,8 @@
 		<acquire exp="1701921" sp="25528" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="39" />
 				<run ground="150" />
@@ -1922,18 +1481,16 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="15966" max="23948" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2742">
-					<item id="8682" min="1" max="1" chance="0.0748" /> <!-- Naga Storm -->
-					<item id="8716" min="1" max="1" chance="32.6553" /> <!-- Naga Storm Piece -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.2699" /> <!-- Gemstone (A-grade) -->
+				<item id="8682" min="1" max="1" chance="0.003" /> <!-- Naga Storm -->
+				<item id="57" min="10375" max="24209" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="7.107" /> <!-- Gemstone (A-grade) -->
+				<item id="8716" min="1" max="1" chance="1.747" /> <!-- Naga Storm Piece -->
+				<item id="91397" min="1" max="1" chance="0.1106" /> <!-- Manuscript Fragment - Page 1 -->
 			</drop>
 			<spoil>
-				<item id="8716" min="1" max="1" chance="0.2546" /> <!-- Naga Storm Piece -->
-				<item id="8698" min="1" max="1" chance="0.0446" /> <!-- Recipe: Naga Storm (60%) -->
+				<item id="8716" min="1" max="1" chance="3.984" /> <!-- Naga Storm Piece -->
+				<item id="8698" min="1" max="1" chance="0.75" /> <!-- Recipe: Naga Storm (60%) -->
+				<item id="91397" min="1" max="1" chance="0.1049" /> <!-- Manuscript Fragment - Page 1 -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1944,8 +1501,8 @@
 		<acquire exp="1701921" sp="25528" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="39" />
 				<run ground="150" />
@@ -1972,18 +1529,16 @@
 		</skillList>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="15966" max="23948" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2742">
-					<item id="8688" min="1" max="1" chance="0.0748" /> <!-- Daimon Crystal -->
-					<item id="8722" min="1" max="1" chance="32.6553" /> <!-- Daimon Crystal Fragment -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.2699" /> <!-- Gemstone (A-grade) -->
+				<item id="8688" min="1" max="1" chance="0.003" /> <!-- Daimon Crystal -->
+				<item id="57" min="10375" max="24209" chance="70" /> <!-- Adena -->
+				<item id="2133" min="1" max="1" chance="7.12" /> <!-- Gemstone (A-grade) -->
+				<item id="8722" min="1" max="1" chance="1.652" /> <!-- Daimon Crystal Fragment -->
+				<item id="91397" min="1" max="1" chance="0.1106" /> <!-- Manuscript Fragment - Page 1 -->
 			</drop>
 			<spoil>
-				<item id="8722" min="1" max="1" chance="0.2546" /> <!-- Daimon Crystal Fragment -->
-				<item id="8710" min="1" max="1" chance="0.0446" /> <!-- Recipe: Daimon Crystal (60%) -->
+				<item id="8722" min="1" max="1" chance="4.044" /> <!-- Daimon Crystal Fragment -->
+				<item id="8710" min="1" max="1" chance="0.75" /> <!-- Recipe: Daimon Crystal (60%) -->
+				<item id="91397" min="1" max="1" chance="0.1049" /> <!-- Manuscript Fragment - Page 1 -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1993,8 +1548,8 @@
 		<acquire exp="2056090" sp="30841" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2770.2" mpRegen="6" />
-			<attack physical="47554.9" magical="24355.375" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1562.9247648" magical="714.800322" />
+			<attack physical="1188.872595" magical="811.845865" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
 			<speed>
 				<walk ground="45" />
 				<run ground="180" />
@@ -2020,18 +1575,6 @@
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="9160" max="21430" chance="100" /> <!-- Adena -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-			</drop>
-			<spoil>
-				<item id="2133" min="1" max="1" chance="4.1645" /> <!-- gem A -->
-				<item id="90045" min="1" max="1" chance="4.0288" /> <!-- magical tablet -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21438" level="83" type="Monster" name="Gatekeeper's Ghost">
 		<race>UNDEAD</race>
@@ -2040,8 +1583,8 @@
 		<acquire exp="702678" sp="10540" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2666.1" mpRegen="6" />
-			<attack physical="43976.95" magical="22522.925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1528.6814208" magical="699.139215" />
+			<attack physical="1099.423617" magical="750.7638096" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353.86144" magical="258.94045" />
 			<speed>
 				<walk ground="40" />
 				<run ground="165" />
@@ -2066,18 +1609,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="9160" max="21430" chance="100" /> <!-- Adena -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-			</drop>
-			<spoil>
-				<item id="2133" min="1" max="1" chance="4.1645" /> <!-- gem A -->
-				<item id="90045" min="1" max="1" chance="4.0288" /> <!-- magical tablet -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21439" level="83" type="Monster" name="Gatekeeper's Ghost">
 		<race>UNDEAD</race>
@@ -2086,8 +1617,8 @@
 		<acquire exp="702678" sp="10540" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2666.1" mpRegen="6" />
-			<attack physical="43976.95" magical="22522.925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1528.6814208" magical="699.139215" />
+			<attack physical="1099.423617" magical="750.7638096" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353.86144" magical="258.94045" />
 			<speed>
 				<walk ground="40" />
 				<run ground="165" />
@@ -2112,18 +1643,6 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="9160" max="21430" chance="100" /> <!-- Adena -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-			</drop>
-			<spoil>
-				<item id="2133" min="1" max="1" chance="4.1645" /> <!-- gem A -->
-				<item id="90045" min="1" max="1" chance="4.0288" /> <!-- magical tablet -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21440" level="83" type="Monster" name="Vassal Ghost">
 		<race>UNDEAD</race>
@@ -2131,8 +1650,8 @@
 		<acquire exp="702678" sp="10540" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="32936.805" hpRegen="17" mp="2666.1" mpRegen="6" />
-			<attack physical="43976.95" magical="22522.925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1528.6814208" magical="699.139215" />
+			<attack physical="1099.423617" magical="750.7638096" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="353.86144" magical="258.94045" />
 			<speed>
 				<walk ground="15" />
 				<run ground="15" />
@@ -2145,18 +1664,6 @@
 			<radius normal="13" />
 			<height normal="21" />
 		</collision>
-		<dropLists>
-			<drop>
-				<group chance="70">
-					<item id="57" min="9160" max="21430" chance="100" /> <!-- Adena -->
-				</group>
-				<item id="2133" min="1" max="1" chance="4.3733" /> <!-- Gemstone (A-grade) -->
-			</drop>
-			<spoil>
-				<item id="2133" min="1" max="1" chance="4.1645" /> <!-- gem A -->
-				<item id="90045" min="1" max="1" chance="4.0288" /> <!-- magical tablet -->
-			</spoil>
-		</dropLists>
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
