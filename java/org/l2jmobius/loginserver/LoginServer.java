@@ -71,7 +71,7 @@ public class LoginServer
 		logFolder.mkdir();
 		
 		// Create input stream for log file -- or store file data into memory.
-		try (InputStream is = new FileInputStream(new File("./log.cfg")))
+		try (InputStream is = new FileInputStream(new File("./log-temp.cfg")))
 		{
 			LogManager.getLogManager().readConfiguration(is);
 		}

@@ -1,2 +1,2 @@
 #!/bin/sh
-java -cp ./../libs/*: org.l2jmobius.tools.DatabaseInstaller
+/opt/homebrew/opt/openjdk/bin/java -cp ./../libs/*: org.l2jmobius.tools.DatabaseInstaller
