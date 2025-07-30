@@ -5030,9 +5030,9 @@
 		<equipment rhand="2504" lhand="6918" /> <!-- rhand: Meteor Shower lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="685664" sp="18512" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6525.45622342" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="31153.32280531" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1271.32064241" magical="522.10299611" />
+			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="983.16" magical="539.5753656" />
 			<speed>
 				<walk ground="44" />
 				<run ground="175" />
@@ -5045,10 +5045,10 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5103,9 +5103,9 @@
 		<equipment rhand="2504" lhand="6918" /> <!-- rhand: Meteor Shower lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="342048" sp="9235" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6525.45622342" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="31153.32280531" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1114.25146061" magical="522.10299611" />
+			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="983.16" magical="539.5753656" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -5118,10 +5118,10 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="5" /> <!-- MP High -->
-			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Average M. Def. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5199,12 +5199,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="2" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Average M. Def. -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5257,9 +5257,9 @@
 		<equipment rhand="142" lhand="6918" /> <!-- rhand: Keshanberk lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="231033" sp="6237" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6525.45622342" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="27088.21561682" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1114.25146061" magical="522.10299611" />
+			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="983.16" magical="539.5753656" />
 			<speed>
 				<walk ground="44" />
 				<run ground="175" />
@@ -5270,11 +5270,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (3x) -->
-			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Weak P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -5350,9 +5350,9 @@
 		<equipment rhand="6917" /> <!-- rhand: Monster Only (Poison Sting) -->
 		<acquire exp="351456" sp="9489" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6525.45622342" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
 			<attack physical="15528.6" magical="7953.02" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="1114.25146061" magical="522.10299611" />
+			<defence physical="983.16" magical="539.5753656" />
 			<speed>
 				<walk ground="30" />
 				<run ground="175" />
@@ -5365,10 +5365,10 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="6" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="9" /> <!-- Bow -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5444,9 +5444,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="694176" sp="18742" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7178.00184576" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="34708.84882082" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1254.82783408" magical="574.31329572" />
+			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="15528.6" magical="7953.02" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="983.16" magical="539.5753656" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -5457,12 +5457,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5530,12 +5530,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Average M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4277" level="5" /> <!-- Poison Resistance -->
@@ -5588,9 +5588,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="714694" sp="19296" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7178.00184576" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="34268.65508584" magical="34854.37858527" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1225.67660667" magical="574.31329572" />
+			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="983.16" magical="539.5753656" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -5601,12 +5601,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5663,9 +5663,9 @@
 		<equipment rhand="142" lhand="6918" /> <!-- rhand: Keshanberk lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="358176" sp="9670" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7178.00184576" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="34268.65508584" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1225.67660667" magical="574.31329572" />
+			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
+			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="983.16" magical="539.5753656" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -5678,10 +5678,10 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -5769,12 +5769,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="3" /> <!-- Beast -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5829,9 +5829,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="362961" sp="9799" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7177.96801627" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="24684.95457603" magical="34393.72279614" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1389.03022478" magical="571.52416668" />
+			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="16197.16" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="995.3604576" magical="546.2711928" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -5842,12 +5842,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5923,9 +5923,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="737082" sp="19901" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7177.96801627" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="34065.85032016" magical="34393.72279614" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1219.00370349" magical="571.52416668" />
+			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="16197.16" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="995.3604576" magical="546.2711928" />
 			<speed>
 				<walk ground="36" />
 				<run ground="175" />
@@ -5936,12 +5936,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -5998,9 +5998,9 @@
 		<equipment rhand="2504" /> <!-- rhand: Meteor Shower -->
 		<acquire exp="385649" sp="10412" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7177.96801627" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="34065.85032016" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1219.00370349" magical="571.52416668" />
+			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="16197.16" magical="8295.42" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="995.3604576" magical="546.2711928" />
 			<speed>
 				<walk ground="25" />
 				<run ground="175" />
@@ -6011,12 +6011,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6103,12 +6103,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="5" /> <!-- Plants -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="4" /> <!-- MP High -->
-			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4277" level="5" /> <!-- Poison Resistance -->
@@ -6160,9 +6160,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="388263" sp="10483" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7177.96801627" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="34065.85032016" magical="34393.72279614" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1219.00370349" magical="571.52416668" />
+			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1007.3513376" magical="552.852" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6173,12 +6173,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="2" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6256,9 +6256,9 @@
 		<equipment rhand="2500" /> <!-- rhand: Dark Legion's Edge -->
 		<acquire exp="760665" sp="20537" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="29448.65246712" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1212.30985435" magical="567.8446394" />
+			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1007.3513376" magical="552.852" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -6269,12 +6269,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6334,9 +6334,9 @@
 		<equipment rhand="2500" /> <!-- rhand: Dark Legion's Edge -->
 		<acquire exp="415186" sp="11210" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="21339.42411334" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1212.30985435" magical="567.8446394" />
+			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1007.3513376" magical="552.852" />
 			<speed>
 				<walk ground="25" />
 				<run ground="175" />
@@ -6347,11 +6347,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
-			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6440,12 +6440,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="4" /> <!-- Animals -->
-			<skill id="4408" level="13" /> <!-- HP Increase (2x) -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
 			<skill id="4409" level="4" /> <!-- MP High -->
-			<skill id="4410" level="1" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Average M. Def. -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6500,9 +6500,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="773044" sp="20872" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="24540.28051089" magical="33954.33022" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1381.27290025" magical="567.8446394" />
+			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1007.3513376" magical="552.852" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6513,12 +6513,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (7x) -->
+			<skill id="4408" level="15" /> <!-- HP Increase (7x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6581,9 +6581,9 @@
 		<equipment rhand="2500" /> <!-- rhand: Dark Legion's Edge -->
 		<acquire exp="381240" sp="10293" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7177.96801627" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="24684.95457603" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1219.00370349" magical="571.52416668" />
+			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="16197.16" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="995.3604576" magical="546.2711928" />
 			<speed>
 				<walk ground="25" />
 				<run ground="175" />
@@ -6594,11 +6594,11 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (8x) -->
-			<skill id="4410" level="1" /> <!-- Extremely Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
+			<skill id="4410" level="18" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="4" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
@@ -6672,9 +6672,9 @@
 		<acquire exp="281240" sp="10293" />
 		<equipment rhand="2500" lhand="6918" /> <!-- rhand: Dark Legion's Edge lhand: Monster Only (Shield of Silenos) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6525.31914018" hpRegen="17" mp="2563.2" mpRegen="6" />
-			<attack physical="30968.9548365" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1108.18518499" magical="519.56742426" />
+			<vitals hp="6153.8" hpRegen="17" mp="2563.2" mpRegen="6" />
+			<attack physical="16197.16" magical="8295.42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="995.3604576" magical="546.2711928" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -6685,12 +6685,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6754,9 +6754,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="390711" sp="10549" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="24540.28051089" magical="33954.33022" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1381.27290025" magical="567.8446394" />
+			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1007.3513376" magical="552.852" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6767,12 +6767,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (8x) -->
+			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6843,9 +6843,9 @@
 		<sex>MALE</sex>
 		<equipment rhand="2500" lhand="6918" /> <!-- rhand: Dark Legion's Edge lhand: Monster Only (Shield of Silenos) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6525.49785828" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="30787.62384187" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1102.09986759" magical="516.22239945" />
+			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1007.3513376" magical="552.852" />
 			<speed>
 				<walk ground="44" />
 				<run ground="175" />
@@ -6856,12 +6856,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -6923,9 +6923,9 @@
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<acquire exp="371978" sp="10043" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7178.0476441" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="24540.28051089" magical="33953.21598798" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1212.30985435" magical="567.8446394" />
+			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="16884.57" magical="8647.48" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1007.3513376" magical="552.852" />
 			<speed>
 				<walk ground="36" />
 				<run ground="150" />
@@ -6936,12 +6936,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (8x) -->
+			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Extremely Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="18" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="6" /> <!-- Blunt Weapon -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -7016,9 +7016,9 @@
 		<equipment rhand="2500" lhand="6918" /> <!-- rhand: Dark Legion's Edge lhand: Monster Only (Shield of Silenos) -->
 		<acquire exp="395229" sp="10671" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6525.49785828" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="26771.48051097" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1102.09986759" magical="516.22239945" />
+			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1007.3513376" magical="552.852" />
 			<speed>
 				<walk ground="34" />
 				<run ground="175" />
@@ -7029,12 +7029,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="1" /> <!-- Very Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="5" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -7096,9 +7096,9 @@
 		<sex>MALE</sex>
 		<equipment rhand="6716" /> <!-- rhand: Monster Only(Silenos Shaman) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6525.49785828" hpRegen="17" mp="2614.5" mpRegen="6" />
-			<attack physical="26771.50224283" magical="30867.57292727" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1102.09986759" magical="516.22239945" />
+			<vitals hp="6227.54" hpRegen="17" mp="2614.5" mpRegen="6" />
+			<attack physical="16884.57" magical="8647.48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1007.3513376" magical="552.852" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -7109,12 +7109,12 @@
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
-			<skill id="4408" level="13" /> <!-- HP Increase (6x) -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Very Strong M. Atk. -->
-			<skill id="4412" level="5" /> <!-- Average P. Def. -->
-			<skill id="4413" level="5" /> <!-- Strong M. Def. -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
