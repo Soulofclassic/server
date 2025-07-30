@@ -4190,9 +4190,9 @@
 		<equipment rhand="3937" /> <!-- rhand: Giant Bar -->
 		<acquire exp="316016" sp="9480" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="5437.9175761" hpRegen="17" mp="2311.2" mpRegen="6" />
-			<attack physical="10283.95982849" magical="6755.68" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1301.46130385" magical="277.10218899" />
+			<vitals hp="5738.36" hpRegen="17" mp="2311.2" mpRegen="6" />
+			<attack physical="13190.75" magical="6755.68" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="932.499504" magical="511.7720184" />
 			<speed>
 				<walk ground="15" />
 				<run ground="220" />
@@ -4207,7 +4207,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
@@ -4271,9 +4271,9 @@
 		<equipment rhand="3937" /> <!-- rhand: Giant Bar -->
 		<acquire exp="248131" sp="7443" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7415.27885733" hpRegen="17" mp="2311.2" mpRegen="6" />
-			<attack physical="10284.00071879" magical="4554.20559888" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1183.14663986" magical="440.72017507" />
+			<vitals hp="5738.36" hpRegen="17" mp="2311.2" mpRegen="6" />
+			<attack physical="13190.75" magical="6755.68" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="932.499504" magical="511.7720184" />
 			<speed>
 				<walk ground="15" />
 				<run ground="140" />
@@ -4288,7 +4288,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
@@ -4352,9 +4352,9 @@
 		<equipment rhand="15304" />
 		<acquire exp="243360" sp="7300" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7415.27885733" hpRegen="17" mp="2311.2" mpRegen="6" />
-			<attack physical="3831.24448551" magical="4554.04743562" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="1183.14663986" magical="333.8190113" />
+			<vitals hp="5738.36" hpRegen="17" mp="2311.2" mpRegen="6" />
+			<attack physical="13190.75" magical="6755.68" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="932.499504" magical="511.7720184" />
 			<speed>
 				<walk ground="55" />
 				<run ground="190" />
@@ -4369,7 +4369,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="9" /> <!-- Bow -->
@@ -4433,9 +4433,9 @@
 		<equipment rhand="3937" /> <!-- rhand: Giant Bar -->
 		<acquire exp="326047" sp="9781" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4943.56174566" hpRegen="17" mp="2361" mpRegen="6" />
-			<attack physical="8454.26549444" magical="4493.66402157" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1176.58929035" magical="250.53662035" />
+			<vitals hp="5827.18" hpRegen="17" mp="2361" mpRegen="6" />
+			<attack physical="13703.05" magical="7018.05" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="945.4197024" magical="518.8628232" />
 			<speed>
 				<walk ground="15" />
 				<run ground="180" />
@@ -4450,7 +4450,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
@@ -4517,9 +4517,9 @@
 		<equipment rhand="3938" /> <!-- rhand: Giant Rod -->
 		<acquire exp="257609" sp="7728" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="7415.34644473" hpRegen="17" mp="2361" mpRegen="6" />
-			<attack physical="8454.26549444" magical="8493.66402157" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1176.34811185" magical="250.53662035" />
+			<vitals hp="5827.18" hpRegen="17" mp="2361" mpRegen="6" />
+			<attack physical="13703.05" magical="7018.05" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="945.4197024" magical="518.8628232" />
 			<speed>
 				<walk ground="15" />
 				<run ground="180" />
@@ -4534,7 +4534,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
@@ -4605,9 +4605,9 @@
 		<equipment rhand="3938" /> <!-- rhand: Giant Rod -->
 		<acquire exp="336445" sp="10093" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="4943.50951729" hpRegen="17" mp="2411.1" mpRegen="6" />
-			<attack physical="9237.01923593" magical="8434.56226819" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="1168.61754664" magical="205.95135645" />
+			<vitals hp="5913.3" hpRegen="17" mp="2411.1" mpRegen="6" />
+			<attack physical="14248.01" magical="7297.16" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="958.1777568" magical="525.8646792" />
 			<speed>
 				<walk ground="30" />
 				<run ground="140" />
@@ -4622,7 +4622,7 @@
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
