@@ -12,8 +12,8 @@
 		<acquire exp="586" sp="17" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="226.387951055469" hpRegen="2.5" mp="132.64" mpRegen="1.2" />
-			<attack physical="25.04271" magical="17.10092" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="68.67458" magical="50.25308" />
+			<attack physical="61.20939178" magical="17.10092" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<defence physical="62.43143636" magical="50.25308" />
 			<speed>
 				<walk ground="40" />
 				<run ground="140" />
@@ -48,25 +48,16 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="49" max="116" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0968">
-					<item id="271" min="1" max="1" chance="100" /> <!-- Hunting Bow -->
-				</group>
-				<group chance="19.699">
-					<item id="1873" min="1" max="1" chance="5.0633" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="2.5316" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="12.6582" /> <!-- Varnish -->
-					<item id="92908" min="1" max="1" chance="12.6582" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.5316" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.2658" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="17" min="10" max="30" chance="63.2913" /> <!-- Wooden Arrow -->
-				</group>
+				<item id="271" min="1" max="1" chance="0.3" /> <!-- Hunting Bow -->
+				<item id="57" min="41" max="96" chance="70" /> <!-- Adena -->
+				<item id="17" min="10" max="30" chance="25.19" /> <!-- Wooden Arrow -->
+				<item id="1865" min="1" max="1" chance="4.9" /> <!-- Varnish -->
+				<item id="1873" min="1" max="1" chance="1.894" /> <!-- Silver Nugget -->
+				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
 			</drop>
 			<spoil>
-				<item id="1833" min="1" max="1" chance="94.5469" /> <!-- Bandage -->
-				<item id="1866" min="1" max="1" chance="23.6367" /> <!-- Suede -->
+				<item id="1833" min="1" max="1" chance="53.87" /> <!-- Bandage -->
+				<item id="1866" min="1" max="1" chance="25.07" /> <!-- Suede -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -120,29 +111,20 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="57" max="134" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="4.0511">
-					<item id="114" min="1" max="1" chance="8.5569" /> <!-- Earring of Strength -->
-					<item id="115" min="1" max="1" chance="8.5569" /> <!-- Earring of Wisdom -->
-					<item id="876" min="1" max="1" chance="12.8354" /> <!-- Ring of Anguish -->
-					<item id="907" min="1" max="1" chance="6.4177" /> <!-- Necklace of Anguish -->
-					<item id="1896" min="1" max="1" chance="63.6331" /> <!-- Necklace of Anguish Chain -->
-				</group>
-				<group chance="25.2643">
-					<item id="1868" min="1" max="1" chance="20.0669" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="10.0334" /> <!-- Charcoal -->
-					<item id="1864" min="1" max="1" chance="20.0669" /> <!-- Stem -->
-					<item id="1869" min="1" max="1" chance="10.0334" /> <!-- Iron Ore -->
-					<item id="92908" min="1" max="1" chance="10.0334" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.0067" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.0033" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1831" min="1" max="1" chance="26.756" /> <!-- Antidote -->
-				</group>
+				<item id="876" min="1" max="1" chance="1.777" /> <!-- Ring of Anguish -->
+				<item id="114" min="1" max="1" chance="1.144" /> <!-- Earring of Strength -->
+				<item id="115" min="1" max="1" chance="1.095" /> <!-- Earring of Wisdom -->
+				<item id="907" min="1" max="1" chance="0.75" /> <!-- Necklace of Anguish -->
+				<item id="57" min="47" max="112" chance="70" /> <!-- Adena -->
+				<item id="1831" min="1" max="1" chance="12.4" /> <!-- Antidote -->
+				<item id="1864" min="1" max="1" chance="9.063" /> <!-- Stem -->
+				<item id="1868" min="1" max="1" chance="9.002" /> <!-- Thread -->
+				<item id="1896" min="1" max="1" chance="8.621" /> <!-- Necklace of Anguish Chain -->
+				<item id="1869" min="1" max="1" chance="4.466" /> <!-- Iron Ore -->
+				<item id="1871" min="1" max="1" chance="4.459" /> <!-- Charcoal -->
 			</drop>
 			<spoil>
-				<item id="20" min="1" max="1" chance="5.9269" /> <!-- Buckler -->
+				<item id="20" min="1" max="1" chance="6.557" /> <!-- Buckler -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -158,8 +140,8 @@
 		<acquire exp="631" sp="18" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="243.022656988362" hpRegen="2.5" mp="140.88" mpRegen="1.2" />
-			<attack physical="27.24646" magical="18.6058" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="71.08179" magical="52.01457" />
+			<attack physical="66.59579753" magical="18.6058" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
+			<defence physical="64.61980909" magical="52.01457" />
 			<speed>
 				<walk ground="40" />
 				<run ground="140" />
@@ -194,25 +176,16 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="51" max="120" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1003">
-					<item id="271" min="1" max="1" chance="100" /> <!-- Hunting Bow -->
-				</group>
-				<group chance="18.3087">
-					<item id="1873" min="1" max="1" chance="4.9383" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="2.4691" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="12.3457" /> <!-- Varnish -->
-					<item id="92908" min="1" max="1" chance="12.3457" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.4691" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.2346" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1661" min="1" max="1" chance="2.4691" /> <!-- Thief Key -->
-					<item id="17" min="10" max="30" chance="61.7284" /> <!-- Wooden Arrow -->
-				</group>
+				<item id="271" min="1" max="1" chance="0.3" /> <!-- Hunting Bow -->
+				<item id="57" min="42" max="100" chance="70" /> <!-- Adena -->
+				<item id="17" min="10" max="30" chance="19.3" /> <!-- Wooden Arrow -->
+				<item id="1865" min="1" max="1" chance="3.964" /> <!-- Varnish -->
+				<item id="1873" min="1" max="1" chance="1.659" /> <!-- Silver Nugget -->
+				<item id="1661" min="1" max="1" chance="0.75" /> <!-- Thief Key -->
+				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
 			</drop>
 			<spoil>
-				<item id="1866" min="1" max="1" chance="48.9741" /> <!-- Suede -->
+				<item id="1866" min="1" max="1" chance="55.23" /> <!-- Suede -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -261,29 +234,20 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="51" max="118" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="7.0514">
-					<item id="37" min="1" max="1" chance="9.4801" /> <!-- Leather Shoes -->
-					<item id="1921" min="1" max="1" chance="81.0398" /> <!-- Leather Shoe Texture -->
-					<item id="49" min="1" max="1" chance="9.4801" /> <!-- Gloves -->
-				</group>
-				<group chance="18.9225">
-					<item id="1867" min="1" max="1" chance="13.8691" /> <!-- Animal Skin -->
-					<item id="1868" min="1" max="1" chance="20.8036" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="10.4018" /> <!-- Charcoal -->
-					<item id="1864" min="1" max="1" chance="20.8036" /> <!-- Stem -->
-					<item id="1869" min="1" max="1" chance="10.4018" /> <!-- Iron Ore -->
-					<item id="92908" min="1" max="1" chance="10.4018" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.0804" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.0402" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1798" min="1" max="1" chance="10.1977" /> <!-- Recipe: Leather Helmet -->
-				</group>
+				<item id="49" min="1" max="1" chance="2.369" /> <!-- Gloves -->
+				<item id="37" min="1" max="1" chance="2.272" /> <!-- Leather Shoes -->
+				<item id="57" min="43" max="101" chance="70" /> <!-- Adena -->
+				<item id="1921" min="1" max="3" chance="9.905" /> <!-- Leather Shoe Texture -->
+				<item id="1868" min="1" max="1" chance="6.841" /> <!-- Thread -->
+				<item id="1864" min="1" max="1" chance="6.839" /> <!-- Stem -->
+				<item id="1867" min="1" max="1" chance="4.533" /> <!-- Animal Skin -->
+				<item id="1871" min="1" max="1" chance="3.416" /> <!-- Charcoal -->
+				<item id="1869" min="1" max="1" chance="3.336" /> <!-- Iron Ore -->
+				<item id="1798" min="1" max="1" chance="3.292" /> <!-- Recipe: Leather Helmet -->
 			</drop>
 			<spoil>
-				<item id="1803" min="1" max="1" chance="30.2376" /> <!-- Recipe: Necklace of Wisdom -->
-				<item id="1871" min="1" max="1" chance="35.9828" /> <!-- Charcoal -->
+				<item id="1871" min="1" max="1" chance="41.69" /> <!-- Charcoal -->
+				<item id="1803" min="1" max="1" chance="36.1" /> <!-- Recipe: Necklace of Wisdom -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -335,24 +299,14 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="52" max="122" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1013">
-					<item id="271" min="1" max="1" chance="100" /> <!-- Hunting Bow -->
-				</group>
-				<group chance="8.8321">
-					<item id="1873" min="1" max="1" chance="13.7931" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="6.8966" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="34.4828" /> <!-- Varnish -->
-					<item id="92908" min="1" max="1" chance="34.4828" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.8966" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.4481" /> <!-- Crafting Herb: Old Fabric Piece -->
-				</group>
+				<item id="271" min="1" max="1" chance="0.3" /> <!-- Hunting Bow -->
+				<item id="57" min="45" max="104" chance="70" /> <!-- Adena -->
+				<item id="1865" min="1" max="1" chance="6.961" /> <!-- Varnish -->
+				<item id="1873" min="1" max="1" chance="2.821" /> <!-- Silver Nugget -->
+				<item id="1876" min="1" max="1" chance="1.408" /> <!-- Mithril Ore -->
 			</drop>
 			<spoil>
-				<item id="1869" min="1" max="1" chance="37.1175" /> <!-- Iron Ore -->
-				<item id="1869" min="1" max="1" chance="37.1175" /> <!-- Iron Ore -->
+				<item id="1869" min="1" max="1" chance="42.33" /> <!-- Iron Ore -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -401,27 +355,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="65" max="153" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2803">
-					<item id="15" min="1" max="1" chance="6.0559" /> <!-- Short Spear -->
-					<item id="2011" min="1" max="1" chance="93.9441" /> <!-- Short Spear Edge -->
-				</group>
-				<group chance="14.431">
-					<item id="1868" min="1" max="1" chance="26.6667" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="13.3333" /> <!-- Charcoal -->
-					<item id="1864" min="1" max="1" chance="26.6667" /> <!-- Stem -->
-					<item id="1869" min="1" max="1" chance="13.3333" /> <!-- Iron Ore -->
-					<item id="92908" min="1" max="1" chance="13.3333" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.6667" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.3333" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="2141" min="1" max="1" chance="2.6667" /> <!-- Recipe: Silver Mold -->
-				</group>
+				<item id="15" min="1" max="1" chance="0.075" /> <!-- Short Spear -->
+				<item id="57" min="39" max="90" chance="70" /> <!-- Adena -->
+				<item id="1864" min="1" max="1" chance="7.335" /> <!-- Stem -->
+				<item id="1868" min="1" max="1" chance="7.311" /> <!-- Thread -->
+				<item id="1871" min="1" max="1" chance="3.726" /> <!-- Charcoal -->
+				<item id="1869" min="1" max="1" chance="3.724" /> <!-- Iron Ore -->
+				<item id="2011" min="1" max="1" chance="0.75" /> <!-- Short Spear Edge -->
+				<item id="2141" min="1" max="1" chance="0.75" /> <!-- Recipe: Silver Mold -->
 			</drop>
 			<spoil>
-				<item id="734" min="1" max="1" chance="5.2112" /> <!-- Wind Walk Potion -->
-				<item id="1801" min="1" max="1" chance="15.7517" /> <!-- Recipe: Piece Bone Gaiters -->
+				<item id="1801" min="1" max="1" chance="17.85" /> <!-- Recipe: Piece Bone Gaiters -->
+				<item id="734" min="1" max="1" chance="6.243" /> <!-- Wind Walk Potion -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -471,30 +416,21 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="65" max="153" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="5.5016">
-					<item id="38" min="1" max="1" chance="4.1328" /> <!-- Low Boots -->
-					<item id="50" min="1" max="1" chance="4.1328" /> <!-- Leather Gloves -->
-					<item id="1925" min="1" max="1" chance="91.7344" /> <!-- Leather Glove Lining -->
-				</group>
-				<group chance="15.567">
-					<item id="1867" min="1" max="1" chance="13.1843" /> <!-- Animal Skin -->
-					<item id="1868" min="1" max="1" chance="19.7765" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="9.8883" /> <!-- Charcoal -->
-					<item id="1864" min="1" max="1" chance="19.7765" /> <!-- Stem -->
-					<item id="1869" min="1" max="1" chance="9.8883" /> <!-- Iron Ore -->
-					<item id="1866" min="1" max="1" chance="6.5922" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="9.8883" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="1.9777" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="0.9888" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="2175" min="1" max="1" chance="8.0391" /> <!-- Recipe: Boots -->
-				</group>
+				<item id="38" min="1" max="1" chance="0.75" /> <!-- Low Boots -->
+				<item id="50" min="1" max="1" chance="0.75" /> <!-- Leather Gloves -->
+				<item id="57" min="39" max="90" chance="70" /> <!-- Adena -->
+				<item id="1925" min="1" max="1" chance="16.56" /> <!-- Leather Glove Lining -->
+				<item id="1864" min="1" max="1" chance="5.273" /> <!-- Stem -->
+				<item id="1868" min="1" max="1" chance="5.194" /> <!-- Thread -->
+				<item id="1867" min="1" max="1" chance="3.532" /> <!-- Animal Skin -->
+				<item id="1871" min="1" max="1" chance="2.592" /> <!-- Charcoal -->
+				<item id="1869" min="1" max="1" chance="2.573" /> <!-- Iron Ore -->
+				<item id="2175" min="1" max="1" chance="2.081" /> <!-- Recipe: Boots -->
+				<item id="1866" min="1" max="1" chance="1.761" /> <!-- Suede -->
 			</drop>
 			<spoil>
-				<item id="2150" min="1" max="1" chance="14.6794" /> <!-- Recipe: Blue Diamond Necklace -->
-				<item id="1897" min="1" max="1" chance="7.4446" /> <!-- Necklace of Wisdom Chain -->
+				<item id="2150" min="1" max="1" chance="17.55" /> <!-- Recipe: Blue Diamond Necklace -->
+				<item id="1897" min="1" max="1" chance="8.893" /> <!-- Necklace of Wisdom Chain -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -543,28 +479,19 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="66" max="156" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0347">
-					<item id="217" min="1" max="1" chance="50" /> <!-- Shining Knife -->
-					<item id="218" min="1" max="1" chance="50" /> <!-- Throwing Knife -->
-				</group>
-				<group chance="8.0442">
-					<item id="1871" min="1" max="1" chance="21.703" /> <!-- Charcoal -->
-					<item id="1873" min="1" max="1" chance="8.6812" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="4.3406" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="21.703" /> <!-- Varnish -->
-					<item id="1866" min="1" max="1" chance="14.4687" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="21.703" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.3406" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.1703" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="2252" min="1" max="1" chance="0.8896" /> <!-- Recipe: Iron Hammer -->
-				</group>
+				<item id="217" min="1" max="1" chance="0.075" /> <!-- Shining Knife -->
+				<item id="218" min="1" max="1" chance="0.075" /> <!-- Throwing Knife -->
+				<item id="57" min="39" max="92" chance="70" /> <!-- Adena -->
+				<item id="1865" min="1" max="1" chance="3.078" /> <!-- Varnish -->
+				<item id="1871" min="1" max="1" chance="3.047" /> <!-- Charcoal -->
+				<item id="1866" min="1" max="1" chance="2.117" /> <!-- Suede -->
+				<item id="1873" min="1" max="1" chance="1.288" /> <!-- Silver Nugget -->
+				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
+				<item id="2252" min="1" max="1" chance="0.3" /> <!-- Recipe: Iron Hammer -->
 			</drop>
 			<spoil>
-				<item id="1869" min="1" max="1" chance="31.9158" /> <!-- Iron Ore -->
-				<item id="734" min="1" max="1" chance="5.3193" /> <!-- Wind Walk Potion -->
+				<item id="1869" min="1" max="1" chance="39.37" /> <!-- Iron Ore -->
+				<item id="734" min="1" max="1" chance="6.321" /> <!-- Wind Walk Potion -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -614,30 +541,21 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="67" max="159" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="5.697">
-					<item id="38" min="1" max="1" chance="4.1328" /> <!-- Low Boots -->
-					<item id="50" min="1" max="1" chance="4.1328" /> <!-- Leather Gloves -->
-					<item id="1925" min="1" max="1" chance="91.7344" /> <!-- Leather Glove Lining -->
-				</group>
-				<group chance="18.366">
-					<item id="1867" min="1" max="1" chance="11.5718" /> <!-- Animal Skin -->
-					<item id="1868" min="1" max="1" chance="17.3578" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="8.6789" /> <!-- Charcoal -->
-					<item id="1864" min="1" max="1" chance="17.3578" /> <!-- Stem -->
-					<item id="1869" min="1" max="1" chance="8.6789" /> <!-- Iron Ore -->
-					<item id="1866" min="1" max="1" chance="5.7859" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="8.6789" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="1.7358" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="0.8679" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1060" min="1" max="1" chance="19.2863" /> <!-- HP Potion - Exchangeable -->
-				</group>
+				<item id="38" min="1" max="1" chance="0.75" /> <!-- Low Boots -->
+				<item id="50" min="1" max="1" chance="0.75" /> <!-- Leather Gloves -->
+				<item id="57" min="40" max="94" chance="70" /> <!-- Adena -->
+				<item id="1925" min="1" max="1" chance="18.36" /> <!-- Leather Glove Lining -->
+				<item id="1060" min="1" max="1" chance="6.074" /> <!-- Healing Potion -->
+				<item id="1868" min="1" max="1" chance="5.458" /> <!-- Thread -->
+				<item id="1864" min="1" max="1" chance="5.455" /> <!-- Stem -->
+				<item id="1867" min="1" max="1" chance="3.571" /> <!-- Animal Skin -->
+				<item id="1871" min="1" max="1" chance="2.722" /> <!-- Charcoal -->
+				<item id="1869" min="1" max="1" chance="2.696" /> <!-- Iron Ore -->
+				<item id="1866" min="1" max="1" chance="1.857" /> <!-- Suede -->
 			</drop>
 			<spoil>
-				<item id="1866" min="1" max="1" chance="21.5849" /> <!-- Suede -->
-				<item id="734" min="1" max="1" chance="5.3962" /> <!-- Wind Walk Potion -->
+				<item id="1866" min="1" max="1" chance="24.69" /> <!-- Suede -->
+				<item id="734" min="1" max="1" chance="6.479" /> <!-- Wind Walk Potion -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -744,31 +662,22 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="125" max="294" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.5654">
-					<item id="24" min="1" max="1" chance="19.2424" /> <!-- Bone Breastplate -->
-					<item id="31" min="1" max="1" chance="30.7576" /> <!-- Bone Gaiters -->
-					<item id="390" min="1" max="1" chance="19.2424" /> <!-- Cotton Shirt -->
-					<item id="412" min="1" max="1" chance="30.7576" /> <!-- Cotton Pants -->
-				</group>
-				<group chance="17.9616">
-					<item id="1867" min="1" max="1" chance="21.8579" /> <!-- Animal Skin -->
-					<item id="1871" min="1" max="1" chance="16.3934" /> <!-- Charcoal -->
-					<item id="1873" min="1" max="1" chance="6.5574" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="3.2787" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="16.3934" /> <!-- Varnish -->
-					<item id="1866" min="1" max="1" chance="10.929" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="16.3934" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.2787" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.6393" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="2140" min="1" max="1" chance="3.2788" /> <!-- Recipe: High-grade Suede -->
-				</group>
+				<item id="31" min="1" max="1" chance="0.75" /> <!-- Bone Gaiters -->
+				<item id="412" min="1" max="1" chance="0.75" /> <!-- Cotton Pants -->
+				<item id="24" min="1" max="1" chance="0.3" /> <!-- Bone Breastplate -->
+				<item id="390" min="1" max="1" chance="0.3" /> <!-- Cotton Shirt -->
+				<item id="57" min="73" max="174" chance="70" /> <!-- Adena -->
+				<item id="1867" min="1" max="1" chance="6.646" /> <!-- Animal Skin -->
+				<item id="1871" min="1" max="1" chance="4.986" /> <!-- Charcoal -->
+				<item id="1865" min="1" max="1" chance="4.967" /> <!-- Varnish -->
+				<item id="1866" min="1" max="1" chance="3.358" /> <!-- Suede -->
+				<item id="1873" min="1" max="1" chance="2.037" /> <!-- Silver Nugget -->
+				<item id="1876" min="1" max="1" chance="0.978" /> <!-- Mithril Ore -->
+				<item id="2140" min="1" max="1" chance="0.947" /> <!-- Recipe: High-grade Suede -->
 			</drop>
 			<spoil>
-				<item id="734" min="1" max="1" chance="9.9684" /> <!-- Wind Walk Potion -->
-				<item id="1897" min="1" max="1" chance="14.2406" /> <!-- Necklace of Wisdom Chain -->
+				<item id="1897" min="1" max="1" chance="17.17" /> <!-- Necklace of Wisdom Chain -->
+				<item id="734" min="1" max="1" chance="11.34" /> <!-- Wind Walk Potion -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -915,32 +824,23 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="109" max="255" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.4896">
-					<item id="24" min="1" max="1" chance="19.2424" /> <!-- Bone Breastplate -->
-					<item id="31" min="1" max="1" chance="30.7576" /> <!-- Bone Gaiters -->
-					<item id="390" min="1" max="1" chance="19.2424" /> <!-- Cotton Shirt -->
-					<item id="412" min="1" max="1" chance="30.7576" /> <!-- Cotton Pants -->
-				</group>
-				<group chance="16.3304">
-					<item id="1867" min="1" max="1" chance="20.821" /> <!-- Animal Skin -->
-					<item id="1871" min="1" max="1" chance="15.6158" /> <!-- Charcoal -->
-					<item id="1873" min="1" max="1" chance="6.2463" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="3.1232" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="15.6158" /> <!-- Varnish -->
-					<item id="1866" min="1" max="1" chance="10.4105" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="15.6158" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.1232" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.5616" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1801" min="1" max="1" chance="7.8668" /> <!-- Recipe: Piece Bone Gaiters -->
-				</group>
+				<item id="31" min="1" max="1" chance="0.75" /> <!-- Bone Gaiters -->
+				<item id="412" min="1" max="1" chance="0.75" /> <!-- Cotton Pants -->
+				<item id="24" min="1" max="1" chance="0.3" /> <!-- Bone Breastplate -->
+				<item id="390" min="1" max="1" chance="0.3" /> <!-- Cotton Shirt -->
+				<item id="57" min="64" max="152" chance="70" /> <!-- Adena -->
+				<item id="1867" min="1" max="1" chance="5.099" /> <!-- Animal Skin -->
+				<item id="1871" min="1" max="1" chance="3.86" /> <!-- Charcoal -->
+				<item id="1865" min="1" max="1" chance="3.821" /> <!-- Varnish -->
+				<item id="1866" min="1" max="1" chance="2.465" /> <!-- Suede -->
+				<item id="1801" min="1" max="1" chance="1.909" /> <!-- Recipe: Piece Bone Gaiters -->
+				<item id="1873" min="1" max="1" chance="1.509" /> <!-- Silver Nugget -->
+				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
 			</drop>
 			<spoil>
-				<item id="1925" min="1" max="1" chance="22.6445" /> <!-- Leather Glove Lining -->
-				<item id="1870" min="1" max="1" chance="34.5329" /> <!-- Coal -->
-				<item id="1879" min="1" max="1" chance="5.7555" /> <!-- Cokes -->
+				<item id="1870" min="1" max="1" chance="40.38" /> <!-- Coal -->
+				<item id="1925" min="1" max="1" chance="27.15" /> <!-- Leather Glove Lining -->
+				<item id="1879" min="1" max="1" chance="6.889" /> <!-- Cokes -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -992,32 +892,23 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="134" max="312" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="3.6549">
-					<item id="845" min="1" max="1" chance="7.2296" /> <!-- Cat's Eye -->
-					<item id="877" min="1" max="1" chance="10.8566" /> <!-- Ring of Wisdom -->
-					<item id="908" min="1" max="1" chance="5.4009" /> <!-- Necklace of Wisdom -->
-					<item id="1897" min="1" max="1" chance="76.5129" /> <!-- Necklace of Wisdom Chain -->
-				</group>
-				<group chance="19.1054">
-					<item id="1867" min="1" max="1" chance="21.8579" /> <!-- Animal Skin -->
-					<item id="1871" min="1" max="1" chance="16.3934" /> <!-- Charcoal -->
-					<item id="1873" min="1" max="1" chance="6.5574" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="3.2787" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="16.3934" /> <!-- Varnish -->
-					<item id="1866" min="1" max="1" chance="10.929" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="16.3934" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.2787" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.6393" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1817" min="1" max="1" chance="3.2788" /> <!-- Recipe: Cord -->
-				</group>
+				<item id="877" min="1" max="1" chance="1.302" /> <!-- Ring of Wisdom -->
+				<item id="845" min="1" max="1" chance="0.75" /> <!-- Cat's Eye -->
+				<item id="908" min="1" max="1" chance="0.75" /> <!-- Necklace of Wisdom -->
+				<item id="57" min="78" max="185" chance="70" /> <!-- Adena -->
+				<item id="1897" min="1" max="1" chance="9.371" /> <!-- Necklace of Wisdom Chain -->
+				<item id="1867" min="1" max="1" chance="7.059" /> <!-- Animal Skin -->
+				<item id="1865" min="1" max="1" chance="5.394" /> <!-- Varnish -->
+				<item id="1871" min="1" max="1" chance="5.342" /> <!-- Charcoal -->
+				<item id="1866" min="1" max="1" chance="3.495" /> <!-- Suede -->
+				<item id="1873" min="1" max="1" chance="2.082" /> <!-- Silver Nugget -->
+				<item id="1817" min="1" max="1" chance="1.116" /> <!-- Recipe: Cord -->
+				<item id="1876" min="1" max="1" chance="1.049" /> <!-- Mithril Ore -->
 			</drop>
 			<spoil>
-				<item id="735" min="1" max="1" chance="3.5344" /> <!-- Haste Potion -->
-				<item id="2011" min="1" max="1" chance="0.9676" /> <!-- Short Spear Edge -->
-				<item id="1817" min="1" max="1" chance="8.4826" /> <!-- Recipe: Cord -->
+				<item id="1817" min="1" max="1" chance="9.93" /> <!-- Recipe: Cord -->
+				<item id="735" min="1" max="1" chance="4.173" /> <!-- Haste Potion -->
+				<item id="2011" min="1" max="1" chance="1.113" /> <!-- Short Spear Edge -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1071,31 +962,22 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="134" max="312" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="11.1942">
-					<item id="38" min="1" max="1" chance="4.1328" /> <!-- Low Boots -->
-					<item id="50" min="1" max="1" chance="4.1328" /> <!-- Leather Gloves -->
-					<item id="1925" min="1" max="1" chance="91.7344" /> <!-- Leather Glove Lining -->
-				</group>
-				<group chance="19.1054">
-					<item id="1867" min="1" max="1" chance="21.8579" /> <!-- Animal Skin -->
-					<item id="1871" min="1" max="1" chance="16.3934" /> <!-- Charcoal -->
-					<item id="1873" min="1" max="1" chance="6.5574" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="3.2787" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="16.3934" /> <!-- Varnish -->
-					<item id="1866" min="1" max="1" chance="10.929" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="16.3934" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.2787" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.6393" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="2139" min="1" max="1" chance="3.2788" /> <!-- Recipe: Steel Mold -->
-				</group>
+				<item id="38" min="1" max="1" chance="1.614" /> <!-- Low Boots -->
+				<item id="50" min="1" max="1" chance="1.524" /> <!-- Leather Gloves -->
+				<item id="57" min="78" max="185" chance="70" /> <!-- Adena -->
+				<item id="1867" min="1" max="1" chance="6.283" /> <!-- Animal Skin -->
+				<item id="1925" min="3" max="9" chance="5.82" /> <!-- Leather Glove Lining -->
+				<item id="1865" min="1" max="1" chance="4.629" /> <!-- Varnish -->
+				<item id="1871" min="1" max="1" chance="4.622" /> <!-- Charcoal -->
+				<item id="1866" min="1" max="1" chance="3.073" /> <!-- Suede -->
+				<item id="1873" min="1" max="1" chance="1.867" /> <!-- Silver Nugget -->
+				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
+				<item id="2139" min="1" max="1" chance="0.75" /> <!-- Recipe: Steel Mold -->
 			</drop>
 			<spoil>
-				<item id="2012" min="1" max="1" chance="0.8836" /> <!-- Sword of Reflection Blade -->
-				<item id="2139" min="1" max="1" chance="8.4826" /> <!-- Recipe: Steel Mold -->
-				<item id="2013" min="1" max="1" chance="0.9154" /> <!-- Forest Bow Shaft -->
+				<item id="2139" min="1" max="1" chance="9.69" /> <!-- Recipe: Steel Mold -->
+				<item id="2012" min="1" max="1" chance="1.08" /> <!-- Sword of Reflection Blade -->
+				<item id="2013" min="1" max="1" chance="1.052" /> <!-- Forest Bow Shaft -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1192,30 +1074,21 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="89" max="207" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0466">
-					<item id="176" min="1" max="1" chance="50" /> <!-- Apprentice's Staff -->
-					<item id="2501" min="1" max="1" chance="50" /> <!-- Bone Club -->
-				</group>
-				<group chance="13.0378">
-					<item id="1867" min="1" max="1" chance="21.6064" /> <!-- Animal Skin -->
-					<item id="1871" min="1" max="1" chance="16.2048" /> <!-- Charcoal -->
-					<item id="1873" min="1" max="1" chance="6.4819" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="3.241" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="16.2048" /> <!-- Varnish -->
-					<item id="1866" min="1" max="1" chance="10.8032" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="16.2048" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.241" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.6205" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="2173" min="1" max="1" chance="4.3916" /> <!-- Recipe: Durable Leather Shirt -->
-				</group>
+				<item id="176" min="1" max="1" chance="0.075" /> <!-- Apprentice's Staff -->
+				<item id="2501" min="1" max="1" chance="0.075" /> <!-- Bone Club -->
+				<item id="57" min="82" max="191" chance="70" /> <!-- Adena -->
+				<item id="1867" min="1" max="1" chance="4.223" /> <!-- Animal Skin -->
+				<item id="1871" min="1" max="1" chance="3.212" /> <!-- Charcoal -->
+				<item id="1865" min="1" max="1" chance="3.207" /> <!-- Varnish -->
+				<item id="1866" min="1" max="1" chance="2.142" /> <!-- Suede -->
+				<item id="1873" min="1" max="1" chance="1.252" /> <!-- Silver Nugget -->
+				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
+				<item id="2173" min="1" max="1" chance="0.75" /> <!-- Recipe: Durable Leather Shirt -->
 			</drop>
 			<spoil>
-				<item id="1868" min="1" max="1" chance="57.2201" /> <!-- Thread -->
-				<item id="734" min="1" max="1" chance="4.7683" /> <!-- Wind Walk Potion -->
-				<item id="1925" min="1" max="1" chance="18.7607" /> <!-- Leather Glove Lining -->
+				<item id="1868" min="1" max="1" chance="59.41" /> <!-- Thread -->
+				<item id="1925" min="1" max="1" chance="20.48" /> <!-- Leather Glove Lining -->
+				<item id="734" min="1" max="1" chance="5.11" /> <!-- Wind Walk Potion -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1277,30 +1150,21 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="92" max="213" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1122">
-					<item id="87" min="1" max="1" chance="5.8744" /> <!-- Iron Hammer -->
-					<item id="2014" min="1" max="1" chance="82.3768" /> <!-- Iron Hammer Head -->
-					<item id="155" min="1" max="1" chance="5.8744" /> <!-- Flanged Mace -->
-					<item id="177" min="1" max="1" chance="5.8744" /> <!-- Mage Staff -->
-				</group>
-				<group chance="14.059">
-					<item id="1867" min="1" max="1" chance="22.5989" /> <!-- Animal Skin -->
-					<item id="1871" min="1" max="1" chance="16.9492" /> <!-- Charcoal -->
-					<item id="1873" min="1" max="1" chance="6.7797" /> <!-- Silver Nugget -->
-					<item id="1876" min="1" max="1" chance="3.3898" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="16.9492" /> <!-- Varnish -->
-					<item id="1866" min="1" max="1" chance="11.2994" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="16.9492" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.3898" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.6948" /> <!-- Crafting Herb: Old Fabric Piece -->
-				</group>
+				<item id="87" min="1" max="1" chance="0.03" /> <!-- Iron Hammer -->
+				<item id="155" min="1" max="1" chance="0.03" /> <!-- Flanged Mace -->
+				<item id="177" min="1" max="1" chance="0.03" /> <!-- Mage Staff -->
+				<item id="57" min="74" max="173" chance="70" /> <!-- Adena -->
+				<item id="1867" min="1" max="1" chance="3.895" /> <!-- Animal Skin -->
+				<item id="1865" min="1" max="1" chance="2.957" /> <!-- Varnish -->
+				<item id="1871" min="1" max="1" chance="2.901" /> <!-- Charcoal -->
+				<item id="1866" min="1" max="1" chance="1.9" /> <!-- Suede -->
+				<item id="1873" min="1" max="1" chance="1.191" /> <!-- Silver Nugget -->
+				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
+				<item id="2014" min="1" max="1" chance="0.3" /> <!-- Iron Hammer Head -->
 			</drop>
 			<spoil>
-				<item id="1866" min="1" max="1" chance="29.0414" /> <!-- Suede -->
-				<item id="846" min="1" max="1" chance="0.5445" /> <!-- Coral Earring -->
+				<item id="1866" min="1" max="1" chance="39.29" /> <!-- Suede -->
+				<item id="846" min="1" max="1" chance="0.75" /> <!-- Coral Earring -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1383,24 +1247,15 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="12" max="29" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="1.7546">
-					<item id="13" min="1" max="1" chance="100" /> <!-- Short Bow -->
-				</group>
-				<group chance="3.8179">
-					<item id="1868" min="1" max="1" chance="39.2157" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="19.6078" /> <!-- Charcoal -->
-					<item id="92908" min="1" max="1" chance="19.6078" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.9216" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.9608" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1786" min="1" max="1" chance="15.6863" /> <!-- Recipe: Broadsword -->
-				</group>
+				<item id="13" min="1" max="1" chance="5.065" /> <!-- Short Bow -->
+				<item id="57" min="8" max="20" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="7.166" /> <!-- Thread -->
+				<item id="1871" min="1" max="1" chance="3.629" /> <!-- Charcoal -->
+				<item id="1786" min="1" max="1" chance="2.908" /> <!-- Recipe: Broadsword -->
 			</drop>
 			<spoil>
-				<item id="1787" min="1" max="1" chance="7.299" /> <!-- Recipe: Broadsword -->
-				<item id="1864" min="1" max="1" chance="18.2474" /> <!-- Stem -->
+				<item id="1864" min="1" max="1" chance="17.98" /> <!-- Stem -->
+				<item id="1787" min="1" max="1" chance="6.931" /> <!-- Recipe: Willow Staff -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1448,26 +1303,17 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="17" max="41" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="2.3995">
-					<item id="4" min="1" max="1" chance="50" /> <!-- Club -->
-					<item id="7" min="1" max="1" chance="50" /> <!-- Apprentice's Rod -->
-				</group>
-				<group chance="5.6454">
-					<item id="1867" min="1" max="1" chance="20.7254" /> <!-- Animal Skin -->
-					<item id="1868" min="1" max="1" chance="31.0881" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="15.544" /> <!-- Charcoal -->
-					<item id="92908" min="1" max="1" chance="15.544" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.1088" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.5544" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1787" min="1" max="1" chance="12.4353" /> <!-- Recipe: Broadsword -->
-				</group>
+				<item id="4" min="1" max="1" chance="3.664" /> <!-- Club -->
+				<item id="7" min="1" max="1" chance="3.635" /> <!-- Apprentice's Rod -->
+				<item id="57" min="13" max="30" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="7.795" /> <!-- Thread -->
+				<item id="1867" min="1" max="1" chance="5.235" /> <!-- Animal Skin -->
+				<item id="1871" min="1" max="1" chance="3.865" /> <!-- Charcoal -->
+				<item id="1787" min="1" max="1" chance="3.154" /> <!-- Recipe: Willow Staff -->
 			</drop>
 			<spoil>
-				<item id="1788" min="1" max="1" chance="9.9819" /> <!-- Recipe: Bow -->
-				<item id="1864" min="1" max="1" chance="24.9548" /> <!-- Stem -->
+				<item id="1864" min="1" max="1" chance="25.9" /> <!-- Stem -->
+				<item id="1788" min="1" max="1" chance="9.93" /> <!-- Recipe: Bow -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1517,26 +1363,17 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="23" max="55" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="4.0989">
-					<item id="1119" min="1" max="1" chance="33.3333" /> <!-- Short Leather Gloves -->
-					<item id="1122" min="1" max="1" chance="33.3333" /> <!-- Cotton Shoes -->
-					<item id="1129" min="1" max="1" chance="33.3334" /> <!-- Crude Leather Shoes -->
-				</group>
-				<group chance="9.6297">
-					<item id="1868" min="1" max="1" chance="28.7081" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="14.3541" /> <!-- Charcoal -->
-					<item id="92908" min="1" max="1" chance="14.3541" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.8708" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.4354" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1833" min="1" max="1" chance="38.2775" /> <!-- Bandage -->
-				</group>
+				<item id="1119" min="1" max="1" chance="3.853" /> <!-- Short Leather Gloves -->
+				<item id="1129" min="1" max="1" chance="3.821" /> <!-- Crude Leather Shoes -->
+				<item id="1122" min="1" max="1" chance="3.753" /> <!-- Cotton Shoes -->
+				<item id="57" min="16" max="37" chance="70" /> <!-- Adena -->
+				<item id="1833" min="1" max="1" chance="6.763" /> <!-- Bandage -->
+				<item id="1868" min="1" max="1" chance="5.073" /> <!-- Thread -->
+				<item id="1871" min="1" max="1" chance="2.521" /> <!-- Charcoal -->
 			</drop>
 			<spoil>
-				<item id="1666" min="1" max="1" chance="5.6154" /> <!-- Recipe: Wooden Arrow -->
-				<item id="1060" min="1" max="1" chance="37.4359" /> <!-- HP Potion - Exchangeable -->
+				<item id="1060" min="1" max="1" chance="35.29" /> <!-- Healing Potion -->
+				<item id="1666" min="1" max="1" chance="5.219" /> <!-- Recipe: Wooden Arrow -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1585,25 +1422,16 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="29" max="68" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="4.1162">
-					<item id="19" min="1" max="1" chance="58.8121" /> <!-- Small Shield -->
-					<item id="42" min="1" max="1" chance="41.1879" /> <!-- Leather Cap -->
-				</group>
-				<group chance="9.6674">
-					<item id="1867" min="1" max="1" chance="23.6686" /> <!-- Animal Skin -->
-					<item id="1868" min="1" max="1" chance="35.503" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="17.7515" /> <!-- Charcoal -->
-					<item id="92908" min="1" max="1" chance="17.7515" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.5503" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.7751" /> <!-- Crafting Herb: Old Fabric Piece -->
-				</group>
+				<item id="19" min="1" max="1" chance="6.801" /> <!-- Small Shield -->
+				<item id="42" min="1" max="1" chance="4.772" /> <!-- Leather Cap -->
+				<item id="57" min="20" max="48" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="6.339" /> <!-- Thread -->
+				<item id="1867" min="1" max="1" chance="4.222" /> <!-- Animal Skin -->
+				<item id="1871" min="1" max="1" chance="3.172" /> <!-- Charcoal -->
 			</drop>
 			<spoil>
-				<item id="1789" min="1" max="1" chance="3.866" /> <!-- Recipe: Cedar Staff -->
-				<item id="2006" min="1" max="1" chance="1.4939" /> <!-- Willow Staff Head -->
+				<item id="1789" min="1" max="1" chance="3.554" /> <!-- Recipe: Cedar Staff -->
+				<item id="2006" min="1" max="1" chance="1.345" /> <!-- Willow Staff Head -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1651,26 +1479,17 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="36" max="85" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.3068">
-					<item id="254" min="1" max="1" chance="100" /> <!-- Iron Gloves -->
-				</group>
-				<group chance="13.5593">
-					<item id="1867" min="1" max="1" chance="15.7143" /> <!-- Animal Skin -->
-					<item id="1868" min="1" max="1" chance="23.5714" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="11.7857" /> <!-- Charcoal -->
-					<item id="92908" min="1" max="1" chance="11.7857" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.3571" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.1786" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1791" min="1" max="1" chance="2.1785" /> <!-- Recipe: Brandish -->
-					<item id="1833" min="1" max="1" chance="31.4287" /> <!-- Bandage -->
-				</group>
+				<item id="254" min="1" max="1" chance="1.089" /> <!-- Iron Gloves -->
+				<item id="57" min="31" max="73" chance="70" /> <!-- Adena -->
+				<item id="1833" min="1" max="1" chance="7.836" /> <!-- Bandage -->
+				<item id="1868" min="1" max="1" chance="5.906" /> <!-- Thread -->
+				<item id="1867" min="1" max="1" chance="3.885" /> <!-- Animal Skin -->
+				<item id="1871" min="1" max="1" chance="2.955" /> <!-- Charcoal -->
+				<item id="1791" min="1" max="1" chance="0.75" /> <!-- Recipe: Brandish -->
 			</drop>
 			<spoil>
-				<item id="1060" min="1" max="1" chance="57.7079" /> <!-- HP Potion - Exchangeable -->
-				<item id="2006" min="1" max="1" chance="1.8549" /> <!-- Willow Staff Head -->
+				<item id="1060" min="1" max="1" chance="67.89" /> <!-- Healing Potion -->
+				<item id="2006" min="1" max="1" chance="2.201" /> <!-- Willow Staff Head -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1725,7 +1544,7 @@
 			<height normal="35" />
 		</collision>
 	</npc>
-	<npc id="20134" level="59" type="Monster" name="Cave Maiden" element="EARTH">
+	<npc id="20134" level="59" type="Monster" name="Cave Maiden" >
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -1740,7 +1559,7 @@
 		<race>BEAST</race>
 		<sex>FEMALE</sex>
 		<equipment rhand="68" />
-		<acquire exp="1394760" sp="41843" attributeExp="1428" />
+		<acquire exp="33211" sp="1079" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1984.09830322793" hpRegen="6.5" mp="1007" mpRegen="2.4" />
 			<attack physical="461.94387" magical="315.44778" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1851,31 +1670,25 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="146" max="341" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="1.005">
-					<item id="62" min="1" max="1" chance="0.6005" /> <!-- Reinforced Mithril Boots -->
-					<item id="1958" min="1" max="1" chance="34.0032" /> <!-- Reinforced Mithril Boot Design -->
-					<item id="63" min="1" max="1" chance="1.4893" /> <!-- Gauntlets -->
-					<item id="553" min="1" max="1" chance="1.4893" /> <!-- Iron Boots -->
-					<item id="1940" min="1" max="1" chance="56.4605" /> <!-- Iron Boot Design -->
-					<item id="2422" min="1" max="1" chance="1.4893" /> <!-- Reinforced Leather Boots -->
-					<item id="2423" min="1" max="1" chance="1.4893" /> <!-- Boots of Knowledge -->
-					<item id="2446" min="1" max="1" chance="1.4893" /> <!-- Reinforced Leather Gloves -->
-					<item id="2447" min="1" max="1" chance="1.4893" /> <!-- Gloves of Knowledge -->
-				</group>
-				<group chance="9.2083">
-					<item id="1864" min="1" max="1" chance="45.0448" /> <!-- Stem -->
-					<item id="1878" min="1" max="1" chance="9.009" /> <!-- Durable Braid -->
-					<item id="1866" min="1" max="1" chance="15.0149" /> <!-- Suede -->
-					<item id="2269" min="1" max="1" chance="0.1609" /> <!-- Recipe: Morning Star -->
-					<item id="2028" min="1" max="1" chance="0.2677" /> <!-- Shilen Knife Edge -->
-				</group>
+				<item id="62" min="1" max="1" chance="0.03" /> <!-- Reinforced Mithril Boots -->
+				<item id="63" min="1" max="1" chance="0.03" /> <!-- Gauntlets -->
+				<item id="553" min="1" max="1" chance="0.03" /> <!-- Iron Boots -->
+				<item id="2422" min="1" max="1" chance="0.03" /> <!-- Reinforced Leather Boots -->
+				<item id="2423" min="1" max="1" chance="0.03" /> <!-- Boots of Knowledge -->
+				<item id="2446" min="1" max="1" chance="0.03" /> <!-- Reinforced Leather Gloves -->
+				<item id="2447" min="1" max="1" chance="0.03" /> <!-- Gloves of Knowledge -->
+				<item id="57" min="214" max="502" chance="70" /> <!-- Adena -->
+				<item id="1864" min="1" max="1" chance="14.73" /> <!-- Stem -->
+				<item id="1866" min="1" max="1" chance="5.01" /> <!-- Suede -->
+				<item id="1878" min="1" max="1" chance="3.031" /> <!-- Durable Braid -->
+				<item id="1940" min="1" max="1" chance="1.816" /> <!-- Iron Boot Design -->
+				<item id="1958" min="1" max="1" chance="1.131" /> <!-- Reinforced Mithril Boot Design -->
+				<item id="2028" min="1" max="1" chance="0.075" /> <!-- Shilen Knife Edge -->
+				<item id="2269" min="1" max="1" chance="0.075" /> <!-- Recipe: Morning Star -->
 			</drop>
 			<spoil>
-				<item id="1865" min="1" max="1" chance="46.3394" /> <!-- Varnish -->
-				<item id="849" min="1" max="1" chance="0.1441" /> <!-- Tiger's Eye -->
+				<item id="1865" min="1" max="1" chance="66.35" /> <!-- Varnish -->
+				<item id="849" min="1" max="1" chance="0.3" /> <!-- Tiger's Eye -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -1907,8 +1720,8 @@
 		<acquire exp="26097" sp="782" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2578.55294197919" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
-			<attack physical="688.86373" magical="470.40463" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="295.91597" magical="216.53847" />
+			<attack physical="369.7143626" magical="208.6504" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="165.486314" magical="146.5258" />
 			<speed>
 				<walk ground="27" />
 				<run ground="174" />
@@ -1977,7 +1790,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20137" level="57" type="Monster" name="Drake" element="EARTH">
+	<npc id="20137" level="57" type="Monster" name="Drake" >
 		<parameters>
 			<param name="MoveAroundSocial" value="60" />
 			<param name="MoveAroundSocial1" value="60" />
@@ -1991,7 +1804,7 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire exp="1435319" sp="43060" attributeExp="1530" />
+		<acquire exp="30111" sp="913" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1874.02972214133" hpRegen="6.5" mp="948" mpRegen="2.4" />
 			<attack physical="424.23295" magical="289.69611" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2268,7 +2081,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="1458078" sp="43743" attributeExp="1530" />
+		<acquire exp="37427" sp="1118" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
 			<attack physical="481.34551" magical="328.69659" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2381,28 +2194,19 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="46" max="108" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="1.4866">
-					<item id="20" min="1" max="1" chance="58.8757" /> <!-- Buckler -->
-					<item id="43" min="1" max="1" chance="41.1243" /> <!-- Wooden Helmet -->
-				</group>
-				<group chance="20.3662">
-					<item id="1867" min="1" max="1" chance="11.7994" /> <!-- Animal Skin -->
-					<item id="1868" min="1" max="1" chance="17.6991" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="8.8496" /> <!-- Charcoal -->
-					<item id="1864" min="1" max="1" chance="17.6991" /> <!-- Stem -->
-					<item id="1869" min="1" max="1" chance="8.8496" /> <!-- Iron Ore -->
-					<item id="92908" min="1" max="1" chance="8.8496" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="1.7699" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="0.885" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1833" min="1" max="1" chance="23.5987" /> <!-- Bandage -->
-				</group>
+				<item id="20" min="1" max="1" chance="3.04" /> <!-- Buckler -->
+				<item id="43" min="1" max="1" chance="2.083" /> <!-- Wooden Helmet -->
+				<item id="57" min="38" max="91" chance="70" /> <!-- Adena -->
+				<item id="1833" min="1" max="1" chance="8.091" /> <!-- Bandage -->
+				<item id="1864" min="1" max="1" chance="6.114" /> <!-- Stem -->
+				<item id="1868" min="1" max="1" chance="6.059" /> <!-- Thread -->
+				<item id="1867" min="1" max="1" chance="4.042" /> <!-- Animal Skin -->
+				<item id="1869" min="1" max="1" chance="3.056" /> <!-- Iron Ore -->
+				<item id="1871" min="1" max="1" chance="3.039" /> <!-- Charcoal -->
 			</drop>
 			<spoil>
-				<item id="1872" min="1" max="1" chance="43.9316" /> <!-- Animal Bone Fragment -->
-				<item id="1867" min="1" max="1" chance="43.9316" /> <!-- Animal Skin -->
+				<item id="1872" min="1" max="1" chance="50.2" /> <!-- Animal Bone -->
+				<item id="1867" min="1" max="1" chance="48.53" /> <!-- Animal Skin -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2462,34 +2266,23 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="133" max="313" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0403">
-					<item id="58" min="1" max="1" chance="12.1591" /> <!-- Mithril Breastplate -->
-					<item id="59" min="1" max="1" chance="17.5206" /> <!-- Mithril Gaiters -->
-					<item id="349" min="1" max="1" chance="12.1591" /> <!-- Compound Scale Mail -->
-					<item id="350" min="1" max="1" chance="12.1591" /> <!-- Dwarven Scale Mail -->
-					<item id="351" min="1" max="1" chance="10.9611" /> <!-- Breastplate -->
-					<item id="378" min="1" max="1" chance="17.5206" /> <!-- Compound Scale Gaiters -->
-					<item id="379" min="1" max="1" chance="17.5204" /> <!-- Dwarven Scale Gaiters -->
-				</group>
-				<group chance="6.8414">
-					<item id="1876" min="1" max="1" chance="6.1103" /> <!-- Mithril Ore -->
-					<item id="1872" min="1" max="1" chance="40.7356" /> <!-- Animal Bone Fragment -->
-					<item id="1882" min="1" max="1" chance="6.7893" /> <!-- Leather -->
-					<item id="92908" min="1" max="1" chance="30.5517" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.1103" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.0552" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.0184" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0611" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="2156" min="1" max="1" chance="2.4441" /> <!-- Recipe: Elven Necklace -->
-					<item id="2208" min="1" max="1" chance="3.124" /> <!-- Recipe: Ogre Power Gauntlets -->
-				</group>
+				<item id="58" min="1" max="1" chance="0.03" /> <!-- Mithril Breastplate -->
+				<item id="59" min="1" max="1" chance="0.03" /> <!-- Mithril Gaiters -->
+				<item id="349" min="1" max="1" chance="0.03" /> <!-- Compound Scale Mail -->
+				<item id="350" min="1" max="1" chance="0.03" /> <!-- Dwarven Scale Mail -->
+				<item id="351" min="1" max="1" chance="0.03" /> <!-- Breastplate -->
+				<item id="378" min="1" max="1" chance="0.03" /> <!-- Compound Scale Gaiters -->
+				<item id="379" min="1" max="1" chance="0.03" /> <!-- Dwarven Scale Gaiters -->
+				<item id="57" min="161" max="376" chance="70" /> <!-- Adena -->
+				<item id="1872" min="1" max="1" chance="7.496" /> <!-- Animal Bone -->
+				<item id="1882" min="1" max="1" chance="1.257" /> <!-- Leather -->
+				<item id="1876" min="1" max="1" chance="1.065" /> <!-- Mithril Ore -->
+				<item id="2208" min="1" max="1" chance="0.75" /> <!-- Recipe: Ogre Power Gauntlets -->
+				<item id="2156" min="1" max="1" chance="0.3" /> <!-- Recipe: Elven Necklace -->
 			</drop>
 			<spoil>
-				<item id="1880" min="1" max="1" chance="4.2456" /> <!-- Steel -->
-				<item id="2272" min="1" max="1" chance="0.3033" /> <!-- Recipe: Sword of Revolution -->
+				<item id="1880" min="1" max="1" chance="9.772" /> <!-- Steel -->
+				<item id="2272" min="1" max="1" chance="0.75" /> <!-- Recipe: Sword of Revolution -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -2543,33 +2336,22 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="120" max="280" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.8762">
-					<item id="848" min="1" max="1" chance="3.7659" /> <!-- Earring of Magic -->
-					<item id="879" min="1" max="1" chance="5.6488" /> <!-- Ring of Magic -->
-					<item id="911" min="1" max="1" chance="2.8244" /> <!-- Magic Necklace -->
-					<item id="1900" min="1" max="1" chance="87.7609" /> <!-- Necklace Chain of Magic -->
-				</group>
-				<group chance="12.5002">
-					<item id="1867" min="1" max="1" chance="24.9906" /> <!-- Animal Skin -->
-					<item id="1866" min="1" max="1" chance="12.4953" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="37.4859" /> <!-- Thread -->
-					<item id="92908" min="1" max="1" chance="18.743" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.7486" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.8743" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.6248" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0375" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-				</group>
+				<item id="879" min="1" max="1" chance="0.3" /> <!-- Ring of Magic -->
+				<item id="848" min="1" max="1" chance="0.075" /> <!-- Earring of Magic -->
+				<item id="911" min="1" max="1" chance="0.075" /> <!-- Magic Necklace -->
+				<item id="57" min="133" max="311" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="15.12" /> <!-- Thread -->
+				<item id="1867" min="1" max="1" chance="10.06" /> <!-- Animal Skin -->
+				<item id="1866" min="1" max="1" chance="5.233" /> <!-- Suede -->
+				<item id="1900" min="1" max="1" chance="1.903" /> <!-- Necklace Chain of Magic -->
 			</drop>
 			<spoil>
-				<item id="2183" min="1" max="1" chance="2.5047" /> <!-- Recipe: Mithril Banded Mail -->
-				<item id="2268" min="1" max="1" chance="0.3937" /> <!-- Recipe: Tome of Blood -->
+				<item id="2183" min="1" max="1" chance="5.271" /> <!-- Recipe: Mithril Banded Mail -->
+				<item id="2268" min="1" max="1" chance="0.75" /> <!-- Recipe: Tome of Blood -->
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="20146" level="50" type="Monster" name="Headless Knight" element="EARTH">
+	<npc id="20146" level="50" type="Monster" name="Headless Knight" >
 		<parameters>
 			<param name="MoveAroundSocial" value="110" />
 			<param name="MoveAroundSocial1" value="110" />
@@ -2584,7 +2366,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="124" />
-		<acquire exp="1449841" sp="43496" attributeExp="1530" />
+		<acquire exp="28315" sp="715" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1498.94623198693" hpRegen="5.5" mp="747.8" mpRegen="2.1" />
 			<attack physical="305.54906" magical="208.6504" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2626,7 +2408,7 @@
 		<dropLists>
 			<drop>
 				<group chance="70">
-					<item id="57" min="424" max="995" chance="100" /> <!-- Adena -->
+					<item id="57" min="843" max="1539" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.3575">
 					<item id="103" min="1" max="1" chance="0.41" /> <!-- Tower Shield -->
@@ -2641,13 +2423,6 @@
 				<group chance="12.5704">
 					<item id="1872" min="1" max="1" chance="47.0244" /> <!-- Animal Bone Fragment -->
 					<item id="1877" min="1" max="1" chance="1.4107" /> <!-- Adamantite Nugget -->
-					<item id="92908" min="1" max="1" chance="35.2683" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="7.0537" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.5268" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.1756" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.7054" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.3527" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.0118" /> <!-- Crafting Herb: Metal Ingot -->
 					<item id="2170" min="1" max="1" chance="0.8318" /> <!-- Recipe: Nassen's Earring -->
 					<item id="3017" min="1" max="1" chance="0.9851" /> <!-- Recipe: Divine Gloves -->
 					<item id="3006" min="1" max="1" chance="1.4395" /> <!-- Recipe: Demon's Gloves -->
@@ -2714,34 +2489,23 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="89" max="207" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="1.742">
-					<item id="27" min="1" max="1" chance="2.4313" /> <!-- Durable Leather Shirt -->
-					<item id="1927" min="1" max="1" chance="35.7864" /> <!-- Durable Leather Shirt Pattern -->
-					<item id="33" min="1" max="1" chance="3.9007" /> <!-- Durable Leather Gaiters -->
-					<item id="1929" min="1" max="1" chance="57.8816" /> <!-- Durable Leather Gaiter Material -->
-				</group>
-				<group chance="11.005">
-					<item id="1869" min="1" max="1" chance="14.5655" /> <!-- Iron Ore -->
-					<item id="1876" min="1" max="1" chance="2.9131" /> <!-- Mithril Ore -->
-					<item id="1865" min="1" max="1" chance="14.5655" /> <!-- Varnish -->
-					<item id="1872" min="1" max="1" chance="19.4206" /> <!-- Animal Bone Fragment -->
-					<item id="1870" min="1" max="1" chance="14.5655" /> <!-- Coal -->
-					<item id="1871" min="1" max="1" chance="14.5655" /> <!-- Charcoal -->
-					<item id="92908" min="1" max="1" chance="14.5655" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.9131" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.4565" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92914" min="1" max="1" chance="0.0486" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="2256" min="1" max="1" chance="0.3561" /> <!-- Recipe: Assassin Knife -->
-					<item id="4602" min="1" max="1" chance="0.0324" /> <!-- Greater Dye of STR <STR +3 DEX -3> - 2nd Class Transfer -->
-					<item id="4606" min="1" max="1" chance="0.0321" /> <!-- Greater Dye of DEX <Dex +3 CON -3> - 2nd Class Transfer -->
-				</group>
+				<item id="27" min="1" max="1" chance="0.3" /> <!-- Durable Leather Shirt -->
+				<item id="33" min="1" max="1" chance="0.3" /> <!-- Durable Leather Gaiters -->
+				<item id="57" min="72" max="168" chance="70" /> <!-- Adena -->
+				<item id="1872" min="1" max="1" chance="2.649" /> <!-- Animal Bone -->
+				<item id="1929" min="1" max="1" chance="2.521" /> <!-- Durable Leather Gaiter Material -->
+				<item id="1869" min="1" max="1" chance="1.988" /> <!-- Iron Ore -->
+				<item id="1871" min="1" max="1" chance="1.951" /> <!-- Charcoal -->
+				<item id="1870" min="1" max="1" chance="1.95" /> <!-- Coal -->
+				<item id="1865" min="1" max="1" chance="1.93" /> <!-- Varnish -->
+				<item id="1927" min="1" max="1" chance="1.586" /> <!-- Durable Leather Shirt Pattern -->
+				<item id="1876" min="1" max="1" chance="0.3" /> <!-- Mithril Ore -->
+				<item id="2256" min="1" max="1" chance="0.03" /> <!-- Recipe: Assassin Knife -->
+				<item id="4602" min="1" max="1" chance="0.003" /> <!-- Greater Dye of STR <STR +3 DEX -3> - 2nd Class Transfer -->
+				<item id="4606" min="1" max="1" chance="0.003" /> <!-- Greater Dye of DEX <Dex +3 CON -3> - 2nd Class Transfer -->
 			</drop>
 			<spoil>
-				<item id="1870" min="1" max="1" chance="42.3276" /> <!-- Coal -->
-				<item id="1870" min="1" max="1" chance="42.3276" /> <!-- Coal -->
+				<item id="1870" min="1" max="1" chance="55.29" /> <!-- Coal -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3034,29 +2798,20 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="43" max="102" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="4.2313">
-					<item id="429" min="1" max="1" chance="3.4404" /> <!-- Leather Tunic -->
-					<item id="1922" min="1" max="1" chance="34.9309" /> <!-- Leather Tunic Pattern -->
-					<item id="464" min="1" max="1" chance="5.5102" /> <!-- Leather Stockings -->
-					<item id="1923" min="1" max="1" chance="56.1185" /> <!-- Leather Stocking Pattern -->
-				</group>
-				<group chance="16.5275">
-					<item id="1868" min="1" max="1" chance="23.3703" /> <!-- Thread -->
-					<item id="1871" min="1" max="1" chance="11.6852" /> <!-- Charcoal -->
-					<item id="1864" min="1" max="1" chance="23.3703" /> <!-- Stem -->
-					<item id="1869" min="1" max="1" chance="11.6852" /> <!-- Iron Ore -->
-					<item id="92908" min="1" max="1" chance="11.6852" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.337" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.1685" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="1796" min="1" max="1" chance="14.6983" /> <!-- Recipe: Leather Tunic -->
-				</group>
+				<item id="429" min="1" max="1" chance="0.75" /> <!-- Leather Tunic -->
+				<item id="464" min="1" max="1" chance="0.75" /> <!-- Leather Stockings -->
+				<item id="57" min="37" max="88" chance="70" /> <!-- Adena -->
+				<item id="1923" min="1" max="1" chance="8.231" /> <!-- Leather Stocking Pattern -->
+				<item id="1864" min="1" max="1" chance="7.131" /> <!-- Stem -->
+				<item id="1868" min="1" max="1" chance="7.063" /> <!-- Thread -->
+				<item id="1922" min="1" max="1" chance="5.134" /> <!-- Leather Tunic Pattern -->
+				<item id="1796" min="1" max="1" chance="4.505" /> <!-- Recipe: Leather Tunic -->
+				<item id="1869" min="1" max="1" chance="3.521" /> <!-- Iron Ore -->
+				<item id="1871" min="1" max="1" chance="3.504" /> <!-- Charcoal -->
 			</drop>
 			<spoil>
-				<item id="1831" min="1" max="1" chance="83.688" /> <!-- Antidote -->
-				<item id="30" min="1" max="1" chance="1.2629" /> <!-- Durable Leather Pants -->
+				<item id="1831" min="1" max="1" chance="48.84" /> <!-- Antidote -->
+				<item id="30" min="1" max="1" chance="1.404" /> <!-- Durable Leather Pants -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3116,28 +2871,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="89" max="207" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="1.1198">
-					<item id="846" min="1" max="1" chance="8.7228" /> <!-- Coral Earring -->
-					<item id="878" min="1" max="1" chance="13.0434" /> <!-- Blue Coral Ring -->
-					<item id="909" min="1" max="1" chance="6.5523" /> <!-- Blue Diamond Necklace -->
-					<item id="1898" min="1" max="1" chance="71.6815" /> <!-- Blue Diamond Necklace Gem -->
-				</group>
-				<group chance="13.6502">
-					<item id="1866" min="1" max="1" chance="14.5389" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="43.6168" /> <!-- Thread -->
-					<item id="1884" min="1" max="1" chance="13.4206" /> <!-- Cord -->
-					<item id="92908" min="1" max="1" chance="21.8084" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.3617" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.1808" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92914" min="1" max="1" chance="0.0728" /> <!-- Crafting Herb: Parts Pouch -->
-				</group>
+				<item id="846" min="1" max="1" chance="0.3" /> <!-- Coral Earring -->
+				<item id="878" min="1" max="1" chance="0.3" /> <!-- Blue Coral Ring -->
+				<item id="909" min="1" max="1" chance="0.3" /> <!-- Blue Diamond Necklace -->
+				<item id="57" min="72" max="168" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="13.1" /> <!-- Thread -->
+				<item id="1866" min="1" max="1" chance="4.335" /> <!-- Suede -->
+				<item id="1884" min="1" max="1" chance="4.015" /> <!-- Cord -->
+				<item id="1898" min="1" max="1" chance="1.971" /> <!-- Blue Diamond Necklace Gem -->
 			</drop>
 			<spoil>
-				<item id="2178" min="1" max="1" chance="6.7724" /> <!-- Recipe: Dark Stockings -->
-				<item id="1929" min="1" max="1" chance="5.4616" /> <!-- Durable Leather Gaiter Material -->
+				<item id="2178" min="1" max="1" chance="8.994" /> <!-- Recipe: Dark Stockings -->
+				<item id="1929" min="1" max="1" chance="7.258" /> <!-- Durable Leather Gaiter Material -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3194,29 +2939,19 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="87" max="205" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="1.17">
-					<item id="846" min="1" max="1" chance="8.7228" /> <!-- Coral Earring -->
-					<item id="878" min="1" max="1" chance="13.0434" /> <!-- Blue Coral Ring -->
-					<item id="909" min="1" max="1" chance="6.5523" /> <!-- Blue Diamond Necklace -->
-					<item id="1898" min="1" max="1" chance="71.6815" /> <!-- Blue Diamond Necklace Gem -->
-				</group>
-				<group chance="14.657">
-					<item id="1866" min="1" max="1" chance="12.3792" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="37.1376" /> <!-- Thread -->
-					<item id="1884" min="1" max="1" chance="11.4269" /> <!-- Cord -->
-					<item id="92908" min="1" max="1" chance="18.5688" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.7138" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.8569" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92914" min="1" max="1" chance="0.0619" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="1788" min="1" max="1" chance="14.8549" /> <!-- Recipe: Bow -->
-				</group>
+				<item id="846" min="1" max="1" chance="0.3" /> <!-- Coral Earring -->
+				<item id="878" min="1" max="1" chance="0.3" /> <!-- Blue Coral Ring -->
+				<item id="909" min="1" max="1" chance="0.3" /> <!-- Blue Diamond Necklace -->
+				<item id="57" min="77" max="178" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="8.382" /> <!-- Thread -->
+				<item id="1788" min="1" max="1" chance="3.298" /> <!-- Recipe: Bow -->
+				<item id="1866" min="1" max="1" chance="2.818" /> <!-- Suede -->
+				<item id="1884" min="1" max="1" chance="2.586" /> <!-- Cord -->
+				<item id="1898" min="1" max="1" chance="2.106" /> <!-- Blue Diamond Necklace Gem -->
 			</drop>
 			<spoil>
-				<item id="1865" min="1" max="1" chance="44.2264" /> <!-- Varnish -->
-				<item id="1898" min="1" max="1" chance="4.543" /> <!-- Blue Diamond Necklace Gem -->
+				<item id="1865" min="1" max="1" chance="58.58" /> <!-- Varnish -->
+				<item id="1898" min="1" max="1" chance="6.088" /> <!-- Blue Diamond Necklace Gem -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3272,27 +3007,17 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="93" max="217" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1391">
-					<item id="432" min="1" max="1" chance="38.4464" /> <!-- Cursed Tunic -->
-					<item id="465" min="1" max="1" chance="61.5536" /> <!-- Cursed Stockings -->
-				</group>
-				<group chance="14.4832">
-					<item id="1866" min="1" max="1" chance="12.8416" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="38.5249" /> <!-- Thread -->
-					<item id="1884" min="1" max="1" chance="11.8538" /> <!-- Cord -->
-					<item id="92908" min="1" max="1" chance="19.2625" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.8525" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.9262" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92914" min="1" max="1" chance="0.0642" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="1061" min="1" max="1" chance="11.6743" /> <!-- Major HP Potion -->
-				</group>
+				<item id="432" min="1" max="1" chance="0.3" /> <!-- Cursed Tunic -->
+				<item id="465" min="1" max="1" chance="0.3" /> <!-- Cursed Stockings -->
+				<item id="57" min="88" max="207" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="12.67" /> <!-- Thread -->
+				<item id="1866" min="1" max="1" chance="4.035" /> <!-- Suede -->
+				<item id="1884" min="1" max="1" chance="3.748" /> <!-- Cord -->
+				<item id="1061" min="1" max="1" chance="3.722" /> <!-- Major Healing Potion -->
 			</drop>
 			<spoil>
-				<item id="2181" min="1" max="1" chance="4.538" /> <!-- Recipe: White Tunic -->
-				<item id="1899" min="1" max="1" chance="7.0835" /> <!-- Necklace of Devotion Chain -->
+				<item id="1899" min="1" max="1" chance="11.04" /> <!-- Necklace of Devotion Chain -->
+				<item id="2181" min="1" max="1" chance="6.913" /> <!-- Recipe: White Tunic -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3350,36 +3075,25 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="112" max="262" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.08">
-					<item id="86" min="1" max="1" chance="1.0198" /> <!-- Tomahawk -->
-					<item id="179" min="1" max="1" chance="1.0198" /> <!-- Mace of Prayer -->
-					<item id="180" min="1" max="1" chance="1.0198" /> <!-- Mace of Judgment -->
-					<item id="2022" min="1" max="1" chance="51.1498" /> <!-- Mace of Judgment Head -->
-					<item id="181" min="1" max="1" chance="1.0198" /> <!-- Mace of Miracle -->
-					<item id="182" min="1" max="1" chance="1.0198" /> <!-- Doom Hammer -->
-					<item id="183" min="1" max="1" chance="1.0198" /> <!-- Mystic Staff -->
-					<item id="184" min="1" max="1" chance="1.0198" /> <!-- Conjuror's Staff -->
-					<item id="2023" min="1" max="1" chance="40.6917" /> <!-- Conjuror's Staff Head -->
-					<item id="185" min="1" max="1" chance="1.0199" /> <!-- Staff of Mana -->
-				</group>
-				<group chance="9.7467">
-					<item id="1864" min="1" max="1" chance="39.9356" /> <!-- Stem -->
-					<item id="1878" min="1" max="1" chance="7.9871" /> <!-- Durable Braid -->
-					<item id="1866" min="1" max="1" chance="13.3119" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="19.9678" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.9936" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.9968" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.6656" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0399" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="1061" min="1" max="1" chance="12.1017" /> <!-- Major HP Potion -->
-				</group>
+				<item id="86" min="1" max="1" chance="0.003" /> <!-- Tomahawk -->
+				<item id="179" min="1" max="1" chance="0.003" /> <!-- Mace of Prayer -->
+				<item id="180" min="1" max="1" chance="0.003" /> <!-- Mace of Judgment -->
+				<item id="181" min="1" max="1" chance="0.003" /> <!-- Mace of Miracle -->
+				<item id="182" min="1" max="1" chance="0.003" /> <!-- Doom Hammer -->
+				<item id="183" min="1" max="1" chance="0.003" /> <!-- Mystic Staff -->
+				<item id="184" min="1" max="1" chance="0.003" /> <!-- Conjuror's Staff -->
+				<item id="185" min="1" max="1" chance="0.003" /> <!-- Staff of Mana -->
+				<item id="57" min="83" max="194" chance="70" /> <!-- Adena -->
+				<item id="1864" min="1" max="1" chance="11.65" /> <!-- Stem -->
+				<item id="1866" min="1" max="1" chance="3.798" /> <!-- Suede -->
+				<item id="1061" min="1" max="1" chance="3.372" /> <!-- Major Healing Potion -->
+				<item id="1878" min="1" max="1" chance="2.235" /> <!-- Durable Braid -->
+				<item id="2022" min="1" max="1" chance="0.3" /> <!-- Mace of Judgment Head -->
+				<item id="2023" min="1" max="1" chance="0.075" /> <!-- Conjuror's Staff Head -->
 			</drop>
 			<spoil>
-				<item id="1879" min="1" max="1" chance="5.9298" /> <!-- Cokes -->
-				<item id="2024" min="1" max="1" chance="0.5068" /> <!-- Elven Bow Shaft -->
+				<item id="1879" min="1" max="1" chance="12.81" /> <!-- Cokes -->
+				<item id="2024" min="1" max="1" chance="1.167" /> <!-- Elven Bow Shaft -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3435,30 +3149,19 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="131" max="305" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0522">
-					<item id="436" min="1" max="1" chance="38.5113" /> <!-- Tunic of Knowledge -->
-					<item id="469" min="1" max="1" chance="61.4887" /> <!-- Stockings of Knowledge -->
-				</group>
-				<group chance="10.5048">
-					<item id="1867" min="1" max="1" chance="23.4981" /> <!-- Animal Skin -->
-					<item id="1866" min="1" max="1" chance="11.749" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="35.2471" /> <!-- Thread -->
-					<item id="1882" min="1" max="1" chance="3.9163" /> <!-- Leather -->
-					<item id="1885" min="1" max="1" chance="1.4686" /> <!-- High-grade Suede -->
-					<item id="92908" min="1" max="1" chance="17.6236" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.5247" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.7624" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.5875" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0352" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="956" min="1" max="1" chance="0.5875" /> <!-- Scroll: Enchant Armor (D-grade) - Exchangeable -->
-				</group>
+				<item id="436" min="1" max="1" chance="0.075" /> <!-- Tunic of Knowledge -->
+				<item id="469" min="1" max="1" chance="0.075" /> <!-- Stockings of Knowledge -->
+				<item id="57" min="152" max="354" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="8.849" /> <!-- Thread -->
+				<item id="1867" min="1" max="1" chance="5.838" /> <!-- Animal Skin -->
+				<item id="1866" min="1" max="1" chance="2.885" /> <!-- Suede -->
+				<item id="1882" min="1" max="1" chance="0.75" /> <!-- Leather -->
+				<item id="956" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (D-grade) -->
+				<item id="1885" min="1" max="1" chance="0.3" /> <!-- High-grade Suede -->
 			</drop>
 			<spoil>
-				<item id="1876" min="1" max="1" chance="8.2731" /> <!-- Mithril Ore -->
-				<item id="1939" min="1" max="1" chance="3.6333" /> <!-- Mithril Banded Gaiter Material -->
+				<item id="1876" min="1" max="1" chance="17.44" /> <!-- Mithril Ore -->
+				<item id="1939" min="1" max="1" chance="8.064" /> <!-- Mithril Banded Gaiters Material -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3564,26 +3267,15 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="98" max="230" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.017">
-					<item id="258" min="1" max="1" chance="100" /> <!-- Bagh-Nakh -->
-				</group>
-				<group chance="8.9635">
-					<item id="1876" min="1" max="1" chance="6.4706" /> <!-- Mithril Ore -->
-					<item id="1872" min="1" max="1" chance="43.1375" /> <!-- Animal Bone Fragment -->
-					<item id="1882" min="1" max="1" chance="7.1896" /> <!-- Leather -->
-					<item id="92908" min="1" max="1" chance="32.3532" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.4706" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.2353" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.0784" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0648" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-				</group>
+				<item id="258" min="1" max="1" chance="0.03" /> <!-- Bagh-Nakh -->
+				<item id="57" min="85" max="200" chance="70" /> <!-- Adena -->
+				<item id="1872" min="1" max="1" chance="10.82" /> <!-- Animal Bone -->
+				<item id="1882" min="1" max="1" chance="1.706" /> <!-- Leather -->
+				<item id="1876" min="1" max="1" chance="1.531" /> <!-- Mithril Ore -->
 			</drop>
 			<spoil>
-				<item id="2152" min="1" max="1" chance="8.2966" /> <!-- Recipe: Magic Necklace -->
-				<item id="2261" min="1" max="1" chance="0.7317" /> <!-- Recipe: Conjuror's Staff -->
+				<item id="2152" min="1" max="1" chance="12.14" /> <!-- Recipe: Magic Necklace -->
+				<item id="2261" min="1" max="1" chance="1.04" /> <!-- Recipe: Conjuror's Staff -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3638,31 +3330,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="158" max="370" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0897">
-					<item id="266" min="1" max="1" chance="0.6746" /> <!-- Great Pata -->
-					<item id="2120" min="1" max="1" chance="99.3254" /> <!-- Great Pata Blade -->
-				</group>
-				<group chance="7.1906">
-					<item id="1865" min="1" max="1" chance="28.6481" /> <!-- Varnish -->
-					<item id="1869" min="1" max="1" chance="28.6481" /> <!-- Iron Ore -->
-					<item id="1880" min="1" max="1" chance="2.8648" /> <!-- Steel -->
-					<item id="92908" min="1" max="1" chance="28.6481" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="5.7296" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.8648" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.9549" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92912" min="1" max="1" chance="0.573" /> <!-- Crafting Herb: Soft Fabric Piece -->
-					<item id="92913" min="1" max="1" chance="0.2865" /> <!-- Crafting Herb: Unidentifiable Metal Piece -->
-					<item id="92917" min="1" max="1" chance="0.0095" /> <!-- Crafting Herb: Metal Ingot -->
-					<item id="4945" min="1" max="1" chance="0.2204" /> <!-- Recipe: Avadon Gaiters (60%) -->
-					<item id="4953" min="1" max="1" chance="0.5522" /> <!-- Recipe: Sealed Avadon Gloves (60%) -->
-				</group>
+				<item id="266" min="1" max="1" chance="0.003" /> <!-- Great Pata -->
+				<item id="57" min="346" max="809" chance="70" /> <!-- Adena -->
+				<item id="1869" min="1" max="1" chance="12.34" /> <!-- Iron Ore -->
+				<item id="1865" min="1" max="1" chance="12.1" /> <!-- Varnish -->
+				<item id="1880" min="1" max="1" chance="1.275" /> <!-- Steel -->
+				<item id="2120" min="1" max="1" chance="0.3" /> <!-- Great Pata Blade -->
+				<item id="4953" min="1" max="1" chance="0.3" /> <!-- Recipe: Sealed Avadon Gloves (60%) -->
+				<item id="4945" min="1" max="1" chance="0.075" /> <!-- Recipe: Avadon Gaiters (60%) -->
 			</drop>
 			<spoil>
-				<item id="1984" min="1" max="1" chance="1.0764" /> <!-- Theca Leather Armor Pattern -->
-				<item id="2101" min="1" max="1" chance="0.283" /> <!-- Inferno Staff Head -->
+				<item id="1984" min="1" max="1" chance="3.527" /> <!-- Theca Leather Armor Pattern -->
+				<item id="2101" min="1" max="1" chance="0.75" /> <!-- Inferno Staff Head -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4015,26 +3694,16 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="114" max="267" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1302">
-					<item id="46" min="1" max="1" chance="41.1765" /> <!-- Bronze Helmet -->
-					<item id="627" min="1" max="1" chance="58.8235" /> <!-- Aspis -->
-				</group>
-				<group chance="12.2852">
-					<item id="1867" min="1" max="1" chance="24.2416" /> <!-- Animal Skin -->
-					<item id="1866" min="1" max="1" chance="12.1208" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="36.3624" /> <!-- Thread -->
-					<item id="92908" min="1" max="1" chance="18.1812" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.6362" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.8181" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92914" min="1" max="1" chance="0.0606" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="2185" min="1" max="1" chance="3.5791" /> <!-- Recipe: Iron Boots -->
-				</group>
+				<item id="46" min="1" max="1" chance="0.3" /> <!-- Bronze Helmet -->
+				<item id="627" min="1" max="1" chance="0.3" /> <!-- Aspis -->
+				<item id="57" min="116" max="271" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="10.63" /> <!-- Thread -->
+				<item id="1867" min="1" max="1" chance="6.824" /> <!-- Animal Skin -->
+				<item id="1866" min="1" max="1" chance="3.369" /> <!-- Suede -->
+				<item id="2185" min="1" max="1" chance="1.044" /> <!-- Recipe: Iron Boots -->
 			</drop>
 			<spoil>
-				<item id="1877" min="1" max="1" chance="2.9037" /> <!-- Adamantite Nugget -->
+				<item id="1877" min="1" max="1" chance="5.666" /> <!-- Adamantite Nugget -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4192,27 +3861,16 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="95" max="223" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0165">
-					<item id="258" min="1" max="1" chance="100" /> <!-- Bagh-Nakh -->
-				</group>
-				<group chance="7.9775">
-					<item id="1876" min="1" max="1" chance="6.2676" /> <!-- Mithril Ore -->
-					<item id="1872" min="1" max="1" chance="41.7843" /> <!-- Animal Bone Fragment -->
-					<item id="1882" min="1" max="1" chance="6.9641" /> <!-- Leather -->
-					<item id="92908" min="1" max="1" chance="31.3382" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.2676" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.1338" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.0446" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0627" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="2181" min="1" max="1" chance="3.1371" /> <!-- Recipe: White Tunic -->
-				</group>
+				<item id="258" min="1" max="1" chance="0.03" /> <!-- Bagh-Nakh -->
+				<item id="57" min="78" max="181" chance="70" /> <!-- Adena -->
+				<item id="1872" min="1" max="1" chance="7.14" /> <!-- Animal Bone -->
+				<item id="1882" min="1" max="1" chance="1.212" /> <!-- Leather -->
+				<item id="1876" min="1" max="1" chance="1.096" /> <!-- Mithril Ore -->
+				<item id="2181" min="1" max="1" chance="0.75" /> <!-- Recipe: White Tunic -->
 			</drop>
 			<spoil>
-				<item id="1880" min="1" max="1" chance="4.5703" /> <!-- Steel -->
-				<item id="2019" min="1" max="1" chance="0.9829" /> <!-- Trident Edge -->
+				<item id="1880" min="1" max="1" chance="6.097" /> <!-- Steel -->
+				<item id="2019" min="1" max="1" chance="1.304" /> <!-- Trident Edge -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4452,37 +4110,26 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="134" max="314" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.9247">
-					<item id="62" min="1" max="1" chance="0.6005" /> <!-- Reinforced Mithril Boots -->
-					<item id="1958" min="1" max="1" chance="34.0032" /> <!-- Reinforced Mithril Boot Design -->
-					<item id="63" min="1" max="1" chance="1.4893" /> <!-- Gauntlets -->
-					<item id="553" min="1" max="1" chance="1.4893" /> <!-- Iron Boots -->
-					<item id="1940" min="1" max="1" chance="56.4605" /> <!-- Iron Boot Design -->
-					<item id="2422" min="1" max="1" chance="1.4893" /> <!-- Reinforced Leather Boots -->
-					<item id="2423" min="1" max="1" chance="1.4893" /> <!-- Boots of Knowledge -->
-					<item id="2446" min="1" max="1" chance="1.4893" /> <!-- Reinforced Leather Gloves -->
-					<item id="2447" min="1" max="1" chance="1.4893" /> <!-- Gloves of Knowledge -->
-				</group>
-				<group chance="16.7973">
-					<item id="1864" min="1" max="1" chance="22.7186" /> <!-- Stem -->
-					<item id="1878" min="1" max="1" chance="4.5437" /> <!-- Durable Braid -->
-					<item id="1866" min="1" max="1" chance="7.5729" /> <!-- Suede -->
-					<item id="1865" min="1" max="1" chance="11.3593" /> <!-- Varnish -->
-					<item id="92908" min="1" max="1" chance="11.3593" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.2719" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.1359" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.3786" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0227" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="2200" min="1" max="1" chance="0.7727" /> <!-- Recipe: Chain Helmet -->
-					<item id="1341" min="10" max="30" chance="37.8644" /> <!-- Bone Arrow -->
-				</group>
+				<item id="62" min="1" max="1" chance="0.03" /> <!-- Reinforced Mithril Boots -->
+				<item id="63" min="1" max="1" chance="0.03" /> <!-- Gauntlets -->
+				<item id="553" min="1" max="1" chance="0.03" /> <!-- Iron Boots -->
+				<item id="2422" min="1" max="1" chance="0.03" /> <!-- Reinforced Leather Boots -->
+				<item id="2423" min="1" max="1" chance="0.03" /> <!-- Boots of Knowledge -->
+				<item id="2446" min="1" max="1" chance="0.03" /> <!-- Reinforced Leather Gloves -->
+				<item id="2447" min="1" max="1" chance="0.03" /> <!-- Gloves of Knowledge -->
+				<item id="57" min="162" max="378" chance="70" /> <!-- Adena -->
+				<item id="1341" min="10" max="30" chance="16.33" /> <!-- Bone Arrow -->
+				<item id="1864" min="1" max="1" chance="9.425" /> <!-- Stem -->
+				<item id="1865" min="1" max="1" chance="4.8" /> <!-- Varnish -->
+				<item id="1866" min="1" max="1" chance="3.113" /> <!-- Suede -->
+				<item id="1878" min="1" max="1" chance="1.853" /> <!-- Durable Braid -->
+				<item id="1940" min="1" max="1" chance="1.35" /> <!-- Iron Boot Design -->
+				<item id="1958" min="1" max="1" chance="0.75" /> <!-- Reinforced Mithril Boot Design -->
+				<item id="2200" min="1" max="1" chance="0.3" /> <!-- Recipe: Chain Helmet -->
 			</drop>
 			<spoil>
-				<item id="1873" min="1" max="1" chance="17.0532" /> <!-- Silver Nugget -->
-				<item id="2273" min="1" max="1" chance="0.3045" /> <!-- Recipe: Tarbar -->
+				<item id="1873" min="1" max="1" chance="40.91" /> <!-- Silver Nugget -->
+				<item id="2273" min="1" max="1" chance="0.75" /> <!-- Recipe: Tarbar -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4589,8 +4236,7 @@
 		<acquire exp="2077" sp="62" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="604.883087573501" hpRegen="3.5" mp="315.12" mpRegen="1.5" />
-			<attack physical="86.42002" magical="59.01367" random="5" critical="8" accuracy="0" attackSpeed="253" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="115.00598" magical="84.15638" />
+			<attack physical="211.2278129" magical="59.01367" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
 			<speed>
 				<walk ground="40" />
 				<run ground="140" />
@@ -4626,28 +4272,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="154" max="359" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1783">
-					<item id="275" min="1" max="1" chance="2.089" /> <!-- Longbow -->
-					<item id="276" min="1" max="1" chance="2.089" /> <!-- Elven Bow -->
-					<item id="2024" min="1" max="1" chance="95.822" /> <!-- Elven Bow Shaft -->
-				</group>
-				<group chance="19.1641">
-					<item id="1876" min="1" max="1" chance="3.1288" /> <!-- Mithril Ore -->
-					<item id="1872" min="1" max="1" chance="20.8587" /> <!-- Animal Bone Fragment -->
-					<item id="1882" min="1" max="1" chance="3.4764" /> <!-- Leather -->
-					<item id="92908" min="1" max="1" chance="15.644" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.1288" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.5644" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92914" min="1" max="1" chance="0.0521" /> <!-- Crafting Herb: Parts Pouch -->
-					<item id="1341" min="10" max="30" chance="52.1468" /> <!-- Bone Arrow -->
-				</group>
+				<item id="275" min="1" max="1" chance="0.0075" /> <!-- Longbow -->
+				<item id="276" min="1" max="1" chance="0.0075" /> <!-- Elven Bow -->
+				<item id="57" min="114" max="266" chance="70" /> <!-- Adena -->
+				<item id="1341" min="10" max="30" chance="25.8" /> <!-- Bone Arrow -->
+				<item id="1872" min="1" max="1" chance="10.49" /> <!-- Animal Bone -->
+				<item id="1882" min="1" max="1" chance="1.657" /> <!-- Leather -->
+				<item id="1876" min="1" max="1" chance="1.586" /> <!-- Mithril Ore -->
+				<item id="2024" min="1" max="1" chance="0.3" /> <!-- Elven Bow Shaft -->
 			</drop>
 			<spoil>
-				<item id="1864" min="1" max="3" chance="48.718" /> <!-- Stem -->
-				<item id="2025" min="1" max="1" chance="0.6748" /> <!-- Dwarven Trident Edge -->
+				<item id="1864" min="1" max="1" chance="70.75" /> <!-- Stem -->
+				<item id="2025" min="1" max="1" chance="1.411" /> <!-- Dwarven Trident Edge -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4705,28 +4341,17 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="157" max="368" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.2213">
-					<item id="605" min="1" max="1" chance="50" /> <!-- Leather Gauntlets -->
-					<item id="1123" min="1" max="1" chance="50" /> <!-- Blue Buckskin Boots -->
-				</group>
-				<group chance="8.4661">
-					<item id="1876" min="1" max="1" chance="6.4491" /> <!-- Mithril Ore -->
-					<item id="1872" min="1" max="1" chance="42.9937" /> <!-- Animal Bone Fragment -->
-					<item id="1882" min="1" max="1" chance="7.1656" /> <!-- Leather -->
-					<item id="92908" min="1" max="1" chance="32.2453" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.4491" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.2245" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.0748" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0645" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="2264" min="1" max="1" chance="0.3334" /> <!-- Recipe: Two-handed Sword -->
-				</group>
+				<item id="605" min="1" max="1" chance="0.3" /> <!-- Leather Gauntlets -->
+				<item id="1123" min="1" max="1" chance="0.3" /> <!-- Blue Buckskin Boots -->
+				<item id="57" min="159" max="373" chance="70" /> <!-- Adena -->
+				<item id="1872" min="1" max="1" chance="9.326" /> <!-- Animal Bone -->
+				<item id="1882" min="1" max="1" chance="1.595" /> <!-- Leather -->
+				<item id="1876" min="1" max="1" chance="1.435" /> <!-- Mithril Ore -->
+				<item id="2264" min="1" max="1" chance="0.075" /> <!-- Recipe: Two-handed Sword -->
 			</drop>
 			<spoil>
-				<item id="2264" min="1" max="1" chance="0.5161" /> <!-- Recipe: Two-handed Sword -->
-				<item id="1900" min="1" max="1" chance="5.4603" /> <!-- Necklace Chain of Magic -->
+				<item id="1900" min="1" max="1" chance="10.63" /> <!-- Necklace Chain of Magic -->
+				<item id="2264" min="1" max="1" chance="0.75" /> <!-- Recipe: Two-handed Sword -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4781,30 +4406,19 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="190" max="446" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.1136">
-					<item id="223" min="1" max="1" chance="1.6274" /> <!-- Kukuri -->
-					<item id="238" min="1" max="1" chance="1.6274" /> <!-- Dagger of Mana -->
-					<item id="239" min="1" max="1" chance="1.6274" /> <!-- Mystic Knife -->
-					<item id="241" min="1" max="1" chance="1.6274" /> <!-- Shilen Knife -->
-					<item id="2028" min="1" max="1" chance="93.4904" /> <!-- Shilen Knife Edge -->
-				</group>
-				<group chance="14.9205">
-					<item id="1866" min="1" max="1" chance="16.6352" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="49.9057" /> <!-- Thread -->
-					<item id="92908" min="1" max="1" chance="24.9529" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.9906" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.4953" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.8318" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0499" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="2294" min="1" max="1" chance="0.1386" /> <!-- Recipe: Vajra Wands -->
-				</group>
+				<item id="223" min="1" max="1" chance="0.0075" /> <!-- Kukuri -->
+				<item id="238" min="1" max="1" chance="0.0075" /> <!-- Dagger of Mana -->
+				<item id="239" min="1" max="1" chance="0.0075" /> <!-- Mystic Knife -->
+				<item id="241" min="1" max="1" chance="0.0075" /> <!-- Shilen Knife -->
+				<item id="57" min="230" max="536" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="26.38" /> <!-- Thread -->
+				<item id="1866" min="1" max="1" chance="8.946" /> <!-- Suede -->
+				<item id="2028" min="1" max="1" chance="0.3" /> <!-- Shilen Knife Edge -->
+				<item id="2294" min="1" max="1" chance="0.075" /> <!-- Recipe: Vajra Wands -->
 			</drop>
 			<spoil>
-				<item id="2146" min="1" max="1" chance="4.3214" /> <!-- Recipe: Artisan's frame -->
-				<item id="2447" min="1" max="1" chance="0.2382" /> <!-- Gloves of Knowledge -->
+				<item id="2146" min="1" max="1" chance="9.956" /> <!-- Recipe: Artisan's frame -->
+				<item id="2447" min="1" max="1" chance="0.75" /> <!-- Gloves of Knowledge -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4859,29 +4473,18 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="270" max="633" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.3207">
-					<item id="47" min="1" max="1" chance="17.3311" /> <!-- Helmet -->
-					<item id="628" min="1" max="1" chance="24.7772" /> <!-- Hoplon -->
-					<item id="2056" min="1" max="1" chance="57.8917" /> <!-- Vajra Wand Frame -->
-				</group>
-				<group chance="19.5077">
-					<item id="1866" min="1" max="1" chance="16.0842" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="48.2526" /> <!-- Thread -->
-					<item id="92908" min="1" max="1" chance="24.1263" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.8253" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.4126" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.8042" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0483" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="2149" min="1" max="1" chance="1.7233" /> <!-- Recipe: Metallic Fiber -->
-					<item id="5472" min="1" max="1" chance="1.7232" /> <!-- Recipe: Metallic Thread -->
-				</group>
+				<item id="47" min="1" max="1" chance="0.3" /> <!-- Helmet -->
+				<item id="628" min="1" max="1" chance="0.3" /> <!-- Hoplon -->
+				<item id="57" min="344" max="803" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="31.13" /> <!-- Thread -->
+				<item id="1866" min="1" max="1" chance="9.87" /> <!-- Suede -->
+				<item id="5472" min="1" max="1" chance="1.099" /> <!-- Recipe: Metallic Thread -->
+				<item id="2149" min="1" max="1" chance="1.091" /> <!-- Recipe: Metallic Fiber -->
+				<item id="2056" min="1" max="1" chance="0.75" /> <!-- Vajra Wand Frame -->
 			</drop>
 			<spoil>
-				<item id="1874" min="1" max="1" chance="5.736" /> <!-- Oriharukon Ore -->
-				<item id="2027" min="1" max="1" chance="1.1271" /> <!-- Spiked Club Head -->
+				<item id="1874" min="1" max="1" chance="13.71" /> <!-- Oriharukon Ore -->
+				<item id="2027" min="1" max="1" chance="2.794" /> <!-- Spiked Club Head -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4986,28 +4589,17 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="98" max="229" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.0168">
-					<item id="156" min="1" max="1" chance="33.3333" /> <!-- Hand Axe -->
-					<item id="167" min="1" max="1" chance="33.3333" /> <!-- Scalpel -->
-					<item id="178" min="1" max="1" chance="33.3334" /> <!-- Bone Staff -->
-				</group>
-				<group chance="11.9822">
-					<item id="1866" min="1" max="1" chance="15.9564" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="47.8691" /> <!-- Thread -->
-					<item id="92908" min="1" max="1" chance="23.9346" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="4.7869" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="2.3935" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.7978" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0479" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="2152" min="1" max="1" chance="4.2138" /> <!-- Recipe: Magic Necklace -->
-				</group>
+				<item id="156" min="1" max="1" chance="0.03" /> <!-- Hand Axe -->
+				<item id="167" min="1" max="1" chance="0.03" /> <!-- Scalpel -->
+				<item id="178" min="1" max="1" chance="0.03" /> <!-- Bone Staff -->
+				<item id="57" min="81" max="189" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="14.49" /> <!-- Thread -->
+				<item id="1866" min="1" max="1" chance="4.972" /> <!-- Suede -->
+				<item id="2152" min="1" max="1" chance="1.367" /> <!-- Recipe: Magic Necklace -->
 			</drop>
 			<spoil>
-				<item id="2259" min="1" max="1" chance="0.7236" /> <!-- Recipe: Spinebone Sword -->
-				<item id="2020" min="1" max="1" chance="0.8158" /> <!-- Temptation of Abyss Piece -->
+				<item id="2020" min="1" max="1" chance="1.172" /> <!-- Temptation of Abyss Piece -->
+				<item id="2259" min="1" max="1" chance="0.75" /> <!-- Recipe: Spinebone Sword -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -5055,34 +4647,22 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="112" max="262" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.7064">
-					<item id="433" min="1" max="1" chance="0.9308" /> <!-- Elven Tunic -->
-					<item id="434" min="1" max="1" chance="0.9308" /> <!-- White Tunic -->
-					<item id="1936" min="1" max="1" chance="38.0466" /> <!-- White Tunic Pattern -->
-					<item id="435" min="1" max="1" chance="0.9308" /> <!-- Wizard Tunic -->
-					<item id="466" min="1" max="1" chance="1.4878" /> <!-- Elven Stockings -->
-					<item id="467" min="1" max="1" chance="1.4878" /> <!-- Dark Stockings -->
-					<item id="1933" min="1" max="1" chance="54.6977" /> <!-- Dark Stocking Fabric -->
-					<item id="468" min="1" max="1" chance="1.4877" /> <!-- Wizard Stockings -->
-				</group>
-				<group chance="6.1435">
-					<item id="1876" min="1" max="1" chance="6.3358" /> <!-- Mithril Ore -->
-					<item id="1872" min="1" max="1" chance="42.2385" /> <!-- Animal Bone Fragment -->
-					<item id="1882" min="1" max="1" chance="7.0397" /> <!-- Leather -->
-					<item id="92908" min="1" max="1" chance="31.6789" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="6.3358" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="3.1679" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="1.056" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0634" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="2183" min="1" max="1" chance="2.084" /> <!-- Recipe: Mithril Banded Mail -->
-				</group>
+				<item id="433" min="1" max="1" chance="0.03" /> <!-- Elven Tunic -->
+				<item id="434" min="1" max="1" chance="0.03" /> <!-- White Tunic -->
+				<item id="435" min="1" max="1" chance="0.03" /> <!-- Wizard Tunic -->
+				<item id="466" min="1" max="1" chance="0.03" /> <!-- Elven Stockings -->
+				<item id="467" min="1" max="1" chance="0.03" /> <!-- Dark Stockings -->
+				<item id="468" min="1" max="1" chance="0.03" /> <!-- Wizard Stockings -->
+				<item id="57" min="83" max="194" chance="70" /> <!-- Adena -->
+				<item id="1872" min="1" max="1" chance="7.504" /> <!-- Animal Bone -->
+				<item id="1882" min="1" max="1" chance="1.192" /> <!-- Leather -->
+				<item id="1876" min="1" max="1" chance="1.071" /> <!-- Mithril Ore -->
+				<item id="1933" min="1" max="1" chance="0.75" /> <!-- Dark Stocking Fabric -->
+				<item id="1936" min="1" max="1" chance="0.75" /> <!-- White Tunic Pattern -->
+				<item id="2183" min="1" max="1" chance="0.3" /> <!-- Recipe: Mithril Banded Mail -->
 			</drop>
 			<spoil>
-				<item id="1832" min="1" max="1" chance="39.5321" /> <!-- Greater Antidote -->
-				<item id="1832" min="1" max="1" chance="39.5321" /> <!-- Greater Antidote -->
+				<item id="1832" min="1" max="1" chance="90.17" /> <!-- Greater Antidote -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -5138,28 +4718,17 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="70">
-					<item id="57" min="114" max="266" chance="100" /> <!-- Adena -->
-				</group>
-				<group chance="0.16">
-					<item id="605" min="1" max="1" chance="50" /> <!-- Leather Gauntlets -->
-					<item id="1123" min="1" max="1" chance="50" /> <!-- Blue Buckskin Boots -->
-				</group>
-				<group chance="10.5515">
-					<item id="1867" min="1" max="1" chance="24.9423" /> <!-- Animal Skin -->
-					<item id="1866" min="1" max="1" chance="12.4711" /> <!-- Suede -->
-					<item id="1868" min="1" max="1" chance="37.4134" /> <!-- Thread -->
-					<item id="92908" min="1" max="1" chance="18.7067" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="3.7413" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.8707" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92911" min="1" max="1" chance="0.6236" /> <!-- Crafting Herb: Leather Piece -->
-					<item id="92915" min="1" max="1" chance="0.0374" /> <!-- Crafting Herb: Low-grade Crafting Pouch -->
-					<item id="2265" min="1" max="1" chance="0.1935" /> <!-- Recipe: Spiked Club -->
-				</group>
+				<item id="605" min="1" max="1" chance="0.3" /> <!-- Leather Gauntlets -->
+				<item id="1123" min="1" max="1" chance="0.3" /> <!-- Blue Buckskin Boots -->
+				<item id="57" min="115" max="270" chance="70" /> <!-- Adena -->
+				<item id="1868" min="1" max="1" chance="9.82" /> <!-- Thread -->
+				<item id="1867" min="1" max="1" chance="6.772" /> <!-- Animal Skin -->
+				<item id="1866" min="1" max="1" chance="3.42" /> <!-- Suede -->
+				<item id="2265" min="1" max="1" chance="0.075" /> <!-- Recipe: Spiked Club -->
 			</drop>
 			<spoil>
-				<item id="1882" min="1" max="1" chance="8.0187" /> <!-- Leather -->
-				<item id="1834" min="1" max="1" chance="40.0936" /> <!-- Emergency Dressing -->
+				<item id="1834" min="1" max="1" chance="77.94" /> <!-- Emergency Dressing -->
+				<item id="1882" min="1" max="1" chance="15.9" /> <!-- Leather -->
 			</spoil>
 		</dropLists>
 	</npc>
