@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
-	<npc id="29001" level="40" type="GrandBoss" name="Queen Ant" title="Queen of Underground">
+	<npc id="29001" level="40" type="GrandBoss" name="Queen Ant">
 		<parameters>
 			<minions name="Privates">
-				<npc id="29003" count="6" respawnTime="10" weightPoint="1" /> <!-- Nurse Ant -->
-				<npc id="29005" count="8" respawnTime="360" weightPoint="1" /> <!-- Royal Guard Ant -->
+				<npc id="29003" count="6" respawnTime="10" weightPoint="1" />
+				<npc id="29005" count="8" respawnTime="360" weightPoint="1" />
 			</minions>
 		</parameters>
 		<race>BUG</race>
@@ -23,7 +23,7 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4416" level="12" /> <!-- Bug -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -33,7 +33,7 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4021" level="1" /> <!-- Queen Ant -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 			<skill id="4017" level="1" /> <!-- Queen Ant's Blow -->
 			<skill id="4018" level="1" /> <!-- Decrease Speed -->
 			<skill id="4019" level="1" /> <!-- Decrease Speed -->
@@ -51,7 +51,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<group chance="99.90714">
+				<group chance="100">
 					<item id="320" min="1" max="1" chance="7.15" /> <!-- Blue Crystal Skull -->
 					<item id="321" min="1" max="1" chance="7.15" /> <!-- Demon's Fangs -->
 					<item id="70" min="1" max="1" chance="7.15" /> <!-- Claymore -->
@@ -86,29 +86,27 @@
 				<group chance="100">
 					<item id="851" min="1" max="3" chance="33.33" /> <!-- Onyx Beast's Eye Earring -->
 					<item id="882" min="1" max="3" chance="33.33" /> <!-- Mithril Ring -->
-					<item id="914" min="1" max="1" chance="33.34" /> <!-- Necklace of Darkness -->
+					<item id="914" min="1" max="1" chance="33.34" /> <!-- Dark Necklace -->
 				</group>
 				<group chance="100">
-					<item id="71" min="1" max="1" chance="5" /> <!-- Flamberge -->
-					<item id="72" min="1" max="1" chance="5" /> <!-- Stormbringer -->
-					<item id="89" min="1" max="1" chance="5" /> <!-- Big Hammer -->
-					<item id="96" min="1" max="1" chance="5" /> <!-- Scythe -->
-					<item id="160" min="1" max="1" chance="5" /> <!-- Battle Axe -->
-					<item id="161" min="1" max="1" chance="5" /> <!-- Silver Axe -->
-					<item id="173" min="1" max="1" chance="5" /> <!-- Skull Graver -->
-					<item id="191" min="1" max="1" chance="5" /> <!-- Heavy Doom Hammer -->
-					<item id="192" min="1" max="1" chance="5" /> <!-- Crystal Staff -->
-					<item id="193" min="1" max="1" chance="5" /> <!-- Stick of Faith -->
-					<item id="194" min="1" max="1" chance="5" /> <!-- Heavy Doom Axe -->
-					<item id="226" min="1" max="1" chance="5" /> <!-- Cursed Dagger -->
-					<item id="230" min="1" max="1" chance="5" /> <!-- Needle Wolverine -->
-					<item id="232" min="1" max="1" chance="5" /> <!-- Dark Elven Dagger -->
-					<item id="263" min="1" max="1" chance="5" /> <!-- Chakram -->
-					<item id="281" min="1" max="1" chance="5" /> <!-- Crystallized Ice Bow -->
-					<item id="298" min="1" max="1" chance="5" /> <!-- Orcish Glaive -->
-					<item id="302" min="1" max="1" chance="5" /> <!-- Body Slasher -->
-					<item id="91884" min="1" max="1" chance="5" /> <!-- Schlager -->
-					<item id="91899" min="1" max="1" chance="5" /> <!-- Soldat Estoc -->
+					<item id="71" min="1" max="1" chance="5.55" /> <!-- Flamberge -->
+					<item id="72" min="1" max="1" chance="5.55" /> <!-- Stormbringer -->
+					<item id="89" min="1" max="1" chance="5.55" /> <!-- Big Hammer -->
+					<item id="96" min="1" max="1" chance="5.55" /> <!-- Scythe -->
+					<item id="160" min="1" max="1" chance="5.55" /> <!-- Battle Axe -->
+					<item id="161" min="1" max="1" chance="5.55" /> <!-- Silver Axe -->
+					<item id="173" min="1" max="1" chance="5.55" /> <!-- Skull Graver -->
+					<item id="191" min="1" max="1" chance="5.55" /> <!-- Heavy Doom Hammer -->
+					<item id="192" min="1" max="1" chance="5.55" /> <!-- Crystal Staff -->
+					<item id="193" min="1" max="1" chance="5.55" /> <!-- Stick of Faith -->
+					<item id="194" min="1" max="1" chance="5.55" /> <!-- Heavy Doom Axe -->
+					<item id="226" min="1" max="1" chance="5.55" /> <!-- Cursed Dagger -->
+					<item id="230" min="1" max="1" chance="5.55" /> <!-- Needle Wolverine -->
+					<item id="232" min="1" max="1" chance="5.55" /> <!-- Dark Elven Dagger -->
+					<item id="263" min="1" max="1" chance="5.55" /> <!-- Chakram -->
+					<item id="281" min="1" max="1" chance="5.55" /> <!-- Crystallized Ice Bow -->
+					<item id="298" min="1" max="1" chance="5.55" /> <!-- Orcish Glaive -->
+					<item id="302" min="1" max="1" chance="5.65" /> <!-- Body Slasher -->
 				</group>
 				<group chance="100">
 					<item id="2387" min="1" max="1" chance="5.55" /> <!-- Reinforced Mithril Gaiters -->
@@ -136,19 +134,17 @@
 					<item id="915" min="1" max="1" chance="33.34" /> <!-- Aquastone Necklace -->
 				</group>
 				<group chance="70">
-					<item id="73" min="1" max="1" chance="7.8" /> <!-- Shamshir -->
-					<item id="74" min="1" max="1" chance="7.7" /> <!-- Katana -->
-					<item id="94" min="1" max="1" chance="7.7" /> <!-- Bec de Corbin -->
-					<item id="131" min="1" max="1" chance="7.7" /> <!-- Spirit Sword -->
-					<item id="133" min="1" max="1" chance="7.7" /> <!-- Raid Sword -->
-					<item id="195" min="1" max="1" chance="7.7" /> <!-- Cursed Staff -->
-					<item id="227" min="1" max="1" chance="7.7" /> <!-- Stiletto -->
-					<item id="242" min="1" max="1" chance="7.7" /> <!-- Soulfire Dirk -->
-					<item id="282" min="1" max="1" chance="7.7" /> <!-- Elemental Bow -->
-					<item id="285" min="1" max="1" chance="7.7" /> <!-- Noble Elven Bow -->
-					<item id="325" min="1" max="1" chance="7.7" /> <!-- Horn of Glory -->
-					<item id="91883" min="1" max="1" chance="7.6" /> <!-- Immortal Edge -->
-					<item id="91897" min="1" max="1" chance="7.6" /> <!-- Blinzlasher -->
+					<item id="73" min="1" max="1" chance="9.09" /> <!-- Shamshir -->
+					<item id="74" min="1" max="1" chance="9.09" /> <!-- Katana -->
+					<item id="94" min="1" max="1" chance="9.09" /> <!-- Bec de Corbin -->
+					<item id="131" min="1" max="1" chance="9.09" /> <!-- Spirit Sword -->
+					<item id="133" min="1" max="1" chance="9.09" /> <!-- Raid Sword -->
+					<item id="195" min="1" max="1" chance="9.09" /> <!-- Cursed Staff -->
+					<item id="227" min="1" max="1" chance="9.09" /> <!-- Stiletto -->
+					<item id="242" min="1" max="1" chance="9.09" /> <!-- Soulfire Dirk -->
+					<item id="282" min="1" max="1" chance="9.09" /> <!-- Elemental Bow -->
+					<item id="285" min="1" max="1" chance="9.09" /> <!-- Noble Elven Bow -->
+					<item id="325" min="1" max="1" chance="9.1" /> <!-- Horn of Glory -->
 				</group>
 				<group chance="100">
 					<item id="355" min="1" max="1" chance="33.33" /> <!-- Dwarven Chain Mail Shirt -->
@@ -175,7 +171,16 @@
 					<item id="916" min="1" max="1" chance="33.34" /> <!-- Necklace of Protection -->
 				</group>
 				<group chance="20">
-					<item id="6660" min="1" max="1" chance="100" /> <!-- Queen Ant's Ring Lv. 1 -->
+					<item id="6660" min="1" max="1" chance="100" /> <!-- Queen Ant's Ring -->
+				</group>
+				<group chance="100">
+					<item id="91527" min="1" max="1" chance="100" /> <!-- Elite Weapon Varnish (D-grade) -->
+				</group>
+				<group chance="100">
+					<item id="91534" min="1" max="1" chance="100" /> <!-- Elite Armor Varnish (D-grade) -->
+				</group>
+				<group chance="100">
+					<item id="91541" min="1" max="1" chance="100" /> <!-- Elite Accessory Varnish (D-grade) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -197,7 +202,7 @@
 		</stats>
 		<status attackable="true" undying="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4416" level="12" /> <!-- Bug -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -236,7 +241,7 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4416" level="12" /> <!-- Bug -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -281,7 +286,7 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4416" level="12" /> <!-- Bug -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -325,7 +330,7 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4416" level="12" /> <!-- Bug -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -347,12 +352,12 @@
 			<height normal="15" />
 		</collision>
 	</npc>
-	<npc id="29006" level="50" type="GrandBoss" name="Core" title="Cruma Controller">
+	<npc id="29006" level="50" type="GrandBoss" name="Core">
 		<parameters>
 			<minions name="Privates">
-				<npc id="29008" count="3" respawnTime="360" weightPoint="1" /> <!-- Doom Wraith -->
-				<npc id="29011" count="4" respawnTime="360" weightPoint="1" /> <!-- Susceptor -->
-				<npc id="29007" count="10" respawnTime="360" weightPoint="1" /> <!-- Death Knight -->
+				<npc id="29008" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="29011" count="4" respawnTime="360" weightPoint="1" />
+				<npc id="29007" count="10" respawnTime="360" weightPoint="1" />
 			</minions>
 		</parameters>
 		<race>CONSTRUCT</race>
@@ -366,12 +371,12 @@
 				<walk ground="50" />
 				<run ground="110" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -380,7 +385,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<corpseTime>10</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -396,32 +401,30 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="91897" min="1" max="1" chance="3" /> <!-- Blinzlasher -->
-					<item id="75" min="1" max="1" chance="4" /> <!-- Caliburs -->
-					<item id="76" min="1" max="1" chance="4" /> <!-- Sword of Delusion -->
-					<item id="77" min="1" max="1" chance="4" /> <!-- Tsurugi -->
-					<item id="84" min="1" max="1" chance="4" /> <!-- Homunkulus' Sword -->
-					<item id="95" min="1" max="1" chance="4" /> <!-- Poleaxe -->
-					<item id="132" min="1" max="1" chance="4" /> <!-- Ultimate Sword -->
-					<item id="134" min="1" max="1" chance="4" /> <!-- Sword of Nightmare -->
-					<item id="145" min="1" max="1" chance="4" /> <!-- Sword of Whispering Death -->
-					<item id="162" min="1" max="1" chance="4" /> <!-- War Axe -->
-					<item id="174" min="1" max="1" chance="4" /> <!-- Nirvana Axe -->
-					<item id="196" min="1" max="1" chance="4" /> <!-- Stick of Eternity -->
-					<item id="197" min="1" max="1" chance="4" /> <!-- Paradia Staff -->
-					<item id="198" min="1" max="1" chance="4" /> <!-- Inferno Staff -->
-					<item id="199" min="1" max="1" chance="4" /> <!-- Pa'agrio Hammer -->
-					<item id="200" min="1" max="1" chance="4" /> <!-- Sage's Staff -->
-					<item id="201" min="1" max="1" chance="4" /> <!-- Club of Nature -->
-					<item id="202" min="1" max="1" chance="4" /> <!-- Mace of Underworld -->
-					<item id="231" min="1" max="1" chance="4" /> <!-- Grace Dagger -->
-					<item id="233" min="1" max="1" chance="4" /> <!-- Dark Screamer -->
-					<item id="265" min="1" max="1" chance="4" /> <!-- Fisted Blade -->
-					<item id="283" min="1" max="1" chance="4" /> <!-- Akat Longbow -->
-					<item id="203" min="1" max="1" chance="4" /> <!-- Pa'agrio Axe -->
-					<item id="301" min="1" max="1" chance="3" /> <!-- scorpion -->
-					<item id="91883" min="1" max="1" chance="3" /> <!-- Immortal Edge -->
-					<item id="303" min="1" max="1" chance="3" /> <!-- Widow Maker -->
+					<item id="75" min="1" max="1" chance="4.16" /> <!-- Caliburs -->
+					<item id="76" min="1" max="1" chance="4.16" /> <!-- Sword of Delusion -->
+					<item id="77" min="1" max="1" chance="4.16" /> <!-- Tsurugi -->
+					<item id="84" min="1" max="1" chance="4.16" /> <!-- Homunkulus' Sword -->
+					<item id="95" min="1" max="1" chance="4.16" /> <!-- Poleaxe -->
+					<item id="132" min="1" max="1" chance="4.16" /> <!-- Ultimate Sword -->
+					<item id="134" min="1" max="1" chance="4.16" /> <!-- Sword of Nightmare -->
+					<item id="145" min="1" max="1" chance="4.16" /> <!-- Sword of Whispering Death -->
+					<item id="162" min="1" max="1" chance="4.16" /> <!-- War Axe -->
+					<item id="174" min="1" max="1" chance="4.16" /> <!-- Nirvana Axe -->
+					<item id="196" min="1" max="1" chance="4.16" /> <!-- Stick of Eternity -->
+					<item id="197" min="1" max="1" chance="4.16" /> <!-- Paradia Staff -->
+					<item id="198" min="1" max="1" chance="4.16" /> <!-- Inferno Staff -->
+					<item id="199" min="1" max="1" chance="4.16" /> <!-- Pa'agrio Hammer -->
+					<item id="200" min="1" max="1" chance="4.16" /> <!-- Sage's Staff -->
+					<item id="201" min="1" max="1" chance="4.16" /> <!-- Club of Nature -->
+					<item id="202" min="1" max="1" chance="4.16" /> <!-- Mace of Underworld -->
+					<item id="231" min="1" max="1" chance="4.16" /> <!-- Grace Dagger -->
+					<item id="233" min="1" max="1" chance="4.16" /> <!-- Dark Screamer -->
+					<item id="265" min="1" max="1" chance="4.16" /> <!-- Fisted Blade -->
+					<item id="283" min="1" max="1" chance="4.16" /> <!-- Akat Longbow -->
+					<item id="203" min="1" max="1" chance="4.16" /> <!-- Pa'agrio Axe -->
+					<item id="301" min="1" max="1" chance="4.16" /> <!-- scorpion -->
+					<item id="303" min="1" max="1" chance="4.32" /> <!-- Widow Maker -->
 				</group>
 				<group chance="100">
 					<item id="60" min="1" max="1" chance="20" /> <!-- Compound Armor -->
@@ -453,17 +456,15 @@
 					<item id="917" min="1" max="1" chance="33.34" /> <!-- Necklace of Mermaid -->
 				</group>
 				<group chance="100">
-					<item id="135" min="1" max="1" chance="9.1" /> <!-- Samurai Long Sword -->
-					<item id="204" min="1" max="1" chance="9.1" /> <!-- Deadman's Staff -->
-					<item id="205" min="1" max="1" chance="9.1" /> <!-- Ghoul's Staff -->
-					<item id="91896" min="1" max="1" chance="9" /> <!-- Admiral's Estoc -->
-					<item id="91882" min="1" max="1" chance="9.1" /> <!-- Saber Tooth -->
-					<item id="206" min="1" max="1" chance="9.1" /> <!-- Demon's Staff -->
-					<item id="228" min="1" max="1" chance="9.1" /> <!-- Crystal Dagger -->
-					<item id="266" min="1" max="1" chance="9.1" /> <!-- Great Pata -->
-					<item id="286" min="1" max="1" chance="9.1" /> <!-- Eminence Bow -->
-					<item id="299" min="1" max="1" chance="9.1" /> <!-- Orcish Poleaxe -->
-					<item id="2503" min="1" max="1" chance="9.1" /> <!-- Yaksa Mace -->
+					<item id="135" min="1" max="1" chance="11.11" /> <!-- Samurai Long Sword -->
+					<item id="204" min="1" max="1" chance="11.11" /> <!-- Deadman's Staff -->
+					<item id="205" min="1" max="1" chance="11.11" /> <!-- Ghoul's Staff -->
+					<item id="206" min="1" max="1" chance="11.11" /> <!-- Demon's Staff -->
+					<item id="228" min="1" max="1" chance="11.11" /> <!-- Crystal Dagger -->
+					<item id="266" min="1" max="1" chance="11.11" /> <!-- Great Pata -->
+					<item id="286" min="1" max="1" chance="11.11" /> <!-- Eminence Bow -->
+					<item id="299" min="1" max="1" chance="11.11" /> <!-- Orcish Poleaxe -->
+					<item id="2503" min="1" max="1" chance="11.12" /> <!-- Yaksa Mace -->
 				</group>
 				<group chance="100">
 					<item id="356" min="1" max="1" chance="20" /> <!-- Full Plate Armor -->
@@ -495,19 +496,19 @@
 					<item id="919" min="1" max="1" chance="16.7" /> <!-- Blessed Necklace -->
 				</group>
 				<group chance="20">
-					<item id="6662" min="1" max="1" chance="100" /> <!-- Ring of Core Lv. 1 -->
-				</group>
-				<group chance="100">
-					<item id="91529" min="1" max="1" chance="100" /> <!-- High-grade Weapon Varnish (C-grade) -->
-				</group>
-				<group chance="100">
-					<item id="91536" min="1" max="1" chance="100" /> <!-- High-grade Armor Varnish (C-grade) -->
-				</group>
-				<group chance="100">
-					<item id="91543" min="1" max="1" chance="100" /> <!-- High-grade Accessory Varnish (C-grade) -->
+					<item id="6662" min="1" max="1" chance="100" /> <!-- Ring of Core -->
 				</group>
 				<group chance="50">
-					<item id="8620" min="1" max="3" chance="100" /> <!-- Buff Slot Expansion Ticket Lv. 3 -->
+					<item id="8620" min="1" max="3" chance="100" /> <!-- Ancient Book: Divine Inspiration (Manuscript) -->
+				</group>
+				<group chance="100">
+					<item id="91529" min="1" max="1" chance="100" /> <!-- Elite Weapon Varnish (C-grade) -->
+				</group>
+				<group chance="100">
+					<item id="91536" min="1" max="1" chance="100" /> <!-- Elite Armor Varnish (C-grade) -->
+				</group>
+				<group chance="100">
+					<item id="91543" min="1" max="1" chance="100" /> <!-- Elite Accessory Varnish (C-grade) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -667,12 +668,12 @@
 				<walk ground="70" />
 				<run ground="110" />
 			</speed>
-			<hitTime>300</hitTime>
+			<hitTime>30</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="3" /> <!-- Beast -->
+			<skill id="4416" level="3" /> <!-- Beasts -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -717,7 +718,7 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -763,7 +764,7 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -811,7 +812,7 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="4416" level="11" /> <!-- Giant -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -833,13 +834,13 @@
 			<height normal="35" grown="43" />
 		</collision>
 	</npc>
-	<npc id="29014" level="50" type="GrandBoss" name="Orfen" title="Spore Lord">
+	<npc id="29014" level="50" type="GrandBoss" name="Orfen">
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
 			<param name="MoveAroundSocial1" value="80" />
 			<param name="MoveAroundSocial2" value="80" />
 			<minions name="Privates">
-				<npc id="29016" count="4" respawnTime="360" weightPoint="1" /> <!-- Laikel Leos -->
+				<npc id="29016" count="4" respawnTime="360" weightPoint="1" />
 			</minions>
 		</parameters>
 		<race>FAIRY</race>
@@ -868,7 +869,7 @@
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4062" level="1" /> <!-- Orfen -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 			<skill id="4063" level="1" /> <!-- Paralysis -->
 			<skill id="4064" level="1" /> <!-- Paralysis -->
 		</skillList>
@@ -886,17 +887,15 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="135" min="1" max="1" chance="9.1" /> <!-- Samurai Long Sword -->
-					<item id="204" min="1" max="1" chance="9.1" /> <!-- Deadman's Staff -->
-					<item id="205" min="1" max="1" chance="9.1" /> <!-- Ghoul's Staff -->
-					<item id="206" min="1" max="1" chance="9.1" /> <!-- Demon's Staff -->
-					<item id="228" min="1" max="1" chance="9.1" /> <!-- Crystal Dagger -->
-					<item id="266" min="1" max="1" chance="9.1" /> <!-- Great Pata -->
-					<item id="286" min="1" max="1" chance="9.1" /> <!-- Eminence Bow -->
-					<item id="299" min="1" max="1" chance="9.1" /> <!-- Orcish Poleaxe -->
-					<item id="2503" min="1" max="1" chance="9.1" /> <!-- Yaksa Mace -->
-					<item id="91896" min="1" max="1" chance="9.05" /> <!-- Admiral's Estoc -->
-					<item id="91882" min="1" max="1" chance="9.05" /> <!-- Saber Tooth -->
+					<item id="135" min="1" max="1" chance="11.11" /> <!-- Samurai Long Sword -->
+					<item id="204" min="1" max="1" chance="11.11" /> <!-- Deadman's Staff -->
+					<item id="205" min="1" max="1" chance="11.11" /> <!-- Ghoul's Staff -->
+					<item id="206" min="1" max="1" chance="11.11" /> <!-- Demon's Staff -->
+					<item id="228" min="1" max="1" chance="11.11" /> <!-- Crystal Dagger -->
+					<item id="266" min="1" max="1" chance="11.11" /> <!-- Great Pata -->
+					<item id="286" min="1" max="1" chance="11.11" /> <!-- Eminence Bow -->
+					<item id="299" min="1" max="1" chance="11.11" /> <!-- Orcish Poleaxe -->
+					<item id="2503" min="1" max="1" chance="11.12" /> <!-- Yaksa Mace -->
 				</group>
 				<group chance="100">
 					<item id="356" min="1" max="1" chance="20" /> <!-- Full Plate Armor -->
@@ -916,8 +915,8 @@
 					<item id="442" min="1" max="1" chance="20" /> <!-- Divine Tunic -->
 					<item id="473" min="1" max="1" chance="20" /> <!-- Divine Stockings -->
 					<item id="2463" min="1" max="1" chance="20" /> <!-- Divine Gloves -->
-					<item id="2468" min="2" max="2" chance="20" /> <!-- Blessed Gloves -->
-					<item id="499" min="2" max="2" chance="20" /> <!-- Mithril Helmet -->
+					<item id="2468" min="1" max="3" chance="20" /> <!-- Blessed Gloves -->
+					<item id="499" min="1" max="3" chance="20" /> <!-- Mithril Helmet -->
 				</group>
 				<group chance="100">
 					<item id="119" min="1" max="1" chance="16.66" /> <!-- Necklace of Seal -->
@@ -939,37 +938,35 @@
 					<item id="918" min="1" max="1" chance="33.34" /> <!-- Adamantite Necklace -->
 				</group>
 				<group chance="100">
-					<item id="4049" min="20" max="80" chance="11" /> <!-- Adamantite Earring Gemstone -->
-					<item id="4050" min="20" max="80" chance="11" /> <!-- Adamantite Ring Wire -->
-					<item id="4051" min="20" max="80" chance="11" /> <!-- Adamantite Necklace Chain -->
-					<item id="4064" min="20" max="80" chance="11" /> <!-- Avadon Breastplate Part -->
-					<item id="4065" min="20" max="80" chance="11" /> <!-- Avadon Gaiter Material -->
-					<item id="4071" min="20" max="80" chance="11" /> <!-- Avadon Robe Fabric -->
-					<item id="4072" min="20" max="80" chance="11" /> <!-- Sealed Avadon Circlet Pattern -->
-					<item id="4439" min="20" max="80" chance="11" /> <!-- Avadon Shield Fragment -->
-					<item id="1917" min="20" max="80" chance="6" /> <!-- Sage's Necklace Chain -->
-					<item id="1919" min="20" max="80" chance="6" /> <!-- Sage's Ring Gemstone -->
-				</group>
-				<group chance="30">
-					<item id="6661" min="1" max="1" chance="100" /> <!-- Orfen's Earring Lv. 1 -->
-				</group>
-				<group chance="100">
-					<item id="947" min="2" max="8" chance="100" /> <!-- Scroll: Enchant Weapon (B-grade) - Exchangeable -->
-				</group>
-				<group chance="100">
-					<item id="948" min="10" max="30" chance="100" /> <!-- Scroll: Enchant Armor (B-grade) - Exchangeable -->
+					<item id="4049" min="20" max="80" chance="12.5" /> <!-- Adamantite Earring Gemstone -->
+					<item id="4050" min="20" max="80" chance="12.5" /> <!-- Adamantite Ring Wire -->
+					<item id="4051" min="20" max="80" chance="12.5" /> <!-- Adamantite Necklace Chain -->
+					<item id="4064" min="20" max="80" chance="12.5" /> <!-- Avadon Breastplate Part -->
+					<item id="4065" min="20" max="80" chance="12.5" /> <!-- Avadon Gaiter Material -->
+					<item id="4071" min="20" max="80" chance="12.5" /> <!-- Avadon Robe Fabric -->
+					<item id="4072" min="20" max="80" chance="12.5" /> <!-- Sealed Avadon Circlet Pattern -->
+					<item id="4439" min="20" max="80" chance="12.5" /> <!-- Avadon Shield Fragment -->
 				</group>
 				<group chance="20">
-					<item id="8620" min="1" max="3" chance="100" /> <!-- Buff Slot Expansion Ticket Lv. 3 -->
+					<item id="6661" min="1" max="1" chance="100" /> <!-- Orfen's Earring -->
 				</group>
 				<group chance="100">
-					<item id="91529" min="1" max="1" chance="100" /> <!-- High-grade Weapon Varnish (C-grade) -->
+					<item id="947" min="2" max="8" chance="100" /> <!-- Scroll: Enchant Weapon (B-grade) -->
 				</group>
 				<group chance="100">
-					<item id="91536" min="1" max="1" chance="100" /> <!-- High-grade Armor Varnish (C-grade) -->
+					<item id="948" min="10" max="30" chance="100" /> <!-- Scroll: Enchant Armor (B-grade) -->
+				</group>
+				<group chance="50">
+					<item id="8620" min="1" max="3" chance="100" /> <!-- Ancient Book: Divine Inspiration (Manuscript) -->
 				</group>
 				<group chance="100">
-					<item id="91543" min="1" max="1" chance="100" /> <!-- High-grade Accessory Varnish (C-grade) -->
+					<item id="91529" min="1" max="1" chance="100" /> <!-- Elite Weapon Varnish (C-grade) -->
+				</group>
+				<group chance="100">
+					<item id="91536" min="1" max="1" chance="100" /> <!-- Elite Armor Varnish (C-grade) -->
+				</group>
+				<group chance="100">
+					<item id="91543" min="1" max="1" chance="100" /> <!-- Elite Accessory Varnish (C-grade) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -996,7 +993,7 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4416" level="12" /> <!-- Bug -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1040,7 +1037,7 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4416" level="12" /> <!-- Bug -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1084,7 +1081,7 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4416" level="12" /> <!-- Bug -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1123,7 +1120,7 @@
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
+			<skill id="4416" level="12" /> <!-- Bug -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1157,7 +1154,7 @@
 				<walk ground="50" />
 				<run ground="186" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -1173,7 +1170,7 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 			<skill id="4122" level="1" /> <!-- Antharas -->
-			<skill id="4071" level="2" /> <!-- Bow Weapon Resistance -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
 		</skillList>
 		<corpseTime>14</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -1183,7 +1180,7 @@
 			<height normal="300" />
 		</collision>
 	</npc>
-	<npc id="29020" level="80" type="GrandBoss" name="Baium" title="Late King">
+	<npc id="29020" level="80" type="GrandBoss" name="Baium">
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="1024738848" sp="30742165" raidPoints="450" />
@@ -1195,7 +1192,7 @@
 				<walk ground="80" />
 				<run ground="120" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status attackable="true" />
@@ -1209,7 +1206,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 			<skill id="4256" level="1" /> <!-- Stun Resistance -->
 			<skill id="4127" level="1" /> <!-- Baium: General Attack -->
 		</skillList>
@@ -1225,43 +1222,39 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="80" min="1" max="1" chance="4.2" /> <!-- Tallum Blade -->
-					<item id="81" min="1" max="1" chance="4.2" /> <!-- Dragon Slayer -->
-					<item id="98" min="1" max="1" chance="4.2" /> <!-- Halberd -->
-					<item id="150" min="1" max="1" chance="4.2" /> <!-- Elemental Sword -->
-					<item id="151" min="1" max="1" chance="4.2" /> <!-- Sword of Miracles -->
-					<item id="164" min="1" max="1" chance="4.2" /> <!-- Elysian -->
-					<item id="212" min="1" max="1" chance="4.2" /> <!-- Dasparion's Staff -->
-					<item id="213" min="1" max="1" chance="4.2" /> <!-- Branch of the Mother Tree -->
-					<item id="235" min="1" max="1" chance="4.2" /> <!-- Bloody Orchid -->
-					<item id="236" min="1" max="1" chance="4.2" /> <!-- Soul Separator -->
-					<item id="269" min="1" max="1" chance="4.2" /> <!-- Blood Tornado -->
-					<item id="270" min="1" max="1" chance="4.2" /> <!-- Dragon Grinder -->
-					<item id="288" min="1" max="1" chance="4.2" /> <!-- Carnage Bow -->
-					<item id="289" min="1" max="1" chance="4.2" /> <!-- Soul Bow -->
-					<item id="305" min="1" max="1" chance="4.2" /> <!-- Tallum Glaive -->
-					<item id="2500" min="1" max="1" chance="4.2" /> <!-- Dark Legion's Edge -->
-					<item id="2504" min="1" max="1" chance="4.1" /> <!-- Meteor Shower -->
-					<item id="7884" min="1" max="1" chance="4.1" /> <!-- Infernal Master -->
-					<item id="7894" min="1" max="1" chance="4.1" /> <!-- Spiritual Eye -->
-					<item id="7895" min="1" max="1" chance="4.1" /> <!-- Flaming Dragon Skull -->
-					<item id="7899" min="1" max="1" chance="4.1" /> <!-- Destroyer Hammer -->
-					<item id="91903" min="1" max="1" chance="4.1" /> <!-- Lacerator -->
-					<item id="91888" min="1" max="1" chance="4.1" /> <!-- Undertaker -->
-					<item id="7902" min="1" max="1" chance="4.1" /> <!-- Doom Crusher -->
+					<item id="80" min="1" max="1" chance="5" /> <!-- Tallum Blade -->
+					<item id="81" min="1" max="1" chance="4" /> <!-- Dragon Slayer -->
+					<item id="98" min="1" max="1" chance="5" /> <!-- Halberd -->
+					<item id="150" min="1" max="1" chance="5" /> <!-- Elemental Sword -->
+					<item id="151" min="1" max="1" chance="5" /> <!-- Sword of Miracles -->
+					<item id="164" min="1" max="1" chance="4" /> <!-- Elysian -->
+					<item id="212" min="1" max="1" chance="4" /> <!-- Dasparion's Staff -->
+					<item id="213" min="1" max="1" chance="4" /> <!-- Branch of the Mother Tree -->
+					<item id="235" min="1" max="1" chance="5" /> <!-- Bloody Orchid -->
+					<item id="236" min="1" max="1" chance="4" /> <!-- Soul Separator -->
+					<item id="269" min="1" max="1" chance="5" /> <!-- Blood Tornado -->
+					<item id="270" min="1" max="1" chance="4" /> <!-- Dragon Grinder -->
+					<item id="288" min="1" max="1" chance="5" /> <!-- Carnage Bow -->
+					<item id="289" min="1" max="1" chance="5" /> <!-- Soul Bow -->
+					<item id="305" min="1" max="1" chance="4" /> <!-- Tallum Glaive -->
+					<item id="2500" min="1" max="1" chance="4" /> <!-- Dark Legion's Edge -->
+					<item id="2504" min="1" max="1" chance="5" /> <!-- Meteor Shower -->
+					<item id="7884" min="1" max="1" chance="5" /> <!-- Infernal Master -->
+					<item id="7894" min="1" max="1" chance="5" /> <!-- Spiritual Eye -->
+					<item id="7895" min="1" max="1" chance="4" /> <!-- Flaming Dragon Skull -->
+					<item id="7899" min="1" max="1" chance="5" /> <!-- Destroyer Hammer -->
+					<item id="7902" min="1" max="1" chance="4" /> <!-- Doom Crusher -->
 				</group>
 				<group chance="100">
-					<item id="7883" min="1" max="1" chance="11" /> <!-- Guardian's Sword -->
-					<item id="7889" min="1" max="1" chance="11" /> <!-- Wizard's Tear -->
-					<item id="7892" min="1" max="1" chance="14" /> <!-- Spell Breaker -->
-					<item id="7893" min="1" max="1" chance="11" /> <!-- Kaim Vanul's Bones -->
-					<item id="7900" min="1" max="1" chance="14" /> <!-- Ice Storm Hammer -->
-					<item id="91885" min="1" max="1" chance="14" /> <!-- Dismantler -->
-					<item id="91900" min="1" max="1" chance="14" /> <!-- Colichemarde -->
-					<item id="7901" min="1" max="1" chance="11" /> <!-- Star Buster -->
+					<item id="7883" min="1" max="1" chance="17" /> <!-- Guardian's Sword -->
+					<item id="7889" min="1" max="1" chance="16" /> <!-- Wizard's Tear -->
+					<item id="7892" min="1" max="1" chance="17" /> <!-- Spell Breaker -->
+					<item id="7893" min="1" max="1" chance="17" /> <!-- Kaim Vanul's Bones -->
+					<item id="7900" min="1" max="1" chance="17" /> <!-- Ice Storm Hammer -->
+					<item id="7901" min="1" max="1" chance="16" /> <!-- Star Buster -->
 				</group>
 				<group chance="100">
-					<item id="5287" min="1" max="1" chance="3" /> <!-- Sealed Dark Crystal Breastplate -->
+					<item id="5287" min="1" max="1" chance="3" /> <!-- Sealed Dark Crystal breastplate -->
 					<item id="5288" min="1" max="1" chance="3" /> <!-- Sealed Dark Crystal Gaiters -->
 					<item id="5289" min="1" max="3" chance="5" /> <!-- Sealed Dark Crystal Helmet -->
 					<item id="5290" min="1" max="3" chance="5" /> <!-- Sealed Dark Crystal Gloves -->
@@ -1300,34 +1293,31 @@
 					<item id="6328" min="1" max="3" chance="52" /> <!-- Sealed Majestic Ring -->
 				</group>
 				<group chance="100">
-					<item id="33808" min="1" max="1" chance="50" /> <!-- Improved Scroll: Enchant Weapon (B-grade) - Exchangeable -->
-					<item id="33814" min="2" max="4" chance="50" /> <!-- Improved Scroll: Enchant Armor (B-grade) - Exchangeable -->
+					<item id="33808" min="1" max="1" chance="50" /> <!-- Improved Scroll: Enchant Weapon (B-grade) -->
+					<item id="33814" min="2" max="4" chance="50" /> <!-- Improved Scroll: Enchant Armor (B-grade) -->
 				</group>
 				<group chance="100">
-					<item id="729" min="1" max="1" chance="50" /> <!-- Scroll: Enchant Weapon (A-grade) - Exchangeable -->
-					<item id="730" min="1" max="1" chance="50" /> <!-- Scroll: Enchant Armor (A-grade) - Exchangeable -->
+					<item id="729" min="1" max="1" chance="50" /> <!-- Scroll: Enchant Weapon (A-grade) -->
+					<item id="730" min="1" max="1" chance="50" /> <!-- Scroll: Enchant Armor (A-grade) -->
 				</group>
 				<group chance="30">
-					<item id="49580" min="1" max="1" chance="100" /> <!-- Baium's Ring Lv. 1 -->
+					<item id="49580" min="1" max="1" chance="100" /> <!-- Baium's Ring -->
 				</group>
-				<group chance="3">
-					<item id="49683" min="1" max="1" chance="100" /> <!-- Talisman of Baium -->
-				</group>
-				<group chance="100">
-					<item id="8621" min="1" max="3" chance="100" /> <!-- Buff Slot Expansion Ticket Lv. 4 -->
+				<group chance="30">
+					<item id="49683" min="1" max="1" chance="10" /> <!-- Talisman of Baium -->
+					<item id="49682" min="1" max="1" chance="90" /> <!-- Baium's Soul -->
 				</group>
 				<group chance="100">
-					<item id="91531" min="1" max="1" chance="100" /> <!-- High-grade Weapon Varnish (B-grade) -->
+					<item id="8621" min="1" max="3" chance="100" /> <!-- Ancient Book: Divine Inspiration (Original Version) -->
 				</group>
 				<group chance="100">
-					<item id="91538" min="1" max="1" chance="100" /> <!-- High-grade Armor Varnish (B-grade) -->
+					<item id="91531" min="1" max="1" chance="100" /> <!-- Elite Weapon Varnish (B-grade) -->
 				</group>
 				<group chance="100">
-					<item id="91545" min="1" max="1" chance="100" /> <!-- High-grade Accessory Varnish (B-grade) -->
+					<item id="91538" min="1" max="1" chance="100" /> <!-- Elite Armor Varnish (B-grade) -->
 				</group>
 				<group chance="100">
-					<item id="94186" min="1" max="1" chance="16" /> <!-- Life Stone Lv. 2 - Weapon -->
-					<item id="94188" min="1" max="1" chance="84" /> <!-- Life Stone Lv. 2 - Armor -->
+					<item id="91545" min="1" max="1" chance="100" /> <!-- Elite Accessory Varnish (B-grade) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1350,7 +1340,7 @@
 		</stats>
 		<status attackable="true" />
 		<skillList>
-			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4416" level="8" /> <!-- Angel -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -1372,12 +1362,12 @@
 			<height normal="80" />
 		</collision>
 	</npc>
-	<npc id="29022" level="75" type="GrandBoss" name="Zaken" title="Pirate Captain">
+	<npc id="29022" level="75" type="GrandBoss" name="Zaken">
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="102487500" sp="3074625" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="20000000" hpRegen="2981.0298102981" mp="12240" mpRegen="10" />
+			<vitals hp="66666666.6666667" hpRegen="2981.0298102981" mp="12240" mpRegen="10" />
 			<attack physical="15182.9268292683" magical="6600.03819341452" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2692.68292682927" magical="1794.92939666239" />
 			<speed>
@@ -1399,9 +1389,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4071" level="1" /> <!-- Bow Weapon Resistance -->
-			<skill id="4116" level="2" /> <!-- Magic Attack Resistance -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<corpseTime>300</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -1413,30 +1401,28 @@
 		<dropLists>
 			<drop>
 				<group chance="98">
-					<item id="80" min="1" max="3" chance="4.2" /> <!-- Tallum Blade -->
-					<item id="81" min="1" max="3" chance="4.2" /> <!-- Dragon Slayer -->
-					<item id="98" min="1" max="3" chance="4.2" /> <!-- Halberd -->
-					<item id="150" min="1" max="3" chance="4.2" /> <!-- Elemental Sword -->
-					<item id="151" min="1" max="3" chance="4.2" /> <!-- Sword of Miracles -->
-					<item id="164" min="1" max="3" chance="4.2" /> <!-- Elysian -->
-					<item id="212" min="1" max="3" chance="4.2" /> <!-- Dasparion's Staff -->
-					<item id="213" min="1" max="3" chance="4.2" /> <!-- Branch of the Mother Tree -->
-					<item id="235" min="1" max="3" chance="4.2" /> <!-- Bloody Orchid -->
-					<item id="236" min="1" max="3" chance="4.2" /> <!-- Soul Separator -->
-					<item id="269" min="1" max="3" chance="4.2" /> <!-- Blood Tornado -->
-					<item id="270" min="1" max="3" chance="4.2" /> <!-- Dragon Grinder -->
-					<item id="288" min="1" max="3" chance="4.2" /> <!-- Carnage Bow -->
-					<item id="289" min="1" max="3" chance="4.2" /> <!-- Soul Bow -->
-					<item id="305" min="1" max="3" chance="4.2" /> <!-- Tallum Glaive -->
-					<item id="2500" min="1" max="3" chance="4.2" /> <!-- Dark Legion's Edge -->
-					<item id="2504" min="1" max="3" chance="4.1" /> <!-- Meteor Shower -->
-					<item id="7884" min="1" max="3" chance="4.1" /> <!-- Infernal Master -->
-					<item id="7894" min="1" max="3" chance="4.1" /> <!-- Spiritual Eye -->
-					<item id="7895" min="1" max="3" chance="4.1" /> <!-- Flaming Dragon Skull -->
-					<item id="7899" min="1" max="3" chance="4.1" /> <!-- Destroyer Hammer -->
-					<item id="91889" min="1" max="3" chance="4.1" /> <!-- Divine Pain -->
-					<item id="91903" min="1" max="3" chance="4.1" /> <!-- Lacerator -->
-					<item id="7902" min="1" max="3" chance="4.1" /> <!-- Doom Crusher -->
+					<item id="80" min="1" max="3" chance="5" /> <!-- Tallum Blade -->
+					<item id="81" min="1" max="3" chance="4" /> <!-- Dragon Slayer -->
+					<item id="98" min="1" max="3" chance="5" /> <!-- Halberd -->
+					<item id="150" min="1" max="3" chance="5" /> <!-- Elemental Sword -->
+					<item id="151" min="1" max="3" chance="5" /> <!-- Sword of Miracles -->
+					<item id="164" min="1" max="3" chance="4" /> <!-- Elysian -->
+					<item id="212" min="1" max="3" chance="4" /> <!-- Dasparion's Staff -->
+					<item id="213" min="1" max="3" chance="4" /> <!-- Branch of the Mother Tree -->
+					<item id="235" min="1" max="3" chance="5" /> <!-- Bloody Orchid -->
+					<item id="236" min="1" max="3" chance="4" /> <!-- Soul Separator -->
+					<item id="269" min="1" max="3" chance="5" /> <!-- Blood Tornado -->
+					<item id="270" min="1" max="3" chance="4" /> <!-- Dragon Grinder -->
+					<item id="288" min="1" max="3" chance="5" /> <!-- Carnage Bow -->
+					<item id="289" min="1" max="3" chance="5" /> <!-- Soul Bow -->
+					<item id="305" min="1" max="3" chance="4" /> <!-- Tallum Glaive -->
+					<item id="2500" min="1" max="3" chance="4" /> <!-- Dark Legion's Edge -->
+					<item id="2504" min="1" max="3" chance="5" /> <!-- Meteor Shower -->
+					<item id="7884" min="1" max="3" chance="5" /> <!-- Infernal Master -->
+					<item id="7894" min="1" max="3" chance="5" /> <!-- Spiritual Eye -->
+					<item id="7895" min="1" max="3" chance="4" /> <!-- Flaming Dragon Skull -->
+					<item id="7899" min="1" max="3" chance="5" /> <!-- Destroyer Hammer -->
+					<item id="7902" min="1" max="3" chance="4" /> <!-- Doom Crusher -->
 				</group>
 				<group chance="98">
 					<item id="7883" min="1" max="3" chance="17" /> <!-- Guardian's Sword -->
@@ -1447,7 +1433,7 @@
 					<item id="7901" min="1" max="3" chance="16" /> <!-- Star Buster -->
 				</group>
 				<group chance="98">
-					<item id="5287" min="1" max="3" chance="3" /> <!-- Sealed Dark Crystal Breastplate -->
+					<item id="5287" min="1" max="3" chance="3" /> <!-- Sealed Dark Crystal breastplate -->
 					<item id="5288" min="1" max="3" chance="3" /> <!-- Sealed Dark Crystal Gaiters -->
 					<item id="5289" min="1" max="3" chance="5" /> <!-- Sealed Dark Crystal Helmet -->
 					<item id="5290" min="1" max="3" chance="5" /> <!-- Sealed Dark Crystal Gloves -->
@@ -1486,27 +1472,27 @@
 					<item id="6328" min="1" max="3" chance="52" /> <!-- Sealed Majestic Ring -->
 				</group>
 				<group chance="100">
-					<item id="33808" min="2" max="4" chance="50" /> <!-- Improved Scroll: Enchant Weapon (B-grade) - Exchangeable -->
-					<item id="33814" min="5" max="15" chance="50" /> <!-- Improved Scroll: Enchant Armor (B-grade) - Exchangeable -->
+					<item id="33808" min="2" max="4" chance="50" /> <!-- Improved Scroll: Enchant Weapon (B-grade) -->
+					<item id="33814" min="5" max="15" chance="50" /> <!-- Improved Scroll: Enchant Armor (B-grade) -->
 				</group>
 				<group chance="100">
-					<item id="729" min="2" max="4" chance="50" /> <!-- Scroll: Enchant Weapon (A-grade) - Exchangeable -->
-					<item id="730" min="8" max="10" chance="50" /> <!-- Scroll: Enchant Armor (A-grade) - Exchangeable -->
+					<item id="729" min="2" max="4" chance="50" /> <!-- Scroll: Enchant Weapon (A-grade) -->
+					<item id="730" min="6" max="12" chance="50" /> <!-- Scroll: Enchant Armor (A-grade) -->
 				</group>
 				<group chance="20">
-					<item id="90763" min="1" max="1" chance="100" /> <!-- Zaken's Earring Lv. 1 -->
+					<item id="90763" min="1" max="1" chance="100" /> <!-- Zaken's Earring -->
 				</group>
 				<group chance="100">
 					<item id="49756" min="1" max="3" chance="100" /> <!-- Cloth Piece -->
 				</group>
 				<group chance="100">
-					<item id="91531" min="1" max="1" chance="100" /> <!-- High-grade Weapon Varnish (B-grade) -->
+					<item id="91531" min="1" max="1" chance="100" /> <!-- Elite Weapon Varnish (B-grade) -->
 				</group>
 				<group chance="100">
-					<item id="91538" min="1" max="1" chance="100" /> <!-- High-grade Armor Varnish (B-grade) -->
+					<item id="91538" min="1" max="1" chance="100" /> <!-- Elite Armor Varnish (B-grade) -->
 				</group>
 				<group chance="100">
-					<item id="91545" min="1" max="1" chance="100" /> <!-- High-grade Accessory Varnish (B-grade) -->
+					<item id="91545" min="1" max="1" chance="100" /> <!-- Elite Accessory Varnish (B-grade) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1529,7 +1515,7 @@
 				<walk ground="22" />
 				<run ground="150" />
 			</speed>
-			<hitTime>500</hitTime>
+			<hitTime>50</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -1542,8 +1528,8 @@
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="19" /> <!-- Dualsword -->
-			<skill id="4071" level="5" /> <!-- Bow Weapon Resistance -->
+			<skill id="4415" level="19" /> <!-- Dual Sword -->
+			<skill id="4071" level="5" /> <!-- Bow Resistance -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
@@ -1586,7 +1572,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4071" level="5" /> <!-- Bow Weapon Resistance -->
+			<skill id="4071" level="5" /> <!-- Bow Resistance -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
@@ -1598,7 +1584,7 @@
 			<height normal="40" />
 		</collision>
 	</npc>
-	<npc id="29025" level="75" type="Folk" name="Baium" title="Late King">
+	<npc id="29025" level="75" type="Folk" name="Baium">
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
@@ -1609,7 +1595,7 @@
 				<walk ground="50" />
 				<run ground="120" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status attackable="false" undying="true" />
@@ -1712,7 +1698,7 @@
 			<height normal="23" />
 		</collision>
 	</npc>
-	<npc id="29045" level="85" type="RaidBoss" name="Frintezza">
+	<npc id="29045" level="85" type="Folk" name="Frintezza">
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
@@ -1727,7 +1713,7 @@
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<skillList>
-			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4416" level="6" /> <!-- Humanoid -->
 			<skill id="14765" level="4" /> <!-- Blood Siphon Resistance -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
@@ -1737,7 +1723,7 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 		</skillList>
 		<corpseTime>15</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -1778,8 +1764,8 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Weapon Resistance -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 			<skill id="5078" level="1" /> <!-- Frintezza Critical Damage -->
 		</skillList>
 		<corpseTime>18</corpseTime>
@@ -1826,55 +1812,51 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="1" /> <!-- Bare Hands -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
-			<skill id="4071" level="4" /> <!-- Bow Weapon Resistance -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 			<skill id="5078" level="1" /> <!-- Frintezza Critical Damage -->
 		</skillList>
 		<dropLists>
 			<drop>
+				<group chance="20">
+					<item id="80" min="1" max="1" chance="4.54" /> <!-- Tallum Blade -->
+					<item id="81" min="1" max="1" chance="4.54" /> <!-- Dragon Slayer -->
+					<item id="98" min="1" max="1" chance="4.54" /> <!-- Halberd -->
+					<item id="150" min="1" max="1" chance="4.54" /> <!-- Elemental Sword -->
+					<item id="151" min="1" max="1" chance="4.54" /> <!-- Sword of Miracles -->
+					<item id="164" min="1" max="1" chance="4.54" /> <!-- Elysian -->
+					<item id="212" min="1" max="1" chance="4.54" /> <!-- Dasparion's Staff -->
+					<item id="213" min="1" max="1" chance="4.54" /> <!-- Branch of the Mother Tree -->
+					<item id="235" min="1" max="1" chance="4.54" /> <!-- Bloody Orchid -->
+					<item id="236" min="1" max="1" chance="4.54" /> <!-- Soul Separator -->
+					<item id="269" min="1" max="1" chance="4.54" /> <!-- Blood Tornado -->
+					<item id="270" min="1" max="1" chance="4.54" /> <!-- Dragon Grinder -->
+					<item id="288" min="1" max="1" chance="4.54" /> <!-- Carnage Bow -->
+					<item id="289" min="1" max="1" chance="4.54" /> <!-- Soul Bow -->
+					<item id="305" min="1" max="1" chance="4.54" /> <!-- Tallum Glaive -->
+					<item id="2500" min="1" max="1" chance="4.54" /> <!-- Dark Legion's Edge -->
+					<item id="2504" min="1" max="1" chance="4.54" /> <!-- Meteor Shower -->
+					<item id="7884" min="1" max="1" chance="4.54" /> <!-- Infernal Master -->
+					<item id="7894" min="1" max="1" chance="4.54" /> <!-- Spiritual Eye -->
+					<item id="7895" min="1" max="1" chance="4.54" /> <!-- Flaming Dragon Skull -->
+					<item id="7899" min="1" max="1" chance="4.54" /> <!-- Destroyer Hammer -->
+					<item id="7902" min="1" max="1" chance="4.66" /> <!-- Doom Crusher -->
+				</group>
+				<group chance="5">
+					<item id="8678" min="1" max="1" chance="9.09" /> <!-- Sirra's Blade -->
+					<item id="8679" min="1" max="1" chance="9.09" /> <!-- Sword of Ipos -->
+					<item id="8680" min="1" max="1" chance="9.09" /> <!-- Barakiel's Axe -->
+					<item id="8681" min="1" max="1" chance="9.09" /> <!-- Behemoth' Tuning Fork -->
+					<item id="8682" min="1" max="1" chance="9.09" /> <!-- Naga Storm -->
+					<item id="8683" min="1" max="1" chance="9.09" /> <!-- Tiphon's Spear -->
+					<item id="8684" min="1" max="1" chance="9.09" /> <!-- Shyeed's Bow -->
+					<item id="8685" min="1" max="1" chance="9.09" /> <!-- Sobekk's Hurricane -->
+					<item id="8686" min="1" max="1" chance="9.09" /> <!-- Themis' Tongue -->
+					<item id="8687" min="1" max="1" chance="9.09" /> <!-- Cabrio's Hand -->
+					<item id="8688" min="1" max="1" chance="9.1" /> <!-- Daimon Crystal -->
+				</group>
 				<group chance="30">
-					<item id="80" min="1" max="1" chance="4.2" /> <!-- Tallum Blade -->
-					<item id="81" min="1" max="1" chance="4.2" /> <!-- Dragon Slayer -->
-					<item id="98" min="1" max="1" chance="4.2" /> <!-- Halberd -->
-					<item id="150" min="1" max="1" chance="4.2" /> <!-- Elemental Sword -->
-					<item id="151" min="1" max="1" chance="4.2" /> <!-- Sword of Miracles -->
-					<item id="164" min="1" max="1" chance="4.2" /> <!-- Elysian -->
-					<item id="212" min="1" max="1" chance="4.2" /> <!-- Dasparion's Staff -->
-					<item id="213" min="1" max="1" chance="4.2" /> <!-- Branch of the Mother Tree -->
-					<item id="235" min="1" max="1" chance="4.2" /> <!-- Bloody Orchid -->
-					<item id="236" min="1" max="1" chance="4.2" /> <!-- Soul Separator -->
-					<item id="269" min="1" max="1" chance="4.2" /> <!-- Blood Tornado -->
-					<item id="270" min="1" max="1" chance="4.2" /> <!-- Dragon Grinder -->
-					<item id="288" min="1" max="1" chance="4.2" /> <!-- Carnage Bow -->
-					<item id="289" min="1" max="1" chance="4.2" /> <!-- Soul Bow -->
-					<item id="305" min="1" max="1" chance="4.2" /> <!-- Tallum Glaive -->
-					<item id="2500" min="1" max="1" chance="4.2" /> <!-- Dark Legion's Edge -->
-					<item id="2504" min="1" max="1" chance="4.1" /> <!-- Meteor Shower -->
-					<item id="7884" min="1" max="1" chance="4.1" /> <!-- Infernal Master -->
-					<item id="7894" min="1" max="1" chance="4.1" /> <!-- Spiritual Eye -->
-					<item id="7895" min="1" max="1" chance="4.1" /> <!-- Flaming Dragon Skull -->
-					<item id="7899" min="1" max="1" chance="4.1" /> <!-- Destroyer Hammer -->
-					<item id="91903" min="1" max="1" chance="4.1" /> <!-- Lacerator -->
-					<item id="91888" min="1" max="1" chance="4.1" /> <!-- Undertaker -->
-					<item id="7902" min="1" max="1" chance="4.1" /> <!-- Doom Crusher -->
-				</group>
-				<group chance="10">
-					<item id="8678" min="1" max="1" chance="7.7" /> <!-- Sirra's Blade -->
-					<item id="8679" min="1" max="1" chance="7.7" /> <!-- Sword of Ipos -->
-					<item id="8680" min="1" max="1" chance="7.7" /> <!-- Barakiel's Axe -->
-					<item id="8681" min="1" max="1" chance="7.7" /> <!-- Behemoth' Tuning Fork -->
-					<item id="8682" min="1" max="1" chance="7.7" /> <!-- Naga Storm -->
-					<item id="8683" min="1" max="1" chance="7.7" /> <!-- Tiphon's Spear -->
-					<item id="8684" min="1" max="1" chance="7.7" /> <!-- Shyeed's Bow -->
-					<item id="8685" min="1" max="1" chance="7.7" /> <!-- Sobekk's Hurricane -->
-					<item id="8686" min="1" max="1" chance="7.7" /> <!-- Themis' Tongue -->
-					<item id="8687" min="1" max="1" chance="7.7" /> <!-- Cabrio's Hand -->
-					<item id="91902" min="1" max="1" chance="7.7" /> <!-- Éclair Bijou -->
-					<item id="91887" min="1" max="1" chance="7.6" /> <!-- Durendal -->
-					<item id="8688" min="1" max="1" chance="7.7" /> <!-- Daimon Crystal -->
-				</group>
-				<group chance="50">
-					<item id="5287" min="1" max="1" chance="3.44" /> <!-- Sealed Dark Crystal Breastplate -->
+					<item id="5287" min="1" max="1" chance="3.44" /> <!-- Sealed Dark Crystal breastplate -->
 					<item id="5288" min="1" max="1" chance="3.44" /> <!-- Sealed Dark Crystal Gaiters -->
 					<item id="5289" min="1" max="1" chance="3.44" /> <!-- Sealed Dark Crystal Helmet -->
 					<item id="5290" min="1" max="1" chance="3.44" /> <!-- Sealed Dark Crystal Gloves -->
@@ -1905,40 +1887,37 @@
 					<item id="5329" min="1" max="1" chance="3.44" /> <!-- Sealed Majestic Robe -->
 				</group>
 				<group chance="100">
-					<item id="33809" min="1" max="1" chance="50" /> <!-- Improved Scroll: Enchant Weapon (A-grade) - Exchangeable -->
-					<item id="33815" min="1" max="1" chance="50" /> <!-- Improved Scroll: Enchant Armor (A-grade) - Exchangeable -->
+					<item id="33809" min="1" max="1" chance="50" /> <!-- Improved Scroll: Enchant Weapon (A-grade) -->
+					<item id="33815" min="1" max="1" chance="50" /> <!-- Improved Scroll: Enchant Armor (A-grade) -->
 				</group>
-				<group chance="24">
-					<item id="91499" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Forgotten Blade -->
-					<item id="91500" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Basalt Battlehammer -->
-					<item id="91501" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Imperial Staff -->
-					<item id="91502" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Angel Slayer -->
-					<item id="91503" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Dragon Hunter Axe -->
-					<item id="91504" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Saint Spear -->
-					<item id="91505" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Demon Splinter -->
-					<item id="91506" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Heaven's Divider -->
-					<item id="91507" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Arcana Mace -->
-					<item id="91508" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Draconic Bow -->
-					<item id="91509" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Breastplate -->
-					<item id="91510" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Gaiters -->
-					<item id="91511" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Gauntlets -->
-					<item id="91512" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Boots -->
-					<item id="91513" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Shield -->
-					<item id="91514" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Helmet -->
-					<item id="91515" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Draconic Leather Armor -->
-					<item id="91516" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Draconic Leather Gloves -->
-					<item id="91517" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Draconic Leather Boots -->
-					<item id="91518" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Draconic Leather Helmet -->
-					<item id="91519" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Major Arcana Robe -->
-					<item id="91520" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Major Arcana Gloves -->
-					<item id="91521" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Major Arcana Boots -->
-					<item id="91522" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Major Arcana Circlet -->
-					<item id="91523" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Tateossian Earring -->
-					<item id="91524" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Tateossian Ring -->
-					<item id="91525" min="1" max="1" chance="3.8" /> <!-- Crafting Pack - Sealed Tateossian Necklace -->
-				</group>
-				<group chance="2">
-					<item id="91547" min="1" max="1" chance="100" /> <!-- Special Weapon Varnish (A-grade) -->
+				<group chance="20">
+					<item id="91499" min="1" max="1" chance="3.7" /> <!-- Forgotten Blade Crafting Pack -->
+					<item id="91500" min="1" max="1" chance="3.7" /> <!-- Basalt Battlehammer Crafting Pack -->
+					<item id="91501" min="1" max="1" chance="3.7" /> <!-- Imperial Staff Crafting Pack -->
+					<item id="91502" min="1" max="1" chance="3.7" /> <!-- Angel Slayer Crafting Pack -->
+					<item id="91503" min="1" max="1" chance="3.7" /> <!-- Dragon Hunter Axe Crafting Pack -->
+					<item id="91504" min="1" max="1" chance="3.7" /> <!-- Saint Spear Crafting Pack -->
+					<item id="91505" min="1" max="1" chance="3.7" /> <!-- Demon Splinter Crafting Pack -->
+					<item id="91506" min="1" max="1" chance="3.7" /> <!-- Heaven's Divider Crafting Pack -->
+					<item id="91507" min="1" max="1" chance="3.7" /> <!-- Arcana Mace Crafting Pack -->
+					<item id="91508" min="1" max="1" chance="3.7" /> <!-- Draconic Bow Crafting Pack -->
+					<item id="91509" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Breastplate Crafting Pack -->
+					<item id="91510" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Gaiters Crafting Pack -->
+					<item id="91511" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Gauntlets Crafting Pack -->
+					<item id="91512" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Boots Crafting Pack -->
+					<item id="91513" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Shield Crafting Pack -->
+					<item id="91514" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Helmet Crafting Pack -->
+					<item id="91515" min="1" max="1" chance="3.7" /> <!-- Sealed Draconic Leather Armor Crafting Pack -->
+					<item id="91516" min="1" max="1" chance="3.7" /> <!-- Sealed Draconic Leather Gloves Crafting Pack -->
+					<item id="91517" min="1" max="1" chance="3.7" /> <!-- Sealed Draconic Leather Boots Crafting Pack -->
+					<item id="91518" min="1" max="1" chance="3.7" /> <!-- Sealed Draconic Leather Helmet Crafting Pack -->
+					<item id="91519" min="1" max="1" chance="3.7" /> <!-- Sealed Major Arcana Robe Crafting Pack -->
+					<item id="91520" min="1" max="1" chance="3.7" /> <!-- Sealed Major Arcana Gloves Crafting Pack -->
+					<item id="91521" min="1" max="1" chance="3.7" /> <!-- Sealed Major Arcana Boots Crafting Pack -->
+					<item id="91522" min="1" max="1" chance="3.7" /> <!-- Sealed Major Arcana Circlet Crafting Pack -->
+					<item id="91523" min="1" max="1" chance="3.7" /> <!-- Sealed Tateossian Earring Crafting Pack -->
+					<item id="91524" min="1" max="1" chance="3.7" /> <!-- Sealed Tateossian Ring Crafting Pack -->
+					<item id="91525" min="1" max="1" chance="3.8" /> <!-- Sealed Tateossian Necklace Crafting Pack -->
 				</group>
 				<group chance="10">
 					<item id="91548" min="1" max="1" chance="100" /> <!-- Special Armor Varnish (A-grade) -->
@@ -1946,18 +1925,14 @@
 				<group chance="10">
 					<item id="91549" min="1" max="1" chance="100" /> <!-- Special Accessory Varnish (A-grade) -->
 				</group>
-				<group chance="6">
-					<item id="91550" min="1" max="1" chance="100" /> <!-- Frintezza's Necklace Lv. 1 -->
+				<group chance="5">
+					<item id="91550" min="1" max="1" chance="100" /> <!-- Frintezza's Necklace -->
 				</group>
 				<group chance="100">
-					<item id="8619" min="1" max="2" chance="100" /> <!-- Buff Slot Expansion Ticket Lv. 2 -->
+					<item id="8619" min="1" max="1" chance="100" /> <!-- Ancient Book: Divine Inspiration (Original Language Version) -->
 				</group>
 				<group chance="50">
-					<item id="8620" min="1" max="1" chance="100" /> <!-- Buff Slot Expansion Ticket Lv. 3 -->
-				</group>
-				<group chance="100">
-					<item id="94186" min="1" max="1" chance="16" /> <!-- Life Stone Lv. 2 - Weapon -->
-					<item id="94188" min="1" max="1" chance="84" /> <!-- Life Stone Lv. 2 - Armor -->
+					<item id="8620" min="1" max="1" chance="100" /> <!-- Ancient Book: Divine Inspiration (Manuscript) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -1973,12 +1948,12 @@
 				<walk ground="10" />
 				<run ground="1" />
 			</speed>
-			<hitTime>500</hitTime>
+			<hitTime>50</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2011,12 +1986,12 @@
 				<walk ground="10" />
 				<run ground="1" />
 			</speed>
-			<hitTime>500</hitTime>
+			<hitTime>50</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2125,12 +2100,12 @@
 				<walk ground="10" />
 				<run ground="1" />
 			</speed>
-			<hitTime>500</hitTime>
+			<hitTime>50</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2162,12 +2137,12 @@
 				<walk ground="10" />
 				<run ground="1" />
 			</speed>
-			<hitTime>500</hitTime>
+			<hitTime>50</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2203,7 +2178,7 @@
 				<walk ground="50" />
 				<run ground="186" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -2219,7 +2194,7 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 			<skill id="4122" level="1" /> <!-- Antharas -->
-			<skill id="4071" level="2" /> <!-- Bow Weapon Resistance -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
 		</skillList>
 		<corpseTime>14</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -2267,7 +2242,7 @@
 				<walk ground="50" />
 				<run ground="186" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -2283,7 +2258,7 @@
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 			<skill id="4122" level="1" /> <!-- Antharas -->
-			<skill id="4071" level="2" /> <!-- Bow Weapon Resistance -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
 		</skillList>
 		<corpseTime>14</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -2303,14 +2278,14 @@
 		<sex>MALE</sex>
 		<acquire exp="40664236032" sp="9759416" raidPoints="1000" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="355555555" hpRegen="3853564.5" mp="2025740" mpRegen="1000" />
+			<vitals hp="355555555" hpRegen="385356.45" mp="2025740" mpRegen="1000" />
 			<attack physical="35810" magical="3783.6" random="5" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="25054.3352601156" magical="14520.4745968969" />
+			<defence physical="2505.43352601156" magical="1452.04745968969" />
 			<speed>
 				<walk ground="50" />
 				<run ground="279" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status attackable="true" noSleepMode="true" isDeathPenalty="true" />
@@ -2325,9 +2300,9 @@
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4045" level="2" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
 			<skill id="4122" level="1" /> <!-- Antharas -->
-			<skill id="4071" level="2" /> <!-- Bow Weapon Resistance -->
+			<skill id="4071" level="2" /> <!-- Bow Resistance -->
 		</skillList>
 		<corpseTime>14</corpseTime>
 		<exCrtEffect>true</exCrtEffect>
@@ -2341,32 +2316,30 @@
 		<dropLists>
 			<drop>
 				<group chance="100">
-					<item id="80" min="1" max="1" chance="8.4" /> <!-- Tallum Blade -->
-					<item id="98" min="1" max="1" chance="8.4" /> <!-- Halberd -->
-					<item id="150" min="1" max="1" chance="8.4" /> <!-- Elemental Sword -->
-					<item id="212" min="1" max="1" chance="8.4" /> <!-- Dasparion's Staff -->
-					<item id="235" min="1" max="1" chance="8.3" /> <!-- Bloody Orchid -->
-					<item id="269" min="1" max="1" chance="8.3" /> <!-- Blood Tornado -->
-					<item id="288" min="1" max="1" chance="8.3" /> <!-- Carnage Bow -->
-					<item id="2504" min="1" max="1" chance="8.3" /> <!-- Meteor Shower -->
-					<item id="7884" min="1" max="1" chance="8.3" /> <!-- Infernal Master -->
-					<item id="91903" min="1" max="1" chance="8.3" /> <!-- Lacerator -->
-					<item id="7894" min="1" max="1" chance="8.3" /> <!-- Spiritual Eye -->
-					<item id="7899" min="1" max="1" chance="8.3" /> <!-- Destroyer Hammer -->
+					<item id="80" min="1" max="1" chance="9.1" /> <!-- Tallum Blade -->
+					<item id="98" min="1" max="1" chance="9.09" /> <!-- Halberd -->
+					<item id="150" min="1" max="1" chance="9.09" /> <!-- Elemental Sword -->
+					<item id="212" min="1" max="1" chance="9.09" /> <!-- Dasparion's Staff -->
+					<item id="235" min="1" max="1" chance="9.09" /> <!-- Bloody Orchid -->
+					<item id="269" min="1" max="1" chance="9.09" /> <!-- Blood Tornado -->
+					<item id="288" min="1" max="1" chance="9.09" /> <!-- Carnage Bow -->
+					<item id="2504" min="1" max="1" chance="9.09" /> <!-- Meteor Shower -->
+					<item id="7884" min="1" max="1" chance="9.09" /> <!-- Infernal Master -->
+					<item id="7894" min="1" max="1" chance="9.09" /> <!-- Spiritual Eye -->
+					<item id="7899" min="1" max="1" chance="9.09" /> <!-- Destroyer Hammer -->
 				</group>
 				<group chance="100">
-					<item id="81" min="1" max="1" chance="8.4" /> <!-- Dragon Slayer -->
-					<item id="151" min="1" max="1" chance="8.4" /> <!-- Sword of Miracles -->
-					<item id="164" min="1" max="1" chance="8.4" /> <!-- Elysian -->
-					<item id="213" min="1" max="1" chance="8.4" /> <!-- Branch of the Mother Tree -->
-					<item id="236" min="1" max="1" chance="8.3" /> <!-- Soul Separator -->
-					<item id="270" min="1" max="1" chance="8.3" /> <!-- Dragon Grinder -->
-					<item id="289" min="1" max="1" chance="8.3" /> <!-- Soul Bow -->
-					<item id="91888" min="1" max="1" chance="8.3" /> <!-- Undertaker -->
-					<item id="305" min="1" max="1" chance="8.3" /> <!-- Tallum Glaive -->
-					<item id="2500" min="1" max="1" chance="8.3" /> <!-- Dark Legion's Edge -->
-					<item id="7895" min="1" max="1" chance="8.3" /> <!-- Flaming Dragon Skull -->
-					<item id="7902" min="1" max="1" chance="8.3" /> <!-- Doom Crusher -->
+					<item id="81" min="1" max="1" chance="9.1" /> <!-- Dragon Slayer -->
+					<item id="151" min="1" max="1" chance="9.09" /> <!-- Sword of Miracles -->
+					<item id="164" min="1" max="1" chance="9.09" /> <!-- Elysian -->
+					<item id="213" min="1" max="1" chance="9.09" /> <!-- Branch of the Mother Tree -->
+					<item id="236" min="1" max="1" chance="9.09" /> <!-- Soul Separator -->
+					<item id="270" min="1" max="1" chance="9.09" /> <!-- Dragon Grinder -->
+					<item id="289" min="1" max="1" chance="9.09" /> <!-- Soul Bow -->
+					<item id="305" min="1" max="1" chance="9.09" /> <!-- Tallum Glaive -->
+					<item id="2500" min="1" max="1" chance="9.09" /> <!-- Dark Legion's Edge -->
+					<item id="7895" min="1" max="1" chance="9.09" /> <!-- Flaming Dragon Skull -->
+					<item id="7902" min="1" max="1" chance="9.09" /> <!-- Doom Crusher -->
 				</group>
 				<group chance="100">
 					<item id="7883" min="1" max="3" chance="17" /> <!-- Guardian's Sword -->
@@ -2377,23 +2350,21 @@
 					<item id="7901" min="1" max="3" chance="16" /> <!-- Star Buster -->
 				</group>
 				<group chance="100">
-					<item id="8678" min="1" max="1" chance="7.2" /> <!-- Sirra's Blade -->
-					<item id="91887" min="1" max="1" chance="7.2" /> <!-- Durendal -->
-					<item id="91902" min="1" max="1" chance="7.2" /> <!-- Éclair Bijou -->
-					<item id="8679" min="1" max="1" chance="7.2" /> <!-- Sword of Ipos -->
-					<item id="8680" min="1" max="1" chance="7.2" /> <!-- Barakiel's Axe -->
-					<item id="8681" min="1" max="1" chance="7.2" /> <!-- Behemoth' Tuning Fork -->
-					<item id="8682" min="1" max="1" chance="7.1" /> <!-- Naga Storm -->
-					<item id="8683" min="1" max="1" chance="7.1" /> <!-- Tiphon's Spear -->
-					<item id="8684" min="1" max="1" chance="7.1" /> <!-- Shyeed's Bow -->
-					<item id="8685" min="1" max="1" chance="7.1" /> <!-- Sobekk's Hurricane -->
-					<item id="8686" min="1" max="1" chance="7.1" /> <!-- Themis' Tongue -->
-					<item id="8687" min="1" max="1" chance="7.1" /> <!-- Cabrio's Hand -->
-					<item id="8688" min="1" max="1" chance="7.1" /> <!-- Daimon Crystal -->
-					<item id="5706" min="1" max="1" chance="7.1" /> <!-- Damascus*Damascus -->
+					<item id="8678" min="1" max="1" chance="8.34" /> <!-- Sirra's Blade -->
+					<item id="8679" min="1" max="1" chance="8.33" /> <!-- Sword of Ipos -->
+					<item id="8680" min="1" max="1" chance="8.33" /> <!-- Barakiel's Axe -->
+					<item id="8681" min="1" max="1" chance="8.33" /> <!-- Behemoth' Tuning Fork -->
+					<item id="8682" min="1" max="1" chance="8.34" /> <!-- Naga Storm -->
+					<item id="8683" min="1" max="1" chance="8.33" /> <!-- Tiphon's Spear -->
+					<item id="8684" min="1" max="1" chance="8.34" /> <!-- Shyeed's Bow -->
+					<item id="8685" min="1" max="1" chance="8.33" /> <!-- Sobekk's Hurricane -->
+					<item id="8686" min="1" max="1" chance="8.34" /> <!-- Themis' Tongue -->
+					<item id="8687" min="1" max="1" chance="8.33" /> <!-- Cabrio's Hand -->
+					<item id="8688" min="1" max="1" chance="8.33" /> <!-- Daimon Crystal -->
+					<item id="5706" min="1" max="1" chance="8.33" /> <!-- Damascus*Damascus -->
 				</group>
 				<group chance="100">
-					<item id="5287" min="1" max="3" chance="12.5" /> <!-- Sealed Dark Crystal Breastplate -->
+					<item id="5287" min="1" max="3" chance="12.5" /> <!-- Sealed Dark Crystal breastplate -->
 					<item id="5288" min="1" max="3" chance="12.5" /> <!-- Sealed Dark Crystal Gaiters -->
 					<item id="5289" min="1" max="3" chance="12.5" /> <!-- Sealed Dark Crystal Helmet -->
 					<item id="5290" min="1" max="3" chance="10" /> <!-- Sealed Dark Crystal Gloves -->
@@ -2432,76 +2403,72 @@
 					<item id="5315" min="1" max="3" chance="50" /> <!-- Sealed Shield of Nightmare -->
 				</group>
 				<group chance="100">
-					<item id="33809" min="2" max="4" chance="50" /> <!-- Improved Scroll: Enchant Weapon (A-grade) - Exchangeable -->
-					<item id="33815" min="2" max="4" chance="50" /> <!-- Improved Scroll: Enchant Armor (A-grade) - Exchangeable -->
+					<item id="33809" min="2" max="4" chance="50" /> <!-- Improved Scroll: Enchant Weapon (A-grade) -->
+					<item id="33815" min="2" max="4" chance="50" /> <!-- Improved Scroll: Enchant Armor (A-grade) -->
 				</group>
 				<group chance="100">
-					<item id="33808" min="3" max="7" chance="50" /> <!-- Improved Scroll: Enchant Weapon (B-grade) - Exchangeable -->
-					<item id="33814" min="3" max="7" chance="50" /> <!-- Improved Scroll: Enchant Armor (B-grade) - Exchangeable -->
+					<item id="33808" min="2" max="8" chance="50" /> <!-- Improved Scroll: Enchant Weapon (B-grade) -->
+					<item id="33814" min="2" max="8" chance="50" /> <!-- Improved Scroll: Enchant Armor (B-grade) -->
 				</group>
 				<group chance="100">
-					<item id="33807" min="3" max="7" chance="50" /> <!-- Improved Scroll: Enchant Weapon (C-grade) - Exchangeable -->
-					<item id="33813" min="3" max="7" chance="50" /> <!-- Improved Scroll: Enchant Armor (C-grade) - Exchangeable -->
+					<item id="33807" min="2" max="8" chance="50" /> <!-- Improved Scroll: Enchant Weapon (C-grade) -->
+					<item id="33813" min="2" max="8" chance="50" /> <!-- Improved Scroll: Enchant Armor (C-grade) -->
 				</group>
 				<group chance="100">
-					<item id="90997" min="3" max="7" chance="100" /> <!-- Balthus Knights Shining Varnish -->
+					<item id="90997" min="2" max="8" chance="100" /> <!-- Balthus Knights' Shining Varnish -->
 				</group>
 				<group chance="100">
-					<item id="90998" min="1" max="3" chance="100" /> <!-- Balthus Knights Glittering Varnish -->
+					<item id="90998" min="1" max="3" chance="100" /> <!-- Balthus Knights' Glittering Varnish -->
 				</group>
 				<group chance="30">
-					<item id="90992" min="1" max="1" chance="100" /> <!-- Antharas' Earring Lv. 1 -->
+					<item id="90992" min="1" max="1" chance="100" /> <!-- Antharas' Earring -->
 				</group>
-				<group chance="100">
+				<group chance="30">
 					<item id="91547" min="1" max="1" chance="100" /> <!-- Special Weapon Varnish (A-grade) -->
 				</group>
-				<group chance="100">
+				<group chance="50">
 					<item id="91548" min="1" max="1" chance="100" /> <!-- Special Armor Varnish (A-grade) -->
 				</group>
-				<group chance="100">
+				<group chance="50">
 					<item id="91549" min="1" max="1" chance="100" /> <!-- Special Accessory Varnish (A-grade) -->
 				</group>
 				<group chance="100">
-					<item id="91499" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Forgotten Blade -->
-					<item id="91500" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Basalt Battlehammer -->
-					<item id="91501" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Imperial Staff -->
-					<item id="91502" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Angel Slayer -->
-					<item id="91503" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Dragon Hunter Axe -->
-					<item id="91504" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Saint Spear -->
-					<item id="91505" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Demon Splinter -->
-					<item id="91506" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Heaven's Divider -->
-					<item id="91507" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Arcana Mace -->
-					<item id="91508" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Draconic Bow -->
-					<item id="91509" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Breastplate -->
-					<item id="91510" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Gaiters -->
-					<item id="91511" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Gauntlets -->
-					<item id="91512" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Boots -->
-					<item id="91513" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Shield -->
-					<item id="91514" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Imperial Crusader Helmet -->
-					<item id="91515" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Draconic Leather Armor -->
-					<item id="91516" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Draconic Leather Gloves -->
-					<item id="91517" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Draconic Leather Boots -->
-					<item id="91518" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Draconic Leather Helmet -->
-					<item id="91519" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Major Arcana Robe -->
-					<item id="91520" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Major Arcana Gloves -->
-					<item id="91521" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Major Arcana Boots -->
-					<item id="91522" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Major Arcana Circlet -->
-					<item id="91523" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Tateossian Earring -->
-					<item id="91524" min="1" max="1" chance="3.7" /> <!-- Crafting Pack - Sealed Tateossian Ring -->
-					<item id="91525" min="1" max="1" chance="3.8" /> <!-- Crafting Pack - Sealed Tateossian Necklace -->
+					<item id="91499" min="1" max="1" chance="3.7" /> <!-- Forgotten Blade Crafting Pack -->
+					<item id="91500" min="1" max="1" chance="3.7" /> <!-- Basalt Battlehammer Crafting Pack -->
+					<item id="91501" min="1" max="1" chance="3.7" /> <!-- Imperial Staff Crafting Pack -->
+					<item id="91502" min="1" max="1" chance="3.7" /> <!-- Angel Slayer Crafting Pack -->
+					<item id="91503" min="1" max="1" chance="3.7" /> <!-- Dragon Hunter Axe Crafting Pack -->
+					<item id="91504" min="1" max="1" chance="3.7" /> <!-- Saint Spear Crafting Pack -->
+					<item id="91505" min="1" max="1" chance="3.7" /> <!-- Demon Splinter Crafting Pack -->
+					<item id="91506" min="1" max="1" chance="3.7" /> <!-- Heaven's Divider Crafting Pack -->
+					<item id="91507" min="1" max="1" chance="3.7" /> <!-- Arcana Mace Crafting Pack -->
+					<item id="91508" min="1" max="1" chance="3.7" /> <!-- Draconic Bow Crafting Pack -->
+					<item id="91509" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Breastplate Crafting Pack -->
+					<item id="91510" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Gaiters Crafting Pack -->
+					<item id="91511" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Gauntlets Crafting Pack -->
+					<item id="91512" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Boots Crafting Pack -->
+					<item id="91513" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Shield Crafting Pack -->
+					<item id="91514" min="1" max="1" chance="3.7" /> <!-- Sealed Imperial Crusader Helmet Crafting Pack -->
+					<item id="91515" min="1" max="1" chance="3.7" /> <!-- Sealed Draconic Leather Armor Crafting Pack -->
+					<item id="91516" min="1" max="1" chance="3.7" /> <!-- Sealed Draconic Leather Gloves Crafting Pack -->
+					<item id="91517" min="1" max="1" chance="3.7" /> <!-- Sealed Draconic Leather Boots Crafting Pack -->
+					<item id="91518" min="1" max="1" chance="3.7" /> <!-- Sealed Draconic Leather Helmet Crafting Pack -->
+					<item id="91519" min="1" max="1" chance="3.7" /> <!-- Sealed Major Arcana Robe Crafting Pack -->
+					<item id="91520" min="1" max="1" chance="3.7" /> <!-- Sealed Major Arcana Gloves Crafting Pack -->
+					<item id="91521" min="1" max="1" chance="3.7" /> <!-- Sealed Major Arcana Boots Crafting Pack -->
+					<item id="91522" min="1" max="1" chance="3.7" /> <!-- Sealed Major Arcana Circlet Crafting Pack -->
+					<item id="91523" min="1" max="1" chance="3.7" /> <!-- Sealed Tateossian Earring Crafting Pack -->
+					<item id="91524" min="1" max="1" chance="3.7" /> <!-- Sealed Tateossian Ring Crafting Pack -->
+					<item id="91525" min="1" max="1" chance="3.8" /> <!-- Sealed Tateossian Necklace Crafting Pack -->
 				</group>
 				<group chance="20">
 					<item id="91497" min="1" max="1" chance="100" /> <!-- Dual Weapon Crafting Stamp (S-grade) -->
 				</group>
 				<group chance="100">
-					<item id="959" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Weapon (S-grade) - Exchangeable -->
+					<item id="959" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Weapon (S-grade) -->
 				</group>
 				<group chance="100">
-					<item id="960" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Armor (S-grade) - Exchangeable -->
-				</group>
-				<group chance="100">
-					<item id="94186" min="1" max="1" chance="16" /> <!-- Life Stone Lv. 2 - Weapon -->
-					<item id="94188" min="1" max="1" chance="84" /> <!-- Life Stone Lv. 2 - Armor -->
+					<item id="960" min="1" max="1" chance="100" /> <!-- Scroll: Enchant Armor (S-grade) -->
 				</group>
 			</drop>
 		</dropLists>
@@ -2522,7 +2489,7 @@
 				<walk ground="55" />
 				<run ground="180" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" isDeathPenalty="true" />
@@ -2564,7 +2531,7 @@
 				<walk ground="35" />
 				<run ground="250" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -2603,7 +2570,7 @@
 				<walk ground="35" />
 				<run ground="245" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -2641,7 +2608,7 @@
 				<walk ground="35" />
 				<run ground="255" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -2679,7 +2646,7 @@
 				<walk ground="35" />
 				<run ground="247" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -2717,7 +2684,7 @@
 				<walk ground="35" />
 				<run ground="252" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -2755,7 +2722,7 @@
 				<walk ground="35" />
 				<run ground="243" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -2793,7 +2760,7 @@
 				<walk ground="35" />
 				<run ground="250" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" noSleepMode="true" />
@@ -2846,12 +2813,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2897,12 +2864,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2948,12 +2915,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -2999,12 +2966,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3050,12 +3017,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3101,12 +3068,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3152,12 +3119,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3203,12 +3170,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3254,12 +3221,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3305,12 +3272,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3356,12 +3323,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3407,12 +3374,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3458,12 +3425,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3509,12 +3476,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3560,12 +3527,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3611,12 +3578,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3662,12 +3629,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3713,12 +3680,12 @@
 				<walk ground="1" />
 				<run ground="20" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="false" undying="true" />
 		<skillList>
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
@@ -3747,7 +3714,7 @@
 				<walk ground="80" />
 				<run ground="120" />
 			</speed>
-			<hitTime>600</hitTime>
+			<hitTime>60</hitTime>
 			<abnormalResist physical="230" magical="230" />
 		</stats>
 		<status attackable="true" />
