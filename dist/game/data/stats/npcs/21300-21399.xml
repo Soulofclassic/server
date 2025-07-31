@@ -5,34 +5,24 @@
 		<sex>MALE</sex>
 		<acquire exp="680551" sp="10208" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="17090.342505" hpRegen="8.5" mp="2963.865" mpRegen="3" />
 			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="130" />
 			</speed>
-			<hitTime>520</hitTime>
-			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" />
-		<ai clanHelpRange="300" aggroRange="300">
-			<clanList>
-				<clan>TOMB</clan>
-			</clanList>
-		</ai>
 		<collision>
 			<radius normal="14" />
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Average P. Def. -->
-			<skill id="4413" level="1" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="12" /> <!-- Bug -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 			<skill id="4439" level="2" /> <!-- Greater Hold Resistance -->
@@ -60,15 +50,13 @@
 		<sex>MALE</sex>
 		<acquire exp="1355598" sp="20333" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="17090.342505" hpRegen="8.5" mp="2963.865" mpRegen="3" />
 			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="130" />
 			</speed>
-			<hitTime>520</hitTime>
-			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" />
 		<collision>
@@ -76,14 +64,10 @@
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="12" /> <!-- Bug -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 			<skill id="4438" level="2" /> <!-- Greater Sleep Resistance -->
@@ -94,15 +78,13 @@
 		<sex>MALE</sex>
 		<acquire exp="680551" sp="20416" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="17090.342505" hpRegen="8.5" mp="2963.865" mpRegen="3" />
 			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="180" />
 			</speed>
-			<hitTime>520</hitTime>
-			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" />
 		<collision>
@@ -110,14 +92,10 @@
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="1" /> <!-- Slightly Strong P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Slightly Strong M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Average P. Def. -->
-			<skill id="4413" level="1" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="12" /> <!-- Bug -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 		</skillList>
@@ -147,15 +125,13 @@
 		<sex>MALE</sex>
 		<acquire exp="1355598" sp="40667" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="21518.7126" hpRegen="17" mp="2718" mpRegen="6" />
+			<vitals hp="17090.342505" hpRegen="8.5" mp="2963.865" mpRegen="3" />
 			<attack physical="1144.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="357.86723" magical="261.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="180" />
 			</speed>
-			<hitTime>520</hitTime>
-			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" />
 		<collision>
@@ -163,14 +139,10 @@
 			<height normal="22" />
 		</collision>
 		<skillList>
-			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="1" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="1" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="1" /> <!-- Slightly Strong P. Def. -->
-			<skill id="4413" level="1" /> <!-- Slightly Strong M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4416" level="12" /> <!-- Bug -->
+			<skill id="4408" level="10" /> <!-- HP Increase (2x) -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4437" level="4" /> <!-- Greater Bleed Resistance -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
 			<skill id="4438" level="2" /> <!-- Greater Sleep Resistance -->

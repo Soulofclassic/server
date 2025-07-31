@@ -20,8 +20,8 @@
 		<acquire exp="18777" sp="1630" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2039.28316159136" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
-			<attack physical="481.34551" magical="328.69659" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="247.65008" magical="181.21958" />
+			<attack physical="582.4280671" magical="328.69659" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="204.6694876" magical="181.21958" />
 			<speed>
 				<walk ground="50" />
 				<run ground="160" />
@@ -2473,10 +2473,6 @@
 					<item id="1864" min="1" max="1" chance="21.4977" /> <!-- Stem -->
 					<item id="1869" min="1" max="1" chance="10.7488" /> <!-- Iron Ore -->
 					<item id="1866" min="1" max="1" chance="7.1659" /> <!-- Suede -->
-					<item id="92908" min="1" max="1" chance="10.7488" /> <!-- Crafting Herb: Crumbled Wooden Piece -->
-					<item id="92909" min="1" max="1" chance="2.1498" /> <!-- Crafting Herb: Miscellaneous Pouch -->
-					<item id="92910" min="1" max="1" chance="1.0749" /> <!-- Crafting Herb: Old Fabric Piece -->
-					<item id="92914" min="1" max="1" chance="0.0358" /> <!-- Crafting Herb: Parts Pouch -->
 				</group>
 			</drop>
 			<spoil>
@@ -2504,8 +2500,8 @@
 		<equipment rhand="9" /> <!-- Cedar Staff -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2629.45885739491" hpRegen="8.5" mp="1377.8" mpRegen="3" />
-			<attack physical="710.2185" magical="484.98717" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="300.65359" magical="220.00525" />
+			<attack physical="602.6356364" magical="482.44274" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="321.793719" magical="214.1539" />
 			<speed>
 				<walk ground="10" />
 				<run ground="130" />
@@ -2551,8 +2547,8 @@
 		<equipment rhand="175" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
-			<attack physical="731.52506" magical="499.53679" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="305.35947" magical="223.44881" />
+			<attack physical="632.6356364" magical="502.44274" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="331.793719" magical="224.1539" />
 			<speed>
 				<walk ground="36" />
 				<run ground="180" />
@@ -2605,7 +2601,7 @@
 		<acquire exp="6644" sp="1" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1498.94623198693" hpRegen="5.5" mp="747.8" mpRegen="2.1" />
-			<attack physical="305.54906" magical="208.6504" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="305.54906" magical="208.6504" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="200.23844" magical="146.5258" />
 			<speed>
 				<walk ground="36" />
@@ -2659,8 +2655,8 @@
 		<acquire exp="21946" sp="5" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1498.94623198693" hpRegen="5.5" mp="747.8" mpRegen="2.1" />
-			<attack physical="305.54906" magical="208.6504" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="200.23844" magical="146.5258" />
+			<attack physical="305.54906" magical="208.6504" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="170.202674" magical="146.5258" evasion="10" />
 			<speed>
 				<walk ground="50" />
 				<run ground="130" />
@@ -2713,7 +2709,7 @@
 		<acquire exp="27201" sp="6" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="1657.01086128246" hpRegen="6.5" mp="832.4" mpRegen="2.4" />
-			<attack physical="353.71092" magical="241.5387" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="353.71092" magical="241.5387" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="214.18326" magical="156.73001" />
 			<speed>
 				<walk ground="50" />
