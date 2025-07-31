@@ -1486,14 +1486,6 @@
 				<skillLevel>1</skillLevel>
 			</effect>
 			<effect name="CallSkill">
-				<skillId>54103</skillId> <!-- Deacrease weight -->
-				<skillLevel>1</skillLevel>
-			</effect>
-			<effect name="CallSkill">
-				<skillId>54104</skillId> <!-- Berserker Spirit  -->
-				<skillLevel>1</skillLevel>
-			</effect>
-			<effect name="CallSkill">
 				<skillId>54105</skillId> <!-- Wind Walk -->
 				<skillLevel>1</skillLevel>
 			</effect>
