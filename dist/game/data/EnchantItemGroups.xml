@@ -52,6 +52,34 @@
 		<current enchant="11-65535" chance="0" />
 	</enchantRateGroup>
 
+	<!-- Enchant Талисманы #123 -->
+	<enchantRateGroup name="ACCESSORY">
+		<!-- Talisman of Aden -->
+		<item id="91745">
+			<current enchant="0-1" chance="100.0" />
+			<current enchant="1-2" chance="80.0" />
+			<current enchant="2-3" chance="70.0" />
+			<current enchant="3-4" chance="60.0" />
+			<current enchant="4-5" chance="50.0" /><!--+6 - НЕСГОРАЕМЫЙ ЛВЛ-->
+			<current enchant="5-6" chance="40.0" />
+			<current enchant="6-7" chance="30.0" />
+			<current enchant="7-8" chance="20.0" />
+			<current enchant="8-9" chance="10.0" /> <!--+10-->
+		</item>
+		<!-- Talisman of Eva -->
+		<item id="92018">
+			<current enchant="0-1" chance="100.0" />
+			<current enchant="1-2" chance="80.0" />
+			<current enchant="2-3" chance="70.0" />
+			<current enchant="3-4" chance="60.0" />
+			<current enchant="4-5" chance="50.0" /><!--+6 - НЕСГОРАЕМЫЙ ЛВЛ-->
+			<current enchant="5-6" chance="40.0" />
+			<current enchant="6-7" chance="30.0" />
+			<current enchant="7-8" chance="20.0" />
+			<current enchant="8-9" chance="10.0" /> <!--+10-->
+		</item>
+	 <!-- #123 -->
+
 	<!-- Default scrolls enchanting route line. -->
 	<enchantScrollGroup id="0">
 		<!-- Bind armor group to all item slots except full armor. -->
@@ -96,6 +124,12 @@
 		<enchantRate group="MAGE_WEAPON_GROUP">
 			<item slot="rhand" magicWeapon="true" /> <!-- Right hand: Weapons, Magic weapon -->
 			<item slot="lrhand" magicWeapon="true" /> <!-- Two hands: Weapons, Magic weapon -->
+		</enchantRate>
+	</enchantScrollGroup>
+	<enchantScrollGroup id="100">
+		<!-- Bind armor group to all item slots except full armor. -->
+		<enchantRate group="ACCESSORY">
+			<item slot="talisman" /> <!-- Talisman -->
 		</enchantRate>
 	</enchantScrollGroup>
 </list>

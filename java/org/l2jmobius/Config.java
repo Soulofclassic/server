@@ -85,6 +85,10 @@ public class Config
 {
 	private static final Logger LOGGER = Logger.getLogger(Config.class.getName());
 	
+	// === Кастомные переменные для заточки талисманов #123===
+    public static int CUSTOM_SAFE_ENCHANT_LEVEL;
+    public static int[] TALISMAN_SCROLL_IDS;
+
 	// --------------------------------------------------
 	// Public Files
 	// --------------------------------------------------
@@ -1715,6 +1719,15 @@ public class Config
 			HP_REGEN_MULTIPLIER = characterConfig.getDouble("HpRegenMultiplier", 100) / 100;
 			MP_REGEN_MULTIPLIER = characterConfig.getDouble("MpRegenMultiplier", 100) / 100;
 			CP_REGEN_MULTIPLIER = characterConfig.getDouble("CpRegenMultiplier", 100) / 100;
+			// === Кастомные настройки зачарования таликов #123 ===
+			CUSTOM_SAFE_ENCHANT_LEVEL = characterConfig.getInt("CustomSafeEnchantLevel", 6);
+			final String[] talismanScrolls = characterConfig.getString("TalismanScrollIds", "91756,92017").split(",");
+        		TALISMAN_SCROLL_IDS = new int[talismanScrolls.length];
+        		for (int i = 0; i < talismanScrolls.length; i++)
+        		{
+            		TALISMAN_SCROLL_IDS[i] = Integer.parseInt(talismanScrolls[i].trim());
+        		}
+			// #123
 			ENABLE_MODIFY_SKILL_DURATION = characterConfig.getBoolean("EnableModifySkillDuration", false);
 			if (ENABLE_MODIFY_SKILL_DURATION)
 			{

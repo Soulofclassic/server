@@ -260,11 +260,11 @@
 		<options level="9" option1="60218" />
 		<options level="10" option1="60219" />
 	</item>
-	<item id="91745"> <!-- Talisman of Aden -->
+	<item id="91745"> <!-- Talisman of Aden После тестов удалить?-->
 		<options level="0" option1="33338" />
-		<options level="1" option1="33339" />
-		<options level="2" option1="33340" />
-		<options level="3" option1="33341" />
+		<options level="1" option1="33339" chance="100"/>
+		<options level="2" option1="33340" chance="90"/>
+		<options level="3" option1="33341" chance="80"/>
 		<options level="4" option1="33342" />
 		<options level="5" option1="33343" />
 		<options level="6" option1="33344" />
@@ -273,7 +273,7 @@
 		<options level="9" option1="33347" />
 		<options level="10" option1="33348" />
 	</item>
-	<item id="92018"> <!-- Talisman of Eva -->
+	<item id="92018"> <!-- Talisman of Eva  После тестов удалить?-->
 		<options level="0" option1="33404" />
 		<options level="1" option1="33405" />
 		<options level="2" option1="33406" />

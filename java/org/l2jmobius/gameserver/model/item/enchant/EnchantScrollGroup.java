@@ -28,6 +28,7 @@ import org.l2jmobius.gameserver.model.item.ItemTemplate;
 public class EnchantScrollGroup
 {
 	private final int _id;
+	private final List<Integer> _scrollIds = new ArrayList<>();
 	private List<EnchantRateItem> _rateGroups;
 	
 	public EnchantScrollGroup(int id)
@@ -42,7 +43,24 @@ public class EnchantScrollGroup
 	{
 		return _id;
 	}
-	
+
+    /** #123
+     * Adds a scroll ID to this group.
+     * @param scrollId
+     */
+    public void addScrollId(int scrollId)
+    {
+        _scrollIds.add(scrollId);
+    }
+
+    /** #123
+     * @return unmodifiable list of scroll IDs.
+     */
+    public List<Integer> getScrollIds()
+    {
+        return Collections.unmodifiableList(_scrollIds);
+    }
+
 	/**
 	 * Adds new rate group.
 	 * @param group
@@ -61,7 +79,7 @@ public class EnchantScrollGroup
 	 */
 	public List<EnchantRateItem> getRateGroups()
 	{
-		return _rateGroups != null ? _rateGroups : Collections.emptyList();
+		return _rateGroups != null ? Collections.unmodifiableList(_rateGroups) : Collections.emptyList(); /*#123 */
 	}
 	
 	/**

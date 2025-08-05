@@ -23,6 +23,7 @@ package org.l2jmobius.gameserver.model.item.enchant;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Logger;
 
 import org.l2jmobius.commons.util.Rnd;
 import org.l2jmobius.gameserver.data.xml.EnchantItemData;
@@ -40,6 +41,14 @@ import org.l2jmobius.gameserver.model.stats.Stat;
  */
 public class EnchantScroll extends AbstractEnchantItem
 {
+    private static final Logger LOGGER = Logger.getLogger(EnchantScroll.class.getName());
+    
+    /** Кастомный безопасный уровень для талисманов (Talisman of Aden / Eva) #123. В дальнейшем стоит брать из конфига */
+    private static final int CUSTOM_SAFE_ENCHANT_LEVEL = 6;
+    
+    /** Массив ID скроллов, используемых для зачарования талисманов #123*/
+    private static final int[] TALISMAN_SCROLL_IDS = { 91756, 92017 };
+
 	private final boolean _isWeapon;
 	private final boolean _isBlessed;
 	private final boolean _isBlessedDown;
@@ -54,11 +63,30 @@ public class EnchantScroll extends AbstractEnchantItem
 		_scrollGroupId = set.getInt("scrollGroupId", 0);
 		
 		final ItemType type = getItem().getItemType();
-		_isWeapon = (type == EtcItemType.ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_WP) || (type == EtcItemType.BLESS_ENCHT_WP) || (type == EtcItemType.ENCHT_WP) || (type == EtcItemType.GIANT_ENCHT_WP);
-		_isBlessed = (type == EtcItemType.BLESS_ENCHT_AM) || (type == EtcItemType.BLESS_ENCHT_WP) || (type == EtcItemType.BLESSED_ENCHT_ATTR_INC_PROP_ENCHT_WP) || (type == EtcItemType.BLESSED_ENCHT_ATTR_INC_PROP_ENCHT_AM) || (type == EtcItemType.BLESSED_GIANT_ENCHT_ATTR_INC_PROP_ENCHT_AM) || (type == EtcItemType.BLESSED_GIANT_ENCHT_ATTR_INC_PROP_ENCHT_WP);
-		_isBlessedDown = (type == EtcItemType.BLESS_ENCHT_AM_DOWN);
-		_isSafe = (type == EtcItemType.ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_AM) || (type == EtcItemType.ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_WP) || (type == EtcItemType.ENCHT_ATTR_CRYSTAL_ENCHANT_AM) || (type == EtcItemType.ENCHT_ATTR_CRYSTAL_ENCHANT_WP);
-		_isGiant = (type == EtcItemType.GIANT_ENCHT_AM) || (type == EtcItemType.GIANT_ENCHT_WP);
+        _isWeapon = (type == EtcItemType.ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_WP) || 
+                    (type == EtcItemType.BLESS_ENCHT_WP) || 
+                    (type == EtcItemType.ENCHT_WP) || 
+                    (type == EtcItemType.GIANT_ENCHT_WP);
+        
+        _isBlessed = (type == EtcItemType.BLESS_ENCHT_AM) || 
+                     (type == EtcItemType.BLESS_ENCHT_WP) || 
+                     (type == EtcItemType.BLESSED_ENCHT_ATTR_INC_PROP_ENCHT_WP) || 
+                     (type == EtcItemType.BLESSED_ENCHT_ATTR_INC_PROP_ENCHT_AM) || 
+                     (type == EtcItemType.BLESSED_GIANT_ENCHT_ATTR_INC_PROP_ENCHT_AM) || 
+                     (type == EtcItemType.BLESSED_GIANT_ENCHT_ATTR_INC_PROP_ENCHT_WP);
+        
+        _isBlessedDown = (type == EtcItemType.BLESS_ENCHT_AM_DOWN);
+        
+        _isSafe = (type == EtcItemType.ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_AM) || 
+                  (type == EtcItemType.ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_WP) || 
+                  (type == EtcItemType.ENCHT_ATTR_CRYSTAL_ENCHANT_AM) || 
+                  (type == EtcItemType.ENCHT_ATTR_CRYSTAL_ENCHANT_WP) ||
+                  // Делаем скроллы талисманов "safe" #123
+                  (getItem().getId() == 91756) || 
+                  (getItem().getId() == 92017);
+        
+        _isGiant = (type == EtcItemType.GIANT_ENCHT_AM) || 
+                   (type == EtcItemType.GIANT_ENCHT_WP);
 	}
 	
 	@Override
@@ -190,6 +218,13 @@ public class EnchantScroll extends AbstractEnchantItem
 			return -1;
 		}
 		
+		// === Кастомный безопасный уровень для талисманов #123===
+        if (isTalismanScroll() && enchantItem.getEnchantLevel() < CUSTOM_SAFE_ENCHANT_LEVEL)
+        {
+            return 100; 
+        }
+        // ================================================
+
 		if ((getSafeEnchant() > 0) && (enchantItem.getEnchantLevel() < getSafeEnchant()))
 		{
 			return 100;
@@ -226,4 +261,31 @@ public class EnchantScroll extends AbstractEnchantItem
 		final boolean success = (random < finalChance);
 		return success ? EnchantResultType.SUCCESS : EnchantResultType.FAILURE;
 	}
+
+	/**
+     * Проверяет, является ли этот скролл скроллом для талисманов (Talisman of Aden / Eva) №123
+     * @return {@code true} если скролл — для талисманов, иначе {@code false}
+     */
+    private boolean isTalismanScroll()
+    {
+        final int scrollId = getItem().getId();
+        for (int id : TALISMAN_SCROLL_IDS)
+        {
+            if (id == scrollId)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    /**
+     * Возвращает кастомный безопасный уровень для талисманов #123
+     * @return безопасный уровень зачарования
+     */
+    @Override
+    public int getSafeEnchant()
+    {
+        return isTalismanScroll() ? CUSTOM_SAFE_ENCHANT_LEVEL : super.getSafeEnchant();
+    }
 }

@@ -52,13 +52,8 @@
 	<enchant id="33813" targetGrade="C" maxEnchant="16" />
 	<enchant id="33812" targetGrade="D" maxEnchant="16" />
 
-	<!-- Talisman of Aden -->
-	<enchant id="91756" maxEnchant="10">
-		<item id="91745" />
-	</enchant>
-
-	<!-- Talisman of Eva -->
-	<enchant id="92017" maxEnchant="10">
-		<item id="92018" />
-	</enchant>
+	<!-- Talisman of Aden #123 -->
+	<enchant id="91756" maxEnchant="10" scrollGroupId="100" />
+	<!-- Talisman of Eva #123 -->
+	<enchant id="92017" maxEnchant="10" scrollGroupId="100" />
 </list>
