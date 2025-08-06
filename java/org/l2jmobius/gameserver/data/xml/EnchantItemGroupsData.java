@@ -57,7 +57,13 @@ public class EnchantItemGroupsData implements IXmlReader
 	{
 		_itemGroups.clear();
 		_scrollGroups.clear();
-		parseDatapackFile("data/EnchantItemGroups.xml");  
+
+		// 1. Загружаем шансы (EnchantItemGroups.xml) #123
+		parseDatapackFile("data/EnchantItemGroups.xml");
+
+		// 2. Загружаем связи скроллов и предметов (enchant_item_groups.xml) #123
+		parseDatapackFile("config/enchant/enchant_item_groups.xml");
+
 		LOGGER.info(getClass().getSimpleName() + ": Loaded " + _itemGroups.size() + " item group templates.");
 		LOGGER.info(getClass().getSimpleName() + ": Loaded " + _scrollGroups.size() + " scroll group templates.");
 		

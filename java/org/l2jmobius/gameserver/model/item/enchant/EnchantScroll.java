@@ -43,7 +43,7 @@ public class EnchantScroll extends AbstractEnchantItem
 {
     private static final Logger LOGGER = Logger.getLogger(EnchantScroll.class.getName());
     
-    /** Кастомный безопасный уровень для талисманов (Talisman of Aden / Eva) #123. В дальнейшем стоит брать из конфига */
+    /** Кастомный безопасный уровень для талисманов (Talisman of Aden / Eva) #123. Возможно, в дальнейшем стоит брать из конфига */
     private static final int CUSTOM_SAFE_ENCHANT_LEVEL = 6;
     
     /** Массив ID скроллов, используемых для зачарования талисманов #123*/
