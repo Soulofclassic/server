@@ -18,6 +18,7 @@ package handlers.communityboard;
 
 import org.l2jmobius.commons.database.DatabaseFactory;
 import org.l2jmobius.commons.threads.ThreadPool;
+import org.l2jmobius.commons.util.StringUtil;
 import org.l2jmobius.gameserver.data.sql.ClanTable;
 import org.l2jmobius.gameserver.handler.CommunityBoardHandler;
 import org.l2jmobius.gameserver.handler.IParseBoardHandler;
@@ -29,6 +30,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
+
 /**
  * @author Acacia
  */
@@ -39,10 +44,10 @@ public class PvpBoard implements IParseBoardHandler
     protected static StringBuilder _fameHTML = null;
     protected static StringBuilder _pkHTML = null;
     protected static StringBuilder _onlineHTML = null;
-    private static final String LOAD_PVP_HTML = "SELECT * FROM characters WHERE accesslevel=0 ORDER BY pvpkills DESC LIMIT 0, 25";
-    private static final String LOAD_FAME_HTML = "SELECT * FROM characters WHERE accesslevel=0 ORDER BY fame DESC LIMIT 0, 25";
-    private static final String LOAD_PK_HTML = "SELECT * FROM characters WHERE accesslevel=0 ORDER BY pkkills DESC LIMIT 0, 25";
-    private static final String LOAD_ONLINE_HTML = "SELECT * FROM characters WHERE accesslevel=0 ORDER BY online DESC LIMIT 0, 25";
+    private static final String LOAD_PVP_HTML = "SELECT * FROM characters WHERE accesslevel=0 ORDER BY pvpkills DESC LIMIT 0, 15";
+    private static final String LOAD_FAME_HTML = "SELECT * FROM characters WHERE accesslevel=0 ORDER BY fame DESC LIMIT 0, 15";
+    private static final String LOAD_PK_HTML = "SELECT * FROM characters WHERE accesslevel=0 ORDER BY pkkills DESC LIMIT 0, 15";
+    private static final String LOAD_ONLINE_HTML = "SELECT * FROM characters WHERE accesslevel=0 ORDER BY online DESC LIMIT 0, 15";
 
     private static final String[] COMMANDS =
             {
@@ -50,7 +55,8 @@ public class PvpBoard implements IParseBoardHandler
                     "_bbsfame",
                     "_bbsgetfav",
                     "_bbspk",
-                    "_bbsonline"
+                    "_bbsonline",
+                    "_bbsclanlist",
             };
 
     @Override
@@ -92,6 +98,13 @@ public class PvpBoard implements IParseBoardHandler
 
             CommunityBoardHandler.separateAndSend(html, player);
         }
+        else if (command.startsWith("_bbsclanlist"))
+        {
+            new ClanBoard().parseCommunityBoardCommand("_bbsclanlist;1", player);
+
+            return true;
+        }
+
         else if (command.startsWith("_bbsonline"))
         {
 
@@ -113,13 +126,15 @@ public class PvpBoard implements IParseBoardHandler
         return false;
     }
 
+
+
+
     @Override
     public String[] getCommunityBoardCommands()
     {
         return COMMANDS;
     }
 
-    @SuppressWarnings("null")
     public void loadHTML(int whichone)
     {
         final StringBuilder HTML = new StringBuilder(1000);
@@ -141,21 +156,73 @@ public class PvpBoard implements IParseBoardHandler
                 break;
         }
 
-        HTML.append("<html><title>" + info + "</title><body><br><center><table width=\"100%\">");
 
+
+        HTML.append("<html noscrollbar>");
+        HTML.append("<body>");
+        HTML.append("<table border=0 cellpadding=5 cellspacing=2>");
         HTML.append("<tr>");
+        HTML.append("<td>");
 
-        HTML.append("<td><font color=\"LEVEL\">Player Name</font></td>");
-        HTML.append("<td><font color=\"LEVEL\">Player Title</font></td>");
-        HTML.append("<td><font color=\"LEVEL\">Base Class</font></td>");
-        HTML.append("<td><font color=\"LEVEL\">%ONLINE%</font></td>");
-        HTML.append("<td><font color=\"LEVEL\">Clan</font></td>");
+        HTML.append("<table>");
+        HTML.append("<tr>");
+        HTML.append("<td>");
 
-        HTML.append("<td><font color=\"LEVEL\">%Fame%</font></td>");
-        HTML.append("<td><font color=\"LEVEL\">%PvP%</font></td>");
-        HTML.append("<td><font color=\"LEVEL\">%PK%</font></td>");
+        HTML.append("<table cellpadding=4 cellspacing=2 width=102 height=32 background=L2UI_Reborn.html.Bg1>");
+        HTML.append("<tr>");
+        HTML.append("<td align=center >");
+
+        HTML.append("<table cellpadding=0 cellspacing=0>");
+        HTML.append("<tr>");
+        HTML.append("<td height=28 align=center>");
+        HTML.append("<button align=center value=\"Top PvP\" action=\"bypass _bbspvp\" width=90 height=20 back=L2UI_NewTex.SimpleBtnGreen_DF fore=L2UI_NewTex.SimpleBtnGreen_Over>");
+        HTML.append("</td>");
+        HTML.append("<td height=28 align=center>");
+        HTML.append("<button align=center value=\"Top PK\" action=\"bypass _bbspk\" width=90 height=20 back=L2UI_NewTex.SimpleBtnBrown_DF fore=L2UI_NewTex.SimpleBtnBrown_Over>");
+        HTML.append("</td>");
 
         HTML.append("</tr>");
+        HTML.append("</table>");
+
+
+        HTML.append("</td>");
+        HTML.append("</tr>");
+        HTML.append("</table>");
+
+        HTML.append("</td>");
+        HTML.append("</tr>");
+        HTML.append("</table>");
+
+        HTML.append("<table cellpadding=0 cellspacing=0><tr><td height=7></td></tr></table>");
+
+        HTML.append("<table width=20>");
+        HTML.append("<tr>");
+        HTML.append("<td>");
+
+        HTML.append("<table border=0 cellpadding=2 cellspacing=2 width=759 height=450 background=L2UI_Reborn.html.Bg1>");
+        HTML.append("<tr><td height=2></td></tr>");
+
+        HTML.append("<tr>");
+        HTML.append("<td align=center>");
+        HTML.append("<table border=0 cellspacing=0 cellpadding=0 height=25>");
+        HTML.append("<tr>");
+        HTML.append("<td align=center>");
+        HTML.append("<table cellspacing=0 height=25 bgcolor=030202>");
+        HTML.append("<tr>");
+        HTML.append("<td width=1></td>");
+        HTML.append("<td width=2 align=center height=32></td>");
+        HTML.append("<td align=left width=30><font color=6f6f6f>#</font></td>");
+        HTML.append("<td width=2 align=center height=32></td>");
+        HTML.append("<td align=left width=209><font color=6f6f6f>Nickname</font></td>");
+        HTML.append("<td width=2 align=center height=32></td>");
+        HTML.append("<td align=left width=157><font color=6f6f6f>Clan</font></td>");
+        HTML.append("<td width=2 align=center height=32></td>");
+        HTML.append("<td align=left width=159><font color=6f6f6f>Main Class</font></td>");
+        HTML.append("<td width=2 align=center height=32></td>");
+        HTML.append("<td align=left width=171><font color=6f6f6f>PvP Count</font></td>");
+        HTML.append("</tr>");
+        HTML.append("</table>");
+
 
         PreparedStatement statement;
         ResultSet rs;
@@ -190,10 +257,14 @@ public class PvpBoard implements IParseBoardHandler
 
             rs = statement.executeQuery();
 
+            int rank = 1; // Ξεκινάει από 1
+
             while (rs.next())
             {
+
                 String name = rs.getString("char_name");
                 String title = rs.getString("title");
+
                 if (title == null)
                 {
                     title = "";
@@ -205,8 +276,16 @@ public class PvpBoard implements IParseBoardHandler
                 String pvps = String.valueOf(rs.getInt("pvpkills"));
                 String pks = String.valueOf(rs.getInt("pkkills"));
 
-              //  ClassId baseclass = ClassId.getClassId(rs.getInt("base_class"));
+
+//                String baseclass = ClassId.getClassId(rs.getInt("base_class")).name().toLowerCase();
+//
+//// Replace underscores with spaces and capitalize each word properly
+//                baseclass = Arrays.stream(baseclass.replace("_", " ").split(" "))
+//                        .map(word -> word.substring(0, 1).toUpperCase() + word.substring(1))
+//                        .collect(Collectors.joining(" "));
+
                 boolean online = Boolean.parseBoolean(String.valueOf(rs.getBoolean("online")));
+
 
                 if(rs.getBoolean("online"))
                 {
@@ -234,17 +313,39 @@ public class PvpBoard implements IParseBoardHandler
                     clanname = clan.getName() + " (Lvl " + clan.getLevel() + ")";
                 }
 
-                HTML.append("<tr>");
-                HTML.append("<td><font color=" + colorName + ">" + name + "</font></td>");
-                HTML.append("<td><font color=" + color + ">" + title + "</font></td>");
-                HTML.append("<td></td>");
-                HTML.append("<td><font color=" + colorOnline + ">" + online + "</font></td>");
-                HTML.append("<td><font color=" + color + ">" + clanname + "</font></td>");
 
-                HTML.append("<td><font color=" + colorFame + ">" + fame + "</font></td>");
-                HTML.append("<td><font color=" + colorPvPs + ">" + pvps + "</font></td>");
-                HTML.append("<td><font color=" + color + ">" + pks + "</font></td>");
+                String rankDisplay = "";
+                if (rank == 1) {
+                    rankDisplay = "<img src=L2UI_EPIC.SuppressWnd.RankingWnd_1stSmall width=24 height=24>";
+                } else if (rank == 2) {
+                    rankDisplay = "<img src=L2UI_EPIC.SuppressWnd.RankingWnd_2ndSmall width=24 height=24>";
+                } else if (rank == 3) {
+                    rankDisplay = "<img src=L2UI_EPIC.SuppressWnd.RankingWnd_3rdSmall width=24 height=24>";
+                } else {
+                    rankDisplay = "<span style=\"display:inline-block; width:24px; height:24px; line-height:24px; text-align:center; color:#FFFFFF; font-weight:bold;\">" + rank + "</span>";
+                }
+
+
+
+
+
+                HTML.append("<table cellspacing=0 height=25 " + (rank % 2 == 0 ? "bgcolor=\"030202\"" : "") + ">");
+                HTML.append("<tr>");
+                HTML.append("<td width=1></td>");
+                HTML.append("<td align=center  width=30>" + rankDisplay + "</td>");
+                HTML.append("<td width=2 align=center height=32></td>");
+                HTML.append("<td align=left width=209><font color=edac51>" + name + "</font></td>");
+                HTML.append("<td width=2 align=center height=32></td>");
+                HTML.append("<td align=left width=157><font color=d0d0d0>" + clanname + "</font></td>");
+                HTML.append("<td width=2 align=center height=32></td>");
+                HTML.append("<td></td>");
+                HTML.append("<td width=2 align=center height=32></td>");
+                HTML.append("<td align=left width=171><font color=f101f1>" + pvps + "</font></td>");
+
                 HTML.append("</tr>");
+                HTML.append("</table>");
+                rank++;
+
 
                 if (lol)
                 {
@@ -258,6 +359,31 @@ public class PvpBoard implements IParseBoardHandler
                 }
             }
 
+            HTML.append("</td>");
+            HTML.append("</tr>");
+            HTML.append("</table>");
+
+            HTML.append("</td>");
+            HTML.append("</tr>");
+            HTML.append("<tr>");
+            HTML.append("<td height=10></td>");
+            HTML.append("</tr>");
+            HTML.append("</table>");
+
+            HTML.append("<table border=0 cellpadding=0 cellspacing=0 width=555>");
+            HTML.append("<tr>");
+            HTML.append("<td height=10></td>");
+            HTML.append("</tr>");
+            HTML.append("</table>");
+
+            HTML.append("</td>");
+            HTML.append("</tr>");
+            HTML.append("</table>");
+
+            HTML.append("</td>");
+            HTML.append("</tr>");
+            HTML.append("</table>");
+            HTML.append("</body></html>");
             rs.close();
             statement.close();
         }
@@ -275,7 +401,6 @@ public class PvpBoard implements IParseBoardHandler
             {
             }
 
-            HTML.append("</table></center><br></body></html>");
         }
 
         switch (whichone)
@@ -296,6 +421,13 @@ public class PvpBoard implements IParseBoardHandler
         }
     }
 
+    private String generateClanBoardHTML()
+    {
+        ClanBoard cb = new ClanBoard();
+        return cb.parseCommunityBoardCommand("_bbsclanlist;1", _player) ? null : "";
+    }
+
+
     public PvpBoard() {
         ThreadPool.scheduleAtFixedRate(new Start(), 0 ,10000); //5 minutes
     }
@@ -314,7 +446,7 @@ public class PvpBoard implements IParseBoardHandler
 
     public static PvpBoard getInstance()
     {
-        return SingletonHolder.INSTANCE;
+        return PvpBoard.SingletonHolder.INSTANCE;
     }
 
     private static class SingletonHolder
@@ -322,3 +454,5 @@ public class PvpBoard implements IParseBoardHandler
         protected static final PvpBoard INSTANCE = new PvpBoard();
     }
 }
+
+
