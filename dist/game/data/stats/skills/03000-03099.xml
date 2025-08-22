@@ -2504,64 +2504,22 @@
 			</effect>
 		</endEffects>
 	</skill>
-	<skill id="3080" toLevel="15" name="Item Skill: Aggression">
-		<!-- Level 1: In case of success: Provokes a target to attack during a normal physical attack. Power 438. -->
-		<!-- Level 2: In case of success: Provokes a target to attack during a normal physical attack. Power 467 -->
-		<!-- Level 3: In case of success: Provokes a target to attack during a normal physical attack. Power 495 -->
-		<!-- Level 4: In case of success: Provokes a target to attack during a normal physical attack. Power 523 -->
-		<!-- Level 5: In case of success: Provokes a target to attack during a normal physical attack. Power 549 -->
-		<!-- Level 6: In case of success: Provokes a target to attack during a normal physical attack. Power 574 -->
-		<!-- Level 7: In case of success: Provokes a target to attack during a normal physical attack. Power 597 -->
-		<!-- Level 8: In case of success: Provokes a target to attack during a normal physical attack. Power 617 -->
-		<!-- Level 9: In case of success: Provokes a target to attack during a normal physical attack. Power 635 -->
-		<!-- Level 10: In case of success: Provokes a target to attack during a normal physical attack. Power 659 -->
+	<skill id="3080" toLevel="1" name="Item Skill: Aggression">
 		<!-- Level 11: In case of success: Provokes a target to attack during a normal physical attack. Power 659 -->
-		<!-- Level 12: In case of success: Provokes a target to attack during a normal physical attack. Power 659 -->
-		<!-- Level 13: In case of success: Provokes a target to attack during a normal physical attack. Power 659 -->
-		<!-- Level 14: In case of success: Provokes a target to attack during a normal physical attack. Power 659 -->
-		<!-- Level 15: In case of success: Provokes a target to attack during a normal physical attack. Power 659 -->
 		<icon>icon.skill3080</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY_ONLY</targetType>
 		<affectScope>SINGLE</affectScope>
 		<castRange>40</castRange>
 		<effectPoint>
-			<value level="1">-438</value>
-			<value level="2">-467</value>
-			<value level="3">-495</value>
-			<value level="4">-523</value>
-			<value level="5">-549</value>
-			<value level="6">-574</value>
-			<value level="7">-597</value>
-			<value level="8">-617</value>
-			<value level="9">-635</value>
-			<value level="10">-659</value>
-			<value level="11">-659</value>
-			<value level="12">-659</value>
-			<value level="13">-659</value>
-			<value level="14">-659</value>
-			<value level="15">-659</value>
+			<value level="1">-659</value>
 		</effectPoint>
 		<effectRange>400</effectRange>
 		<hitCancelTime>0</hitCancelTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
-			<value level="11">80</value>
-			<value level="12">85</value>
-			<value level="13">90</value>
-			<value level="14">95</value>
-			<value level="15">99</value>
+			<value level="1">99</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<effects>
@@ -2570,22 +2528,8 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3081" toLevel="15" name="Item Skill: Charm (phys.)">
-		<!-- Level 1: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 219 -->
-		<!-- Level 2: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 234. -->
-		<!-- Level 3: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 248. -->
-		<!-- Level 4: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 262. -->
-		<!-- Level 5: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 275. -->
-		<!-- Level 6: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 287. -->
-		<!-- Level 7: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 299. -->
-		<!-- Level 8: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 309. -->
-		<!-- Level 9: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 318. -->
-		<!-- Level 10: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 330. -->
-		<!-- Level 11: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 342. -->
-		<!-- Level 12: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 354. -->
-		<!-- Level 13: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 366. -->
-		<!-- Level 14: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 378. -->
-		<!-- Level 15: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 390. -->
+	<skill id="3081" toLevel="1" name="Item Skill: Charm (phys.)">
+		<!-- Level 1: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 390. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY_ONLY</targetType>
@@ -2596,56 +2540,19 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
-			<value level="11">80</value>
-			<value level="12">85</value>
-			<value level="13">90</value>
-			<value level="14">95</value>
-			<value level="15">99</value>
+			<value level="1">99</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>DERANGEMENT</trait>
 		<effects>
 			<effect name="AddHate">
 				<power>
-					<value level="1">-219</value>
-					<value level="2">-234</value>
-					<value level="3">-248</value>
-					<value level="4">-262</value>
-					<value level="5">-275</value>
-					<value level="6">-287</value>
-					<value level="7">-299</value>
-					<value level="8">-309</value>
-					<value level="9">-318</value>
-					<value level="10">-330</value>
-					<value level="11">-342</value>
-					<value level="12">-354</value>
-					<value level="13">-366</value>
-					<value level="14">-378</value>
-					<value level="15">-390</value>
+					<value level="1">-390</value>
 				</power>
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3082" toLevel="10" name="Item Skill: Mana Burn">
-		<!-- Level 1: In case of success: Burns up the target's MP during a normal physical attack. Power 49. -->
-		<!-- Level 2: In case of success: Burns up the target's MP during a normal physical attack. Power 53 -->
-		<!-- Level 3: In case of success: Burns up the target's MP during a normal physical attack. Power 57 -->
-		<!-- Level 4: In case of success: Burns up the target's MP during a normal physical attack. Power 61 -->
-		<!-- Level 5: In case of success: Burns up the target's MP during a normal physical attack. Power 66 -->
-		<!-- Level 6: In case of success: Burns up the target's MP during a normal physical attack. Power 70 -->
-		<!-- Level 7: In case of success: Burns up the target's MP during a normal physical attack. Power 74 -->
-		<!-- Level 8: In case of success: Burns up the target's MP during a normal physical attack. Power 78 -->
-		<!-- Level 9: In case of success: Burns up the target's MP during a normal physical attack. Power 82 -->
+	<skill id="3082" toLevel="1" name="Item Skill: Mana Burn">
 		<!-- Level 10: In case of success: Burns up the target's MP during a normal physical attack. Power 88 -->
 		<icon>icon.skill3080</icon>
 		<operateType>A1</operateType>
@@ -2657,38 +2564,20 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<effects>
 			<effect name="MagicalDamageMp">
 				<power>
-					<value level="1">49</value>
-					<value level="2">53</value>
-					<value level="3">57</value>
-					<value level="4">61</value>
-					<value level="5">66</value>
-					<value level="6">70</value>
-					<value level="7">74</value>
-					<value level="8">78</value>
-					<value level="9">82</value>
-					<value level="10">88</value>
+					<value level="1">88</value>
 				</power>
 				<critical>true</critical>
 				<criticalLimit>1450</criticalLimit>
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3083" toLevel="15" name="Item Skill: Slow (phys.)">
+	<skill id="3083" toLevel="1" name="Item Skill: Slow (phys.)">
 		<!-- In case of success: Momentarily target's Speed -30% during a normal physical attack. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -2707,21 +2596,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
-			<value level="11">80</value>
-			<value level="12">85</value>
-			<value level="13">90</value>
-			<value level="14">95</value>
-			<value level="15">99</value>
+			<value level="1">99</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<effects>
@@ -2731,7 +2606,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3084" toLevel="10" name="Item Skill: Winter (phys.)">
+	<skill id="3084" toLevel="1" name="Item Skill: Winter (phys.)">
 		<!-- In case of success: Momentarily target's Atk. Spd. -23% during a normal physical attack. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -2750,16 +2625,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<effects>
@@ -2769,7 +2635,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3085" toLevel="10" name="Item Skill: Stun">
+	<skill id="3085" toLevel="1" name="Item Skill: Stun">
 		<!-- In case of success: Momentarily inflicts Stun on the target during a normal physical attack. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -2789,16 +2655,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>SHOCK</trait>
@@ -2808,7 +2665,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3086" toLevel="15" name="Item Skill: Hold">
+	<skill id="3086" toLevel="1" name="Item Skill: Hold">
 		<!-- In case of success: Momentarily inflicts Hold on the target during a normal physical attack. The target cannot be affected by any additional hold attacks while the effect lasts. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -2828,21 +2685,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
-			<value level="11">80</value>
-			<value level="12">85</value>
-			<value level="13">90</value>
-			<value level="14">95</value>
-			<value level="15">99</value>
+			<value level="1">99</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>HOLD</trait>
@@ -2853,7 +2696,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3087" toLevel="10" name="Item Skill: Sleep">
+	<skill id="3087" toLevel="1" name="Item Skill: Sleep">
 		<!-- In case of success: Momentarily inflicts Sleep on the target during a normal physical attack. Additional chance to be put into sleep greatly decreases while the effect lasts. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -2873,16 +2716,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>SLEEP</trait>
@@ -2895,7 +2729,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3088" toLevel="10" name="Item Skill: Paralyze">
+	<skill id="3088" toLevel="1" name="Item Skill: Paralyze">
 		<!-- In case of success: Normal physical attacks slow the enemy down for 15 sec., after that the enemy is fully paralysed for 10 sec. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -2914,16 +2748,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>PARALYZE</trait>
@@ -2948,7 +2773,7 @@
 			</effect>
 		</endEffects>
 	</skill>
-	<skill id="3089" toLevel="10" name="Item Skill: Medusa">
+	<skill id="3089" toLevel="1" name="Item Skill: Medusa">
 		<!-- In case of success: Momentarily petrifies the target during a normal physical attack. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -2970,16 +2795,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<effects>
@@ -2988,7 +2804,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3090" toLevel="10" name="Item Skill: Fear">
+	<skill id="3090" toLevel="1" name="Item Skill: Fear">
 		<!-- In case of success: Momentarily inflicts Fear on the target and causes him to flee during a normal physical attack. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -3008,16 +2824,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>DERANGEMENT</trait>
@@ -3026,27 +2833,13 @@
 			<effect name="Fear" />
 		</effects>
 	</skill>
-	<skill id="3091" toLevel="15" name="Item Skill: Poison (phys.)">
+	<skill id="3091" toLevel="1" name="Item Skill: Poison (phys.)">
 		<!-- In case of success: Momentarily inflicts Poison on the target during a normal physical attack. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
 		<targetType>ENEMY_ONLY</targetType>
 		<abnormalLevel>
-			<value level="1">5</value>
-			<value level="2">5</value>
-			<value level="3">6</value>
-			<value level="4">6</value>
-			<value level="5">6</value>
-			<value level="6">7</value>
-			<value level="7">7</value>
-			<value level="8">7</value>
-			<value level="9">8</value>
-			<value level="10">8</value>
-			<value level="11">8</value>
-			<value level="12">8</value>
-			<value level="13">8</value>
-			<value level="14">8</value>
-			<value level="15">8</value>
+			<value level="1">8</value>
 		</abnormalLevel>
 		<abnormalTime>30</abnormalTime>
 		<abnormalType>POISON</abnormalType>
@@ -3062,21 +2855,7 @@
 		<lvlBonusRate>1</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
-			<value level="11">80</value>
-			<value level="12">85</value>
-			<value level="13">90</value>
-			<value level="14">95</value>
-			<value level="15">99</value>
+			<value level="1">99</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<subordinationAbnormalType>POISON</subordinationAbnormalType>
@@ -3084,47 +2863,19 @@
 		<effects>
 			<effect name="DamOverTime">
 				<power>
-					<value level="1">41</value>
-					<value level="2">41</value>
-					<value level="3">50</value>
-					<value level="4">50</value>
-					<value level="5">50</value>
-					<value level="6">58</value>
-					<value level="7">58</value>
-					<value level="8">58</value>
-					<value level="9">63</value>
-					<value level="10">63</value>
-					<value level="11">67</value>
-					<value level="12">87</value>
-					<value level="13">87</value>
-					<value level="14">87</value>
-					<value level="15">98</value>
+					<value level="1">98</value>
 				</power>
 				<ticks>1</ticks>
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3092" toLevel="15" name="Item Skill: Bleed (phys.)">
+	<skill id="3092" toLevel="1" name="Item Skill: Bleed (phys.)">
 		<!-- In case of success: Momentarily inflicts Bleed on the target during a normal physical attack. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
 		<targetType>ENEMY_ONLY</targetType>
 		<abnormalLevel>
-			<value level="1">5</value>
-			<value level="2">5</value>
-			<value level="3">6</value>
-			<value level="4">6</value>
-			<value level="5">6</value>
-			<value level="6">7</value>
-			<value level="7">7</value>
-			<value level="8">7</value>
-			<value level="9">8</value>
-			<value level="10">8</value>
-			<value level="11">8</value>
-			<value level="12">8</value>
-			<value level="13">8</value>
-			<value level="14">8</value>
-			<value level="15">8</value>
+			<value level="1">8</value>
 		</abnormalLevel>
 		<abnormalTime>20</abnormalTime>
 		<abnormalType>BLEEDING</abnormalType>
@@ -3140,21 +2891,7 @@
 		<lvlBonusRate>1</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
-			<value level="11">80</value>
-			<value level="12">85</value>
-			<value level="13">90</value>
-			<value level="14">95</value>
-			<value level="15">99</value>
+			<value level="1">99</value>
 		</magicLevel>
 		<nextAction>ATTACK</nextAction>
 		<reuseDelay>30000</reuseDelay>
@@ -3163,27 +2900,13 @@
 		<effects>
 			<effect name="DamOverTime">
 				<power>
-					<value level="1">44</value>
-					<value level="2">44</value>
-					<value level="3">54</value>
-					<value level="4">54</value>
-					<value level="5">54</value>
-					<value level="6">62</value>
-					<value level="7">62</value>
-					<value level="8">62</value>
-					<value level="9">67</value>
-					<value level="10">67</value>
-					<value level="11">67</value>
-					<value level="12">87</value>
-					<value level="13">87</value>
-					<value level="14">87</value>
-					<value level="15">98</value>
+					<value level="1">98</value>
 				</power>
 				<ticks>1</ticks>
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3093" toLevel="10" name="Item Skill: Silence">
+	<skill id="3093" toLevel="1" name="Item Skill: Silence">
 		<!-- In case of success: Momentarily blocks the target's magic skill during a normal physical attack. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -3203,16 +2926,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>DERANGEMENT</trait>
@@ -3220,7 +2934,7 @@
 			<effect name="Mute" />
 		</effects>
 	</skill>
-	<skill id="3094" toLevel="10" name="Item Skill: Doom">
+	<skill id="3094" toLevel="1" name="Item Skill: Doom">
 		<!-- In case of success: Momentarily blocks all of the target's physical and magic skills during a normal physical attack. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -3240,16 +2954,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>DERANGEMENT</trait>
@@ -3258,17 +2963,8 @@
 			<effect name="PhysicalMute" />
 		</effects>
 	</skill>
-	<skill id="3095" toLevel="10" name="Item Skill: Mana Burn">
-		<!-- Level 1: In case of success: Burns up the target's MP during magic use. Power 49 -->
-		<!-- Level 2: In case of success: Burns up the target's MP during magic use. Power 53 -->
-		<!-- Level 3: In case of success: Burns up the target's MP during magic use. Power 57 -->
-		<!-- Level 4: In case of success: Burns up the target's MP during magic use. Power 61 -->
-		<!-- Level 5: In case of success: Burns up the target's MP during magic use. Power 66 -->
-		<!-- Level 6: In case of success: Burns up the target's MP during magic use. Power 70 -->
-		<!-- Level 7: In case of success: Burns up the target's MP during magic use. Power 74 -->
-		<!-- Level 8: In case of success: Burns up the target's MP during magic use. Power 78 -->
-		<!-- Level 9: In case of success: Burns up the target's MP during magic use. Power 82 -->
-		<!-- Level 10: In case of success: Burns up the target's MP during magic use. Power 88 -->
+	<skill id="3095" toLevel="1" name="Item Skill: Mana Burn">
+		<!-- Level 1: In case of success: Burns up the target's MP during magic use. Power 88 -->
 		<icon>icon.skill3080</icon>
 		<operateType>A1</operateType>
 		<targetType>ENEMY_ONLY</targetType>
@@ -3280,38 +2976,20 @@
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<effects>
 			<effect name="MagicalDamageMp">
 				<power>
-					<value level="1">49</value>
-					<value level="2">53</value>
-					<value level="3">57</value>
-					<value level="4">61</value>
-					<value level="5">66</value>
-					<value level="6">70</value>
-					<value level="7">74</value>
-					<value level="8">78</value>
-					<value level="9">82</value>
-					<value level="10">88</value>
+					<value level="1">88</value>
 				</power>
 				<critical>true</critical>
 				<criticalLimit>1450</criticalLimit>
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3096" toLevel="15" name="Item Skill: Slow (magic)">
+	<skill id="3096" toLevel="1" name="Item Skill: Slow (magic)">
 		<!-- In case of success: Momentarily target's Speed -30% during magic use. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -3331,21 +3009,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
-			<value level="11">80</value>
-			<value level="12">85</value>
-			<value level="13">90</value>
-			<value level="14">95</value>
-			<value level="15">99</value>
+			<value level="1">99</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<effects>
@@ -3355,7 +3019,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3097" toLevel="10" name="Item Skill: Winter (magic)">
+	<skill id="3097" toLevel="1" name="Item Skill: Winter (magic)">
 		<!-- In case of success: Momentarily target's Atk. Spd. -23% during magic use. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -3375,16 +3039,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<effects>
@@ -3394,7 +3049,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3098" toLevel="10" name="Item Skill: Stun">
+	<skill id="3098" toLevel="1" name="Item Skill: Stun">
 		<!-- In case of success: Momentarily inflicts Stun on the target during magic use. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -3415,16 +3070,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
+			<value level="1">75</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>SHOCK</trait>
@@ -3434,7 +3080,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3099" toLevel="15" name="Item Skill: Hold">
+	<skill id="3099" toLevel="1" name="Item Skill: Hold">
 		<!-- In case of success: Momentarily inflicts Hold on the target when using magic. The target cannot be affected by any additional hold attacks while the effect lasts. -->
 		<icon>icon.skill3080</icon>
 		<operateType>A2</operateType>
@@ -3455,21 +3101,7 @@
 		<lvlBonusRate>10</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
-			<value level="1">46</value>
-			<value level="2">49</value>
-			<value level="3">52</value>
-			<value level="4">55</value>
-			<value level="5">58</value>
-			<value level="6">61</value>
-			<value level="7">64</value>
-			<value level="8">67</value>
-			<value level="9">70</value>
-			<value level="10">75</value>
-			<value level="11">80</value>
-			<value level="12">85</value>
-			<value level="13">90</value>
-			<value level="14">95</value>
-			<value level="15">99</value>
+			<value level="1">99</value>
 		</magicLevel>
 		<reuseDelay>30000</reuseDelay>
 		<trait>HOLD</trait>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/AttendanceRewards.xsd">
-	<item id="90014" count="1" /> <!-- High-Grade Life Stone -->
+	<item id="70858" count="1" /> <!-- irene's hour glass -->
 	<item id="49518" count="1" /> <!-- Special Pirate Fruit -->
 	<item id="49488" count="5" /> <!-- Major Healing Potion -->
 	<item id="49487" count="5" /> <!-- Soulshot Ticket -->
@@ -8,7 +8,7 @@
 	<item id="49500" count="1" /> <!-- Greater Scroll of Escape -->
 	<item id="4357" count="50" /> <!-- Silver shilen -->
 	
-	<item id="90014" count="1" /> <!-- High-Grade Life Stone -->
+	<item id="70858" count="2" /> <!-- irene's hour glass -->
 	<item id="49518" count="2" /> <!-- Special Pirate Fruit -->
 	<item id="49488" count="10" /> <!-- Major Healing Potion -->
 	<item id="49487" count="10" /> <!-- Soulshot Ticket -->
@@ -16,7 +16,7 @@
 	<item id="49542" count="1" /> <!-- Improved Scroll of Resurrection -->
 	<item id="4357" count="100" /> <!-- Silver shilen -->
 	
-	<item id="90014" count="1" /> <!-- High-Grade Life Stone -->
+	<item id="70858" count="3" /> <!-- irene's hour glass -->
 	<item id="49518" count="3" /> <!-- Special Pirate Fruit -->
 	<item id="49488" count="15" /> <!-- Major Healing Potion -->
 	<item id="49487" count="15" /> <!-- Soulshot Ticket -->
@@ -24,7 +24,7 @@
 	<item id="49500" count="2" /> <!-- Greater Scroll of Escape -->
 	<item id="4357" count="150" /> <!-- Silver shilen -->
 	
-	<item id="90014" count="1" /> <!-- High-Grade Life Stone -->
+	<item id="70858" count="4" /> <!-- irene's hour glass -->
 	<item id="49518" count="4" /> <!-- Special Pirate Fruit -->
 	<item id="49488" count="20" /> <!-- Major Healing Potion -->
 	<item id="49487" count="20" /> <!-- Soulshot Ticket -->
