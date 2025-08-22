@@ -609,28 +609,6 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3225" toLevel="1" name="Item Skill: Charm">
-		<!-- In case of success: Decreases the enemy's aggression when you are attacked. -->
-		<icon>icon.skill3080</icon>
-		<operateType>P</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">99</value>
-		</magicLevel>
-		<effects>
-			<effect name="TriggerSkillByDamageReceived">
-				<!-- Charm -->
-				<attackerType>Creature</attackerType>
-				<chance>1</chance>
-				<targetType>ENEMY</targetType>
-				<minDamage>1</minDamage>
-				<skillId>5165</skillId> <!-- Charm -->
-				<skillLevel>
-					<value level="1">15</value>
-				</skillLevel>
-			</effect>
-		</effects>
-	</skill>
 	<skill id="3226" toLevel="1" name="Item Skill: Slow">
 		<!-- In case of success: Momentarily decreases the target's Speed when you are attacked. -->
 		<icon>icon.skill3080</icon>
@@ -910,21 +888,6 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3239" toLevel="1" name="Item Skill: Mana Gain">
-		<!-- Passive: When using the Recharge skill, MP Recovery Rate increases. -->
-		<icon>icon.skill3238</icon>
-		<operateType>P</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">99</value>
-		</magicLevel>
-		<effects>
-			<effect name="ManaCharge">
-				<amount>1</amount>
-				<mode>DIFF</mode>
-			</effect>
-		</effects>
-	</skill>
 	<skill id="3240" toLevel="1" name="Item Skill: Might">
 		<!-- Passive: Increases P. Atk. -->
 		<icon>icon.skill3238</icon>
@@ -1102,51 +1065,6 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3252" toLevel="1" name="Item Skill: Eva's Kiss">
-		<!-- Passive: Increases lung capacity. -->
-		<icon>icon.skill3238</icon>
-		<operateType>P</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">75</value>
-		</magicLevel>
-		<effects>
-			<effect name="Breath">
-				<amount>500</amount>
-				<mode>PER</mode>
-			</effect>
-		</effects>
-	</skill>
-	<skill id="3253" toLevel="1" name="Item Skill: Acrobatics">
-		<!-- Passive: Increases the height from which you can jump without sustaining damage. -->
-		<icon>icon.skill3238</icon>
-		<operateType>P</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">75</value>
-		</magicLevel>
-		<effects>
-			<effect name="SafeFallHeight">
-				<amount>-100</amount>
-				<mode>DIFF</mode>
-			</effect>
-		</effects>
-	</skill>
-	<skill id="3254" toLevel="1" name="Item Skill: Iron Body">
-		<!-- Passive: Increases Resistance to damage from falling. -->
-		<icon>icon.skill3238</icon>
-		<operateType>P</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">99</value>
-		</magicLevel>
-		<effects>
-			<effect name="AreaDamage">
-				<amount>-40</amount>
-				<mode>DIFF</mode>
-			</effect>
-		</effects>
-	</skill>
 	<skill id="3255" toLevel="1" name="Item Skill: Skill Clarity">
 		<!-- Passive: Decreases MP Consumption for physical skills. -->
 		<icon>icon.skill3238</icon>
@@ -1180,24 +1098,6 @@
 				</amount>
 				<mode>PER</mode>
 				<magicType>1</magicType>
-			</effect>
-		</effects>
-	</skill>
-	<skill id="3257" toLevel="1" name="Item Skill: Music Clarity">
-		<!-- Passive: Decreases MP Consumption for songs and dances. -->
-		<icon>icon.skill3238</icon>
-		<operateType>P</operateType>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">75</value>
-		</magicLevel>
-		<effects>
-			<effect name="MagicMpCost">
-				<amount>
-					<value level="1">-10</value>
-				</amount>
-				<mode>PER</mode>
-				<magicType>3</magicType>
 			</effect>
 		</effects>
 	</skill>

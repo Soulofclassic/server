@@ -2504,54 +2504,6 @@
 			</effect>
 		</endEffects>
 	</skill>
-	<skill id="3080" toLevel="1" name="Item Skill: Aggression">
-		<!-- Level 11: In case of success: Provokes a target to attack during a normal physical attack. Power 659 -->
-		<icon>icon.skill3080</icon>
-		<operateType>A1</operateType>
-		<targetType>ENEMY_ONLY</targetType>
-		<affectScope>SINGLE</affectScope>
-		<castRange>40</castRange>
-		<effectPoint>
-			<value level="1">-659</value>
-		</effectPoint>
-		<effectRange>400</effectRange>
-		<hitCancelTime>0</hitCancelTime>
-		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">99</value>
-		</magicLevel>
-		<reuseDelay>30000</reuseDelay>
-		<effects>
-			<effect name="TargetMeProbability">
-				<chance>40</chance>
-			</effect>
-		</effects>
-	</skill>
-	<skill id="3081" toLevel="1" name="Item Skill: Charm (phys.)">
-		<!-- Level 1: In case of success: Decreases the target's urge to attack during a normal physical attack. Power 390. -->
-		<icon>icon.skill3080</icon>
-		<operateType>A1</operateType>
-		<targetType>ENEMY_ONLY</targetType>
-		<affectScope>SINGLE</affectScope>
-		<castRange>40</castRange>
-		<effectRange>400</effectRange>
-		<hitCancelTime>0</hitCancelTime>
-		<isMagic>2</isMagic> <!-- Static Skill -->
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">99</value>
-		</magicLevel>
-		<reuseDelay>30000</reuseDelay>
-		<trait>DERANGEMENT</trait>
-		<effects>
-			<effect name="AddHate">
-				<power>
-					<value level="1">-390</value>
-				</power>
-			</effect>
-		</effects>
-	</skill>
 	<skill id="3082" toLevel="1" name="Item Skill: Mana Burn">
 		<!-- Level 10: In case of success: Burns up the target's MP during a normal physical attack. Power 88 -->
 		<icon>icon.skill3080</icon>
@@ -2693,39 +2645,6 @@
 			<effect name="Root" />
 			<effect name="DefenceTrait">
 				<HOLD>100</HOLD>
-			</effect>
-		</effects>
-	</skill>
-	<skill id="3087" toLevel="1" name="Item Skill: Sleep">
-		<!-- In case of success: Momentarily inflicts Sleep on the target during a normal physical attack. Additional chance to be put into sleep greatly decreases while the effect lasts. -->
-		<icon>icon.skill3080</icon>
-		<operateType>A2</operateType>
-		<targetType>ENEMY_ONLY</targetType>
-		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>15</abnormalTime>
-		<abnormalType>SLEEP</abnormalType>
-		<abnormalVisualEffect>SLEEP</abnormalVisualEffect>
-		<activateRate>40</activateRate>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>MAGIC</basicProperty>
-		<castRange>40</castRange>
-		<effectRange>400</effectRange>
-		<hitCancelTime>0</hitCancelTime>
-		<isDebuff>true</isDebuff>
-		<isMagic>2</isMagic> <!-- Static Skill -->
-		<lvlBonusRate>10</lvlBonusRate>
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">75</value>
-		</magicLevel>
-		<reuseDelay>30000</reuseDelay>
-		<trait>SLEEP</trait>
-		<effects>
-			<effect name="BlockActions">
-				<allowedSkills>10279;10517;11264;11093;1904;1912;13314;13542;30010;30018;30516;461;35016;35045</allowedSkills>
-			</effect>
-			<effect name="DefenceTrait">
-				<SLEEP>100</SLEEP>
 			</effect>
 		</effects>
 	</skill>
