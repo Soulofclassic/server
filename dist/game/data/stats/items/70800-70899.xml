@@ -653,7 +653,7 @@
 		<set name="is_freightable" val="true" />
 		<set name="material" val="LIQUID" />
 		<skills>
-			<skill id="55720" level="2" /> <!-- irene +50% exp/sp -->
+			<skill id="55720" level="1" /> <!-- irene +50% exp/sp -->
 		</skills>
 	</item>
 	<item id="70859" name="Scroll: Summon Storm" type="EtcItem">
