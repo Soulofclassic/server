@@ -652,6 +652,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="material" val="LIQUID" />
+		<set name="handler" val="ItemSkills" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="immediate_effect" val="true" />
 		<skills>
 			<skill id="55720" level="1" /> <!-- irene +50% exp/sp -->
 		</skills>
