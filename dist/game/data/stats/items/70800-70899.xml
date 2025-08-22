@@ -652,6 +652,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="material" val="LIQUID" />
+		<skills>
+			<skill id="55720" level="2" /> <!-- irene +50% exp/sp -->
+		</skills>
 	</item>
 	<item id="70859" name="Scroll: Summon Storm" type="EtcItem">
 		<!-- Fills you with the Storm Energy. Acquired XP/ SP (hunting) +50% for 2 hours. Cooldown: 2 hours. The Storm Energy effect remains after death. Required level: 40-51. Can be combined with Irene's Hourglass and XP and SP Rune effect. -->
