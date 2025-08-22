@@ -133,7 +133,7 @@
 					<value level="10">8</value>
 				</amount>
 				<mode>PER</mode>
-				<chance>80</chance>
+				<chance>20</chance>
 			</effect>
 		</effects>
 	</skill>
