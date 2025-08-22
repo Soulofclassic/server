@@ -1711,6 +1711,13 @@
 		<!-- Acquired XP/ SP through fishing +50%. -->
 		<icon>icon.bm_gold_fishing_pole</icon>
 		<operateType>P</operateType>
+		<effects>
+			<effect name="FishingExpSpBonus">
+				<amount>
+					<value level="1">50</value>
+				</amount>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="55144" toLevel="20" name="P. Atk.">
 		<!-- Level 1: P. Atk. +2%. -->

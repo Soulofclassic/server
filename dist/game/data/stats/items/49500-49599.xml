@@ -1150,12 +1150,14 @@
 	<item id="49589" name="Golden Bait" type="EtcItem">
 		<!-- Fishing Bait. Can be used for fishing Whales. -->
 		<set name="icon" val="icon.bm_gold_lure" />
+		<set name="bodypart" val="lhand" />
 		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="LURE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
-		<set name="is_dropable" val="false" />
-		<set name="is_sellable" val="false" />
+		<set name="price" val="7" />
 		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
 	</item>
 	<item id="49590" name="Refined Rare Accessory Pack" additionalName="30-day" type="EtcItem">
 		<!-- Double-click to obtain one of the following items: Queen Ant's Ring Lv. 3 (30-day), Orfen's Earring Lv. 3 (30-day), Ring of Core Lv. 3 (30-day). -->

@@ -393,6 +393,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<stats>
@@ -403,6 +404,9 @@
 			<stat type="randomDamage">1</stat>
 			<stat type="pAtkRange">80</stat>
 		</stats>
+		<skills>
+			<skill id="55143" level="4" /> <!-- +50% exp/sp while fishing -->
+		</skills>
 	</item>
 	<item id="70121" name="Full Plate Armor Crafting Pack" type="EtcItem">
 		<!-- Double-click to obtain all the ingredients necessary for making Full Plate Armor. -->
