@@ -1972,7 +1972,7 @@
 		<set name="weight" val="1830" />
 		<set name="price" val="644000" />
 		<set name="change_weaponId" val="9217" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="2" />
 		<set name="enchant_enabled" val="true" />
@@ -2003,7 +2003,7 @@
 		<set name="weight" val="1850" />
 		<set name="price" val="644000" />
 		<set name="change_weaponId" val="9995" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="2" />
 		<set name="enchant_enabled" val="true" />
@@ -2034,7 +2034,7 @@
 		<set name="weight" val="1830" />
 		<set name="price" val="644000" />
 		<set name="change_weaponId" val="9996" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="2" />
 		<set name="enchant_enabled" val="true" />
@@ -2065,7 +2065,7 @@
 		<set name="weight" val="1840" />
 		<set name="price" val="967000" />
 		<set name="change_weaponId" val="9221" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="2" />
 		<set name="enchant_enabled" val="true" />
@@ -2096,7 +2096,7 @@
 		<set name="weight" val="1820" />
 		<set name="price" val="1400000" />
 		<set name="change_weaponId" val="9224" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="2" />
 		<set name="enchant_enabled" val="true" />
@@ -2127,7 +2127,7 @@
 		<set name="weight" val="1810" />
 		<set name="price" val="1800000" />
 		<set name="change_weaponId" val="9227" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="2" />
 		<set name="enchant_enabled" val="true" />
@@ -2158,7 +2158,7 @@
 		<set name="weight" val="1790" />
 		<set name="price" val="2290000" />
 		<set name="change_weaponId" val="9236" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="3" />
 		<set name="enchant_enabled" val="true" />
@@ -2189,7 +2189,7 @@
 		<set name="weight" val="1770" />
 		<set name="price" val="2870000" />
 		<set name="change_weaponId" val="9256" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="3" />
 		<set name="enchant_enabled" val="true" />
@@ -2220,7 +2220,7 @@
 		<set name="weight" val="1740" />
 		<set name="price" val="4300000" />
 		<set name="change_weaponId" val="9288" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="3" />
 		<set name="enchant_enabled" val="true" />
@@ -2282,7 +2282,7 @@
 		<set name="weight" val="1760" />
 		<set name="price" val="2870000" />
 		<set name="change_weaponId" val="9260" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="3" />
 		<set name="enchant_enabled" val="true" />
@@ -2313,7 +2313,7 @@
 		<set name="weight" val="1720" />
 		<set name="price" val="6130000" />
 		<set name="change_weaponId" val="9300" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="3" />
 		<set name="enchant_enabled" val="true" />
