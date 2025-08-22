@@ -1141,6 +1141,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<skills>
+			<skill id="39076" level="4" /> <!-- fish stew - guild's gratitude (+30% exp/sp) -->
+		</skills>
 	</item>
 	<item id="91392" name="Night Goblin Liquor" type="EtcItem">
 		<!-- For 5 min., P. Atk. +15%, M. Atk. +23%, P./ M. Def. +15%, Atk. Spd./ Casting Spd. +15%, HP/ MP Recovery Bonus +30%. -->

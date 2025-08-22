@@ -5,33 +5,33 @@
 	</npcs>
 	<item>
 		<!-- Blue Mackerel -->
-		<ingredient count="5" id="45473" />
-		<!-- Fish Stew: Might -->
-		<production count="1" id="49460" />
-	</item>
-	<item>
-		<!-- Blue Mackerel -->
-		<ingredient count="5" id="45473" />
-		<!-- Fish Stew: Shield -->
-		<production count="1" id="49461" />
-	</item>
-	<item>
-		<!-- Blue Mackerel -->
-		<ingredient count="20" id="45473" />
-		<!-- Fish Stew: Magic Barrier -->
-		<production count="1" id="49462" />
-	</item>
-	<item>
-		<!-- Blue Mackerel -->
-		<ingredient count="10" id="45473" />
-		<!-- Fish Stew: Vampiric Rage -->
+		<ingredient count="120" id="45473" />
+		<!-- Fish Stew: victory -->
 		<production count="1" id="49463" />
 	</item>
 	<item>
 		<!-- Blue Mackerel -->
+		<ingredient count="120" id="45473" />
+		<!-- Fish Stew: fire-->
+		<production count="1" id="49463" />
+	</item>
+	<item>
+		<!-- Blue Mackerel -->
+		<ingredient count="120" id="45473" />
+		<!-- Fish Stew: water -->
+		<production count="1" id="49463" />
+	</item>
+	<item>
+		<!-- Blue Mackerel -->
+		<ingredient count="120" id="45473" />
+		<!-- Fish Stew: wind -->
+		<production count="1" id="49463" />
+	</item>
+		<item>
+		<!-- Blue Mackerel -->
 		<ingredient count="10" id="45473" />
-		<!-- Fish Stew: Empower -->
-		<production count="1" id="49464" />
+		<!-- Fish Stew: Vampiric Rage -->
+		<production count="1" id="49463" />
 	</item>
 	<item>
 		<!-- Fresh Blue Mackerel -->
@@ -73,6 +73,6 @@
 		<!-- Fresh Blue Mackerel -->
 		<ingredient count="35" id="45481" />
 		<!-- Fish Stew: The guild's gratitude -->
-		<production count="1" id="49501" />
+		<production count="1" id="91391" />
 	</item>
 </list>

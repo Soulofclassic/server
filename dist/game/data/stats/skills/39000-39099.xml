@@ -1255,14 +1255,26 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="39076" toLevel="2" name="Fish Stew - Guild's Gratitude">
+	<skill id="39076" toLevel="1" name="Fish Stew - Guild's Gratitude">
 		<!-- Level 1: For 20 min., Acquired XP/ SP +10%. -->
 		<!-- Level 2: For 20 min., Acquired XP/ SP +30%. -->
 		<icon>icon.ev_invasion_buff_box</icon>
 		<operateType>A2</operateType>
-		<effectPoint>1</effectPoint>
-		<isMagic>4</isMagic>
-		<reuseDelay>3000</reuseDelay>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1200</abnormalTime>
+		<abnormalType>VOTE</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<isMagic>4</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>91391</itemConsumeId> <!-- Fish Stew: Vampiric Rage -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>10000</reuseDelay>
+		<stayAfterDeath>true</stayAfterDeath>
 		<effects>
 			<effect name="ExpModify">
 				<amount>30</amount>
