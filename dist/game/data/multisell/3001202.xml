@@ -7,25 +7,25 @@
 		<!-- Blue Mackerel -->
 		<ingredient count="120" id="45473" />
 		<!-- Fish Stew: victory -->
-		<production count="1" id="49463" />
+		<production count="1" id="90407" />
 	</item>
 	<item>
 		<!-- Blue Mackerel -->
 		<ingredient count="120" id="45473" />
 		<!-- Fish Stew: fire-->
-		<production count="1" id="49463" />
+		<production count="1" id="90408" />
 	</item>
 	<item>
 		<!-- Blue Mackerel -->
 		<ingredient count="120" id="45473" />
 		<!-- Fish Stew: water -->
-		<production count="1" id="49463" />
+		<production count="1" id="90409" />
 	</item>
 	<item>
 		<!-- Blue Mackerel -->
 		<ingredient count="120" id="45473" />
 		<!-- Fish Stew: wind -->
-		<production count="1" id="49463" />
+		<production count="1" id="90410" />
 	</item>
 		<item>
 		<!-- Blue Mackerel -->
