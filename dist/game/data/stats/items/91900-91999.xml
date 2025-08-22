@@ -439,15 +439,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="20" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="SoulShots" />
 		<set name="crystal_type" val="S" />
 		<set name="enchant_enabled" val="true" />
 		<set name="etcitem_type" val="SOULSHOT" />
 		<set name="commissionItemType" val="SOULSHOT" />
+		<set name="weight" val="1" />
 		<skills>
 			<skill id="2154" level="1" /> <!-- Soulshot (S-grade) -->
 		</skills>
@@ -459,15 +460,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="30" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="SpiritShot" />
 		<set name="crystal_type" val="S" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="SPIRITSHOT" />
 		<set name="etcitem_type" val="SOULSHOT" />
+		<set name="weight" val="1" />
 		<skills>
 			<skill id="2159" level="1" /> <!-- Spiritshot (S-grade) -->
 		</skills>
@@ -479,15 +481,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="BlessedSoulShots" />
 		<set name="crystal_type" val="S" />
 		<set name="enchant_enabled" val="true" />
 		<set name="etcitem_type" val="SOULSHOT" />
 		<set name="commissionItemType" val="SOULSHOT" />
+		<set name="weight" val="1" />
 		<skills>
 			<skill id="8920" level="1" /> <!-- Blessed Soulshot (S-grade) -->
 		</skills>
@@ -499,15 +502,16 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="75" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="BlessedSpiritShot" />
 		<set name="crystal_type" val="S" />
 		<set name="enchant_enabled" val="true" />
 		<set name="etcitem_type" val="SOULSHOT" />
 		<set name="commissionItemType" val="SPIRITSHOT" />
+		<set name="weight" val="1" />
 		<skills>
 			<skill id="2164" level="1" /> <!-- Blessed Spiritshot (S-grade) -->
 		</skills>
