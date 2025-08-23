@@ -1802,7 +1802,7 @@
 		<castRange>400</castRange>
 		<effectPoint>438</effectPoint>
 		<effectRange>900</effectRange>
-		<hitTime>1000</hitTime>
+		<hitTime>0</hitTime>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>46</magicLevel>
 		<mpConsume>20</mpConsume>
