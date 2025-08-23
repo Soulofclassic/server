@@ -1188,8 +1188,8 @@
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
 		<set name="ensoulSpecialSlots" val="1" />
@@ -1213,8 +1213,8 @@
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1530" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
 		<set name="ensoulSpecialSlots" val="1" />
