@@ -1336,6 +1336,7 @@
 		</stats>
 		<skills>
 			<skill id="35046" level="1" /> <!-- Land Dragon Belt -->
+			<skill id="50196" level="1" /> <!-- Land Dragon Blessing -->
 		</skills>
 	</item>
 	<item id="90497" name="Fire Dragon Belt" type="Armor">

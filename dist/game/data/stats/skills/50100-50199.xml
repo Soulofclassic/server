@@ -1085,7 +1085,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="50196" toLevel="10" name="Opal - Special Abilities">
+	<skill id="50196" toLevel="1" name="Land Dragon Blessing">
 		<!-- Level 1: Becomes invincible for debuffs for 1 sec. -->
 		<!-- Level 2: Becomes invincible for debuffs for 2 sec. -->
 		<!-- Level 3: Becomes invincible for debuffs for 3 sec. -->
@@ -1096,19 +1096,12 @@
 		<!-- Level 8: Becomes invincible for debuffs for 18 sec. -->
 		<!-- Level 9: Becomes invincible for debuffs for 20 sec. -->
 		<!-- Level 10: Becomes invincible for debuffs for 25 sec. -->
-		<icon>icon.etc_bm_jewel_opal_i00</icon>
+		<icon>icon.bm_antaras_belt</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>
-			<value level="1">1</value>
-			<value level="2">2</value>
-			<value level="3">3</value>
-			<value level="4">5</value>
-			<value level="5">10</value>
-			<value level="6">15</value>
-			<value level="7">20</value>
-			<value level="8">15</value>
+			<value level="1">5</value>
 		</abnormalTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
@@ -1118,15 +1111,6 @@
 		<hitTime>0</hitTime>
 		<magicLevel>
 			<value level="1">1</value>
-			<value level="2">1</value>
-			<value level="3">1</value>
-			<value level="4">1</value>
-			<value level="5">3</value>
-			<value level="6">4</value>
-			<value level="7">5</value>
-			<value level="8">6</value>
-			<value level="9">7</value>
-			<value level="10">8</value>
 		</magicLevel>
 		<reuseDelay>300000</reuseDelay>
 		<reuseDelayGroup>18567</reuseDelayGroup>
@@ -1136,16 +1120,6 @@
 			</effect>
 			<effect name="DamageBlock">
 				<type>BLOCK_MP</type>
-			</effect>
-			<effect name="DebuffBlock" />
-			<effect name="DispelByCategory">
-				<slot>DEBUFF</slot>
-				<rate>100</rate>
-				<max>10</max>
-			</effect>
-			<effect name="ResistDispelByCategory">
-				<amount>-100</amount>
-				<slot>ALL</slot>
 			</effect>
 		</effects>
 	</skill>
