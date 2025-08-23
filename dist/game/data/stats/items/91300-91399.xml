@@ -265,7 +265,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55477" level="6" /> <!-- Greater Ruby -->
+			<skill id="55477" level="1" /> <!-- Greater Ruby -->
 		</skills>
 	</item>
 	<item id="91321" name="Greater Ruby" additionalName="Lv. 2" type="Armor">
@@ -279,7 +279,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55477" level="7" /> <!-- Greater Ruby -->
+			<skill id="55477" level="2" /> <!-- Greater Ruby -->
 		</skills>
 	</item>
 	<item id="91322" name="Greater Ruby" additionalName="Lv. 3" type="Armor">
@@ -293,7 +293,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55477" level="8" /> <!-- Greater Ruby -->
+			<skill id="55477" level="3" /> <!-- Greater Ruby -->
 		</skills>
 	</item>
 	<item id="91323" name="Greater Ruby" additionalName="Lv. 4" type="Armor">
@@ -307,7 +307,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55477" level="9" /> <!-- Greater Ruby -->
+			<skill id="55477" level="4" /> <!-- Greater Ruby -->
 		</skills>
 	</item>
 	<item id="91324" name="Greater Ruby" additionalName="Lv. 5" type="Armor">
@@ -321,7 +321,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55477" level="10" /> <!-- Greater Ruby -->
+			<skill id="55477" level="5" /> <!-- Greater Ruby -->
 		</skills>
 	</item>
 	<item id="91325" name="Greater Sapphire" additionalName="Lv. 1" type="Armor">
@@ -335,7 +335,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55481" level="6" /> <!-- Greater Sapphire -->
+			<skill id="55481" level="1" /> <!-- Greater Sapphire -->
 		</skills>
 	</item>
 	<item id="91326" name="Greater Sapphire" additionalName="Lv. 2" type="Armor">
@@ -349,7 +349,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55481" level="7" /> <!-- Greater Sapphire -->
+			<skill id="55481" level="2" /> <!-- Greater Sapphire -->
 		</skills>
 	</item>
 	<item id="91327" name="Greater Sapphire" additionalName="Lv. 3" type="Armor">
@@ -363,7 +363,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55481" level="8" /> <!-- Greater Sapphire -->
+			<skill id="55481" level="3" /> <!-- Greater Sapphire -->
 		</skills>
 	</item>
 	<item id="91328" name="Greater Sapphire" additionalName="Lv. 4" type="Armor">
@@ -377,7 +377,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55481" level="9" /> <!-- Greater Sapphire -->
+			<skill id="55481" level="4" /> <!-- Greater Sapphire -->
 		</skills>
 	</item>
 	<item id="91329" name="Greater Sapphire" additionalName="Lv. 5" type="Armor">
@@ -391,7 +391,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<skills>
-			<skill id="55481" level="10" /> <!-- Greater Sapphire -->
+			<skill id="55481" level="5" /> <!-- Greater Sapphire -->
 		</skills>
 	</item>
 	<item id="91330" name="Greater Diamond" additionalName="Lv. 1" type="Armor">
