@@ -83,7 +83,8 @@
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>NONE</basicProperty>
 		<effectPoint>1</effectPoint>
-		<hitTime>0</hitTime>
+		<hitTime>1000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLevel>
 			<value level="1">1</value>
 			<value level="2">2</value>
@@ -92,7 +93,6 @@
 			<value level="5">5</value>
 		</magicLevel>
 		<reuseDelay>300000</reuseDelay>
-		<reuseDelayGroup>18567</reuseDelayGroup>
 		<effects>
 			<effect name="DebuffBlock" />
 			<effect name="DispelByCategory">

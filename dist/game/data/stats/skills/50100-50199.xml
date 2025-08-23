@@ -1086,16 +1086,7 @@
 		</effects>
 	</skill>
 	<skill id="50196" toLevel="1" name="Land Dragon Blessing">
-		<!-- Level 1: Becomes invincible for debuffs for 1 sec. -->
-		<!-- Level 2: Becomes invincible for debuffs for 2 sec. -->
-		<!-- Level 3: Becomes invincible for debuffs for 3 sec. -->
-		<!-- Level 4: Becomes invincible for debuffs for 5 sec. -->
-		<!-- Level 5: Becomes invincible for debuffs for 15 sec. -->
-		<!-- Level 6: Becomes invincible for debuffs for 16 sec. -->
-		<!-- Level 7: Becomes invincible for debuffs for 17 sec. -->
-		<!-- Level 8: Becomes invincible for debuffs for 18 sec. -->
-		<!-- Level 9: Becomes invincible for debuffs for 20 sec. -->
-		<!-- Level 10: Becomes invincible for debuffs for 25 sec. -->
+		<!-- Level 1: Becomes invincible for 5 sec. -->
 		<icon>icon.bm_antaras_belt</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
@@ -1108,12 +1099,12 @@
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>NONE</basicProperty>
 		<effectPoint>1</effectPoint>
-		<hitTime>0</hitTime>
+		<hitTime>1000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLevel>
 			<value level="1">1</value>
 		</magicLevel>
 		<reuseDelay>300000</reuseDelay>
-		<reuseDelayGroup>18567</reuseDelayGroup>
 		<effects>
 			<effect name="DamageBlock">
 				<type>BLOCK_HP</type>
