@@ -222,8 +222,8 @@
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="980" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
@@ -250,8 +250,8 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="970" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
@@ -278,8 +278,8 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="960" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
@@ -306,8 +306,8 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="930" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
@@ -336,8 +336,8 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="910" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
@@ -364,8 +364,8 @@
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="920" />
 		<set name="price" val="14098000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
@@ -394,8 +394,8 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="900" />
 		<set name="price" val="20741000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
@@ -805,8 +805,8 @@
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="980" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="DAGGER" />
@@ -950,8 +950,8 @@
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="970" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="DAGGER" />
@@ -979,8 +979,8 @@
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="960" />
 		<set name="price" val="14098000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="DAGGER" />
 		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
@@ -1008,8 +1008,8 @@
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="950" />
 		<set name="price" val="20741000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="DAGGER" />
@@ -1187,8 +1187,8 @@
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="740" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="DAGGER" />
 		<set name="isAppearanceable" val="true" />
@@ -1663,8 +1663,8 @@
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1440" />
 		<set name="price" val="7830000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
@@ -1750,8 +1750,8 @@
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1420" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
@@ -1779,8 +1779,8 @@
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="1390" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
@@ -1808,8 +1808,8 @@
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1370" />
 		<set name="price" val="14098000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
@@ -1837,8 +1837,8 @@
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1350" />
 		<set name="price" val="20741000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
@@ -1863,7 +1863,7 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1910" />
 		<set name="price" val="54100" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="1" />
 		<set name="commissionItemType" val="BOW" />
@@ -1888,7 +1888,7 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1900" />
 		<set name="price" val="136000" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="1" />
 		<set name="commissionItemType" val="BOW" />
@@ -1913,7 +1913,7 @@
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1880" />
 		<set name="price" val="244000" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="1" />
 		<set name="commissionItemType" val="BOW" />
@@ -1941,7 +1941,7 @@
 		<set name="weight" val="1870" />
 		<set name="price" val="409000" />
 		<set name="change_weaponId" val="9212" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="2" />
 		<set name="enchant_enabled" val="true" />
@@ -2251,8 +2251,8 @@
 		<set name="weight" val="1720" />
 		<set name="price" val="8680000" />
 		<set name="change_weaponId" val="9312" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="4" />
 		<set name="enchant_enabled" val="true" />
 		<set name="reuse_delay" val="820" />
@@ -2344,8 +2344,8 @@
 		<set name="weight" val="1700" />
 		<set name="price" val="13100000" />
 		<set name="change_weaponId" val="9324" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="4" />
 		<set name="enchant_enabled" val="true" />
 		<set name="reuse_delay" val="1500" />

@@ -714,8 +714,8 @@
 		<set name="weight" val="1370" />
 		<set name="price" val="8680000" />
 		<set name="change_weaponId" val="9304" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
@@ -829,8 +829,8 @@
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="910" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
 		<set name="isAppearanceable" val="true" />
@@ -856,8 +856,8 @@
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="900" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
@@ -885,8 +885,8 @@
 		<set name="material" val="MITHRIL" />
 		<set name="weight" val="830" />
 		<set name="price" val="14098000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
 		<set name="isAppearanceable" val="true" />
@@ -914,8 +914,8 @@
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="840" />
 		<set name="price" val="20741000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="ensoulNormalSlots" val="1" />
@@ -1242,8 +1242,8 @@
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1580" />
 		<set name="price" val="20741000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
@@ -1387,8 +1387,8 @@
 		<set name="material" val="BONE" />
 		<set name="weight" val="1600" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
@@ -1504,8 +1504,8 @@
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1570" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />

@@ -303,7 +303,7 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1950" />
 		<set name="price" val="768" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="1" />
 		<set name="commissionItemType" val="BOW" />
@@ -329,7 +329,7 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1930" />
 		<set name="price" val="12500" />
-		<set name="soulshots" val="2" />
+		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="1" />
 		<set name="commissionItemType" val="BOW" />
@@ -1387,8 +1387,8 @@
 		<set name="weight" val="1930" />
 		<set name="price" val="8680000" />
 		<set name="change_weaponId" val="9308" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
@@ -1416,8 +1416,8 @@
 		<set name="weight" val="1350" />
 		<set name="price" val="13100000" />
 		<set name="change_weaponId" val="9316" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
@@ -1445,8 +1445,8 @@
 		<set name="weight" val="1330" />
 		<set name="price" val="14098000" />
 		<set name="change_weaponId" val="9328" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
@@ -1474,8 +1474,8 @@
 		<set name="weight" val="1840" />
 		<set name="price" val="20741000" />
 		<set name="change_weaponId" val="9344" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_SWORD" />
@@ -1701,8 +1701,8 @@
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1620" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="commissionItemType" val="BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="true" />
@@ -1730,8 +1730,8 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="960" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
@@ -1888,8 +1888,8 @@
 		<set name="material" val="BLOOD_STEEL" />
 		<set name="weight" val="1920" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
@@ -1920,8 +1920,8 @@
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1900" />
 		<set name="price" val="14098000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="true" />
 		<set name="commissionItemType" val="SPEAR" />
 		<set name="isAppearanceable" val="true" />
