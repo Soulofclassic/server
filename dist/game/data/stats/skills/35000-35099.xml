@@ -665,230 +665,16 @@
 		<hitTime>1000</hitTime>
 		<reuseDelay>7200000</reuseDelay>
 	</skill>
-	<skill id="35024" toLevel="11" name="Talisman of Border">
-		<!-- Level 1: Activates Dimensional Border Power. <Defence>: P./ M. Def. +12. -->
-		<!-- Level 2: Activates Dimensional Border Power. <Defence>: P./ M. Def. +14, P./ M. Evasion +1. -->
-		<!-- Level 3: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +3%. <Defence>: P./ M. Def. +17, P./ M. Evasion +1, Max HP/ MP/ CP +80. <Speed>: Speed +3. -->
-		<!-- Level 4: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +3%. <Defence>: P./ M. Def. +19, P./ M. Evasion +1, Max HP/ MP/ CP +80. <Speed>: Speed +3, Atk. Spd./ Casting Spd. +7. -->
-		<!-- Level 5: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +4%. <Defence>: P./ M. Def. +22, P./ M. Evasion +1, Max HP/ MP/ CP +120. <Speed>: Speed +5, Atk. Spd./ Casting Spd. +10. -->
-		<!-- Level 6: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +4%. <Defence>: P./ M. Def. +24, P./ M. Evasion +2, Max HP/ MP/ CP +160. <Speed>: Speed +5, Atk. Spd./ Casting Spd. +15. -->
-		<!-- Level 7: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +29, P./ M. Evasion +2, Max HP/ MP/ CP +160. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: with a certain chance activates Dimensional Border Power when dealing physical or magical damage. -->
-		<!-- Level 8: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +34, P./ M. Evasion +2, Max HP/ MP/ CP +200. <Speed>: Speed +7, Atk. Spd./ Casting Spd. +15. <Destruction>: with a certain chance activates Dimensional Border Power when dealing physical or magical damage. -->
-		<!-- Level 9: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +38, P./ M. Evasion +2, Max HP/ MP/ CP +240. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +15. <Destruction>: Returns 4% of damage received back to the enemy, with a certain chance activates Dimensional Border Power when dealing physical or magical damage. -->
-		<!-- Level 10: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +43, P./ M. Evasion +2, Max HP/ MP/ CP +280. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +20. <Destruction>: Returns 6% of damage received back to the enemy, with a certain chance activates Dimensional Border Power when dealing physical or magical damage. -->
-		<!-- Level 11: Activates Dimensional Border Power. <Upgrade>: Acquired XP/ SP +5%. <Defence>: P./ M. Def. +48, P./ M. Evasion +2, Max HP/ MP/ CP +320. <Speed>: Speed +8, Atk. Spd./ Casting Spd. +30. <Destruction>: Returns 8% of damage received back to the enemy, with a certain chance activates Dimensional Border Power when dealing physical or magical damage. -->
+	<skill id="35024" toLevel="1" name="Fire Dragon Blessing">
+		<!-- Level 1: with a certain chance activates Fire Dragon Blessing when dealing physical or magical damage. -->
 		<icon>
-			<value level="1">icon.bm_magic_square_talisman</value>
-			<value level="2">icon.bm_magic_square_talisman</value>
-			<value level="3">icon.bm_magic_square_talisman</value>
-			<value level="4">icon.bm_magic_square_talisman</value>
-			<value level="5">icon.bm_magic_square_talisman</value>
-			<value level="6">icon.bm_magic_square_talisman</value>
-			<value level="7">icon.bm_magic_square_talisman</value>
-			<value level="8">icon.bm_magic_square_talisman</value>
-			<value level="9">icon.bm_magic_square_talisman</value>
-			<value level="10">icon.bm_magic_square_talisman</value>
-			<value level="11">icon.bm_blessed_magic_square_talisman</value>
+			<value level="1">icon.bm_vallakas_belt</value>
 		</icon>
 		<operateType>P</operateType>
 		<excludedFromCheck>true</excludedFromCheck>
 		<magicLevel>55</magicLevel>
 		<effects>
-			<effect name="PhysicalDefence">
-				<amount>
-					<value level="1">12</value>
-					<value level="2">14</value>
-					<value level="3">17</value>
-					<value level="4">19</value>
-					<value level="5">22</value>
-					<value level="6">24</value>
-					<value level="7">29</value>
-					<value level="8">34</value>
-					<value level="9">38</value>
-					<value level="10">43</value>
-					<value level="11">48</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="MagicalDefence">
-				<amount>
-					<value level="1">12</value>
-					<value level="2">14</value>
-					<value level="3">17</value>
-					<value level="4">19</value>
-					<value level="5">22</value>
-					<value level="6">24</value>
-					<value level="7">29</value>
-					<value level="8">34</value>
-					<value level="9">38</value>
-					<value level="10">43</value>
-					<value level="11">48</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="MagicalEvasion">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">1</value>
-					<value level="3">1</value>
-					<value level="4">1</value>
-					<value level="5">1</value>
-					<value level="6">2</value>
-					<value level="7">2</value>
-					<value level="8">2</value>
-					<value level="9">2</value>
-					<value level="10">2</value>
-					<value level="11">2</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="PhysicalEvasion">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">1</value>
-					<value level="3">1</value>
-					<value level="4">1</value>
-					<value level="5">1</value>
-					<value level="6">2</value>
-					<value level="7">2</value>
-					<value level="8">2</value>
-					<value level="9">2</value>
-					<value level="10">2</value>
-					<value level="11">2</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="MaxHp">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">0</value>
-					<value level="3">80</value>
-					<value level="4">80</value>
-					<value level="5">120</value>
-					<value level="6">160</value>
-					<value level="7">160</value>
-					<value level="8">200</value>
-					<value level="9">240</value>
-					<value level="10">280</value>
-					<value level="11">320</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="MaxMp">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">0</value>
-					<value level="3">80</value>
-					<value level="4">80</value>
-					<value level="5">120</value>
-					<value level="6">160</value>
-					<value level="7">160</value>
-					<value level="8">200</value>
-					<value level="9">240</value>
-					<value level="10">280</value>
-					<value level="11">320</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="MaxCp">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">0</value>
-					<value level="3">80</value>
-					<value level="4">80</value>
-					<value level="5">120</value>
-					<value level="6">160</value>
-					<value level="7">160</value>
-					<value level="8">200</value>
-					<value level="9">240</value>
-					<value level="10">280</value>
-					<value level="11">320</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="Speed">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">0</value>
-					<value level="3">3</value>
-					<value level="4">3</value>
-					<value level="5">5</value>
-					<value level="6">5</value>
-					<value level="7">7</value>
-					<value level="8">7</value>
-					<value level="9">8</value>
-					<value level="10">8</value>
-					<value level="11">8</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="PhysicalAttackSpeed">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">0</value>
-					<value level="3">0</value>
-					<value level="4">7</value>
-					<value level="5">10</value>
-					<value level="6">15</value>
-					<value level="7">15</value>
-					<value level="8">15</value>
-					<value level="9">15</value>
-					<value level="10">20</value>
-					<value level="11">30</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="MagicalAttackSpeed">
-				<amount>
-					<value level="1">0</value>
-					<value level="2">0</value>
-					<value level="3">0</value>
-					<value level="4">7</value>
-					<value level="5">10</value>
-					<value level="6">15</value>
-					<value level="7">15</value>
-					<value level="8">15</value>
-					<value level="9">15</value>
-					<value level="10">20</value>
-					<value level="11">30</value>
-				</amount>
-				<mode>DIFF</mode>
-			</effect>
-			<effect name="ExpModify" fromLevel="3" toLevel="11">
-				<amount>
-					<value level="3">3</value> <!-- +3% -->
-                	<value level="4">3</value> <!-- +3% -->
-               		<value level="5">4</value> <!-- +4% -->
-                	<value level="6">4</value> <!-- +4% -->
-                	<value level="7">5</value> <!-- +5% -->
-                	<value level="8">5</value> <!-- +5% -->
-                	<value level="9">5</value> <!-- +5% -->
-                	<value level="10">5</value> <!-- +5% -->
-                	<value level="11">5</value> <!-- +5% -->
-            	</amount>
-			</effect>
-			<effect name="SpModify" fromLevel="3" toLevel="11">
-				<amount>
-					<value level="3">3</value> <!-- +3% -->
-                	<value level="4">3</value> <!-- +3% -->
-               		<value level="5">4</value> <!-- +4% -->
-                	<value level="6">4</value> <!-- +4% -->
-                	<value level="7">5</value> <!-- +5% -->
-                	<value level="8">5</value> <!-- +5% -->
-                	<value level="9">5</value> <!-- +5% -->
-                	<value level="10">5</value> <!-- +5% -->
-                	<value level="11">5</value> <!-- +5% -->
-            	</amount>
-			</effect>
-			<effect name="DamageShield" fromLevel="9" toLevel="11">
-				<percent>
-					<value level="9">4</value>
-	                <value level="10">6</value>
-	                <value level="11">8</value>
-            	</percent>
-            	<targetType>ENEMY</targetType>
-        	</effect>
-			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="11">
+			<effect name="TriggerSkillByDamageDealt">
 				<attackerType>Creature</attackerType>
 				<chance>12</chance>
 				<targetType>SELF</targetType>
@@ -903,7 +689,7 @@
 					<value level="11">4</value>
 				</skillLevel>
 			</effect>
-			<effect name="TriggerSkillByMagicType" fromLevel="7" toLevel="11">
+			<effect name="TriggerSkillByMagicType">
 				<magicTypes>0;1</magicTypes>
 				<chance>12</chance>
 				<targetType>SELF</targetType>
@@ -970,19 +756,13 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="35027" toLevel="4" name="Dimensional Border Power">
-		<!-- Level 1: P./ M. Atk. +2%, P./ M. Critical Damage +10%. -->
-		<!-- Level 2: P./ M. Atk. +5%, P./ M. Critical Damage +30%. -->
-		<!-- Level 3: P./ M. Atk. +7%, P./ M. Critical Damage +40%. -->
-		<!-- Level 4: P./ M. Atk. +10%, P./ M. Critical Damage +40%. -->
-		<icon>icon.skill10030</icon>
+	<skill id="35027" toLevel="1" name="Fire Dragon Blessing">
+		<!-- Level 1: P./ M. Atk. +10%, P./ M. Critical Damage +40%. -->
+		<icon>icon.bm_vallakas_belt</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<abnormalLevel>
 			<value level="1">1</value>
-			<value level="2">2</value>
-			<value level="3">3</value>
-			<value level="4">4</value>
 		</abnormalLevel>
 		<abnormalTime>10</abnormalTime>
 		<abnormalType>COUNTER_CRITICAL_TRIGGER</abnormalType>
@@ -996,37 +776,25 @@
 		<effects>
 			<effect name="PhysicalAttack">
 				<amount>
-					<value level="1">2</value>
-					<value level="2">5</value>
-					<value level="3">7</value>
-					<value level="4">10</value>
+					<value level="1">10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="MagicalAttack">
 				<amount>
-					<value level="1">2</value>
-					<value level="2">5</value>
-					<value level="3">7</value>
-					<value level="4">10</value>
+					<value level="1">10</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="CriticalDamage">
 				<amount>
-					<value level="1">10</value>
-					<value level="2">30</value>
-					<value level="3">40</value>
-					<value level="4">40</value>
+					<value level="1">40</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
 			<effect name="MagicCriticalDamage">
 				<amount>
-					<value level="1">10</value>
-					<value level="2">30</value>
-					<value level="3">40</value>
-					<value level="4">40</value>
+					<value level="1">40</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
