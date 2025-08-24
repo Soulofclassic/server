@@ -1086,12 +1086,12 @@
 		</effects>
 	</skill>
 	<skill id="50196" toLevel="1" name="Land Dragon Blessing">
-		<!-- Level 1: Becomes invincible for 5 sec. -->
+		<!-- Level 1: Becomes invincible for 7 sec. -->
 		<icon>icon.bm_antaras_belt</icon>
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>5</abnormalTime>
+		<abnormalTime>7</abnormalTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
 		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
 		<affectScope>SINGLE</affectScope>

@@ -20,5 +20,6 @@
 	<rods>
 		<rod itemId="45492" /> <!-- Normal Fishing Rod - 1-day -->
 		<rod itemId="49506" /> <!-- Normal Fishing Rod - 10-day -->
+		<rod itemId="70120" /> <!-- golden mermaid rod -->
 	</rods>
 </list>
