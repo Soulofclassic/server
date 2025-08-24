@@ -10,7 +10,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="40980" sp="1229" />
+		<acquire exp="43647" sp="1309" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2313.74622796964" hpRegen="8.5" mp="1188.8" mpRegen="3" />
 			<attack physical="1081.89379375" magical="523.38888525" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -85,7 +85,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="78" /> <!-- Great Sword -->
-		<acquire exp="42460" sp="1273" />
+		<acquire exp="45210" sp="1356" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2367.80290477825" hpRegen="8.585" mp="1219.8" mpRegen="3.03" />
 			<attack physical="1153.9788282" magical="547.9204896" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -158,7 +158,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="3943" sp="1366" />
+		<acquire exp="45523" sp="1365" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2367.80290477825" hpRegen="7.5" mp="1219.8" mpRegen="2.7" />
 			<attack physical="1153.9788282" magical="547.9204896" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -228,7 +228,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="5800" lhand="5799" /> <!-- Nephilim Lord lhand: Nephilim Lord -->
-		<acquire exp="43756" sp="1312" />
+		<acquire exp="46590" sp="1397" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2421.39403210377" hpRegen="8.5" mp="1251" mpRegen="3" />
 			<attack physical="1228.73102605" magical="572.95935785" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -313,7 +313,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="4063" sp="1410" />
+		<acquire exp="46967" sp="1409" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2421.39403210377" hpRegen="7.5" mp="1251" mpRegen="2.7" />
 			<attack physical="1228.73102605" magical="572.95935785" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -389,7 +389,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="55488" sp="1664" />
+		<acquire exp="59066" sp="1772" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2474.43773844242" hpRegen="8.5" mp="1282.4" mpRegen="3" />
 			<attack physical="1306.1078591" magical="598.495535" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -465,7 +465,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="4185" sp="1782" />
+		<acquire exp="59399" sp="1781" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2474.43773844242" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
 			<attack physical="1306.1078591" magical="598.495535" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -536,7 +536,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="78" /> <!-- Great Sword -->
-		<acquire exp="58828" sp="1764" />
+		<acquire exp="62513" sp="1875" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2676.65854" hpRegen="8.5" mp="1314" mpRegen="3" />
 			<attack physical="1386.0554136" magical="624.51810135" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -603,7 +603,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="4309" sp="1876" />
+		<acquire exp="62513" sp="1875" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2526.85161916379" hpRegen="7.5" mp="1314" mpRegen="2.7" />
 			<attack physical="1386.0554136" magical="624.51810135" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -675,7 +675,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="234" lhand="234" /> <!-- rhand: Demon's Dagger lhand: Demon's Dagger -->
-		<acquire exp="4563" sp="1614" />
+		<acquire exp="53795" sp="1613" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2629.45885739491" hpRegen="8.5" mp="1377.8" mpRegen="3" />
 			<attack physical="1553.38771115" magical="677.97384545" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -756,7 +756,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="4696" sp="1685" />
+		<acquire exp="56138" sp="1684" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
 			<attack physical="1640.604735" magical="705.3803757" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -830,7 +830,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="4696" sp="1675" />
+		<acquire exp="55808" sp="1674" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
 			<attack physical="1640.604735" magical="705.3803757" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -909,7 +909,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="4829" sp="1739" />
+		<acquire exp="57949" sp="1738" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2728.55377387479" hpRegen="8.5" mp="1442.4" mpRegen="3" />
 			<attack physical="1730.0567669" magical="733.21998035" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -986,7 +986,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="233" /> <!-- rhand: Dark Screamer -->
-		<acquire exp="4829" sp="1748" />
+		<acquire exp="58250" sp="1747" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2728.55377387479" hpRegen="8.5" mp="1442.4" mpRegen="3" />
 			<attack physical="1730.0567669" magical="733.21998035" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -1056,7 +1056,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="311" /> <!-- rhand: Crucifix of Blessing -->
-		<acquire exp="4956" sp="2138" />
+		<acquire exp="71238" sp="2137" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
 			<attack physical="1821.6290576" magical="761.4768854" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1124,7 +1124,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="4956" sp="2147" />
+		<acquire exp="71553" sp="2146" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
 			<attack physical="1821.6290576" magical="761.4768854" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1198,7 +1198,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="5085" sp="2413" />
+		<acquire exp="80412" sp="2412" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
 			<attack physical="1915.1945505" magical="790.13441925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1272,7 +1272,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="5085" sp="2413" />
+		<acquire exp="80412" sp="2412" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
 			<attack physical="1915.1945505" magical="790.13441925" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -1340,7 +1340,7 @@
 		<race>BEAST</race>
 		<sex>MALE</sex>
 		<equipment rhand="73" /> <!-- rhand: Shamshir -->
-		<acquire exp="3828" sp="1071"/>
+		<acquire exp="35687" sp="1070" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2313.74622796964" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
 			<attack physical="1081.89379375" magical="523.38888525" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1417,7 +1417,7 @@
 		</parameters>
 		<race>BEAST</race>
 		<sex>FEMALE</sex>
-		<acquire exp="3943" sp="1111"/>
+		<acquire exp="37003" sp="1110" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2367.80290477825" hpRegen="7.5" mp="1219.8" mpRegen="2.7" />
 			<attack physical="1153.9788282" magical="547.9204896" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1493,7 +1493,7 @@
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="3943" sp="1120"/>
+		<acquire exp="37316" sp="1119" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2367.80290477825" hpRegen="7.5" mp="1219.8" mpRegen="2.7" />
 			<attack physical="1153.9788282" magical="547.9204896" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1567,7 +1567,7 @@
 		</parameters>
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire exp="4063" sp="1144" />
+		<acquire exp="38133" sp="1143" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2421.39403210377" hpRegen="7.5" mp="1251" mpRegen="2.7" />
 			<attack physical="1228.73102605" magical="572.95935785" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1645,7 +1645,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="4063" sp="1156" />
+		<acquire exp="38510" sp="1155" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2421.39403210377" hpRegen="7.5" mp="1251" mpRegen="2.7" />
 			<attack physical="1228.73102605" magical="572.95935785" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1720,7 +1720,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="4185" sp="1196" />
+		<acquire exp="39834" sp="1195" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2474.43773844242" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
 			<attack physical="1306.1078591" magical="598.495535" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1794,7 +1794,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="4185" sp="1206" />
+		<acquire exp="40167" sp="1205" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2474.43773844242" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
 			<attack physical="1306.1078591" magical="598.495535" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1876,7 +1876,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="298" /> <!-- rhand: Orcish Glaive -->
-		<acquire exp="4309" sp="1282" />
+		<acquire exp="42711" sp="1281" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2526.85161916379" hpRegen="7.5" mp="1314" mpRegen="2.7" />
 			<attack physical="1386.0554136" magical="624.51810135" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -1948,7 +1948,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="4309" sp="1282" />
+		<acquire exp="42711" sp="1281" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2526.85161916379" hpRegen="7.5" mp="1314" mpRegen="2.7" />
 			<attack physical="1386.0554136" magical="624.51810135" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2027,7 +2027,7 @@
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<acquire exp="4563" sp="1329" />
+		<acquire exp="44298" sp="1328" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2629.45885739491" hpRegen="8.5" mp="1377.8" mpRegen="3" />
 			<attack physical="1553.38771115" magical="677.97384545" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -2105,7 +2105,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="4696" sp="1392" />
+		<acquire exp="46373" sp="1391" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
 			<attack physical="1640.604735" magical="705.3803757" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2176,7 +2176,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="4696" sp="1382"/>
+		<acquire exp="46043" sp="1381" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
 			<attack physical="1640.604735" magical="705.3803757" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2249,7 +2249,7 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>FEMALE</sex>
-		<acquire exp="4829" sp="1438" />
+		<acquire exp="47909" sp="1437" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2728.55377387479" hpRegen="8.5" mp="1442.4" mpRegen="3" />
 			<attack physical="1730.0567669" magical="733.21998035" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
@@ -2329,7 +2329,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="5800" lhand="5799" /> <!-- rhand: Nephilim Lord lhand: Nephilim Lord -->
-		<acquire exp="4829" sp="1447" />
+		<acquire exp="48210" sp="1446" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2728.55377387479" hpRegen="8.5" mp="1442.4" mpRegen="3" />
 			<attack physical="1730.0567669" magical="733.21998035" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2405,7 +2405,7 @@
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="4956" sp="1454" />
+		<acquire exp="48462" sp="1453" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
 			<attack physical="1821.6290576" magical="761.4768854" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2466,7 +2466,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21635" level="74" type="Monster" name="Mausoleum Royal Guardian" element="EARTH">
+	<npc id="21635" level="74" type="Monster" name="Mausoleum Royal Guardian">
 		<!-- Classic Antharas -->
 		<!-- Catacomb Classic -->
 		<parameters>
@@ -2484,7 +2484,7 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="233" /> <!-- rhand: Dark Screamer -->
-		<acquire exp="4956" sp="1464" attributeExp="38" />
+		<acquire exp="41273" sp="1238" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
 			<attack physical="1821.6290576" magical="761.4768854" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
@@ -2538,7 +2538,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21636" level="75" type="Monster" name="Mausoleum Sage" element="EARTH">
+	<npc id="21636" level="75" type="Monster" name="Mausoleum Sage">
 		<!-- Classic Antharas -->
 		<!-- Catacomb Classic -->
 		<parameters>
@@ -2555,7 +2555,7 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<equipment rhand="311" /> <!-- rhand: Crucifix of Blessing -->
-		<acquire exp="5085" sp="1711" attributeExp="41" />
+		<acquire exp="57017" sp="1710" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
 			<attack physical="1915.1945505" magical="790.13441925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
@@ -2615,7 +2615,7 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21637" level="75" type="Monster" name="Sepulcher Royal Guardian" element="EARTH">
+	<npc id="21637" level="75" type="Monster" name="Sepulcher Royal Guardian">
 		<!-- Classic Antharas -->
 		<!-- Catacomb Classic -->
 		<parameters>
@@ -2631,7 +2631,7 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="5085" sp="1711" attributeExp="41" />
+		<acquire exp="57017" sp="1710" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
 			<attack physical="1915.1945505" magical="790.13441925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
