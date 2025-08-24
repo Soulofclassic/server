@@ -1091,14 +1091,12 @@
 		<operateType>A2</operateType>
 		<targetType>SELF</targetType>
 		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>
-			<value level="1">5</value>
-		</abnormalTime>
+		<abnormalTime>5</abnormalTime>
 		<abnormalType>INVINCIBILITY</abnormalType>
-		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>NONE</basicProperty>
-		<effectPoint>1</effectPoint>
+		<effectPoint>659</effectPoint>
+		<removedOnAnyActionExceptMove>true</removedOnAnyActionExceptMove>
 		<hitTime>0</hitTime>
 		<isMagic>2</isMagic> <!-- Static Skill -->
 		<magicLevel>
