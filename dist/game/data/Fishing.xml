@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./xsd/Fishing.xsd">
 	<baitDistance min="90" max="250" />
-	<xpRate min="0.033" max="0.033" /> <!-- XP modification rate -->
+	<xpRate min="0.1" max="0.1" /> <!-- XP modification rate -->
 	<spRate min="0.033" max="0.033" /> <!-- SP modification rate -->
 	<baits>
 		<!-- Common Bait -->
