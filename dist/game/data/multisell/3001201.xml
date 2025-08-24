@@ -5,19 +5,19 @@
 	</npcs>
 	<item>
 		<!-- Adena -->
-		<ingredient count="2500000" id="57" />
+		<ingredient count="1000000" id="57" />
 		<!-- Fishing Rod Pack (1-day) -->
 		<production count="1" id="45493" />
 	</item>
 	<item>
 		<!-- Adena -->
-		<ingredient count="250" id="57" />
+		<ingredient count="200" id="57" />
 		<!-- Fishing Shot -->
 		<production count="1" id="38154" />
 	</item>
 	<item>
 		<!-- Adena -->
-		<ingredient count="3000" id="57" />
+		<ingredient count="2000" id="57" />
 		<!-- Normal Bait -->
 		<production count="1" id="45495" />
 	</item>
