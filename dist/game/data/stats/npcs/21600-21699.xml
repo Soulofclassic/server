@@ -271,7 +271,7 @@
 		</ai>
 		<collision>
 			<radius normal="9.6" />
-			<height normal="39.4" />
+			<height normal="49.5" />
 		</collision>
 		<dropLists>
 			<drop>
