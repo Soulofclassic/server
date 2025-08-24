@@ -13,8 +13,8 @@
 		<acquire exp="40980" sp="1229" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2313.74622796964" hpRegen="8.5" mp="1188.8" mpRegen="3" />
-			<attack physical="601.50361" magical="405.81844" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="221.15063" magical="143.851368417065" />
+			<attack physical="1081.89379375" magical="523.38888525" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="299.079363" magical="218.853294" />
 			<attribute>
 				<defence fire="20" water="20" wind="-5" earth="20" holy="-13" dark="53" />
 			</attribute>
@@ -88,8 +88,8 @@
 		<acquire exp="42460" sp="1273" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2367.80290477825" hpRegen="8.585" mp="1219.8" mpRegen="3.03" />
-			<attack physical="607.50361" magical="415.81844" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="241.15063" magical="153.851368417065" evasion="1" />
+			<attack physical="1153.9788282" magical="547.9204896" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="304.400272" magical="222.746909" />
 			<attribute>
 				<attack type="DARK" value="20" />
 				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
@@ -144,59 +144,57 @@
 			<height normal="40" grown="48" />
 		</collision>
 	</npc>
-	<npc id="21604" level="66" type="Monster" name="Zaken's Elite Pikeman">
+	<npc id="21604" level="66" type="Monster" name="Ancient Holy Ground's Vision">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="0" />
-			<param name="MoveAroundSocial1" value="0" />
-			<param name="MoveAroundSocial2" value="0" />
-			<param name="SoulShot" value="100" />
-			<param name="SoulShotRate" value="10" />
-			<param name="SpiritShot" value="100" />
-			<param name="SpiritShotRate" value="5" />
-			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4244" level="4" />
+			<param name="MoveAroundSocial" value="24" />
+			<param name="MoveAroundSocial1" value="24" />
+			<param name="MoveAroundSocial2" value="24" />
+			<skill name="CheckMagic" id="4098" level="9" /> <!-- Silence -->
+			<skill name="CheckMagic1" id="4046" level="9" /> <!-- Sleep -->
+			<skill name="DDMagic" id="4105" level="9" /> <!-- NPC Straight Beam Cannon -->
+			<skill name="SleepMagic" id="4046" level="9" /> <!-- Sleep -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="292" /> <!-- Pike -->
-		<acquire exp="42774" sp="1283" />
+		<acquire exp="3943" sp="1366" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1539" hpRegen="22" mp="2096" mpRegen="2.1" />
-			<attack physical="210.04832" magical="143.43577" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="169.13417" magical="123.76505" />
+			<vitals hp="2367.80290477825" hpRegen="7.5" mp="1219.8" mpRegen="2.7" />
+			<attack physical="1153.9788282" magical="547.9204896" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="304.400272" magical="222.746909" />
 			<speed>
-				<walk ground="50" />
-				<run ground="174" />
+				<walk ground="48" />
+				<run ground="200" />
 			</speed>
-			<hitTime>210</hitTime>
+			<hitTime>610</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4244" level="4" /> <!-- NPC Wild Sweep -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4046" level="9" /> <!-- Sleep -->
+			<skill id="4098" level="9" /> <!-- Silence -->
+			<skill id="4105" level="9" /> <!-- NPC Straight Beam Cannon -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>UNDEAD1</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="12" />
-			<height normal="33.6" />
+			<radius normal="10.5" />
+			<height normal="51" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -233,8 +231,8 @@
 		<acquire exp="43756" sp="1312" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2421.39403210377" hpRegen="8.5" mp="1251" mpRegen="3" />
-			<attack physical="541.44774" magical="369.73862" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="262.19426" magical="174.571895122369" shield="153" shieldRate="20" />
+			<attack physical="1228.73102605" magical="572.95935785" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="309.707761" magical="226.630701" />
 			<attribute>
 				<attack type="DARK" value="20" />
 				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="184" />
@@ -301,61 +299,57 @@
 			<height normal="55" />
 		</collision>
 	</npc>
-	<npc id="21606" level="67" type="Monster" name="Zaken's Archer">
+	<npc id="21606" level="67" type="Monster" name="Lilim Great Magus">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="157" />
-			<param name="MoveAroundSocial1" value="157" />
-			<param name="MoveAroundSocial2" value="157" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21605" />
-			<param name="step2" value="21606" />
-			<param name="SoulShot" value="100" />
-			<param name="SoulShotRate" value="10" />
-			<param name="SpiritShot" value="100" />
-			<param name="SpiritShotRate" value="5" />
-			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4040" level="4" />
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<skill name="CheckMagic" id="4098" level="8" /> <!-- Silence -->
+			<skill name="CheckMagic1" id="4046" level="8" /> <!-- Sleep -->
+			<skill name="DDMagic" id="4002" level="8" /> <!-- NPC HP Drain -->
+			<skill name="SleepMagic" id="4046" level="8" /> <!-- Sleep -->
 		</parameters>
 		<race>DEMONIC</race>
-		<sex>MALE</sex>
-		<equipment rhand="279" /> <!-- Reinforced Longbow -->
-		<acquire exp="44134" sp="1324" />
+		<sex>FEMALE</sex>
+		<acquire exp="4063" sp="1410" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1601" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="657.2445372" magical="151.75505" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
-			<defence physical="130.3046732" magical="126.91259" />
+			<vitals hp="2421.39403210377" hpRegen="7.5" mp="1251" mpRegen="2.7" />
+			<attack physical="1228.73102605" magical="572.95935785" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="309.707761" magical="226.630701" />
 			<speed>
-				<walk ground="40" />
-				<run ground="174" />
+				<walk ground="50" />
+				<run ground="180" />
 			</speed>
-			<hitTime>800</hitTime>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4040" level="4" /> <!-- NPC Bow Attack -->
+			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="9" /> <!-- Bows -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4002" level="8" /> <!-- NPC HP Drain -->
+			<skill id="4046" level="8" /> <!-- Sleep -->
+			<skill id="4098" level="8" /> <!-- Silence -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai type="ARCHER" clanHelpRange="300" aggroRange="300">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>UNDEAD1</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="11" />
-			<height normal="27" />
+			<radius normal="10" />
+			<height normal="37.5" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -398,8 +392,8 @@
 		<acquire exp="55488" sp="1664" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2474.43773844242" hpRegen="8.5" mp="1282.4" mpRegen="3" />
-			<attack physical="555.81387" magical="384.40994" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="232.70061" magical="161.515820894982" />
+			<attack physical="1306.1078591" magical="598.495535" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="314.99765" magical="230.501612" />
 			<attribute>
 				<defence fire="20" water="20" wind="20" earth="20" holy="53" dark="-83" />
 			</attribute>
@@ -458,59 +452,56 @@
 			<height normal="44" grown="56" />
 		</collision>
 	</npc>
-	<npc id="21608" level="68" type="Monster" name="Zaken's Watchman">
+	<npc id="21608" level="68" type="Monster" name="Nephilim Commander">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="57" />
-			<param name="MoveAroundSocial1" value="57" />
-			<param name="MoveAroundSocial2" value="57" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21608" />
-			<param name="step2" value="21609" />
-			<param name="SoulShot" value="100" />
-			<param name="SoulShotRate" value="10" />
-			<param name="SpiritShot" value="100" />
-			<param name="SpiritShotRate" value="5" />
-			<param name="LongRangeGuardRate" value="5" />
-			<skill name="W_LongRangeDDMagic" id="4151" level="4" />
-			<skill name="W_ShortRangeDDMagic" id="4160" level="4" />
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
+			<skill name="SelfRangeDDMagic" id="4072" level="9" /> <!-- Stun -->
+			<!-- <skill name="SelfBuff" id="4091" level="1" /> --> <!-- NPC Ogre Spirit Totem -->
+			<skill name="PhysicalSpecial" id="4032" level="9" /> <!-- NPC Strike -->
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="55820" sp="1674" />
+		<acquire exp="4185" sp="1782" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1664" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="234.89829" magical="160.40508" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="151.119341" magical="130.09715" evasion="10" />
+			<vitals hp="2474.43773844242" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="1306.1078591" magical="598.495535" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="314.99765" magical="230.501612" />
 			<speed>
-				<walk ground="80" />
-				<run ground="174" />
+				<walk ground="65" />
+				<run ground="200" />
 			</speed>
-			<hitTime>340</hitTime>
+			<hitTime>630</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4151" level="4" /> <!-- NPC Windstrike - Magic -->
-			<skill id="4160" level="4" /> <!-- NPC Aura Burn - Magic -->
-			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
+			<skill id="4416" level="8" /> <!-- Angels -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-			<skill id="4444" level="2" /> <!-- Higher Resist Bow/Crossbow Weapons -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4032" level="9" /> <!-- NPC Strike -->
+			<skill id="4072" level="9" /> <!-- Stun -->
+			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="800" clanHelpRange="400" isAggressive="false">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+			</clanList>
+		</ai>
 		<collision>
-			<radius normal="15" />
-			<height normal="28" />
+			<radius normal="13" grown="15.6" />
+			<height normal="48" grown="57.6" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -548,8 +539,8 @@
 		<acquire exp="58828" sp="1764" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="2676.65854" hpRegen="8.5" mp="1314" mpRegen="3" />
-			<attack physical="667.50361" magical="455.81844" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="291.15063" magical="193.851368417065" />
+			<attack physical="1386.0554136" magical="624.51810135" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="320.265693" magical="234.356529" />
 			<attribute>
 				<attack type="DARK" value="20" />
 				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
@@ -601,55 +592,53 @@
 			<height normal="31" grown="36" />
 		</collision>
 	</npc>
-	<npc id="21610" level="69" type="Monster" name="Zaken's Senior Watchman">
+	<npc id="21610" level="69" type="Monster" name="Netherworld Prophet">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="57" />
-			<param name="MoveAroundSocial1" value="57" />
-			<param name="MoveAroundSocial2" value="57" />
-			<param name="SoulShot" value="100" />
-			<param name="SoulShotRate" value="10" />
-			<param name="SpiritShot" value="100" />
-			<param name="SpiritShotRate" value="5" />
-			<param name="LongRangeGuardRate" value="5" />
-			<skill name="W_LongRangeDDMagic" id="4151" level="4" />
-			<skill name="W_ShortRangeDDMagic" id="4160" level="4" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="DDMagic" id="4002" level="8" /> <!-- NPC HP Drain -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="58828" sp="1764" />
+		<acquire exp="4309" sp="1876" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1664" hpRegen="22" mp="2096" mpRegen="2.1" />
-			<attack physical="234.89829" magical="160.40508" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="151.119341" magical="130.09715" evasion="10" />
+			<vitals hp="2526.85161916379" hpRegen="7.5" mp="1314" mpRegen="2.7" />
+			<attack physical="1386.0554136" magical="624.51810135" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="320.265693" magical="234.356529" />
 			<speed>
 				<walk ground="80" />
-				<run ground="174" />
+				<run ground="165" />
 			</speed>
-			<hitTime>340</hitTime>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4151" level="4" /> <!-- NPC Windstrike - Magic -->
-			<skill id="4160" level="4" /> <!-- NPC Aura Burn - Magic -->
-			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-			<skill id="4444" level="2" /> <!-- Higher Resist Bow/Crossbow Weapons -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4002" level="8" /> <!-- NPC HP Drain -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+			</clanList>
+		</ai>
 		<collision>
+			<radius normal="24" />
+			<height normal="50.4" />
+		</collision>
 			<radius normal="18" />
 			<height normal="33.6" />
 		</collision>
@@ -669,61 +658,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21611" level="71" type="Monster" name="Dismal Humming">
+	<npc id="21611" level="71" type="Monster" name="Lilim Assassin">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="100" />
-			<param name="MoveAroundSocial1" value="100" />
-			<param name="MoveAroundSocial2" value="100" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21611" />
-			<param name="step2" value="21612" />
+			<param name="MoveAroundSocial" value="75" />
+			<param name="MoveAroundSocial1" value="75" />
+			<param name="MoveAroundSocial2" value="75" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4088" level="4" />
+			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="50613" sp="1518" />
+		<equipment rhand="234" lhand="234" /> <!-- rhand: Demon's Dagger lhand: Demon's Dagger -->
+		<acquire exp="4563" sp="1614" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1729" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="248.0526" magical="169.38777" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="182.18816" magical="133.31739" />
+			<vitals hp="2629.45885739491" hpRegen="8.5" mp="1377.8" mpRegen="3" />
+			<attack physical="1553.38771115" magical="677.97384545" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="330.718949" magical="242.005775" />
 			<speed>
-				<walk ground="21" />
-				<run ground="174" />
+				<walk ground="36" />
+				<run ground="190" />
 			</speed>
-			<hitTime>590</hitTime>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4088" level="4" /> <!-- Bleed -->
+			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4438" level="2" /> <!-- Greater Resist Sleep -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="4067" level="6" /> <!-- NPC Mortal Blow -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>UNDEAD</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="12" />
-			<height normal="26" />
+			<radius normal="13" />
+			<height normal="44" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -751,61 +737,62 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21612" level="72" type="Monster" name="Dismal Humming">
+	<npc id="21612" level="72" type="Monster" name="Lilim Soldier">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="100" />
-			<param name="MoveAroundSocial1" value="100" />
-			<param name="MoveAroundSocial2" value="100" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21611" />
-			<param name="step2" value="21612" />
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<skill name="CheckMagic" id="4098" level="6" /> <!-- Silence -->
+			<skill name="CheckMagic1" id="4046" level="6" /> <!-- Sleep -->
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4088" level="4" />
+			<skill name="DDMagic" id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill name="SleepMagic" id="4046" level="6" /> <!-- Sleep -->
 		</parameters>
 		<race>DEMONIC</race>
-		<sex>MALE</sex>
-		<acquire exp="52866" sp="1585" />
+		<sex>FEMALE</sex>
+		<acquire exp="4696" sp="1685" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1729" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="330.1580106" magical="169.38777" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="136.8806612" magical="133.31739" />
+			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="1640.604735" magical="705.3803757" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="335.895417" magical="245.793691" />
 			<speed>
-				<walk ground="21" />
-				<run ground="174" />
+				<walk ground="50" />
+				<run ground="170" />
 			</speed>
-			<hitTime>590</hitTime>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4088" level="4" /> <!-- Bleed -->
+			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4438" level="2" /> <!-- Greater Resist Sleep -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill id="4046" level="6" /> <!-- Sleep -->
+			<skill id="4098" level="6" /> <!-- Silence -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>UNDEAD</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="12" />
-			<height normal="26" />
+			<radius normal="10" />
+			<height normal="37.5" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -824,59 +811,63 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21613" level="72" type="Monster" name="Dismal shout">
+	<npc id="21613" level="72" type="Monster" name="Nephilim Archbishop">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="100" />
-			<param name="MoveAroundSocial1" value="100" />
-			<param name="MoveAroundSocial2" value="100" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="CheckMagic" id="4098" level="6" /> <!-- Silence -->
+			<skill name="CheckMagic1" id="4046" level="6" /> <!-- Sleep -->
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DeBuff" id="4088" level="4" />
+			<skill name="MagicHeal" id="4065" level="6" /> <!-- NPC Heal -->
+			<skill name="Buff" id="4030" level="3" /> <!-- NPC Clan Might -->
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="52536" sp="1576" />
+		<acquire exp="4696" sp="1675" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1729" hpRegen="22" mp="2096" mpRegen="2.1" />
-			<attack physical="248.0526" magical="169.38777" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="182.18816" magical="133.31739" />
+			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="1640.604735" magical="705.3803757" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="335.895417" magical="245.793691" />
 			<speed>
-				<walk ground="21" />
-				<run ground="174" />
+				<walk ground="50" />
+				<run ground="170" />
 			</speed>
-			<hitTime>590</hitTime>
+			<hitTime>480</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4088" level="4" /> <!-- Bleed -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4438" level="2" /> <!-- Greater Resist Sleep -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4030" level="3" /> <!-- NPC Clan Might -->
+			<skill id="4046" level="6" /> <!-- Sleep -->
+			<skill id="4065" level="6" /> <!-- NPC Heal -->
+			<skill id="4098" level="6" /> <!-- Silence -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<ai aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>UNDEAD</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="13.5" />
-			<height normal="31.2" />
+			<radius normal="21" grown="14" />
+			<height normal="44" grown="56" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -900,62 +891,61 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21614" level="73" type="Monster" name="Death Flyer">
+	<npc id="21614" level="73" type="Monster" name="Nephilim Praetorian">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="110" />
-			<param name="MoveAroundSocial1" value="110" />
-			<param name="MoveAroundSocial2" value="110" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21614" />
-			<param name="step2" value="21615" />
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4074" level="2" />
+			<skill name="SelfRangeDDMagic" id="4072" level="7" /> <!-- Stun -->
+			<!-- <skill name="SelfBuff" id="4091" level="1" /> --> <!-- NPC Ogre Spirit Totem -->
+			<skill name="PhysicalSpecial" id="4032" level="7" /> <!-- NPC Strike -->
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<acquire exp="54586" sp="1637" />
+		<acquire exp="4829" sp="1739" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1795" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="261.69549" magical="178.7041" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="186.63569" magical="136.5719" />
+			<vitals hp="2728.55377387479" hpRegen="8.5" mp="1442.4" mpRegen="3" />
+			<attack physical="1730.0567669" magical="733.21998035" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.032549" magical="249.55282" />
 			<speed>
-				<walk ground="100" />
-				<run ground="174" />
+				<walk ground="65" />
+				<run ground="190" />
 			</speed>
-			<hitTime>370</hitTime>
+			<hitTime>630</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4074" level="2" /> <!-- NPC Haste -->
+			<skill id="4416" level="8" /> <!-- Angels -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4438" level="2" /> <!-- Greater Resist Sleep -->
-			<skill id="4439" level="2" /> <!-- Greater Resist Hold -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4032" level="7" /> <!-- NPC Strike -->
+			<skill id="4072" level="7" /> <!-- Stun -->
+			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="300">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>UNDEAD</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="20" />
-			<height normal="35" grown="42" />
+			<radius normal="13" grown="15.6" />
+			<height normal="48" grown="57.6" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -978,62 +968,59 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21615" level="73" type="Monster" name="Death Flyer">
+	<npc id="21615" level="73" type="Monster" name="Graveyard Guardian">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="110" />
-			<param name="MoveAroundSocial1" value="110" />
-			<param name="MoveAroundSocial2" value="110" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21614" />
-			<param name="step2" value="21615" />
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="MaxRoarCount" value="3" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4074" level="2" />
+			<skill name="Fury" id="4317" level="1" /> <!-- Increase Rage Might -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="54886" sp="1646" />
+		<equipment rhand="233" /> <!-- rhand: Dark Screamer -->
+		<acquire exp="4829" sp="1748" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1795" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="348.3166972" magical="178.7041" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="140.2221563" magical="136.5719" />
+			<vitals hp="2728.55377387479" hpRegen="8.5" mp="1442.4" mpRegen="3" />
+			<attack physical="1730.0567669" magical="733.21998035" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="341.032549" magical="249.55282" />
 			<speed>
-				<walk ground="100" />
-				<run ground="174" />
+				<walk ground="80" />
+				<run ground="190" />
 			</speed>
-			<hitTime>370</hitTime>
+			<hitTime>520</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4074" level="2" /> <!-- NPC Haste -->
+			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4438" level="2" /> <!-- Greater Resist Sleep -->
-			<skill id="4439" level="2" /> <!-- Greater Resist Hold -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="4317" level="1" /> <!-- Increase Rage Might -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="300">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
 			<clanList>
-				<clan>UNDEAD</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="20" />
-			<height normal="35" grown="42" />
+			<radius normal="13" />
+			<height normal="34.5" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1052,60 +1039,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21616" level="74" type="Monster" name="Gigantic Flyer">
+	<npc id="21616" level="74" type="Monster" name="Graveyard Sage">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="110" />
-			<param name="MoveAroundSocial1" value="110" />
-			<param name="MoveAroundSocial2" value="110" />
+			<param name="MoveAroundSocial" value="114" />
+			<param name="MoveAroundSocial1" value="114" />
+			<param name="MoveAroundSocial2" value="114" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4074" level="2" />
+			<skill name="Buff" id="4099" level="2" /> <!-- NPC Berserk -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="66999" sp="2009" />
+		<equipment rhand="311" /> <!-- rhand: Crucifix of Blessing -->
+		<acquire exp="4956" sp="2138" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1795" hpRegen="22" mp="2096" mpRegen="2.1" />
-			<attack physical="261.69549" magical="178.7041" random="10" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="186.63569" magical="136.5719" />
+			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
+			<attack physical="1821.6290576" magical="761.4768854" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="346.125857" magical="253.279884" />
 			<speed>
-				<walk ground="100" />
-				<run ground="174" />
+				<walk ground="70" />
+				<run ground="160" />
 			</speed>
-			<hitTime>370</hitTime>
+			<hitTime>740</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4074" level="2" /> <!-- NPC Haste -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="5" /> <!-- Blunt Weapons -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4438" level="2" /> <!-- Greater Resist Sleep -->
-			<skill id="4439" level="2" /> <!-- Greater Resist Hold -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4099" level="2" /> <!-- NPC Berserk -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai clanHelpRange="300" aggroRange="300">
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>UNDEAD</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="20" />
-			<height normal="42" />
+			<radius normal="13" />
+			<height normal="44" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1123,60 +1108,57 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21617" level="74" type="Monster" name="Fiend Archer">
+	<npc id="21617" level="74" type="Monster" name="Netherworld Guardian">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="108" />
-			<param name="MoveAroundSocial1" value="108" />
-			<param name="MoveAroundSocial2" value="108" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21617" />
-			<param name="step2" value="21618" />
+			<param name="MoveAroundSocial" value="74" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="74" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="W_FiendArcher" id="4141" level="4" />
+			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="67315" sp="2019" />
+		<acquire exp="4956" sp="2147" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1862" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="612.8877051" magical="188.35412" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
-			<defence physical="162.4588255" magical="139.8592" evasion="10" />
+			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
+			<attack physical="1821.6290576" magical="761.4768854" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="346.125857" magical="253.279884" />
 			<speed>
-				<walk ground="70" />
-				<run ground="174" />
+				<walk ground="27" />
+				<run ground="190" />
 			</speed>
-			<hitTime>760</hitTime>
+			<hitTime>710</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4141" level="4" /> <!-- NPC Wind Fist -->
-			<skill id="4389" level="4" /> <!-- Resist Mental Attacks -->
+			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor Type -->
-			<skill id="4415" level="9" /> <!-- Bows -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4032" level="6" /> <!-- NPC Strike -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai type="ARCHER" aggroRange="300" clanHelpRange="300" isAggressive="true" />
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+			</clanList>
+		</ai>
 		<collision>
-			<radius normal="17" />
-			<height normal="55" />
+			<radius normal="12" grown="14.5" />
+			<height normal="31" grown="36" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1200,60 +1182,59 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21618" level="75" type="Monster" name="Fiend Archer">
+	<npc id="21618" level="75" type="Monster" name="Netherworld Sage">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="108" />
-			<param name="MoveAroundSocial1" value="108" />
-			<param name="MoveAroundSocial2" value="108" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21617" />
-			<param name="step2" value="21618" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="W_FiendArcher" id="4141" level="4" />
+			<skill name="DDMagic" id="4002" level="6" /> <!-- NPC HP Drain -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="76059" sp="2281" />
+		<acquire exp="5085" sp="2413" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1862" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="815.7535355" magical="188.35412" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
-			<defence physical="122.0577201" magical="139.8592" evasion="10" />
+			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="1915.1945505" magical="790.13441925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="351.170853" magical="256.971583" />
 			<speed>
-				<walk ground="70" />
-				<run ground="174" />
+				<walk ground="80" />
+				<run ground="160" />
 			</speed>
-			<hitTime>760</hitTime>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4141" level="4" /> <!-- NPC Wind Fist -->
-			<skill id="4389" level="4" /> <!-- Resist Mental Attacks -->
+			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
-			<skill id="4415" level="9" /> <!-- Bows -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai type="ARCHER" aggroRange="300" clanHelpRange="300" isAggressive="true" />
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+			</clanList>
+		</ai>
 		<collision>
-			<radius normal="17" />
-			<height normal="55" />
+			<radius normal="20" />
+			<height normal="42" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1274,58 +1255,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21619" level="75" type="Monster" name="Pit Archer">
+	<npc id="21619" level="75" type="Monster" name="Graveyard Royal Guard">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="108" />
-			<param name="MoveAroundSocial1" value="108" />
-			<param name="MoveAroundSocial2" value="108" />
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="MaxRoarCount" value="2" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="W_FiendArcher" id="4141" level="4" />
+			<skill name="Fury" id="4317" level="1" /> <!-- Increase Rage Might -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="76059" sp="2281" />
+		<acquire exp="5085" sp="2413" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1862" hpRegen="22" mp="2096" mpRegen="2.1" />
-			<attack physical="612.8877051" magical="188.35412" random="10" critical="8" accuracy="0" attackSpeed="227" reuseDelay="1500" type="BOW" range="500" distance="10" width="0" />
-			<defence physical="162.4588255" magical="139.8592" evasion="10" />
+			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="1915.1945505" magical="790.13441925" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="351.170853" magical="256.971583" />
 			<speed>
-				<walk ground="70" />
-				<run ground="174" />
+				<walk ground="80" />
+				<run ground="200" />
 			</speed>
-			<hitTime>760</hitTime>
+			<hitTime>520</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4141" level="4" /> <!-- NPC Wind Fist -->
-			<skill id="4389" level="4" /> <!-- Resist Mental Attacks -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor Type -->
-			<skill id="4415" level="9" /> <!-- Bows -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="4317" level="1" /> <!-- Increase Rage Might -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai type="ARCHER" aggroRange="300" clanHelpRange="300" isAggressive="true" />
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+			</clanList>
+		</ai>
 		<collision>
-			<radius normal="20" />
-			<height normal="66" />
+			<radius normal="14" />
+			<height normal="37.5" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1342,61 +1323,59 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21620" level="65" type="Monster" name="Musveren">
+	<npc id="21620" level="65" type="Monster" name="Purgatory Serpent">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="40" />
-			<param name="MoveAroundSocial1" value="40" />
-			<param name="MoveAroundSocial2" value="40" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21620" />
-			<param name="step2" value="21621" />
+			<param name="MoveAroundSocial" value="120" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="4" />
+			<skill name="SelfRangeDDMagic" id="4101" level="5" /> <!-- NPC Spinning Slash -->
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
-		<acquire exp="29897" sp="896" />
+		<equipment rhand="73" /> <!-- rhand: Shamshir -->
+		<acquire exp="3828" sp="1071"/>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1929" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="290.44588" magical="198.33688" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="195.66302" magical="143.17771" />
+			<vitals hp="2313.74622796964" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
+			<attack physical="1081.89379375" magical="523.38888525" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="299.079363" magical="218.853294" />
 			<speed>
 				<walk ground="70" />
-				<run ground="174" />
+				<run ground="175" />
 			</speed>
-			<hitTime>410</hitTime>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4002" level="4" /> <!-- NPC HP Drain -->
-			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
+			<skill id="4416" level="3" /> <!-- Beasts -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-			<skill id="4444" level="2" /> <!-- Higher Resist Bow/Crossbow Weapons -->
+			<skill id="48046" level="1" /> <!-- Monster of Wind Element -->
+			<skill id="4101" level="5" /> <!-- NPC Spinning Slash -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="300">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>ALL</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="15" />
-			<height normal="30" />
+			<radius normal="17" />
+			<height normal="46" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1422,61 +1401,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21621" level="66" type="Monster" name="Musveren">
+	<npc id="21621" level="66" type="Monster" name="Hell Keeper Medusa">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="40" />
-			<param name="MoveAroundSocial1" value="40" />
-			<param name="MoveAroundSocial2" value="40" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21620" />
-			<param name="step2" value="21621" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="4" />
+			<skill name="DeBuff" id="4035" level="5" /> <!-- Poison -->
 		</parameters>
 		<race>BEAST</race>
-		<sex>MALE</sex>
-		<acquire exp="31033" sp="931" />
+		<sex>FEMALE</sex>
+		<acquire exp="3943" sp="1111"/>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1929" hpRegen="5.5" mp="2096" mpRegen="2.1" />
-			<attack physical="386.5834663" magical="198.33688" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="147.0045229" magical="143.17771" />
+			<vitals hp="2367.80290477825" hpRegen="7.5" mp="1219.8" mpRegen="2.7" />
+			<attack physical="1153.9788282" magical="547.9204896" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="304.400272" magical="222.746909" />
 			<speed>
-				<walk ground="70" />
-				<run ground="174" />
+				<walk ground="50" />
+				<run ground="165" />
 			</speed>
-			<hitTime>410</hitTime>
+			<hitTime>520</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4002" level="4" /> <!-- NPC HP Drain -->
-			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
+			<skill id="4416" level="3" /> <!-- Beasts -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-			<skill id="4444" level="2" /> <!-- Higher Resist Bow/Crossbow Weapons -->
+			<skill id="48046" level="1" /> <!-- Monster of Wind Element -->
+			<skill id="4035" level="5" /> <!-- Poison -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="300">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>ALL</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="15" />
-			<height normal="30" />
+			<radius normal="13" />
+			<height normal="33.4" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1501,59 +1477,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21622" level="66" type="Monster" name="Greater Musveren">
+	<npc id="21622" level="66" type="Monster" name="Purgatory Conjurer">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="40" />
-			<param name="MoveAroundSocial1" value="40" />
-			<param name="MoveAroundSocial2" value="40" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="DDMagic" id="4002" level="4" />
+			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
 		</parameters>
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
-		<acquire exp="31347" sp="940" />
+		<acquire exp="3943" sp="1120"/>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1929" hpRegen="22" mp="2096" mpRegen="2.1" />
-			<attack physical="290.44588" magical="198.33688" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="195.66302" magical="143.17771" />
+			<vitals hp="2367.80290477825" hpRegen="7.5" mp="1219.8" mpRegen="2.7" />
+			<attack physical="1153.9788282" magical="547.9204896" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="304.400272" magical="222.746909" />
 			<speed>
-				<walk ground="70" />
-				<run ground="174" />
+				<walk ground="60" />
+				<run ground="175" />
 			</speed>
-			<hitTime>410</hitTime>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4002" level="4" /> <!-- NPC HP Drain -->
-			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="2" /> <!-- Magic Creatures -->
-			<skill id="4444" level="2" /> <!-- Higher Resist Bow/Crossbow Weapons -->
+			<skill id="48046" level="1" /> <!-- Monster of Wind Element -->
+			<skill id="4002" level="5" /> <!-- NPC HP Drain -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai clanHelpRange="300" aggroRange="300">
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>ALL</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="18" />
-			<height normal="36" />
+			<radius normal="10" />
+			<height normal="33.5" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1576,64 +1551,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21623" level="67" type="Monster" name="Zaken's Royal Guard">
+	<npc id="21623" level="67" type="Monster" name="Purgatory Gargoyle">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="80" />
-			<param name="MoveAroundSocial1" value="80" />
-			<param name="MoveAroundSocial2" value="80" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21623" />
-			<param name="step2" value="21624" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4067" level="5" />
+			<skill name="SelfRangeDDMagic" id="4072" level="6" /> <!-- Stun -->
 		</parameters>
-		<race>UNDEAD</race>
+		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<equipment rhand="225" lhand="945" /> <!-- Mithril Dagger / Skeleton Buckler -->
-		<acquire exp="31981" sp="959" />
+		<acquire exp="4063" sp="1144" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1998" hpRegen="5.5" mp="20960" mpRegen="2.1" />
-			<attack physical="267.3554275" magical="208.6504" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="200.23844" magical="146.5258" shield="100" shieldRate="20" />
+			<vitals hp="2421.39403210377" hpRegen="7.5" mp="1251" mpRegen="2.7" />
+			<attack physical="1228.73102605" magical="572.95935785" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="309.707761" magical="226.630701" />
 			<speed>
-				<walk ground="80" />
-				<run ground="174" />
+				<walk ground="140" />
+				<run ground="170" />
 			</speed>
-			<hitTime>520</hitTime>
+			<hitTime>370</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4067" level="5" /> <!-- NPC Mortal Blow -->
-			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
-			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Daggers -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Monster of Wind Element -->
+			<skill id="4072" level="6" /> <!-- Stun -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>UNDEAD</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="11" />
-			<height normal="28.5" />
+			<radius normal="16" />
+			<height normal="50" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1658,64 +1627,62 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21624" level="67" type="Monster" name="Zaken's Royal Guard">
+	<npc id="21624" level="67" type="Monster" name="Nephilim Swordsman">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="80" />
-			<param name="MoveAroundSocial1" value="80" />
-			<param name="MoveAroundSocial2" value="80" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21623" />
-			<param name="step2" value="21624" />
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4067" level="5" />
+			<skill name="SelfRangeDDMagic" id="4072" level="5" /> <!-- Stun -->
+			<!-- <skill name="SelfBuff" id="4091" level="1" /> --> <!-- NPC Ogre Spirit Totem -->
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="225" lhand="945" /> <!-- Mithril Dagger / Skeleton Buckler -->
-		<acquire exp="32358" sp="970" />
+		<acquire exp="4063" sp="1156" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1998" hpRegen="5.5" mp="20960" mpRegen="2.1" />
-			<attack physical="355.850074" magical="208.6504" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="150.4421037" magical="146.5258" shield="100" shieldRate="20" />
+			<vitals hp="2421.39403210377" hpRegen="7.5" mp="1251" mpRegen="2.7" />
+			<attack physical="1228.73102605" magical="572.95935785" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="309.707761" magical="226.630701" />
 			<speed>
-				<walk ground="80" />
-				<run ground="174" />
+				<walk ground="65" />
+				<run ground="170" />
 			</speed>
-			<hitTime>520</hitTime>
+			<hitTime>630</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4067" level="5" /> <!-- NPC Mortal Blow -->
-			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
-			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
+			<skill id="4416" level="8" /> <!-- Angels -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Daggers -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Monster of Wind Element -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
+			<skill id="4072" level="5" /> <!-- Stun -->
+			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>UNDEAD</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="11" />
-			<height normal="28.5" />
+			<radius normal="11" grown="13.2" />
+			<height normal="39" grown="46.8" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1737,62 +1704,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21625" level="68" type="Monster" name="Zaken's Elite Royal Guard">
+	<npc id="21625" level="68" type="Monster" name="Nephilim Guard">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="80" />
-			<param name="MoveAroundSocial1" value="80" />
-			<param name="MoveAroundSocial2" value="80" />
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4067" level="5" />
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="225" lhand="945" /> <!-- Mithril Dagger / Skeleton Buckler -->
-		<acquire exp="33498" sp="1004" />
+		<acquire exp="4185" sp="1196" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1998" hpRegen="22" mp="20960" mpRegen="2.1" />
-			<attack physical="267.3554275" magical="208.6504" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="200.23844" magical="146.5258" shield="100" shieldRate="20" />
+			<vitals hp="2474.43773844242" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="1306.1078591" magical="598.495535" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="314.99765" magical="230.501612" />
 			<speed>
-				<walk ground="80" />
-				<run ground="174" />
+				<walk ground="65" />
+				<run ground="180" />
 			</speed>
-			<hitTime>520</hitTime>
+			<hitTime>630</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4067" level="5" /> <!-- NPC Mortal Blow -->
-			<skill id="4071" level="5" /> <!-- Resist Bow/Crossbow Weapons -->
-			<skill id="4273" level="3" /> <!-- Resist Daggers/Rapier Weapon -->
-			<skill id="4274" level="1" /> <!-- Blunt Weapon Weak Point -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Daggers -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Monster of Wind Element -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<ai aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>UNDEAD</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="13" />
-			<height normal="34.5" />
+			<radius normal="11" />
+			<height normal="32.4" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1815,62 +1778,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21626" level="68" type="Monster" name="Kaim Vanul">
+	<npc id="21626" level="68" type="Monster" name="Mausoleum Inquisitor">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="108" />
-			<param name="MoveAroundSocial1" value="108" />
-			<param name="MoveAroundSocial2" value="108" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21626" />
-			<param name="step2" value="21627" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="HoldMagic" id="4047" level="5" />
+			<skill name="Buff" id="4099" level="2" /> <!-- NPC Berserk -->
 		</parameters>
 		<race>DEMONIC</race>
-		<sex>MALE</sex>
-		<acquire exp="33831" sp="1014" />
+		<sex>FEMALE</sex>
+		<acquire exp="4185" sp="1206" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2068" hpRegen="6.5" mp="2096" mpRegen="2.4" />
-			<attack physical="321.13207" magical="219.29157" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="204.85194" magical="149.90176" />
+			<vitals hp="2474.43773844242" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="1306.1078591" magical="598.495535" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="314.99765" magical="230.501612" />
 			<speed>
-				<walk ground="37" />
-				<run ground="174" />
+				<walk ground="80" />
+				<run ground="145" />
 			</speed>
-			<hitTime>450</hitTime>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4047" level="5" /> <!-- Hold -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="48046" level="1" /> <!-- Monster of Wind Element -->
+			<skill id="4099" level="2" /> <!-- NPC Berserk -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="300">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>DEMONIC</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="24" grown="29" />
-			<height normal="40" grown="48" />
+			<radius normal="11" />
+			<height normal="30" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1900,62 +1859,59 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21627" level="69" type="Monster" name="Kaim Vanul">
+	<npc id="21627" level="69" type="Monster" name="Sepulcher Archon">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="108" />
-			<param name="MoveAroundSocial1" value="108" />
-			<param name="MoveAroundSocial2" value="108" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21626" />
-			<param name="step2" value="21627" />
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="HoldMagic" id="4047" level="5" />
+			<skill name="PhysicalSpecial" id="4032" level="5" /> <!-- NPC Strike -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="36187" sp="1085" />
+		<equipment rhand="298" /> <!-- rhand: Orcish Glaive -->
+		<acquire exp="4309" sp="1282" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2068" hpRegen="6.5" mp="2096" mpRegen="2.4" />
-			<attack physical="427.4267852" magical="219.29157" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="153.9082945" magical="149.90176" />
+			<vitals hp="2526.85161916379" hpRegen="7.5" mp="1314" mpRegen="2.7" />
+			<attack physical="1386.0554136" magical="624.51810135" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="320.265693" magical="234.356529" />
 			<speed>
-				<walk ground="37" />
-				<run ground="174" />
+				<walk ground="100" />
+				<run ground="170" />
 			</speed>
 			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4047" level="5" /> <!-- Hold -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="48046" level="1" /> <!-- Monster of Wind Element -->
+			<skill id="4032" level="5" /> <!-- NPC Strike -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="300">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>DEMONIC</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="24" grown="29" />
-			<height normal="40" grown="48" />
+			<radius normal="16" />
+			<height normal="49.5" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -1976,60 +1932,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21628" level="69" type="Monster" name="Kaim Vanul Lad">
+	<npc id="21628" level="69" type="Monster" name="Sepulcher Inquisitor">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="108" />
-			<param name="MoveAroundSocial1" value="108" />
-			<param name="MoveAroundSocial2" value="108" />
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="HoldMagic" id="4047" level="5" />
+			<skill name="DDMagic" id="4002" level="5" /> <!-- NPC HP Drain -->
 		</parameters>
 		<race>DEMONIC</race>
-		<sex>MALE</sex>
-		<acquire exp="36187" sp="1085" />
+		<sex>FEMALE</sex>
+		<acquire exp="4309" sp="1282" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2068" hpRegen="26" mp="2096" mpRegen="2.4" />
-			<attack physical="321.13207" magical="219.29157" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="204.85194" magical="149.90176" />
+			<vitals hp="2526.85161916379" hpRegen="7.5" mp="1314" mpRegen="2.7" />
+			<attack physical="1386.0554136" magical="624.51810135" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="320.265693" magical="234.356529" />
 			<speed>
-				<walk ground="37" />
-				<run ground="174" />
+				<walk ground="80" />
+				<run ground="145" />
 			</speed>
-			<hitTime>450</hitTime>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4047" level="5" /> <!-- Hold -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48046" level="1" /> <!-- Monster of Wind Element -->
+			<skill id="4002" level="5" /> <!-- NPC HP Drain -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai clanHelpRange="300" aggroRange="300">
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>DEMONIC</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="28" />
-			<height normal="48" />
+			<radius normal="15" />
+			<height normal="46" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2057,61 +2011,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21629" level="71" type="Monster" name="Pirate Zombie Captain">
+	<npc id="21629" level="71" type="Monster" name="Purgatory Tarantula">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="70" />
-			<param name="MoveAroundSocial1" value="70" />
-			<param name="MoveAroundSocial2" value="70" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21629" />
-			<param name="step2" value="21630" />
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4067" level="5" />
+			<skill name="DeBuff" id="4035" level="6" /> <!-- Poison -->
 		</parameters>
 		<race>BUG</race>
 		<sex>MALE</sex>
-		<equipment rhand="232" /> <!-- Dark Elven Dagger -->
-		<acquire exp="37390" sp="1121" />
+		<acquire exp="4563" sp="1329" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2138" hpRegen="6.5" mp="2096" mpRegen="2.4" />
-			<attack physical="295.0400863" magical="230.25615" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="209.50106" magical="153.30378" />
+			<vitals hp="2629.45885739491" hpRegen="8.5" mp="1377.8" mpRegen="3" />
+			<attack physical="1553.38771115" magical="677.97384545" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="330.718949" magical="242.005775" />
 			<speed>
-				<walk ground="14" />
-				<run ground="174" />
+				<walk ground="60" />
+				<run ground="155" />
 			</speed>
-			<hitTime>760</hitTime>
+			<hitTime>650</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4067" level="5" /> <!-- NPC Mortal Blow -->
+			<skill id="4416" level="12" /> <!-- Bugs -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="16" /> <!-- Very Strong P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Daggers -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48047" level="1" /> <!-- Monster of Earth Element -->
+			<skill id="4035" level="6" /> <!-- Poison -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>ZAKEN</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="17" />
-			<height normal="28" />
+			<radius normal="27" />
+			<height normal="25.5" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2137,61 +2088,61 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21630" level="72" type="Monster" name="Pirate Zombie Captain">
+	<npc id="21630" level="72" type="Monster" name="Purgatory Shadow">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="70" />
-			<param name="MoveAroundSocial1" value="70" />
-			<param name="MoveAroundSocial2" value="70" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21629" />
-			<param name="step2" value="21630" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
-			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4067" level="5" />
+			<skill name="W_LongRangeDDMagic" id="4158" level="6" /> <!-- NPC Prominence - Magic -->
+			<skill name="W_ShortRangeDDMagic" id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
+			<skill name="DeBuff" id="4076" level="3" /> <!-- Decrease Speed -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="232" /> <!-- Dark Elven Dagger -->
-		<acquire exp="39270" sp="1178" />
+		<acquire exp="4696" sp="1392" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2138" hpRegen="6.5" mp="2096" mpRegen="2.4" />
-			<attack physical="392.6983548" magical="230.25615" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="157.4012472" magical="153.30378" />
+			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="1640.604735" magical="705.3803757" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="335.895417" magical="245.793691" />
 			<speed>
-				<walk ground="14" />
-				<run ground="174" />
+				<walk ground="80" />
+				<run ground="175" />
 			</speed>
-			<hitTime>760</hitTime>
+			<hitTime>540</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4067" level="5" /> <!-- NPC Mortal Blow -->
+			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Daggers -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="3" /> <!-- Light Armor Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Monster of Earth Element -->
+			<skill id="4076" level="3" /> <!-- Decrease Speed -->
+			<skill id="4158" level="6" /> <!-- NPC Prominence - Magic -->
+			<skill id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>ZAKEN</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="17" />
-			<height normal="28" />
+			<radius normal="10" />
+			<height normal="30" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2209,59 +2160,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21631" level="72" type="Monster" name="Zombie Captain's Spiritual Body">
+	<npc id="21631" level="72" type="Monster" name="Hell Keeper Crimson Doll">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="70" />
-			<param name="MoveAroundSocial1" value="70" />
-			<param name="MoveAroundSocial2" value="70" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="PhysicalSpecial" id="4067" level="5" />
+			<skill name="PhysicalSpecial" id="4073" level="4" /> <!-- Stun -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<equipment rhand="232" /> <!-- Dark Elven Dagger -->
-		<acquire exp="38940" sp="1168" />
+		<acquire exp="4696" sp="1382"/>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2138" hpRegen="26" mp="2096" mpRegen="2.4" />
-			<attack physical="295.0400863" magical="230.25615" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="209.50106" magical="153.30378" />
+			<vitals hp="2679.48661343362" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="1640.604735" magical="705.3803757" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="335.895417" magical="245.793691" />
 			<speed>
-				<walk ground="14" />
-				<run ground="174" />
+				<walk ground="60" />
+				<run ground="180" />
 			</speed>
-			<hitTime>760</hitTime>
+			<hitTime>670</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4067" level="5" /> <!-- NPC Mortal Blow -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
-			<skill id="4415" level="7" /> <!-- Daggers -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Monster of Earth Element -->
+			<skill id="4073" level="4" /> <!-- Stun -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>ZAKEN</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="20" />
-			<height normal="33.6" />
+			<radius normal="15" />
+			<height normal="38" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2280,65 +2230,63 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21632" level="73" type="Monster" name="Maiden Doll">
+	<npc id="21632" level="73" type="Monster" name="Lilim Priest">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="50" />
-			<param name="MoveAroundSocial1" value="50" />
-			<param name="MoveAroundSocial2" value="50" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21632" />
-			<param name="step2" value="21633" />
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<skill name="CheckMagic" id="4098" level="6" /> <!-- Silence -->
+			<skill name="CheckMagic1" id="4046" level="6" /> <!-- Sleep -->
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4074" level="2" />
+			<skill name="DDMagic" id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill name="SleepMagic" id="4046" level="6" /> <!-- Sleep -->
 		</parameters>
 		<race>DEMONIC</race>
-		<sex>MALE</sex>
-		<equipment rhand="5129" lhand="5129" /> <!-- Doll Knife / Doll Knife -->
-		<acquire exp="40606" sp="1218" />
+		<sex>FEMALE</sex>
+		<acquire exp="4829" sp="1438" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2209" hpRegen="6.5" mp="2096" mpRegen="2.4" />
-			<attack physical="309.497055" magical="241.5387" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="182.055771" magical="156.73001" evasion="10" shield="94" />
+			<vitals hp="2728.55377387479" hpRegen="8.5" mp="1442.4" mpRegen="3" />
+			<attack physical="1730.0567669" magical="733.21998035" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="341.032549" magical="249.55282" />
 			<speed>
-				<walk ground="22" />
-				<run ground="174" />
+				<walk ground="50" />
+				<run ground="160" />
 			</speed>
 			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4074" level="2" /> <!-- NPC Haste -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor Type -->
-			<skill id="4415" level="7" /> <!-- Daggers -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4438" level="2" /> <!-- Greater Resist Sleep -->
-			<skill id="4439" level="2" /> <!-- Greater Resist Hold -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="48047" level="1" /> <!-- Monster of Earth Element -->
+			<skill id="4002" level="6" /> <!-- NPC HP Drain -->
+			<skill id="4046" level="6" /> <!-- Sleep -->
+			<skill id="4098" level="6" /> <!-- Silence -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="300">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>ZAKEN</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="6" />
-			<height normal="12" />
+			<radius normal="8" />
+			<height normal="30.6" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2362,65 +2310,63 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21633" level="73" type="Monster" name="Maiden Doll">
+	<npc id="21633" level="73" type="Monster" name="Lilim Knight">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="50" />
-			<param name="MoveAroundSocial1" value="50" />
-			<param name="MoveAroundSocial2" value="50" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21632" />
-			<param name="step2" value="21633" />
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4074" level="2" />
+			<skill name="SelfRangeDDMagic" id="4072" level="6" /> <!-- Stun -->
+			<!-- <skill name="SelfBuff" id="4092" level="1" /> --> <!-- NPC Puma Spirit Totem -->
+			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<equipment rhand="5129" lhand="5129" /> <!-- Doll Knife / Doll Knife -->
-		<acquire exp="40907" sp="1227" />
+		<equipment rhand="5800" lhand="5799" /> <!-- rhand: Nephilim Lord lhand: Nephilim Lord -->
+		<acquire exp="4829" sp="1447" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2209" hpRegen="6.5" mp="2096" mpRegen="2.4" />
-			<attack physical="411.9405802" magical="241.5387" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="136.7811953" magical="156.73001" evasion="10" shield="94" />
+			<vitals hp="2728.55377387479" hpRegen="8.5" mp="1442.4" mpRegen="3" />
+			<attack physical="1730.0567669" magical="733.21998035" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.032549" magical="249.55282" />
 			<speed>
-				<walk ground="22" />
-				<run ground="174" />
+				<walk ground="56" />
+				<run ground="180" />
 			</speed>
-			<hitTime>500</hitTime>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4074" level="2" /> <!-- NPC Haste -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor Type -->
-			<skill id="4415" level="7" /> <!-- Daggers -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4438" level="2" /> <!-- Greater Resist Sleep -->
-			<skill id="4439" level="2" /> <!-- Greater Resist Hold -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="15" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Monster of Earth Element -->
+			<skill id="4032" level="6" /> <!-- NPC Strike -->
+			<skill id="4072" level="6" /> <!-- Stun -->
+			<skill id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai clanHelpRange="300" aggroRange="300">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>ZAKEN</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="6" />
-			<height normal="12" />
+			<radius normal="11" />
+			<height normal="45" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2443,63 +2389,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21634" level="74" type="Monster" name="Crimson Doll Blader">
+	<npc id="21634" level="74" type="Monster" name="Nephilim Scout">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="50" />
-			<param name="MoveAroundSocial1" value="50" />
-			<param name="MoveAroundSocial2" value="50" />
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="Buff" id="4074" level="2" />
+			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 		</parameters>
 		<race>DIVINE</race>
 		<sex>MALE</sex>
-		<equipment rhand="5129" lhand="5129" /> <!-- Doll Knife / Doll Knife -->
-		<acquire exp="40958" sp="1228" />
+		<acquire exp="4956" sp="1454" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2209" hpRegen="26" mp="2096" mpRegen="2.4" />
-			<attack physical="309.497055" magical="241.5387" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="182.055771" magical="156.73001" evasion="10" shield="94" />
+			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
+			<attack physical="1821.6290576" magical="761.4768854" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="346.125857" magical="253.279884" />
 			<speed>
-				<walk ground="22" />
-				<run ground="174" />
+				<walk ground="65" />
+				<run ground="190" />
 			</speed>
-			<hitTime>500</hitTime>
+			<hitTime>630</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4074" level="2" /> <!-- NPC Haste -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
-			<skill id="4415" level="7" /> <!-- Daggers -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4438" level="2" /> <!-- Greater Resist Sleep -->
-			<skill id="4439" level="2" /> <!-- Greater Resist Hold -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48047" level="1" /> <!-- Monster of Earth Element -->
+			<skill id="4032" level="6" /> <!-- NPC Strike -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai clanHelpRange="300" aggroRange="300">
+		<ai aggroRange="800" clanHelpRange="400" isAggressive="false">
 			<clanList>
-				<clan>ZAKEN</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="7" />
-			<height normal="15" />
+			<radius normal="13" />
+			<height normal="39.6" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2525,66 +2466,60 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21635" level="74" type="Monster" name="Veil Master">
+	<npc id="21635" level="74" type="Monster" name="Mausoleum Royal Guardian" element="EARTH">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="114" />
-			<param name="MoveAroundSocial1" value="114" />
-			<param name="MoveAroundSocial2" value="114" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21635" />
-			<param name="step2" value="21636" />
-			<skill name="CheckMagic" id="4076" level="3" />
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="MaxRoarCount" value="3" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SleepMagic" id="4046" level="5" />
-			<skill name="DDMagic" id="4087" level="5" />
+			<skill name="Fury" id="4317" level="1" /> <!-- Increase Rage Might -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="41273" sp="1238" />
+		<equipment rhand="233" /> <!-- rhand: Dark Screamer -->
+		<acquire exp="4956" sp="1464" attributeExp="38" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2280" hpRegen="6.5" mp="2096" mpRegen="2.4" />
-			<attack physical="370.68904" magical="253.13256" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="186.0615065" magical="160.17851" evasion="10" />
+			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
+			<attack physical="1821.6290576" magical="761.4768854" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="346.125857" magical="253.279884" />
 			<speed>
-				<walk ground="70" />
-				<run ground="174" />
+				<walk ground="80" />
+				<run ground="190" />
 			</speed>
-			<hitTime>740</hitTime>
+			<hitTime>520</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4046" level="5" /> <!-- Sleep -->
-			<skill id="4076" level="3" /> <!-- Decrease Speed -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4087" level="5" /> <!-- NPC Blaze -->
+			<skill id="4416" level="1" /> <!-- Undead -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
-			<skill id="4412" level="11" /> <!-- Average P. Def. -->
-			<skill id="4413" level="11" /> <!-- Average M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor Type -->
-			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="7" /> <!-- Dagger -->
+			<skill id="48047" level="1" /> <!-- Monster of Earth Element -->
+			<skill id="4317" level="1" /> <!-- Increase Rage Might -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
 			<clanList>
-				<clan>ZAKEN</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="12" />
-			<height normal="40" />
+			<radius normal="13" />
+			<height normal="34.5" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2603,66 +2538,59 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21636" level="75" type="Monster" name="Veil Master">
+	<npc id="21636" level="75" type="Monster" name="Mausoleum Sage" element="EARTH">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
 			<param name="MoveAroundSocial" value="114" />
 			<param name="MoveAroundSocial1" value="114" />
 			<param name="MoveAroundSocial2" value="114" />
-			<param name="IsTransform" value="2" />
-			<param name="step1" value="21635" />
-			<param name="step2" value="21636" />
-			<skill name="CheckMagic" id="4076" level="3" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SleepMagic" id="4046" level="5" />
-			<skill name="DDMagic" id="4087" level="5" />
+			<skill name="Buff" id="4099" level="2" /> <!-- NPC Berserk -->
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="49308" sp="1479" />
+		<equipment rhand="311" /> <!-- rhand: Crucifix of Blessing -->
+		<acquire exp="5085" sp="1711" attributeExp="41" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2280" hpRegen="6.5" mp="2096" mpRegen="2.4" />
-			<attack physical="493.3871122" magical="253.13256" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="139.7907637" magical="160.17851" evasion="10" />
+			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="1915.1945505" magical="790.13441925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="351.170853" magical="256.971583" />
 			<speed>
 				<walk ground="70" />
-				<run ground="174" />
+				<run ground="160" />
 			</speed>
 			<hitTime>740</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4046" level="5" /> <!-- Sleep -->
-			<skill id="4076" level="3" /> <!-- Decrease Speed -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4087" level="5" /> <!-- NPC Blaze -->
+			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="48047" level="1" /> <!-- Monster of Earth Element -->
+			<skill id="4099" level="2" /> <!-- NPC Berserk -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>ZAKEN</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="12" />
-			<height normal="40" />
+			<radius normal="13" />
+			<height normal="44" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2687,64 +2615,58 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21637" level="75" type="Monster" name="Crimson Veil Master">
+	<npc id="21637" level="75" type="Monster" name="Sepulcher Royal Guardian" element="EARTH">
+		<!-- Classic Antharas -->
+		<!-- Catacomb Classic -->
 		<parameters>
-			<param name="MoveAroundSocial" value="114" />
-			<param name="MoveAroundSocial1" value="114" />
-			<param name="MoveAroundSocial2" value="114" />
-			<skill name="CheckMagic" id="4076" level="3" />
+			<param name="MoveAroundSocial" value="74" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="74" />
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="10" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="5" />
 			<param name="LongRangeGuardRate" value="5" />
-			<skill name="SleepMagic" id="4046" level="5" />
-			<skill name="DDMagic" id="4087" level="5" />
+			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="49308" sp="1479" />
+		<acquire exp="5085" sp="1711" attributeExp="41" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2280" hpRegen="26" mp="2096" mpRegen="2.4" />
-			<attack physical="370.68904" magical="253.13256" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="186.0615065" magical="160.17851" evasion="10" />
+			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="1915.1945505" magical="790.13441925" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="351.170853" magical="256.971583" />
 			<speed>
-				<walk ground="70" />
-				<run ground="174" />
+				<walk ground="27" />
+				<run ground="190" />
 			</speed>
-			<hitTime>740</hitTime>
+			<hitTime>710</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4046" level="5" /> <!-- Sleep -->
-			<skill id="4076" level="3" /> <!-- Decrease Speed -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
-			<skill id="4087" level="5" /> <!-- NPC Blaze -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
-			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
-			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
-			<skill id="4414" level="3" /> <!-- Light Armor Type -->
+			<skill id="4410" level="19" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4278" level="1" /> <!-- Dark Attack -->
-			<skill id="4333" level="5" /> <!-- Dark Attack Resistance -->
+			<skill id="48047" level="1" /> <!-- Monster of Earth Element -->
+			<skill id="4032" level="6" /> <!-- NPC Strike -->
 		</skillList>
-		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>4</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="true">
+		<ai aggroRange="1000" clanHelpRange="300">
 			<clanList>
-				<clan>ZAKEN</clan>
+				<clan>C_DUNGEON</clan>
 			</clanList>
 		</ai>
 		<collision>
-			<radius normal="14.5" />
-			<height normal="48" />
+			<radius normal="12" grown="14.5" />
+			<height normal="31" grown="36" />
 		</collision>
 		<dropLists>
 			<drop>
@@ -2764,7 +2686,6 @@
 		</dropLists>
 	</npc>
 	<npc id="21638" level="42" type="Monster" name="Wandering Dead of the Dungeon">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="139" />
 			<param name="MoveAroundSocial1" value="35" />
@@ -2780,22 +2701,30 @@
 		<sex>MALE</sex>
 		<acquire exp="2470" sp="75" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1108.383" hpRegen="5.5" mp="590.562" mpRegen="2.1" />
-			<attack physical="198.34591" magical="135.44454" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1108.45623972656" hpRegen="5.5" mp="531" mpRegen="2.1" />
+			<attack physical="198.34591" magical="135.44454" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="164.88513" magical="120.65578" />
 			<speed>
 				<walk ground="22" />
 				<run ground="174" />
 			</speed>
-			<hitTime>720</hitTime>
+			<hitTime>500</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
 			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2809,45 +2738,33 @@
 			<radius normal="6" />
 			<height normal="12" />
 		</collision>
-		<dropLists>
-			<drop>
-				<item id="503" min="1" max="1" chance="0.03" /> <!-- Sealed Zubei's Helmet -->
-				<item id="2415" min="1" max="1" chance="0.03" /> <!-- Sealed Avadon Circlet -->
-				<item id="2416" min="1" max="1" chance="0.0075" /> <!-- Sealed Blue Wolf Helmet -->
-				<item id="2417" min="1" max="1" chance="0.0075" /> <!-- Sealed Doom Helmet -->
-				<item id="57" min="672" max="1570" chance="70" /> <!-- Adena -->
-				<item id="1870" min="1" max="1" chance="29.07" /> <!-- Coal -->
-				<item id="4102" min="1" max="1" chance="2.327" /> <!-- Sealed Zubei's Helmet Design -->
-				<item id="4072" min="1" max="1" chance="2.273" /> <!-- Sealed Avadon Circlet Pattern -->
-				<item id="1875" min="1" max="1" chance="2.021" /> <!-- Stone of Purity -->
-				<item id="4088" min="1" max="1" chance="1.943" /> <!-- Sealed Blue Wolf Helmet Design -->
-				<item id="1874" min="1" max="1" chance="1.93" /> <!-- Oriharukon Ore -->
-				<item id="4089" min="1" max="1" chance="1.912" /> <!-- Sealed Doom Helmet Design -->
-				<item id="90012" min="1" max="1" chance="0.03" /> <!-- Common Life Stone -->
-			</drop>
-			<spoil>
-				<item id="1870" min="1" max="1" chance="80.73" /> <!-- Coal -->
-				<item id="1874" min="1" max="1" chance="21.16" /> <!-- Oriharukon Ore -->
-				<item id="1875" min="1" max="1" chance="20.3" /> <!-- Stone of Purity -->
-			</spoil>
-		</dropLists>
 	</npc>
 	<npc id="21639" level="43" type="Monster" name="Wandering Spirit of the Dungeon">
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="2589" sp="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1153.959" hpRegen="5.5" mp="619.458" mpRegen="2.1" />
-			<attack physical="210.04832" magical="143.43577" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1154.31374327461" hpRegen="5.5" mp="557.4" mpRegen="2.1" />
+			<attack physical="210.04832" magical="143.43577" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="169.13417" magical="123.76505" />
 			<speed>
 				<walk ground="60" />
 				<run ground="174" />
 			</speed>
+			<hitTime>670</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
 		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
 		</skillList>
@@ -2857,7 +2774,6 @@
 		</collision>
 	</npc>
 	<npc id="21640" level="42" type="Monster" name="Wandering Ghost of the Dungeon">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="75" />
 			<param name="MoveAroundSocial1" value="75" />
@@ -2870,27 +2786,35 @@
 			<skill name="W_LongRangeDDMagic" id="4153" level="3" />
 			<skill name="W_ShortRangeDDMagic" id="4160" level="3" />
 		</parameters>
-		<race>HUMANOID</race>
+		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
 		<acquire exp="2470" sp="75" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1108.383" hpRegen="5.5" mp="590.562" mpRegen="2.1" />
-			<attack physical="198.34591" magical="135.44454" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1108.45623972656" hpRegen="5.5" mp="531" mpRegen="2.1" />
+			<attack physical="198.34591" magical="135.44454" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="164.88513" magical="120.65578" />
 			<speed>
 				<walk ground="80" />
 				<run ground="174" />
 			</speed>
-			<hitTime>480</hitTime>
+			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4153" level="3" /> <!-- Decrease Speed -->
-			<skill id="4160" level="3" /> <!-- NPC Aura Burn - Magic -->
 			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4153" level="3" /> <!-- Decrease Speed -->
+			<skill id="4160" level="3" /> <!-- NPC Aura Burn - Magic -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2906,7 +2830,6 @@
 		</collision>
 	</npc>
 	<npc id="21641" level="43" type="Monster" name="Wandering Evil Thoughts of the Dungeon">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="139" />
 			<param name="MoveAroundSocial1" value="35" />
@@ -2922,22 +2845,30 @@
 		<sex>MALE</sex>
 		<acquire exp="2589" sp="78" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1153.959" hpRegen="5.5" mp="619.458" mpRegen="2.1" />
-			<attack physical="210.04832" magical="143.43577" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1154.31374327461" hpRegen="5.5" mp="557.4" mpRegen="2.1" />
+			<attack physical="210.04832" magical="143.43577" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="169.13417" magical="123.76505" />
 			<speed>
 				<walk ground="80" />
 				<run ground="174" />
 			</speed>
-			<hitTime>720</hitTime>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -2953,7 +2884,6 @@
 		</collision>
 	</npc>
 	<npc id="21642" level="44" type="Monster" name="Unworldly Overseer" title="Wandering">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="139" />
 			<param name="MoveAroundSocial1" value="35" />
@@ -2969,22 +2899,30 @@
 		<sex>MALE</sex>
 		<acquire exp="2711" sp="82" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1201.434" hpRegen="5.5" mp="650.16" mpRegen="2.1" />
-			<attack physical="222.23112" magical="151.75505" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1201.08570061422" hpRegen="5.5" mp="584" mpRegen="2.1" />
+			<attack physical="222.23112" magical="151.75505" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="173.43552" magical="126.91259" />
 			<speed>
 				<walk ground="100" />
 				<run ground="174" />
 			</speed>
-			<hitTime>720</hitTime>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
 			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3000,7 +2938,6 @@
 		</collision>
 	</npc>
 	<npc id="21643" level="45" type="Monster" name="Condemned of Infinity" title="Captured">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="139" />
 			<param name="MoveAroundSocial1" value="35" />
@@ -3018,24 +2955,32 @@
 		<sex>MALE</sex>
 		<acquire exp="2835" sp="86" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1248.276" hpRegen="5.5" mp="679.056" mpRegen="2.1" />
-			<attack physical="234.89829" magical="160.40508" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1248.74044783714" hpRegen="5.5" mp="610.8" mpRegen="2.1" />
+			<attack physical="234.89829" magical="160.40508" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="177.78746" magical="130.09715" />
 			<speed>
 				<walk ground="45" />
 				<run ground="174" />
 			</speed>
-			<hitTime>720</hitTime>
+			<hitTime>600</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
 			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
 			<skill id="4124" level="3" /> <!-- NPC Spear Attack -->
 			<skill id="4244" level="3" /> <!-- NPC Wild Sweep -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3051,7 +2996,6 @@
 		</collision>
 	</npc>
 	<npc id="21644" level="46" type="Monster" name="Wandering Dead of Abyss">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -3067,22 +3011,30 @@
 		<sex>MALE</sex>
 		<acquire exp="2963" sp="89" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1297.017" hpRegen="5.5" mp="708.855" mpRegen="2.1" />
-			<attack physical="248.0526" magical="169.38777" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1297.24344275991" hpRegen="5.5" mp="637.8" mpRegen="2.1" />
+			<attack physical="248.0526" magical="169.38777" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="182.18816" magical="133.31739" />
 			<speed>
 				<walk ground="80" />
 				<run ground="174" />
 			</speed>
-			<hitTime>460</hitTime>
+			<hitTime>350</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4565" level="3" /> <!-- NPC Eruption -->
 			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4565" level="3" /> <!-- NPC Eruption -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3098,7 +3050,6 @@
 		</collision>
 	</npc>
 	<npc id="21645" level="47" type="Monster" name="Wandering Spirit of Abyss">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -3116,24 +3067,32 @@
 		<sex>MALE</sex>
 		<acquire exp="3093" sp="93" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1346.391" hpRegen="5.5" mp="739.557" mpRegen="2.1" />
-			<attack physical="261.69549" magical="178.7041" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1346.55725878612" hpRegen="5.5" mp="665" mpRegen="2.1" />
+			<attack physical="261.69549" magical="178.7041" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="186.63569" magical="136.5719" />
 			<speed>
 				<walk ground="27" />
 				<run ground="174" />
 			</speed>
-			<hitTime>460</hitTime>
+			<hitTime>710</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
 			<skill id="4076" level="2" /> <!-- Decrease Speed -->
 			<skill id="4157" level="4" /> <!-- NPC Blaze - Magic -->
 			<skill id="4560" level="4" /> <!-- NPC Fire Burn -->
-			<skill id="4416" level="1" /> <!-- Undead -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3145,11 +3104,10 @@
 		</ai>
 		<collision>
 			<radius normal="12" />
-			<height normal="31" />
+			<height normal="29" />
 		</collision>
 	</npc>
 	<npc id="21646" level="46" type="Monster" name="Wandering Ghost of Abyss">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="65" />
 			<param name="MoveAroundSocial1" value="65" />
@@ -3162,25 +3120,33 @@
 			<skill name="Buff" id="4575" level="2" />
 		</parameters>
 		<race>DEMONIC</race>
-		<sex>MALE</sex>
-		<acquire exp="3226" sp="97" />
+		<sex>FEMALE</sex>
+		<acquire exp="2963" sp="89" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1396.398" hpRegen="5.5" mp="770.259" mpRegen="2.1" />
-			<attack physical="275.82705" magical="188.35412" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="191.12803" magical="139.8592" />
+			<vitals hp="1297.24344275991" hpRegen="5.5" mp="637.8" mpRegen="2.1" />
+			<attack physical="248.0526" magical="169.38777" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="182.18816" magical="133.31739" />
 			<speed>
 				<walk ground="60" />
 				<run ground="174" />
 			</speed>
-			<hitTime>520</hitTime>
+			<hitTime>840</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
 			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3191,7 +3157,6 @@
 		</collision>
 	</npc>
 	<npc id="21647" level="47" type="Monster" name="Wandering Evil Thoughts of Abyss">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="65" />
 			<param name="MoveAroundSocial1" value="65" />
@@ -3206,27 +3171,35 @@
 			<skill name="DeBuff" id="4035" level="7" />
 		</parameters>
 		<race>DEMONIC</race>
-		<sex>MALE</sex>
+		<sex>FEMALE</sex>
 		<acquire exp="3093" sp="93" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1346.391" hpRegen="5.5" mp="739.557" mpRegen="2.1" />
-			<attack physical="261.69549" magical="178.7041" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1346.55725878612" hpRegen="5.5" mp="665" mpRegen="2.1" />
+			<attack physical="261.69549" magical="178.7041" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="186.63569" magical="136.5719" />
 			<speed>
 				<walk ground="80" />
 				<run ground="174" />
 			</speed>
-			<hitTime>520</hitTime>
+			<hitTime>560</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
 			<skill id="4001" level="7" /> <!-- NPC Windstrike -->
 			<skill id="4002" level="7" /> <!-- NPC HP Drain -->
 			<skill id="4035" level="7" /> <!-- Poison -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3237,7 +3210,6 @@
 		</collision>
 	</npc>
 	<npc id="21648" level="48" type="Monster" name="Abyss Warder" title="Wandering">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<parameters>
 			<param name="MoveAroundSocial" value="100" />
 			<param name="MoveAroundSocial1" value="100" />
@@ -3251,24 +3223,32 @@
 		</parameters>
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire exp="2764" sp="82" />
+		<acquire exp="3226" sp="97" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6522.04249" hpRegen="5.5" mp="754.905" mpRegen="2.1" />
-			<attack physical="773.81598" magical="528.41601" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="314.65987" magical="230.25444" />
+			<vitals hp="1396.64158795631" hpRegen="5.5" mp="692.4" mpRegen="2.1" />
+			<attack physical="275.82705" magical="188.35412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="191.12803" magical="139.8592" />
 			<speed>
 				<walk ground="100" />
 				<run ground="174" />
 			</speed>
-			<hitTime>610</hitTime>
+			<hitTime>450</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4067" level="7" /> <!-- NPC Mortal Blow -->
 			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4067" level="7" /> <!-- NPC Mortal Blow -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3296,24 +3276,32 @@
 		<sex>MALE</sex>
 		<acquire exp="3362" sp="101" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1447.038" hpRegen="5.5" mp="800.961" mpRegen="2.1" />
-			<attack physical="290.44588" magical="198.33688" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<vitals hp="1447.45325347694" hpRegen="5.5" mp="720" mpRegen="2.1" />
+			<attack physical="290.44588" magical="198.33688" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="195.66302" magical="143.17771" />
 			<speed>
 				<walk ground="70" />
 				<run ground="174" />
 			</speed>
-			<hitTime>610</hitTime>
+			<hitTime>740</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
+			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
 			<skill id="4067" level="7" /> <!-- NPC Mortal Blow -->
 			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
 			<skill id="4232" level="7" /> <!-- NPC AE Strike -->
-			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3341,29 +3329,36 @@
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire exp="6571" sp="197" />
-		<equipment rhand="150" lhand="103" />
+		<acquire exp="6572" sp="198" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1080.31566" hpRegen="8.5" mp="1608.045" mpRegen="3" />
-			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="319.24623" magical="233.61053" shield="160" shieldRate="20" />
+			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
+			<attack physical="773.81598" magical="528.41601" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="314.65987" magical="230.25444" />
 			<speed>
 				<walk ground="52" />
 				<run ground="174" />
 			</speed>
-			<hitTime>170</hitTime>
+			<hitTime>460</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4085" level="1" /> <!-- Critical Damage -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
 			<skill id="4035" level="8" /> <!-- Poison -->
 			<skill id="4160" level="8" /> <!-- NPC Aura Burn - Magic -->
 			<skill id="4571" level="8" /> <!-- NPC Blazing Circle -->
 			<skill id="4630" level="8" /> <!-- NPC MR - Twister -->
 			<skill id="4635" level="3" /> <!-- NPC Buff - Acumen Berserk WildMagic -->
-			<skill id="4416" level="6" /> <!-- Humanoid -->
-			<skill id="4085" level="1" /> <!-- Critical Damage -->
-			<skill id="4086" level="1" /> <!-- Critical Chance -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3387,25 +3382,32 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="6571" sp="197" />
-		<equipment rhand="98" />
+		<acquire exp="6572" sp="198" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1080.31566" hpRegen="8.5" mp="1608.045" mpRegen="3" />
-			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="319.24623" magical="233.61053" />
+			<vitals hp="2776.57843923523" hpRegen="8.5" mp="1475" mpRegen="3" />
+			<attack physical="773.81598" magical="528.41601" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="314.65987" magical="230.25444" />
 			<speed>
 				<walk ground="70" />
 				<run ground="174" />
 			</speed>
-			<hitTime>210</hitTime>
+			<hitTime>760</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4033" level="8" /> <!-- NPC Burn -->
 			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4033" level="8" /> <!-- NPC Burn -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3424,20 +3426,29 @@
 		</parameters>
 		<race>ELEMENTAL</race>
 		<sex>MALE</sex>
-		<acquire exp="6750" sp="202" />
+		<acquire exp="6750" sp="203" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1098.5426" hpRegen="8.5" mp="1643.445" mpRegen="3" />
-			<attack physical="766.0603913" magical="597.85136" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="337.07008" magical="246.65326" />
+			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
 			<speed>
 				<walk ground="38" />
 				<run ground="174" />
 			</speed>
-			<hitTime>580</hitTime>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
 		</skillList>
@@ -3455,20 +3466,29 @@
 		</parameters>
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
-		<acquire exp="6750" sp="202" />
+		<acquire exp="6750" sp="203" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1098.5426" hpRegen="8.5" mp="1643.445" mpRegen="3" />
-			<attack physical="894.75854" magical="611.00409" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="341.375" magical="249.80341" />
+			<vitals hp="2823.47946968528" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="233.61053" />
 			<speed>
 				<walk ground="80" />
 				<run ground="174" />
 			</speed>
-			<hitTime>590</hitTime>
+			<hitTime>350</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4085" level="1" /> <!-- Critical Damage -->
 			<skill id="4086" level="1" /> <!-- Critical Chance -->
 		</skillList>
@@ -3477,88 +3497,136 @@
 			<height normal="75" />
 		</collision>
 	</npc>
-	<npc id="21654" level="81" type="Monster" name="Dreco" title="Earth Guardian">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
-		<race>DEMONIC</race>
+	<npc id="21654" level="35" type="Monster" name="Dreco" title="Earth Guardian">
+		<race>ANIMAL</race>
 		<sex>MALE</sex>
+		<acquire exp="5250" sp="158" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="815" hpRegen="42.5" mp="402" mpRegen="3" />
+			<vitals hp="815.124490768837" hpRegen="4.5" mp="402.6" mpRegen="1.8" />
+			<attack physical="129.32896" magical="88.31491" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="136.72948" magical="100.0527" />
 			<speed>
 				<walk ground="60" />
 				<run ground="80" />
 			</speed>
-			<attack physical="913.54847" magical="623.83518" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="345.61127" magical="252.90333" />
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="4" /> <!-- Animals -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
 			<height normal="33.5" />
 		</collision>
 	</npc>
-	<npc id="21655" level="82" type="Monster" name="Raido" title="Earth Guardian">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
-		<race>DEMONIC</race>
+	<npc id="21655" level="40" type="Monster" name="Raido" title="Earth Guardian">
+		<race>HUMANOID</race>
 		<sex>MALE</sex>
+		<equipment rhand="159" />
+		<acquire exp="6788" sp="204" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1019" hpRegen="42.5" mp="478" mpRegen="3" />
+			<vitals hp="1019.59695680077" hpRegen="4.5" mp="478.8" mpRegen="1.8" />
+			<attack physical="176.36077" magical="120.43155" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="156.55035" magical="114.55675" />
 			<speed>
 				<walk ground="43" />
 				<run ground="174" />
 			</speed>
-			<attack physical="1294.297202" magical="636.31188" random="30" critical="4" accuracy="4.75" attackSpeed="182" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="349.77477" magical="255.95" />
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
+			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
 		</skillList>
 		<collision>
 			<radius normal="14" grown="17" />
 			<height normal="57.75" grown="69" />
 		</collision>
 	</npc>
-	<npc id="21656" level="84" type="Monster" name="Golem" title="Earth Guardian">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
-		<race>DEMONIC</race>
+	<npc id="21656" level="33" type="Monster" name="Golem" title="Earth Guardian">
+		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
+		<acquire exp="5553" sp="167" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="740" hpRegen="51" mp="372" mpRegen="3" />
+			<vitals hp="740.722181648393" hpRegen="4.5" mp="372.96" mpRegen="1.8" />
+			<attack physical="113.49065" magical="77.49941" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="129.23095" magical="94.5656" />
 			<speed>
 				<walk ground="23" />
 				<run ground="23" />
 			</speed>
-			<attack physical="966.61544" magical="660.07304" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="357.86723" magical="261.87171" />
+			<hitTime>410</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="2" /> <!-- Magical Creatures -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="19" /> <!-- Extremely Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4444" level="2" /> <!-- Greater Bow Resistance -->
+			<skill id="4273" level="3" /> <!-- Dagger Resistance -->
+			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
+			<skill id="4284" level="5" /> <!-- Bleed Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="20" />
 			<height normal="31" />
 		</collision>
 	</npc>
-	<npc id="21657" level="35" type="Monster" name="Wyrm" title="Earth Guardian">
+	<npc id="21657" level="45" type="Monster" name="Wyrm" title="Earth Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>DRAGON</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1248" hpRegen="51" mp="610" mpRegen="3" />
+			<vitals hp="1248.74044783714" hpRegen="5.5" mp="610.8" mpRegen="2.1" />
+			<attack physical="234.89829" magical="160.40508" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="177.78746" magical="130.09715" />
 			<speed>
 				<walk ground="70" />
 				<run ground="174" />
 			</speed>
-			<attack physical="983.0479" magical="671.29428" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="361.78814" magical="264.74086" />
+			<hitTime>190</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="10" /> <!-- Dragons -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="48045" level="1" /> <!-- Monster of Water Element -->
+			<skill id="4116" level="6" /> <!-- Magic Damage Resistance -->
+			<skill id="4071" level="4" /> <!-- Bow Resistance -->
 		</skillList>
 		<collision>
 			<radius normal="29" />
@@ -3589,67 +3657,102 @@
 			</spoil>
 		</dropLists>
 	</npc>
-	<npc id="21658" level="64" type="Folk" name="Harit" title="Earth Guardian">
-		<!-- AUTO GENERATED NPC TODO: FIX IT -->
-		<race>DIVINE</race>
+	<npc id="21658" level="55" type="Monster" name="Harit" title="Earth Guardian">
+		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<equipment rhand="242" />
+		<equipment rhand="9" />
+		<acquire exp="23606" sp="709" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1764" hpRegen="7.5" mp="1158" mpRegen="2.7" />
+			<vitals hp="1764.82565992283" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<attack physical="388.11142" magical="265.02979" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="223.6362" magical="163.64727" />
 			<speed>
-				<walk ground="50" />
-				<run ground="165" />
+				<walk ground="53" />
+				<run ground="174" />
 			</speed>
-			<attack physical="562.02275" magical="383.78868" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="267.04468" magical="195.41171" />
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status attackable="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="6" /> <!-- Humanoids -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="5" /> <!-- Blunt Weapon -->
+			<skill id="4276" level="3" /> <!-- Bow Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="13" grown="15" />
 			<height normal="28" grown="34" />
 		</collision>
 	</npc>
-	<npc id="21659" level="30" type="Folk" name="Trooper" title="Earth Guardian">
+	<npc id="21659" level="65" type="Monster" name="Trooper" title="Earth Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
+		<equipment rhand="301" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2313" hpRegen="10.5" mp="1188" mpRegen="1.5" />
+			<vitals hp="2313.74622796964" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
+			<attack physical="582.81759" magical="397.98887" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="80" distance="80" width="120" />
+			<defence physical="271.89033" magical="198.95754" />
 			<speed>
 				<walk ground="50" />
 				<run ground="174" />
 			</speed>
-			<attack physical="81.0619775" magical="63.26266" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="100.6946295" magical="86.68702" evasion="10" />
+			<hitTime>210</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status attackable="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="13" /> <!-- Two-Handed Sword -->
+			<skill id="4071" level="1" /> <!-- Bow Resistance -->
+			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
 		</skillList>
 		<collision>
 			<radius normal="10" />
 			<height normal="28" />
 		</collision>
 	</npc>
-	<npc id="21660" level="64" type="Monster" name="Palibati" title="Earth Guardian">
+	<npc id="21660" level="65" type="Monster" name="Palibati" title="Earth Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>BEAST</race>
-		<sex>MALE</sex>
+		<sex>FEMALE</sex>
+		<equipment rhand="73" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2313" hpRegen="13.5" mp="1188" mpRegen="1.8" />
+			<vitals hp="2313.74622796964" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
+			<attack physical="582.81759" magical="397.98887" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="271.89033" magical="198.95754" />
 			<speed>
 				<walk ground="70" />
 				<run ground="174" />
 			</speed>
-			<attack physical="85.0209166" magical="88.31491" random="10" critical="8" accuracy="0" attackSpeed="289" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="154.6888972" magical="100.0527" evasion="10" />
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status attackable="false" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
+			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="14" /> <!-- Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 		</skillList>
 		<collision>
 			<radius normal="25" />
