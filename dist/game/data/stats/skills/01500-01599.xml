@@ -682,7 +682,9 @@
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>COUNTER_CRITICAL</abnormalType>
-		<affectScope>SINGLE</affectScope>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<basicProperty>NONE</basicProperty>
 		<castRange>400</castRange>
 		<effectPoint>679</effectPoint>

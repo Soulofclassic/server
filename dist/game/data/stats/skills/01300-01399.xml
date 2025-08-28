@@ -78,8 +78,9 @@
 		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>MAGIC_CRITICAL_UP</abnormalType>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<castRange>400</castRange>
 		<effectPoint>
 			<value level="1">582</value>
@@ -130,8 +131,9 @@
 		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>SHIELD_DEFENCE_UP</abnormalType>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<castRange>400</castRange>
 		<effectPoint>
 			<value level="1">549</value>
@@ -140,7 +142,7 @@
 			<value level="4">682</value>
 			<value level="5">714</value>
 		</effectPoint>
-		<effectRange>900</effectRange>
+		<affectRange>1000</affectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicCriticalRate>5</magicCriticalRate>
@@ -1856,8 +1858,9 @@
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<castRange>400</castRange>
 		<effectPoint>
 			<value level="1">666</value>
@@ -1955,7 +1958,9 @@
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
-		<affectScope>SINGLE</affectScope>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<basicProperty>NONE</basicProperty>
 		<castRange>400</castRange>
 		<effectPoint>
@@ -2037,8 +2042,9 @@
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>MULTI_BUFF</abnormalType>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<castRange>400</castRange>
 		<effectPoint>
 			<value level="1">666</value>
@@ -2956,7 +2962,9 @@
 		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>PA_UP2</abnormalType>
-		<affectScope>SINGLE</affectScope>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<basicProperty>NONE</basicProperty>
 		<castRange>400</castRange>
 		<effectPoint>
@@ -3010,7 +3018,9 @@
 		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>PD_UP2</abnormalType>
-		<affectScope>SINGLE</affectScope>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<basicProperty>NONE</basicProperty>
 		<castRange>400</castRange>
 		<effectPoint>
@@ -3172,7 +3182,9 @@
 		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>ARMOR_HOLY</abnormalType>
-		<affectScope>SINGLE</affectScope>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<basicProperty>NONE</basicProperty>
 		<castRange>400</castRange>
 		<effectPoint>
@@ -3220,7 +3232,9 @@
 		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>ARMOR_UNHOLY</abnormalType>
-		<affectScope>SINGLE</affectScope>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<basicProperty>NONE</basicProperty>
 		<castRange>400</castRange>
 		<effectPoint>
@@ -3464,15 +3478,16 @@
 		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>CHEAP_MAGIC</abnormalType>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
+		<targetType>SELF</targetType>
+		<affectScope>PARTY</affectScope>
+		<affectObject>FRIEND</affectObject>
 		<castRange>400</castRange>
 		<effectPoint>
 			<value level="1">549</value>
 			<value level="2">611</value>
 			<value level="3">655</value>
 		</effectPoint>
-		<effectRange>900</effectRange>
+		<affectRange>1000</affectRange>
 		<hitTime>4000</hitTime>
 		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<itemConsumeCount>
