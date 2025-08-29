@@ -1842,7 +1842,7 @@
 		<equipment rhand="6718" />
 		<acquire exp="190827" sp="5724" attributeExp="1230" />
 		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
-			<vitals hp="3736" hpRegen="10.5" mp="2614" mpRegen="3.6" />
+			<vitals hp="6297" hpRegen="10.5" mp="2614" mpRegen="3.6" />
 			<speed>
 				<walk ground="50" />
 				<run ground="155" />
