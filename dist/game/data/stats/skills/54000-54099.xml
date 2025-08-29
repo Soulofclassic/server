@@ -67,17 +67,6 @@
 		<!-- Level 9: P. Atk. +6%, Paralysis Atk. Rate +14%. -->
 		<!-- Level 10: P. Atk. +7%, Paralysis Atk. Rate +22%. -->
 		<!-- Level 11: P. Atk. +10%, Paralysis Atk. Rate +30%. -->
-		<!-- Level 12: P. Atk. +10%, Paralysis Atk. Rate +32%. -->
-		<!-- Level 13: P. Atk. +10%, Paralysis Atk. Rate +34%. -->
-		<!-- Level 14: P. Atk. +10%, Paralysis Atk. Rate +36%. -->
-		<!-- Level 15: P. Atk. +11%, Paralysis Atk. Rate +38%. -->
-		<!-- Level 16: P. Atk. +11%, Paralysis Atk. Rate +40%. -->
-		<!-- Level 17: P. Atk. +11%, Paralysis Atk. Rate +42%. -->
-		<!-- Level 18: P. Atk. +11%, Paralysis Atk. Rate +44%. -->
-		<!-- Level 19: P. Atk. +12%, Paralysis Atk. Rate +46%. -->
-		<!-- Level 20: P. Atk. +12%, Paralysis Atk. Rate +49%. -->
-		<!-- Level 21: P. Atk. +13%, Paralysis Atk. Rate +52%. -->
-		<!-- Level 22: P. Atk. +15%, Paralysis Atk. Rate +55%. -->
 		<icon>icon.agathion_leo_star_1</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -122,17 +111,6 @@
 		<!-- Level 9: Cooldown of P. Skills and songs/ dances -5%, P. Critical Rate +8%. -->
 		<!-- Level 10: Cooldown of P. Skills and songs/ dances -7%, P. Critical Rate +12%. -->
 		<!-- Level 11: Cooldown of P. Skills and songs/ dances -10%, P. Critical Rate +18%. -->
-		<!-- Level 12: Cooldown of P. Skills and songs/ dances -10%, P. Critical Rate +18%. -->
-		<!-- Level 13: Cooldown of P. Skills and songs/ dances -11%, P. Critical Rate +18%. -->
-		<!-- Level 14: Cooldown of P. Skills and songs/ dances -11%, P. Critical Rate +19%. -->
-		<!-- Level 15: Cooldown of P. Skills and songs/ dances -12%, P. Critical Rate +19%. -->
-		<!-- Level 16: Cooldown of P. Skills and songs/ dances -12%, P. Critical Rate +20%. -->
-		<!-- Level 17: Cooldown of P. Skills and songs/ dances -13%, P. Critical Rate +20%. -->
-		<!-- Level 18: Cooldown of P. Skills and songs/ dances -14%, P. Critical Rate +20%. -->
-		<!-- Level 19: Cooldown of P. Skills and songs/ dances -15%, P. Critical Rate +21%. -->
-		<!-- Level 20: Cooldown of P. Skills and songs/ dances -16%, P. Critical Rate +21%. -->
-		<!-- Level 21: Cooldown of P. Skills and songs/ dances -17%, P. Critical Rate +22%. -->
-		<!-- Level 22: Cooldown of P. Skills and songs/ dances -20%, P. Critical Rate +25%. -->
 		<icon>icon.agathion_sco_star_1</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -176,17 +154,6 @@
 		<!-- Level 9: Cooldown of P. Skills and songs/ dances -5%, Atk. Spd. +40. -->
 		<!-- Level 10: Cooldown of P. Skills and songs/ dances -7%, Atk. Spd. +50. -->
 		<!-- Level 11: Cooldown of P. Skills and songs/ dances -10%, Atk. Spd. +70. -->
-		<!-- Level 12: Cooldown of P. Skills and songs/ dances -12%, Atk. Spd. +75. -->
-		<!-- Level 13: Cooldown of P. Skills and songs/ dances -13%, Atk. Spd. +80. -->
-		<!-- Level 14: Cooldown of P. Skills and songs/ dances -13%, Atk. Spd. +85. -->
-		<!-- Level 15: Cooldown of P. Skills and songs/ dances -14%, Atk. Spd. +90. -->
-		<!-- Level 16: Cooldown of P. Skills and songs/ dances -14%, Atk. Spd. +95. -->
-		<!-- Level 17: Cooldown of P. Skills and songs/ dances -15%, Atk. Spd. +100. -->
-		<!-- Level 18: Cooldown of P. Skills and songs/ dances -15%, Atk. Spd. +100. -->
-		<!-- Level 19: Cooldown of P. Skills and songs/ dances -16%, Atk. Spd. +105. -->
-		<!-- Level 20: Cooldown of P. Skills and songs/ dances -16%, Atk. Spd. +110. -->
-		<!-- Level 21: Cooldown of P. Skills and songs/ dances -18%, Atk. Spd. +115. -->
-		<!-- Level 22: Cooldown of P. Skills and songs/ dances -20%, Atk. Spd. +120. -->
 		<icon>icon.agathion_sag_star_1</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -230,17 +197,6 @@
 		<!-- Level 9: M. Def. +7%, Mental Atk. Rate +14%. -->
 		<!-- Level 10: M. Def. +8%, Mental Atk. Rate +22%. -->
 		<!-- Level 11: M. Def. +12%, Mental Atk. Rate +30%. -->
-		<!-- Level 12: M. Def. +13%, Mental Atk. Rate +32%. -->
-		<!-- Level 13: M. Def. +14%, Mental Atk. Rate +34%. -->
-		<!-- Level 14: M. Def. +15%, Mental Atk. Rate +36%. -->
-		<!-- Level 15: M. Def. +16%, Mental Atk. Rate +39%. -->
-		<!-- Level 16: M. Def. +17%, Mental Atk. Rate +42%. -->
-		<!-- Level 17: M. Def. +18%, Mental Atk. Rate +45%. -->
-		<!-- Level 18: M. Def. +18%, Mental Atk. Rate +48%. -->
-		<!-- Level 19: M. Def. +20%, Mental Atk. Rate +51%. -->
-		<!-- Level 20: M. Def. +22%, Mental Atk. Rate +55%. -->
-		<!-- Level 21: M. Def. +25%, Mental Atk. Rate +60%. -->
-		<!-- Level 22: M. Def. +30%, Mental Atk. Rate +65%. -->
 		<icon>icon.agathion_virgo_star_1</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -285,17 +241,6 @@
 		<!-- Level 9: M. Atk. +6%, Hold/ Sleep Atk. Rate +14%. -->
 		<!-- Level 10: M. Atk. +7%, Hold/ Sleep Atk. Rate +22%. -->
 		<!-- Level 11: M. Atk. +10%, Hold/ Sleep Atk. Rate +30%. -->
-		<!-- Level 12: M. Atk. +10%, Hold/ Sleep Atk. Rate +32%. -->
-		<!-- Level 13: M. Atk. +12%, Hold/ Sleep Atk. Rate +34%. -->
-		<!-- Level 14: M. Atk. +14%, Hold/ Sleep Atk. Rate +36%. -->
-		<!-- Level 15: M. Atk. +16%, Hold/ Sleep Atk. Rate +38%. -->
-		<!-- Level 16: M. Atk. +18%, Hold/ Sleep Atk. Rate +40%. -->
-		<!-- Level 17: M. Atk. +20%, Hold/ Sleep Atk. Rate +42%. -->
-		<!-- Level 18: M. Atk. +20%, Hold/ Sleep Atk. Rate +45%. -->
-		<!-- Level 19: M. Atk. +22%, Hold/ Sleep Atk. Rate +48%. -->
-		<!-- Level 20: M. Atk. +24%, Hold/ Sleep Atk. Rate +51%. -->
-		<!-- Level 21: M. Atk. +28%, Hold/ Sleep Atk. Rate +55%. -->
-		<!-- Level 22: M. Atk. +35%, Hold/ Sleep Atk. Rate +60%. -->
 		<icon>icon.agathion_aqu_star_1</icon>
 		<operateType>P</operateType>
 		<magicCriticalRate>5</magicCriticalRate>
@@ -349,17 +294,6 @@
 		<!-- Level 9: Cooldown of P. Skills and songs/ dances -5%, M. Critical Rate +8%. -->
 		<!-- Level 10: Cooldown of P. Skills and songs/ dances -7%, M. Critical Rate +12%. -->
 		<!-- Level 11: Cooldown of P. Skills and songs/ dances -10%, M. Critical Rate +18%. -->
-		<!-- Level 12: Cooldown of P. Skills and songs/ dances -10%, M. Critical Rate +19%. -->
-		<!-- Level 13: Cooldown of P. Skills and songs/ dances -11%, M. Critical Rate +19%. -->
-		<!-- Level 14: Cooldown of P. Skills and songs/ dances -11%, M. Critical Rate +20%. -->
-		<!-- Level 15: Cooldown of P. Skills and songs/ dances -12%, M. Critical Rate +20%. -->
-		<!-- Level 16: Cooldown of P. Skills and songs/ dances -12%, M. Critical Rate +21%. -->
-		<!-- Level 17: Cooldown of P. Skills and songs/ dances -13%, M. Critical Rate +21%. -->
-		<!-- Level 18: Cooldown of P. Skills and songs/ dances -14%, M. Critical Rate +22%. -->
-		<!-- Level 19: Cooldown of P. Skills and songs/ dances -15%, M. Critical Rate +24%. -->
-		<!-- Level 20: Cooldown of P. Skills and songs/ dances -16%, M. Critical Rate +26%. -->
-		<!-- Level 21: Cooldown of P. Skills and songs/ dances -17%, M. Critical Rate +30%. -->
-		<!-- Level 22: Cooldown of P. Skills and songs/ dances -20%, M. Critical Rate +35%. -->
 		<icon>icon.agathion_capr_star_1</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -403,17 +337,6 @@
 		<!-- Level 9: Cooldown of P. Skills and songs/ dances -6%, Casting Spd. +35. -->
 		<!-- Level 10: Cooldown of P. Skills and songs/ dances -8%, Casting Spd. +45. -->
 		<!-- Level 11: Cooldown of P. Skills and songs/ dances -12%, Casting Spd. +60. -->
-		<!-- Level 12: Cooldown of P. Skills and songs/ dances -12%, Casting Spd. +65. -->
-		<!-- Level 13: Cooldown of P. Skills and songs/ dances -12%, Casting Spd. +70. -->
-		<!-- Level 14: Cooldown of P. Skills and songs/ dances -13%, Casting Spd. +75. -->
-		<!-- Level 15: Cooldown of P. Skills and songs/ dances -13%, Casting Spd. +80. -->
-		<!-- Level 16: Cooldown of P. Skills and songs/ dances -14%, Casting Spd. +85. -->
-		<!-- Level 17: Cooldown of P. Skills and songs/ dances -14%, Casting Spd. +90. -->
-		<!-- Level 18: Cooldown of P. Skills and songs/ dances -15%, Casting Spd. +90. -->
-		<!-- Level 19: Cooldown of P. Skills and songs/ dances -15%, Casting Spd. +100. -->
-		<!-- Level 20: Cooldown of P. Skills and songs/ dances -16%, Casting Spd. +110. -->
-		<!-- Level 21: Cooldown of P. Skills and songs/ dances -18%, Casting Spd. +130. -->
-		<!-- Level 22: Cooldown of P. Skills and songs/ dances -20%, Casting Spd. +160. -->
 		<icon>icon.agathion_lib_star_1</icon>
 		<operateType>P</operateType>
 		<effects>
@@ -457,17 +380,6 @@
 		<!-- Level 9: Max HP/ MP +5%, Acquired XP/ SP (hunting) +16% when Sayha's Grace is active. -->
 		<!-- Level 10: Max HP/ MP +7%, Acquired XP/ SP (hunting) +20% when Sayha's Grace is active. -->
 		<!-- Level 11: Max HP/ MP +10%, Acquired XP/ SP (hunting) +30% when Sayha's Grace is active. -->
-		<!-- Level 12: Max HP/ MP +11%, Acquired XP/ SP (hunting) +31% when Sayha's Grace is active. -->
-		<!-- Level 13: Max HP/ MP +12%, Acquired XP/ SP (hunting) +31% when Sayha's Grace is active. -->
-		<!-- Level 14: Max HP/ MP +13%, Acquired XP/ SP (hunting) +32% when Sayha's Grace is active. -->
-		<!-- Level 15: Max HP/ MP +14%, Acquired XP/ SP (hunting) +32% when Sayha's Grace is active. -->
-		<!-- Level 16: Max HP/ MP +15%, Acquired XP/ SP (hunting) +33% when Sayha's Grace is active. -->
-		<!-- Level 17: Max HP/ MP +16%, Acquired XP/ SP (hunting) +33% when Sayha's Grace is active. -->
-		<!-- Level 18: Max HP/ MP +17%, Max CP +2%, Acquired XP/ SP (hunting) +34% when Sayha's Grace is active. -->
-		<!-- Level 19: Max HP/ MP +18%, Max CP +5%, Acquired XP/ SP (hunting) +35% when Sayha's Grace is active. -->
-		<!-- Level 20: Max HP/ MP +20%, Max CP +7%, Acquired XP/ SP (hunting) +36% when Sayha's Grace is active. -->
-		<!-- Level 21: Max. HP +22%, Max. MP +25%, Max. CP +10%, Acquired XP/ SP from MP Grace +37% while hunting. -->
-		<!-- Level 22: Max. HP +25%, Max. MP +30%, Max. CP +15%, Acquired XP/ SP from MP Grace +40% while hunting. -->
 		<icon>icon.agathion_gem_star_1</icon>
 		<operateType>P</operateType>
 		<effects>

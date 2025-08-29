@@ -1336,7 +1336,6 @@
 		</stats>
 		<skills>
 			<skill id="35046" level="1" /> <!-- Land Dragon Belt -->
-			<skill id="50196" level="1" /> <!-- Land Dragon Blessing -->
 		</skills>
 	</item>
 	<item id="90497" name="Fire Dragon Belt" type="Armor">
@@ -1354,7 +1353,6 @@
 		</stats>
 		<skills>
 			<skill id="35047" level="1" /> <!-- Fire Dragon Belt -->
-			<skill id="35024" level="1" /> <!-- Fire Dragon blessing -->
 		</skills>
 	</item>
 	<item id="90498" name="Mysterious Jewelry Box" type="EtcItem">
