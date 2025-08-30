@@ -2807,7 +2807,7 @@
 				<item id="5293" min="1" max="1" chance="0.003" /> <!-- Sealed Tallum Plate Armor -->
 				<item id="5311" min="1" max="1" chance="0.0009" /> <!-- Sealed Armor of Nightmare -->
 				<item id="5316" min="1" max="1" chance="0.0009" /> <!-- Sealed Majestic Plate Armor -->
-				<item id="57" min="2606" max="6081" chance="70" /> <!-- Adena -->
+				<item id="57" min="4606" max="8081" chance="70" /> <!-- Adena -->
 				<item id="1881" min="1" max="1" chance="20.91" /> <!-- Coarse Bone Powder -->
 				<item id="1867" min="7" max="21" chance="13.61" /> <!-- Animal Skin -->
 				<item id="1872" min="24" max="72" chance="4.258" /> <!-- Animal Bone -->
@@ -2877,6 +2877,11 @@
 			<radius normal="18" />
 			<height normal="25" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4606" max="8081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21845" level="80" type="Monster" name="Grazing Kookaburra">
 		<!-- Classic Seven Sings -->
@@ -2930,6 +2935,11 @@
 			<radius normal="8" />
 			<height normal="26.4" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="3606" max="7081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21846" level="80" type="Monster" name="Ketra Orc Raider">
 		<!-- Classic Seven Sings -->
@@ -2997,6 +3007,11 @@
 			<radius normal="12" grown="14" />
 			<height normal="24" grown="28.8" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4606" max="8081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21847" level="80" type="Monster" name="Ketra Orc Scout">
 		<!-- Classic Seven Sings -->
@@ -3058,7 +3073,7 @@
 				<item id="5297" min="1" max="1" chance="0.003" /> <!-- Sealed Dark Crystal Leather Armor -->
 				<item id="5298" min="1" max="1" chance="0.003" /> <!-- Sealed Dark Crystal Leggings -->
 				<item id="5301" min="1" max="1" chance="0.003" /> <!-- Sealed Tallum Leather Armor -->
-				<item id="57" min="1671" max="3898" chance="70" /> <!-- Adena -->
+				<item id="57" min="4671" max="8898" chance="70" /> <!-- Adena -->
 				<item id="1865" min="1" max="3" chance="23.63" /> <!-- Varnish -->
 				<item id="1869" min="4" max="12" chance="9.19" /> <!-- Iron Ore -->
 				<item id="1880" min="1" max="1" chance="7.336" /> <!-- Steel -->
@@ -3121,7 +3136,7 @@
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="7" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4411" level="17" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="7" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
@@ -3146,6 +3161,11 @@
 			<radius normal="10" />
 			<height normal="23" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4606" max="8081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21849" level="80" type="Monster" name="Grazing Buffalo">
 		<!-- Classic Seven Sings -->
@@ -3199,6 +3219,11 @@
 			<radius normal="22" grown="27" />
 			<height normal="31" grown="38" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="2606" max="4081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21850" level="80" type="Monster" name="Ketra Orc Warrior">
 		<!-- Classic Seven Sings -->
@@ -3265,7 +3290,7 @@
 				<item id="6326" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Necklace -->
 				<item id="6327" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Earring -->
 				<item id="6328" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Ring -->
-				<item id="57" min="4065" max="9485" chance="70" /> <!-- Adena -->
+				<item id="57" min="5065" max="10485" chance="70" /> <!-- Adena -->
 				<item id="1867" min="7" max="21" chance="20.31" /> <!-- Animal Skin -->
 				<item id="1872" min="24" max="72" chance="6.639" /> <!-- Animal Bone -->
 				<item id="1881" min="3" max="9" chance="4.574" /> <!-- Coarse Bone Powder -->
@@ -3354,7 +3379,7 @@
 				<item id="5291" min="1" max="1" chance="0.03" /> <!-- Sealed Dark Crystal Boots -->
 				<item id="5295" min="1" max="1" chance="0.03" /> <!-- Sealed Tallum Gloves -->
 				<item id="5296" min="1" max="1" chance="0.03" /> <!-- Sealed Tallum Boots -->
-				<item id="57" min="4151" max="9686" chance="70" /> <!-- Adena -->
+				<item id="57" min="5151" max="11686" chance="70" /> <!-- Adena -->
 				<item id="1880" min="1" max="1" chance="17.62" /> <!-- Steel -->
 				<item id="1873" min="2" max="6" chance="14.15" /> <!-- Silver Nugget -->
 				<item id="1865" min="9" max="27" chance="10.1" /> <!-- Varnish -->
@@ -3426,6 +3451,11 @@
 			<radius normal="35" />
 			<height normal="27" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="2606" max="4081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21853" level="81" type="Monster" name="Ketra Orc Medium">
 		<!-- Classic Seven Sings -->
@@ -3470,7 +3500,7 @@
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
 			<skill id="4410" level="8" /> <!-- Average P. Atk. -->
-			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+			<skill id="4411" level="17" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
 			<skill id="4414" level="3" /> <!-- Light Armor Type -->
@@ -3496,6 +3526,11 @@
 			<radius normal="10" />
 			<height normal="23" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="5606" max="9081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21854" level="81" type="Monster" name="Ketra Orc Elite Soldier">
 		<!-- Classic Seven Sings -->
@@ -3558,7 +3593,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="4251" max="9919" chance="70" /> <!-- Adena -->
+				<item id="57" min="5251" max="11919" chance="70" /> <!-- Adena -->
 				<item id="1874" min="1" max="1" chance="23.7" /> <!-- Oriharukon Ore -->
 				<item id="1870" min="12" max="36" chance="15.79" /> <!-- Coal -->
 				<item id="8341" min="1" max="1" chance="1.182" /> <!-- Spiritual Eye Piece -->
@@ -3653,7 +3688,7 @@
 				<item id="5291" min="1" max="1" chance="0.03" /> <!-- Sealed Dark Crystal Boots -->
 				<item id="5295" min="1" max="1" chance="0.03" /> <!-- Sealed Tallum Gloves -->
 				<item id="5296" min="1" max="1" chance="0.03" /> <!-- Sealed Tallum Boots -->
-				<item id="57" min="4280" max="9986" chance="70" /> <!-- Adena -->
+				<item id="57" min="5280" max="11986" chance="70" /> <!-- Adena -->
 				<item id="1867" min="7" max="21" chance="22.39" /> <!-- Animal Skin -->
 				<item id="1872" min="24" max="72" chance="6.867" /> <!-- Animal Bone -->
 				<item id="1881" min="3" max="9" chance="4.814" /> <!-- Coarse Bone Powder -->
@@ -3724,6 +3759,11 @@
 			<radius normal="22" grown="27" />
 			<height normal="31" grown="38" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="2606" max="4081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21857" level="82" type="Monster" name="Ketra Orc Priest">
 		<!-- Classic Seven Sings -->
@@ -3792,6 +3832,11 @@
 			<radius normal="10" />
 			<height normal="23" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="5606" max="11081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21858" level="82" type="Monster" name="Ketra Orc Officer">
 		<!-- Classic Seven Sings -->
@@ -3863,7 +3908,7 @@
 				<item id="6326" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Necklace -->
 				<item id="6327" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Earring -->
 				<item id="6328" min="1" max="1" chance="0.03" /> <!-- Sealed Majestic Ring -->
-				<item id="57" min="4374" max="10205" chance="70" /> <!-- Adena -->
+				<item id="57" min="6374" max="12205" chance="70" /> <!-- Adena -->
 				<item id="1878" min="2" max="6" chance="15.59" /> <!-- Durable Braid -->
 				<item id="1865" min="9" max="27" chance="10.18" /> <!-- Varnish -->
 				<item id="1895" min="3" max="9" chance="7.838" /> <!-- Metallic Fiber -->
@@ -3948,7 +3993,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="5724" max="13356" chance="70" /> <!-- Adena -->
+				<item id="57" min="6724" max="14356" chance="70" /> <!-- Adena -->
 				<item id="1880" min="1" max="1" chance="17.51" /> <!-- Steel -->
 				<item id="1874" min="1" max="1" chance="10.8" /> <!-- Oriharukon Ore -->
 				<item id="4039" min="1" max="1" chance="5.62" /> <!-- Mold Glue -->
@@ -4030,6 +4075,11 @@
 			<radius normal="8" />
 			<height normal="26.4" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="2606" max="4081" chance="70" /> <!-- Adena -->
+			</drop>
+		</dropLists>
 	</npc>
 	<npc id="21861" level="82" type="Monster" name="Ketra Orc Grand Priest">
 		<!-- Classic Seven Sings -->
@@ -4100,6 +4150,34 @@
 			<radius normal="10" />
 			<height normal="23" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="8452" max="14389" chance="70" /> <!-- Adena -->
+				<item id="1874" min="1" max="1" chance="26.53" /> <!-- Oriharukon Ore -->
+				<item id="5544" min="1" max="1" chance="1" /> <!-- branch piece -->
+				<item id="5545" min="1" max="1" chance="1" /> <!-- dl blade -->
+				<item id="8349" min="1" max="1" chance="1" /> <!-- doom crash head -->
+				<item id="5538" min="1" max="1" chance="1" /> <!-- dragon grinder edge -->
+				<item id="5533" min="1" max="1" chance="1" /> <!-- elysian head -->
+				<item id="8342" min="1" max="1" chance="1" /> <!-- flaming dragon skull piece -->
+				<item id="5534" min="1" max="1" chance="1" /> <!-- soul bow shaft -->
+				<item id="5537" min="1" max="1" chance="1" /> <!-- soul sep head -->
+				<item id="5546" min="1" max="1" chance="1" /> <!-- som piece -->
+				<item id="5541" min="1" max="1" chance="1" /> <!-- tallum glaive piece -->
+			</drop>
+			<spoil>
+				<item id="5544" min="1" max="1" chance="2" /> <!-- branch piece -->
+				<item id="5545" min="1" max="1" chance="2" /> <!-- dl blade -->
+				<item id="8349" min="1" max="1" chance="2" /> <!-- doom crash head -->
+				<item id="5538" min="1" max="1" chance="2" /> <!-- dragon grinder edge -->
+				<item id="5533" min="1" max="1" chance="2" /> <!-- elysian head -->
+				<item id="8342" min="1" max="1" chance="2" /> <!-- flaming dragon skull piece -->
+				<item id="5534" min="1" max="1" chance="2" /> <!-- soul bow shaft -->
+				<item id="5537" min="1" max="1" chance="2" /> <!-- soul sep head -->
+				<item id="5546" min="1" max="1" chance="2" /> <!-- som piece -->
+				<item id="5541" min="1" max="1" chance="2" /> <!-- tallum glaive piece -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21862" level="81" type="Monster" name="Ketra's Commander">
 		<!-- Classic Seven Sings -->
@@ -4167,7 +4245,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="4452" max="10389" chance="70" /> <!-- Adena -->
+				<item id="57" min="6452" max="11389" chance="70" /> <!-- Adena -->
 				<item id="1874" min="1" max="1" chance="26.53" /> <!-- Oriharukon Ore -->
 				<item id="1870" min="12" max="36" chance="15.98" /> <!-- Coal -->
 				<item id="90045" min="1" max="1" chance="1.775" /> <!-- Magical Tablet -->
@@ -4234,6 +4312,19 @@
 			<radius normal="12" />
 			<height normal="24" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="6452" max="14389" chance="70" /> <!-- Adena -->
+				<item id="1874" min="1" max="1" chance="26.53" /> <!-- Oriharukon Ore -->
+				<item id="1870" min="12" max="36" chance="15.98" /> <!-- Coal -->
+				<item id="90045" min="1" max="1" chance="1.775" /> <!-- Magical Tablet -->
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="1" chance="88.87" /> <!-- Coal -->
+				<item id="1875" min="1" max="1" chance="71.83" /> <!-- Stone of Purity -->
+				<item id="1874" min="1" max="1" chance="69.9" /> <!-- Oriharukon Ore -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21864" level="82" type="Monster" name="Ketra's Head Shaman">
 		<!-- Classic Seven Sings -->
@@ -4299,7 +4390,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="4527" max="10563" chance="70" /> <!-- Adena -->
+				<item id="57" min="7527" max="14563" chance="70" /> <!-- Adena -->
 				<item id="1874" min="1" max="1" chance="26.01" /> <!-- Oriharukon Ore -->
 				<item id="1870" min="12" max="36" chance="16.9" /> <!-- Coal -->
 				<item id="90012" min="1" max="1" chance="1.332" /> <!-- Common Life Stone -->
@@ -4375,6 +4466,19 @@
 			<radius normal="11" />
 			<height normal="38.5" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="6452" max="14389" chance="70" /> <!-- Adena -->
+				<item id="1874" min="1" max="1" chance="26.53" /> <!-- Oriharukon Ore -->
+				<item id="1870" min="12" max="36" chance="15.98" /> <!-- Coal -->
+				<item id="90045" min="1" max="1" chance="1.775" /> <!-- Magical Tablet -->
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="1" chance="88.87" /> <!-- Coal -->
+				<item id="1875" min="1" max="1" chance="71.83" /> <!-- Stone of Purity -->
+				<item id="1874" min="1" max="1" chance="69.9" /> <!-- Oriharukon Ore -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21866" level="82" type="Monster" name="Ketra's Prophet">
 		<!-- Classic Seven Sings -->
@@ -4449,7 +4553,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="4527" max="10563" chance="70" /> <!-- Adena -->
+				<item id="57" min="6527" max="15563" chance="70" /> <!-- Adena -->
 				<item id="1878" min="2" max="6" chance="16.33" /> <!-- Durable Braid -->
 				<item id="1865" min="9" max="27" chance="11.32" /> <!-- Varnish -->
 				<item id="1895" min="3" max="9" chance="8.029" /> <!-- Metallic Fiber -->
@@ -4525,7 +4629,7 @@
 		</collision>
 		<dropLists>
 			<drop>
-				<item id="57" min="4527" max="10563" chance="70" /> <!-- Adena -->
+				<item id="57" min="6527" max="15563" chance="70" /> <!-- Adena -->
 				<item id="1878" min="2" max="6" chance="15.26" /> <!-- Durable Braid -->
 				<item id="1865" min="9" max="27" chance="10.56" /> <!-- Varnish -->
 				<item id="1895" min="3" max="9" chance="8.131" /> <!-- Metallic Fiber -->
@@ -4600,6 +4704,22 @@
 			<radius normal="10" />
 			<height normal="23" />
 		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="6527" max="15563" chance="70" /> <!-- Adena -->
+				<item id="1878" min="2" max="6" chance="15.26" /> <!-- Durable Braid -->
+				<item id="1865" min="9" max="27" chance="10.56" /> <!-- Varnish -->
+				<item id="1895" min="3" max="9" chance="8.131" /> <!-- Metallic Fiber -->
+				<item id="1864" min="32" max="96" chance="6.133" /> <!-- Stem -->
+				<item id="90045" min="1" max="1" chance="1.9" /> <!-- Magical Tablet -->
+			</drop>
+			<spoil>
+				<item id="1864" min="1" max="1" chance="92.725" /> <!-- Stem -->
+				<item id="1865" min="1" max="1" chance="91.9" /> <!-- Varnish -->
+				<item id="1895" min="1" max="1" chance="87.51" /> <!-- Metallic Fiber -->
+				<item id="4044" min="1" max="1" chance="52.76" /> <!-- Thons -->
+			</spoil>
+		</dropLists>
 	</npc>
 	<npc id="21869" level="80" type="Monster" name="Varka's Altar Rear Escort" title="Guardian of the Altar">
 		<!-- Classic Seven Sings -->
@@ -4618,7 +4738,6 @@
 			<!-- <skill name="SelfBuff" id="4092" level="1" /> --> <!-- NPC Puma Spirit Totem -->
 			<skill name="SelfRangeDDMagic" id="4072" level="8" /> <!-- Stun -->
 			<skill name="PhysicalSpecial" id="4032" level="8" /> <!-- NPC Strike -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4626,7 +4745,7 @@
 		<acquire exp="685664" sp="18512" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="9317.16" magical="4771.812" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="983.16" magical="539.5753656" />
 			<speed>
 				<walk ground="44" />
@@ -4640,10 +4759,10 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="17" /> <!-- Very Strong P. Atk. -->
+			<skill id="4410" level="7" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="14" /> <!-- Strong P. Def. -->
-			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4412" level="8" /> <!-- Strong P. Def. -->
+			<skill id="4413" level="8" /> <!-- Slightly Strong M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="5620" level="2" /> <!-- Melee Attack Vulnerability -->
@@ -4679,7 +4798,6 @@
 			<param name="SoulShotRate" value="30" />
 			<param name="MeleeAttackerAg" value="50" />
 			<skill name="PhysicalSpecial" id="4573" level="8" /> <!-- NPC Sonic Blaster -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4687,7 +4805,7 @@
 		<acquire exp="342048" sp="9235" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="6076.74" hpRegen="17" mp="2512.2" mpRegen="6" />
-			<attack physical="15528.6" magical="7953.02" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="9317.16" magical="4771.812" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="983.16" magical="539.5753656" />
 			<speed>
 				<walk ground="34" />
@@ -4701,9 +4819,9 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="5" /> <!-- MP High -->
-			<skill id="4410" level="15" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="7" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
-			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
+			<skill id="4412" level="8" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
 			<skill id="4414" level="2" /> <!-- Standard Type -->
 			<skill id="4415" level="3" /> <!-- One-handed Sword -->
