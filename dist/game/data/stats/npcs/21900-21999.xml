@@ -150,7 +150,6 @@
 				<item id="5522" min="1" max="1" chance="0.3" /> <!-- Sealed Armor of Nightmare Pattern -->
 				<item id="5521" min="1" max="1" chance="0.3" /> <!-- Sealed Tallum Plate Armor Pattern -->
 				<item id="5520" min="1" max="1" chance="0.3" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="79.83" /> <!-- Silver Nugget -->
@@ -301,7 +300,6 @@
 				<item id="6346" min="1" max="1" chance="2.16" /> <!-- Sealed Majestic Ring Gemstone -->
 				<item id="6342" min="1" max="1" chance="1.5" /> <!-- Sealed Majestic Earring Gemstone -->
 				<item id="6344" min="1" max="1" chance="0.75" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="90012" min="1" max="1" chance="0.075" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="92.895" /> <!-- Silver Nugget -->
@@ -608,7 +606,6 @@
 				<item id="5522" min="1" max="1" chance="0.3" /> <!-- Sealed Armor of Nightmare Pattern -->
 				<item id="5521" min="1" max="1" chance="0.3" /> <!-- Sealed Tallum Plate Armor Pattern -->
 				<item id="5520" min="1" max="1" chance="0.3" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="86.78" /> <!-- Silver Nugget -->

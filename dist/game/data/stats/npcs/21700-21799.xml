@@ -2044,8 +2044,6 @@
 				<item id="57" min="7250" max="16917" chance="70" /> <!-- Adena -->
 				<item id="730" min="1" max="1" chance="0.75" /> <!-- Scroll: Enchant Armor (A-grade) -->
 				<item id="729" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Weapon (A-grade) -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
-				<item id="90014" min="1" max="1" chance="0.075" /> <!-- High-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1875" min="1" max="1" chance="83.2" /> <!-- Stone of Purity -->
@@ -2457,8 +2455,6 @@
 				<item id="57" min="7250" max="16917" chance="70" /> <!-- Adena -->
 				<item id="730" min="1" max="1" chance="0.75" /> <!-- Scroll: Enchant Armor (A-grade) -->
 				<item id="729" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Weapon (A-grade) -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
-				<item id="90014" min="1" max="1" chance="0.075" /> <!-- High-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1875" min="1" max="1" chance="89.66" /> <!-- Stone of Purity -->

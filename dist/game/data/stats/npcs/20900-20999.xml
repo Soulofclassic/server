@@ -4588,7 +4588,6 @@
 				<item id="1875" min="1" max="1" chance="28.24" /> <!-- Stone of Purity -->
 				<item id="4121" min="1" max="1" chance="9.71" /> <!-- Bow of Peril Shaft -->
 				<item id="2133" min="1" max="1" chance="1.479" /> <!-- Gemstone (A-grade) -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="75" chance="93.75" /> <!-- Coal -->
@@ -4653,7 +4652,6 @@
 				<item id="57" min="3950" max="9213" chance="70" /> <!-- Adena -->
 				<item id="1874" min="1" max="1" chance="22.2" /> <!-- Oriharukon Ore -->
 				<item id="4089" min="3" max="9" chance="7.675" /> <!-- Sealed Doom Helmet Design -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="4179" min="1" max="1" chance="23.12" /> <!-- Recipe: Sealed Zubei's Helmet (100%) -->

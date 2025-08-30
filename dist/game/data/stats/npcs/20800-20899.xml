@@ -1836,7 +1836,6 @@
 				<item id="1871" min="9" max="27" chance="5.082" /> <!-- Charcoal -->
 				<item id="1895" min="3" max="9" chance="3.755" /> <!-- Metallic Fiber -->
 				<item id="1876" min="4" max="12" chance="2.195" /> <!-- Mithril Ore -->
-				<item id="90012" min="1" max="1" chance="0.075" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="4975" min="1" max="1" chance="35.38" /> <!-- Recipe: Black Ore Necklace (70%) -->
@@ -4011,7 +4010,6 @@
 				<item id="4044" min="1" max="1" chance="5.183" /> <!-- Thons -->
 				<item id="1865" min="18" max="54" chance="4.253" /> <!-- Varnish -->
 				<item id="1864" min="50" max="150" chance="3.041" /> <!-- Stem -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="4984" min="1" max="1" chance="23.66" /> <!-- Recipe: Blue Wolf Leather Armor (60%) -->
@@ -4083,7 +4081,6 @@
 				<item id="1895" min="3" max="9" chance="5.679" /> <!-- Metallic Fiber -->
 				<item id="4044" min="1" max="1" chance="4.608" /> <!-- Thons -->
 				<item id="1864" min="32" max="96" chance="4.361" /> <!-- Stem -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
 				<item id="5161" min="1" max="1" chance="0.075" /> <!-- Recipe: Spiritshot Compressed Package (A-grade) -->
 				<item id="3035" min="1" max="1" chance="0.075" /> <!-- Recipe: Spiritshot (A-grade) -->
 			</drop>

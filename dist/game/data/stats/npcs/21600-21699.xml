@@ -587,8 +587,6 @@
 				<item id="1866" min="2" max="6" chance="8.331" /> <!-- Suede -->
 				<item id="1870" min="5" max="15" chance="5.058" /> <!-- Coal -->
 				<item id="1871" min="9" max="27" chance="2.828" /> <!-- Charcoal -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="1" chance="83.39" /> <!-- Coal -->
@@ -1336,8 +1334,6 @@
 				<item id="57" min="2255" max="5268" chance="70" /> <!-- Adena -->
 				<item id="1870" min="3" max="9" chance="34.05" /> <!-- Coal -->
 				<item id="1874" min="1" max="1" chance="12.82" /> <!-- Oriharukon Ore -->
-				<item id="90012" min="1" max="1" chance="0.75" /> <!-- Common Life Stone -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1865" min="1" max="1" chance="90.555" /> <!-- Varnish -->
@@ -1494,7 +1490,6 @@
 				<item id="4067" min="1" max="1" chance="5.265" /> <!-- Zubei's Leather Gaiter Texture -->
 				<item id="4066" min="1" max="1" chance="3.407" /> <!-- Zubei's Leather Shirt Fabric -->
 				<item id="4068" min="1" max="1" chance="2.703" /> <!-- Avadon Leather Armor Lining -->
-				<item id="90012" min="1" max="1" chance="0.075" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="1" chance="86.12" /> <!-- Coal -->
@@ -1717,8 +1712,6 @@
 				<item id="1878" min="2" max="6" chance="7.045" /> <!-- Durable Braid -->
 				<item id="1865" min="9" max="27" chance="4.871" /> <!-- Varnish -->
 				<item id="1895" min="3" max="9" chance="3.609" /> <!-- Metallic Fiber -->
-				<item id="90012" min="1" max="1" chance="0.75" /> <!-- Common Life Stone -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1865" min="1" max="1" chance="80.76" /> <!-- Varnish -->
@@ -1949,7 +1942,6 @@
 				<item id="4049" min="1" max="3" chance="6.18" /> <!-- Adamantite Earring Gemstone -->
 				<item id="4051" min="2" max="6" chance="3.358" /> <!-- Adamantite Necklace Chain -->
 				<item id="4050" min="5" max="15" chance="2.146" /> <!-- Adamantite Ring Wire -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="1" chance="90.25" /> <!-- Coal -->
@@ -2176,8 +2168,6 @@
 				<item id="1870" min="3" max="9" chance="18.31" /> <!-- Coal -->
 				<item id="1874" min="1" max="1" chance="7.361" /> <!-- Oriharukon Ore -->
 				<item id="1875" min="1" max="1" chance="7.296" /> <!-- Stone of Purity -->
-				<item id="90012" min="1" max="2" chance="0.75" /> <!-- Common Life Stone -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="1" chance="87.63" /> <!-- Coal -->
@@ -2406,7 +2396,6 @@
 				<item id="4080" min="1" max="1" chance="5.544" /> <!-- Blue Wolf Gaiter Material -->
 				<item id="4078" min="1" max="1" chance="3.902" /> <!-- Blue Wolf Breastplate Part -->
 				<item id="4081" min="1" max="1" chance="2.597" /> <!-- Doom Plate Armor Temper -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="4186" min="1" max="1" chance="1.385" /> <!-- Recipe: Sword of Valhalla -->
@@ -2632,7 +2621,6 @@
 				<item id="4078" min="1" max="1" chance="3.617" /> <!-- Blue Wolf Breastplate Part -->
 				<item id="4114" min="1" max="1" chance="1.133" /> <!-- Damascus Sword Blade -->
 				<item id="4121" min="1" max="1" chance="1.096" /> <!-- Bow of Peril Shaft -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="1" chance="90.415" /> <!-- Coal -->
@@ -2699,7 +2687,6 @@
 				<item id="57" min="3284" max="7671" chance="70" /> <!-- Adena -->
 				<item id="2133" min="1" max="1" chance="1.964" /> <!-- Gemstone (A-grade) -->
 				<item id="90012" min="1" max="1" chance="0.945" /> <!-- Common Life Stone -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1864" min="1" max="1" chance="92.725" /> <!-- Stem -->
