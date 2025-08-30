@@ -823,9 +823,9 @@
 	<skill id="51271" toLevel="5" name="Warpaint">
 		<!-- Level 1: PvP Damage +3%. -->
 		<!-- Level 2: PvP Damage +6%. -->
-		<!-- Level 3: PvP Damage +10%. -->
-		<!-- Level 4: PvP Damage +15%. -->
-		<!-- Level 5: PvP Damage +25%. -->
+		<!-- Level 3: PvP Damage +9%. -->
+		<!-- Level 4: PvP Damage +12%. -->
+		<!-- Level 5: PvP Damage +15%. -->
 		<icon>icon.skill50008</icon>
 		<operateType>P</operateType>
 		<excludedFromCheck>true</excludedFromCheck>
@@ -834,9 +834,9 @@
 				<amount>
 					<value level="1">3</value>
 					<value level="2">6</value>
-					<value level="3">10</value>
-					<value level="4">15</value>
-					<value level="5">25</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -846,9 +846,9 @@
 				<amount>
 					<value level="1">3</value>
 					<value level="2">6</value>
-					<value level="3">10</value>
-					<value level="4">15</value>
-					<value level="5">25</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -858,9 +858,9 @@
 				<amount>
 					<value level="1">3</value>
 					<value level="2">6</value>
-					<value level="3">10</value>
-					<value level="4">15</value>
-					<value level="5">25</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+					<value level="5">15</value>
 				</amount>
 				<mode>PER</mode>
 			</effect>
@@ -897,22 +897,22 @@
 		</effects>
 	</skill>
 	<skill id="51273" toLevel="5" name="Courage Mastery">
-		<!-- Level 1: Max CP +100. -->
-		<!-- Level 2: Max CP +300. -->
+		<!-- Level 1: Max CP +200. -->
+		<!-- Level 2: Max CP +400. -->
 		<!-- Level 3: Max CP +600. -->
-		<!-- Level 4: Max CP +1200. -->
-		<!-- Level 5: Max CP +2000. -->
+		<!-- Level 4: Max CP +800. -->
+		<!-- Level 5: Max CP +1000. -->
 		<icon>icon.skill11755</icon>
 		<operateType>P</operateType>
 		<excludedFromCheck>true</excludedFromCheck>
 		<effects>
 			<effect name="MaxCp">
 				<amount>
-					<value level="1">100</value>
-					<value level="2">300</value>
+					<value level="1">200</value>
+					<value level="2">400</value>
 					<value level="3">600</value>
-					<value level="4">1200</value>
-					<value level="5">2000</value>
+					<value level="4">800</value>
+					<value level="5">1000</value>
 				</amount>
 				<mode>DIFF</mode>
 			</effect>

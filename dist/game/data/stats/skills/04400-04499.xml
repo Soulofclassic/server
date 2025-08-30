@@ -3251,7 +3251,6 @@
 		<effectRange>1500</effectRange>
 		<hitTime>1200</hitTime>
 		<isDebuff>true</isDebuff>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<magicCriticalRate>-5</magicCriticalRate>
 		<magicLevel>64</magicLevel>
 		<mpConsume>93</mpConsume>

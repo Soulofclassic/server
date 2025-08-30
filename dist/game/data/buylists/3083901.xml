@@ -33,6 +33,7 @@
 	<item id="2130" price="1200" /> <!-- Gemstone (D-grade) -->
 	<item id="2131" price="3600" /> <!-- Gemstone (C-grade) -->
 	<item id="2132" price="12000" /> <!-- Gemstone (B-grade) -->
+	<item id="2133" price="40000" /> <!-- Gemstone (A-grade) -->
 	<item id="4679" price="600" /> <!-- Eva's Blessing -->
 	<item id="8615" price="42000" /> <!-- Summoning Crystal -->
 	<item id="1539" price="1500" /> <!-- Top-grade HP Potion -->
