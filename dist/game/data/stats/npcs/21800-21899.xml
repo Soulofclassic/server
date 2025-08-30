@@ -4393,8 +4393,6 @@
 				<item id="57" min="7527" max="14563" chance="70" /> <!-- Adena -->
 				<item id="1874" min="1" max="1" chance="26.01" /> <!-- Oriharukon Ore -->
 				<item id="1870" min="12" max="36" chance="16.9" /> <!-- Coal -->
-				<item id="90012" min="1" max="1" chance="1.332" /> <!-- Common Life Stone -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1872" min="1" max="1" chance="93.57" /> <!-- Animal Bone -->
@@ -4559,8 +4557,6 @@
 				<item id="1865" min="9" max="27" chance="11.32" /> <!-- Varnish -->
 				<item id="1895" min="3" max="9" chance="8.029" /> <!-- Metallic Fiber -->
 				<item id="1864" min="32" max="96" chance="6.25" /> <!-- Stem -->
-				<item id="90012" min="1" max="1" chance="1.368" /> <!-- Common Life Stone -->
-				<item id="90013" min="1" max="1" chance="0.3" /> <!-- Mid-grade Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="88.69" /> <!-- Silver Nugget -->
@@ -6761,7 +6757,6 @@
 				<item id="6346" min="1" max="1" chance="3.052" /> <!-- Sealed Majestic Ring Gemstone -->
 				<item id="6342" min="1" max="1" chance="2.184" /> <!-- Sealed Majestic Earring Gemstone -->
 				<item id="6344" min="1" max="1" chance="1.369" /> <!-- Sealed Majestic Necklace Beads -->
-				<item id="90012" min="1" max="1" chance="0.3" /> <!-- Common Life Stone -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="81.44" /> <!-- Silver Nugget -->
