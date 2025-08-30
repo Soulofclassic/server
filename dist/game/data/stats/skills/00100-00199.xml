@@ -1659,7 +1659,7 @@
 		<abnormalType>PD_DOWN</abnormalType>
 		<activateRate>80</activateRate>
 		<affectScope>SINGLE</affectScope>
-		<basicProperty>MAGIC</basicProperty>
+		<basicProperty>PHYSICAL</basicProperty>
 		<castRange>600</castRange>
 		<effectPoint>
 			<value level="1">-190</value>
