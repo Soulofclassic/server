@@ -2753,10 +2753,9 @@
 			<param name="FriendShip5" value="7215" /> <!-- Mark of Ketra's Alliance - Level 5 -->
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="30" />
-			<!-- <skill name="SelfBuff" id="4099" level="2" /> --> <!-- NPC Berserk -->
+			<skill name="SelfBuff" id="4099" level="2" /> <!-- NPC Berserk -->
 			<skill name="SelfRangeDDMagic" id="4072" level="8" /> <!-- Stun -->
 			<skill name="PhysicalSpecial" id="4573" level="8" /> <!-- NPC Sonic Blaster -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -2838,7 +2837,6 @@
 			<param name="FriendShip4" value="7214" /> <!-- Mark of Ketra's Alliance - Level 4 -->
 			<param name="FriendShip5" value="7215" /> <!-- Mark of Ketra's Alliance - Level 5 -->
 			<skill name="PhysicalSpecial" id="4032" level="8" /> <!-- NPC Strike -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
@@ -2951,7 +2949,6 @@
 			<skill name="SelfRangePhysicalSpecial" id="4072" level="8" /> <!-- Stun -->
 			<skill name="PhysicalSpecial" id="4572" level="8" /> <!-- NPC Triple Sonic Slash -->
 			<skill name="DeBuff" id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -2973,7 +2970,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4410" level="9" /> <!-- Slightly Weak P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
@@ -2986,6 +2983,7 @@
 			<skill id="4072" level="8" /> <!-- Stun -->
 			<skill id="4317" level="1" /> <!-- Increase Rage Might -->
 			<skill id="4572" level="8" /> <!-- NPC Triple Sonic Slash -->
+			<skill id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -3014,7 +3012,6 @@
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="30" />
 			<skill name="PhysicalSpecial" id="4040" level="8" /> <!-- NPC Bow Attack -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3035,7 +3032,7 @@
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="4" /> <!-- HP High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="7" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="7" /> <!-- Weak M. Def. -->
@@ -3102,7 +3099,6 @@
 			<skill name="Buff1" id="4030" level="3" /> <!-- NPC Clan Might -->
 			<skill name="Buff2" id="4031" level="3" /> <!-- NPC Clan Aegis -->
 			<skill name="DeBuff" id="4035" level="8" /> <!-- Poison -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3124,7 +3120,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4410" level="9" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="7" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
@@ -3220,7 +3216,6 @@
 			<skill name="DDMagic1" id="4078" level="9" /> <!-- NPC Flamestrike -->
 			<skill name="DDMagic2" id="4596" level="9" /> <!-- Bleed -->
 			<skill name="DeBuff" id="4119" level="3" /> <!-- Decrease Accuracy -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3306,7 +3301,6 @@
 			<skill name="SelfRangePhysicalSpecial" id="4072" level="9" /> <!-- Stun -->
 			<skill name="PhysicalSpecial" id="4573" level="9" /> <!-- NPC Sonic Blaster -->
 			<skill name="DeBuff" id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3328,7 +3322,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
+			<skill id="4410" level="9" /> <!-- Slightly Weak P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="8" /> <!-- Weak M. Def. -->
@@ -3454,7 +3448,6 @@
 			<skill name="Buff1" id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
 			<skill name="Buff2" id="4576" level="3" /> <!-- NPC Clan Buff - Damage Shield -->
 			<skill name="DeBuff" id="4035" level="9" /> <!-- Poison -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3476,7 +3469,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4410" level="9" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="14" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
@@ -3520,7 +3513,6 @@
 			<!-- <skill name="SelfBuff" id="4099" level="2" /> --> <!-- NPC Berserk -->
 			<skill name="SelfRangeDDMagic" id="4571" level="9" /> <!-- NPC Blazing Circle -->
 			<skill name="PhysicalSpecial" id="4573" level="9" /> <!-- NPC Sonic Blaster -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3542,7 +3534,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4410" level="9" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
@@ -3609,7 +3601,6 @@
 			<skill name="SelfRangePhysicalSpecial" id="4072" level="9" /> <!-- Stun -->
 			<skill name="PhysicalSpecial" id="4572" level="9" /> <!-- NPC Triple Sonic Slash -->
 			<skill name="DeBuff" id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3631,7 +3622,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
@@ -3755,7 +3746,6 @@
 			<skill name="Buff1" id="4030" level="3" /> <!-- NPC Clan Might -->
 			<skill name="Buff2" id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
 			<skill name="DeBuff" id="4035" level="9" /> <!-- Poison -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3777,7 +3767,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="8" /> <!-- Weak P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -3822,7 +3812,6 @@
 			<skill name="SelfRangePhysicalSpecial" id="4072" level="9" /> <!-- Stun -->
 			<skill name="PhysicalSpecial" id="4573" level="9" /> <!-- NPC Sonic Blaster -->
 			<skill name="DeBuff" id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3844,7 +3833,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="2" /> <!-- MP Medium-High -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
@@ -3912,7 +3901,6 @@
 			<skill name="SelfRangePhysicalSpecial" id="4072" level="9" /> <!-- Stun -->
 			<skill name="PhysicalSpecial" id="4573" level="9" /> <!-- NPC Sonic Blaster -->
 			<skill name="DeBuff" id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -3933,7 +3921,7 @@
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
-			<skill id="4410" level="14" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
@@ -4065,7 +4053,6 @@
 			<skill name="Buff1" id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
 			<skill name="Buff2" id="4031" level="3" /> <!-- NPC Clan Aegis -->
 			<skill name="DeBuff" id="4035" level="9" /> <!-- Poison -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4087,7 +4074,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -4134,7 +4121,6 @@
 			<skill name="PhysicalSpecial" id="4572" level="9" /> <!-- NPC Triple Sonic Slash -->
 			<skill name="Buff" id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
 			<skill name="DeBuff" id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4155,7 +4141,7 @@
 		<skillList>
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
@@ -4208,7 +4194,6 @@
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="30" />
 			<skill name="PhysicalSpecial" id="4573" level="9" /> <!-- NPC Sonic Blaster -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4229,7 +4214,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="9" /> <!-- Slightly Weak M. Def. -->
@@ -4270,7 +4255,6 @@
 			<param name="HealBonus" value="1" />
 			<param name="SpiritShotRate" value="30" />
 			<skill name="DDMagic" id="4100" level="9" /> <!-- NPC Prominence -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4292,7 +4276,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -4351,7 +4335,6 @@
 			<skill name="Buff1" id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
 			<skill name="Buff2" id="4031" level="3" /> <!-- NPC Clan Aegis -->
 			<skill name="DeBuff" id="4035" level="9" /> <!-- Poison -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4372,7 +4355,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
@@ -4424,7 +4407,6 @@
 			<skill name="Buff1" id="4030" level="3" /> <!-- NPC Clan Might -->
 			<skill name="Buff2" id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
 			<skill name="RangeDeBuff" id="4035" level="9" /> <!-- Poison -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4446,7 +4428,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="3" /> <!-- MP Medium-High -->
-			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Average P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="9" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -4506,7 +4488,6 @@
 			<param name="SoulShot" value="100" />
 			<param name="SoulShotRate" value="30" />
 			<skill name="PhysicalSpecial" id="4573" level="9" /> <!-- NPC Sonic Blaster -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4528,7 +4509,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="7" /> <!-- MP Very High -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
@@ -4583,7 +4564,6 @@
 			<param name="SpiritShotRate" value="30" />
 			<skill name="DDMagic" id="4100" level="9" /> <!-- NPC Prominence -->
 			<skill name="DeBuff" id="4035" level="9" /> <!-- Poison -->
-			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
 		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
@@ -4604,7 +4584,7 @@
 			<skill id="4416" level="6" /> <!-- Humanoids -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4410" level="10" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
