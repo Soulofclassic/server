@@ -3245,7 +3245,7 @@
 		<abnormalTime>1800</abnormalTime>
 		<abnormalType>PD_DOWN</abnormalType>
 		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
+		<basicProperty>PHYSICAL</basicProperty>
 		<castRange>1000</castRange>
 		<effectPoint>100</effectPoint>
 		<effectRange>1500</effectRange>
