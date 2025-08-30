@@ -1683,7 +1683,6 @@
 		<effectRange>1100</effectRange>
 		<hitTime>1200</hitTime>
 		<isDebuff>true</isDebuff>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
 		<lvlBonusRate>30</lvlBonusRate>
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>
