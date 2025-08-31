@@ -2026,7 +2026,6 @@
 				<item id="1871" min="1" max="1" chance="2.357" /> <!-- Charcoal -->
 				<item id="1876" min="1" max="1" chance="0.3" /> <!-- Mithril Ore -->
 				<item id="1817" min="1" max="1" chance="0.3" /> <!-- Recipe: Cord -->
-				<item id="5268" min="1" max="1" chance="0.075" /> <!-- Recipe: Greater Soulshot Compressed Package (D-grade) -->
 			</drop>
 			<spoil>
 				<item id="1868" min="1" max="1" chance="51.89" /> <!-- Thread -->
@@ -2458,16 +2457,6 @@
 				<item id="1869" min="1" max="1" chance="2.391" /> <!-- Iron Ore -->
 				<item id="1876" min="1" max="1" chance="0.3" /> <!-- Mithril Ore -->
 				<item id="956" min="1" max="1" chance="0.075" /> <!-- Scroll: Enchant Armor (D-grade) -->
-				<!-- Classic: Also drops herbs. -->
-				<item id="70166" min="1" max="1" chance="5" /> <!-- Energy of Speed -->
-				<item id="70169" min="1" max="1" chance="4" /> <!-- Energy of Accuracy -->
-				<item id="70163" min="1" max="1" chance="3" /> <!-- Energy of Development -->
-				<item id="70167" min="1" max="1" chance="2.5" /> <!-- Powerful Energy of Speed -->
-				<item id="70170" min="1" max="1" chance="2" /> <!-- Powerful Energy of Accuracy -->
-				<item id="70164" min="1" max="1" chance="1.5" /> <!-- Powerful Energy of Development -->
-				<item id="70168" min="1" max="1" chance="0.75" /> <!-- Great Energy of Speed -->
-				<item id="70171" min="1" max="1" chance="0.5" /> <!-- Great Energy of Accuracy -->
-				<item id="70165" min="1" max="1" chance="0.25" /> <!-- Great Energy of Development -->
 			</drop>
 			<spoil>
 				<item id="734" min="1" max="2" chance="6.562" /> <!-- Wind Walk Potion -->
@@ -2658,16 +2647,6 @@
 				<item id="1871" min="1" max="1" chance="2.829" /> <!-- Charcoal -->
 				<item id="1870" min="1" max="1" chance="2.795" /> <!-- Coal -->
 				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
-				<!-- Classic: Also drops herbs. -->
-				<item id="70166" min="1" max="1" chance="5" /> <!-- Energy of Speed -->
-				<item id="70169" min="1" max="1" chance="4" /> <!-- Energy of Accuracy -->
-				<item id="70163" min="1" max="1" chance="3" /> <!-- Energy of Development -->
-				<item id="70167" min="1" max="1" chance="2.5" /> <!-- Powerful Energy of Speed -->
-				<item id="70170" min="1" max="1" chance="2" /> <!-- Powerful Energy of Accuracy -->
-				<item id="70164" min="1" max="1" chance="1.5" /> <!-- Powerful Energy of Development -->
-				<item id="70168" min="1" max="1" chance="0.75" /> <!-- Great Energy of Speed -->
-				<item id="70171" min="1" max="1" chance="0.5" /> <!-- Great Energy of Accuracy -->
-				<item id="70165" min="1" max="1" chance="0.25" /> <!-- Great Energy of Development -->
 			</drop>
 			<spoil>
 				<item id="1925" min="1" max="1" chance="27.04" /> <!-- Leather Glove Lining -->
@@ -3232,20 +3211,9 @@
 				<item id="1865" min="1" max="1" chance="2.796" /> <!-- Varnish -->
 				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
 				<item id="2177" min="1" max="1" chance="0.75" /> <!-- Recipe: Bone Helmet -->
-				<!-- Classic: Also drops herbs. -->
-				<item id="70166" min="1" max="1" chance="5" /> <!-- Energy of Speed -->
-				<item id="70169" min="1" max="1" chance="4" /> <!-- Energy of Accuracy -->
-				<item id="70163" min="1" max="1" chance="3" /> <!-- Energy of Development -->
-				<item id="70167" min="1" max="1" chance="2.5" /> <!-- Powerful Energy of Speed -->
-				<item id="70170" min="1" max="1" chance="2" /> <!-- Powerful Energy of Accuracy -->
-				<item id="70164" min="1" max="1" chance="1.5" /> <!-- Powerful Energy of Development -->
-				<item id="70168" min="1" max="1" chance="0.75" /> <!-- Great Energy of Speed -->
-				<item id="70171" min="1" max="1" chance="0.5" /> <!-- Great Energy of Accuracy -->
-				<item id="70165" min="1" max="1" chance="0.25" /> <!-- Great Energy of Development -->
 			</drop>
 			<spoil>
 				<item id="1880" min="1" max="1" chance="5.527" /> <!-- Steel -->
-				<item id="3032" min="1" max="1" chance="2.286" /> <!-- Recipe: Spiritshot (D-grade) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3525,7 +3493,6 @@
 				<item id="1867" min="1" max="1" chance="5.624" /> <!-- Animal Skin -->
 				<item id="1866" min="1" max="1" chance="2.732" /> <!-- Suede -->
 				<item id="2255" min="1" max="1" chance="0.3" /> <!-- Recipe: Saber -->
-				<item id="5153" min="1" max="1" chance="0.3" /> <!-- Recipe: Soulshot Compressed Package (D-grade) -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="23.07" /> <!-- Silver Nugget -->
@@ -3595,8 +3562,6 @@
 				<item id="1868" min="1" max="1" chance="8.438" /> <!-- Thread -->
 				<item id="1867" min="1" max="1" chance="5.546" /> <!-- Animal Skin -->
 				<item id="1866" min="1" max="1" chance="2.809" /> <!-- Suede -->
-				<item id="1804" min="1" max="1" chance="0.3" /> <!-- Recipe: Soulshot (D-grade) -->
-				<item id="5268" min="1" max="1" chance="0.3" /> <!-- Recipe: Greater Soulshot Compressed Package (D-grade) -->
 			</drop>
 			<spoil>
 				<item id="2177" min="1" max="1" chance="19.72" /> <!-- Recipe: Bone Helmet -->
@@ -3940,8 +3905,6 @@
 				<item id="1869" min="1" max="1" chance="2.86" /> <!-- Iron Ore -->
 				<item id="1927" min="1" max="1" chance="1.826" /> <!-- Durable Leather Shirt Pattern -->
 				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
-				<item id="1804" min="1" max="1" chance="0.3" /> <!-- Recipe: Soulshot (D-grade) -->
-				<item id="5153" min="1" max="1" chance="0.3" /> <!-- Recipe: Soulshot Compressed Package (D-grade) -->
 			</drop>
 			<spoil>
 				<item id="1873" min="1" max="1" chance="25.83" /> <!-- Silver Nugget -->

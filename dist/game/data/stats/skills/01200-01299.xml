@@ -6312,8 +6312,10 @@
 		</abnormalLevel>
 		<abnormalTime>1200</abnormalTime>
 		<abnormalType>DECREASE_WEIGHT_PENALTY</abnormalType>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
+		<targetType>SELF</targetType>
+  		<affectScope>PARTY</affectScope>
+ 		<affectObject>FRIEND</affectObject>
+  		<basicProperty>NONE</basicProperty>
 		<castRange>400</castRange>
 		<effectPoint>
 			<value level="1">331</value>
