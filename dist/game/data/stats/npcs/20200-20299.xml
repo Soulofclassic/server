@@ -207,8 +207,6 @@
 		<acquire exp="877" sp="26" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="361.300316445296" hpRegen="2.5" mp="192" mpRegen="1.2" />
-			<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="361.300316445296" hpRegen="2.5" mp="192" mpRegen="1.2" />
 			<attack physical="44.32863" magical="30.2707" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="86.87049" magical="63.56806" />
 			<speed>

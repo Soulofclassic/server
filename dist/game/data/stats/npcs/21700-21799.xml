@@ -3189,7 +3189,6 @@
 			<hitTime>340</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		</stats>
 		<status attackable="true" />
 		<collision>
 			<radius normal="23.8" />
