@@ -78,12 +78,11 @@
 			<value level="4">12</value>
 			<value level="5">15</value>
 		</abnormalTime>
-		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalType>ABNORMAL_INVINCIBILITY</abnormalType>
 		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
 		<affectScope>SINGLE</affectScope>
 		<basicProperty>NONE</basicProperty>
 		<effectPoint>1</effectPoint>
-		<canCastWhileDisabled>true</canCastWhileDisabled>
 		<hitTime>0</hitTime>
 		<staticReuse>true</staticReuse>
 		<magicLevel>
