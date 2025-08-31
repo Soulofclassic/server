@@ -3933,165 +3933,165 @@
 		</effects>
 	</skill>
 	<skill id="1078" toLevel="18" name="Concentration">
-  <!-- Level 1: For 20 min., Casting Interruption Rate -18%. -->
-  <!-- Level 2: For 20 min., Casting Interruption Rate -25%. -->
-  <!-- Level 3: For 20 min., Casting Interruption Rate -36%. -->
-  <!-- Level 4: For 20 min., Casting Interruption Rate -42%. -->
-  <!-- Level 5: For 20 min., Casting Interruption Rate -48%. -->
-  <!-- Level 6: For 20 min., Casting Interruption Rate -53%. -->
-  <!-- Level 7: For 20 min., Casting Interruption Rate -18%. -->
-  <!-- Level 8: For 20 min., Casting Interruption Rate -25%. -->
-  <!-- Level 9: For 20 min., Casting Interruption Rate -36%. -->
-  <!-- Level 10: For 20 min., Casting Interruption Rate -42%. -->
-  <!-- Level 11: For 20 min., Casting Interruption Rate -48%. -->
-  <!-- Level 12: For 20 min., Casting Interruption Rate -53%. -->
-  <!-- Level 13: For 10 min., Casting Interruption Rate -18%. -->
-  <!-- Level 14: For 10 min., Casting Interruption Rate -25%. -->
-  <!-- Level 15: For 10 min., Casting Interruption Rate -36%. -->
-  <!-- Level 16: For 10 min., Casting Interruption Rate -42%. -->
-  <!-- Level 17: For 10 min., Casting Interruption Rate -48%. -->
-  <!-- Level 18: For 10 min., Casting Interruption Rate -53%. -->
-  <icon>icon.skill1078</icon>
-  <operateType>A2</operateType>
-  <targetType>TARGET</targetType>
-  <abnormalLevel>
-   <value level="1">1</value>
-   <value level="2">2</value>
-   <value level="3">3</value>
-   <value level="4">4</value>
-   <value level="5">5</value>
-   <value level="6">6</value>
-   <value level="7">7</value>
-   <value level="8">8</value>
-   <value level="9">9</value>
-   <value level="10">10</value>
-   <value level="11">11</value>
-   <value level="12">12</value>
-   <value level="13">13</value>
-   <value level="14">14</value>
-   <value level="15">15</value>
-   <value level="16">16</value>
-   <value level="17">17</value>
-   <value level="18">18</value>
-  </abnormalLevel>
-  <abnormalTime>1200</abnormalTime>
-  <abnormalType>CANCEL_PROB_DOWN</abnormalType>
-  <targetType>SELF</targetType>
-  <affectScope>PARTY</affectScope>
-  <affectObject>FRIEND</affectObject>
-  <basicProperty>NONE</basicProperty>
-  <castRange>400</castRange>
-  <effectPoint>
-   <value level="1">204</value>
-   <value level="2">285</value>
-   <value level="3">418</value>
-   <value level="4">495</value>
-   <value level="5">566</value>
-   <value level="6">624</value>
-   <value level="7">204</value>
-   <value level="8">285</value>
-   <value level="9">418</value>
-   <value level="10">495</value>
-   <value level="11">566</value>
-   <value level="12">624</value>
-   <value level="13">204</value>
-   <value level="14">285</value>
-   <value level="15">418</value>
-   <value level="16">495</value>
-   <value level="17">566</value>
-   <value level="18">624</value>
-  </effectPoint>
-  <affectRange>1000</affectRange>
-  <hitTime>4000</hitTime>
-  <isMagic>1</isMagic> <!-- Magic Skill -->
-  <magicCriticalRate>5</magicCriticalRate>
-  <magicLevel>
-   <value level="1">20</value>
-   <value level="2">30</value>
-   <value level="3">44</value>
-   <value level="4">52</value>
-   <value level="5">60</value>
-   <value level="6">68</value>
-   <value level="7">69</value>
-   <value level="8">70</value>
-   <value level="9">71</value>
-   <value level="10">72</value>
-   <value level="11">73</value>
-   <value level="12">74</value>
-   <value level="13">75</value>
-   <value level="14">76</value>
-   <value level="15">77</value>
-   <value level="16">78</value>
-   <value level="17">79</value>
-   <value level="18">80</value>
-  </magicLevel>
-  <mpConsume>
-   <value level="1">16</value>
-   <value level="2">21</value>
-   <value level="3">31</value>
-   <value level="4">38</value>
-   <value level="5">44</value>
-   <value level="6">51</value>
-   <value level="7">20</value>
-   <value level="8">27</value>
-   <value level="9">39</value>
-   <value level="10">48</value>
-   <value level="11">55</value>
-   <value level="12">64</value>
-   <value level="13">20</value>
-   <value level="14">27</value>
-   <value level="15">39</value>
-   <value level="16">48</value>
-   <value level="17">55</value>
-   <value level="18">64</value>
-</mpConsume>
-  <mpInitialConsume>
-   <value level="1">4</value>
-   <value level="2">6</value>
-   <value level="3">8</value>
-   <value level="4">10</value>
-   <value level="5">11</value>
-   <value level="6">13</value>
-   <value level="7">4</value>
-   <value level="8">6</value>
-   <value level="9">8</value>
-   <value level="10">10</value>
-   <value level="11">11</value>
-   <value level="12">13</value>
-   <value level="13">4</value>
-   <value level="14">6</value>
-   <value level="15">8</value>
-   <value level="16">10</value>
-   <value level="17">11</value>
-   <value level="18">13</value>
-  </mpInitialConsume>
-  <reuseDelay>2000</reuseDelay>
-  <effects>
-   <effect name="ReduceCancel">
-    <amount>
-     <value level="1">-18</value>
-     <value level="2">-25</value>
-     <value level="3">-36</value>
-     <value level="4">-42</value>
-     <value level="5">-48</value>
-     <value level="6">-53</value>
-     <value level="7">-18</value>
-     <value level="8">-25</value>
-     <value level="9">-36</value>
-     <value level="10">-42</value>
-     <value level="11">-48</value>
-     <value level="12">-53</value>
-     <value level="13">-18</value>
-     <value level="14">-25</value>
-     <value level="15">-36</value>
-     <value level="16">-42</value>
-     <value level="17">-48</value>
-     <value level="18">-53</value>
-    </amount>
-    <mode>DIFF</mode>
-   </effect>
-  </effects>
- </skill>
+  		<!-- Level 1: For 20 min., Casting Interruption Rate -18%. -->
+  		<!-- Level 2: For 20 min., Casting Interruption Rate -25%. -->
+  		<!-- Level 3: For 20 min., Casting Interruption Rate -36%. -->
+  		<!-- Level 4: For 20 min., Casting Interruption Rate -42%. -->
+  		<!-- Level 5: For 20 min., Casting Interruption Rate -48%. -->
+  		<!-- Level 6: For 20 min., Casting Interruption Rate -53%. -->
+  		<!-- Level 7: For 20 min., Casting Interruption Rate -18%. -->
+  		<!-- Level 8: For 20 min., Casting Interruption Rate -25%. -->
+  		<!-- Level 9: For 20 min., Casting Interruption Rate -36%. -->
+  		<!-- Level 10: For 20 min., Casting Interruption Rate -42%. -->
+  		<!-- Level 11: For 20 min., Casting Interruption Rate -48%. -->
+  		<!-- Level 12: For 20 min., Casting Interruption Rate -53%. -->
+  		<!-- Level 13: For 10 min., Casting Interruption Rate -18%. -->
+  		<!-- Level 14: For 10 min., Casting Interruption Rate -25%. -->
+  		<!-- Level 15: For 10 min., Casting Interruption Rate -36%. -->
+  		<!-- Level 16: For 10 min., Casting Interruption Rate -42%. -->
+  		<!-- Level 17: For 10 min., Casting Interruption Rate -48%. -->
+  		<!-- Level 18: For 10 min., Casting Interruption Rate -53%. -->
+  		<icon>icon.skill1078</icon>
+  		<operateType>A2</operateType>
+  		<targetType>TARGET</targetType>
+  		<abnormalLevel>
+   			<value level="1">1</value>
+   			<value level="2">2</value>
+   			<value level="3">3</value>
+   			<value level="4">4</value>
+   			<value level="5">5</value>
+   			<value level="6">6</value>
+   			<value level="7">7</value>
+   			<value level="8">8</value>
+   			<value level="9">9</value>
+   			<value level="10">10</value>
+   			<value level="11">11</value>
+   			<value level="12">12</value>
+   			<value level="13">13</value>
+   			<value level="14">14</value>
+   			<value level="15">15</value>
+   			<value level="16">16</value>
+   			<value level="17">17</value>
+   			<value level="18">18</value>
+  		</abnormalLevel>
+  		<abnormalTime>1200</abnormalTime>
+  		<abnormalType>CANCEL_PROB_DOWN</abnormalType>
+  		<targetType>SELF</targetType>
+  		<affectScope>PARTY</affectScope>
+  		<affectObject>FRIEND</affectObject>
+  		<basicProperty>NONE</basicProperty>
+  		<castRange>400</castRange>
+  		<effectPoint>
+   			<value level="1">204</value>
+   			<value level="2">285</value>
+   			<value level="3">418</value>
+   			<value level="4">495</value>
+   			<value level="5">566</value>
+   			<value level="6">624</value>
+   			<value level="7">204</value>
+   			<value level="8">285</value>
+   			<value level="9">418</value>
+   			<value level="10">495</value>
+   			<value level="11">566</value>
+   			<value level="12">624</value>
+   			<value level="13">204</value>
+   			<value level="14">285</value>
+   			<value level="15">418</value>
+   			<value level="16">495</value>
+   			<value level="17">566</value>
+   			<value level="18">624</value>
+  		</effectPoint>
+  		<affectRange>1000</affectRange>
+  		<hitTime>4000</hitTime>
+  		<isMagic>1</isMagic> <!-- Magic Skill -->
+  		<magicCriticalRate>5</magicCriticalRate>
+  		<magicLevel>
+   			<value level="1">20</value>
+   			<value level="2">30</value>
+   			<value level="3">44</value>
+   			<value level="4">52</value>
+   			<value level="5">60</value>
+   			<value level="6">68</value>
+   			<value level="7">69</value>
+   			<value level="8">70</value>
+   			<value level="9">71</value>
+   			<value level="10">72</value>
+   			<value level="11">73</value>
+   			<value level="12">74</value>
+   			<value level="13">75</value>
+   			<value level="14">76</value>
+   			<value level="15">77</value>
+   			<value level="16">78</value>
+   			<value level="17">79</value>
+   			<value level="18">80</value>
+  		</magicLevel>
+  		<mpConsume>
+   			<value level="1">16</value>
+   			<value level="2">21</value>
+   			<value level="3">31</value>
+   			<value level="4">38</value>
+   			<value level="5">44</value>
+   			<value level="6">51</value>
+   			<value level="7">20</value>
+   			<value level="8">27</value>
+   			<value level="9">39</value>
+   			<value level="10">48</value>
+   			<value level="11">55</value>
+   			<value level="12">64</value>
+   			<value level="13">20</value>
+   			<value level="14">27</value>
+   			<value level="15">39</value>
+   			<value level="16">48</value>
+   			<value level="17">55</value>
+   			<value level="18">64</value>
+		</mpConsume>
+  		<mpInitialConsume>
+   			<value level="1">4</value>
+   			<value level="2">6</value>
+   			<value level="3">8</value>
+   			<value level="4">10</value>
+   			<value level="5">11</value>
+   			<value level="6">13</value>
+   			<value level="7">4</value>
+   			<value level="8">6</value>
+   			<value level="9">8</value>
+   			<value level="10">10</value>
+   			<value level="11">11</value>
+   			<value level="12">13</value>
+   			<value level="13">4</value>
+   			<value level="14">6</value>
+   			<value level="15">8</value>
+   			<value level="16">10</value>
+   			<value level="17">11</value>
+   			<value level="18">13</value>
+  		</mpInitialConsume>
+  		<reuseDelay>2000</reuseDelay>
+  		<effects>
+   			<effect name="ReduceCancel">
+    			<amount>
+     				<value level="1">-18</value>
+     				<value level="2">-25</value>
+     				<value level="3">-36</value>
+     				<value level="4">-42</value>
+     				<value level="5">-48</value>
+     				<value level="6">-53</value>
+     				<value level="7">-18</value>
+     				<value level="8">-25</value>
+     				<value level="9">-36</value>
+     				<value level="10">-42</value>
+     				<value level="11">-48</value>
+     				<value level="12">-53</value>
+     				<value level="13">-18</value>
+     				<value level="14">-25</value>
+     				<value level="15">-36</value>
+     				<value level="16">-42</value>
+     				<value level="17">-48</value>
+     				<value level="18">-53</value>
+    			</amount>
+    			<mode>DIFF</mode>
+   			</effect>
+  		</effects>
+	</skill>
 	<skill id="1085" toLevel="9" name="Acumen">
 		<!-- Level 1: Casting Spd. +15% for 20 min. -->
 		<!-- Level 2: Casting Spd. +23% for 20 min. -->
