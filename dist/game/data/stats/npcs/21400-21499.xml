@@ -819,7 +819,7 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4408" level="11" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
@@ -862,7 +862,7 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4408" level="11" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="13" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
@@ -1047,7 +1047,7 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="12" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -1090,7 +1090,7 @@
 			<skill id="4416" level="9" /> <!-- Demons -->
 			<skill id="4408" level="11" /> <!-- HP Increase (3x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="12" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -1119,9 +1119,9 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4408" level="11" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="12" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -1163,9 +1163,9 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4408" level="11" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Strong P. Atk. -->
+			<skill id="4410" level="12" /> <!-- Strong P. Atk. -->
 			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -1196,9 +1196,9 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4408" level="11" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Very Strong P. Atk. -->
+			<skill id="4410" level="12" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -1240,9 +1240,9 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4408" level="11" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Very Strong P. Atk. -->
+			<skill id="4410" level="12" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="11" /> <!-- Average P. Def. -->
 			<skill id="4413" level="11" /> <!-- Average M. Def. -->
@@ -1271,9 +1271,9 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4408" level="11" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Very Strong P. Atk. -->
+			<skill id="4410" level="12" /> <!-- Very Strong P. Atk. -->
 			<skill id="4411" level="17" /> <!-- Very Strong M. Atk. -->
 			<skill id="4412" level="13" /> <!-- Very Strong P. Def. -->
 			<skill id="4413" level="13" /> <!-- Very Strong M. Def. -->
@@ -1317,9 +1317,9 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="12" /> <!-- Bugs -->
-			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4408" level="11" /> <!-- HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="13" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="13" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="13" /> <!-- Slightly Strong M. Def. -->
@@ -1362,9 +1362,9 @@
 		</collision>
 		<skillList>
 			<skill id="4416" level="9" /> <!-- Demons -->
-			<skill id="4408" level="13" /> <!-- HP Increase (5x) -->
+			<skill id="4408" level="11" /> <!-- HP Increase (5x) -->
 			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
-			<skill id="4410" level="13" /> <!-- Extremely Strong P. Atk. -->
+			<skill id="4410" level="12" /> <!-- Extremely Strong P. Atk. -->
 			<skill id="4411" level="19" /> <!-- Extremely Strong M. Atk. -->
 			<skill id="4412" level="13" /> <!-- Extremely Strong P. Def. -->
 			<skill id="4413" level="13" /> <!-- Extremely Strong M. Def. -->
