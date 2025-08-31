@@ -3021,7 +3021,7 @@
   <icon>icon.skill1059</icon>
   <operateType>A2</operateType>
   <targetType>TARGET</targetType>
-  <abnormalLevel>
+ <abnormalLevel>
    <value level="1">1</value>
    <value level="2">2</value>
    <value level="3">3</value>
@@ -3037,6 +3037,7 @@
   <targetType>SELF</targetType>
   <affectScope>PARTY</affectScope>
   <affectObject>FRIEND</affectObject>
+  <basicProperty>NONE</basicProperty>
   <castRange>400</castRange>
   <effectPoint>
    <value level="1">243</value>
@@ -3049,7 +3050,7 @@
    <value level="8">418</value>
    <value level="9">495</value>
   </effectPoint>
-  <effectRange>900</effectRange>
+  <affectRange>1000</affectRange>
   <hitTime>4000</hitTime>
   <isMagic>1</isMagic> <!-- Magic Skill -->
   <magicCriticalRate>5</magicCriticalRate>
@@ -3088,7 +3089,7 @@
   </mpInitialConsume>
   <reuseDelay>2000</reuseDelay>
   <effects>
-   <effect name="MagicalAttack">
+  <effect name="MagicalAttack">
     <amount>
      <value level="1">55</value>
      <value level="2">65</value>
@@ -3101,7 +3102,7 @@
      <value level="9">75</value>
     </amount>
     <mode>PER</mode>
-   </effect>
+  </effect>
   </effects>
  </skill>
 	<skill id="1062" toLevel="2" name="Berserker Spirit">
