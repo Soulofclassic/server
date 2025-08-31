@@ -7089,65 +7089,67 @@
 		</effects>
 	</skill>
 	<skill id="1268" toLevel="4" name="Vampiric Rage">
-		<!-- Level 1: For 20 min., with a certain chance, absorbs 6% of the inflicted damage as HP. -->
-		<!-- Level 2: For 20 min., with a certain chance, absorbs 7% of the inflicted damage as HP. -->
-		<!-- Level 3: For 20 min., with a certain chance, absorbs 8% of the inflicted damage as HP. -->
-		<!-- Level 4: For 20 min., with a certain chance, absorbs 9% of the inflicted damage as HP. -->
-		<icon>icon.skill1268</icon>
-		<operateType>A2</operateType>
-		<targetType>TARGET</targetType>
-		<abnormalLevel>
-			<value level="1">1</value>
-			<value level="2">2</value>
-			<value level="3">3</value>
-			<value level="4">4</value>
-		</abnormalLevel>
-		<abnormalTime>1200</abnormalTime>
-		<abnormalType>VAMPIRIC_ATTACK</abnormalType>
-		<affectScope>SINGLE</affectScope>
-		<basicProperty>NONE</basicProperty>
-		<castRange>400</castRange>
-		<effectPoint>
-			<value level="1">285</value>
-			<value level="2">418</value>
-			<value level="3">549</value>
-			<value level="4">646</value>
-		</effectPoint>
-		<effectRange>900</effectRange>
-		<hitTime>4000</hitTime>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">30</value>
-			<value level="2">44</value>
-			<value level="3">58</value>
-			<value level="4">72</value>
-		</magicLevel>
-		<mpConsume>
-			<value level="1">21</value>
-			<value level="2">31</value>
-			<value level="3">43</value>
-			<value level="4">53</value>
-		</mpConsume>
-		<mpInitialConsume>
-			<value level="1">6</value>
-			<value level="2">8</value>
-			<value level="3">11</value>
-			<value level="4">14</value>
-		</mpInitialConsume>
-		<reuseDelay>2000</reuseDelay>
-		<effects>
-			<effect name="VampiricAttack">
-				<amount>
-					<value level="1">6</value>
-					<value level="2">7</value>
-					<value level="3">8</value>
-					<value level="4">9</value>
-				</amount>
-				<chance>80</chance>
-			</effect>
-		</effects>
-	</skill>
+  <!-- Level 1: For 20 min., with a certain chance, absorbs 6% of the inflicted damage as HP. -->
+  <!-- Level 2: For 20 min., with a certain chance, absorbs 7% of the inflicted damage as HP. -->
+  <!-- Level 3: For 20 min., with a certain chance, absorbs 8% of the inflicted damage as HP. -->
+  <!-- Level 4: For 20 min., with a certain chance, absorbs 9% of the inflicted damage as HP. -->
+  <icon>icon.skill1268</icon>
+  <operateType>A2</operateType>
+  <targetType>TARGET</targetType>
+  <abnormalLevel>
+   <value level="1">1</value>
+   <value level="2">2</value>
+   <value level="3">3</value>
+   <value level="4">4</value>
+  </abnormalLevel>
+  <abnormalTime>1200</abnormalTime>
+  <abnormalType>VAMPIRIC_ATTACK</abnormalType>
+  <targetType>SELF</targetType>
+  <affectScope>PARTY</affectScope>
+  <affectObject>FRIEND</affectObject>
+  <basicProperty>NONE</basicProperty>
+  <castRange>400</castRange>
+  <effectPoint>
+   <value level="1">285</value>
+   <value level="2">418</value>
+   <value level="3">549</value>
+   <value level="4">646</value>
+  </effectPoint>
+  <affectRange>1000</affectRange>
+  <hitTime>4000</hitTime>
+  <isMagic>1</isMagic> <!-- Magic Skill -->
+  <magicCriticalRate>5</magicCriticalRate>
+ <magicLevel>
+   <value level="1">30</value>
+   <value level="2">44</value>
+   <value level="3">58</value>
+   <value level="4">72</value>
+  </magicLevel>
+  <mpConsume>
+   <value level="1">18</value>
+   <value level="2">31</value>
+   <value level="3">38</value>
+   <value level="4">18</value>
+  </mpConsume>
+  <mpInitialConsume>
+   <value level="1">5</value>
+   <value level="2">8</value>
+   <value level="3">10</value>
+   <value level="4">5</value>
+  </mpInitialConsume>
+  <reuseDelay>2000</reuseDelay>
+  <effects>
+   <effect name="VampiricAttack">
+    <amount>
+     <value level="1">6</value>
+     <value level="2">7</value>
+     <value level="3">8</value>
+     <value level="4">9</value>
+    </amount>
+    <chance>80</chance>
+   </effect>
+  </effects>
+ </skill>
 	<skill id="1269" toLevel="16" name="Curse Disease">
 		<!-- For 2 min., the target's Received Healing -50%. -->
 		<icon>icon.skill1269</icon>
