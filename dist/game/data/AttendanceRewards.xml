@@ -3,32 +3,32 @@
 	<item id="70858" count="1" /> <!-- irene's hour glass -->
 	<item id="49488" count="5" /> <!-- Major Healing Potion -->
 	<item id="49518" count="1" /> <!-- Special Pirate Fruit -->
-	<item id="49487" count="5" /> <!-- Soulshot Ticket -->
-	<item id="35669" count="1" /> <!-- Angel Cat's Blessing (30-day) -->
 	<item id="1538" count="1" /> <!-- Greater Scroll of Escape -->
+	<item id="35669" count="1" /> <!-- Angel Cat's Blessing (30-day) -->
+	<item id="10649" count="1" /> <!-- feather -->
 	<item id="4357" count="50" /> <!-- Silver shilen -->
 	
 	<item id="70858" count="2" /> <!-- irene's hour glass -->
 	<item id="49488" count="10" /> <!-- Major Healing Potion -->
 	<item id="49518" count="2" /> <!-- Special Pirate Fruit -->
-	<item id="49487" count="10" /> <!-- Soulshot Ticket -->
+	<item id="1538" count="2" /> <!-- Greater Scroll of Escape -->
 	<item id="35669" count="2" /> <!-- Angel Cat's Blessing (30-day) -->
-	<item id="10649" count="1" /> <!-- feather -->
+	<item id="10649" count="2" /> <!-- feather -->
 	<item id="4357" count="100" /> <!-- Silver shilen -->
 	
 	<item id="70858" count="3" /> <!-- irene's hour glass -->
 	<item id="49488" count="15" /> <!-- Major Healing Potion -->
 	<item id="49518" count="3" /> <!-- Special Pirate Fruit -->
-	<item id="49487" count="15" /> <!-- Soulshot Ticket -->
+	<item id="1538" count="3" /> <!-- Greater Scroll of Escape -->
 	<item id="35669" count="3" /> <!-- Angel Cat's Blessing (30-day) -->
-	<item id="1538" count="2" /> <!-- Greater Scroll of Escape -->
+	<item id="10649" count="3" /> <!-- feather -->
 	<item id="4357" count="150" /> <!-- Silver shilen -->
 	
 	<item id="70858" count="4" /> <!-- irene's hour glass -->
 	<item id="49488" count="20" /> <!-- Major Healing Potion -->
 	<item id="49518" count="4" /> <!-- Special Pirate Fruit -->
-	<item id="49487" count="20" /> <!-- Soulshot Ticket -->
+	<item id="1538" count="4" /> <!-- Greater Scroll of Escape -->
 	<item id="35669" count="4" /> <!-- Angel Cat's Blessing (30-day) -->
-	<item id="10649" count="2" /> <!-- feather -->
+	<item id="10649" count="4" /> <!-- feather -->
 	<item id="4357" count="200" /> <!-- Silver shilen -->
 </list>
