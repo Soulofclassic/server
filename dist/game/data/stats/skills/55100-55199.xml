@@ -1708,13 +1708,13 @@
 		<operateType>A1</operateType>
 	</skill>
 	<skill id="55143" toLevel="1" name="Elite Fishing Rod of Golden Mermaid">
-		<!-- Acquired XP/ SP through fishing +50%. -->
+		<!-- Acquired XP/ SP through fishing +100%. -->
 		<icon>icon.bm_gold_fishing_pole</icon>
 		<operateType>P</operateType>
 		<effects>
 			<effect name="FishingExpSpBonus">
 				<amount>
-					<value level="1">50</value>
+					<value level="1">100</value>
 				</amount>
 			</effect>
 		</effects>
