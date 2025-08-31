@@ -1851,101 +1851,101 @@
 	<skill id="1355" toLevel="2" name="Prophecy of Water">
   <!-- Level 1: For 10 min., party member's MP Recovery Bonus +10%, M. Atk. +10%, M. Def. +10%, Casting Spd. +5%, Debuff Resistance +10%, Skill MP Consumption -3%. Consumes 10 Spirit Ore. -->
   <!-- Level 2: For 10 min., party member's MP Recovery Bonus +20%, M. Atk. +15%, M. Def. +15%, Casting Spd. +10%, Debuff Resistance +10%, Skill MP Consumption -5%. Consumes 20 Spirit Ore. -->
-  <icon>icon.skill1355</icon>
-  <operateType>A2</operateType>
-  <targetType>TARGET</targetType>
-  <abnormalLevel>
-   <value level="1">1</value>
-   <value level="2">2</value>
-  </abnormalLevel>
-  <abnormalTime>1200</abnormalTime>
-  <itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
-  <abnormalType>MULTI_BUFF</abnormalType>
-  <targetType>SELF</targetType>
-  <affectScope>PARTY</affectScope>
-  <affectObject>FRIEND</affectObject>
-  <basicProperty>NONE</basicProperty>
-  <castRange>400</castRange>
-  <effectPoint>
-   <value level="1">331</value>
-   <value level="2">418</value>
-  </effectPoint>
-  <affectRange>1000</affectRange>
-  <hitTime>4000</hitTime>
-  <isMagic>1</isMagic> <!-- Magic Skill -->
-  <magicCriticalRate>5</magicCriticalRate>
-  <magicLevel>
-   <value level="1">35</value>
-   <value level="2">44</value>
-  </magicLevel>
-  <mpConsume>
-   <value level="1">12</value>
-   <value level="2">16</value>
-  </mpConsume>
-  <mpInitialConsume>
-   <value level="1">3</value>
-   <value level="2">4</value>
-  </mpInitialConsume>
-  <reuseDelay>2000</reuseDelay>
-    <effects>
-   <effect name="MpRegen">
-    <amount>
-     <value level="1">10</value>
-     <value level="2">20</value>
-    </amount>
-    <mode>PER</mode>
-   </effect>
-   <effect name="MagicalAttack">
-    <amount>
-     <value level="1">10</value>
-     <value level="2">15</value>
-    </amount>
-    <mode>PER</mode>
-   </effect>
-   <effect name="MagicalDefence">
-    <amount>
-     <value level="1">10</value>
-     <value level="2">15</value>
-    </amount>
-    <mode>PER</mode>
-   </effect>
-   <effect name="MagicalAttackSpeed">
-    <amount>
-     <value level="1">5</value>
-     <value level="2">10</value>
-    </amount>
-    <mode>PER</mode>
-   </effect>
-   <effect name="ResistAbnormalByCategory">
-    <amount>-10</amount>
-    <slot>DEBUFF</slot>
-   </effect>
-   <effect name="MagicMpCost">
-    <amount>
-     <value level="1">-3</value>
-     <value level="2">-5</value>
-    </amount>
-    <mode>PER</mode>
-    <magicType>1</magicType>
-   </effect>
-   <effect name="MagicMpCost">
-    <amount>
-     <value level="1">-3</value>
-     <value level="2">-5</value>
-    </amount>
-    <mode>PER</mode>
-    <magicType>0</magicType>
-   </effect>
-   <effect name="MagicMpCost">
-    <amount>
-     <value level="1">-3</value>
-     <value level="2">-5</value>
-    </amount>
-    <mode>PER</mode>
-    <magicType>3</magicType>
-   </effect>
-  </effects>
- </skill>
+  		<icon>icon.skill1355</icon>
+		<operateType>A2</operateType>
+		<targetType>TARGET</targetType>
+  		<abnormalLevel>
+   			<value level="1">1</value>
+   			<value level="2">2</value>
+  		</abnormalLevel>
+  		<abnormalTime>1200</abnormalTime>
+  		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+  		<abnormalType>MULTI_BUFF</abnormalType>
+  		<targetType>SELF</targetType>
+  		<affectScope>PARTY</affectScope>
+  		<affectObject>FRIEND</affectObject>
+  		<basicProperty>NONE</basicProperty>
+  		<castRange>400</castRange>
+  		<effectPoint>
+   			<value level="1">331</value>
+   			<value level="2">418</value>
+  		</effectPoint>
+  		<affectRange>1000</affectRange>
+  		<hitTime>4000</hitTime>
+  		<isMagic>1</isMagic> <!-- Magic Skill -->
+  		<magicCriticalRate>5</magicCriticalRate>
+  		<magicLevel>
+   			<value level="1">35</value>
+   			<value level="2">44</value>
+  		</magicLevel>
+  		<mpConsume>
+   			<value level="1">12</value>
+   			<value level="2">16</value>
+  		</mpConsume>
+  		<mpInitialConsume>
+   			<value level="1">3</value>
+   			<value level="2">4</value>
+  		</mpInitialConsume>
+  		<reuseDelay>2000</reuseDelay>
+    	<effects>
+   			<effect name="MpRegen">
+    			<amount>
+     				<value level="1">10</value>
+     				<value level="2">20</value>
+    			</amount>
+    			<mode>PER</mode>
+   			</effect>
+   			<effect name="MagicalAttack">
+    			<amount>
+     				<value level="1">10</value>
+     				<value level="2">15</value>
+    			</amount>
+    			<mode>PER</mode>
+   			</effect>
+   			<effect name="MagicalDefence">
+    			<amount>
+     				<value level="1">10</value>
+     				<value level="2">15</value>
+    			</amount>
+    			<mode>PER</mode>
+   			</effect>
+   			<effect name="MagicalAttackSpeed">
+    			<amount>
+     				<value level="1">5</value>
+     				<value level="2">10</value>
+    			</amount>
+    			<mode>PER</mode>
+   			</effect>
+   			<effect name="ResistAbnormalByCategory">
+    			<amount>-10</amount>
+    			<slot>DEBUFF</slot>
+   			</effect>
+   			<effect name="MagicMpCost">
+    			<amount>
+     				<value level="1">-3</value>
+     				<value level="2">-5</value>
+    			</amount>
+    			<mode>PER</mode>
+    			<magicType>1</magicType>
+   			</effect>
+   			<effect name="MagicMpCost">
+    			<amount>
+     				<value level="1">-3</value>
+     				<value level="2">-5</value>
+    			</amount>
+    			<mode>PER</mode>
+    			<magicType>0</magicType>
+   			</effect>
+   			<effect name="MagicMpCost">
+    			<amount>
+     				<value level="1">-3</value>
+     				<value level="2">-5</value>
+    			</amount>
+    			<mode>PER</mode>
+    			<magicType>3</magicType>
+   			</effect>
+  		</effects>
+ 	</skill>
 	<skill id="1356" toLevel="2" name="Prophecy of Fire">
 		<!-- Level 1: For 10 min., party member's Max HP +10%, HP Recovery Bonus +10%, P. Atk. +10%, P. Def. +10%, Atk. Spd. +5%, Debuff Resistance +10%. Consumes 10 Spirit Ore. -->
 		<!-- Level 2: For 10 min., party member's Max HP +15%, HP Recovery Bonus +20%, P. Atk. +15%, P. Def. +15%, Atk. Spd. +10%, Debuff Resistance +10%. Consumes 20 Spirit Ore. -->
