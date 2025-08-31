@@ -5,9 +5,9 @@
 		<sex>MALE</sex>
 		<acquire exp="993837" sp="14907" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="17090.383556667" hpRegen="8.5" mp="2963.865" mpRegen="3" />
+			<vitals hp="8545.383556667" hpRegen="8.5" mp="2963.865" mpRegen="3" />
 			<attack physical="8888.731301" magical="781.7030834" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="357.86723" magical="261.87171" />
+			<defence physical="464.86723" magical="339.87171" />
 			<speed>
 				<walk ground="45" />
 				<run ground="145" />
