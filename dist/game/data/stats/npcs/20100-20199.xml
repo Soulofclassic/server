@@ -972,7 +972,6 @@
 				<item id="1873" min="1" max="1" chance="1.914" /> <!-- Silver Nugget -->
 				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
 				<item id="2139" min="1" max="1" chance="0.75" /> <!-- Recipe: Steel Mold -->
-				<item id="5158" min="1" max="1" chance="0.3" /> <!-- Recipe: Spiritshot Compressed Package (D-grade) -->
 			</drop>
 			<spoil>
 				<item id="2139" min="1" max="1" chance="10.49" /> <!-- Recipe: Steel Mold -->
@@ -1161,7 +1160,6 @@
 				<item id="1873" min="1" max="1" chance="1.135" /> <!-- Silver Nugget -->
 				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
 				<item id="2014" min="1" max="1" chance="0.3" /> <!-- Iron Hammer Head -->
-				<item id="3032" min="1" max="1" chance="0.3" /> <!-- Recipe: Spiritshot (D-grade) -->
 			</drop>
 			<spoil>
 				<item id="1866" min="1" max="1" chance="39.73" /> <!-- Suede -->
@@ -3351,7 +3349,6 @@
 			<spoil>
 				<item id="1984" min="1" max="1" chance="3.571" /> <!-- Theca Leather Armor Pattern -->
 				<item id="2101" min="1" max="1" chance="0.75" /> <!-- Inferno Staff Head -->
-				<item id="3034" min="1" max="1" chance="0.3" /> <!-- Recipe: Spiritshot (B-grade) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -4588,17 +4585,28 @@
 		<acquire exp="1377" sp="41" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="543.437297370415" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="79.24022" />
 			<speed>
 				<walk ground="60" />
 				<run ground="60" />
 			</speed>
 			<hitTime>560</hitTime>
-			<attack physical="74.99121" magical="51.20928" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="108.28767" magical="79.24022" />
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="7" /> <!-- Spirits -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!-- Average P. Atk. -->
+			<skill id="4411" level="11" /> <!-- Average M. Atk. -->
+			<skill id="4412" level="11" /> <!-- Average P. Def. -->
+			<skill id="4413" level="11" /> <!-- Average M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4151" level="2" /> <!-- windstrike -->
+			<skill id="4160" level="2" /> <!-- aura burn -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
@@ -4630,21 +4638,26 @@
 		<acquire exp="1544" sp="46" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="604.883087573501" hpRegen="3.5" mp="315.12" mpRegen="1.5" />
+			<attack physical="86.42002" magical="59.01367" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="115.00598" magical="84.15638" />
 			<speed>
 				<walk ground="50" />
 				<run ground="90" />
 			</speed>
 			<hitTime>370</hitTime>
-			<attack physical="95.062022" magical="59.01367" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="104.5508909" magical="84.15638" />
+			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
 			<skill id="4416" level="1" /> <!-- Undead -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
 			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
 			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
 			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
 			<skill id="4275" level="2" /> <!-- Holy Attack Vulnerability -->
 			<skill id="4278" level="1" /> <!-- Dark Attack -->
 			<skill id="4274" level="1" /> <!-- Blunt Weapon Vulnerability -->
@@ -4698,7 +4711,7 @@
 		<acquire exp="1612" sp="48" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
 			<vitals hp="637.219604833719" hpRegen="3.5" mp="329.4" mpRegen="1.5" />
-			<attack physical="92.64226" magical="63.26266" random="30" critical="4.75" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<attack physical="92.64226" magical="63.26266" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="118.46427" magical="86.68702" />
 			<speed>
 				<walk ground="35" />
@@ -4707,14 +4720,18 @@
 			<hitTime>390</hitTime>
 			<abnormalResist physical="10" magical="10" />
 		</stats>
-		<status undying="false" canBeSown="true" />
+		<status attackable="true" />
 		<skillList>
-			<skill id="4073" level="3" /> <!-- Stun -->
-			<skill id="4416" level="3" /> <!-- Beasts -->
+			<skill id="4416" level="3" /> <!-- Beast -->
+			<skill id="4408" level="1" /> <!-- HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!-- MP Increase (1x) -->
 			<skill id="4410" level="10" /> <!-- Slightly Weak P. Atk. -->
 			<skill id="4411" level="10" /> <!-- Slightly Weak M. Atk. -->
 			<skill id="4412" level="12" /> <!-- Slightly Strong P. Def. -->
 			<skill id="4413" level="12" /> <!-- Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!-- Standard Type -->
+			<skill id="4415" level="3" /> <!-- One-handed Sword -->
+			<skill id="4073" level="3" /> <!-- Stun -->
 		</skillList>
 		<shots shotChance="30" spiritChance="30" />
 		<exCrtEffect>false</exCrtEffect>
