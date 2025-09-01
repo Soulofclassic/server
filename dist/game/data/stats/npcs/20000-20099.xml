@@ -3360,7 +3360,6 @@
 			<spoil>
 				<item id="2151" min="1" max="1" chance="11.37" /> <!-- Recipe: Necklace of Devotion -->
 				<item id="1926" min="1" max="1" chance="4.177" /> <!-- Piece Bone Breastplate Fragment -->
-				<item id="5163" min="1" max="1" chance="1.599" /> <!-- Recipe: Blessed Spiritshot Compressed Package (D-grade) -->
 			</spoil>
 		</dropLists>
 	</npc>
@@ -3635,7 +3634,6 @@
 				<item id="1869" min="1" max="1" chance="2.543" /> <!-- Iron Ore -->
 				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
 				<item id="2014" min="1" max="1" chance="0.3" /> <!-- Iron Hammer Head -->
-				<item id="5268" min="1" max="1" chance="0.3" /> <!-- Recipe: Greater Soulshot Compressed Package (D-grade) -->
 			</drop>
 			<spoil>
 				<item id="1869" min="1" max="1" chance="57.68" /> <!-- Iron Ore -->
@@ -4022,7 +4020,6 @@
 				<item id="1867" min="1" max="1" chance="5.432" /> <!-- Animal Skin -->
 				<item id="1866" min="1" max="1" chance="2.755" /> <!-- Suede -->
 				<item id="956" min="1" max="1" chance="0.3" /> <!-- Scroll: Enchant Armor (D-grade) -->
-				<item id="5273" min="1" max="1" chance="0.3" /> <!-- Recipe: Greater Spiritshot Compressed Package (D-grade) -->
 				<item id="2261" min="1" max="1" chance="0.075" /> <!-- Recipe: Conjuror's Staff -->
 			</drop>
 			<spoil>

@@ -834,7 +834,6 @@
 				<item id="1801" min="1" max="1" chance="1.843" /> <!-- Recipe: Piece Bone Gaiters -->
 				<item id="1873" min="1" max="1" chance="1.498" /> <!-- Silver Nugget -->
 				<item id="1876" min="1" max="1" chance="0.75" /> <!-- Mithril Ore -->
-				<item id="5273" min="1" max="1" chance="0.3" /> <!-- Recipe: Greater Spiritshot Compressed Package (D-grade) -->
 			</drop>
 			<spoil>
 				<item id="1870" min="1" max="1" chance="41.74" /> <!-- Coal -->
@@ -1603,8 +1602,6 @@
 				<item id="4065" min="1" max="1" chance="4.278" /> <!-- Avadon Gaiter Material -->
 				<item id="4056" min="1" max="1" chance="2.853" /> <!-- Zubei's Breastplate Part -->
 				<item id="4064" min="1" max="1" chance="2.829" /> <!-- Avadon Breastplate Part -->
-				<item id="5270" min="1" max="1" chance="0.3" /> <!-- Recipe: Greater Soulshot Compressed Package (B-grade) -->
-				<item id="5275" min="1" max="1" chance="0.3" /> <!-- Recipe: Greater Spiritshot Compressed Package (B-grade) -->
 			</drop>
 			<spoil>
 				<item id="1871" min="1" max="21" chance="88.27" /> <!-- Charcoal -->
@@ -2475,7 +2472,6 @@
 				<item id="1871" min="1" max="1" chance="1.9" /> <!-- Charcoal -->
 				<item id="1927" min="1" max="1" chance="1.557" /> <!-- Durable Leather Shirt Pattern -->
 				<item id="1876" min="1" max="1" chance="0.3" /> <!-- Mithril Ore -->
-				<item id="5268" min="1" max="1" chance="0.075" /> <!-- Recipe: Greater Soulshot Compressed Package (D-grade) -->
 				<item id="2256" min="1" max="1" chance="0.03" /> <!-- Recipe: Assassin Knife -->
 				<item id="4602" min="1" max="1" chance="0.003" /> <!-- Greater Dye of STR <STR + 3 DEX - 3> - 2nd Class Transfer -->
 				<item id="4606" min="1" max="1" chance="0.003" /> <!-- Greater Dye of DEX <Dex + 3 CON - 3> - 2nd Class Transfer -->
@@ -2950,7 +2946,6 @@
 				<item id="1866" min="1" max="1" chance="2.852" /> <!-- Suede -->
 				<item id="1884" min="1" max="1" chance="2.526" /> <!-- Cord -->
 				<item id="1898" min="1" max="1" chance="2.185" /> <!-- Blue Diamond Necklace Gem -->
-				<item id="5268" min="1" max="1" chance="0.3" /> <!-- Recipe: Greater Soulshot Compressed Package (D-grade) -->
 			</drop>
 			<spoil>
 				<item id="1865" min="1" max="1" chance="58.65" /> <!-- Varnish -->
