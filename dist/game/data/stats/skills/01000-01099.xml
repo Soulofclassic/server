@@ -3142,11 +3142,6 @@
 			<value level="2">10</value>
 		</mpInitialConsume>
 		<reuseDelay>2000</reuseDelay>
-		<conditions>
-			<condition name="TargetMyParty">
-				<includeMe>true</includeMe>
-			</condition>
-		</conditions>
 		<effects>
 			<effect name="PhysicalAttack">
 				<amount>
