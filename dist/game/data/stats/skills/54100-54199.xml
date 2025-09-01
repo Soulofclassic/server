@@ -225,13 +225,13 @@
 		<specialLevel>-1</specialLevel>
 		<effects>
 			<effect name="CriticalDamage">
-				<amount>35</amount>
+				<amount>25</amount>
 				<mode>PER</mode>
 			</effect>
 		</effects>
 	</skill>
 	<skill id="54111" toLevel="1" name="Sayha's Empower">
-		<!-- For 20 min., M. Atk. +300. -->
+		<!-- For 20 min., M. Atk. +55%. -->
 		<icon>icon.skill1059</icon>
 		<operateType>A2</operateType>
 		<stayAfterDeath>true</stayAfterDeath>
@@ -248,7 +248,7 @@
 		<specialLevel>-1</specialLevel>
 		<effects>
 			<effect name="MagicalAttack">
-				<amount>75</amount>
+				<amount>55</amount>
 				<mode>PER</mode>
 			</effect>
 		</effects>
