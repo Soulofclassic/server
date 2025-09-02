@@ -820,7 +820,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="3128" toLevel="10" name="Item Skill: Blessed Soul">
+	<skill id="3128" toLevel="1" name="Item Skill: Blessed Soul">
 		<!-- Level 1: Active: Max MP +35% temporarily. -->
 		<icon>icon.skill3123</icon>
 		<operateType>A2</operateType>

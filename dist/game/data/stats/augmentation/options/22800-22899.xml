@@ -6,15 +6,15 @@
 	</option>
 	<option id="22884" name="o_s_82_2s_2">
 		<!-- Active: Increases thorax size temporarily. -->
-		<active_skill id="3143" level="10" /> <!-- Item Skill: Eva's Kiss -->
+		<active_skill id="3143" level="1" /> <!-- Item Skill: Eva's Kiss -->
 	</option>
 	<option id="22885" name="o_s_82_2s_3">
 		<!-- Active: Increases the height from which you can jump without sustaining damage temporarily. -->
-		<active_skill id="3144" level="10" /> <!-- Item Skill: Acrobatics -->
+		<active_skill id="3144" level="1" /> <!-- Item Skill: Acrobatics -->
 	</option>
 	<option id="22886" name="o_s_82_2s_4">
 		<!-- Active: Temporarily increases Resistance to damage from falling. -->
-		<active_skill id="3145" level="10" /> <!-- Item Skill: Iron Body -->
+		<active_skill id="3145" level="1" /> <!-- Item Skill: Iron Body -->
 	</option>
 	<option id="22887" name="o_s_82_2s_5">
 		<!-- Active: Ignites a Firecracker. -->
@@ -30,42 +30,42 @@
 	</option>
 	<option id="22890" name="o_s_82_2s_8">
 		<!-- In case of success: Momentarily decreases the target's urge to attack. -->
-		<attack_skill id="3081" level="10" chance="1.0" /> <!-- Item Skill: Charm (phys.) -->
+		<attack_skill id="3081" level="1" chance="1.0" /> <!-- Item Skill: Charm (phys.) -->
 	</option>
 	<option id="22891" name="o_s_82_2s_9">
 		<!-- In case of success: Momentarily provokes the target to attack. -->
-		<attack_skill id="3080" level="10" chance="1.0" /> <!-- Item Skill: Aggression -->
+		<attack_skill id="3080" level="1" chance="1.0" /> <!-- Item Skill: Aggression -->
 	</option>
 	<option id="22892" name="o_s_82_2s_10">
 		<!-- In case of success: Momentarily decreases the target's Speed when attacking. -->
-		<attack_skill id="3083" level="10" chance="1.0" /> <!-- Item Skill: Slow (phys.) -->
+		<attack_skill id="3083" level="1" chance="1.0" /> <!-- Item Skill: Slow (phys.) -->
 	</option>
 	<option id="22893" name="o_s_82_2s_11">
 		<!-- Chance: Temporarily reduces your target's urge to attack during a critical attack. -->
-		<critical_skill id="3109" level="10" chance="5.0" /> <!-- Item Skill: Aggression Down -->
+		<critical_skill id="3109" level="1" chance="5.0" /> <!-- Item Skill: Aggression Down -->
 	</option>
 	<option id="22894" name="o_s_82_2s_12">
 		<!-- Chance: Temporarily increases your target's urge to attack during a critical attack. -->
-		<critical_skill id="3108" level="10" chance="5.0" /> <!-- Item Skill: Aggression Up -->
+		<critical_skill id="3108" level="1" chance="5.0" /> <!-- Item Skill: Aggression Up -->
 	</option>
 	<option id="22895" name="o_s_82_2s_13">
 		<!-- Chance: Instantly decreases the target's Speed during a critical attack. -->
-		<critical_skill id="3111" level="10" chance="5.0" /> <!-- Item Skill: Slow (Critical) -->
+		<critical_skill id="3111" level="1" chance="5.0" /> <!-- Item Skill: Slow (Critical) -->
 	</option>
 	<option id="22896" name="o_s_82_2s_14">
 		<!-- In case of success: Momentarily decreases the target's Speed when using magic. -->
-		<magic_skill id="3096" level="10" chance="2.0" /> <!-- Item Skill: Slow (magic) -->
+		<magic_skill id="3096" level="1" chance="2.0" /> <!-- Item Skill: Slow (magic) -->
 	</option>
 	<option id="22897" name="o_s_82_2s_15">
 		<!-- Item Skill: Increases thorax size. -->
-		<passive_skill id="3252" level="10" /> <!-- Item Skill: Eva's Kiss -->
+		<passive_skill id="3252" level="1" /> <!-- Item Skill: Eva's Kiss -->
 	</option>
 	<option id="22898" name="o_s_82_2s_16">
 		<!-- Item Skill: Increases the height from which you can jump without sustaining damage. -->
-		<passive_skill id="3253" level="10" /> <!-- Item Skill: Acrobatics -->
+		<passive_skill id="3253" level="1" /> <!-- Item Skill: Acrobatics -->
 	</option>
 	<option id="22899" name="o_s_82_2s_17">
 		<!-- Item Skill: Increases Resistance to damage from falling. -->
-		<passive_skill id="3254" level="10" /> <!-- Item Skill: Iron Body -->
+		<passive_skill id="3254" level="1" /> <!-- Item Skill: Iron Body -->
 	</option>
 </list>

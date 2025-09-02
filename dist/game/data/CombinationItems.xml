@@ -400,31 +400,31 @@
 		<reward id="29923" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 6 -->
 		<reward id="29918" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 1 -->
 	</item>
-	<item one="29923" two="29918" chance="1515"> <!-- Iss' Rune Lv. 6 / Iss' Rune Lv. 1 -->
+	<item one="29923" two="29918" chance="15"> <!-- Iss' Rune Lv. 6 / Iss' Rune Lv. 1 -->
 		<reward id="29924" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 7 -->
 		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29924" two="29918" chance="1515"> <!-- Iss' Rune Lv. 7 / Iss' Rune Lv. 1 -->
+	<item one="29924" two="29918" chance="15"> <!-- Iss' Rune Lv. 7 / Iss' Rune Lv. 1 -->
 		<reward id="29925" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 8 -->
 		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29925" two="29918" chance="1515"> <!-- Iss' Rune Lv. 8 / Iss' Rune Lv. 1 -->
+	<item one="29925" two="29918" chance="15"> <!-- Iss' Rune Lv. 8 / Iss' Rune Lv. 1 -->
 		<reward id="29926" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 9 -->
 		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29926" two="29918" chance="1515"> <!-- Iss' Rune Lv. 9 / Iss' Rune Lv. 1 -->
+	<item one="29926" two="29918" chance="15"> <!-- Iss' Rune Lv. 9 / Iss' Rune Lv. 1 -->
 		<reward id="29927" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 10 -->
 		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29927" two="29918" chance="1515"> <!-- Iss' Rune Lv. 10 / Iss' Rune Lv. 1 -->
+	<item one="29927" two="29918" chance="15"> <!-- Iss' Rune Lv. 10 / Iss' Rune Lv. 1 -->
 		<reward id="29928" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 11 -->
 		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29928" two="29918" chance="1515"> <!-- Iss' Rune Lv. 11 / Iss' Rune Lv. 1 -->
+	<item one="29928" two="29918" chance="15"> <!-- Iss' Rune Lv. 11 / Iss' Rune Lv. 1 -->
 		<reward id="29929" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 12 -->
 		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
-	<item one="29929" two="29918" chance="1515"> <!-- Iss' Rune Lv. 12 / Iss' Rune Lv. 1 -->
+	<item one="29929" two="29918" chance="15"> <!-- Iss' Rune Lv. 12 / Iss' Rune Lv. 1 -->
 		<reward id="29930" count="1" type="ON_SUCCESS" /> <!-- Iss' Rune Lv. 13 -->
 		<reward id="29923" count="1" type="ON_FAILURE" /> <!-- Iss' Rune Lv. 6 -->
 	</item>
