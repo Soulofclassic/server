@@ -674,53 +674,61 @@
 		</effects>
 	</skill>
 	<skill id="1542" toLevel="2" name="Counter Critical">
-		<!-- Level 1: For 20 min., Received P. Critical Damage +30%. When the target receives an attack above a certain amount of damage, for 8 sec., P. Critical Damage of standard melee attack +100%. -->
-		<!-- Level 2: For 20 min., Received P. Critical Damage +40%. When the target receives an attack above a certain amount of damage, for 8 sec., P. Critical Damage of standard melee attack +100%. -->
-		<icon>icon.skill1542</icon>
-		<operateType>A2</operateType>
-		<targetType>TARGET</targetType>
-		<abnormalLevel>1</abnormalLevel>
-		<abnormalTime>1200</abnormalTime>
-		<abnormalType>COUNTER_CRITICAL</abnormalType>
-		<targetType>SELF</targetType>
-		<affectScope>PARTY</affectScope>
-		<affectObject>FRIEND</affectObject>
-		<basicProperty>NONE</basicProperty>
-		<castRange>400</castRange>
-		<effectPoint>679</effectPoint>
-		<effectRange>900</effectRange>
-		<hitTime>4000</hitTime>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">80</value>
-			<value level="2">84</value>
-		</magicLevel>
-		<mpConsume>
-			<value level="1">73</value>
-			<value level="2">81</value>
-		</mpConsume>
-		<mpInitialConsume>15</mpInitialConsume>
-		<reuseDelay>2000</reuseDelay>
-		<effects>
-			<effect name="TriggerSkillByDamageReceived">
-				<!-- Counter Critical -->
-				<attackerType>Creature</attackerType>
-				<chance>80</chance>
-				<targetType>SELF</targetType>
-				<minDamage>300</minDamage>
-				<skillId>6059</skillId> <!-- Counter Critical -->
-				<skillLevel>1</skillLevel>
-			</effect>
-			<effect name="DefenceCriticalDamage">
-				<amount>
-					<value level="1">30</value>
-					<value level="2">40</value>
-				</amount>
-				<mode>PER</mode>
-			</effect>
-		</effects>
-	</skill>
+  <!-- Level 1: For 20 min., Received P. Critical Damage +30%. When the target receives an attack above a certain amount of damage, for 8 sec., P. Critical Damage of standard melee attack +100%. -->
+  <!-- Level 2: For 20 min., Received P. Critical Damage +40%. When the target receives an attack above a certain amount of damage, for 8 sec., P. Critical Damage of standard melee attack +100%. -->
+  <icon>icon.skill1542</icon>
+  <operateType>A2</operateType>
+  <targetType>TARGET</targetType>
+  <abnormalLevel>
+   <value level="1">1</value>
+   <value level="2">2</value>
+   <value level="3">3</value>
+  </abnormalLevel>   
+  <abnormalTime>600</abnormalTime>
+  <abnormalType>COUNTER_CRITICAL</abnormalType>
+  <targetType>SELF</targetType>
+  <affectScope>PARTY</affectScope>
+  <affectObject>FRIEND</affectObject>
+  <basicProperty>NONE</basicProperty>
+  <castRange>400</castRange>
+  <effectPoint>
+   <value level="1">331</value>
+   <value level="2">457</value>
+   <value level="3">532</value>
+  </effectPoint>   
+  <affectRange>1000</affectRange>
+  <hitTime>4000</hitTime>
+  <isMagic>1</isMagic> <!-- Magic Skill -->
+  <magicCriticalRate>5</magicCriticalRate>
+  <magicLevel>
+   <value level="1">80</value>
+   <value level="2">84</value>
+  </magicLevel>
+  <mpConsume>
+   <value level="1">73</value>
+   <value level="2">81</value>
+  </mpConsume>
+  <mpInitialConsume>15</mpInitialConsume>
+  <reuseDelay>2000</reuseDelay>
+  <effects>
+   <effect name="TriggerSkillByDamageReceived">
+    <!-- Counter Critical -->
+    <attackerType>Creature</attackerType>
+    <chance>80</chance>
+    <targetType>SELF</targetType>
+    <minDamage>300</minDamage>
+    <skillId>6059</skillId> <!-- Counter Critical -->
+    <skillLevel>1</skillLevel>
+   </effect>
+   <effect name="DefenceCriticalDamage">
+    <amount>
+     <value level="1">30</value>
+     <value level="2">40</value>
+    </amount>
+    <mode>PER</mode>
+   </effect>
+  </effects>
+ </skill>
 	<skill id="1543" toLevel="1" name="Great Fury">
 		<!-- With a certain probability, Atk. Spd. +30%, party members are seized with Great Fury after the character's attack. -->
 		<icon>icon.skill1543</icon>

@@ -1909,59 +1909,59 @@
 		</effects>
 	</skill>
 	<skill id="1032" toLevel="3" name="Invigor">
-		<!-- Level 1: For 20 min., Bleed Resistance +30%. -->
-		<!-- Level 2: For 20 min., Bleed Resistance +40%. -->
-		<!-- Level 3: For 20 min., Bleed Resistance +50%. -->
-		<icon>icon.skill1032</icon>
-		<operateType>A2</operateType>
-		<targetType>TARGET</targetType>
-		<abnormalLevel>
-			<value level="1">1</value>
-			<value level="2">2</value>
-			<value level="3">3</value>
-		</abnormalLevel>
-		<abnormalTime>1200</abnormalTime>
-		<abnormalType>RESIST_BLEEDING</abnormalType>
-		<targetType>SELF</targetType>
-		<affectScope>PARTY</affectScope>
-		<affectObject>FRIEND</affectObject>
-		<basicProperty>NONE</basicProperty>
-		<castRange>400</castRange>
-		<effectPoint>
-			<value level="1">379</value>
-			<value level="2">457</value>
-			<value level="3">532</value>
-		</effectPoint>
-		<effectRange>900</effectRange>
-		<hitTime>4000</hitTime>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">40</value>
-			<value level="2">48</value>
-			<value level="3">56</value>
-		</magicLevel>
-		<mpConsume>
-			<value level="1">28</value>
-			<value level="2">35</value>
-			<value level="3">41</value>
-		</mpConsume>
-		<mpInitialConsume>
-			<value level="1">7</value>
-			<value level="2">9</value>
-			<value level="3">11</value>
-		</mpInitialConsume>
-		<reuseDelay>2000</reuseDelay>
-		<effects>
-			<effect name="DefenceTrait">
-				<BLEED>
-					<value level="1">30</value>
-					<value level="2">40</value>
-					<value level="3">50</value>
-				</BLEED>
-			</effect>
-		</effects>
-	</skill>
+ <!-- Level 1: For 20 min., Bleed Resistance +30%. -->
+  <!-- Level 2: For 20 min., Bleed Resistance +40%. -->
+  <!-- Level 3: For 20 min., Bleed Resistance +50%. -->
+  <icon>icon.skill1032</icon>
+  <operateType>A2</operateType>
+  <targetType>TARGET</targetType>
+  <abnormalLevel>
+   <value level="1">1</value>
+   <value level="2">2</value>
+   <value level="3">3</value>
+   </abnormalLevel>
+  <abnormalTime>1200</abnormalTime>
+  <abnormalType>RESIST_BLEEDING</abnormalType>
+  <targetType>SELF</targetType>
+  <affectScope>PARTY</affectScope>
+  <affectObject>FRIEND</affectObject>
+  <basicProperty>NONE</basicProperty>
+  <castRange>400</castRange>
+  <effectPoint>
+   <value level="1">331</value>
+   <value level="2">457</value>
+   <value level="3">532</value>
+   </effectPoint>
+  <affectRange>1000</affectRange>
+  <hitTime>4000</hitTime>
+  <isMagic>1</isMagic> <!-- Magic Skill -->
+  <magicCriticalRate>5</magicCriticalRate>
+  <magicLevel>
+   <value level="1">40</value>
+   <value level="2">48</value>
+   <value level="3">56</value>
+  </magicLevel>
+  <mpConsume>
+   <value level="1">28</value>
+   <value level="2">35</value>
+   <value level="3">41</value>
+  </mpConsume>
+  <mpInitialConsume>
+   <value level="1">7</value>
+   <value level="2">9</value>
+   <value level="3">11</value>
+  </mpInitialConsume>
+  <reuseDelay>2000</reuseDelay>
+  <effects>
+   <effect name="DefenceTrait">
+    <BLEED>
+     <value level="1">30</value>
+     <value level="2">40</value>
+     <value level="3">50</value>
+    </BLEED>
+   </effect>
+  </effects>
+ </skill>
 	<skill id="1033" toLevel="3" name="Poison Resistance">
 		<!-- Level 1: For 20 min., Poison Resistance +30%. -->
 		<!-- Level 2: For 20 min., Poison Resistance +40%. -->
@@ -2441,81 +2441,81 @@
 		</effects>
 	</skill>
 	<skill id="1044" toLevel="6" name="Regeneration">
-		<!-- Level 1: For 20 min., HP Recovery Bonus +10%. -->
-		<!-- Level 2: For 20 min., HP Recovery Bonus +15%. -->
-		<!-- Level 3: For 20 min., HP Recovery Bonus +20%. -->
-		<!-- Level 4: For 20 min., HP Recovery Bonus +10%. -->
-		<!-- Level 5: For 20 min., HP Recovery Bonus +15%. -->
-		<!-- Level 6: For 20 min., HP Recovery Bonus +20%. -->
-		<icon>icon.skill1044</icon>
-		<operateType>A2</operateType>
-		<targetType>TARGET</targetType>
-		<abnormalLevel>
-			<value level="1">1</value>
-			<value level="2">2</value>
-			<value level="3">3</value>
-			<value level="4">4</value>
-			<value level="5">5</value>
-			<value level="6">6</value>
-		</abnormalLevel>
-		<abnormalTime>1200</abnormalTime>
-		<abnormalType>HP_REGEN_UP</abnormalType>
-		<targetType>SELF</targetType>
-		<affectScope>PARTY</affectScope>
-		<affectObject>FRIEND</affectObject>
-		<basicProperty>NONE</basicProperty>
-		<castRange>400</castRange>
-		<effectPoint>
-			<value level="1">331</value>
-			<value level="2">457</value>
-			<value level="3">532</value>
-			<value level="4">331</value>
-			<value level="5">457</value>
-			<value level="6">532</value>
-		</effectPoint>
-		<effectRange>900</effectRange>
-		<hitTime>4000</hitTime>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">35</value>
-			<value level="2">48</value>
-			<value level="3">56</value>
-			<value level="4">57</value>
-			<value level="5">58</value>
-			<value level="6">59</value>
-		</magicLevel>
-		<mpConsume>
-			<value level="1">24</value>
-			<value level="2">35</value>
-			<value level="3">41</value>
-			<value level="4">30</value>
-			<value level="5">44</value>
-			<value level="6">52</value>
-		</mpConsume>
-		<mpInitialConsume>
-			<value level="1">6</value>
-			<value level="2">9</value>
-			<value level="3">11</value>
-			<value level="4">6</value>
-			<value level="5">9</value>
-			<value level="6">11</value>
-		</mpInitialConsume>
-		<reuseDelay>2000</reuseDelay>
-		<effects>
-			<effect name="HpRegen">
-				<amount>
-					<value level="1">10</value>
-					<value level="2">15</value>
-					<value level="3">20</value>
-					<value level="4">10</value>
-					<value level="5">15</value>
-					<value level="6">20</value>
-				</amount>
-				<mode>PER</mode>
-			</effect>
-		</effects>
-	</skill>
+  <!-- Level 1: For 20 min., HP Recovery Bonus +10%. -->
+  <!-- Level 2: For 20 min., HP Recovery Bonus +15%. -->
+  <!-- Level 3: For 20 min., HP Recovery Bonus +20%. -->
+  <!-- Level 4: For 20 min., HP Recovery Bonus +10%. -->
+  <!-- Level 5: For 20 min., HP Recovery Bonus +15%. -->
+  <!-- Level 6: For 20 min., HP Recovery Bonus +20%. -->
+  <icon>icon.skill1044</icon>
+  <operateType>A2</operateType>
+  <targetType>TARGET</targetType>
+  <abnormalLevel>
+   <value level="1">1</value>
+   <value level="2">2</value>
+   <value level="3">3</value>
+   <value level="4">4</value>
+   <value level="5">5</value>
+   <value level="6">6</value>
+  </abnormalLevel>
+  <abnormalTime>1200</abnormalTime>
+  <abnormalType>HP_REGEN_UP</abnormalType>
+  <targetType>SELF</targetType>
+  <affectScope>PARTY</affectScope>
+  <affectObject>FRIEND</affectObject>
+  <basicProperty>NONE</basicProperty>
+  <castRange>400</castRange>
+  <effectPoint>
+   <value level="1">331</value>
+   <value level="2">457</value>
+   <value level="3">532</value>
+   <value level="4">331</value>
+   <value level="5">457</value>
+   <value level="6">532</value>
+  </effectPoint>
+  <affectRange>1000</affectRange>
+  <hitTime>4000</hitTime>
+  <isMagic>1</isMagic> <!-- Magic Skill -->
+  <magicCriticalRate>5</magicCriticalRate>
+  <magicLevel>
+   <value level="1">35</value>
+   <value level="2">48</value>
+   <value level="3">56</value>
+   <value level="4">57</value>
+   <value level="5">58</value>
+   <value level="6">59</value>
+  </magicLevel>
+  <mpConsume>
+   <value level="1">24</value>
+   <value level="2">35</value>
+   <value level="3">41</value>
+   <value level="4">30</value>
+   <value level="5">44</value>
+   <value level="6">52</value>
+  </mpConsume>
+  <mpInitialConsume>
+   <value level="1">6</value>
+   <value level="2">9</value>
+   <value level="3">11</value>
+   <value level="4">6</value>
+   <value level="5">9</value>
+   <value level="6">11</value>
+  </mpInitialConsume>
+  <reuseDelay>2000</reuseDelay>
+  <effects>
+   <effect name="HpRegen">
+    <amount>
+     <value level="1">10</value>
+     <value level="2">15</value>
+     <value level="3">20</value>
+     <value level="4">10</value>
+     <value level="5">15</value>
+     <value level="6">20</value>
+    </amount>
+    <mode>PER</mode>
+   </effect>
+  </effects>
+ </skill>
 	<skill id="1045" toLevel="12" name="Blessed Body">
   <!-- Level 1: For 20 min., Max HP +10%. -->
   <!-- Level 2: For 20 min., Max HP +15%. -->
@@ -4181,67 +4181,67 @@
   </effects>
  </skill>
 	<skill id="1086" toLevel="4" name="Haste">
-		<!-- Level 1: For 20 min., Atk. Spd. +15%. -->
-		<!-- Level 2: For 20 min., Atk. Spd. +33%. -->
-		<!-- Level 3: For 20 min., Atk. Spd. +15%. -->
-		<!-- Level 4: For 20 min., Atk. Spd. +33%. -->
-		<icon>icon.skill1086</icon>
-		<operateType>A2</operateType>
-		<targetType>TARGET</targetType>
-		<abnormalLevel>
-			<value level="1">1</value>
-			<value level="2">2</value>
-			<value level="3">3</value>
-			<value level="4">4</value>
-		</abnormalLevel>
-		<abnormalTime>1200</abnormalTime>
-		<abnormalType>ATTACK_TIME_DOWN</abnormalType>
-		<targetType>SELF</targetType>
-		<affectScope>PARTY</affectScope>
-		<affectObject>FRIEND</affectObject>
-		<basicProperty>NONE</basicProperty>
-		<castRange>400</castRange>
-		<effectPoint>
-			<value level="1">418</value>
-			<value level="2">495</value>
-			<value level="3">418</value>
-			<value level="4">495</value>
-		</effectPoint>
-		<effectRange>900</effectRange>
-		<hitTime>4000</hitTime>
-		<isMagic>1</isMagic> <!-- Magic Skill -->
-		<magicCriticalRate>5</magicCriticalRate>
-		<magicLevel>
-			<value level="1">44</value>
-			<value level="2">52</value>
-			<value level="3">53</value>
-			<value level="4">54</value>
-		</magicLevel>
-		<mpConsume>
-			<value level="1">31</value>
-			<value level="2">38</value>
-			<value level="3">39</value>
-			<value level="4">48</value>
-		</mpConsume>
-		<mpInitialConsume>
-			<value level="1">8</value>
-			<value level="2">10</value>
-			<value level="3">8</value>
-			<value level="4">10</value>
-		</mpInitialConsume>
-		<reuseDelay>2000</reuseDelay>
-		<effects>
-			<effect name="PhysicalAttackSpeed">
-				<amount>
-					<value level="1">15</value>
-					<value level="2">33</value>
-					<value level="3">15</value>
-					<value level="4">33</value>
-				</amount>
-				<mode>PER</mode>
-			</effect>
-		</effects>
-	</skill>
+  <!-- Level 1: For 20 min., Atk. Spd. +15%. -->
+  <!-- Level 2: For 20 min., Atk. Spd. +33%. -->
+  <!-- Level 3: For 20 min., Atk. Spd. +15%. -->
+  <!-- Level 4: For 20 min., Atk. Spd. +33%. -->
+  <icon>icon.skill1086</icon>
+  <operateType>A2</operateType>
+  <targetType>TARGET</targetType>
+  <abnormalLevel>
+   <value level="1">1</value>
+   <value level="2">2</value>
+   <value level="3">3</value>
+   <value level="4">4</value>
+  </abnormalLevel>
+  <abnormalTime>1200</abnormalTime>
+  <abnormalType>ATTACK_TIME_DOWN</abnormalType>
+  <targetType>SELF</targetType>
+  <affectScope>PARTY</affectScope>
+  <affectObject>FRIEND</affectObject>
+  <basicProperty>NONE</basicProperty>
+  <castRange>400</castRange>
+  <effectPoint>
+   <value level="1">243</value>
+   <value level="2">418</value>
+   <value level="3">495</value>
+   <value level="4">243</value>
+  </effectPoint>
+  <affectRange>1000</affectRange>
+  <hitTime>4000</hitTime>
+  <isMagic>1</isMagic> <!-- Magic Skill -->
+  <magicCriticalRate>5</magicCriticalRate>
+  <magicLevel>
+   <value level="1">44</value>
+   <value level="2">52</value>
+   <value level="3">53</value>
+   <value level="4">54</value>
+  </magicLevel>
+  <mpConsume>
+   <value level="1">31</value>
+   <value level="2">38</value>
+   <value level="3">39</value>
+   <value level="4">48</value>
+  </mpConsume>
+  <mpInitialConsume>
+   <value level="1">8</value>
+   <value level="2">10</value>
+   <value level="3">8</value>
+   <value level="4">10</value>
+  </mpInitialConsume>
+  <reuseDelay>2000</reuseDelay>
+  <effects>
+   <effect name="PhysicalAttackSpeed">
+    <amount>
+     <value level="1">15</value>
+     <value level="2">33</value>
+     <value level="3">15</value>
+     <value level="4">33</value>
+    </amount>
+    <mode>PER</mode>
+   </effect>
+  </effects>
+ </skill>
 	<skill id="1087" toLevel="9" name="Agility">
 		<!-- Level 1: P. Evasion +2 for 20 min. -->
 		<!-- Level 2: P. Evasion +3 for 20 min. -->
