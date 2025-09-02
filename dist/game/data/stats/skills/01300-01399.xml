@@ -2952,7 +2952,7 @@
    <value level="1">1</value>
    <value level="2">2</value>
    <value level="3">3</value>
-  </abnormalLevel>   
+  </abnormalLevel>
   <abnormalTime>1200</abnormalTime>
   <abnormalType>PA_UP2</abnormalType>
   <targetType>SELF</targetType>
@@ -3161,7 +3161,7 @@
 			</effect>
 		</effects>
 	</skill>
-	<skill id="1392" toLevel="3" name="Holy Attack Resistance">
+<skill id="1392" toLevel="3" name="Holy Attack Resistance">
   <!-- Level 1: For 20 min., Holy Resistance +15. -->
   <!-- Level 2: For 20 min., Holy Resistance +23. -->
   <!-- Level 3: For 20 min., Holy Resistance +30. -->
@@ -3222,7 +3222,7 @@
    <value level="1">1</value>
    <value level="2">2</value>
    <value level="3">3</value>
-  </abnormalLevel>   
+  </abnormalLevel>
   <abnormalTime>1200</abnormalTime>
   <abnormalType>ARMOR_UNHOLY</abnormalType>
   <targetType>SELF</targetType>
