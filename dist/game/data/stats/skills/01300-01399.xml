@@ -2024,7 +2024,6 @@
    </effect>
   </effects>
  </skill>
- </skill>
 	<skill id="1357" toLevel="2" name="Prophecy of Wind">
   		<!-- Level 1: For 10 min., party member's P./ M. Accuracy +3, P./ M. Evasion +3, P./ M. Critical Rate +10%, P./ M. 		Critical Damage +15%, Speed +10%, Debuff Resistance +10%, damage to raid bosses +15%. Consumes 10 Spirit Ores. -->
   		<!-- Level 2: For 10 min., party member's P./ M. Accuracy +4, P./ M. Evasion +4, P./ M. Critical Rate +15%, P./ M. Critical Damage +20%, Speed +15%, Debuff Resistance +10%, damage to raid bosses +20%. Consumes 20 Spirit Ores. -->
