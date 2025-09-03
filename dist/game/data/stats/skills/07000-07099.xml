@@ -176,25 +176,25 @@
 		<reuseDelay>20000</reuseDelay>
 	</skill>
 	<skill id="7008" toLevel="1" name="Feather of Blessing">
-		<!-- Once used, the Feather of Blessing cannot be reused for another 5 min. -->
-		<icon>icon.blessed_feather_i00</icon>
-		<operateType>A2</operateType>
-		<targetType>TARGET</targetType>
-		<abnormalLevel>9</abnormalLevel>
-		<abnormalTime>300</abnormalTime>
-		<abnormalType>PUBLIC_SLOT</abnormalType>
-		<affectScope>SINGLE</affectScope>
-		<attributeType>FIRE</attributeType>
-		<attributeValue>20</attributeValue>
-		<basicProperty>NONE</basicProperty>
-		<hitCancelTime>0</hitCancelTime>
-		<isDebuff>true</isDebuff>
-		<isMagic>2</isMagic>
-		<magicCriticalRate>-5</magicCriticalRate>
-		<magicLevel>-2</magicLevel>
-		<specialLevel>-2</specialLevel>
-		<stayAfterDeath>true</stayAfterDeath>
-	</skill>
+    <!-- Once used, the Feather of Blessing cannot be reused for another 5 min. -->
+    <icon>icon.blessed_feather_i00</icon>
+    <magicLevel>-2</magicLevel>
+    <operateType>A2</operateType>
+    <abnormalType>PUBLIC_SLOT</abnormalType>
+    <basicProperty>NONE</basicProperty>
+    <magicCriticalRate>-5</magicCriticalRate>
+    <specialLevel>-2</specialLevel>
+    <hitCancelTime>0</hitCancelTime>
+    <abnormalLevel>9</abnormalLevel>
+    <abnormalTime>900</abnormalTime>
+    <attributeType>FIRE</attributeType>
+    <attributeValue>20</attributeValue>
+    <isDebuff>true</isDebuff>
+    <isMagic>2</isMagic>
+    <targetType>TARGET</targetType>
+    <affectScope>SINGLE</affectScope>
+    <stayAfterDeath>true</stayAfterDeath>
+  </skill>
 	<skill id="7009" toLevel="1" name="not_used">
 		<icon>icon.skill0000</icon>
 		<operateType>P</operateType>
