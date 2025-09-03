@@ -4,6 +4,7 @@
 		<!-- Item Skill: Temporarily increases your head size. -->
 		<active_skill id="3203" level="1" /> <!-- Item Skill: Mystery Skill -->
 	</option>
+<<<<<<< HEAD
 	<option id="16164" name="o_s_75_2s_2">
 		<!-- Active: Increases thorax size temporarily. -->
 		<active_skill id="3143" level="1" /> <!-- Item Skill: Eva's Kiss -->
@@ -20,6 +21,8 @@
 		<!-- Active: Ignites a Firecracker. -->
 		<active_skill id="3156" level="1" /> <!-- Item Skill: Firecracker -->
 	</option>
+=======
+>>>>>>> origin/main
 	<option id="16168" name="o_s_75_2s_6">
 		<!-- Active: Music plays for some time. -->
 		<active_skill id="3206" level="1" /> <!-- Item Skill: Music -->
@@ -28,6 +31,7 @@
 		<!-- Active: Ignites a Large Firecracker. -->
 		<active_skill id="3157" level="1" /> <!-- Item Skill: Large Firecracker -->
 	</option>
+<<<<<<< HEAD
 	<option id="16170" name="o_s_75_2s_8">
 		<!-- In case of success: Temporarily decreases the target's urge to attack. -->
 		<attack_skill id="3081" level="1" chance="1.0" /> <!-- Item Skill: Charm (phys.) -->
@@ -148,4 +152,6 @@
 		<!-- Active: Temporarily increases your Max HP. -->
 		<active_skill id="3124" level="1" /> <!-- Item Skill: Blessed Body -->
 	</option>
+=======
+>>>>>>> origin/main
 </list>

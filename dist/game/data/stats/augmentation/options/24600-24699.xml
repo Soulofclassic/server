@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
+<<<<<<< HEAD
 	<option id="24600" name="o_s_84_2r_63">
 		<!-- In case of success: Momentarily inflicts Poison on the target. -->
 		<attack_skill id="3091" level="1" chance="1.0" /> <!-- Item Skill: Poison (phys.) -->
@@ -200,6 +201,8 @@
 		<!-- Active: Temporarily blocks all of target's physical/magic skills. -->
 		<active_skill id="3198" level="1" /> <!-- Item Skill: Doom -->
 	</option>
+=======
+>>>>>>> origin/main
 	<option id="24650" name="o_s_84_2u_6">
 		<!-- Active: Teleports the caster to a village. Cannot work in a specially designated place, such as the GM Consultation Service. -->
 		<active_skill id="3147" level="1" /> <!-- Item Skill: Quick Return -->
@@ -208,6 +211,7 @@
 		<!-- Active: Instantly makes you invincible. -->
 		<active_skill id="3158" level="1" /> <!-- Item Skill: Celestial Shield -->
 	</option>
+<<<<<<< HEAD
 	<option id="24652" name="o_s_84_2u_8">
 		<!-- Active: Temporarily increases your Critical Rate for magical attacks. -->
 		<active_skill id="3142" level="1" /> <!-- Item Skill: Wild Magic -->
@@ -396,6 +400,8 @@
 		<!-- Item Skill: Decreases MP Consumption for casting. -->
 		<passive_skill id="3256" level="1" /> <!-- Item Skill: Spell Clarity -->
 	</option>
+=======
+>>>>>>> origin/main
 	<option id="24699" name="o_f_84_1u_92">
 		<!-- Item Skill: Temporarily increases your head size. -->
 		<effects>

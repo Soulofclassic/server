@@ -4,6 +4,7 @@
 		<!-- Active: Increases your character's head size. -->
 		<active_skill id="3203" level="1" /> <!-- Item Skill: Mystery Skill -->
 	</option>
+<<<<<<< HEAD
 	<option id="15096" name="o_s_55_2s_2">
 		<!-- Active: Increases thorax size temporarily. -->
 		<active_skill id="3143" level="1" /> <!-- Item Skill: Eva's Kiss -->
@@ -20,4 +21,6 @@
 		<!-- Active: Ignites a Firecracker. -->
 		<active_skill id="3156" level="1" /> <!-- Item Skill: Firecracker -->
 	</option>
+=======
+>>>>>>> origin/main
 </list>

@@ -4,6 +4,7 @@
 		<!-- Active: Head size temporarily increases. -->
 		<active_skill id="3203" level="1" /> <!-- Item Skill: Mystery Skill -->
 	</option>
+<<<<<<< HEAD
 	<option id="22884" name="o_s_82_2s_2">
 		<!-- Active: Increases thorax size temporarily. -->
 		<active_skill id="3143" level="1" /> <!-- Item Skill: Eva's Kiss -->
@@ -20,6 +21,8 @@
 		<!-- Active: Ignites a Firecracker. -->
 		<active_skill id="3156" level="1" /> <!-- Item Skill: Firecracker -->
 	</option>
+=======
+>>>>>>> origin/main
 	<option id="22888" name="o_s_82_2s_6">
 		<!-- Active: Music plays for some time. -->
 		<active_skill id="3206" level="1" /> <!-- Item Skill: Music -->
@@ -28,6 +31,7 @@
 		<!-- Active: Ignites a Large Firecracker. -->
 		<active_skill id="3157" level="1" /> <!-- Item Skill: Large Firecracker -->
 	</option>
+<<<<<<< HEAD
 	<option id="22890" name="o_s_82_2s_8">
 		<!-- In case of success: Momentarily decreases the target's urge to attack. -->
 		<attack_skill id="3081" level="1" chance="1.0" /> <!-- Item Skill: Charm (phys.) -->
@@ -68,4 +72,6 @@
 		<!-- Item Skill: Increases Resistance to damage from falling. -->
 		<passive_skill id="3254" level="1" /> <!-- Item Skill: Iron Body -->
 	</option>
+=======
+>>>>>>> origin/main
 </list>

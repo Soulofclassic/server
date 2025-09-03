@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
+<<<<<<< HEAD
 	<option id="15900" name="o_s_67_2r_77">
 		<!-- In case of success: A chance to increase your P. Accuracy when you receive damage. -->
 		<passive_skill id="3222" level="1" /> <!-- Item Skill: Guidance -->
@@ -144,6 +145,8 @@
 		<!-- Active: Temporarily blocks the target's physical/magic skills. -->
 		<active_skill id="3198" level="1" /> <!-- Item Skill: Doom -->
 	</option>
+=======
+>>>>>>> origin/main
 	<option id="15936" name="o_s_67_2u_6">
 		<!-- Active: Teleports the caster to a village. Cannot work in a specially designated place, such as the GM Consultation Service. -->
 		<active_skill id="3147" level="1" /> <!-- Item Skill: Quick Return -->
@@ -152,6 +155,7 @@
 		<!-- Active: Instantly makes you invincible. -->
 		<active_skill id="3158" level="1" /> <!-- Item Skill: Celestial Shield -->
 	</option>
+<<<<<<< HEAD
 	<option id="15938" name="o_s_67_2u_8">
 		<!-- Active: Temporarily increases your Critical Rate for magical attacks. -->
 		<active_skill id="3142" level="1" /> <!-- Item Skill: Wild Magic -->
@@ -340,4 +344,6 @@
 		<!-- Item Skill: Decreases MP Consumption for casting. -->
 		<passive_skill id="3256" level="1" /> <!-- Item Skill: Spell Clarity -->
 	</option>
+=======
+>>>>>>> origin/main
 </list>

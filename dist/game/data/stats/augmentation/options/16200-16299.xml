@@ -4,6 +4,7 @@
 		<!-- Active: Temporarily increases your Max MP. -->
 		<active_skill id="3128" level="1" /> <!-- Item Skill: Blessed Soul -->
 	</option>
+<<<<<<< HEAD
 	<option id="16201" name="o_s_75_2r_22">
 		<!-- Active: Temporarily increases your M. Def. -->
 		<active_skill id="3136" level="1" /> <!-- Item Skill: Magic Barrier -->
@@ -368,6 +369,8 @@
 		<!-- Active: Temporarily blocks the target's physical/magic skills. -->
 		<active_skill id="3198" level="1" /> <!-- Item Skill: Doom -->
 	</option>
+=======
+>>>>>>> origin/main
 	<option id="16292" name="o_s_75_2u_6">
 		<!-- Active: Teleports the caster to a village. Cannot work in a specially designated place, such as the GM Consultation Service. -->
 		<active_skill id="3147" level="1" /> <!-- Item Skill: Quick Return -->
@@ -376,6 +379,7 @@
 		<!-- Active: Instantly makes you invincible. -->
 		<active_skill id="3158" level="1" /> <!-- Item Skill: Celestial Shield -->
 	</option>
+<<<<<<< HEAD
 	<option id="16294" name="o_s_75_2u_8">
 		<!-- Active: Temporarily increases your Critical Rate for magical attacks. -->
 		<active_skill id="3142" level="1" /> <!-- Item Skill: Wild Magic -->
@@ -400,4 +404,6 @@
 		<!-- Active: Temporarily decreases the cooldown for songs and dances. -->
 		<active_skill id="3201" level="1" /> <!-- Item Skill: Music Refresh -->
 	</option>
+=======
+>>>>>>> origin/main
 </list>

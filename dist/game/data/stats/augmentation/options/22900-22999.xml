@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
+<<<<<<< HEAD
 	<option id="22900" name="o_s_82_2r_1">
 		<!-- Active: Momentarily decreases the target's Atk. Spd. -->
 		<active_skill id="3188" level="1" /> <!-- Item Skill: Winter -->
@@ -80,10 +81,13 @@
 		<!-- Active: Temporarily increases your Max HP. -->
 		<active_skill id="3124" level="1" /> <!-- Item Skill: Blessed Body -->
 	</option>
+=======
+>>>>>>> origin/main
 	<option id="22920" name="o_s_82_2r_21">
 		<!-- Active: Temporarily increases your Max MP. -->
 		<active_skill id="3128" level="1" /> <!-- Item Skill: Blessed Soul -->
 	</option>
+<<<<<<< HEAD
 	<option id="22921" name="o_s_82_2r_22">
 		<!-- Active: Temporarily increases your M. Def. -->
 		<active_skill id="3136" level="1" /> <!-- Item Skill: Magic Barrier -->
@@ -400,4 +404,6 @@
 		<!-- Item Skill: Enhances HP Regeneration magic. -->
 		<passive_skill id="3246" level="1" /> <!-- Item Skill: Heal Empower -->
 	</option>
+=======
+>>>>>>> origin/main
 </list>

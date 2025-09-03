@@ -8,6 +8,7 @@
 		<!-- Active: Ignites a Large Firecracker. -->
 		<active_skill id="3157" level="1" /> <!-- Item Skill: Large Firecracker -->
 	</option>
+<<<<<<< HEAD
 	<option id="15102" name="o_s_55_2s_8">
 		<!-- In case of success: Temporarily decreases the target's urge to attack. -->
 		<attack_skill id="3081" level="1" chance="1.0" /> <!-- Item Skill: Charm (phys.) -->
@@ -128,10 +129,13 @@
 		<!-- Active: Temporarily increases your Max HP. -->
 		<active_skill id="3124" level="1" /> <!-- Item Skill: Blessed Body -->
 	</option>
+=======
+>>>>>>> origin/main
 	<option id="15132" name="o_s_55_2r_21">
 		<!-- Active: Temporarily increases your Max MP. -->
 		<active_skill id="3128" level="1" /> <!-- Item Skill: Blessed Soul -->
 	</option>
+<<<<<<< HEAD
 	<option id="15133" name="o_s_55_2r_22">
 		<!-- Active: Temporarily increases your M. Def. -->
 		<active_skill id="3136" level="1" /> <!-- Item Skill: Magic Barrier -->
@@ -400,4 +404,6 @@
 		<!-- Chance: A chance to increase your P. Def. when you receive damage. -->
 		<passive_skill id="3218" level="1" /> <!-- Item Skill: Shield -->
 	</option>
+=======
+>>>>>>> origin/main
 </list>
