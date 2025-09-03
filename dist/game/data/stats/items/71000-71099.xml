@@ -225,17 +225,24 @@
 		<set name="is_stackable" val="true" />
 		<set name="material" val="PAPER" />
 	</item>
-	<item id="71020" name="Newbie Gift" additionalName="Event" type="EtcItem">
-		<!-- Double-click to obtain Temporary Hero Weapon Ticket Lv. 54, Hero's Heavy Armor/Light Armor/Robe Set Box (30-day), Hero's Shining Weapon Set (30-day), Expertise Rune - C-grade (30-day), Newbie Gift Lv. 10 and Transformation Support Cube (7-day). -->
-		<set name="icon" val="BranchSys.icon.br_gold_box_i00" />
-		<set name="default_action" val="PEEL" />
-		<set name="immediate_effect" val="true" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_stackable" val="true" />
-		<set name="material" val="PAPER" />
-	</item>
+<item id="71020" name="Newbie Gift" type="EtcItem">
+    <set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_c_i00" />
+    <set name="default_action" val="PEEL" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="is_sellable" val="false" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="ExtractableItems" />
+    <capsuled_items>
+      <item id="71080" min="1" max="1" chance="100" />
+      <item id="91745" min="1" max="1" chance="100" />
+      <item id="71271" min="1" max="1" chance="100" />
+      <item id="70431" min="1" max="1" chance="100" />
+      <item id="9589" min="1" max="1" chance="100" />
+      <item id="90888" min="1" max="1" chance="100" />
+      <item id="49772" min="100" max="100" chance="100" />
+    </capsuled_items>
+  </item>
 	<item id="71021" name="Dragon's Miracle Potion" type="EtcItem">
 		<!-- Can be used after using Special Dragon Fruit. For 20 min. Acquired XP/ SP +20%, P./ M. Atk. +18%, P./ M. Def. +22%, Atk. Spd./ Casting Spd. +5%, P./ M. Critical Rate +30, P./ M. Critical Damage +10%, HP/ MP/ CP +25%, HP/ MP Recovery Rate +30%. At a certain chance absorbs 5% of the damage inflicted on target as HP. Effect remains after death. If you use Special Dragon Fruit or Special Pirate Fruit during the effect, these items will dissapear without an effect. -->
 		<set name="icon" val="icon.bm_dragon_posion_brave" />
