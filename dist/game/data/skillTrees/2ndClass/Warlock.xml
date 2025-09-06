@@ -36,7 +36,8 @@
 		<skill skillName="Summon Binding Cubic" skillId="1279" skillLevel="1" getLevel="40" levelUpSp="140000">
 			<item id="4922" count="1" />
 		</skill>
-		
+		<skill skillName="Buff 1" skillId="4699" skillLevel="1" getLevel="52" levelUpSp="100000" />
+		<skill skillName="Buff 2" skillId="4700" skillLevel="1" getLevel="52" levelUpSp="100000" />
 		<skill skillName="Anti Magic" skillId="146" skillLevel="16" getLevel="42" levelUpSp="140000" />
 		<skill skillName="Light Armor Mastery" skillId="258" skillLevel="4" getLevel="42" levelUpSp="140000" />
 		<skill skillName="Robe Mastery" skillId="234" skillLevel="12" getLevel="42" levelUpSp="140000" />

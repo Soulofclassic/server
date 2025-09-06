@@ -37,6 +37,7 @@
 			<item id="4924" count="1" />
 		</skill>
 		
+		<skill skillName="Boost Mana" skillId="10656" skillLevel="1" getLevel="52" levelUpSp="100000" />	
 		<skill skillName="Anti Magic" skillId="146" skillLevel="16" getLevel="42" levelUpSp="140000" />
 		<skill skillName="Light Armor Mastery" skillId="258" skillLevel="4" getLevel="42" levelUpSp="140000" />
 		<skill skillName="Robe Mastery" skillId="234" skillLevel="12" getLevel="42" levelUpSp="140000" />
