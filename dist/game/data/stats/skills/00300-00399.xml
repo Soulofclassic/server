@@ -1051,7 +1051,7 @@
 					<value level="2">8577</value>
 				</power>
 				<criticalChance>20</criticalChance>
-				<chanceBoost>250</chanceBoost>
+				<chanceBoost>400</chanceBoost>
 				<overHit>true</overHit>
 			</effect>
 		</effects>
