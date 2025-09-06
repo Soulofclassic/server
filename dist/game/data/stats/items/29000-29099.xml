@@ -13,9 +13,7 @@
     <set name="is_stackable" val="true" />
     <set name="handler" val="ExtractableItems" />
     <capsuled_items>
-      <item id="736" min="1" max="1" chance="100" /> <!-- Scroll of Escape -->
       <item id="49772" min="3" max="3" chance="100" /> <!-- Scroll of Melody -->
-      <item id="29520" min="5" max="5" chance="100" /> <!-- VIP Coin -->
     </capsuled_items>
   </item>
 	<item id="29002" name="Daily Present - VIP 2" type="EtcItem">
