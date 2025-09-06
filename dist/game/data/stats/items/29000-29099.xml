@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="29001" name="Daily Present - VIP 1" type="EtcItem">
-		<!-- Double-click to obtain 1 Scroll of Escape, 3 HP Replenishing Potions, 5 VIP Coins. -->
-		<set name="icon" val="BranchIcon.Icon.etc_vip_present_i00" />
-		<set name="default_action" val="PEEL" />
-		<set name="immediate_effect" val="true" />
-		<set name="material" val="PAPER" />
-		<set name="weight" val="10" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_stackable" val="true" />
-		<set name="handler" val="ExtractableItems" />
-		<capsuled_items>
-			<item id="736" min="1" max="1" chance="100" /> <!-- Scroll of Escape -->
-			<item id="29651" min="3" max="3" chance="100" /> <!-- Healing Potion - Event -->
-			<item id="29520" min="5" max="5" chance="100" /> <!-- VIP Coin -->
-		</capsuled_items>
-	</item>
+    <!-- Double-click the item to receive 1 Scroll of Escape, 3 Healing Potions, 5 VIP Coins. -->
+    <set name="icon" val="BranchIcon.Icon.etc_vip_present_i00" />
+    <set name="default_action" val="PEEL" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="10" />
+    <set name="is_tradable" val="false" />
+    <set name="is_dropable" val="false" />
+    <set name="is_sellable" val="false" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="ExtractableItems" />
+    <capsuled_items>
+      <item id="736" min="1" max="1" chance="100" /> <!-- Scroll of Escape -->
+      <item id="49772" min="3" max="3" chance="100" /> <!-- Scroll of Melody -->
+      <item id="29520" min="5" max="5" chance="100" /> <!-- VIP Coin -->
+    </capsuled_items>
+  </item>
 	<item id="29002" name="Daily Present - VIP 2" type="EtcItem">
 		<!-- Double-click to obtain 1 Scroll of Resurrection, 3 HP Replenishing Potions, 10 VIP Coins. -->
 		<set name="icon" val="BranchIcon.Icon.etc_vip_present_i01" />
