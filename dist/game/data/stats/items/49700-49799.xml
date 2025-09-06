@@ -975,7 +975,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="49772" name="Scroll of Mood Melody" type="EtcItem">
-		<!-- For 20 minutes, grants the following effects: Might, Shield, Focus, Haste, Acumen, Empower, Wind Walk, Death Whisper, and Vampiric Rage. <Note>. If used simultaneously with Shining Scroll of Mood Melody, only the latter effect will be active. -->
+		<!-- For 20 minutes, grants the following effects: Might, Shield, Focus, Haste, Acumen, Empower, Wind Walk, Death Whisper <Note>. If used simultaneously with Shining Scroll of Mood Melody, only the latter effect will be active. -->
 		<set name="icon" val="icon.bm_magmeld" />
 		<set name="material" val="PAPER" />
 	    <set name="immediate_effect" val="true" />
