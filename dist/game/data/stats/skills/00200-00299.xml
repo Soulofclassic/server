@@ -7363,7 +7363,7 @@
 					<value level="44">6530</value>
 					<value level="45">6593</value>
 				</power>
-				<chanceBoost>200</chanceBoost>
+				<chanceBoost>400</chanceBoost>
 				<overHit>true</overHit>
 			</effect>
 		</effects>

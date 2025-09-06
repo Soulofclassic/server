@@ -4435,7 +4435,7 @@
 					<value level="44">15</value>
 					<value level="45">15</value>
 				</criticalChance>
-				<chanceBoost>300</chanceBoost>
+				<chanceBoost>400</chanceBoost>
 				<overHit>true</overHit>
 			</effect>
 		</effects>
